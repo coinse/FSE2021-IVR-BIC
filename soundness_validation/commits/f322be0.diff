@@ -1,0 +1,2101 @@
+commit f322be0e576d5e2114cb59c0a6537197997b9c59
+Author: johnlenz@google.com <johnlenz@google.com@b0f006be-c8cd-11de-a2e8-8d36a3108c74>
+Date:   Tue Apr 12 19:15:43 2011 +0000
+
+    Don't overwrite orginal names that have already been set on node.
+    
+    R=acleung
+    DELTA=61  (54 added, 2 deleted, 5 changed)
+    
+    
+    Revision created by MOE tool push_codebase.
+    MOE_MIGRATION=1372
+    
+    
+    git-svn-id: https://closure-compiler.googlecode.com/svn/trunk@1000 b0f006be-c8cd-11de-a2e8-8d36a3108c74
+
+diff --git a/.classpath b/.classpath
+old mode 100755
+new mode 100644
+diff --git a/.project b/.project
+old mode 100755
+new mode 100644
+diff --git a/CONTRIBUTORS b/CONTRIBUTORS
+old mode 100755
+new mode 100644
+diff --git a/COPYING b/COPYING
+old mode 100755
+new mode 100644
+diff --git a/README b/README
+old mode 100755
+new mode 100644
+diff --git a/build.xml b/build.xml
+old mode 100755
+new mode 100644
+diff --git a/closure-compiler.pom b/closure-compiler.pom
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/chrome_extensions.js b/contrib/externs/chrome_extensions.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/facebook_javascript_sdk.js b/contrib/externs/facebook_javascript_sdk.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/google_analytics_api.js b/contrib/externs/google_analytics_api.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/google_loader_api.js b/contrib/externs/google_loader_api.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/google_maps_api_v2.js b/contrib/externs/google_maps_api_v2.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/jquery-1.4.3.js b/contrib/externs/jquery-1.4.3.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/jquery-1.4.4.js b/contrib/externs/jquery-1.4.4.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/jquery-1.5.js b/contrib/externs/jquery-1.5.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/json.js b/contrib/externs/json.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/maps/google_maps_api_v3.js b/contrib/externs/maps/google_maps_api_v3.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/maps/google_maps_api_v3_1.js b/contrib/externs/maps/google_maps_api_v3_1.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/maps/google_maps_api_v3_2.js b/contrib/externs/maps/google_maps_api_v3_2.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/maps/google_maps_api_v3_3.js b/contrib/externs/maps/google_maps_api_v3_3.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/maps/google_maps_api_v3_4.js b/contrib/externs/maps/google_maps_api_v3_4.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/silverlight.js b/contrib/externs/silverlight.js
+old mode 100755
+new mode 100644
+diff --git a/contrib/externs/webkit_console.js b/contrib/externs/webkit_console.js
+old mode 100755
+new mode 100644
+diff --git a/externs/deprecated.js b/externs/deprecated.js
+old mode 100755
+new mode 100644
+diff --git a/externs/es3.js b/externs/es3.js
+old mode 100755
+new mode 100644
+diff --git a/externs/es5.js b/externs/es5.js
+old mode 100755
+new mode 100644
+diff --git a/externs/fileapi.js b/externs/fileapi.js
+old mode 100755
+new mode 100644
+diff --git a/externs/flash.js b/externs/flash.js
+old mode 100755
+new mode 100644
+diff --git a/externs/gears_symbols.js b/externs/gears_symbols.js
+old mode 100755
+new mode 100644
+diff --git a/externs/gears_types.js b/externs/gears_types.js
+old mode 100755
+new mode 100644
+diff --git a/externs/gecko_css.js b/externs/gecko_css.js
+old mode 100755
+new mode 100644
+diff --git a/externs/gecko_dom.js b/externs/gecko_dom.js
+old mode 100755
+new mode 100644
+diff --git a/externs/gecko_event.js b/externs/gecko_event.js
+old mode 100755
+new mode 100644
+diff --git a/externs/gecko_xml.js b/externs/gecko_xml.js
+old mode 100755
+new mode 100644
+diff --git a/externs/google.js b/externs/google.js
+old mode 100755
+new mode 100644
+diff --git a/externs/html5.js b/externs/html5.js
+old mode 100755
+new mode 100644
+diff --git a/externs/ie_css.js b/externs/ie_css.js
+old mode 100755
+new mode 100644
+diff --git a/externs/ie_dom.js b/externs/ie_dom.js
+old mode 100755
+new mode 100644
+diff --git a/externs/ie_event.js b/externs/ie_event.js
+old mode 100755
+new mode 100644
+diff --git a/externs/ie_vml.js b/externs/ie_vml.js
+old mode 100755
+new mode 100644
+diff --git a/externs/iphone.js b/externs/iphone.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_css.js b/externs/w3c_css.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_css3d.js b/externs/w3c_css3d.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_dom1.js b/externs/w3c_dom1.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_dom2.js b/externs/w3c_dom2.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_dom3.js b/externs/w3c_dom3.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_elementtraversal.js b/externs/w3c_elementtraversal.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_event.js b/externs/w3c_event.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_event3.js b/externs/w3c_event3.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_geolocation.js b/externs/w3c_geolocation.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_indexeddb.js b/externs/w3c_indexeddb.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_range.js b/externs/w3c_range.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_selectors.js b/externs/w3c_selectors.js
+old mode 100755
+new mode 100644
+diff --git a/externs/w3c_xml.js b/externs/w3c_xml.js
+old mode 100755
+new mode 100644
+diff --git a/externs/webgl.js b/externs/webgl.js
+old mode 100755
+new mode 100644
+diff --git a/externs/webkit_css.js b/externs/webkit_css.js
+old mode 100755
+new mode 100644
+diff --git a/externs/webkit_dom.js b/externs/webkit_dom.js
+old mode 100755
+new mode 100644
+diff --git a/externs/webkit_event.js b/externs/webkit_event.js
+old mode 100755
+new mode 100644
+diff --git a/externs/webkit_notifications.js b/externs/webkit_notifications.js
+old mode 100755
+new mode 100644
+diff --git a/externs/webstorage.js b/externs/webstorage.js
+old mode 100755
+new mode 100644
+diff --git a/externs/window.js b/externs/window.js
+old mode 100755
+new mode 100644
+diff --git a/gen/com/google/debugging/sourcemap/proto/Mapping.java b/gen/com/google/debugging/sourcemap/proto/Mapping.java
+old mode 100755
+new mode 100644
+diff --git a/gen/com/google/javascript/jscomp/FunctionInfo.java b/gen/com/google/javascript/jscomp/FunctionInfo.java
+old mode 100755
+new mode 100644
+diff --git a/gen/com/google/javascript/jscomp/FunctionInformationMap.java b/gen/com/google/javascript/jscomp/FunctionInformationMap.java
+old mode 100755
+new mode 100644
+diff --git a/gen/com/google/javascript/jscomp/Instrumentation.java b/gen/com/google/javascript/jscomp/Instrumentation.java
+old mode 100755
+new mode 100644
+diff --git a/gen/com/google/javascript/jscomp/InstrumentationTemplate.java b/gen/com/google/javascript/jscomp/InstrumentationTemplate.java
+old mode 100755
+new mode 100644
+diff --git a/lib/ant-launcher.jar b/lib/ant-launcher.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/ant.jar b/lib/ant.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/args4j.jar b/lib/args4j.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/caja-r4314.jar b/lib/caja-r4314.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/guava.jar b/lib/guava.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/json.jar b/lib/json.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/jsr305.jar b/lib/jsr305.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/junit.jar b/lib/junit.jar
+old mode 100755
+new mode 100644
+diff --git a/lib/protobuf-java.jar b/lib/protobuf-java.jar
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/FilePosition.java b/src/com/google/debugging/sourcemap/FilePosition.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapConsumer.java b/src/com/google/debugging/sourcemap/SourceMapConsumer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapConsumerFactory.java b/src/com/google/debugging/sourcemap/SourceMapConsumerFactory.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapConsumerV1.java b/src/com/google/debugging/sourcemap/SourceMapConsumerV1.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java b/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapFormat.java b/src/com/google/debugging/sourcemap/SourceMapFormat.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapGenerator.java b/src/com/google/debugging/sourcemap/SourceMapGenerator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapGeneratorFactory.java b/src/com/google/debugging/sourcemap/SourceMapGeneratorFactory.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapGeneratorV1.java b/src/com/google/debugging/sourcemap/SourceMapGeneratorV1.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapGeneratorV2.java b/src/com/google/debugging/sourcemap/SourceMapGeneratorV2.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapLineDecoder.java b/src/com/google/debugging/sourcemap/SourceMapLineDecoder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapParseException.java b/src/com/google/debugging/sourcemap/SourceMapParseException.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapSection.java b/src/com/google/debugging/sourcemap/SourceMapSection.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/SourceMapping.java b/src/com/google/debugging/sourcemap/SourceMapping.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/Util.java b/src/com/google/debugging/sourcemap/Util.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/debugging/sourcemap/package.html b/src/com/google/debugging/sourcemap/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java b/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AbstractCompiler.java b/src/com/google/javascript/jscomp/AbstractCompiler.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AbstractMessageFormatter.java b/src/com/google/javascript/jscomp/AbstractMessageFormatter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java b/src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AliasExternals.java b/src/com/google/javascript/jscomp/AliasExternals.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AliasKeywords.java b/src/com/google/javascript/jscomp/AliasKeywords.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AliasStrings.java b/src/com/google/javascript/jscomp/AliasStrings.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AmbiguateProperties.java b/src/com/google/javascript/jscomp/AmbiguateProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AnalyzeNameReferences.java b/src/com/google/javascript/jscomp/AnalyzeNameReferences.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java b/src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AnonymousFunctionNamingCallback.java b/src/com/google/javascript/jscomp/AnonymousFunctionNamingCallback.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java b/src/com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AstChangeProxy.java b/src/com/google/javascript/jscomp/AstChangeProxy.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AstParallelizer.java b/src/com/google/javascript/jscomp/AstParallelizer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/AstValidator.java b/src/com/google/javascript/jscomp/AstValidator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/BasicErrorManager.java b/src/com/google/javascript/jscomp/BasicErrorManager.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CallGraph.java b/src/com/google/javascript/jscomp/CallGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ChainCalls.java b/src/com/google/javascript/jscomp/ChainCalls.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ChainableReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/ChainableReverseAbstractInterpreter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckAccessControls.java b/src/com/google/javascript/jscomp/CheckAccessControls.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckAccidentalSemicolon.java b/src/com/google/javascript/jscomp/CheckAccidentalSemicolon.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckGlobalNames.java b/src/com/google/javascript/jscomp/CheckGlobalNames.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckGlobalThis.java b/src/com/google/javascript/jscomp/CheckGlobalThis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckLevel.java b/src/com/google/javascript/jscomp/CheckLevel.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckLevelLegacy.java b/src/com/google/javascript/jscomp/CheckLevelLegacy.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckMissingGetCssName.java b/src/com/google/javascript/jscomp/CheckMissingGetCssName.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckMissingReturn.java b/src/com/google/javascript/jscomp/CheckMissingReturn.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckPathsBetweenNodes.java b/src/com/google/javascript/jscomp/CheckPathsBetweenNodes.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckPropertyOrder.java b/src/com/google/javascript/jscomp/CheckPropertyOrder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckProvides.java b/src/com/google/javascript/jscomp/CheckProvides.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckRegExp.java b/src/com/google/javascript/jscomp/CheckRegExp.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckRequiresForConstructors.java b/src/com/google/javascript/jscomp/CheckRequiresForConstructors.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckSideEffects.java b/src/com/google/javascript/jscomp/CheckSideEffects.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CheckUnreachableCode.java b/src/com/google/javascript/jscomp/CheckUnreachableCode.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ClosureCodeRemoval.java b/src/com/google/javascript/jscomp/ClosureCodeRemoval.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ClosureCodingConvention.java b/src/com/google/javascript/jscomp/ClosureCodingConvention.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CoalesceVariableNames.java b/src/com/google/javascript/jscomp/CoalesceVariableNames.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CodeChangeHandler.java b/src/com/google/javascript/jscomp/CodeChangeHandler.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CodeConsumer.java b/src/com/google/javascript/jscomp/CodeConsumer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CodeGenerator.java b/src/com/google/javascript/jscomp/CodeGenerator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CodePrinter.java b/src/com/google/javascript/jscomp/CodePrinter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CodingConvention.java b/src/com/google/javascript/jscomp/CodingConvention.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CollapseAnonymousFunctions.java b/src/com/google/javascript/jscomp/CollapseAnonymousFunctions.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CollapseProperties.java b/src/com/google/javascript/jscomp/CollapseProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java b/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CombinedCompilerPass.java b/src/com/google/javascript/jscomp/CombinedCompilerPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CommandLineRunner.java b/src/com/google/javascript/jscomp/CommandLineRunner.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CompilationLevel.java b/src/com/google/javascript/jscomp/CompilationLevel.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Compiler.java b/src/com/google/javascript/jscomp/Compiler.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CompilerInput.java b/src/com/google/javascript/jscomp/CompilerInput.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CompilerOptions.java b/src/com/google/javascript/jscomp/CompilerOptions.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CompilerPass.java b/src/com/google/javascript/jscomp/CompilerPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ComposeWarningsGuard.java b/src/com/google/javascript/jscomp/ComposeWarningsGuard.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ConcreteType.java b/src/com/google/javascript/jscomp/ConcreteType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ConstCheck.java b/src/com/google/javascript/jscomp/ConstCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ControlFlowAnalysis.java b/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ControlFlowGraph.java b/src/com/google/javascript/jscomp/ControlFlowGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ControlStructureCheck.java b/src/com/google/javascript/jscomp/ControlStructureCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ConvertToDottedProperties.java b/src/com/google/javascript/jscomp/ConvertToDottedProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CreateSyntheticBlocks.java b/src/com/google/javascript/jscomp/CreateSyntheticBlocks.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CrossModuleMethodMotion.java b/src/com/google/javascript/jscomp/CrossModuleMethodMotion.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CssRenamingMap.java b/src/com/google/javascript/jscomp/CssRenamingMap.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/CustomPassExecutionTime.java b/src/com/google/javascript/jscomp/CustomPassExecutionTime.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DataFlowAnalysis.java b/src/com/google/javascript/jscomp/DataFlowAnalysis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DeadAssignmentsElimination.java b/src/com/google/javascript/jscomp/DeadAssignmentsElimination.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DefaultCodingConvention.java b/src/com/google/javascript/jscomp/DefaultCodingConvention.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DefaultPassConfig.java b/src/com/google/javascript/jscomp/DefaultPassConfig.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DefinitionProvider.java b/src/com/google/javascript/jscomp/DefinitionProvider.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DefinitionSite.java b/src/com/google/javascript/jscomp/DefinitionSite.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DefinitionsRemover.java b/src/com/google/javascript/jscomp/DefinitionsRemover.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Denormalize.java b/src/com/google/javascript/jscomp/Denormalize.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java b/src/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DiagnosticGroup.java b/src/com/google/javascript/jscomp/DiagnosticGroup.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DiagnosticGroupWarningsGuard.java b/src/com/google/javascript/jscomp/DiagnosticGroupWarningsGuard.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DiagnosticGroups.java b/src/com/google/javascript/jscomp/DiagnosticGroups.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DiagnosticType.java b/src/com/google/javascript/jscomp/DiagnosticType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DisambiguateProperties.java b/src/com/google/javascript/jscomp/DisambiguateProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/DotFormatter.java b/src/com/google/javascript/jscomp/DotFormatter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ErrorFormat.java b/src/com/google/javascript/jscomp/ErrorFormat.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ErrorManager.java b/src/com/google/javascript/jscomp/ErrorManager.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ErrorPass.java b/src/com/google/javascript/jscomp/ErrorPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ExploitAssigns.java b/src/com/google/javascript/jscomp/ExploitAssigns.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ExportTestFunctions.java b/src/com/google/javascript/jscomp/ExportTestFunctions.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ExpressionDecomposer.java b/src/com/google/javascript/jscomp/ExpressionDecomposer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ExternExportsPass.java b/src/com/google/javascript/jscomp/ExternExportsPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarations.java b/src/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarations.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FindExportableNodes.java b/src/com/google/javascript/jscomp/FindExportableNodes.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FlowScope.java b/src/com/google/javascript/jscomp/FlowScope.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java b/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FunctionArgumentInjector.java b/src/com/google/javascript/jscomp/FunctionArgumentInjector.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FunctionInjector.java b/src/com/google/javascript/jscomp/FunctionInjector.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FunctionNames.java b/src/com/google/javascript/jscomp/FunctionNames.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FunctionRewriter.java b/src/com/google/javascript/jscomp/FunctionRewriter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FunctionToBlockMutator.java b/src/com/google/javascript/jscomp/FunctionToBlockMutator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/FunctionTypeBuilder.java b/src/com/google/javascript/jscomp/FunctionTypeBuilder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/GatherRawExports.java b/src/com/google/javascript/jscomp/GatherRawExports.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallback.java b/src/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallback.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/GenerateExports.java b/src/com/google/javascript/jscomp/GenerateExports.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/GlobalNamespace.java b/src/com/google/javascript/jscomp/GlobalNamespace.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/GoogleCodingConvention.java b/src/com/google/javascript/jscomp/GoogleCodingConvention.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/GroupVariableDeclarations.java b/src/com/google/javascript/jscomp/GroupVariableDeclarations.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/IgnoreCajaProperties.java b/src/com/google/javascript/jscomp/IgnoreCajaProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InferJSDocInfo.java b/src/com/google/javascript/jscomp/InferJSDocInfo.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InlineCostEstimator.java b/src/com/google/javascript/jscomp/InlineCostEstimator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InlineFunctions.java b/src/com/google/javascript/jscomp/InlineFunctions.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InlineSimpleMethods.java b/src/com/google/javascript/jscomp/InlineSimpleMethods.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InlineVariables.java b/src/com/google/javascript/jscomp/InlineVariables.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InstrumentFunctions.java b/src/com/google/javascript/jscomp/InstrumentFunctions.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/InvocationsCallback.java b/src/com/google/javascript/jscomp/InvocationsCallback.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JSError.java b/src/com/google/javascript/jscomp/JSError.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JSModule.java b/src/com/google/javascript/jscomp/JSModule.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JSModuleGraph.java b/src/com/google/javascript/jscomp/JSModuleGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JSSourceFile.java b/src/com/google/javascript/jscomp/JSSourceFile.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JoinOp.java b/src/com/google/javascript/jscomp/JoinOp.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JsAst.java b/src/com/google/javascript/jscomp/JsAst.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JsMessage.java b/src/com/google/javascript/jscomp/JsMessage.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JsMessageDefinition.java b/src/com/google/javascript/jscomp/JsMessageDefinition.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JsMessageExtractor.java b/src/com/google/javascript/jscomp/JsMessageExtractor.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/JsMessageVisitor.java b/src/com/google/javascript/jscomp/JsMessageVisitor.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LatticeElement.java b/src/com/google/javascript/jscomp/LatticeElement.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LightweightMessageFormatter.java b/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LineNumberCheck.java b/src/com/google/javascript/jscomp/LineNumberCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LinkedFlowScope.java b/src/com/google/javascript/jscomp/LinkedFlowScope.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LiveVariablesAnalysis.java b/src/com/google/javascript/jscomp/LiveVariablesAnalysis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LocaleUtil.java b/src/com/google/javascript/jscomp/LocaleUtil.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/LoggerErrorManager.java b/src/com/google/javascript/jscomp/LoggerErrorManager.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java b/src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MarkNoSideEffectCalls.java b/src/com/google/javascript/jscomp/MarkNoSideEffectCalls.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java b/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MemoizedScopeCreator.java b/src/com/google/javascript/jscomp/MemoizedScopeCreator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MessageBundle.java b/src/com/google/javascript/jscomp/MessageBundle.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MessageFormatter.java b/src/com/google/javascript/jscomp/MessageFormatter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MethodCompilerPass.java b/src/com/google/javascript/jscomp/MethodCompilerPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MinimizeExitPoints.java b/src/com/google/javascript/jscomp/MinimizeExitPoints.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MoveFunctionDeclarations.java b/src/com/google/javascript/jscomp/MoveFunctionDeclarations.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/MustBeReachingVariableDef.java b/src/com/google/javascript/jscomp/MustBeReachingVariableDef.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameAnalyzer.java b/src/com/google/javascript/jscomp/NameAnalyzer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameAnonymousFunctions.java b/src/com/google/javascript/jscomp/NameAnonymousFunctions.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameAnonymousFunctionsMapped.java b/src/com/google/javascript/jscomp/NameAnonymousFunctionsMapped.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameGenerator.java b/src/com/google/javascript/jscomp/NameGenerator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameReferenceGraph.java b/src/com/google/javascript/jscomp/NameReferenceGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameReferenceGraphConstruction.java b/src/com/google/javascript/jscomp/NameReferenceGraphConstruction.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NameReferenceGraphReport.java b/src/com/google/javascript/jscomp/NameReferenceGraphReport.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NodeIterators.java b/src/com/google/javascript/jscomp/NodeIterators.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NodeNameExtractor.java b/src/com/google/javascript/jscomp/NodeNameExtractor.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NodeTraversal.java b/src/com/google/javascript/jscomp/NodeTraversal.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/NodeUtil.java b/src/com/google/javascript/jscomp/NodeUtil.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Normalize.java b/src/com/google/javascript/jscomp/Normalize.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ObjectPropertyStringPostprocess.java b/src/com/google/javascript/jscomp/ObjectPropertyStringPostprocess.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ObjectPropertyStringPreprocess.java b/src/com/google/javascript/jscomp/ObjectPropertyStringPreprocess.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/OperaCompoundAssignFix.java b/src/com/google/javascript/jscomp/OperaCompoundAssignFix.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/OptimizeArgumentsArray.java b/src/com/google/javascript/jscomp/OptimizeArgumentsArray.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/OptimizeCalls.java b/src/com/google/javascript/jscomp/OptimizeCalls.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/OptimizeParameters.java b/src/com/google/javascript/jscomp/OptimizeParameters.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/OptimizeReturns.java b/src/com/google/javascript/jscomp/OptimizeReturns.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ParallelCompilerPass.java b/src/com/google/javascript/jscomp/ParallelCompilerPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PassConfig.java b/src/com/google/javascript/jscomp/PassConfig.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PassFactory.java b/src/com/google/javascript/jscomp/PassFactory.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PeepholeCollectPropertyAssignments.java b/src/com/google/javascript/jscomp/PeepholeCollectPropertyAssignments.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PeepholeFoldConstants.java b/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PeepholeFoldWithTypes.java b/src/com/google/javascript/jscomp/PeepholeFoldWithTypes.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java b/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PeepholeRemoveDeadCode.java b/src/com/google/javascript/jscomp/PeepholeRemoveDeadCode.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java b/src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PerformanceTracker.java b/src/com/google/javascript/jscomp/PerformanceTracker.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PhaseOptimizer.java b/src/com/google/javascript/jscomp/PhaseOptimizer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PrepareAst.java b/src/com/google/javascript/jscomp/PrepareAst.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PrintStreamErrorManager.java b/src/com/google/javascript/jscomp/PrintStreamErrorManager.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java b/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ProcessDefines.java b/src/com/google/javascript/jscomp/ProcessDefines.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ProcessTweaks.java b/src/com/google/javascript/jscomp/ProcessTweaks.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PropertyRenamingPolicy.java b/src/com/google/javascript/jscomp/PropertyRenamingPolicy.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/PureFunctionIdentifier.java b/src/com/google/javascript/jscomp/PureFunctionIdentifier.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RecordFunctionInformation.java b/src/com/google/javascript/jscomp/RecordFunctionInformation.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ReferenceCollectingCallback.java b/src/com/google/javascript/jscomp/ReferenceCollectingCallback.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Region.java b/src/com/google/javascript/jscomp/Region.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RemoveTryCatch.java b/src/com/google/javascript/jscomp/RemoveTryCatch.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RemoveUnusedNames.java b/src/com/google/javascript/jscomp/RemoveUnusedNames.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java b/src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RemoveUnusedVars.java b/src/com/google/javascript/jscomp/RemoveUnusedVars.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RenameLabels.java b/src/com/google/javascript/jscomp/RenameLabels.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RenameProperties.java b/src/com/google/javascript/jscomp/RenameProperties.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RenamePrototypes.java b/src/com/google/javascript/jscomp/RenamePrototypes.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RenameVars.java b/src/com/google/javascript/jscomp/RenameVars.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ReplaceCssNames.java b/src/com/google/javascript/jscomp/ReplaceCssNames.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ReplaceIdGenerators.java b/src/com/google/javascript/jscomp/ReplaceIdGenerators.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ReplaceMessages.java b/src/com/google/javascript/jscomp/ReplaceMessages.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ReplaceStrings.java b/src/com/google/javascript/jscomp/ReplaceStrings.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Result.java b/src/com/google/javascript/jscomp/Result.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/ReverseAbstractInterpreter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RhinoErrorReporter.java b/src/com/google/javascript/jscomp/RhinoErrorReporter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/RuntimeTypeCheck.java b/src/com/google/javascript/jscomp/RuntimeTypeCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SanityCheck.java b/src/com/google/javascript/jscomp/SanityCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Scope.java b/src/com/google/javascript/jscomp/Scope.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ScopeCreator.java b/src/com/google/javascript/jscomp/ScopeCreator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ScopedAliases.java b/src/com/google/javascript/jscomp/ScopedAliases.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SemanticReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/SemanticReverseAbstractInterpreter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ShadowVariables.java b/src/com/google/javascript/jscomp/ShadowVariables.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ShowByPathWarningsGuard.java b/src/com/google/javascript/jscomp/ShowByPathWarningsGuard.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SideEffectsAnalysis.java b/src/com/google/javascript/jscomp/SideEffectsAnalysis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java b/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SimpleFunctionAliasAnalysis.java b/src/com/google/javascript/jscomp/SimpleFunctionAliasAnalysis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SimpleRegion.java b/src/com/google/javascript/jscomp/SimpleRegion.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SourceAst.java b/src/com/google/javascript/jscomp/SourceAst.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SourceExcerptProvider.java b/src/com/google/javascript/jscomp/SourceExcerptProvider.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SourceFile.java b/src/com/google/javascript/jscomp/SourceFile.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SourceInformationAnnotator.java b/src/com/google/javascript/jscomp/SourceInformationAnnotator.java
+index f6c9859..3a46d05 100755
+--- a/src/com/google/javascript/jscomp/SourceInformationAnnotator.java
++++ b/src/com/google/javascript/jscomp/SourceInformationAnnotator.java
+@@ -61,21 +61,19 @@ class SourceInformationAnnotator extends
+     // Annotate the original name.
+     switch (n.getType()) {
+       case Token.GETPROP:
+-        Node propNode = n.getFirstChild().getNext();
+-        if (propNode.getType() == Token.STRING) {
+-          n.putProp(Node.ORIGINALNAME_PROP, propNode.getString());
+-        }
++        Node propNode = n.getLastChild();
++        setOriginalName(n, propNode.getString());
+         break;
+ 
+       case Token.FUNCTION:
+         String functionName = NodeUtil.getNearestFunctionName(n);
+         if (functionName != null) {
+-          n.putProp(Node.ORIGINALNAME_PROP, functionName);
++          setOriginalName(n, functionName);
+         }
+         break;
+ 
+       case Token.NAME:
+-        n.putProp(Node.ORIGINALNAME_PROP, n.getString());
++        setOriginalName(n, n.getString());
+         break;
+ 
+       case Token.OBJECTLIT:
+@@ -83,10 +81,16 @@ class SourceInformationAnnotator extends
+              key = key.getNext()) {
+            // We only want keys were unquoted.
+            if (!key.isQuotedString()) {
+-             key.putProp(Node.ORIGINALNAME_PROP, key.getString());
++             setOriginalName(key, key.getString());
+            }
+          }
+         break;
+     }
+   }
++
++  void setOriginalName(Node n, String name) {
++    if (!name.isEmpty() && n.getProp(Node.ORIGINALNAME_PROP) == null) {
++      n.putProp(Node.ORIGINALNAME_PROP, name);
++    }
++  }
+ }
+diff --git a/src/com/google/javascript/jscomp/SourceMap.java b/src/com/google/javascript/jscomp/SourceMap.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SpecializationAwareCompilerPass.java b/src/com/google/javascript/jscomp/SpecializationAwareCompilerPass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SpecializeModule.java b/src/com/google/javascript/jscomp/SpecializeModule.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/StatementFusion.java b/src/com/google/javascript/jscomp/StatementFusion.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/StrictModeCheck.java b/src/com/google/javascript/jscomp/StrictModeCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/StrictWarningsGuard.java b/src/com/google/javascript/jscomp/StrictWarningsGuard.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Strings.java b/src/com/google/javascript/jscomp/Strings.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/StripCode.java b/src/com/google/javascript/jscomp/StripCode.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SuppressDocWarningsGuard.java b/src/com/google/javascript/jscomp/SuppressDocWarningsGuard.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SuspiciousPropertiesCheck.java b/src/com/google/javascript/jscomp/SuspiciousPropertiesCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SyntacticScopeCreator.java b/src/com/google/javascript/jscomp/SyntacticScopeCreator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/SyntheticAst.java b/src/com/google/javascript/jscomp/SyntheticAst.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TightenTypes.java b/src/com/google/javascript/jscomp/TightenTypes.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/Tracer.java b/src/com/google/javascript/jscomp/Tracer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TypeCheck.java b/src/com/google/javascript/jscomp/TypeCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TypeInference.java b/src/com/google/javascript/jscomp/TypeInference.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TypeInferencePass.java b/src/com/google/javascript/jscomp/TypeInferencePass.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TypeValidator.java b/src/com/google/javascript/jscomp/TypeValidator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TypedCodeGenerator.java b/src/com/google/javascript/jscomp/TypedCodeGenerator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/TypedScopeCreator.java b/src/com/google/javascript/jscomp/TypedScopeCreator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/UnfoldCompoundAssignments.java b/src/com/google/javascript/jscomp/UnfoldCompoundAssignments.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/UseSite.java b/src/com/google/javascript/jscomp/UseSite.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VarCheck.java b/src/com/google/javascript/jscomp/VarCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VariableMap.java b/src/com/google/javascript/jscomp/VariableMap.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VariableNameGenerator.java b/src/com/google/javascript/jscomp/VariableNameGenerator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VariableReferenceCheck.java b/src/com/google/javascript/jscomp/VariableReferenceCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VariableRenamingPolicy.java b/src/com/google/javascript/jscomp/VariableRenamingPolicy.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VariableShadowDeclarationCheck.java b/src/com/google/javascript/jscomp/VariableShadowDeclarationCheck.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VariableVisibilityAnalysis.java b/src/com/google/javascript/jscomp/VariableVisibilityAnalysis.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/VerboseMessageFormatter.java b/src/com/google/javascript/jscomp/VerboseMessageFormatter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/WarningLevel.java b/src/com/google/javascript/jscomp/WarningLevel.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/WarningsGuard.java b/src/com/google/javascript/jscomp/WarningsGuard.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ant/AntErrorManager.java b/src/com/google/javascript/jscomp/ant/AntErrorManager.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/ant/CompileTask.java b/src/com/google/javascript/jscomp/ant/CompileTask.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/DependencyInfo.java b/src/com/google/javascript/jscomp/deps/DependencyInfo.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/DepsFileParser.java b/src/com/google/javascript/jscomp/deps/DepsFileParser.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/JsFileLineParser.java b/src/com/google/javascript/jscomp/deps/JsFileLineParser.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/JsFileParser.java b/src/com/google/javascript/jscomp/deps/JsFileParser.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/JsFunctionParser.java b/src/com/google/javascript/jscomp/deps/JsFunctionParser.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/SimpleDependencyInfo.java b/src/com/google/javascript/jscomp/deps/SimpleDependencyInfo.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/SortedDependencies.java b/src/com/google/javascript/jscomp/deps/SortedDependencies.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/deps/package.html b/src/com/google/javascript/jscomp/deps/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/function_info.proto b/src/com/google/javascript/jscomp/function_info.proto
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/AdjacencyGraph.java b/src/com/google/javascript/jscomp/graph/AdjacencyGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/Annotatable.java b/src/com/google/javascript/jscomp/graph/Annotatable.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/Annotation.java b/src/com/google/javascript/jscomp/graph/Annotation.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/DiGraph.java b/src/com/google/javascript/jscomp/graph/DiGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/FixedPointGraphTraversal.java b/src/com/google/javascript/jscomp/graph/FixedPointGraphTraversal.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/Graph.java b/src/com/google/javascript/jscomp/graph/Graph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/GraphColoring.java b/src/com/google/javascript/jscomp/graph/GraphColoring.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/GraphNode.java b/src/com/google/javascript/jscomp/graph/GraphNode.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/GraphReachability.java b/src/com/google/javascript/jscomp/graph/GraphReachability.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/GraphvizGraph.java b/src/com/google/javascript/jscomp/graph/GraphvizGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/LinkedDirectedGraph.java b/src/com/google/javascript/jscomp/graph/LinkedDirectedGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/LinkedUndirectedGraph.java b/src/com/google/javascript/jscomp/graph/LinkedUndirectedGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/StandardUnionFind.java b/src/com/google/javascript/jscomp/graph/StandardUnionFind.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/SubGraph.java b/src/com/google/javascript/jscomp/graph/SubGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/UndiGraph.java b/src/com/google/javascript/jscomp/graph/UndiGraph.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/UnionFind.java b/src/com/google/javascript/jscomp/graph/UnionFind.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/graph/package.html b/src/com/google/javascript/jscomp/graph/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/instrumentation_template.proto b/src/com/google/javascript/jscomp/instrumentation_template.proto
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/js/runtime_type_check.js b/src/com/google/javascript/jscomp/js/runtime_type_check.js
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/ErrorLevel.java b/src/com/google/javascript/jscomp/jsonml/ErrorLevel.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/JsonML.java b/src/com/google/javascript/jscomp/jsonml/JsonML.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/JsonMLAst.java b/src/com/google/javascript/jscomp/jsonml/JsonMLAst.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/JsonMLError.java b/src/com/google/javascript/jscomp/jsonml/JsonMLError.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/JsonMLException.java b/src/com/google/javascript/jscomp/jsonml/JsonMLException.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/JsonMLUtil.java b/src/com/google/javascript/jscomp/jsonml/JsonMLUtil.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/NodeUtil.java b/src/com/google/javascript/jscomp/jsonml/NodeUtil.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/Reader.java b/src/com/google/javascript/jscomp/jsonml/Reader.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/SecureCompiler.java b/src/com/google/javascript/jscomp/jsonml/SecureCompiler.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/TagAttr.java b/src/com/google/javascript/jscomp/jsonml/TagAttr.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/TagType.java b/src/com/google/javascript/jscomp/jsonml/TagType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/Validator.java b/src/com/google/javascript/jscomp/jsonml/Validator.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/Writer.java b/src/com/google/javascript/jscomp/jsonml/Writer.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/jsonml/package.html b/src/com/google/javascript/jscomp/jsonml/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/package.html b/src/com/google/javascript/jscomp/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/Annotation.java b/src/com/google/javascript/jscomp/parsing/Annotation.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/Config.java b/src/com/google/javascript/jscomp/parsing/Config.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/IRFactory.java b/src/com/google/javascript/jscomp/parsing/IRFactory.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java b/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocToken.java b/src/com/google/javascript/jscomp/parsing/JsDocToken.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java b/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/NullErrorReporter.java b/src/com/google/javascript/jscomp/parsing/NullErrorReporter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/ParserConfig.properties b/src/com/google/javascript/jscomp/parsing/ParserConfig.properties
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/ParserRunner.java b/src/com/google/javascript/jscomp/parsing/ParserRunner.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java b/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/parsing/package.html b/src/com/google/javascript/jscomp/parsing/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/testing/SimpleSourceExcerptProvider.java b/src/com/google/javascript/jscomp/testing/SimpleSourceExcerptProvider.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/jscomp/testing/TestErrorReporter.java b/src/com/google/javascript/jscomp/testing/TestErrorReporter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/CompilerEnvirons.java b/src/com/google/javascript/rhino/CompilerEnvirons.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Context.java b/src/com/google/javascript/rhino/Context.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/DToA.java b/src/com/google/javascript/rhino/DToA.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Decompiler.java b/src/com/google/javascript/rhino/Decompiler.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/EcmaError.java b/src/com/google/javascript/rhino/EcmaError.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/ErrorReporter.java b/src/com/google/javascript/rhino/ErrorReporter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/EvaluatorException.java b/src/com/google/javascript/rhino/EvaluatorException.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/FunctionNode.java b/src/com/google/javascript/rhino/FunctionNode.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/IRFactory.java b/src/com/google/javascript/rhino/IRFactory.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/JSDocInfo.java b/src/com/google/javascript/rhino/JSDocInfo.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/JSDocInfoBuilder.java b/src/com/google/javascript/rhino/JSDocInfoBuilder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/JSTypeExpression.java b/src/com/google/javascript/rhino/JSTypeExpression.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/JavaScriptException.java b/src/com/google/javascript/rhino/JavaScriptException.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Kit.java b/src/com/google/javascript/rhino/Kit.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Messages.properties b/src/com/google/javascript/rhino/Messages.properties
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Node.java b/src/com/google/javascript/rhino/Node.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/ObjArray.java b/src/com/google/javascript/rhino/ObjArray.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/ObjToIntMap.java b/src/com/google/javascript/rhino/ObjToIntMap.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Parser.java b/src/com/google/javascript/rhino/Parser.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/RhinoException.java b/src/com/google/javascript/rhino/RhinoException.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/ScriptOrFnNode.java b/src/com/google/javascript/rhino/ScriptOrFnNode.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/ScriptRuntime.java b/src/com/google/javascript/rhino/ScriptRuntime.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/SimpleErrorReporter.java b/src/com/google/javascript/rhino/SimpleErrorReporter.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/SourcePosition.java b/src/com/google/javascript/rhino/SourcePosition.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/Token.java b/src/com/google/javascript/rhino/Token.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/TokenStream.java b/src/com/google/javascript/rhino/TokenStream.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/UintMap.java b/src/com/google/javascript/rhino/UintMap.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/UniqueTag.java b/src/com/google/javascript/rhino/UniqueTag.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/AllType.java b/src/com/google/javascript/rhino/jstype/AllType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/ArrowType.java b/src/com/google/javascript/rhino/jstype/ArrowType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/BooleanLiteralSet.java b/src/com/google/javascript/rhino/jstype/BooleanLiteralSet.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/BooleanType.java b/src/com/google/javascript/rhino/jstype/BooleanType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/EnumElementType.java b/src/com/google/javascript/rhino/jstype/EnumElementType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/EnumType.java b/src/com/google/javascript/rhino/jstype/EnumType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/ErrorFunctionType.java b/src/com/google/javascript/rhino/jstype/ErrorFunctionType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/FunctionBuilder.java b/src/com/google/javascript/rhino/jstype/FunctionBuilder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/FunctionParamBuilder.java b/src/com/google/javascript/rhino/jstype/FunctionParamBuilder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/FunctionPrototypeType.java b/src/com/google/javascript/rhino/jstype/FunctionPrototypeType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/FunctionType.java b/src/com/google/javascript/rhino/jstype/FunctionType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/IndexedType.java b/src/com/google/javascript/rhino/jstype/IndexedType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/InstanceObjectType.java b/src/com/google/javascript/rhino/jstype/InstanceObjectType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/JSType.java b/src/com/google/javascript/rhino/jstype/JSType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/JSTypeNative.java b/src/com/google/javascript/rhino/jstype/JSTypeNative.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java b/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/NamedType.java b/src/com/google/javascript/rhino/jstype/NamedType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/NoObjectType.java b/src/com/google/javascript/rhino/jstype/NoObjectType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/NoResolvedType.java b/src/com/google/javascript/rhino/jstype/NoResolvedType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/NoType.java b/src/com/google/javascript/rhino/jstype/NoType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/NullType.java b/src/com/google/javascript/rhino/jstype/NullType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/NumberType.java b/src/com/google/javascript/rhino/jstype/NumberType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/ObjectType.java b/src/com/google/javascript/rhino/jstype/ObjectType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/ParameterizedType.java b/src/com/google/javascript/rhino/jstype/ParameterizedType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java b/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/ProxyObjectType.java b/src/com/google/javascript/rhino/jstype/ProxyObjectType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/SimpleSlot.java b/src/com/google/javascript/rhino/jstype/SimpleSlot.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/StaticScope.java b/src/com/google/javascript/rhino/jstype/StaticScope.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/StaticSlot.java b/src/com/google/javascript/rhino/jstype/StaticSlot.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/StringType.java b/src/com/google/javascript/rhino/jstype/StringType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/TemplateType.java b/src/com/google/javascript/rhino/jstype/TemplateType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/TernaryValue.java b/src/com/google/javascript/rhino/jstype/TernaryValue.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/UnionType.java b/src/com/google/javascript/rhino/jstype/UnionType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/UnionTypeBuilder.java b/src/com/google/javascript/rhino/jstype/UnionTypeBuilder.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/UnknownType.java b/src/com/google/javascript/rhino/jstype/UnknownType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/UnresolvedTypeExpression.java b/src/com/google/javascript/rhino/jstype/UnresolvedTypeExpression.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/ValueType.java b/src/com/google/javascript/rhino/jstype/ValueType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/Visitor.java b/src/com/google/javascript/rhino/jstype/Visitor.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/VoidType.java b/src/com/google/javascript/rhino/jstype/VoidType.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/jstype/package.html b/src/com/google/javascript/rhino/jstype/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/package.html b/src/com/google/javascript/rhino/package.html
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/testing/Asserts.java b/src/com/google/javascript/rhino/testing/Asserts.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/testing/BaseJSTypeTestCase.java b/src/com/google/javascript/rhino/testing/BaseJSTypeTestCase.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/testing/MapBasedScope.java b/src/com/google/javascript/rhino/testing/MapBasedScope.java
+old mode 100755
+new mode 100644
+diff --git a/src/com/google/javascript/rhino/testing/TestErrorReporter.java b/src/com/google/javascript/rhino/testing/TestErrorReporter.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/debugging/sourcemap/SourceMapConsumerV1Test.java b/test/com/google/debugging/sourcemap/SourceMapConsumerV1Test.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/debugging/sourcemap/SourceMapConsumerV2Test.java b/test/com/google/debugging/sourcemap/SourceMapConsumerV2Test.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/debugging/sourcemap/SourceMapGeneratorV1Test.java b/test/com/google/debugging/sourcemap/SourceMapGeneratorV1Test.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/debugging/sourcemap/SourceMapGeneratorV2Test.java b/test/com/google/debugging/sourcemap/SourceMapGeneratorV2Test.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/AliasExternalsTest.java b/test/com/google/javascript/jscomp/AliasExternalsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/AliasKeywordsTest.java b/test/com/google/javascript/jscomp/AliasKeywordsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/AliasStringsTest.java b/test/com/google/javascript/jscomp/AliasStringsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/AmbiguatePropertiesTest.java b/test/com/google/javascript/jscomp/AmbiguatePropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/AstParallelizerTest.java b/test/com/google/javascript/jscomp/AstParallelizerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/AstValidatorTest.java b/test/com/google/javascript/jscomp/AstValidatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/BasicErrorManagerTest.java b/test/com/google/javascript/jscomp/BasicErrorManagerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CallGraphTest.java b/test/com/google/javascript/jscomp/CallGraphTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ChainCallsTest.java b/test/com/google/javascript/jscomp/ChainCallsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckAccessControlsTest.java b/test/com/google/javascript/jscomp/CheckAccessControlsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckAccidentalSemicolonTest.java b/test/com/google/javascript/jscomp/CheckAccidentalSemicolonTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckGlobalNamesTest.java b/test/com/google/javascript/jscomp/CheckGlobalNamesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckGlobalThisTest.java b/test/com/google/javascript/jscomp/CheckGlobalThisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckMissingGetCssNameTest.java b/test/com/google/javascript/jscomp/CheckMissingGetCssNameTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckMissingReturnTest.java b/test/com/google/javascript/jscomp/CheckMissingReturnTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckPathsBetweenNodesTest.java b/test/com/google/javascript/jscomp/CheckPathsBetweenNodesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckPropertyOrderTest.java b/test/com/google/javascript/jscomp/CheckPropertyOrderTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckProvidesTest.java b/test/com/google/javascript/jscomp/CheckProvidesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckRegExpTest.java b/test/com/google/javascript/jscomp/CheckRegExpTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckRequiresForConstructorsTest.java b/test/com/google/javascript/jscomp/CheckRequiresForConstructorsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckSideEffectsTest.java b/test/com/google/javascript/jscomp/CheckSideEffectsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java b/test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ClosureCodeRemovalTest.java b/test/com/google/javascript/jscomp/ClosureCodeRemovalTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ClosureCodingConventionTest.java b/test/com/google/javascript/jscomp/ClosureCodingConventionTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ClosureReverseAbstractInterpreterTest.java b/test/com/google/javascript/jscomp/ClosureReverseAbstractInterpreterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java b/test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CodePrinterTest.java b/test/com/google/javascript/jscomp/CodePrinterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CollapseAnonymousFunctionsTest.java b/test/com/google/javascript/jscomp/CollapseAnonymousFunctionsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CollapsePropertiesTest.java b/test/com/google/javascript/jscomp/CollapsePropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CollapseVariableDeclarationsTest.java b/test/com/google/javascript/jscomp/CollapseVariableDeclarationsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CombinedCompilerPassTest.java b/test/com/google/javascript/jscomp/CombinedCompilerPassTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CommandLineRunnerTest.java b/test/com/google/javascript/jscomp/CommandLineRunnerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CompilerOptionsTest.java b/test/com/google/javascript/jscomp/CompilerOptionsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CompilerTest.java b/test/com/google/javascript/jscomp/CompilerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CompilerTestCase.java b/test/com/google/javascript/jscomp/CompilerTestCase.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CompilerTypeTestCase.java b/test/com/google/javascript/jscomp/CompilerTypeTestCase.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ConcreteTypeTest.java b/test/com/google/javascript/jscomp/ConcreteTypeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ConstCheckTest.java b/test/com/google/javascript/jscomp/ConstCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ControlFlowAnalysisTest.java b/test/com/google/javascript/jscomp/ControlFlowAnalysisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ControlStructureCheckTest.java b/test/com/google/javascript/jscomp/ControlStructureCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ConvertToDottedPropertiesTest.java b/test/com/google/javascript/jscomp/ConvertToDottedPropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CreateSyntheticBlocksTest.java b/test/com/google/javascript/jscomp/CreateSyntheticBlocksTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/CrossModuleMethodMotionTest.java b/test/com/google/javascript/jscomp/CrossModuleMethodMotionTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DataFlowAnalysisTest.java b/test/com/google/javascript/jscomp/DataFlowAnalysisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java b/test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DefaultCodingConventionTest.java b/test/com/google/javascript/jscomp/DefaultCodingConventionTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DefinitionsRemoverTest.java b/test/com/google/javascript/jscomp/DefinitionsRemoverTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DenormalizeTest.java b/test/com/google/javascript/jscomp/DenormalizeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java b/test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DiagnosticGroupTest.java b/test/com/google/javascript/jscomp/DiagnosticGroupTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DisambiguatePropertiesTest.java b/test/com/google/javascript/jscomp/DisambiguatePropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/DotFormatterTest.java b/test/com/google/javascript/jscomp/DotFormatterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ExploitAssignsTest.java b/test/com/google/javascript/jscomp/ExploitAssignsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ExportTestFunctionsTest.java b/test/com/google/javascript/jscomp/ExportTestFunctionsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ExpressionDecomposerTest.java b/test/com/google/javascript/jscomp/ExpressionDecomposerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarationsTest.java b/test/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarationsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FixedPointGraphTraversalTest.java b/test/com/google/javascript/jscomp/FixedPointGraphTraversalTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java b/test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FunctionArgumentInjectorTest.java b/test/com/google/javascript/jscomp/FunctionArgumentInjectorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FunctionInjectorTest.java b/test/com/google/javascript/jscomp/FunctionInjectorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FunctionNamesTest.java b/test/com/google/javascript/jscomp/FunctionNamesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FunctionRewriterTest.java b/test/com/google/javascript/jscomp/FunctionRewriterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FunctionToBlockMutatorTest.java b/test/com/google/javascript/jscomp/FunctionToBlockMutatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/FunctionTypeBuilderTest.java b/test/com/google/javascript/jscomp/FunctionTypeBuilderTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/GatherRawExportsTest.java b/test/com/google/javascript/jscomp/GatherRawExportsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallbackTest.java b/test/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallbackTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/GenerateExportsTest.java b/test/com/google/javascript/jscomp/GenerateExportsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/GlobalNamespaceTest.java b/test/com/google/javascript/jscomp/GlobalNamespaceTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/GoogleCodingConventionTest.java b/test/com/google/javascript/jscomp/GoogleCodingConventionTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/GroupVariableDeclarationsTest.java b/test/com/google/javascript/jscomp/GroupVariableDeclarationsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/IgnoreCajaPropertiesTest.java b/test/com/google/javascript/jscomp/IgnoreCajaPropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InferJSDocInfoTest.java b/test/com/google/javascript/jscomp/InferJSDocInfoTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InlineCostEstimatorTest.java b/test/com/google/javascript/jscomp/InlineCostEstimatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InlineFunctionsTest.java b/test/com/google/javascript/jscomp/InlineFunctionsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InlineSimpleMethodsTest.java b/test/com/google/javascript/jscomp/InlineSimpleMethodsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InlineVariablesConstantsTest.java b/test/com/google/javascript/jscomp/InlineVariablesConstantsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InlineVariablesTest.java b/test/com/google/javascript/jscomp/InlineVariablesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/InstrumentFunctionsTest.java b/test/com/google/javascript/jscomp/InstrumentFunctionsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java b/test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/JSModuleGraphTest.java b/test/com/google/javascript/jscomp/JSModuleGraphTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/JSModuleTest.java b/test/com/google/javascript/jscomp/JSModuleTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/JsMessageExtractorTest.java b/test/com/google/javascript/jscomp/JsMessageExtractorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/JsMessageTest.java b/test/com/google/javascript/jscomp/JsMessageTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/JsMessageVisitorTest.java b/test/com/google/javascript/jscomp/JsMessageVisitorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/LightweightMessageFormatterTest.java b/test/com/google/javascript/jscomp/LightweightMessageFormatterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/LinkedFlowScopeTest.java b/test/com/google/javascript/jscomp/LinkedFlowScopeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/LiveVariableAnalysisTest.java b/test/com/google/javascript/jscomp/LiveVariableAnalysisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/LooseTypeCheckTest.java b/test/com/google/javascript/jscomp/LooseTypeCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MakeDeclaredNamesUniqueTest.java b/test/com/google/javascript/jscomp/MakeDeclaredNamesUniqueTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MarkNoSideEffectCallsTest.java b/test/com/google/javascript/jscomp/MarkNoSideEffectCallsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MaybeReachingVariableUseTest.java b/test/com/google/javascript/jscomp/MaybeReachingVariableUseTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MemoizedScopeCreatorTest.java b/test/com/google/javascript/jscomp/MemoizedScopeCreatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MinimizeExitPointsTest.java b/test/com/google/javascript/jscomp/MinimizeExitPointsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MoveFunctionDeclarationsTest.java b/test/com/google/javascript/jscomp/MoveFunctionDeclarationsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/MustBeReachingVariableDefTest.java b/test/com/google/javascript/jscomp/MustBeReachingVariableDefTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NameAnalyzerTest.java b/test/com/google/javascript/jscomp/NameAnalyzerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NameAnonymousFunctionsMappedTest.java b/test/com/google/javascript/jscomp/NameAnonymousFunctionsMappedTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NameAnonymousFunctionsTest.java b/test/com/google/javascript/jscomp/NameAnonymousFunctionsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NodeIteratorsTest.java b/test/com/google/javascript/jscomp/NodeIteratorsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NodeTraversalTest.java b/test/com/google/javascript/jscomp/NodeTraversalTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NodeUtilTest.java b/test/com/google/javascript/jscomp/NodeUtilTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/NormalizeTest.java b/test/com/google/javascript/jscomp/NormalizeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ObjectPropertyStringPostprocessTest.java b/test/com/google/javascript/jscomp/ObjectPropertyStringPostprocessTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ObjectPropertyStringPreprocessTest.java b/test/com/google/javascript/jscomp/ObjectPropertyStringPreprocessTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/OperaCompoundAssignFixTest.java b/test/com/google/javascript/jscomp/OperaCompoundAssignFixTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java b/test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/OptimizeParametersTest.java b/test/com/google/javascript/jscomp/OptimizeParametersTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/OptimizeReturnsTest.java b/test/com/google/javascript/jscomp/OptimizeReturnsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ParallelCompilerPassTest.java b/test/com/google/javascript/jscomp/ParallelCompilerPassTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeCollectPropertyAssignmentsTest.java b/test/com/google/javascript/jscomp/PeepholeCollectPropertyAssignmentsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeFoldConstantsTest.java b/test/com/google/javascript/jscomp/PeepholeFoldConstantsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeFoldWithTypesTest.java b/test/com/google/javascript/jscomp/PeepholeFoldWithTypesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeIntegrationTest.java b/test/com/google/javascript/jscomp/PeepholeIntegrationTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeOptimizationsPassTest.java b/test/com/google/javascript/jscomp/PeepholeOptimizationsPassTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeRemoveDeadCodeTest.java b/test/com/google/javascript/jscomp/PeepholeRemoveDeadCodeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntaxTest.java b/test/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntaxTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PhaseOptimizerTest.java b/test/com/google/javascript/jscomp/PhaseOptimizerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PrepareAstTest.java b/test/com/google/javascript/jscomp/PrepareAstTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java b/test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ProcessDefinesTest.java b/test/com/google/javascript/jscomp/ProcessDefinesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ProcessTweaksTest.java b/test/com/google/javascript/jscomp/ProcessTweaksTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java b/test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RecordFunctionInformationTest.java b/test/com/google/javascript/jscomp/RecordFunctionInformationTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RemoveTryCatchTest.java b/test/com/google/javascript/jscomp/RemoveTryCatchTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RemoveUnusedNamesTest.java b/test/com/google/javascript/jscomp/RemoveUnusedNamesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RemoveUnusedPrototypePropertiesTest.java b/test/com/google/javascript/jscomp/RemoveUnusedPrototypePropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RemoveUnusedVarsTest.java b/test/com/google/javascript/jscomp/RemoveUnusedVarsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RenameLabelsTest.java b/test/com/google/javascript/jscomp/RenameLabelsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RenameLocalVarsTest.java b/test/com/google/javascript/jscomp/RenameLocalVarsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RenamePropertiesTest.java b/test/com/google/javascript/jscomp/RenamePropertiesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RenamePrototypesTest.java b/test/com/google/javascript/jscomp/RenamePrototypesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RenameVarsTest.java b/test/com/google/javascript/jscomp/RenameVarsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ReplaceCssNamesTest.java b/test/com/google/javascript/jscomp/ReplaceCssNamesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ReplaceIdGeneratorsTest.java b/test/com/google/javascript/jscomp/ReplaceIdGeneratorsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ReplaceMessagesTest.java b/test/com/google/javascript/jscomp/ReplaceMessagesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ReplaceStringsTest.java b/test/com/google/javascript/jscomp/ReplaceStringsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RhinoErrorReporterTest.java b/test/com/google/javascript/jscomp/RhinoErrorReporterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/RuntimeTypeCheckTest.java b/test/com/google/javascript/jscomp/RuntimeTypeCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SanityCheckTest.java b/test/com/google/javascript/jscomp/SanityCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ScopedAliasesTest.java b/test/com/google/javascript/jscomp/ScopedAliasesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SemanticReverseAbstractInterpreterTest.java b/test/com/google/javascript/jscomp/SemanticReverseAbstractInterpreterTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/ShadowVariablesTest.java b/test/com/google/javascript/jscomp/ShadowVariablesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SideEffectsAnalysisTest.java b/test/com/google/javascript/jscomp/SideEffectsAnalysisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SimpleDefinitionFinderTest.java b/test/com/google/javascript/jscomp/SimpleDefinitionFinderTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SimpleFunctionAliasAnalysisTest.java b/test/com/google/javascript/jscomp/SimpleFunctionAliasAnalysisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SourceInformationAnnotatorTest.java b/test/com/google/javascript/jscomp/SourceInformationAnnotatorTest.java
+new file mode 100644
+index 0000000..68b3bac
+--- /dev/null
++++ b/test/com/google/javascript/jscomp/SourceInformationAnnotatorTest.java
+@@ -0,0 +1,48 @@
++/*
++ * Copyright 2011 The Closure Compiler Authors.
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *     http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++package com.google.javascript.jscomp;
++
++import com.google.javascript.rhino.Node;
++import com.google.javascript.rhino.Token;
++
++/**
++ * @author johnlenz@google.com (John Lenz)
++ */
++public class SourceInformationAnnotatorTest extends CompilerTestCase {
++
++  @Override
++  protected CompilerPass getProcessor(final Compiler compiler) {
++    return new CompilerPass() {
++      @Override
++      public void process(Node externs, Node root) {
++        NodeTraversal.traverse(compiler, root,
++            new SourceInformationAnnotator("", false));
++      }};
++  }
++
++  public void testPreserveAnnotatedName() {
++    Node root = new Node(Token.SCRIPT);
++    root.setIsSyntheticBlock(true);
++    Node name = Node.newString("foo");
++    name.putProp(Node.ORIGINALNAME_PROP, "bar");
++    root.addChildToBack(name);
++
++    NodeTraversal.traverse(null, root,
++        new SourceInformationAnnotator("", false));
++    assertEquals(name.getProp(Node.ORIGINALNAME_PROP), "bar");
++  }
++}
+diff --git a/test/com/google/javascript/jscomp/SpecializeModuleTest.java b/test/com/google/javascript/jscomp/SpecializeModuleTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/StatementFusionTest.java b/test/com/google/javascript/jscomp/StatementFusionTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/StrictModeCheckTest.java b/test/com/google/javascript/jscomp/StrictModeCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/StripCodeTest.java b/test/com/google/javascript/jscomp/StripCodeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SuspiciousPropertiesCheckTest.java b/test/com/google/javascript/jscomp/SuspiciousPropertiesCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/SyntacticScopeCreatorTest.java b/test/com/google/javascript/jscomp/SyntacticScopeCreatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/TightenTypesTest.java b/test/com/google/javascript/jscomp/TightenTypesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/TypeCheckFunctionCheckTest.java b/test/com/google/javascript/jscomp/TypeCheckFunctionCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/TypeCheckTest.java b/test/com/google/javascript/jscomp/TypeCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/TypeInferenceTest.java b/test/com/google/javascript/jscomp/TypeInferenceTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/TypeValidatorTest.java b/test/com/google/javascript/jscomp/TypeValidatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/TypedScopeCreatorTest.java b/test/com/google/javascript/jscomp/TypedScopeCreatorTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/UnfoldCompoundAssignmentsTest.java b/test/com/google/javascript/jscomp/UnfoldCompoundAssignmentsTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java b/test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/VarCheckTest.java b/test/com/google/javascript/jscomp/VarCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/VariableMapTest.java b/test/com/google/javascript/jscomp/VariableMapTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/VariableReferenceCheckTest.java b/test/com/google/javascript/jscomp/VariableReferenceCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/VariableShadowDeclarationCheckTest.java b/test/com/google/javascript/jscomp/VariableShadowDeclarationCheckTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/VariableVisibilityAnalysisTest.java b/test/com/google/javascript/jscomp/VariableVisibilityAnalysisTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/deps/DepsFileParserTest.java b/test/com/google/javascript/jscomp/deps/DepsFileParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/deps/JsFileLineParserTest.java b/test/com/google/javascript/jscomp/deps/JsFileLineParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/deps/JsFileParserTest.java b/test/com/google/javascript/jscomp/deps/JsFileParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/deps/JsFunctionParserTest.java b/test/com/google/javascript/jscomp/deps/JsFunctionParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/deps/SortedDependenciesTest.java b/test/com/google/javascript/jscomp/deps/SortedDependenciesTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/graph/GraphColoringTest.java b/test/com/google/javascript/jscomp/graph/GraphColoringTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/graph/GraphReachabilityTest.java b/test/com/google/javascript/jscomp/graph/GraphReachabilityTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/graph/GraphTest.java b/test/com/google/javascript/jscomp/graph/GraphTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/graph/StandardUnionFindTest.java b/test/com/google/javascript/jscomp/graph/StandardUnionFindTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/jsonml/JsonMLConversionTest.java b/test/com/google/javascript/jscomp/jsonml/JsonMLConversionTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/jsonml/JsonMLValidationTest.java b/test/com/google/javascript/jscomp/jsonml/JsonMLValidationTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/jsonml/SecureCompilerTest.java b/test/com/google/javascript/jscomp/jsonml/SecureCompilerTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/parsing/IRFactoryTest.java b/test/com/google/javascript/jscomp/parsing/IRFactoryTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/parsing/JsDocInfoParserTest.java b/test/com/google/javascript/jscomp/parsing/JsDocInfoParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/parsing/JsDocTokenStreamTest.java b/test/com/google/javascript/jscomp/parsing/JsDocTokenStreamTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/parsing/ParserTest.java b/test/com/google/javascript/jscomp/parsing/ParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/jscomp/regtests/CompileEachLineOfProgramOutput.java b/test/com/google/javascript/jscomp/regtests/CompileEachLineOfProgramOutput.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/JSDocInfoTest.java b/test/com/google/javascript/rhino/JSDocInfoTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/NodeTest.java b/test/com/google/javascript/rhino/NodeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/ParserTest.java b/test/com/google/javascript/rhino/ParserTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/TokenStreamTest.java b/test/com/google/javascript/rhino/TokenStreamTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/BooleanLiteralSetTest.java b/test/com/google/javascript/rhino/jstype/BooleanLiteralSetTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/FunctionParamBuilderTest.java b/test/com/google/javascript/rhino/jstype/FunctionParamBuilderTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/FunctionTypeTest.java b/test/com/google/javascript/rhino/jstype/FunctionTypeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/JSTypeRegistryTest.java b/test/com/google/javascript/rhino/jstype/JSTypeRegistryTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/JSTypeTest.java b/test/com/google/javascript/rhino/jstype/JSTypeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/NamedTypeTest.java b/test/com/google/javascript/rhino/jstype/NamedTypeTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/TernaryValueTest.java b/test/com/google/javascript/rhino/jstype/TernaryValueTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/UnionTypeBuilderTest.java b/test/com/google/javascript/rhino/jstype/UnionTypeBuilderTest.java
+old mode 100755
+new mode 100644
+diff --git a/test/com/google/javascript/rhino/jstype/UnionTypeTest.java b/test/com/google/javascript/rhino/jstype/UnionTypeTest.java
+old mode 100755
+new mode 100644
+diff --git a/tools/maven-ant-tasks-2.1.1.jar b/tools/maven-ant-tasks-2.1.1.jar
+old mode 100755
+new mode 100644

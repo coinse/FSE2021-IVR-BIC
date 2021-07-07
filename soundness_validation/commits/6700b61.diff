@@ -1,0 +1,92 @@
+commit 6700b61a2e48577ecdf2ad07f842c5996a166432
+Author: johnlenz@google.com <johnlenz@google.com@b0f006be-c8cd-11de-a2e8-8d36a3108c74>
+Date:   Mon Jun 4 21:39:13 2012 +0000
+
+    Add the TemplateType to the JSType visitor.
+    
+    R=nicksantos
+    DELTA=26  (26 added, 0 deleted, 0 changed)
+    
+    
+    Revision created by MOE tool push_codebase.
+    MOE_MIGRATION=4939
+    
+    
+    git-svn-id: https://closure-compiler.googlecode.com/svn/trunk@2020 b0f006be-c8cd-11de-a2e8-8d36a3108c74
+
+diff --git a/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
+index 8894e90..fb177ae 100644
+--- a/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
++++ b/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
+@@ -39,6 +39,7 @@ import com.google.javascript.rhino.jstype.JSTypeNative;
+ import com.google.javascript.rhino.jstype.JSTypeRegistry;
+ import com.google.javascript.rhino.jstype.ObjectType;
+ import com.google.javascript.rhino.jstype.StaticSlot;
++import com.google.javascript.rhino.jstype.TemplateType;
+ import com.google.javascript.rhino.jstype.UnionType;
+ import com.google.javascript.rhino.jstype.Visitor;
+ 
+@@ -248,6 +249,11 @@ public abstract class ChainableReverseAbstractInterpreter
+       public JSType caseVoidType() {
+         return null;
+       }
++
++      @Override
++      public JSType caseTemplateType(TemplateType templateType) {
++        return caseObjectType(templateType);
++      }
+     };
+ 
+ 
+@@ -326,6 +332,11 @@ public abstract class ChainableReverseAbstractInterpreter
+       public JSType caseVoidType() {
+         return getNativeType(VOID_TYPE);
+       }
++
++      @Override
++      public JSType caseTemplateType(TemplateType templateType) {
++        return caseObjectType(templateType);
++      }
+     };
+ 
+   /**
+@@ -394,6 +405,11 @@ public abstract class ChainableReverseAbstractInterpreter
+         return type;
+       }
+     }
++
++    @Override
++    public JSType caseTemplateType(TemplateType templateType) {
++      return caseObjectType(templateType);
++    }
+   }
+ 
+   /**
+diff --git a/src/com/google/javascript/rhino/jstype/TemplateType.java b/src/com/google/javascript/rhino/jstype/TemplateType.java
+index a0b0328..44269be 100644
+--- a/src/com/google/javascript/rhino/jstype/TemplateType.java
++++ b/src/com/google/javascript/rhino/jstype/TemplateType.java
+@@ -69,4 +69,9 @@ public class TemplateType extends ProxyObjectType {
+   public boolean isTemplateType() {
+     return true;
+   }
++
++  @Override
++  public <T> T visit(Visitor<T> visitor) {
++    return visitor.caseTemplateType(this);
++  }
+ }
+diff --git a/src/com/google/javascript/rhino/jstype/Visitor.java b/src/com/google/javascript/rhino/jstype/Visitor.java
+index 84b5a08..c1f0106 100644
+--- a/src/com/google/javascript/rhino/jstype/Visitor.java
++++ b/src/com/google/javascript/rhino/jstype/Visitor.java
+@@ -120,4 +120,9 @@ public interface Visitor<T> {
+    * Union type's case.
+    */
+   T caseUnionType(UnionType type);
++
++  /**
++   * Template type's case.
++   */
++  T caseTemplateType(TemplateType templateType);
+ }

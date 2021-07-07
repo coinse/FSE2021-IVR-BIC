@@ -1,0 +1,58 @@
+2021-07-03 21:09:09,274 INFO     Search BICs for /tmp/JacksonCore-14b/
+2021-07-03 21:09:09,274 DEBUG    Reading the coverage of com.fasterxml.jackson.core.io.TestIOContext::testAllocations (failings)
+2021-07-03 21:09:09,281 INFO     Loaded 1x31 Coverage Matrix
+2021-07-03 21:09:09,281 INFO     The number of total commits: 936
+2021-07-03 21:09:09,627 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java <init> 101:106
+2021-07-03 21:09:09,659 DEBUG                  - depth 0, hash f15531c, HEAD~930
+2021-07-03 21:09:09,665 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java _verifyAlloc 268:270
+2021-07-03 21:09:09,696 DEBUG                  - depth 0, hash 4ceaba8, HEAD~415
+2021-07-03 21:09:09,702 DEBUG                  - depth 1, hash 288b1f3, HEAD~554
+2021-07-03 21:09:09,706 DEBUG                  - depth 2, hash a8bc72e, HEAD~559
+2021-07-03 21:09:09,710 DEBUG                  - depth 3, hash 2343927, HEAD~720
+2021-07-03 21:09:09,714 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java _verifyRelease 272:274
+2021-07-03 21:09:09,746 DEBUG                  - depth 0, hash 4ceaba8, HEAD~415
+2021-07-03 21:09:09,751 DEBUG                  - depth 1, hash 288b1f3, HEAD~554
+2021-07-03 21:09:09,755 DEBUG                  - depth 2, hash a8bc72e, HEAD~559
+2021-07-03 21:09:09,760 DEBUG                  - depth 3, hash 2343927, HEAD~720
+2021-07-03 21:09:09,764 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java allocReadIOBuffer 145:148
+2021-07-03 21:09:09,797 DEBUG                  - depth 0, hash a8bc72e, HEAD~559
+2021-07-03 21:09:09,802 DEBUG                  - depth 1, hash f633f10, HEAD~571
+2021-07-03 21:09:09,806 DEBUG                  - depth 2, hash 2343927, HEAD~720
+2021-07-03 21:09:09,810 DEBUG                  - depth 3, hash 1dc2c61, HEAD~794
+2021-07-03 21:09:09,814 DEBUG                  - depth 4, hash f15531c, HEAD~930
+2021-07-03 21:09:09,818 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java releaseReadIOBuffer 206:215
+2021-07-03 21:09:09,851 DEBUG                  - depth 0, hash a8bc72e, HEAD~559
+2021-07-03 21:09:09,857 DEBUG                  - depth 1, hash f633f10, HEAD~571
+2021-07-03 21:09:09,861 DEBUG                  - depth 2, hash 2343927, HEAD~720
+2021-07-03 21:09:09,865 DEBUG                  - depth 3, hash 1dc2c61, HEAD~794
+2021-07-03 21:09:09,869 DEBUG                  - depth 4, hash f15531c, HEAD~930
+2021-07-03 21:09:09,873 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java wrongBuf 280:280
+2021-07-03 21:09:09,905 DEBUG                  - depth 0, hash 288b1f3, HEAD~554
+2021-07-03 21:09:10,223 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java <clinit> 45:45
+2021-07-03 21:09:10,254 DEBUG                  - depth 0, hash 175a97b, HEAD~561
+2021-07-03 21:09:10,260 DEBUG                  - depth 1, hash f633f10, HEAD~571
+2021-07-03 21:09:10,264 DEBUG                  - depth 2, hash f15531c, HEAD~930
+2021-07-03 21:09:10,268 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java <init> 61:63
+2021-07-03 21:09:10,300 DEBUG                  - depth 0, hash ebf0091, HEAD~558
+2021-07-03 21:09:10,305 DEBUG                  - depth 1, hash f633f10, HEAD~571
+2021-07-03 21:09:10,310 DEBUG                  - depth 2, hash f15531c, HEAD~930
+2021-07-03 21:09:10,314 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java <init> 71:74
+2021-07-03 21:09:10,345 DEBUG                  - depth 0, hash ebf0091, HEAD~558
+2021-07-03 21:09:10,351 DEBUG                  - depth 1, hash f15531c, HEAD~930
+2021-07-03 21:09:10,355 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java allocByteBuffer 85:87
+2021-07-03 21:09:10,387 DEBUG                  - depth 0, hash ebf0091, HEAD~558
+2021-07-03 21:09:10,392 DEBUG                  - depth 1, hash f633f10, HEAD~571
+2021-07-03 21:09:10,396 DEBUG                  - depth 2, hash f15531c, HEAD~930
+2021-07-03 21:09:10,401 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java allocByteBuffer 89:101
+2021-07-03 21:09:10,432 DEBUG                  - depth 0, hash 4ceaba8, HEAD~415
+2021-07-03 21:09:10,437 DEBUG                  - depth 1, hash ebf0091, HEAD~558
+2021-07-03 21:09:10,441 DEBUG                  - depth 2, hash f633f10, HEAD~571
+2021-07-03 21:09:10,446 DEBUG                  - depth 3, hash f15531c, HEAD~930
+2021-07-03 21:09:10,450 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java balloc 155:155
+2021-07-03 21:09:10,482 DEBUG                  - depth 0, hash ebf0091, HEAD~558
+2021-07-03 21:09:10,487 DEBUG                  - depth 1, hash f633f10, HEAD~571
+2021-07-03 21:09:10,491 DEBUG                  - depth 2, hash 6c842ae, HEAD~793
+2021-07-03 21:09:10,496 DEBUG                  - depth 3, hash f15531c, HEAD~930
+2021-07-03 21:09:10,500 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java byteBufferLength 141:143
+2021-07-03 21:09:10,531 DEBUG                  - depth 0, hash ebf0091, HEAD~558
+2021-07-03 21:09:10,537 INFO     The number of BIC candidates: 10

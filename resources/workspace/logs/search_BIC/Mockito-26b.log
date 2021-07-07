@@ -1,0 +1,1399 @@
+2021-07-04 09:38:16,965 INFO     Search BICs for /tmp/Mockito-26b/
+2021-07-04 09:38:16,965 DEBUG    Reading the coverage of org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_primitive (failings)
+2021-07-04 09:38:16,983 DEBUG    Reading the coverage of org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::should_return_the_usual_default_values_for_primitives (failings)
+2021-07-04 09:38:17,006 DEBUG    Reading the coverage of org.mockito.internal.progress.HandyReturnValuesTest::should_default_values_for_primitive (failings)
+2021-07-04 09:38:17,021 DEBUG    Reading the coverage of org.mockito.internal.stubbing.defaultanswers.ReturnsMocksTest::should_return_the_usual_default_values_for_primitives (failings)
+2021-07-04 09:38:17,054 INFO     Loaded 4x540 Coverage Matrix
+2021-07-04 09:38:17,054 INFO     The number of total commits: 1752
+2021-07-04 09:38:17,397 DEBUG    [line range] org/mockito/MockitoAnnotations.java initMocks 89:109
+2021-07-04 09:38:17,546 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:17,552 DEBUG                  - depth 1, hash f8f76a4, HEAD~262
+2021-07-04 09:38:17,556 DEBUG                  - depth 2, hash feb23b0, HEAD~1408
+2021-07-04 09:38:17,560 DEBUG                  - depth 3, hash ebcb3e7, HEAD~1410
+2021-07-04 09:38:17,564 DEBUG                  - depth 4, hash 70eb8ea, HEAD~1458
+2021-07-04 09:38:17,568 DEBUG    [line range] org/mockito/MockitoAnnotations.java processAnnotationDeprecatedWay 119:135
+2021-07-04 09:38:17,675 DEBUG                  - depth 0, hash 038235e, HEAD~429
+2021-07-04 09:38:17,680 DEBUG                  - depth 1, hash 3275500, HEAD~436
+2021-07-04 09:38:17,684 DEBUG                  - depth 2, hash 896c61e, HEAD~439
+2021-07-04 09:38:17,688 DEBUG                  - depth 3, hash 2a256b3, HEAD~936
+2021-07-04 09:38:17,692 DEBUG                  - depth 4, hash 2dc4ebd, HEAD~1159
+2021-07-04 09:38:17,697 DEBUG                  - depth 5, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:17,701 DEBUG                  - depth 6, hash 83fcd71, HEAD~1409
+2021-07-04 09:38:17,705 DEBUG                  - depth 7, hash 70eb8ea, HEAD~1458
+2021-07-04 09:38:17,709 DEBUG    [line range] org/mockito/MockitoAnnotations.java scanDeprecatedWay 111:117
+2021-07-04 09:38:17,819 DEBUG                  - depth 0, hash f8f76a4, HEAD~262
+2021-07-04 09:38:17,824 DEBUG                  - depth 1, hash 75e15e4, HEAD~370
+2021-07-04 09:38:17,828 DEBUG                  - depth 2, hash 3275500, HEAD~436
+2021-07-04 09:38:17,832 DEBUG                  - depth 3, hash 896c61e, HEAD~439
+2021-07-04 09:38:17,836 DEBUG                  - depth 4, hash 2a256b3, HEAD~936
+2021-07-04 09:38:17,841 DEBUG                  - depth 5, hash 2dc4ebd, HEAD~1159
+2021-07-04 09:38:17,845 DEBUG                  - depth 6, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:17,849 DEBUG                  - depth 7, hash 83fcd71, HEAD~1409
+2021-07-04 09:38:17,853 DEBUG                  - depth 8, hash ebcb3e7, HEAD~1410
+2021-07-04 09:38:17,857 DEBUG                  - depth 9, hash 70eb8ea, HEAD~1458
+2021-07-04 09:38:18,142 DEBUG    [single line]   org/mockito/configuration/DefaultMockitoConfiguration.java <init> 20
+2021-07-04 09:38:18,248 DEBUG                  - depth 0, hash 2d152ee, HEAD~965
+2021-07-04 09:38:18,253 DEBUG    [line range] org/mockito/configuration/DefaultMockitoConfiguration.java getAnnotationEngine 38:40
+2021-07-04 09:38:18,359 DEBUG                  - depth 0, hash 3275500, HEAD~436
+2021-07-04 09:38:18,364 DEBUG                  - depth 1, hash 7a6d0db, HEAD~935
+2021-07-04 09:38:18,368 DEBUG                  - depth 2, hash 2a256b3, HEAD~936
+2021-07-04 09:38:18,757 DEBUG    [single line]   org/mockito/exceptions/Reporter.java <init> 58
+2021-07-04 09:38:18,876 DEBUG                  - depth 0, hash bcc618a, HEAD~1568
+2021-07-04 09:38:18,881 DEBUG                  - depth 1, hash ce722d1, HEAD~1686
+2021-07-04 09:38:19,173 DEBUG    [single line]   org/mockito/internal/configuration/CaptorAnnotationProcessor.java process 17
+2021-07-04 09:38:19,278 DEBUG                  - depth 0, hash 5ea5f32, HEAD~86
+2021-07-04 09:38:19,616 DEBUG    [line range] org/mockito/internal/configuration/ClassPathLoader.java <clinit> 61:61
+2021-07-04 09:38:19,723 DEBUG                  - depth 0, hash c478e6c, HEAD~102
+2021-07-04 09:38:19,728 DEBUG                  - depth 1, hash c81d6bd, HEAD~950
+2021-07-04 09:38:19,732 DEBUG    [single line]   org/mockito/internal/configuration/ClassPathLoader.java <init> 60
+2021-07-04 09:38:19,838 DEBUG                  - depth 0, hash c81d6bd, HEAD~950
+2021-07-04 09:38:19,843 DEBUG    [line range] org/mockito/internal/configuration/ClassPathLoader.java findPlatformMockMaker 101:106
+2021-07-04 09:38:19,950 DEBUG                  - depth 0, hash 4c1a6c2, HEAD~76
+2021-07-04 09:38:19,955 DEBUG                  - depth 1, hash c478e6c, HEAD~102
+2021-07-04 09:38:19,959 DEBUG                  - depth 2, hash ce6b947, HEAD~109
+2021-07-04 09:38:19,963 DEBUG                  - depth 3, hash a4c2825, HEAD~114
+2021-07-04 09:38:19,967 DEBUG    [line range] org/mockito/internal/configuration/ClassPathLoader.java getMockMaker 93:95
+2021-07-04 09:38:20,073 DEBUG                  - depth 0, hash c478e6c, HEAD~102
+2021-07-04 09:38:20,079 DEBUG                  - depth 1, hash ce6b947, HEAD~109
+2021-07-04 09:38:20,083 DEBUG                  - depth 2, hash a4c2825, HEAD~114
+2021-07-04 09:38:20,087 DEBUG    [line range] org/mockito/internal/configuration/ClassPathLoader.java loadConfiguration 67:85
+2021-07-04 09:38:20,194 DEBUG                  - depth 0, hash 4c1a6c2, HEAD~76
+2021-07-04 09:38:20,199 DEBUG                  - depth 1, hash c478e6c, HEAD~102
+2021-07-04 09:38:20,203 DEBUG                  - depth 2, hash 75f7c13, HEAD~267
+2021-07-04 09:38:20,207 DEBUG                  - depth 3, hash d5d05a2, HEAD~930
+2021-07-04 09:38:20,211 DEBUG                  - depth 4, hash fca2c21, HEAD~949
+2021-07-04 09:38:20,215 DEBUG                  - depth 5, hash c81d6bd, HEAD~950
+2021-07-04 09:38:20,219 DEBUG    [line range] org/mockito/internal/configuration/ClassPathLoader.java loadImplementations 112:144
+2021-07-04 09:38:20,325 DEBUG                  - depth 0, hash 4c1a6c2, HEAD~76
+2021-07-04 09:38:20,330 DEBUG                  - depth 1, hash 1db289e, HEAD~83
+2021-07-04 09:38:20,334 DEBUG                  - depth 2, hash b74f891, HEAD~91
+2021-07-04 09:38:20,338 DEBUG                  - depth 3, hash c478e6c, HEAD~102
+2021-07-04 09:38:20,664 DEBUG    [line range] org/mockito/internal/configuration/DefaultAnnotationEngine.java <init> 30:30
+2021-07-04 09:38:20,770 DEBUG                  - depth 0, hash 5ea5f32, HEAD~86
+2021-07-04 09:38:20,776 DEBUG    [line range] org/mockito/internal/configuration/DefaultAnnotationEngine.java process 61:79
+2021-07-04 09:38:20,881 DEBUG                  - depth 0, hash f8f76a4, HEAD~262
+2021-07-04 09:38:20,887 DEBUG                  - depth 1, hash 038235e, HEAD~429
+2021-07-04 09:38:20,891 DEBUG                  - depth 2, hash 3275500, HEAD~436
+2021-07-04 09:38:20,895 DEBUG                  - depth 3, hash 896c61e, HEAD~439
+2021-07-04 09:38:20,899 DEBUG    [line range] org/mockito/internal/configuration/DefaultAnnotationEngine.java registerAnnotationProcessor 57:59
+2021-07-04 09:38:21,004 DEBUG                  - depth 0, hash 5ea5f32, HEAD~86
+2021-07-04 09:38:21,010 DEBUG                  - depth 1, hash fcb2441, HEAD~408
+2021-07-04 09:38:21,014 DEBUG                  - depth 2, hash 3275500, HEAD~436
+2021-07-04 09:38:21,292 DEBUG    [single line]   org/mockito/internal/configuration/DefaultInjectionEngine.java <init> 17
+2021-07-04 09:38:21,397 DEBUG                  - depth 0, hash 3275500, HEAD~436
+2021-07-04 09:38:21,403 DEBUG    [line range] org/mockito/internal/configuration/DefaultInjectionEngine.java injectMocksOnFields 19:26
+2021-07-04 09:38:21,509 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:21,514 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:21,518 DEBUG                  - depth 2, hash 0464f56, HEAD~250
+2021-07-04 09:38:21,522 DEBUG                  - depth 3, hash 3275500, HEAD~436
+2021-07-04 09:38:21,824 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java <clinit> 22:22
+2021-07-04 09:38:21,930 DEBUG                  - depth 0, hash c81d6bd, HEAD~950
+2021-07-04 09:38:21,935 DEBUG                  - depth 1, hash 863efe6, HEAD~964
+2021-07-04 09:38:21,939 DEBUG                  - depth 2, hash d56f3a5, HEAD~967
+2021-07-04 09:38:21,943 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java <init> 29:34
+2021-07-04 09:38:22,050 DEBUG                  - depth 0, hash 845aa65, HEAD~862
+2021-07-04 09:38:22,056 DEBUG                  - depth 1, hash c81d6bd, HEAD~950
+2021-07-04 09:38:22,060 DEBUG                  - depth 2, hash 863efe6, HEAD~964
+2021-07-04 09:38:22,064 DEBUG                  - depth 3, hash d56f3a5, HEAD~967
+2021-07-04 09:38:22,068 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java createConfig 36:44
+2021-07-04 09:38:22,174 DEBUG                  - depth 0, hash cbca8d0, HEAD~739
+2021-07-04 09:38:22,180 DEBUG                  - depth 1, hash 845aa65, HEAD~862
+2021-07-04 09:38:22,184 DEBUG                  - depth 2, hash 2a256b3, HEAD~936
+2021-07-04 09:38:22,188 DEBUG                  - depth 3, hash fca2c21, HEAD~949
+2021-07-04 09:38:22,192 DEBUG                  - depth 4, hash c81d6bd, HEAD~950
+2021-07-04 09:38:22,196 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java getAnnotationEngine 54:56
+2021-07-04 09:38:22,303 DEBUG                  - depth 0, hash 2a256b3, HEAD~936
+2021-07-04 09:38:22,308 DEBUG                  - depth 1, hash c81d6bd, HEAD~950
+2021-07-04 09:38:22,312 DEBUG                  - depth 2, hash 863efe6, HEAD~964
+2021-07-04 09:38:22,317 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java getIt 25:27
+2021-07-04 09:38:22,421 DEBUG                  - depth 0, hash 845aa65, HEAD~862
+2021-07-04 09:38:22,427 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java validate 46:48
+2021-07-04 09:38:22,533 DEBUG                  - depth 0, hash 2a256b3, HEAD~936
+2021-07-04 09:38:22,842 DEBUG    [single line]   org/mockito/internal/configuration/InjectingAnnotationEngine.java <init> 23
+2021-07-04 09:38:22,949 DEBUG                  - depth 0, hash 3275500, HEAD~436
+2021-07-04 09:38:22,954 DEBUG    [line range] org/mockito/internal/configuration/InjectingAnnotationEngine.java <init> 24:24
+2021-07-04 09:38:23,062 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:23,068 DEBUG                  - depth 1, hash 139fff9, HEAD~159
+2021-07-04 09:38:23,072 DEBUG                  - depth 2, hash 3275500, HEAD~436
+2021-07-04 09:38:23,076 DEBUG    [line range] org/mockito/internal/configuration/InjectingAnnotationEngine.java injectMocks 89:101
+2021-07-04 09:38:23,185 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:23,191 DEBUG                  - depth 1, hash b189ec7, HEAD~138
+2021-07-04 09:38:23,195 DEBUG                  - depth 2, hash d650bb8, HEAD~139
+2021-07-04 09:38:23,199 DEBUG                  - depth 3, hash 69d80a9, HEAD~140
+2021-07-04 09:38:23,203 DEBUG                  - depth 4, hash 139fff9, HEAD~159
+2021-07-04 09:38:23,207 DEBUG                  - depth 5, hash f920e3a, HEAD~212
+2021-07-04 09:38:23,211 DEBUG                  - depth 6, hash f8f76a4, HEAD~262
+2021-07-04 09:38:23,215 DEBUG                  - depth 7, hash 3275500, HEAD~436
+2021-07-04 09:38:23,220 DEBUG    [line range] org/mockito/internal/configuration/InjectingAnnotationEngine.java process 54:57
+2021-07-04 09:38:23,330 DEBUG                  - depth 0, hash f8f76a4, HEAD~262
+2021-07-04 09:38:23,335 DEBUG                  - depth 1, hash a154b66, HEAD~367
+2021-07-04 09:38:23,339 DEBUG                  - depth 2, hash 7482762, HEAD~414
+2021-07-04 09:38:23,343 DEBUG                  - depth 3, hash 9e72ead, HEAD~422
+2021-07-04 09:38:23,347 DEBUG                  - depth 4, hash 3fc9e27, HEAD~423
+2021-07-04 09:38:23,352 DEBUG                  - depth 5, hash 3275500, HEAD~436
+2021-07-04 09:38:23,356 DEBUG    [line range] org/mockito/internal/configuration/InjectingAnnotationEngine.java processIndependentAnnotations 67:77
+2021-07-04 09:38:23,466 DEBUG                  - depth 0, hash f8f76a4, HEAD~262
+2021-07-04 09:38:23,472 DEBUG                  - depth 1, hash 3275500, HEAD~436
+2021-07-04 09:38:23,476 DEBUG    [line range] org/mockito/internal/configuration/InjectingAnnotationEngine.java processInjectMocks 59:65
+2021-07-04 09:38:23,587 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:23,593 DEBUG                  - depth 1, hash f8f76a4, HEAD~262
+2021-07-04 09:38:23,597 DEBUG                  - depth 2, hash a154b66, HEAD~367
+2021-07-04 09:38:23,601 DEBUG                  - depth 3, hash 7482762, HEAD~414
+2021-07-04 09:38:23,605 DEBUG                  - depth 4, hash 9e72ead, HEAD~422
+2021-07-04 09:38:23,609 DEBUG                  - depth 5, hash 3fc9e27, HEAD~423
+2021-07-04 09:38:23,613 DEBUG                  - depth 6, hash 3275500, HEAD~436
+2021-07-04 09:38:23,886 DEBUG    [single line]   org/mockito/internal/configuration/MockAnnotationProcessor.java process 16
+2021-07-04 09:38:23,991 DEBUG                  - depth 0, hash 5ea5f32, HEAD~86
+2021-07-04 09:38:24,277 DEBUG    [single line]   org/mockito/internal/configuration/MockitoAnnotationsMockAnnotationProcessor.java <init> 16
+2021-07-04 09:38:24,383 DEBUG                  - depth 0, hash 5ea5f32, HEAD~86
+2021-07-04 09:38:24,687 DEBUG    [single line]   org/mockito/internal/configuration/SpyAnnotationEngine.java <init> 39
+2021-07-04 09:38:24,793 DEBUG                  - depth 0, hash 3275500, HEAD~436
+2021-07-04 09:38:24,798 DEBUG    [line range] org/mockito/internal/configuration/SpyAnnotationEngine.java process 45:75
+2021-07-04 09:38:24,909 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:24,914 DEBUG                  - depth 1, hash 5a4cdb5, HEAD~213
+2021-07-04 09:38:24,918 DEBUG                  - depth 2, hash f8f76a4, HEAD~262
+2021-07-04 09:38:24,922 DEBUG                  - depth 3, hash 0b58c2f, HEAD~286
+2021-07-04 09:38:24,926 DEBUG                  - depth 4, hash 4a5eb95, HEAD~287
+2021-07-04 09:38:24,930 DEBUG                  - depth 5, hash c8e8151, HEAD~288
+2021-07-04 09:38:24,934 DEBUG                  - depth 6, hash 9386360, HEAD~290
+2021-07-04 09:38:24,938 DEBUG                  - depth 7, hash 4f7060c, HEAD~304
+2021-07-04 09:38:24,942 DEBUG                  - depth 8, hash a154b66, HEAD~367
+2021-07-04 09:38:24,947 DEBUG                  - depth 9, hash 0e8d5f0, HEAD~407
+2021-07-04 09:38:24,951 DEBUG                  - depth 10, hash c58e16c, HEAD~418
+2021-07-04 09:38:24,955 DEBUG                  - depth 11, hash 3275500, HEAD~436
+2021-07-04 09:38:25,265 DEBUG    [line range] org/mockito/internal/configuration/injection/ConstructorInjection.java <init> 42:42
+2021-07-04 09:38:25,373 DEBUG                  - depth 0, hash 5a4cdb5, HEAD~213
+2021-07-04 09:38:25,691 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java onFields 47:49
+2021-07-04 09:38:25,797 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:25,803 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java <init> 55:55
+2021-07-04 09:38:25,908 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:25,914 DEBUG    [single line]   org/mockito/internal/configuration/injection/MockInjection.java <init> 54
+2021-07-04 09:38:26,020 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:26,026 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java apply 90:95
+2021-07-04 09:38:26,132 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:26,137 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:26,141 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java handleSpyAnnotation 85:88
+2021-07-04 09:38:26,247 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:26,253 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:26,257 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java tryConstructorInjection 75:78
+2021-07-04 09:38:26,363 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:26,368 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:26,372 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java tryPropertyOrFieldInjection 80:83
+2021-07-04 09:38:26,479 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:26,484 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:26,488 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjection.java withMocks 70:73
+2021-07-04 09:38:26,599 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:26,896 DEBUG    [single line]   org/mockito/internal/configuration/injection/MockInjectionStrategy.java <init> 14
+2021-07-04 09:38:27,002 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:27,008 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjectionStrategy.java nop 19:25
+2021-07-04 09:38:27,114 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:27,119 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjectionStrategy.java thenTry 40:47
+2021-07-04 09:38:27,226 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:27,232 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:27,236 DEBUG    [line range] org/mockito/internal/configuration/injection/MockInjectionStrategy.java <init> 19:25
+2021-07-04 09:38:27,342 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:27,661 DEBUG    [single line]   org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java <init> 51
+2021-07-04 09:38:27,769 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:27,774 DEBUG    [line range] org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java <init> 53:53
+2021-07-04 09:38:27,881 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:27,887 DEBUG    [line range] org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java compare 54:67
+2021-07-04 09:38:27,992 DEBUG                  - depth 0, hash 76d7bfb, HEAD~189
+2021-07-04 09:38:27,998 DEBUG                  - depth 1, hash 377de51, HEAD~214
+2021-07-04 09:38:28,002 DEBUG    [line range] org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java isOut 69:73
+2021-07-04 09:38:28,111 DEBUG                  - depth 0, hash 76d7bfb, HEAD~189
+2021-07-04 09:38:28,413 DEBUG    [single line]   org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler.java <init> 28
+2021-07-04 09:38:28,520 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:28,813 DEBUG    [single line]   org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java <init> 22
+2021-07-04 09:38:28,919 DEBUG                  - depth 0, hash 77c6703, HEAD~276
+2021-07-04 09:38:29,202 DEBUG    [line range] org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java <init> 16:16
+2021-07-04 09:38:29,308 DEBUG                  - depth 0, hash 77c6703, HEAD~276
+2021-07-04 09:38:29,585 DEBUG    [line range] org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java <init> 16:18
+2021-07-04 09:38:29,690 DEBUG                  - depth 0, hash 77c6703, HEAD~276
+2021-07-04 09:38:30,000 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java <init> 29:31
+2021-07-04 09:38:30,106 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:30,111 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java addTo 39:41
+2021-07-04 09:38:30,218 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:30,223 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java scan 48:59
+2021-07-04 09:38:30,333 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:30,658 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/MockScanner.java <init> 22:22
+2021-07-04 09:38:30,765 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:30,770 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/MockScanner.java addPreparedMocks 46:48
+2021-07-04 09:38:30,876 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:30,882 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/MockScanner.java isAnnotatedByMockOrSpy 79:83
+2021-07-04 09:38:30,988 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:30,994 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/MockScanner.java isMockOrSpy 85:88
+2021-07-04 09:38:31,100 DEBUG                  - depth 0, hash d650bb8, HEAD~139
+2021-07-04 09:38:31,106 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/MockScanner.java preparedMock 69:77
+2021-07-04 09:38:31,211 DEBUG                  - depth 0, hash 427bc00, HEAD~29
+2021-07-04 09:38:31,217 DEBUG                  - depth 1, hash d650bb8, HEAD~139
+2021-07-04 09:38:31,221 DEBUG    [line range] org/mockito/internal/configuration/injection/scanner/MockScanner.java scan 55:67
+2021-07-04 09:38:31,331 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:31,336 DEBUG                  - depth 1, hash d650bb8, HEAD~139
+2021-07-04 09:38:31,630 DEBUG    [single line]   org/mockito/internal/creation/CglibMockMaker.java <init> 19
+2021-07-04 09:38:31,737 DEBUG                  - depth 0, hash ce6b947, HEAD~109
+2021-07-04 09:38:31,743 DEBUG                  - depth 1, hash a4c2825, HEAD~114
+2021-07-04 09:38:31,747 DEBUG    [line range] org/mockito/internal/creation/CglibMockMaker.java getHandler 39:49
+2021-07-04 09:38:31,852 DEBUG                  - depth 0, hash c45a107, HEAD~20
+2021-07-04 09:38:31,857 DEBUG                  - depth 1, hash a4c2825, HEAD~114
+2021-07-04 09:38:32,185 DEBUG    [single line]   org/mockito/internal/progress/ArgumentMatcherStorageImpl.java <init> 22
+2021-07-04 09:38:32,299 DEBUG                  - depth 0, hash 6d73019, HEAD~984
+2021-07-04 09:38:32,304 DEBUG                  - depth 1, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:32,309 DEBUG    [line range] org/mockito/internal/progress/ArgumentMatcherStorageImpl.java <init> 26:26
+2021-07-04 09:38:32,418 DEBUG                  - depth 0, hash 3838394, HEAD~884
+2021-07-04 09:38:32,423 DEBUG                  - depth 1, hash bf4eec3, HEAD~1424
+2021-07-04 09:38:32,427 DEBUG                  - depth 2, hash e40088f, HEAD~1497
+2021-07-04 09:38:32,432 DEBUG                  - depth 3, hash db7de1b, HEAD~1620
+2021-07-04 09:38:32,436 DEBUG                  - depth 4, hash 5f41dde, HEAD~1723
+2021-07-04 09:38:32,440 DEBUG                  - depth 5, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:32,444 DEBUG    [line range] org/mockito/internal/progress/ArgumentMatcherStorageImpl.java validateState 111:117
+2021-07-04 09:38:32,550 DEBUG                  - depth 0, hash 6f0861d, HEAD~97
+2021-07-04 09:38:32,556 DEBUG                  - depth 1, hash 3838394, HEAD~884
+2021-07-04 09:38:32,560 DEBUG                  - depth 2, hash e825562, HEAD~986
+2021-07-04 09:38:32,564 DEBUG                  - depth 3, hash c671cab, HEAD~1000
+2021-07-04 09:38:32,568 DEBUG                  - depth 4, hash 2903175, HEAD~1001
+2021-07-04 09:38:32,898 DEBUG    [single line]   org/mockito/internal/progress/MockingProgressImpl.java <init> 20
+2021-07-04 09:38:33,007 DEBUG                  - depth 0, hash 5906934, HEAD~1589
+2021-07-04 09:38:33,013 DEBUG                  - depth 1, hash a925c01, HEAD~1596
+2021-07-04 09:38:33,017 DEBUG    [line range] org/mockito/internal/progress/MockingProgressImpl.java <init> 22:22
+2021-07-04 09:38:33,128 DEBUG                  - depth 0, hash bcc618a, HEAD~1568
+2021-07-04 09:38:33,133 DEBUG    [line range] org/mockito/internal/progress/MockingProgressImpl.java getArgumentMatcherStorage 109:111
+2021-07-04 09:38:33,244 DEBUG                  - depth 0, hash 6d73019, HEAD~984
+2021-07-04 09:38:33,249 DEBUG                  - depth 1, hash affa89d, HEAD~985
+2021-07-04 09:38:33,253 DEBUG    [line range] org/mockito/internal/progress/MockingProgressImpl.java validateMostStuff 79:91
+2021-07-04 09:38:33,366 DEBUG                  - depth 0, hash d87b82c, HEAD~57
+2021-07-04 09:38:33,371 DEBUG                  - depth 1, hash 87670dc, HEAD~63
+2021-07-04 09:38:33,376 DEBUG                  - depth 2, hash bb56055, HEAD~282
+2021-07-04 09:38:33,380 DEBUG                  - depth 3, hash ec4c199, HEAD~871
+2021-07-04 09:38:33,384 DEBUG                  - depth 4, hash 0d3aae0, HEAD~872
+2021-07-04 09:38:33,388 DEBUG                  - depth 5, hash b7b9c5c, HEAD~873
+2021-07-04 09:38:33,392 DEBUG                  - depth 6, hash 05930a3, HEAD~901
+2021-07-04 09:38:33,396 DEBUG                  - depth 7, hash d5d05a2, HEAD~930
+2021-07-04 09:38:33,400 DEBUG                  - depth 8, hash c81d6bd, HEAD~950
+2021-07-04 09:38:33,405 DEBUG                  - depth 9, hash 6d73019, HEAD~984
+2021-07-04 09:38:33,409 DEBUG                  - depth 10, hash affa89d, HEAD~985
+2021-07-04 09:38:33,413 DEBUG                  - depth 11, hash c671cab, HEAD~1000
+2021-07-04 09:38:33,417 DEBUG                  - depth 12, hash 2903175, HEAD~1001
+2021-07-04 09:38:33,421 DEBUG                  - depth 13, hash bcc618a, HEAD~1568
+2021-07-04 09:38:33,425 DEBUG                  - depth 14, hash b317fc2, HEAD~1570
+2021-07-04 09:38:33,430 DEBUG                  - depth 15, hash 9952454, HEAD~1590
+2021-07-04 09:38:33,434 DEBUG                  - depth 16, hash a925c01, HEAD~1596
+2021-07-04 09:38:33,438 DEBUG    [line range] org/mockito/internal/progress/MockingProgressImpl.java validateState 68:77
+2021-07-04 09:38:33,550 DEBUG                  - depth 0, hash d87b82c, HEAD~57
+2021-07-04 09:38:33,556 DEBUG                  - depth 1, hash 87670dc, HEAD~63
+2021-07-04 09:38:33,560 DEBUG                  - depth 2, hash bb56055, HEAD~282
+2021-07-04 09:38:33,564 DEBUG                  - depth 3, hash a925c01, HEAD~1596
+2021-07-04 09:38:33,860 DEBUG    [line range] org/mockito/internal/progress/ThreadSafeMockingProgress.java <clinit> 19:19
+2021-07-04 09:38:33,969 DEBUG                  - depth 0, hash 5906934, HEAD~1589
+2021-07-04 09:38:33,975 DEBUG                  - depth 1, hash 9952454, HEAD~1590
+2021-07-04 09:38:33,979 DEBUG    [single line]   org/mockito/internal/progress/ThreadSafeMockingProgress.java <init> 16
+2021-07-04 09:38:34,087 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:38:34,093 DEBUG                  - depth 1, hash 5906934, HEAD~1589
+2021-07-04 09:38:34,097 DEBUG                  - depth 2, hash 9952454, HEAD~1590
+2021-07-04 09:38:34,101 DEBUG    [line range] org/mockito/internal/progress/ThreadSafeMockingProgress.java threadSafely 21:26
+2021-07-04 09:38:34,210 DEBUG                  - depth 0, hash 5906934, HEAD~1589
+2021-07-04 09:38:34,216 DEBUG                  - depth 1, hash 9952454, HEAD~1590
+2021-07-04 09:38:34,220 DEBUG    [line range] org/mockito/internal/progress/ThreadSafeMockingProgress.java validateState 48:50
+2021-07-04 09:38:34,327 DEBUG                  - depth 0, hash 9952454, HEAD~1590
+2021-07-04 09:38:34,654 DEBUG    [single line]   org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java <init> 55
+2021-07-04 09:38:34,765 DEBUG                  - depth 0, hash 3930b7d, HEAD~498
+2021-07-04 09:38:34,771 DEBUG                  - depth 1, hash f375e67, HEAD~738
+2021-07-04 09:38:34,775 DEBUG                  - depth 2, hash cbca8d0, HEAD~739
+2021-07-04 09:38:34,779 DEBUG                  - depth 3, hash 863efe6, HEAD~964
+2021-07-04 09:38:34,783 DEBUG                  - depth 4, hash cca6a04, HEAD~1337
+2021-07-04 09:38:34,787 DEBUG                  - depth 5, hash 554224f, HEAD~1597
+2021-07-04 09:38:34,792 DEBUG                  - depth 6, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:34,796 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java <init> 58:58
+2021-07-04 09:38:34,902 DEBUG                  - depth 0, hash db1c0c1, HEAD~278
+2021-07-04 09:38:34,907 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java primitiveOf 123:131
+2021-07-04 09:38:35,014 DEBUG                  - depth 0, hash 0bbd226, HEAD~1305
+2021-07-04 09:38:35,020 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java returnValueFor 83:121
+2021-07-04 09:38:35,131 DEBUG                  - depth 0, hash 739fe2c, HEAD~1104
+2021-07-04 09:38:35,136 DEBUG                  - depth 1, hash 3761b54, HEAD~1284
+2021-07-04 09:38:35,141 DEBUG                  - depth 2, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:35,145 DEBUG                  - depth 3, hash 0bbd226, HEAD~1305
+2021-07-04 09:38:35,149 DEBUG                  - depth 4, hash f6f67c9, HEAD~1308
+2021-07-04 09:38:35,153 DEBUG                  - depth 5, hash 9068339, HEAD~1313
+2021-07-04 09:38:35,157 DEBUG                  - depth 6, hash cca6a04, HEAD~1337
+2021-07-04 09:38:35,161 DEBUG                  - depth 7, hash b2e5e09, HEAD~1419
+2021-07-04 09:38:35,165 DEBUG                  - depth 8, hash 7862120, HEAD~1552
+2021-07-04 09:38:35,170 DEBUG                  - depth 9, hash 554224f, HEAD~1597
+2021-07-04 09:38:35,174 DEBUG                  - depth 10, hash 80279d6, HEAD~1693
+2021-07-04 09:38:35,178 DEBUG                  - depth 11, hash 2bfc39b, HEAD~1748
+2021-07-04 09:38:35,182 DEBUG                  - depth 12, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:35,462 DEBUG    [line range] org/mockito/internal/util/Checks.java checkItemsNotNull 20:26
+2021-07-04 09:38:35,568 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:35,574 DEBUG    [line range] org/mockito/internal/util/Checks.java checkNotNull 13:18
+2021-07-04 09:38:35,681 DEBUG                  - depth 0, hash 377de51, HEAD~214
+2021-07-04 09:38:36,003 DEBUG    [line range] org/mockito/internal/util/MockUtil.java <clinit> 21:21
+2021-07-04 09:38:36,111 DEBUG                  - depth 0, hash ce6b947, HEAD~109
+2021-07-04 09:38:36,117 DEBUG                  - depth 1, hash a4c2825, HEAD~114
+2021-07-04 09:38:36,121 DEBUG                  - depth 2, hash f65173b, HEAD~767
+2021-07-04 09:38:36,125 DEBUG    [single line]   org/mockito/internal/util/MockUtil.java <init> 19
+2021-07-04 09:38:36,236 DEBUG                  - depth 0, hash 51aca50, HEAD~893
+2021-07-04 09:38:36,241 DEBUG                  - depth 1, hash e29a99e, HEAD~921
+2021-07-04 09:38:36,245 DEBUG                  - depth 2, hash 454dd73, HEAD~963
+2021-07-04 09:38:36,250 DEBUG                  - depth 3, hash 7620b0f, HEAD~998
+2021-07-04 09:38:36,254 DEBUG                  - depth 4, hash 2903175, HEAD~1001
+2021-07-04 09:38:36,258 DEBUG                  - depth 5, hash f79e36a, HEAD~1013
+2021-07-04 09:38:36,262 DEBUG                  - depth 6, hash 52929f4, HEAD~1096
+2021-07-04 09:38:36,266 DEBUG                  - depth 7, hash 7454526, HEAD~1187
+2021-07-04 09:38:36,270 DEBUG                  - depth 8, hash e837d72, HEAD~1193
+2021-07-04 09:38:36,274 DEBUG                  - depth 9, hash a763056, HEAD~1196
+2021-07-04 09:38:36,279 DEBUG                  - depth 10, hash 816c032, HEAD~1212
+2021-07-04 09:38:36,283 DEBUG                  - depth 11, hash 6519fea, HEAD~1213
+2021-07-04 09:38:36,287 DEBUG                  - depth 12, hash 14065be, HEAD~1217
+2021-07-04 09:38:36,291 DEBUG                  - depth 13, hash 17fa583, HEAD~1295
+2021-07-04 09:38:36,295 DEBUG                  - depth 14, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:36,299 DEBUG                  - depth 15, hash beb51da, HEAD~1431
+2021-07-04 09:38:36,304 DEBUG                  - depth 16, hash 98d682f, HEAD~1534
+2021-07-04 09:38:36,308 DEBUG                  - depth 17, hash 9137775, HEAD~1542
+2021-07-04 09:38:36,312 DEBUG                  - depth 18, hash d15cf26, HEAD~1547
+2021-07-04 09:38:36,316 DEBUG                  - depth 19, hash d721a5a, HEAD~1551
+2021-07-04 09:38:36,320 DEBUG                  - depth 20, hash 9952454, HEAD~1590
+2021-07-04 09:38:36,324 DEBUG                  - depth 21, hash 102b334, HEAD~1602
+2021-07-04 09:38:36,329 DEBUG                  - depth 22, hash 5608ca4, HEAD~1604
+2021-07-04 09:38:36,333 DEBUG                  - depth 23, hash 5f9f61a, HEAD~1687
+2021-07-04 09:38:36,337 DEBUG                  - depth 24, hash f28e6c5, HEAD~1716
+2021-07-04 09:38:36,341 DEBUG                  - depth 25, hash 1e11bf4, HEAD~1717
+2021-07-04 09:38:36,345 DEBUG                  - depth 26, hash 809316f, HEAD~1721
+2021-07-04 09:38:36,350 DEBUG                  - depth 27, hash 7cd8b31, HEAD~1722
+2021-07-04 09:38:36,354 DEBUG                  - depth 28, hash 55db3c7, HEAD~1729
+2021-07-04 09:38:36,358 DEBUG                  - depth 29, hash 11dff22, HEAD~1735
+2021-07-04 09:38:36,362 DEBUG                  - depth 30, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:36,366 DEBUG    [line range] org/mockito/internal/util/MockUtil.java isMock 56:58
+2021-07-04 09:38:36,481 DEBUG                  - depth 0, hash 7167392, HEAD~766
+2021-07-04 09:38:36,486 DEBUG                  - depth 1, hash 51aca50, HEAD~893
+2021-07-04 09:38:36,490 DEBUG                  - depth 2, hash e29a99e, HEAD~921
+2021-07-04 09:38:36,495 DEBUG                  - depth 3, hash 454dd73, HEAD~963
+2021-07-04 09:38:36,499 DEBUG                  - depth 4, hash 7620b0f, HEAD~998
+2021-07-04 09:38:36,503 DEBUG                  - depth 5, hash 2903175, HEAD~1001
+2021-07-04 09:38:36,507 DEBUG                  - depth 6, hash f79e36a, HEAD~1013
+2021-07-04 09:38:36,511 DEBUG                  - depth 7, hash 52929f4, HEAD~1096
+2021-07-04 09:38:36,515 DEBUG                  - depth 8, hash 7454526, HEAD~1187
+2021-07-04 09:38:36,520 DEBUG                  - depth 9, hash e837d72, HEAD~1193
+2021-07-04 09:38:36,524 DEBUG                  - depth 10, hash a763056, HEAD~1196
+2021-07-04 09:38:36,528 DEBUG                  - depth 11, hash 816c032, HEAD~1212
+2021-07-04 09:38:36,532 DEBUG                  - depth 12, hash 6519fea, HEAD~1213
+2021-07-04 09:38:36,536 DEBUG                  - depth 13, hash 14065be, HEAD~1217
+2021-07-04 09:38:36,541 DEBUG                  - depth 14, hash 17fa583, HEAD~1295
+2021-07-04 09:38:36,545 DEBUG                  - depth 15, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:36,549 DEBUG                  - depth 16, hash beb51da, HEAD~1431
+2021-07-04 09:38:36,553 DEBUG                  - depth 17, hash 98d682f, HEAD~1534
+2021-07-04 09:38:36,557 DEBUG                  - depth 18, hash 9137775, HEAD~1542
+2021-07-04 09:38:36,562 DEBUG                  - depth 19, hash d15cf26, HEAD~1547
+2021-07-04 09:38:36,566 DEBUG                  - depth 20, hash d721a5a, HEAD~1551
+2021-07-04 09:38:36,570 DEBUG                  - depth 21, hash 9952454, HEAD~1590
+2021-07-04 09:38:36,574 DEBUG                  - depth 22, hash 102b334, HEAD~1602
+2021-07-04 09:38:36,578 DEBUG                  - depth 23, hash 5608ca4, HEAD~1604
+2021-07-04 09:38:36,583 DEBUG                  - depth 24, hash 5f9f61a, HEAD~1687
+2021-07-04 09:38:36,587 DEBUG                  - depth 25, hash f28e6c5, HEAD~1716
+2021-07-04 09:38:36,591 DEBUG                  - depth 26, hash 1e11bf4, HEAD~1717
+2021-07-04 09:38:36,595 DEBUG                  - depth 27, hash 809316f, HEAD~1721
+2021-07-04 09:38:36,600 DEBUG                  - depth 28, hash 7cd8b31, HEAD~1722
+2021-07-04 09:38:36,604 DEBUG                  - depth 29, hash 55db3c7, HEAD~1729
+2021-07-04 09:38:36,608 DEBUG                  - depth 30, hash 11dff22, HEAD~1735
+2021-07-04 09:38:36,612 DEBUG                  - depth 31, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:36,616 DEBUG    [line range] org/mockito/internal/util/MockUtil.java isMockitoMock 64:66
+2021-07-04 09:38:36,731 DEBUG                  - depth 0, hash a4c2825, HEAD~114
+2021-07-04 09:38:36,737 DEBUG                  - depth 1, hash 139fff9, HEAD~159
+2021-07-04 09:38:36,741 DEBUG                  - depth 2, hash 4e41ad7, HEAD~344
+2021-07-04 09:38:36,745 DEBUG                  - depth 3, hash b88d360, HEAD~645
+2021-07-04 09:38:36,749 DEBUG                  - depth 4, hash 7167392, HEAD~766
+2021-07-04 09:38:36,754 DEBUG                  - depth 5, hash 51aca50, HEAD~893
+2021-07-04 09:38:36,758 DEBUG                  - depth 6, hash e29a99e, HEAD~921
+2021-07-04 09:38:36,762 DEBUG                  - depth 7, hash 454dd73, HEAD~963
+2021-07-04 09:38:36,766 DEBUG                  - depth 8, hash 7620b0f, HEAD~998
+2021-07-04 09:38:36,771 DEBUG                  - depth 9, hash 2903175, HEAD~1001
+2021-07-04 09:38:36,775 DEBUG                  - depth 10, hash f79e36a, HEAD~1013
+2021-07-04 09:38:36,779 DEBUG                  - depth 11, hash 52929f4, HEAD~1096
+2021-07-04 09:38:36,784 DEBUG                  - depth 12, hash 7454526, HEAD~1187
+2021-07-04 09:38:36,788 DEBUG                  - depth 13, hash e837d72, HEAD~1193
+2021-07-04 09:38:36,792 DEBUG                  - depth 14, hash a763056, HEAD~1196
+2021-07-04 09:38:36,796 DEBUG                  - depth 15, hash 816c032, HEAD~1212
+2021-07-04 09:38:36,801 DEBUG                  - depth 16, hash 6519fea, HEAD~1213
+2021-07-04 09:38:36,805 DEBUG                  - depth 17, hash 14065be, HEAD~1217
+2021-07-04 09:38:36,809 DEBUG                  - depth 18, hash 17fa583, HEAD~1295
+2021-07-04 09:38:36,813 DEBUG                  - depth 19, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:36,818 DEBUG                  - depth 20, hash beb51da, HEAD~1431
+2021-07-04 09:38:36,822 DEBUG                  - depth 21, hash 98d682f, HEAD~1534
+2021-07-04 09:38:36,826 DEBUG                  - depth 22, hash 9137775, HEAD~1542
+2021-07-04 09:38:36,830 DEBUG                  - depth 23, hash d15cf26, HEAD~1547
+2021-07-04 09:38:36,835 DEBUG                  - depth 24, hash d721a5a, HEAD~1551
+2021-07-04 09:38:36,839 DEBUG                  - depth 25, hash 9952454, HEAD~1590
+2021-07-04 09:38:36,843 DEBUG                  - depth 26, hash 102b334, HEAD~1602
+2021-07-04 09:38:36,847 DEBUG                  - depth 27, hash 5608ca4, HEAD~1604
+2021-07-04 09:38:36,852 DEBUG                  - depth 28, hash 5f9f61a, HEAD~1687
+2021-07-04 09:38:36,856 DEBUG                  - depth 29, hash f28e6c5, HEAD~1716
+2021-07-04 09:38:36,860 DEBUG                  - depth 30, hash 1e11bf4, HEAD~1717
+2021-07-04 09:38:36,865 DEBUG                  - depth 31, hash 809316f, HEAD~1721
+2021-07-04 09:38:36,869 DEBUG                  - depth 32, hash 7cd8b31, HEAD~1722
+2021-07-04 09:38:36,873 DEBUG                  - depth 33, hash 55db3c7, HEAD~1729
+2021-07-04 09:38:36,877 DEBUG                  - depth 34, hash 11dff22, HEAD~1735
+2021-07-04 09:38:36,882 DEBUG                  - depth 35, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:36,886 DEBUG    [line range] org/mockito/internal/util/MockUtil.java isSpy 60:62
+2021-07-04 09:38:36,997 DEBUG                  - depth 0, hash 139fff9, HEAD~159
+2021-07-04 09:38:37,288 DEBUG    [single line]   org/mockito/internal/util/ObjectMethodsGuru.java <init> 13
+2021-07-04 09:38:37,394 DEBUG                  - depth 0, hash f03b7ce, HEAD~611
+2021-07-04 09:38:37,399 DEBUG                  - depth 1, hash 5c3490a, HEAD~614
+2021-07-04 09:38:37,734 DEBUG    [single line]   org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java <clinit> 32
+2021-07-04 09:38:37,840 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:37,845 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java <init> 34:34
+2021-07-04 09:38:37,952 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:37,957 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java addAll 123:125
+2021-07-04 09:38:38,063 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:38,069 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java asWrappedMocks 131:139
+2021-07-04 09:38:38,174 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:38,180 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java iterator 36:52
+2021-07-04 09:38:38,290 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:38,295 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java of 149:157
+2021-07-04 09:38:38,400 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:38,406 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java of 145:147
+2021-07-04 09:38:38,515 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:38,520 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java <init> 36:52
+2021-07-04 09:38:38,625 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:38,631 DEBUG    [line range] org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java hasNext 36:52
+2021-07-04 09:38:38,740 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:39,019 DEBUG    [line range] org/mockito/internal/util/collections/Sets.java newMockSafeHashSet 19:21
+2021-07-04 09:38:39,126 DEBUG                  - depth 0, hash 8bc5850, HEAD~93
+2021-07-04 09:38:39,411 DEBUG    [single line]   org/mockito/internal/util/reflection/AccessibilityChanger.java <clinit> 9
+2021-07-04 09:38:39,516 DEBUG                  - depth 0, hash 3b9bd5f, HEAD~774
+2021-07-04 09:38:39,522 DEBUG    [line range] org/mockito/internal/util/reflection/AccessibilityChanger.java <init> 11:11
+2021-07-04 09:38:39,628 DEBUG                  - depth 0, hash 3b9bd5f, HEAD~774
+2021-07-04 09:38:39,633 DEBUG    [line range] org/mockito/internal/util/reflection/AccessibilityChanger.java enableAccess 28:31
+2021-07-04 09:38:39,739 DEBUG                  - depth 0, hash 9386360, HEAD~290
+2021-07-04 09:38:39,745 DEBUG                  - depth 1, hash 3b9bd5f, HEAD~774
+2021-07-04 09:38:40,034 DEBUG    [line range] org/mockito/internal/util/reflection/FieldReader.java <init> 15:15
+2021-07-04 09:38:40,140 DEBUG                  - depth 0, hash c58e16c, HEAD~418
+2021-07-04 09:38:40,146 DEBUG    [line range] org/mockito/internal/util/reflection/FieldReader.java read 27:33
+2021-07-04 09:38:40,252 DEBUG                  - depth 0, hash f920e3a, HEAD~212
+2021-07-04 09:38:40,257 DEBUG                  - depth 1, hash c58e16c, HEAD~418
+2021-07-04 09:38:40,554 DEBUG    [single line]   org/mockito/Answers.java <clinit> 25
+2021-07-04 09:38:40,660 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:40,666 DEBUG    [single line]   org/mockito/Answers.java <clinit> 34
+2021-07-04 09:38:40,771 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:40,776 DEBUG    [single line]   org/mockito/Answers.java <clinit> 43
+2021-07-04 09:38:40,882 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:40,888 DEBUG    [single line]   org/mockito/Answers.java <clinit> 52
+2021-07-04 09:38:40,992 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:40,998 DEBUG    [single line]   org/mockito/Answers.java <clinit> 62
+2021-07-04 09:38:41,103 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:41,109 DEBUG    [single line]   org/mockito/Answers.java <clinit> 71
+2021-07-04 09:38:41,214 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:41,219 DEBUG    [line range] org/mockito/Answers.java <init> 76:78
+2021-07-04 09:38:41,324 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:41,330 DEBUG    [line range] org/mockito/Answers.java get 80:82
+2021-07-04 09:38:41,434 DEBUG                  - depth 0, hash 77fea3d, HEAD~395
+2021-07-04 09:38:41,796 DEBUG    [line range] org/mockito/Matchers.java <clinit> 107:107
+2021-07-04 09:38:41,915 DEBUG                  - depth 0, hash d94c8c1, HEAD~888
+2021-07-04 09:38:41,920 DEBUG                  - depth 1, hash 7035637, HEAD~945
+2021-07-04 09:38:41,924 DEBUG                  - depth 2, hash 863efe6, HEAD~964
+2021-07-04 09:38:41,929 DEBUG                  - depth 3, hash 6d73019, HEAD~984
+2021-07-04 09:38:41,933 DEBUG                  - depth 4, hash affa89d, HEAD~985
+2021-07-04 09:38:41,937 DEBUG                  - depth 5, hash e6759cc, HEAD~1066
+2021-07-04 09:38:41,941 DEBUG                  - depth 6, hash 63fbcc7, HEAD~1067
+2021-07-04 09:38:41,945 DEBUG                  - depth 7, hash 9d1a555, HEAD~1108
+2021-07-04 09:38:41,950 DEBUG                  - depth 8, hash 97194a6, HEAD~1138
+2021-07-04 09:38:41,954 DEBUG                  - depth 9, hash eb1110e, HEAD~1165
+2021-07-04 09:38:41,958 DEBUG                  - depth 10, hash b0c3487, HEAD~1195
+2021-07-04 09:38:41,962 DEBUG                  - depth 11, hash e71e3d3, HEAD~1226
+2021-07-04 09:38:41,967 DEBUG                  - depth 12, hash b29cc4b, HEAD~1231
+2021-07-04 09:38:41,971 DEBUG                  - depth 13, hash a56149b, HEAD~1239
+2021-07-04 09:38:41,975 DEBUG                  - depth 14, hash 56b3503, HEAD~1243
+2021-07-04 09:38:41,979 DEBUG                  - depth 15, hash a0e3112, HEAD~1334
+2021-07-04 09:38:41,984 DEBUG                  - depth 16, hash f123fe1, HEAD~1342
+2021-07-04 09:38:41,988 DEBUG                  - depth 17, hash 03444ce, HEAD~1349
+2021-07-04 09:38:41,992 DEBUG                  - depth 18, hash 4f7f2f1, HEAD~1351
+2021-07-04 09:38:41,996 DEBUG                  - depth 19, hash 868fcb0, HEAD~1354
+2021-07-04 09:38:42,001 DEBUG                  - depth 20, hash 1b1c8f7, HEAD~1363
+2021-07-04 09:38:42,005 DEBUG                  - depth 21, hash b866779, HEAD~1365
+2021-07-04 09:38:42,009 DEBUG                  - depth 22, hash 05c8ca8, HEAD~1398
+2021-07-04 09:38:42,013 DEBUG                  - depth 23, hash 5b494bf, HEAD~1400
+2021-07-04 09:38:42,018 DEBUG                  - depth 24, hash 83e1a6d, HEAD~1403
+2021-07-04 09:38:42,022 DEBUG                  - depth 25, hash 85cc060, HEAD~1405
+2021-07-04 09:38:42,026 DEBUG                  - depth 26, hash 56d884c, HEAD~1406
+2021-07-04 09:38:42,030 DEBUG                  - depth 27, hash feb23b0, HEAD~1408
+2021-07-04 09:38:42,034 DEBUG                  - depth 28, hash bda14b0, HEAD~1421
+2021-07-04 09:38:42,039 DEBUG                  - depth 29, hash bf4eec3, HEAD~1424
+2021-07-04 09:38:42,043 DEBUG                  - depth 30, hash 71450e5, HEAD~1425
+2021-07-04 09:38:42,047 DEBUG                  - depth 31, hash df23bd3, HEAD~1427
+2021-07-04 09:38:42,051 DEBUG                  - depth 32, hash 824fbd7, HEAD~1440
+2021-07-04 09:38:42,056 DEBUG                  - depth 33, hash 6127c09, HEAD~1475
+2021-07-04 09:38:42,060 DEBUG                  - depth 34, hash bbd8d3c, HEAD~1476
+2021-07-04 09:38:42,064 DEBUG                  - depth 35, hash 331f9b9, HEAD~1477
+2021-07-04 09:38:42,068 DEBUG                  - depth 36, hash 8ddb75e, HEAD~1479
+2021-07-04 09:38:42,073 DEBUG                  - depth 37, hash 057ebdd, HEAD~1480
+2021-07-04 09:38:42,077 DEBUG                  - depth 38, hash 9f6cfd4, HEAD~1482
+2021-07-04 09:38:42,081 DEBUG                  - depth 39, hash 1913433, HEAD~1483
+2021-07-04 09:38:42,085 DEBUG                  - depth 40, hash 6a49c13, HEAD~1493
+2021-07-04 09:38:42,090 DEBUG                  - depth 41, hash e056054, HEAD~1495
+2021-07-04 09:38:42,094 DEBUG                  - depth 42, hash 389a09b, HEAD~1505
+2021-07-04 09:38:42,098 DEBUG                  - depth 43, hash 272b3f0, HEAD~1535
+2021-07-04 09:38:42,102 DEBUG                  - depth 44, hash 45b98cb, HEAD~1536
+2021-07-04 09:38:42,107 DEBUG                  - depth 45, hash e86b9ac, HEAD~1543
+2021-07-04 09:38:42,111 DEBUG                  - depth 46, hash d721a5a, HEAD~1551
+2021-07-04 09:38:42,115 DEBUG                  - depth 47, hash 7862120, HEAD~1552
+2021-07-04 09:38:42,120 DEBUG                  - depth 48, hash 85909dd, HEAD~1588
+2021-07-04 09:38:42,124 DEBUG                  - depth 49, hash 9952454, HEAD~1590
+2021-07-04 09:38:42,128 DEBUG                  - depth 50, hash 5f9f61a, HEAD~1687
+2021-07-04 09:38:42,132 DEBUG                  - depth 51, hash 5f41dde, HEAD~1723
+2021-07-04 09:38:42,137 DEBUG                  - depth 52, hash da791d6, HEAD~1725
+2021-07-04 09:38:42,141 DEBUG                  - depth 53, hash 55db3c7, HEAD~1729
+2021-07-04 09:38:42,145 DEBUG                  - depth 54, hash ce623bd, HEAD~1734
+2021-07-04 09:38:42,527 DEBUG    [line range] org/mockito/Mockito.java <clinit> 932:932
+2021-07-04 09:38:42,654 DEBUG                  - depth 0, hash 3275500, HEAD~436
+2021-07-04 09:38:42,660 DEBUG                  - depth 1, hash 52a27f7, HEAD~854
+2021-07-04 09:38:42,664 DEBUG                  - depth 2, hash 7a9beaf, HEAD~856
+2021-07-04 09:38:42,668 DEBUG    [line range] org/mockito/Mockito.java mock 1119:1121
+2021-07-04 09:38:42,827 DEBUG                  - depth 0, hash cbca8d0, HEAD~739
+2021-07-04 09:38:42,833 DEBUG                  - depth 1, hash af1f73b, HEAD~740
+2021-07-04 09:38:42,837 DEBUG                  - depth 2, hash ba4db5f, HEAD~761
+2021-07-04 09:38:42,841 DEBUG                  - depth 3, hash c69a4d3, HEAD~769
+2021-07-04 09:38:42,846 DEBUG                  - depth 4, hash 9a93c49, HEAD~770
+2021-07-04 09:38:42,850 DEBUG                  - depth 5, hash 7a9beaf, HEAD~856
+2021-07-04 09:38:42,854 DEBUG                  - depth 6, hash b10d431, HEAD~857
+2021-07-04 09:38:42,858 DEBUG                  - depth 7, hash 51aca50, HEAD~893
+2021-07-04 09:38:42,863 DEBUG                  - depth 8, hash 42117fb, HEAD~920
+2021-07-04 09:38:42,867 DEBUG                  - depth 9, hash d5d05a2, HEAD~930
+2021-07-04 09:38:42,871 DEBUG                  - depth 10, hash 6680565, HEAD~931
+2021-07-04 09:38:42,875 DEBUG                  - depth 11, hash d9a7fe6, HEAD~932
+2021-07-04 09:38:42,880 DEBUG                  - depth 12, hash 1cdf03f, HEAD~933
+2021-07-04 09:38:42,884 DEBUG                  - depth 13, hash c0700cf, HEAD~942
+2021-07-04 09:38:42,888 DEBUG                  - depth 14, hash 115824f, HEAD~943
+2021-07-04 09:38:42,892 DEBUG                  - depth 15, hash 2ddf002, HEAD~946
+2021-07-04 09:38:42,897 DEBUG                  - depth 16, hash c81d6bd, HEAD~950
+2021-07-04 09:38:42,901 DEBUG                  - depth 17, hash 454dd73, HEAD~963
+2021-07-04 09:38:42,905 DEBUG                  - depth 18, hash 863efe6, HEAD~964
+2021-07-04 09:38:42,909 DEBUG                  - depth 19, hash 8928424, HEAD~997
+2021-07-04 09:38:42,913 DEBUG                  - depth 20, hash 2903175, HEAD~1001
+2021-07-04 09:38:42,918 DEBUG                  - depth 21, hash 10f43cc, HEAD~1002
+2021-07-04 09:38:42,922 DEBUG                  - depth 22, hash 197397b, HEAD~1011
+2021-07-04 09:38:42,926 DEBUG                  - depth 23, hash f79e36a, HEAD~1013
+2021-07-04 09:38:42,930 DEBUG                  - depth 24, hash 9aa4ac8, HEAD~1016
+2021-07-04 09:38:42,934 DEBUG                  - depth 25, hash ae4edc5, HEAD~1018
+2021-07-04 09:38:42,938 DEBUG                  - depth 26, hash 296a8a3, HEAD~1019
+2021-07-04 09:38:42,943 DEBUG                  - depth 27, hash ee8cd08, HEAD~1022
+2021-07-04 09:38:42,947 DEBUG                  - depth 28, hash 36f0f5a, HEAD~1025
+2021-07-04 09:38:42,951 DEBUG                  - depth 29, hash 4a53794, HEAD~1050
+2021-07-04 09:38:42,955 DEBUG                  - depth 30, hash e03ee92, HEAD~1064
+2021-07-04 09:38:42,959 DEBUG                  - depth 31, hash 2faec95, HEAD~1065
+2021-07-04 09:38:42,964 DEBUG                  - depth 32, hash 4aa8e25, HEAD~1068
+2021-07-04 09:38:42,968 DEBUG                  - depth 33, hash ffdd141, HEAD~1071
+2021-07-04 09:38:42,972 DEBUG                  - depth 34, hash eb59f08, HEAD~1075
+2021-07-04 09:38:42,976 DEBUG                  - depth 35, hash 4701604, HEAD~1078
+2021-07-04 09:38:42,981 DEBUG                  - depth 36, hash 2b4ae9f, HEAD~1086
+2021-07-04 09:38:42,985 DEBUG                  - depth 37, hash 762e769, HEAD~1097
+2021-07-04 09:38:42,989 DEBUG                  - depth 38, hash c0b713b, HEAD~1106
+2021-07-04 09:38:42,993 DEBUG                  - depth 39, hash 9d1a555, HEAD~1108
+2021-07-04 09:38:42,998 DEBUG                  - depth 40, hash 64627c8, HEAD~1120
+2021-07-04 09:38:43,002 DEBUG                  - depth 41, hash 0713970, HEAD~1121
+2021-07-04 09:38:43,006 DEBUG                  - depth 42, hash e21b36c, HEAD~1122
+2021-07-04 09:38:43,011 DEBUG                  - depth 43, hash 82ab746, HEAD~1123
+2021-07-04 09:38:43,015 DEBUG                  - depth 44, hash 7731314, HEAD~1124
+2021-07-04 09:38:43,019 DEBUG                  - depth 45, hash 97194a6, HEAD~1138
+2021-07-04 09:38:43,023 DEBUG                  - depth 46, hash 2e5f458, HEAD~1141
+2021-07-04 09:38:43,028 DEBUG                  - depth 47, hash 9fdf230, HEAD~1144
+2021-07-04 09:38:43,032 DEBUG                  - depth 48, hash 5cf74b9, HEAD~1145
+2021-07-04 09:38:43,036 DEBUG                  - depth 49, hash 5a5cd16, HEAD~1147
+2021-07-04 09:38:43,041 DEBUG                  - depth 50, hash 1bd90b7, HEAD~1149
+2021-07-04 09:38:43,045 DEBUG                  - depth 51, hash c178b84, HEAD~1158
+2021-07-04 09:38:43,049 DEBUG                  - depth 52, hash bc5d497, HEAD~1167
+2021-07-04 09:38:43,053 DEBUG                  - depth 53, hash f07e940, HEAD~1171
+2021-07-04 09:38:43,058 DEBUG                  - depth 54, hash 8074e4b, HEAD~1172
+2021-07-04 09:38:43,062 DEBUG                  - depth 55, hash eadad3e, HEAD~1173
+2021-07-04 09:38:43,066 DEBUG                  - depth 56, hash cc1103a, HEAD~1184
+2021-07-04 09:38:43,071 DEBUG                  - depth 57, hash 09cb4d4, HEAD~1185
+2021-07-04 09:38:43,075 DEBUG                  - depth 58, hash 7454526, HEAD~1187
+2021-07-04 09:38:43,079 DEBUG                  - depth 59, hash 8a6aaec, HEAD~1188
+2021-07-04 09:38:43,083 DEBUG                  - depth 60, hash f360421, HEAD~1189
+2021-07-04 09:38:43,088 DEBUG                  - depth 61, hash fc445b8, HEAD~1190
+2021-07-04 09:38:43,092 DEBUG                  - depth 62, hash af098cc, HEAD~1191
+2021-07-04 09:38:43,096 DEBUG                  - depth 63, hash 3fbc682, HEAD~1192
+2021-07-04 09:38:43,101 DEBUG                  - depth 64, hash e837d72, HEAD~1193
+2021-07-04 09:38:43,105 DEBUG                  - depth 65, hash c304868, HEAD~1194
+2021-07-04 09:38:43,109 DEBUG                  - depth 66, hash b0c3487, HEAD~1195
+2021-07-04 09:38:43,113 DEBUG                  - depth 67, hash a763056, HEAD~1196
+2021-07-04 09:38:43,118 DEBUG                  - depth 68, hash e15f06c, HEAD~1199
+2021-07-04 09:38:43,122 DEBUG                  - depth 69, hash 87581fc, HEAD~1203
+2021-07-04 09:38:43,126 DEBUG                  - depth 70, hash 235b99a, HEAD~1208
+2021-07-04 09:38:43,131 DEBUG                  - depth 71, hash 183167d, HEAD~1211
+2021-07-04 09:38:43,135 DEBUG                  - depth 72, hash 6519fea, HEAD~1213
+2021-07-04 09:38:43,139 DEBUG                  - depth 73, hash 4802629, HEAD~1214
+2021-07-04 09:38:43,143 DEBUG                  - depth 74, hash 14065be, HEAD~1217
+2021-07-04 09:38:43,148 DEBUG                  - depth 75, hash 00c22cc, HEAD~1223
+2021-07-04 09:38:43,152 DEBUG                  - depth 76, hash 7fd7df5, HEAD~1224
+2021-07-04 09:38:43,156 DEBUG                  - depth 77, hash 614e41b, HEAD~1240
+2021-07-04 09:38:43,160 DEBUG                  - depth 78, hash b44914b, HEAD~1245
+2021-07-04 09:38:43,165 DEBUG                  - depth 79, hash 4965621, HEAD~1246
+2021-07-04 09:38:43,169 DEBUG                  - depth 80, hash be44f9c, HEAD~1269
+2021-07-04 09:38:43,173 DEBUG                  - depth 81, hash bd87a97, HEAD~1270
+2021-07-04 09:38:43,178 DEBUG                  - depth 82, hash 360bbed, HEAD~1280
+2021-07-04 09:38:43,182 DEBUG                  - depth 83, hash ee48168, HEAD~1291
+2021-07-04 09:38:43,186 DEBUG                  - depth 84, hash 17fa583, HEAD~1295
+2021-07-04 09:38:43,191 DEBUG                  - depth 85, hash 78346c8, HEAD~1299
+2021-07-04 09:38:43,195 DEBUG                  - depth 86, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:43,199 DEBUG                  - depth 87, hash cdade2b, HEAD~1395
+2021-07-04 09:38:43,203 DEBUG                  - depth 88, hash 52fadca, HEAD~1397
+2021-07-04 09:38:43,208 DEBUG                  - depth 89, hash 05c8ca8, HEAD~1398
+2021-07-04 09:38:43,212 DEBUG                  - depth 90, hash 456626f, HEAD~1399
+2021-07-04 09:38:43,216 DEBUG                  - depth 91, hash 5b494bf, HEAD~1400
+2021-07-04 09:38:43,220 DEBUG                  - depth 92, hash 83e1a6d, HEAD~1403
+2021-07-04 09:38:43,225 DEBUG                  - depth 93, hash f1522c1, HEAD~1404
+2021-07-04 09:38:43,229 DEBUG                  - depth 94, hash 85cc060, HEAD~1405
+2021-07-04 09:38:43,233 DEBUG                  - depth 95, hash 56d884c, HEAD~1406
+2021-07-04 09:38:43,238 DEBUG                  - depth 96, hash feb23b0, HEAD~1408
+2021-07-04 09:38:43,242 DEBUG                  - depth 97, hash c4a34b9, HEAD~1411
+2021-07-04 09:38:43,246 DEBUG                  - depth 98, hash 8c21089, HEAD~1414
+2021-07-04 09:38:43,250 DEBUG                  - depth 99, hash c4a54e3, HEAD~1418
+2021-07-04 09:38:43,255 DEBUG                  - depth 100, hash b2e5e09, HEAD~1419
+2021-07-04 09:38:43,259 DEBUG                  - depth 101, hash bda14b0, HEAD~1421
+2021-07-04 09:38:43,263 DEBUG                  - depth 102, hash 773b904, HEAD~1430
+2021-07-04 09:38:43,268 DEBUG                  - depth 103, hash beb51da, HEAD~1431
+2021-07-04 09:38:43,272 DEBUG                  - depth 104, hash f647a16, HEAD~1434
+2021-07-04 09:38:43,276 DEBUG                  - depth 105, hash 3641d50, HEAD~1441
+2021-07-04 09:38:43,281 DEBUG                  - depth 106, hash 70eb8ea, HEAD~1458
+2021-07-04 09:38:43,285 DEBUG                  - depth 107, hash d2ab5b5, HEAD~1462
+2021-07-04 09:38:43,289 DEBUG                  - depth 108, hash d964299, HEAD~1463
+2021-07-04 09:38:43,294 DEBUG                  - depth 109, hash d0a486a, HEAD~1467
+2021-07-04 09:38:43,298 DEBUG                  - depth 110, hash e11c0d6, HEAD~1468
+2021-07-04 09:38:43,302 DEBUG                  - depth 111, hash 6127c09, HEAD~1475
+2021-07-04 09:38:43,306 DEBUG                  - depth 112, hash 9f6cfd4, HEAD~1482
+2021-07-04 09:38:43,311 DEBUG                  - depth 113, hash a373e9f, HEAD~1484
+2021-07-04 09:38:43,315 DEBUG                  - depth 114, hash 1a39571, HEAD~1491
+2021-07-04 09:38:43,319 DEBUG                  - depth 115, hash efd2043, HEAD~1494
+2021-07-04 09:38:43,324 DEBUG                  - depth 116, hash e056054, HEAD~1495
+2021-07-04 09:38:43,328 DEBUG                  - depth 117, hash 7f74ce9, HEAD~1503
+2021-07-04 09:38:43,332 DEBUG                  - depth 118, hash 389a09b, HEAD~1505
+2021-07-04 09:38:43,337 DEBUG                  - depth 119, hash 3133e1a, HEAD~1506
+2021-07-04 09:38:43,341 DEBUG                  - depth 120, hash 16afe74, HEAD~1525
+2021-07-04 09:38:43,345 DEBUG                  - depth 121, hash bbbff77, HEAD~1526
+2021-07-04 09:38:43,350 DEBUG                  - depth 122, hash 189f293, HEAD~1527
+2021-07-04 09:38:43,354 DEBUG                  - depth 123, hash 9e39304, HEAD~1528
+2021-07-04 09:38:43,358 DEBUG                  - depth 124, hash 61a791e, HEAD~1529
+2021-07-04 09:38:43,362 DEBUG                  - depth 125, hash efac6af, HEAD~1531
+2021-07-04 09:38:43,367 DEBUG                  - depth 126, hash fe3257b, HEAD~1533
+2021-07-04 09:38:43,371 DEBUG                  - depth 127, hash 98d682f, HEAD~1534
+2021-07-04 09:38:43,375 DEBUG                  - depth 128, hash 9137775, HEAD~1542
+2021-07-04 09:38:43,380 DEBUG                  - depth 129, hash d721a5a, HEAD~1551
+2021-07-04 09:38:43,384 DEBUG                  - depth 130, hash 7862120, HEAD~1552
+2021-07-04 09:38:43,388 DEBUG                  - depth 131, hash 470659b, HEAD~1559
+2021-07-04 09:38:43,393 DEBUG                  - depth 132, hash dee0b32, HEAD~1560
+2021-07-04 09:38:43,397 DEBUG                  - depth 133, hash a87f0cd, HEAD~1561
+2021-07-04 09:38:43,401 DEBUG                  - depth 134, hash bcc618a, HEAD~1568
+2021-07-04 09:38:43,406 DEBUG                  - depth 135, hash f6d3fda, HEAD~1569
+2021-07-04 09:38:43,410 DEBUG                  - depth 136, hash b317fc2, HEAD~1570
+2021-07-04 09:38:43,414 DEBUG                  - depth 137, hash d3e1b35, HEAD~1584
+2021-07-04 09:38:43,418 DEBUG                  - depth 138, hash 85909dd, HEAD~1588
+2021-07-04 09:38:43,423 DEBUG                  - depth 139, hash 5906934, HEAD~1589
+2021-07-04 09:38:43,427 DEBUG                  - depth 140, hash 9952454, HEAD~1590
+2021-07-04 09:38:43,431 DEBUG                  - depth 141, hash 110e46a, HEAD~1595
+2021-07-04 09:38:43,436 DEBUG                  - depth 142, hash a925c01, HEAD~1596
+2021-07-04 09:38:43,440 DEBUG                  - depth 143, hash 909a64e, HEAD~1622
+2021-07-04 09:38:43,444 DEBUG                  - depth 144, hash be441d5, HEAD~1642
+2021-07-04 09:38:43,449 DEBUG                  - depth 145, hash f6a5035, HEAD~1644
+2021-07-04 09:38:43,453 DEBUG                  - depth 146, hash f41ad83, HEAD~1656
+2021-07-04 09:38:43,457 DEBUG                  - depth 147, hash 70dc019, HEAD~1662
+2021-07-04 09:38:43,462 DEBUG                  - depth 148, hash 5a1c7a3, HEAD~1666
+2021-07-04 09:38:43,466 DEBUG                  - depth 149, hash 8ba3b5f, HEAD~1671
+2021-07-04 09:38:43,470 DEBUG                  - depth 150, hash 7158018, HEAD~1685
+2021-07-04 09:38:43,475 DEBUG                  - depth 151, hash ce722d1, HEAD~1686
+2021-07-04 09:38:43,479 DEBUG                  - depth 152, hash 5f9f61a, HEAD~1687
+2021-07-04 09:38:43,483 DEBUG                  - depth 153, hash 665472c, HEAD~1689
+2021-07-04 09:38:43,488 DEBUG                  - depth 154, hash cc9f3d4, HEAD~1691
+2021-07-04 09:38:43,492 DEBUG                  - depth 155, hash ccb377a, HEAD~1692
+2021-07-04 09:38:43,496 DEBUG                  - depth 156, hash 80279d6, HEAD~1693
+2021-07-04 09:38:43,501 DEBUG                  - depth 157, hash 8e871ae, HEAD~1711
+2021-07-04 09:38:43,505 DEBUG                  - depth 158, hash 01b9ebd, HEAD~1715
+2021-07-04 09:38:43,509 DEBUG                  - depth 159, hash f28e6c5, HEAD~1716
+2021-07-04 09:38:43,514 DEBUG                  - depth 160, hash 1e11bf4, HEAD~1717
+2021-07-04 09:38:43,518 DEBUG                  - depth 161, hash 0acfb6f, HEAD~1720
+2021-07-04 09:38:43,522 DEBUG                  - depth 162, hash 809316f, HEAD~1721
+2021-07-04 09:38:43,527 DEBUG                  - depth 163, hash 7cd8b31, HEAD~1722
+2021-07-04 09:38:43,531 DEBUG                  - depth 164, hash 5f41dde, HEAD~1723
+2021-07-04 09:38:43,535 DEBUG                  - depth 165, hash da791d6, HEAD~1725
+2021-07-04 09:38:43,540 DEBUG                  - depth 166, hash 9f0ba11, HEAD~1727
+2021-07-04 09:38:43,544 DEBUG                  - depth 167, hash 55db3c7, HEAD~1729
+2021-07-04 09:38:43,548 DEBUG                  - depth 168, hash 11dff22, HEAD~1735
+2021-07-04 09:38:43,552 DEBUG                  - depth 169, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:43,557 DEBUG    [line range] org/mockito/Mockito.java mock 1242:1244
+2021-07-04 09:38:43,720 DEBUG                  - depth 0, hash 72076a8, HEAD~485
+2021-07-04 09:38:43,726 DEBUG                  - depth 1, hash 620f8fa, HEAD~486
+2021-07-04 09:38:43,731 DEBUG                  - depth 2, hash c69a4d3, HEAD~769
+2021-07-04 09:38:43,735 DEBUG                  - depth 3, hash 9a93c49, HEAD~770
+2021-07-04 09:38:43,739 DEBUG                  - depth 4, hash 7a9beaf, HEAD~856
+2021-07-04 09:38:43,743 DEBUG                  - depth 5, hash b10d431, HEAD~857
+2021-07-04 09:38:43,748 DEBUG                  - depth 6, hash 51aca50, HEAD~893
+2021-07-04 09:38:43,752 DEBUG                  - depth 7, hash 42117fb, HEAD~920
+2021-07-04 09:38:43,756 DEBUG                  - depth 8, hash d5d05a2, HEAD~930
+2021-07-04 09:38:43,761 DEBUG                  - depth 9, hash 6680565, HEAD~931
+2021-07-04 09:38:43,765 DEBUG                  - depth 10, hash d9a7fe6, HEAD~932
+2021-07-04 09:38:43,769 DEBUG                  - depth 11, hash 1cdf03f, HEAD~933
+2021-07-04 09:38:43,773 DEBUG                  - depth 12, hash c0700cf, HEAD~942
+2021-07-04 09:38:43,778 DEBUG                  - depth 13, hash 115824f, HEAD~943
+2021-07-04 09:38:43,782 DEBUG                  - depth 14, hash 2ddf002, HEAD~946
+2021-07-04 09:38:43,786 DEBUG                  - depth 15, hash c81d6bd, HEAD~950
+2021-07-04 09:38:43,791 DEBUG                  - depth 16, hash 454dd73, HEAD~963
+2021-07-04 09:38:43,795 DEBUG                  - depth 17, hash 863efe6, HEAD~964
+2021-07-04 09:38:43,799 DEBUG                  - depth 18, hash 8928424, HEAD~997
+2021-07-04 09:38:43,803 DEBUG                  - depth 19, hash 2903175, HEAD~1001
+2021-07-04 09:38:43,808 DEBUG                  - depth 20, hash 10f43cc, HEAD~1002
+2021-07-04 09:38:43,812 DEBUG                  - depth 21, hash 197397b, HEAD~1011
+2021-07-04 09:38:43,816 DEBUG                  - depth 22, hash f79e36a, HEAD~1013
+2021-07-04 09:38:43,821 DEBUG                  - depth 23, hash 9aa4ac8, HEAD~1016
+2021-07-04 09:38:43,825 DEBUG                  - depth 24, hash ae4edc5, HEAD~1018
+2021-07-04 09:38:43,829 DEBUG                  - depth 25, hash 296a8a3, HEAD~1019
+2021-07-04 09:38:43,834 DEBUG                  - depth 26, hash ee8cd08, HEAD~1022
+2021-07-04 09:38:43,838 DEBUG                  - depth 27, hash 36f0f5a, HEAD~1025
+2021-07-04 09:38:43,842 DEBUG                  - depth 28, hash 4a53794, HEAD~1050
+2021-07-04 09:38:43,846 DEBUG                  - depth 29, hash e03ee92, HEAD~1064
+2021-07-04 09:38:43,851 DEBUG                  - depth 30, hash 2faec95, HEAD~1065
+2021-07-04 09:38:43,855 DEBUG                  - depth 31, hash 4aa8e25, HEAD~1068
+2021-07-04 09:38:43,859 DEBUG                  - depth 32, hash ffdd141, HEAD~1071
+2021-07-04 09:38:43,863 DEBUG                  - depth 33, hash eb59f08, HEAD~1075
+2021-07-04 09:38:43,868 DEBUG                  - depth 34, hash 4701604, HEAD~1078
+2021-07-04 09:38:43,872 DEBUG                  - depth 35, hash 2b4ae9f, HEAD~1086
+2021-07-04 09:38:43,876 DEBUG                  - depth 36, hash 762e769, HEAD~1097
+2021-07-04 09:38:43,880 DEBUG                  - depth 37, hash c0b713b, HEAD~1106
+2021-07-04 09:38:43,885 DEBUG                  - depth 38, hash 9d1a555, HEAD~1108
+2021-07-04 09:38:43,889 DEBUG                  - depth 39, hash 64627c8, HEAD~1120
+2021-07-04 09:38:43,893 DEBUG                  - depth 40, hash 0713970, HEAD~1121
+2021-07-04 09:38:43,897 DEBUG                  - depth 41, hash e21b36c, HEAD~1122
+2021-07-04 09:38:43,902 DEBUG                  - depth 42, hash 82ab746, HEAD~1123
+2021-07-04 09:38:43,906 DEBUG                  - depth 43, hash 7731314, HEAD~1124
+2021-07-04 09:38:43,910 DEBUG                  - depth 44, hash 97194a6, HEAD~1138
+2021-07-04 09:38:43,915 DEBUG                  - depth 45, hash 2e5f458, HEAD~1141
+2021-07-04 09:38:43,919 DEBUG                  - depth 46, hash 9fdf230, HEAD~1144
+2021-07-04 09:38:43,923 DEBUG                  - depth 47, hash 5cf74b9, HEAD~1145
+2021-07-04 09:38:43,928 DEBUG                  - depth 48, hash 5a5cd16, HEAD~1147
+2021-07-04 09:38:43,932 DEBUG                  - depth 49, hash 1bd90b7, HEAD~1149
+2021-07-04 09:38:43,936 DEBUG                  - depth 50, hash c178b84, HEAD~1158
+2021-07-04 09:38:43,940 DEBUG                  - depth 51, hash bc5d497, HEAD~1167
+2021-07-04 09:38:43,945 DEBUG                  - depth 52, hash f07e940, HEAD~1171
+2021-07-04 09:38:43,949 DEBUG                  - depth 53, hash 8074e4b, HEAD~1172
+2021-07-04 09:38:43,953 DEBUG                  - depth 54, hash eadad3e, HEAD~1173
+2021-07-04 09:38:43,957 DEBUG                  - depth 55, hash cc1103a, HEAD~1184
+2021-07-04 09:38:43,962 DEBUG                  - depth 56, hash 09cb4d4, HEAD~1185
+2021-07-04 09:38:43,966 DEBUG                  - depth 57, hash 7454526, HEAD~1187
+2021-07-04 09:38:43,970 DEBUG                  - depth 58, hash 8a6aaec, HEAD~1188
+2021-07-04 09:38:43,975 DEBUG                  - depth 59, hash f360421, HEAD~1189
+2021-07-04 09:38:43,979 DEBUG                  - depth 60, hash fc445b8, HEAD~1190
+2021-07-04 09:38:43,983 DEBUG                  - depth 61, hash af098cc, HEAD~1191
+2021-07-04 09:38:43,987 DEBUG                  - depth 62, hash 3fbc682, HEAD~1192
+2021-07-04 09:38:43,992 DEBUG                  - depth 63, hash e837d72, HEAD~1193
+2021-07-04 09:38:43,996 DEBUG                  - depth 64, hash c304868, HEAD~1194
+2021-07-04 09:38:44,000 DEBUG                  - depth 65, hash b0c3487, HEAD~1195
+2021-07-04 09:38:44,004 DEBUG                  - depth 66, hash a763056, HEAD~1196
+2021-07-04 09:38:44,009 DEBUG                  - depth 67, hash e15f06c, HEAD~1199
+2021-07-04 09:38:44,013 DEBUG                  - depth 68, hash 87581fc, HEAD~1203
+2021-07-04 09:38:44,017 DEBUG                  - depth 69, hash 235b99a, HEAD~1208
+2021-07-04 09:38:44,021 DEBUG                  - depth 70, hash 183167d, HEAD~1211
+2021-07-04 09:38:44,026 DEBUG                  - depth 71, hash 6519fea, HEAD~1213
+2021-07-04 09:38:44,030 DEBUG                  - depth 72, hash 4802629, HEAD~1214
+2021-07-04 09:38:44,034 DEBUG                  - depth 73, hash 14065be, HEAD~1217
+2021-07-04 09:38:44,039 DEBUG                  - depth 74, hash 00c22cc, HEAD~1223
+2021-07-04 09:38:44,043 DEBUG                  - depth 75, hash 7fd7df5, HEAD~1224
+2021-07-04 09:38:44,047 DEBUG                  - depth 76, hash 614e41b, HEAD~1240
+2021-07-04 09:38:44,052 DEBUG                  - depth 77, hash b44914b, HEAD~1245
+2021-07-04 09:38:44,056 DEBUG                  - depth 78, hash 4965621, HEAD~1246
+2021-07-04 09:38:44,060 DEBUG                  - depth 79, hash be44f9c, HEAD~1269
+2021-07-04 09:38:44,064 DEBUG                  - depth 80, hash bd87a97, HEAD~1270
+2021-07-04 09:38:44,069 DEBUG                  - depth 81, hash 360bbed, HEAD~1280
+2021-07-04 09:38:44,073 DEBUG                  - depth 82, hash ee48168, HEAD~1291
+2021-07-04 09:38:44,077 DEBUG                  - depth 83, hash 17fa583, HEAD~1295
+2021-07-04 09:38:44,081 DEBUG                  - depth 84, hash 78346c8, HEAD~1299
+2021-07-04 09:38:44,086 DEBUG                  - depth 85, hash 2aed41e, HEAD~1302
+2021-07-04 09:38:44,090 DEBUG                  - depth 86, hash cdade2b, HEAD~1395
+2021-07-04 09:38:44,094 DEBUG                  - depth 87, hash 52fadca, HEAD~1397
+2021-07-04 09:38:44,099 DEBUG                  - depth 88, hash 05c8ca8, HEAD~1398
+2021-07-04 09:38:44,103 DEBUG                  - depth 89, hash 456626f, HEAD~1399
+2021-07-04 09:38:44,107 DEBUG                  - depth 90, hash 5b494bf, HEAD~1400
+2021-07-04 09:38:44,111 DEBUG                  - depth 91, hash 83e1a6d, HEAD~1403
+2021-07-04 09:38:44,116 DEBUG                  - depth 92, hash f1522c1, HEAD~1404
+2021-07-04 09:38:44,120 DEBUG                  - depth 93, hash 85cc060, HEAD~1405
+2021-07-04 09:38:44,124 DEBUG                  - depth 94, hash 56d884c, HEAD~1406
+2021-07-04 09:38:44,128 DEBUG                  - depth 95, hash feb23b0, HEAD~1408
+2021-07-04 09:38:44,133 DEBUG                  - depth 96, hash c4a34b9, HEAD~1411
+2021-07-04 09:38:44,137 DEBUG                  - depth 97, hash 8c21089, HEAD~1414
+2021-07-04 09:38:44,141 DEBUG                  - depth 98, hash c4a54e3, HEAD~1418
+2021-07-04 09:38:44,146 DEBUG                  - depth 99, hash b2e5e09, HEAD~1419
+2021-07-04 09:38:44,150 DEBUG                  - depth 100, hash bda14b0, HEAD~1421
+2021-07-04 09:38:44,154 DEBUG                  - depth 101, hash 773b904, HEAD~1430
+2021-07-04 09:38:44,159 DEBUG                  - depth 102, hash beb51da, HEAD~1431
+2021-07-04 09:38:44,163 DEBUG                  - depth 103, hash f647a16, HEAD~1434
+2021-07-04 09:38:44,167 DEBUG                  - depth 104, hash 3641d50, HEAD~1441
+2021-07-04 09:38:44,171 DEBUG                  - depth 105, hash 70eb8ea, HEAD~1458
+2021-07-04 09:38:44,176 DEBUG                  - depth 106, hash d2ab5b5, HEAD~1462
+2021-07-04 09:38:44,180 DEBUG                  - depth 107, hash d964299, HEAD~1463
+2021-07-04 09:38:44,184 DEBUG                  - depth 108, hash d0a486a, HEAD~1467
+2021-07-04 09:38:44,188 DEBUG                  - depth 109, hash e11c0d6, HEAD~1468
+2021-07-04 09:38:44,193 DEBUG                  - depth 110, hash 6127c09, HEAD~1475
+2021-07-04 09:38:44,197 DEBUG                  - depth 111, hash 9f6cfd4, HEAD~1482
+2021-07-04 09:38:44,201 DEBUG                  - depth 112, hash a373e9f, HEAD~1484
+2021-07-04 09:38:44,206 DEBUG                  - depth 113, hash 1a39571, HEAD~1491
+2021-07-04 09:38:44,210 DEBUG                  - depth 114, hash efd2043, HEAD~1494
+2021-07-04 09:38:44,214 DEBUG                  - depth 115, hash e056054, HEAD~1495
+2021-07-04 09:38:44,219 DEBUG                  - depth 116, hash 7f74ce9, HEAD~1503
+2021-07-04 09:38:44,223 DEBUG                  - depth 117, hash 389a09b, HEAD~1505
+2021-07-04 09:38:44,227 DEBUG                  - depth 118, hash 3133e1a, HEAD~1506
+2021-07-04 09:38:44,231 DEBUG                  - depth 119, hash 16afe74, HEAD~1525
+2021-07-04 09:38:44,236 DEBUG                  - depth 120, hash bbbff77, HEAD~1526
+2021-07-04 09:38:44,240 DEBUG                  - depth 121, hash 189f293, HEAD~1527
+2021-07-04 09:38:44,245 DEBUG                  - depth 122, hash 9e39304, HEAD~1528
+2021-07-04 09:38:44,249 DEBUG                  - depth 123, hash 61a791e, HEAD~1529
+2021-07-04 09:38:44,253 DEBUG                  - depth 124, hash efac6af, HEAD~1531
+2021-07-04 09:38:44,258 DEBUG                  - depth 125, hash fe3257b, HEAD~1533
+2021-07-04 09:38:44,262 DEBUG                  - depth 126, hash 98d682f, HEAD~1534
+2021-07-04 09:38:44,266 DEBUG                  - depth 127, hash 9137775, HEAD~1542
+2021-07-04 09:38:44,271 DEBUG                  - depth 128, hash d721a5a, HEAD~1551
+2021-07-04 09:38:44,275 DEBUG                  - depth 129, hash 7862120, HEAD~1552
+2021-07-04 09:38:44,279 DEBUG                  - depth 130, hash 470659b, HEAD~1559
+2021-07-04 09:38:44,283 DEBUG                  - depth 131, hash dee0b32, HEAD~1560
+2021-07-04 09:38:44,287 DEBUG                  - depth 132, hash a87f0cd, HEAD~1561
+2021-07-04 09:38:44,292 DEBUG                  - depth 133, hash bcc618a, HEAD~1568
+2021-07-04 09:38:44,296 DEBUG                  - depth 134, hash f6d3fda, HEAD~1569
+2021-07-04 09:38:44,300 DEBUG                  - depth 135, hash b317fc2, HEAD~1570
+2021-07-04 09:38:44,305 DEBUG                  - depth 136, hash d3e1b35, HEAD~1584
+2021-07-04 09:38:44,309 DEBUG                  - depth 137, hash 85909dd, HEAD~1588
+2021-07-04 09:38:44,314 DEBUG                  - depth 138, hash 5906934, HEAD~1589
+2021-07-04 09:38:44,318 DEBUG                  - depth 139, hash 9952454, HEAD~1590
+2021-07-04 09:38:44,322 DEBUG                  - depth 140, hash 110e46a, HEAD~1595
+2021-07-04 09:38:44,326 DEBUG                  - depth 141, hash a925c01, HEAD~1596
+2021-07-04 09:38:44,331 DEBUG                  - depth 142, hash 909a64e, HEAD~1622
+2021-07-04 09:38:44,335 DEBUG                  - depth 143, hash be441d5, HEAD~1642
+2021-07-04 09:38:44,339 DEBUG                  - depth 144, hash f6a5035, HEAD~1644
+2021-07-04 09:38:44,344 DEBUG                  - depth 145, hash f41ad83, HEAD~1656
+2021-07-04 09:38:44,348 DEBUG                  - depth 146, hash 70dc019, HEAD~1662
+2021-07-04 09:38:44,352 DEBUG                  - depth 147, hash 5a1c7a3, HEAD~1666
+2021-07-04 09:38:44,357 DEBUG                  - depth 148, hash 8ba3b5f, HEAD~1671
+2021-07-04 09:38:44,361 DEBUG                  - depth 149, hash 7158018, HEAD~1685
+2021-07-04 09:38:44,365 DEBUG                  - depth 150, hash ce722d1, HEAD~1686
+2021-07-04 09:38:44,370 DEBUG                  - depth 151, hash 5f9f61a, HEAD~1687
+2021-07-04 09:38:44,374 DEBUG                  - depth 152, hash 665472c, HEAD~1689
+2021-07-04 09:38:44,378 DEBUG                  - depth 153, hash cc9f3d4, HEAD~1691
+2021-07-04 09:38:44,383 DEBUG                  - depth 154, hash ccb377a, HEAD~1692
+2021-07-04 09:38:44,387 DEBUG                  - depth 155, hash 80279d6, HEAD~1693
+2021-07-04 09:38:44,392 DEBUG                  - depth 156, hash 8e871ae, HEAD~1711
+2021-07-04 09:38:44,396 DEBUG                  - depth 157, hash 01b9ebd, HEAD~1715
+2021-07-04 09:38:44,400 DEBUG                  - depth 158, hash f28e6c5, HEAD~1716
+2021-07-04 09:38:44,405 DEBUG                  - depth 159, hash 1e11bf4, HEAD~1717
+2021-07-04 09:38:44,409 DEBUG                  - depth 160, hash 0acfb6f, HEAD~1720
+2021-07-04 09:38:44,413 DEBUG                  - depth 161, hash 809316f, HEAD~1721
+2021-07-04 09:38:44,418 DEBUG                  - depth 162, hash 7cd8b31, HEAD~1722
+2021-07-04 09:38:44,422 DEBUG                  - depth 163, hash 5f41dde, HEAD~1723
+2021-07-04 09:38:44,427 DEBUG                  - depth 164, hash da791d6, HEAD~1725
+2021-07-04 09:38:44,431 DEBUG                  - depth 165, hash 9f0ba11, HEAD~1727
+2021-07-04 09:38:44,435 DEBUG                  - depth 166, hash 55db3c7, HEAD~1729
+2021-07-04 09:38:44,440 DEBUG                  - depth 167, hash 11dff22, HEAD~1735
+2021-07-04 09:38:44,444 DEBUG                  - depth 168, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:44,448 DEBUG    [line range] org/mockito/Mockito.java withSettings 2161:2163
+2021-07-04 09:38:44,573 DEBUG                  - depth 0, hash cbca8d0, HEAD~739
+2021-07-04 09:38:44,578 DEBUG                  - depth 1, hash ba4db5f, HEAD~761
+2021-07-04 09:38:44,583 DEBUG                  - depth 2, hash c69a4d3, HEAD~769
+2021-07-04 09:38:44,909 DEBUG    [single line]   org/mockito/internal/MockitoCore.java <init> 37
+2021-07-04 09:38:45,019 DEBUG                  - depth 0, hash b10d431, HEAD~857
+2021-07-04 09:38:45,024 DEBUG    [line range] org/mockito/internal/MockitoCore.java <init> 39:39
+2021-07-04 09:38:45,131 DEBUG                  - depth 0, hash 6037bc6, HEAD~851
+2021-07-04 09:38:45,137 DEBUG                  - depth 1, hash 52a27f7, HEAD~854
+2021-07-04 09:38:45,141 DEBUG                  - depth 2, hash 7a9beaf, HEAD~856
+2021-07-04 09:38:45,146 DEBUG                  - depth 3, hash b10d431, HEAD~857
+2021-07-04 09:38:45,150 DEBUG    [line range] org/mockito/internal/MockitoCore.java mock 43:54
+2021-07-04 09:38:45,258 DEBUG                  - depth 0, hash 7e9220e, HEAD~23
+2021-07-04 09:38:45,264 DEBUG                  - depth 1, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:45,268 DEBUG                  - depth 2, hash 427bc00, HEAD~29
+2021-07-04 09:38:45,273 DEBUG                  - depth 3, hash 2cacf84, HEAD~463
+2021-07-04 09:38:45,277 DEBUG                  - depth 4, hash 72076a8, HEAD~485
+2021-07-04 09:38:45,281 DEBUG                  - depth 5, hash 620f8fa, HEAD~486
+2021-07-04 09:38:45,286 DEBUG                  - depth 6, hash 4816bf0, HEAD~514
+2021-07-04 09:38:45,290 DEBUG                  - depth 7, hash 7167392, HEAD~766
+2021-07-04 09:38:45,294 DEBUG                  - depth 8, hash c69a4d3, HEAD~769
+2021-07-04 09:38:45,299 DEBUG                  - depth 9, hash 9a93c49, HEAD~770
+2021-07-04 09:38:45,303 DEBUG                  - depth 10, hash 6037bc6, HEAD~851
+2021-07-04 09:38:45,308 DEBUG                  - depth 11, hash 52a27f7, HEAD~854
+2021-07-04 09:38:45,312 DEBUG                  - depth 12, hash 7a9beaf, HEAD~856
+2021-07-04 09:38:45,316 DEBUG                  - depth 13, hash b10d431, HEAD~857
+2021-07-04 09:38:45,321 DEBUG    [line range] org/mockito/internal/configuration/GlobalConfiguration.java enableClassCache 62:64
+2021-07-04 09:38:45,427 DEBUG                  - depth 0, hash 436dc93, HEAD~171
+2021-07-04 09:38:45,433 DEBUG    [line range] org/mockito/internal/creation/CglibMockMaker.java cast 27:33
+2021-07-04 09:38:45,538 DEBUG                  - depth 0, hash c45a107, HEAD~20
+2021-07-04 09:38:45,544 DEBUG                  - depth 1, hash 9c693bc, HEAD~21
+2021-07-04 09:38:45,548 DEBUG                  - depth 2, hash 84dead8, HEAD~31
+2021-07-04 09:38:45,553 DEBUG                  - depth 3, hash a4c2825, HEAD~114
+2021-07-04 09:38:45,557 DEBUG    [line range] org/mockito/internal/creation/CglibMockMaker.java createMock 21:25
+2021-07-04 09:38:45,663 DEBUG                  - depth 0, hash c45a107, HEAD~20
+2021-07-04 09:38:45,668 DEBUG                  - depth 1, hash 9c693bc, HEAD~21
+2021-07-04 09:38:45,673 DEBUG                  - depth 2, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:45,677 DEBUG                  - depth 3, hash 427bc00, HEAD~29
+2021-07-04 09:38:45,681 DEBUG                  - depth 4, hash 84dead8, HEAD~31
+2021-07-04 09:38:45,686 DEBUG                  - depth 5, hash ff84cd2, HEAD~111
+2021-07-04 09:38:45,690 DEBUG                  - depth 6, hash a4c2825, HEAD~114
+2021-07-04 09:38:45,992 DEBUG    [single line]   org/mockito/internal/creation/DelegatingMethod.java <clinit> 11
+2021-07-04 09:38:46,098 DEBUG                  - depth 0, hash 624f262, HEAD~557
+2021-07-04 09:38:46,104 DEBUG    [line range] org/mockito/internal/creation/DelegatingMethod.java <init> 15:18
+2021-07-04 09:38:46,213 DEBUG                  - depth 0, hash 624f262, HEAD~557
+2021-07-04 09:38:46,219 DEBUG    [line range] org/mockito/internal/creation/DelegatingMethod.java getReturnType 36:38
+2021-07-04 09:38:46,328 DEBUG                  - depth 0, hash 624f262, HEAD~557
+2021-07-04 09:38:46,635 DEBUG    [line range] org/mockito/internal/creation/MethodInterceptorFilter.java <init> 27:27
+2021-07-04 09:38:46,745 DEBUG                  - depth 0, hash 5c1306b, HEAD~613
+2021-07-04 09:38:46,751 DEBUG                  - depth 1, hash 762b2db, HEAD~616
+2021-07-04 09:38:46,755 DEBUG                  - depth 2, hash b88d360, HEAD~645
+2021-07-04 09:38:46,760 DEBUG                  - depth 3, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:47,097 DEBUG    [single line]   org/mockito/internal/creation/MockSettingsImpl.java <init> 25
+2021-07-04 09:38:47,204 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:47,209 DEBUG                  - depth 1, hash 462fdfb, HEAD~585
+2021-07-04 09:38:47,214 DEBUG                  - depth 2, hash cbc530c, HEAD~586
+2021-07-04 09:38:47,218 DEBUG                  - depth 3, hash c69a4d3, HEAD~769
+2021-07-04 09:38:47,223 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java confirm 126:128
+2021-07-04 09:38:47,328 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:47,333 DEBUG                  - depth 1, hash 31ca6e4, HEAD~28
+2021-07-04 09:38:47,338 DEBUG                  - depth 2, hash 69d80a9, HEAD~140
+2021-07-04 09:38:47,342 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java defaultAnswer 72:75
+2021-07-04 09:38:47,449 DEBUG                  - depth 0, hash cbca8d0, HEAD~739
+2021-07-04 09:38:47,455 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java getExtraInterfaces 54:56
+2021-07-04 09:38:47,560 DEBUG                  - depth 0, hash 427bc00, HEAD~29
+2021-07-04 09:38:47,566 DEBUG                  - depth 1, hash c69a4d3, HEAD~769
+2021-07-04 09:38:47,571 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java getSpiedInstance 58:60
+2021-07-04 09:38:47,676 DEBUG                  - depth 0, hash c69a4d3, HEAD~769
+2021-07-04 09:38:47,682 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java isSerializable 81:83
+2021-07-04 09:38:47,787 DEBUG                  - depth 0, hash 77cb203, HEAD~491
+2021-07-04 09:38:47,793 DEBUG                  - depth 1, hash c3cbb49, HEAD~541
+2021-07-04 09:38:47,797 DEBUG                  - depth 2, hash f868114, HEAD~571
+2021-07-04 09:38:47,802 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java prepareExtraInterfaces 147:156
+2021-07-04 09:38:47,912 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:47,917 DEBUG                  - depth 1, hash 31ca6e4, HEAD~28
+2021-07-04 09:38:47,922 DEBUG                  - depth 2, hash 69d80a9, HEAD~140
+2021-07-04 09:38:47,926 DEBUG    [line range] org/mockito/internal/creation/MockSettingsImpl.java validatedSettings 130:145
+2021-07-04 09:38:48,031 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:48,037 DEBUG                  - depth 1, hash 31ca6e4, HEAD~28
+2021-07-04 09:38:48,042 DEBUG                  - depth 2, hash 69d80a9, HEAD~140
+2021-07-04 09:38:48,342 DEBUG    [single line]   org/mockito/internal/creation/cglib/CGLIBHacker.java <init> 13
+2021-07-04 09:38:48,448 DEBUG                  - depth 0, hash f03b7ce, HEAD~611
+2021-07-04 09:38:48,454 DEBUG                  - depth 1, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:48,726 DEBUG    [line range] org/mockito/internal/creation/cglib/MockitoNamingPolicy.java <clinit> 11:11
+2021-07-04 09:38:48,832 DEBUG                  - depth 0, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:48,838 DEBUG    [single line]   org/mockito/internal/creation/cglib/MockitoNamingPolicy.java <init> 9
+2021-07-04 09:38:48,943 DEBUG                  - depth 0, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:48,949 DEBUG    [line range] org/mockito/internal/creation/cglib/MockitoNamingPolicy.java getTag 13:16
+2021-07-04 09:38:49,055 DEBUG                  - depth 0, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:49,402 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java <clinit> 29:29
+2021-07-04 09:38:49,509 DEBUG                  - depth 0, hash 52929f4, HEAD~1096
+2021-07-04 09:38:49,515 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java <init> 31:31
+2021-07-04 09:38:49,621 DEBUG                  - depth 0, hash 52929f4, HEAD~1096
+2021-07-04 09:38:49,627 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java canImposterise 51:53
+2021-07-04 09:38:49,733 DEBUG                  - depth 0, hash 662c36f, HEAD~525
+2021-07-04 09:38:49,738 DEBUG                  - depth 1, hash 232b3a6, HEAD~1027
+2021-07-04 09:38:49,743 DEBUG                  - depth 2, hash 52929f4, HEAD~1096
+2021-07-04 09:38:49,747 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java createProxy 127:131
+2021-07-04 09:38:49,853 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:38:49,859 DEBUG                  - depth 1, hash 52929f4, HEAD~1096
+2021-07-04 09:38:49,863 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java createProxyClass 80:125
+2021-07-04 09:38:49,974 DEBUG                  - depth 0, hash 662c36f, HEAD~525
+2021-07-04 09:38:49,980 DEBUG                  - depth 1, hash bb32abe, HEAD~635
+2021-07-04 09:38:49,985 DEBUG                  - depth 2, hash 04ec645, HEAD~762
+2021-07-04 09:38:49,989 DEBUG                  - depth 3, hash 9a93c49, HEAD~770
+2021-07-04 09:38:49,993 DEBUG                  - depth 4, hash d3aeaff, HEAD~961
+2021-07-04 09:38:49,998 DEBUG                  - depth 5, hash 674a8f0, HEAD~962
+2021-07-04 09:38:50,002 DEBUG                  - depth 6, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:50,007 DEBUG                  - depth 7, hash 0645d02, HEAD~1006
+2021-07-04 09:38:50,011 DEBUG                  - depth 8, hash 52929f4, HEAD~1096
+2021-07-04 09:38:50,016 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java imposterise 55:57
+2021-07-04 09:38:50,121 DEBUG                  - depth 0, hash 427bc00, HEAD~29
+2021-07-04 09:38:50,127 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java imposterise 59:72
+2021-07-04 09:38:50,232 DEBUG                  - depth 0, hash cc4361d, HEAD~144
+2021-07-04 09:38:50,238 DEBUG                  - depth 1, hash 9a93c49, HEAD~770
+2021-07-04 09:38:50,243 DEBUG                  - depth 2, hash 52929f4, HEAD~1096
+2021-07-04 09:38:50,247 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java prepend 133:138
+2021-07-04 09:38:50,358 DEBUG                  - depth 0, hash 52929f4, HEAD~1096
+2021-07-04 09:38:50,364 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java setConstructorsAccessible 74:78
+2021-07-04 09:38:50,470 DEBUG                  - depth 0, hash 52929f4, HEAD~1096
+2021-07-04 09:38:50,476 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java accept 45:49
+2021-07-04 09:38:50,582 DEBUG                  - depth 0, hash 52929f4, HEAD~1096
+2021-07-04 09:38:50,588 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java <init> 80:125
+2021-07-04 09:38:50,694 DEBUG                  - depth 0, hash 662c36f, HEAD~525
+2021-07-04 09:38:50,700 DEBUG                  - depth 1, hash bb32abe, HEAD~635
+2021-07-04 09:38:50,704 DEBUG                  - depth 2, hash 04ec645, HEAD~762
+2021-07-04 09:38:50,709 DEBUG                  - depth 3, hash 9a93c49, HEAD~770
+2021-07-04 09:38:50,713 DEBUG                  - depth 4, hash d3aeaff, HEAD~961
+2021-07-04 09:38:50,717 DEBUG                  - depth 5, hash 674a8f0, HEAD~962
+2021-07-04 09:38:50,721 DEBUG                  - depth 6, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:50,726 DEBUG                  - depth 7, hash 0645d02, HEAD~1006
+2021-07-04 09:38:50,730 DEBUG                  - depth 8, hash 52929f4, HEAD~1096
+2021-07-04 09:38:50,735 DEBUG    [line range] org/mockito/internal/creation/jmock/ClassImposterizer.java filterConstructors 80:125
+2021-07-04 09:38:50,840 DEBUG                  - depth 0, hash 662c36f, HEAD~525
+2021-07-04 09:38:50,846 DEBUG                  - depth 1, hash bb32abe, HEAD~635
+2021-07-04 09:38:50,851 DEBUG                  - depth 2, hash 04ec645, HEAD~762
+2021-07-04 09:38:50,855 DEBUG                  - depth 3, hash 9a93c49, HEAD~770
+2021-07-04 09:38:50,859 DEBUG                  - depth 4, hash d3aeaff, HEAD~961
+2021-07-04 09:38:50,864 DEBUG                  - depth 5, hash 674a8f0, HEAD~962
+2021-07-04 09:38:50,868 DEBUG                  - depth 6, hash 23c90a5, HEAD~1003
+2021-07-04 09:38:50,873 DEBUG                  - depth 7, hash 0645d02, HEAD~1006
+2021-07-04 09:38:50,877 DEBUG                  - depth 8, hash 52929f4, HEAD~1096
+2021-07-04 09:38:51,190 DEBUG    [line range] org/mockito/internal/creation/jmock/SearchingClassLoader.java addIfNewElement 62:66
+2021-07-04 09:38:51,297 DEBUG                  - depth 0, hash b0eb765, HEAD~1186
+2021-07-04 09:38:51,303 DEBUG    [line range] org/mockito/internal/creation/jmock/SearchingClassLoader.java combine 52:60
+2021-07-04 09:38:51,409 DEBUG                  - depth 0, hash b0eb765, HEAD~1186
+2021-07-04 09:38:51,415 DEBUG    [line range] org/mockito/internal/creation/jmock/SearchingClassLoader.java combineLoadersOf 27:50
+2021-07-04 09:38:51,525 DEBUG                  - depth 0, hash f74371d, HEAD~1094
+2021-07-04 09:38:51,531 DEBUG                  - depth 1, hash 52929f4, HEAD~1096
+2021-07-04 09:38:51,535 DEBUG                  - depth 2, hash b0eb765, HEAD~1186
+2021-07-04 09:38:51,540 DEBUG    [line range] org/mockito/internal/creation/jmock/SearchingClassLoader.java combineLoadersOf 23:25
+2021-07-04 09:38:51,645 DEBUG                  - depth 0, hash b0eb765, HEAD~1186
+2021-07-04 09:38:51,915 DEBUG    [line range] org/mockito/internal/creation/jmock/SerializableNoOp.java <clinit> 15:15
+2021-07-04 09:38:52,021 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:38:52,027 DEBUG    [single line]   org/mockito/internal/creation/jmock/SerializableNoOp.java <init> 12
+2021-07-04 09:38:52,132 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:38:52,446 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java <init> 32:32
+2021-07-04 09:38:52,552 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:52,558 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java <init> 24:24
+2021-07-04 09:38:52,664 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:52,670 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java getExtraInterfaces 54:56
+2021-07-04 09:38:52,776 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:52,782 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java getInvocationListeners 88:90
+2021-07-04 09:38:52,887 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:52,893 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java getName 63:65
+2021-07-04 09:38:52,998 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:53,004 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java getSpiedInstance 67:69
+2021-07-04 09:38:53,109 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:53,115 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java getTypeToMock 45:47
+2021-07-04 09:38:53,220 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:53,226 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java setExtraInterfaces 58:61
+2021-07-04 09:38:53,331 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:53,337 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java setMockName 79:82
+2021-07-04 09:38:53,442 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:53,448 DEBUG    [line range] org/mockito/internal/creation/settings/CreationSettings.java setTypeToMock 49:52
+2021-07-04 09:38:53,553 DEBUG                  - depth 0, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:53,843 DEBUG    [line range] org/mockito/internal/debugging/LocationImpl.java <init> 18:20
+2021-07-04 09:38:53,950 DEBUG                  - depth 0, hash 87670dc, HEAD~63
+2021-07-04 09:38:53,956 DEBUG                  - depth 1, hash f287295, HEAD~591
+2021-07-04 09:38:53,961 DEBUG                  - depth 2, hash b636a62, HEAD~895
+2021-07-04 09:38:53,965 DEBUG                  - depth 3, hash 05930a3, HEAD~901
+2021-07-04 09:38:53,970 DEBUG    [line range] org/mockito/internal/debugging/LocationImpl.java <init> 22:25
+2021-07-04 09:38:54,076 DEBUG                  - depth 0, hash 87670dc, HEAD~63
+2021-07-04 09:38:54,082 DEBUG                  - depth 1, hash e0f2447, HEAD~300
+2021-07-04 09:38:54,087 DEBUG                  - depth 2, hash cbc530c, HEAD~586
+2021-07-04 09:38:54,091 DEBUG                  - depth 3, hash f287295, HEAD~591
+2021-07-04 09:38:54,095 DEBUG                  - depth 4, hash e6e07d3, HEAD~722
+2021-07-04 09:38:54,100 DEBUG                  - depth 5, hash 33923e4, HEAD~727
+2021-07-04 09:38:54,104 DEBUG                  - depth 6, hash 1c5c8ff, HEAD~844
+2021-07-04 09:38:54,109 DEBUG                  - depth 7, hash 7055565, HEAD~845
+2021-07-04 09:38:54,113 DEBUG                  - depth 8, hash 98da672, HEAD~894
+2021-07-04 09:38:54,117 DEBUG                  - depth 9, hash b636a62, HEAD~895
+2021-07-04 09:38:54,122 DEBUG                  - depth 10, hash 05930a3, HEAD~901
+2021-07-04 09:38:54,429 DEBUG    [single line]   org/mockito/internal/exceptions/base/StackTraceFilter.java <init> 14
+2021-07-04 09:38:54,536 DEBUG                  - depth 0, hash 0898cf6, HEAD~386
+2021-07-04 09:38:54,542 DEBUG                  - depth 1, hash 33923e4, HEAD~727
+2021-07-04 09:38:54,851 DEBUG    [line range] org/mockito/internal/handler/InvocationNotifierHandler.java <init> 31:34
+2021-07-04 09:38:54,974 DEBUG                  - depth 0, hash b8634ba, HEAD~12
+2021-07-04 09:38:54,980 DEBUG                  - depth 1, hash 0ddff90, HEAD~22
+2021-07-04 09:38:54,984 DEBUG                  - depth 2, hash 5bfaa36, HEAD~24
+2021-07-04 09:38:54,988 DEBUG                  - depth 3, hash 427bc00, HEAD~29
+2021-07-04 09:38:54,993 DEBUG                  - depth 4, hash 98f7799, HEAD~192
+2021-07-04 09:38:55,280 DEBUG    [single line]   org/mockito/internal/handler/MockHandlerFactory.java <init> 13
+2021-07-04 09:38:55,386 DEBUG                  - depth 0, hash 3069df7, HEAD~14
+2021-07-04 09:38:55,392 DEBUG    [line range] org/mockito/internal/handler/MockHandlerFactory.java create 15:21
+2021-07-04 09:38:55,497 DEBUG                  - depth 0, hash b8634ba, HEAD~12
+2021-07-04 09:38:55,503 DEBUG                  - depth 1, hash 3069df7, HEAD~14
+2021-07-04 09:38:55,834 DEBUG    [line range] org/mockito/internal/handler/MockHandlerImpl.java <init> 34:34
+2021-07-04 09:38:55,943 DEBUG                  - depth 0, hash 4816bf0, HEAD~514
+2021-07-04 09:38:55,948 DEBUG                  - depth 1, hash b88d360, HEAD~645
+2021-07-04 09:38:56,246 DEBUG    [line range] org/mockito/internal/handler/NullResultGuardian.java <init> 24:26
+2021-07-04 09:38:56,351 DEBUG                  - depth 0, hash b8634ba, HEAD~12
+2021-07-04 09:38:56,658 DEBUG    [line range] org/mockito/internal/invocation/ArgumentsProcessor.java expandVarArgs 21:39
+2021-07-04 09:38:56,764 DEBUG                  - depth 0, hash dda1c41, HEAD~39
+2021-07-04 09:38:56,769 DEBUG                  - depth 1, hash eaa3fe7, HEAD~64
+2021-07-04 09:38:57,076 DEBUG    [line range] org/mockito/internal/invocation/InvocationImpl.java <init> 43:51
+2021-07-04 09:38:57,193 DEBUG                  - depth 0, hash a99d63b, HEAD~60
+2021-07-04 09:38:57,199 DEBUG                  - depth 1, hash 87670dc, HEAD~63
+2021-07-04 09:38:57,204 DEBUG                  - depth 2, hash eaa3fe7, HEAD~64
+2021-07-04 09:38:57,208 DEBUG                  - depth 3, hash 624f262, HEAD~557
+2021-07-04 09:38:57,212 DEBUG                  - depth 4, hash fe7c33b, HEAD~559
+2021-07-04 09:38:57,217 DEBUG                  - depth 5, hash f868114, HEAD~571
+2021-07-04 09:38:57,221 DEBUG                  - depth 6, hash cbc530c, HEAD~586
+2021-07-04 09:38:57,226 DEBUG                  - depth 7, hash 33923e4, HEAD~727
+2021-07-04 09:38:57,230 DEBUG                  - depth 8, hash 634d348, HEAD~829
+2021-07-04 09:38:57,235 DEBUG                  - depth 9, hash 8748ed3, HEAD~865
+2021-07-04 09:38:57,239 DEBUG                  - depth 10, hash bfce585, HEAD~869
+2021-07-04 09:38:57,243 DEBUG                  - depth 11, hash b636a62, HEAD~895
+2021-07-04 09:38:57,248 DEBUG                  - depth 12, hash 965dfe3, HEAD~1614
+2021-07-04 09:38:57,252 DEBUG                  - depth 13, hash 16a1d64, HEAD~1616
+2021-07-04 09:38:57,257 DEBUG                  - depth 14, hash 30f5896, HEAD~1675
+2021-07-04 09:38:57,261 DEBUG                  - depth 15, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:57,266 DEBUG    [line range] org/mockito/internal/invocation/InvocationImpl.java getMethod 57:59
+2021-07-04 09:38:57,382 DEBUG                  - depth 0, hash af7f19c, HEAD~558
+2021-07-04 09:38:57,388 DEBUG                  - depth 1, hash fe7c33b, HEAD~559
+2021-07-04 09:38:57,392 DEBUG                  - depth 2, hash f868114, HEAD~571
+2021-07-04 09:38:57,397 DEBUG                  - depth 3, hash cbc530c, HEAD~586
+2021-07-04 09:38:57,401 DEBUG                  - depth 4, hash 7cf6470, HEAD~1751
+2021-07-04 09:38:57,681 DEBUG    [single line]   org/mockito/internal/invocation/MatchersBinder.java <init> 18
+2021-07-04 09:38:57,789 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:38:57,795 DEBUG                  - depth 1, hash 110e46a, HEAD~1595
+2021-07-04 09:38:57,800 DEBUG                  - depth 2, hash 363dce3, HEAD~1598
+2021-07-04 09:38:58,134 DEBUG    [line range] org/mockito/internal/invocation/SerializableMethod.java <init> 24:31
+2021-07-04 09:38:58,240 DEBUG                  - depth 0, hash fe7c33b, HEAD~559
+2021-07-04 09:38:58,246 DEBUG                  - depth 1, hash b6bf0c1, HEAD~560
+2021-07-04 09:38:58,251 DEBUG                  - depth 2, hash e980c65, HEAD~561
+2021-07-04 09:38:58,255 DEBUG                  - depth 3, hash f868114, HEAD~571
+2021-07-04 09:38:58,259 DEBUG                  - depth 4, hash 7daaf90, HEAD~580
+2021-07-04 09:38:58,264 DEBUG                  - depth 5, hash cbc530c, HEAD~586
+2021-07-04 09:38:58,268 DEBUG    [line range] org/mockito/internal/invocation/SerializableMethod.java getJavaMethod 53:67
+2021-07-04 09:38:58,375 DEBUG                  - depth 0, hash af7f19c, HEAD~558
+2021-07-04 09:38:58,381 DEBUG                  - depth 1, hash b6bf0c1, HEAD~560
+2021-07-04 09:38:58,385 DEBUG    [line range] org/mockito/internal/invocation/SerializableMethod.java isVarArgs 49:51
+2021-07-04 09:38:58,492 DEBUG                  - depth 0, hash af7f19c, HEAD~558
+2021-07-04 09:38:58,498 DEBUG                  - depth 1, hash b6bf0c1, HEAD~560
+2021-07-04 09:38:58,503 DEBUG    [line range] org/mockito/internal/progress/MockingProgressImpl.java mockingStarted 113:118
+2021-07-04 09:38:58,613 DEBUG                  - depth 0, hash 7e9220e, HEAD~23
+2021-07-04 09:38:58,619 DEBUG                  - depth 1, hash bb56055, HEAD~282
+2021-07-04 09:38:58,623 DEBUG                  - depth 2, hash 2cacf84, HEAD~463
+2021-07-04 09:38:58,628 DEBUG    [line range] org/mockito/internal/progress/ThreadSafeMockingProgress.java mockingStarted 72:74
+2021-07-04 09:38:58,733 DEBUG                  - depth 0, hash 7e9220e, HEAD~23
+2021-07-04 09:38:58,739 DEBUG                  - depth 1, hash 2cacf84, HEAD~463
+2021-07-04 09:38:59,068 DEBUG    [single line]   org/mockito/internal/stubbing/InvocationContainerImpl.java <clinit> 20
+2021-07-04 09:38:59,179 DEBUG                  - depth 0, hash 6589a1d, HEAD~1228
+2021-07-04 09:38:59,185 DEBUG                  - depth 1, hash 56b3503, HEAD~1243
+2021-07-04 09:38:59,190 DEBUG                  - depth 2, hash af66e9e, HEAD~1258
+2021-07-04 09:38:59,194 DEBUG                  - depth 3, hash ab79739, HEAD~1262
+2021-07-04 09:38:59,198 DEBUG                  - depth 4, hash c764d22, HEAD~1263
+2021-07-04 09:38:59,203 DEBUG                  - depth 5, hash d0a7f34, HEAD~1264
+2021-07-04 09:38:59,207 DEBUG                  - depth 6, hash b7417a3, HEAD~1267
+2021-07-04 09:38:59,211 DEBUG                  - depth 7, hash 6b79cff, HEAD~1268
+2021-07-04 09:38:59,216 DEBUG                  - depth 8, hash 749aaae, HEAD~1282
+2021-07-04 09:38:59,220 DEBUG                  - depth 9, hash f4606e4, HEAD~1323
+2021-07-04 09:38:59,225 DEBUG                  - depth 10, hash 439c943, HEAD~1327
+2021-07-04 09:38:59,229 DEBUG                  - depth 11, hash cca6a04, HEAD~1337
+2021-07-04 09:38:59,234 DEBUG                  - depth 12, hash c84e1d9, HEAD~1341
+2021-07-04 09:38:59,238 DEBUG                  - depth 13, hash d15cf26, HEAD~1547
+2021-07-04 09:38:59,242 DEBUG                  - depth 14, hash d721a5a, HEAD~1551
+2021-07-04 09:38:59,247 DEBUG                  - depth 15, hash 2280719, HEAD~1566
+2021-07-04 09:38:59,251 DEBUG                  - depth 16, hash bcc618a, HEAD~1568
+2021-07-04 09:38:59,256 DEBUG                  - depth 17, hash bb47b42, HEAD~1576
+2021-07-04 09:38:59,260 DEBUG                  - depth 18, hash 85909dd, HEAD~1588
+2021-07-04 09:38:59,265 DEBUG                  - depth 19, hash 5906934, HEAD~1589
+2021-07-04 09:38:59,269 DEBUG                  - depth 20, hash 9952454, HEAD~1590
+2021-07-04 09:38:59,273 DEBUG                  - depth 21, hash a925c01, HEAD~1596
+2021-07-04 09:38:59,278 DEBUG                  - depth 22, hash 554224f, HEAD~1597
+2021-07-04 09:38:59,282 DEBUG                  - depth 23, hash 363dce3, HEAD~1598
+2021-07-04 09:38:59,287 DEBUG                  - depth 24, hash 5ca1475, HEAD~1599
+2021-07-04 09:38:59,291 DEBUG                  - depth 25, hash 15f3bb0, HEAD~1600
+2021-07-04 09:38:59,296 DEBUG    [line range] org/mockito/internal/stubbing/InvocationContainerImpl.java <init> 24:24
+2021-07-04 09:38:59,411 DEBUG                  - depth 0, hash 6589a1d, HEAD~1228
+2021-07-04 09:38:59,417 DEBUG                  - depth 1, hash 56b3503, HEAD~1243
+2021-07-04 09:38:59,421 DEBUG                  - depth 2, hash af66e9e, HEAD~1258
+2021-07-04 09:38:59,426 DEBUG                  - depth 3, hash ab79739, HEAD~1262
+2021-07-04 09:38:59,430 DEBUG                  - depth 4, hash c764d22, HEAD~1263
+2021-07-04 09:38:59,434 DEBUG                  - depth 5, hash d0a7f34, HEAD~1264
+2021-07-04 09:38:59,439 DEBUG                  - depth 6, hash b7417a3, HEAD~1267
+2021-07-04 09:38:59,443 DEBUG                  - depth 7, hash 6b79cff, HEAD~1268
+2021-07-04 09:38:59,448 DEBUG                  - depth 8, hash 749aaae, HEAD~1282
+2021-07-04 09:38:59,452 DEBUG                  - depth 9, hash f4606e4, HEAD~1323
+2021-07-04 09:38:59,456 DEBUG                  - depth 10, hash 439c943, HEAD~1327
+2021-07-04 09:38:59,461 DEBUG                  - depth 11, hash cca6a04, HEAD~1337
+2021-07-04 09:38:59,465 DEBUG                  - depth 12, hash c84e1d9, HEAD~1341
+2021-07-04 09:38:59,470 DEBUG                  - depth 13, hash d15cf26, HEAD~1547
+2021-07-04 09:38:59,474 DEBUG                  - depth 14, hash d721a5a, HEAD~1551
+2021-07-04 09:38:59,479 DEBUG                  - depth 15, hash 2280719, HEAD~1566
+2021-07-04 09:38:59,483 DEBUG                  - depth 16, hash bcc618a, HEAD~1568
+2021-07-04 09:38:59,487 DEBUG                  - depth 17, hash bb47b42, HEAD~1576
+2021-07-04 09:38:59,492 DEBUG                  - depth 18, hash 85909dd, HEAD~1588
+2021-07-04 09:38:59,496 DEBUG                  - depth 19, hash 5906934, HEAD~1589
+2021-07-04 09:38:59,501 DEBUG                  - depth 20, hash 9952454, HEAD~1590
+2021-07-04 09:38:59,505 DEBUG                  - depth 21, hash a925c01, HEAD~1596
+2021-07-04 09:38:59,510 DEBUG                  - depth 22, hash 554224f, HEAD~1597
+2021-07-04 09:38:59,514 DEBUG                  - depth 23, hash 363dce3, HEAD~1598
+2021-07-04 09:38:59,518 DEBUG                  - depth 24, hash 5ca1475, HEAD~1599
+2021-07-04 09:38:59,523 DEBUG                  - depth 25, hash 15f3bb0, HEAD~1600
+2021-07-04 09:38:59,812 DEBUG    [single line]   org/mockito/internal/stubbing/answers/CallsRealMethods.java <init> 32
+2021-07-04 09:38:59,918 DEBUG                  - depth 0, hash 3930b7d, HEAD~498
+2021-07-04 09:38:59,924 DEBUG                  - depth 1, hash cbca8d0, HEAD~739
+2021-07-04 09:38:59,928 DEBUG                  - depth 2, hash 634d348, HEAD~829
+2021-07-04 09:39:00,205 DEBUG    [single line]   org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java <init> 19
+2021-07-04 09:39:00,311 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:39:00,317 DEBUG                  - depth 1, hash f375e67, HEAD~738
+2021-07-04 09:39:00,321 DEBUG                  - depth 2, hash cbca8d0, HEAD~739
+2021-07-04 09:39:00,326 DEBUG                  - depth 3, hash d56f3a5, HEAD~967
+2021-07-04 09:39:00,330 DEBUG                  - depth 4, hash f79e36a, HEAD~1013
+2021-07-04 09:39:00,639 DEBUG    [single line]   org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java <init> 26
+2021-07-04 09:39:00,745 DEBUG                  - depth 0, hash 222c826, HEAD~443
+2021-07-04 09:39:00,751 DEBUG                  - depth 1, hash 343c836, HEAD~469
+2021-07-04 09:39:00,756 DEBUG                  - depth 2, hash cf7f7cc, HEAD~470
+2021-07-04 09:39:00,760 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java <init> 30:30
+2021-07-04 09:39:00,865 DEBUG                  - depth 0, hash 8d77362, HEAD~444
+2021-07-04 09:39:00,871 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java answer 63:81
+2021-07-04 09:39:00,982 DEBUG                  - depth 0, hash 39d09ae, HEAD~26
+2021-07-04 09:39:00,987 DEBUG                  - depth 1, hash 17521a1, HEAD~27
+2021-07-04 09:39:00,992 DEBUG                  - depth 2, hash 31ca6e4, HEAD~28
+2021-07-04 09:39:00,996 DEBUG                  - depth 3, hash db1c0c1, HEAD~278
+2021-07-04 09:39:01,001 DEBUG                  - depth 4, hash 575cd64, HEAD~280
+2021-07-04 09:39:01,005 DEBUG                  - depth 5, hash cbca8d0, HEAD~739
+2021-07-04 09:39:01,009 DEBUG                  - depth 6, hash 7167392, HEAD~766
+2021-07-04 09:39:01,013 DEBUG                  - depth 7, hash e29a99e, HEAD~921
+2021-07-04 09:39:01,018 DEBUG                  - depth 8, hash 2aed41e, HEAD~1302
+2021-07-04 09:39:01,022 DEBUG                  - depth 9, hash 9068339, HEAD~1313
+2021-07-04 09:39:01,027 DEBUG                  - depth 10, hash b776917, HEAD~1321
+2021-07-04 09:39:01,031 DEBUG                  - depth 11, hash 7862537, HEAD~1322
+2021-07-04 09:39:01,035 DEBUG                  - depth 12, hash cca6a04, HEAD~1337
+2021-07-04 09:39:01,040 DEBUG                  - depth 13, hash 554224f, HEAD~1597
+2021-07-04 09:39:01,044 DEBUG                  - depth 14, hash 7cf6470, HEAD~1751
+2021-07-04 09:39:01,335 DEBUG    [single line]   org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java <init> 15
+2021-07-04 09:39:01,444 DEBUG                  - depth 0, hash 3930b7d, HEAD~498
+2021-07-04 09:39:01,450 DEBUG                  - depth 1, hash f375e67, HEAD~738
+2021-07-04 09:39:01,455 DEBUG                  - depth 2, hash cbca8d0, HEAD~739
+2021-07-04 09:39:01,459 DEBUG                  - depth 3, hash b10d431, HEAD~857
+2021-07-04 09:39:01,463 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java <init> 18:18
+2021-07-04 09:39:01,569 DEBUG                  - depth 0, hash 7a9beaf, HEAD~856
+2021-07-04 09:39:01,873 DEBUG    [single line]   org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java <init> 48
+2021-07-04 09:39:01,979 DEBUG                  - depth 0, hash 3930b7d, HEAD~498
+2021-07-04 09:39:01,985 DEBUG                  - depth 1, hash f375e67, HEAD~738
+2021-07-04 09:39:01,990 DEBUG                  - depth 2, hash cbca8d0, HEAD~739
+2021-07-04 09:39:01,994 DEBUG                  - depth 3, hash 863efe6, HEAD~964
+2021-07-04 09:39:01,999 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java <init> 51:51
+2021-07-04 09:39:02,107 DEBUG                  - depth 0, hash f375e67, HEAD~738
+2021-07-04 09:39:02,112 DEBUG                  - depth 1, hash cbca8d0, HEAD~739
+2021-07-04 09:39:02,117 DEBUG                  - depth 2, hash 863efe6, HEAD~964
+2021-07-04 09:39:02,121 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java answer 56:64
+2021-07-04 09:39:02,229 DEBUG                  - depth 0, hash cbca8d0, HEAD~739
+2021-07-04 09:39:02,235 DEBUG                  - depth 1, hash 634d348, HEAD~829
+2021-07-04 09:39:02,239 DEBUG                  - depth 2, hash 863efe6, HEAD~964
+2021-07-04 09:39:02,536 DEBUG    [single line]   org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java <init> 36
+2021-07-04 09:39:02,645 DEBUG                  - depth 0, hash 3930b7d, HEAD~498
+2021-07-04 09:39:02,651 DEBUG                  - depth 1, hash f375e67, HEAD~738
+2021-07-04 09:39:02,655 DEBUG                  - depth 2, hash cbca8d0, HEAD~739
+2021-07-04 09:39:02,660 DEBUG                  - depth 3, hash f79e36a, HEAD~1013
+2021-07-04 09:39:02,664 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java <init> 40:40
+2021-07-04 09:39:02,773 DEBUG                  - depth 0, hash f375e67, HEAD~738
+2021-07-04 09:39:02,779 DEBUG                  - depth 1, hash cbca8d0, HEAD~739
+2021-07-04 09:39:02,784 DEBUG                  - depth 2, hash 863efe6, HEAD~964
+2021-07-04 09:39:02,788 DEBUG                  - depth 3, hash f79e36a, HEAD~1013
+2021-07-04 09:39:02,793 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java answer 42:53
+2021-07-04 09:39:02,902 DEBUG                  - depth 0, hash 899fd91, HEAD~32
+2021-07-04 09:39:02,908 DEBUG                  - depth 1, hash 8b20913, HEAD~110
+2021-07-04 09:39:02,912 DEBUG                  - depth 2, hash 76ec5fc, HEAD~113
+2021-07-04 09:39:02,917 DEBUG                  - depth 3, hash cbca8d0, HEAD~739
+2021-07-04 09:39:02,921 DEBUG                  - depth 4, hash 634d348, HEAD~829
+2021-07-04 09:39:02,926 DEBUG                  - depth 5, hash f0ee9b3, HEAD~912
+2021-07-04 09:39:02,930 DEBUG                  - depth 6, hash d7b85d0, HEAD~914
+2021-07-04 09:39:02,935 DEBUG                  - depth 7, hash 65d31f4, HEAD~915
+2021-07-04 09:39:02,939 DEBUG                  - depth 8, hash d5fb4ee, HEAD~916
+2021-07-04 09:39:02,943 DEBUG                  - depth 9, hash 863efe6, HEAD~964
+2021-07-04 09:39:02,948 DEBUG                  - depth 10, hash 0782166, HEAD~980
+2021-07-04 09:39:02,952 DEBUG                  - depth 11, hash 108b7ca, HEAD~981
+2021-07-04 09:39:02,957 DEBUG                  - depth 12, hash 17f010c, HEAD~1009
+2021-07-04 09:39:02,961 DEBUG                  - depth 13, hash f79e36a, HEAD~1013
+2021-07-04 09:39:03,259 DEBUG    [single line]   org/mockito/internal/util/MockCreationValidator.java <init> 14
+2021-07-04 09:39:03,365 DEBUG                  - depth 0, hash 8d77362, HEAD~444
+2021-07-04 09:39:03,370 DEBUG                  - depth 1, hash f65173b, HEAD~767
+2021-07-04 09:39:03,375 DEBUG    [line range] org/mockito/internal/util/MockCreationValidator.java isTypeMockable 16:18
+2021-07-04 09:39:03,480 DEBUG                  - depth 0, hash 8d77362, HEAD~444
+2021-07-04 09:39:03,486 DEBUG    [line range] org/mockito/internal/util/MockCreationValidator.java validateExtraInterfaces 26:36
+2021-07-04 09:39:03,591 DEBUG                  - depth 0, hash 427bc00, HEAD~29
+2021-07-04 09:39:03,597 DEBUG                  - depth 1, hash f00a5d7, HEAD~94
+2021-07-04 09:39:03,602 DEBUG                  - depth 2, hash f65173b, HEAD~767
+2021-07-04 09:39:03,606 DEBUG    [line range] org/mockito/internal/util/MockCreationValidator.java validateMockedType 38:45
+2021-07-04 09:39:03,711 DEBUG                  - depth 0, hash f319112, HEAD~568
+2021-07-04 09:39:03,717 DEBUG    [line range] org/mockito/internal/util/MockCreationValidator.java validateType 20:24
+2021-07-04 09:39:03,823 DEBUG                  - depth 0, hash 8d77362, HEAD~444
+2021-07-04 09:39:03,829 DEBUG                  - depth 1, hash f65173b, HEAD~767
+2021-07-04 09:39:04,118 DEBUG    [line range] org/mockito/internal/util/MockNameImpl.java <init> 17:25
+2021-07-04 09:39:04,224 DEBUG                  - depth 0, hash 39d09ae, HEAD~26
+2021-07-04 09:39:04,230 DEBUG                  - depth 1, hash 31ca6e4, HEAD~28
+2021-07-04 09:39:04,235 DEBUG                  - depth 2, hash e29a99e, HEAD~921
+2021-07-04 09:39:04,239 DEBUG    [line range] org/mockito/internal/util/MockNameImpl.java toInstanceName 31:39
+2021-07-04 09:39:04,345 DEBUG                  - depth 0, hash 662c36f, HEAD~525
+2021-07-04 09:39:04,351 DEBUG                  - depth 1, hash e29a99e, HEAD~921
+2021-07-04 09:39:04,355 DEBUG    [line range] org/mockito/internal/util/MockUtil.java createMock 23:34
+2021-07-04 09:39:04,468 DEBUG                  - depth 0, hash 3069df7, HEAD~14
+2021-07-04 09:39:04,474 DEBUG                  - depth 1, hash 0ddff90, HEAD~22
+2021-07-04 09:39:04,479 DEBUG                  - depth 2, hash 5bfaa36, HEAD~24
+2021-07-04 09:39:04,483 DEBUG                  - depth 3, hash 427bc00, HEAD~29
+2021-07-04 09:39:04,488 DEBUG                  - depth 4, hash f00a5d7, HEAD~94
+2021-07-04 09:39:04,492 DEBUG                  - depth 5, hash a4c2825, HEAD~114
+2021-07-04 09:39:04,497 DEBUG                  - depth 6, hash 139fff9, HEAD~159
+2021-07-04 09:39:04,501 DEBUG                  - depth 7, hash c3e55a2, HEAD~165
+2021-07-04 09:39:04,505 DEBUG                  - depth 8, hash 98f7799, HEAD~192
+2021-07-04 09:39:04,510 DEBUG                  - depth 9, hash 4816bf0, HEAD~514
+2021-07-04 09:39:04,514 DEBUG                  - depth 10, hash eb290a1, HEAD~517
+2021-07-04 09:39:04,519 DEBUG                  - depth 11, hash c427a8f, HEAD~570
+2021-07-04 09:39:04,523 DEBUG                  - depth 12, hash eddbfa4, HEAD~612
+2021-07-04 09:39:04,528 DEBUG                  - depth 13, hash b88d360, HEAD~645
+2021-07-04 09:39:04,532 DEBUG                  - depth 14, hash 5fce176, HEAD~764
+2021-07-04 09:39:04,536 DEBUG                  - depth 15, hash f65173b, HEAD~767
+2021-07-04 09:39:04,541 DEBUG                  - depth 16, hash c69a4d3, HEAD~769
+2021-07-04 09:39:04,545 DEBUG                  - depth 17, hash 51aca50, HEAD~893
+2021-07-04 09:39:04,550 DEBUG                  - depth 18, hash e29a99e, HEAD~921
+2021-07-04 09:39:04,554 DEBUG                  - depth 19, hash 454dd73, HEAD~963
+2021-07-04 09:39:04,559 DEBUG                  - depth 20, hash 7620b0f, HEAD~998
+2021-07-04 09:39:04,563 DEBUG                  - depth 21, hash 2903175, HEAD~1001
+2021-07-04 09:39:04,567 DEBUG                  - depth 22, hash f79e36a, HEAD~1013
+2021-07-04 09:39:04,572 DEBUG                  - depth 23, hash 52929f4, HEAD~1096
+2021-07-04 09:39:04,576 DEBUG                  - depth 24, hash 7454526, HEAD~1187
+2021-07-04 09:39:04,581 DEBUG                  - depth 25, hash e837d72, HEAD~1193
+2021-07-04 09:39:04,585 DEBUG                  - depth 26, hash a763056, HEAD~1196
+2021-07-04 09:39:04,590 DEBUG                  - depth 27, hash 816c032, HEAD~1212
+2021-07-04 09:39:04,594 DEBUG                  - depth 28, hash 6519fea, HEAD~1213
+2021-07-04 09:39:04,599 DEBUG                  - depth 29, hash 14065be, HEAD~1217
+2021-07-04 09:39:04,603 DEBUG                  - depth 30, hash 17fa583, HEAD~1295
+2021-07-04 09:39:04,607 DEBUG                  - depth 31, hash 2aed41e, HEAD~1302
+2021-07-04 09:39:04,612 DEBUG                  - depth 32, hash beb51da, HEAD~1431
+2021-07-04 09:39:04,616 DEBUG                  - depth 33, hash 98d682f, HEAD~1534
+2021-07-04 09:39:04,621 DEBUG                  - depth 34, hash 9137775, HEAD~1542
+2021-07-04 09:39:04,625 DEBUG                  - depth 35, hash d15cf26, HEAD~1547
+2021-07-04 09:39:04,630 DEBUG                  - depth 36, hash d721a5a, HEAD~1551
+2021-07-04 09:39:04,634 DEBUG                  - depth 37, hash 9952454, HEAD~1590
+2021-07-04 09:39:04,639 DEBUG                  - depth 38, hash 102b334, HEAD~1602
+2021-07-04 09:39:04,643 DEBUG                  - depth 39, hash 5608ca4, HEAD~1604
+2021-07-04 09:39:04,648 DEBUG                  - depth 40, hash 5f9f61a, HEAD~1687
+2021-07-04 09:39:04,652 DEBUG                  - depth 41, hash f28e6c5, HEAD~1716
+2021-07-04 09:39:04,657 DEBUG                  - depth 42, hash 1e11bf4, HEAD~1717
+2021-07-04 09:39:04,661 DEBUG                  - depth 43, hash 809316f, HEAD~1721
+2021-07-04 09:39:04,665 DEBUG                  - depth 44, hash 7cd8b31, HEAD~1722
+2021-07-04 09:39:04,670 DEBUG                  - depth 45, hash 55db3c7, HEAD~1729
+2021-07-04 09:39:04,674 DEBUG                  - depth 46, hash 11dff22, HEAD~1735
+2021-07-04 09:39:04,679 DEBUG                  - depth 47, hash 7cf6470, HEAD~1751
+2021-07-04 09:39:04,683 DEBUG    [line range] org/mockito/internal/util/ObjectMethodsGuru.java isCompareToMethod 34:37
+2021-07-04 09:39:04,788 DEBUG                  - depth 0, hash db1c0c1, HEAD~278
+2021-07-04 09:39:04,794 DEBUG    [line range] org/mockito/internal/util/ObjectMethodsGuru.java isToString 17:19
+2021-07-04 09:39:04,899 DEBUG                  - depth 0, hash f3f7b84, HEAD~556
+2021-07-04 09:39:04,905 DEBUG                  - depth 1, hash fe7c33b, HEAD~559
+2021-07-04 09:39:04,910 DEBUG                  - depth 2, hash b6bf0c1, HEAD~560
+2021-07-04 09:39:04,914 DEBUG                  - depth 3, hash c427a8f, HEAD~570
+2021-07-04 09:39:04,919 DEBUG                  - depth 4, hash f868114, HEAD~571
+2021-07-04 09:39:04,923 DEBUG                  - depth 5, hash d800604, HEAD~610
+2021-07-04 09:39:04,928 DEBUG                  - depth 6, hash 5c3490a, HEAD~614
+2021-07-04 09:39:04,932 DEBUG    [line range] org/mockito/internal/util/ObjectMethodsGuru.java isToString 21:24
+2021-07-04 09:39:05,042 DEBUG                  - depth 0, hash 624f262, HEAD~557
+2021-07-04 09:39:05,048 DEBUG                  - depth 1, hash fe7c33b, HEAD~559
+2021-07-04 09:39:05,052 DEBUG                  - depth 2, hash f868114, HEAD~571
+2021-07-04 09:39:05,057 DEBUG                  - depth 3, hash 5c3490a, HEAD~614
+2021-07-04 09:39:05,352 DEBUG    [single line]   org/mockito/internal/verification/RegisteredInvocations.java <init> 20
+2021-07-04 09:39:05,459 DEBUG                  - depth 0, hash cbc530c, HEAD~586
+2021-07-04 09:39:05,465 DEBUG                  - depth 1, hash ae34c19, HEAD~1338
+2021-07-04 09:39:05,470 DEBUG    [line range] org/mockito/internal/verification/RegisteredInvocations.java <init> 23:23
+2021-07-04 09:39:05,581 DEBUG                  - depth 0, hash 60f0c0c, HEAD~58
+2021-07-04 09:39:05,587 DEBUG                  - depth 1, hash a99d63b, HEAD~60
+2021-07-04 09:39:05,592 DEBUG                  - depth 2, hash 3573d35, HEAD~1229
+2021-07-04 09:39:05,596 DEBUG                  - depth 3, hash ae34c19, HEAD~1338
+2021-07-04 09:39:05,891 DEBUG    [single line]   org/mockito/internal/progress/HandyReturnValues.java <init> 17
+2021-07-04 09:39:05,997 DEBUG                  - depth 0, hash d94c8c1, HEAD~888
+2021-07-04 09:39:06,003 DEBUG                  - depth 1, hash 863efe6, HEAD~964
+2021-07-04 09:39:06,007 DEBUG                  - depth 2, hash 63fbcc7, HEAD~1067
+2021-07-04 09:39:06,012 DEBUG                  - depth 3, hash a0e3112, HEAD~1334
+2021-07-04 09:39:06,016 DEBUG                  - depth 4, hash d964299, HEAD~1463
+2021-07-04 09:39:06,020 DEBUG                  - depth 5, hash 8ddb75e, HEAD~1479
+2021-07-04 09:39:06,025 DEBUG                  - depth 6, hash 9f6cfd4, HEAD~1482
+2021-07-04 09:39:06,030 DEBUG    [line range] org/mockito/internal/progress/HandyReturnValues.java returnFor 39:44
+2021-07-04 09:39:06,135 DEBUG                  - depth 0, hash 27a2f51, HEAD~549
+2021-07-04 09:39:06,141 DEBUG                  - depth 1, hash c01c0aa, HEAD~640
+2021-07-04 09:39:06,145 DEBUG                  - depth 2, hash d4c2e81, HEAD~642
+2021-07-04 09:39:06,453 DEBUG    [line range] org/mockito/internal/util/Primitives.java <clinit> 31:31
+2021-07-04 09:39:06,558 DEBUG                  - depth 0, hash dda1c41, HEAD~39
+2021-07-04 09:39:06,564 DEBUG                  - depth 1, hash 739fe2c, HEAD~1104
+2021-07-04 09:39:06,570 DEBUG    [line range] org/mockito/internal/util/Primitives.java isPrimitiveWrapper 20:22
+2021-07-04 09:39:06,679 DEBUG                  - depth 0, hash 739fe2c, HEAD~1104
+2021-07-04 09:39:06,685 DEBUG    [line range] org/mockito/internal/util/Primitives.java primitiveValueOrNullFor 28:30
+2021-07-04 09:39:06,791 DEBUG                  - depth 0, hash 27a2f51, HEAD~549
+2021-07-04 09:39:06,797 DEBUG                  - depth 1, hash c01c0aa, HEAD~640
+2021-07-04 09:39:06,802 DEBUG                  - depth 2, hash 739fe2c, HEAD~1104
+2021-07-04 09:39:06,806 DEBUG    [line range] org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java answer 21:28
+2021-07-04 09:39:06,912 DEBUG                  - depth 0, hash cbca8d0, HEAD~739
+2021-07-04 09:39:06,918 DEBUG                  - depth 1, hash 634d348, HEAD~829
+2021-07-04 09:39:06,923 DEBUG                  - depth 2, hash 52a27f7, HEAD~854
+2021-07-04 09:39:06,927 DEBUG                  - depth 3, hash b10d431, HEAD~857
+2021-07-04 09:39:06,932 INFO     The number of BIC candidates: 397

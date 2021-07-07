@@ -1,0 +1,511 @@
+2021-07-03 20:54:00,084 INFO     Search BICs for /tmp/Gson-1b/
+2021-07-03 20:54:00,084 DEBUG    Reading the coverage of com.google.gson.functional.TypeVariableTest::testSingle (failings)
+2021-07-03 20:54:00,111 INFO     Loaded 1x469 Coverage Matrix
+2021-07-03 20:54:00,112 INFO     The number of total commits: 362
+2021-07-03 20:54:00,382 DEBUG    [single line]   com/google/gson/AnonymousAndLocalClassExclusionStrategy.java <init> 25
+2021-07-03 20:54:00,401 DEBUG                  - depth 0, hash 54a4807, HEAD~255
+2021-07-03 20:54:00,406 DEBUG    [line range] com/google/gson/AnonymousAndLocalClassExclusionStrategy.java isAnonymousOrLocal 35:38
+2021-07-03 20:54:00,425 DEBUG                  - depth 0, hash d5741b3, HEAD~47
+2021-07-03 20:54:00,430 DEBUG                  - depth 1, hash 54a4807, HEAD~255
+2021-07-03 20:54:00,434 DEBUG    [line range] com/google/gson/AnonymousAndLocalClassExclusionStrategy.java shouldSkipClass 31:33
+2021-07-03 20:54:00,452 DEBUG                  - depth 0, hash 54a4807, HEAD~255
+2021-07-03 20:54:00,458 DEBUG    [line range] com/google/gson/AnonymousAndLocalClassExclusionStrategy.java shouldSkipField 27:29
+2021-07-03 20:54:00,476 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:00,481 DEBUG                  - depth 1, hash 54a4807, HEAD~255
+2021-07-03 20:54:00,938 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java <clinit> 57:57
+2021-07-03 20:54:00,962 DEBUG                  - depth 0, hash 19ae6c0, HEAD~163
+2021-07-03 20:54:00,967 DEBUG                  - depth 1, hash 458f2ba, HEAD~253
+2021-07-03 20:54:00,971 DEBUG                  - depth 2, hash 2b9fd47, HEAD~336
+2021-07-03 20:54:00,976 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:00,980 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java createDefaultDeserializers 141:182
+2021-07-03 20:54:01,004 DEBUG                  - depth 0, hash b2af57d, HEAD~73
+2021-07-03 20:54:01,010 DEBUG                  - depth 1, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:01,014 DEBUG                  - depth 2, hash 15fa109, HEAD~107
+2021-07-03 20:54:01,018 DEBUG                  - depth 3, hash ebf24fb, HEAD~108
+2021-07-03 20:54:01,022 DEBUG                  - depth 4, hash 809e3b5, HEAD~219
+2021-07-03 20:54:01,026 DEBUG                  - depth 5, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,030 DEBUG                  - depth 6, hash 73117fe, HEAD~256
+2021-07-03 20:54:01,034 DEBUG                  - depth 7, hash 0b5f3dc, HEAD~278
+2021-07-03 20:54:01,038 DEBUG                  - depth 8, hash 628a2c5, HEAD~300
+2021-07-03 20:54:01,042 DEBUG                  - depth 9, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,046 DEBUG                  - depth 10, hash eaa43b7, HEAD~318
+2021-07-03 20:54:01,050 DEBUG                  - depth 11, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,055 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java createDefaultInstanceCreators 184:197
+2021-07-03 20:54:01,079 DEBUG                  - depth 0, hash b2af57d, HEAD~73
+2021-07-03 20:54:01,084 DEBUG                  - depth 1, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:01,089 DEBUG                  - depth 2, hash 7079799, HEAD~103
+2021-07-03 20:54:01,093 DEBUG                  - depth 3, hash 4fc6400, HEAD~215
+2021-07-03 20:54:01,097 DEBUG                  - depth 4, hash a595032, HEAD~216
+2021-07-03 20:54:01,101 DEBUG                  - depth 5, hash 2cec661, HEAD~232
+2021-07-03 20:54:01,105 DEBUG                  - depth 6, hash cc33447, HEAD~244
+2021-07-03 20:54:01,109 DEBUG                  - depth 7, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,113 DEBUG                  - depth 8, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,117 DEBUG                  - depth 9, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,121 DEBUG                  - depth 10, hash eaa43b7, HEAD~318
+2021-07-03 20:54:01,125 DEBUG                  - depth 11, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,129 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java createDefaultSerializers 103:139
+2021-07-03 20:54:01,153 DEBUG                  - depth 0, hash b2af57d, HEAD~73
+2021-07-03 20:54:01,159 DEBUG                  - depth 1, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:01,163 DEBUG                  - depth 2, hash 15fa109, HEAD~107
+2021-07-03 20:54:01,167 DEBUG                  - depth 3, hash ebf24fb, HEAD~108
+2021-07-03 20:54:01,171 DEBUG                  - depth 4, hash 809e3b5, HEAD~219
+2021-07-03 20:54:01,175 DEBUG                  - depth 5, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,179 DEBUG                  - depth 6, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,183 DEBUG                  - depth 7, hash 0b5f3dc, HEAD~278
+2021-07-03 20:54:01,187 DEBUG                  - depth 8, hash 628a2c5, HEAD~300
+2021-07-03 20:54:01,191 DEBUG                  - depth 9, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,195 DEBUG                  - depth 10, hash bc2c25f, HEAD~316
+2021-07-03 20:54:01,199 DEBUG                  - depth 11, hash eaa43b7, HEAD~318
+2021-07-03 20:54:01,203 DEBUG                  - depth 12, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,208 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java getDefaultDeserializers 235:237
+2021-07-03 20:54:01,229 DEBUG                  - depth 0, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,235 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java getDefaultInstanceCreators 239:241
+2021-07-03 20:54:01,257 DEBUG                  - depth 0, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,262 DEBUG                  - depth 1, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,266 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java getDefaultSerializers 204:206
+2021-07-03 20:54:01,289 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:01,294 DEBUG                  - depth 1, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,298 DEBUG                  - depth 2, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,302 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java getDefaultSerializers 208:233
+2021-07-03 20:54:01,324 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:01,330 DEBUG                  - depth 1, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,334 DEBUG                  - depth 2, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,338 DEBUG                  - depth 3, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,342 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java wrapDeserializer 199:202
+2021-07-03 20:54:01,366 DEBUG                  - depth 0, hash de0f8da, HEAD~53
+2021-07-03 20:54:01,371 DEBUG                  - depth 1, hash bc2c25f, HEAD~316
+2021-07-03 20:54:01,375 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,380 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 629
+2021-07-03 20:54:01,403 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,409 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,413 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 646
+2021-07-03 20:54:01,436 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,442 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,446 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 856
+2021-07-03 20:54:01,469 DEBUG                  - depth 0, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,475 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,479 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 744
+2021-07-03 20:54:01,503 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,508 DEBUG                  - depth 1, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,512 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,517 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 822
+2021-07-03 20:54:01,540 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,545 DEBUG                  - depth 1, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,550 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,554 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 510
+2021-07-03 20:54:01,577 DEBUG                  - depth 0, hash 9245beb, HEAD~317
+2021-07-03 20:54:01,582 DEBUG                  - depth 1, hash eaa43b7, HEAD~318
+2021-07-03 20:54:01,587 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java <init> 246:248
+2021-07-03 20:54:01,610 DEBUG                  - depth 0, hash 19ae6c0, HEAD~163
+2021-07-03 20:54:01,616 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,620 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java deserialize 324
+2021-07-03 20:54:01,639 DEBUG                  - depth 0, hash ebf24fb, HEAD~108
+2021-07-03 20:54:01,645 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 810
+2021-07-03 20:54:01,667 DEBUG                  - depth 0, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,672 DEBUG                  - depth 1, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,676 DEBUG                  - depth 2, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,681 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java <init> 794:796
+2021-07-03 20:54:01,704 DEBUG                  - depth 0, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,710 DEBUG                  - depth 1, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,714 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,718 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 400
+2021-07-03 20:54:01,741 DEBUG                  - depth 0, hash 2cec661, HEAD~232
+2021-07-03 20:54:01,747 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,751 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 779
+2021-07-03 20:54:01,775 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,781 DEBUG                  - depth 1, hash 51881c7, HEAD~260
+2021-07-03 20:54:01,785 DEBUG                  - depth 2, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,789 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,793 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 359
+2021-07-03 20:54:01,814 DEBUG                  - depth 0, hash e9600e1, HEAD~201
+2021-07-03 20:54:01,819 DEBUG                  - depth 1, hash 809e3b5, HEAD~219
+2021-07-03 20:54:01,823 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 883
+2021-07-03 20:54:01,847 DEBUG                  - depth 0, hash a595032, HEAD~216
+2021-07-03 20:54:01,853 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,857 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 710
+2021-07-03 20:54:01,881 DEBUG                  - depth 0, hash 0d8150f, HEAD~305
+2021-07-03 20:54:01,886 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,890 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 472
+2021-07-03 20:54:01,914 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:01,919 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:01,924 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 698
+2021-07-03 20:54:01,945 DEBUG                  - depth 0, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,951 DEBUG    [line range] com/google/gson/DefaultTypeAdapters.java <init> 684:686
+2021-07-03 20:54:01,972 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:01,977 DEBUG                  - depth 1, hash 458f2ba, HEAD~253
+2021-07-03 20:54:01,982 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 681
+2021-07-03 20:54:02,003 DEBUG                  - depth 0, hash 458f2ba, HEAD~253
+2021-07-03 20:54:02,009 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 664
+2021-07-03 20:54:02,032 DEBUG                  - depth 0, hash 628a2c5, HEAD~300
+2021-07-03 20:54:02,037 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 566
+2021-07-03 20:54:02,059 DEBUG                  - depth 0, hash 0b1ee35, HEAD~238
+2021-07-03 20:54:02,064 DEBUG                  - depth 1, hash cc33447, HEAD~244
+2021-07-03 20:54:02,068 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 727
+2021-07-03 20:54:02,092 DEBUG                  - depth 0, hash 0d8150f, HEAD~305
+2021-07-03 20:54:02,097 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,102 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 839
+2021-07-03 20:54:02,126 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:02,131 DEBUG                  - depth 1, hash 0d8150f, HEAD~305
+2021-07-03 20:54:02,135 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,139 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 873
+2021-07-03 20:54:02,160 DEBUG                  - depth 0, hash 4fc6400, HEAD~215
+2021-07-03 20:54:02,165 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 438
+2021-07-03 20:54:02,188 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,194 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 418
+2021-07-03 20:54:02,217 DEBUG                  - depth 0, hash 911a92b, HEAD~257
+2021-07-03 20:54:02,223 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,227 DEBUG    [single line]   com/google/gson/DefaultTypeAdapters.java <init> 456
+2021-07-03 20:54:02,250 DEBUG                  - depth 0, hash 0b5f3dc, HEAD~278
+2021-07-03 20:54:02,547 DEBUG    [line range] com/google/gson/DisjunctionExclusionStrategy.java <init> 30:33
+2021-07-03 20:54:02,566 DEBUG                  - depth 0, hash 764e4d9, HEAD~230
+2021-07-03 20:54:02,572 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,576 DEBUG    [line range] com/google/gson/DisjunctionExclusionStrategy.java shouldSkipClass 44:51
+2021-07-03 20:54:02,594 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,600 DEBUG    [line range] com/google/gson/DisjunctionExclusionStrategy.java shouldSkipField 35:42
+2021-07-03 20:54:02,618 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:02,623 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,958 DEBUG    [line range] com/google/gson/Escaper.java <clinit> 39:41
+2021-07-03 20:54:02,977 DEBUG                  - depth 0, hash 73d93e3, HEAD~250
+2021-07-03 20:54:02,983 DEBUG                  - depth 1, hash d74ecbf, HEAD~340
+2021-07-03 20:54:02,987 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:02,991 DEBUG    [line range] com/google/gson/Escaper.java <init> 64:66
+2021-07-03 20:54:03,010 DEBUG                  - depth 0, hash 73d93e3, HEAD~250
+2021-07-03 20:54:03,015 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:03,356 DEBUG    [line range] com/google/gson/FieldAttributes.java <clinit> 40:41
+2021-07-03 20:54:03,375 DEBUG                  - depth 0, hash 9c7bfc6, HEAD~80
+2021-07-03 20:54:03,380 DEBUG                  - depth 1, hash 9816426, HEAD~100
+2021-07-03 20:54:03,385 DEBUG    [line range] com/google/gson/FieldAttributes.java <init> 59:67
+2021-07-03 20:54:03,403 DEBUG                  - depth 0, hash d0977c2, HEAD~9
+2021-07-03 20:54:03,409 DEBUG                  - depth 1, hash 9816426, HEAD~100
+2021-07-03 20:54:03,413 DEBUG                  - depth 2, hash e3af076, HEAD~102
+2021-07-03 20:54:03,417 DEBUG                  - depth 3, hash c329d02, HEAD~109
+2021-07-03 20:54:03,421 DEBUG                  - depth 4, hash 839b0c2, HEAD~134
+2021-07-03 20:54:03,425 DEBUG    [line range] com/google/gson/FieldAttributes.java getDeclaredClass 133:135
+2021-07-03 20:54:03,444 DEBUG                  - depth 0, hash c329d02, HEAD~109
+2021-07-03 20:54:03,450 DEBUG                  - depth 1, hash 641390b, HEAD~111
+2021-07-03 20:54:03,454 DEBUG                  - depth 2, hash 839b0c2, HEAD~134
+2021-07-03 20:54:03,458 DEBUG    [line range] com/google/gson/FieldAttributes.java getMaxCacheSize 69:78
+2021-07-03 20:54:03,477 DEBUG                  - depth 0, hash 9c7bfc6, HEAD~80
+2021-07-03 20:54:03,482 DEBUG    [line range] com/google/gson/FieldAttributes.java hasModifier 177:179
+2021-07-03 20:54:03,501 DEBUG                  - depth 0, hash c329d02, HEAD~109
+2021-07-03 20:54:03,506 DEBUG                  - depth 1, hash 641390b, HEAD~111
+2021-07-03 20:54:03,511 DEBUG                  - depth 2, hash 839b0c2, HEAD~134
+2021-07-03 20:54:03,515 DEBUG    [line range] com/google/gson/FieldAttributes.java isSynthetic 208:210
+2021-07-03 20:54:03,534 DEBUG                  - depth 0, hash c329d02, HEAD~109
+2021-07-03 20:54:03,539 DEBUG                  - depth 1, hash 641390b, HEAD~111
+2021-07-03 20:54:03,543 DEBUG                  - depth 2, hash 839b0c2, HEAD~134
+2021-07-03 20:54:03,935 DEBUG    [line range] com/google/gson/Gson.java <clinit> 84:85
+2021-07-03 20:54:03,956 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:03,961 DEBUG    [line range] com/google/gson/Gson.java <init> 150:155
+2021-07-03 20:54:03,984 DEBUG                  - depth 0, hash dea7ab8, HEAD~4
+2021-07-03 20:54:03,989 DEBUG                  - depth 1, hash 2b1f3ee, HEAD~33
+2021-07-03 20:54:03,994 DEBUG                  - depth 2, hash 747e3c3, HEAD~39
+2021-07-03 20:54:03,998 DEBUG                  - depth 3, hash 839b0c2, HEAD~134
+2021-07-03 20:54:04,002 DEBUG                  - depth 4, hash 6d50bce, HEAD~187
+2021-07-03 20:54:04,006 DEBUG                  - depth 5, hash b2b2e5d, HEAD~213
+2021-07-03 20:54:04,010 DEBUG                  - depth 6, hash 764e4d9, HEAD~230
+2021-07-03 20:54:04,014 DEBUG                  - depth 7, hash 458f2ba, HEAD~253
+2021-07-03 20:54:04,019 DEBUG                  - depth 8, hash 51881c7, HEAD~260
+2021-07-03 20:54:04,023 DEBUG                  - depth 9, hash cf2a457, HEAD~304
+2021-07-03 20:54:04,027 DEBUG                  - depth 10, hash cc90a68, HEAD~319
+2021-07-03 20:54:04,031 DEBUG                  - depth 11, hash 9dfa454, HEAD~325
+2021-07-03 20:54:04,035 DEBUG                  - depth 12, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,039 DEBUG    [line range] com/google/gson/Gson.java <init> 157:172
+2021-07-03 20:54:04,063 DEBUG                  - depth 0, hash dea7ab8, HEAD~4
+2021-07-03 20:54:04,068 DEBUG                  - depth 1, hash 2b1f3ee, HEAD~33
+2021-07-03 20:54:04,073 DEBUG                  - depth 2, hash 747e3c3, HEAD~39
+2021-07-03 20:54:04,077 DEBUG                  - depth 3, hash e3af076, HEAD~102
+2021-07-03 20:54:04,081 DEBUG                  - depth 4, hash 839b0c2, HEAD~134
+2021-07-03 20:54:04,085 DEBUG                  - depth 5, hash 6d50bce, HEAD~187
+2021-07-03 20:54:04,089 DEBUG                  - depth 6, hash b2b2e5d, HEAD~213
+2021-07-03 20:54:04,093 DEBUG                  - depth 7, hash cf2a457, HEAD~304
+2021-07-03 20:54:04,098 DEBUG                  - depth 8, hash 9dfa454, HEAD~325
+2021-07-03 20:54:04,102 DEBUG                  - depth 9, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,106 DEBUG    [line range] com/google/gson/Gson.java createDefaultObjectNavigatorFactory 174:176
+2021-07-03 20:54:04,130 DEBUG                  - depth 0, hash 6d50bce, HEAD~187
+2021-07-03 20:54:04,135 DEBUG                  - depth 1, hash 9dfa454, HEAD~325
+2021-07-03 20:54:04,139 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,143 DEBUG    [line range] com/google/gson/Gson.java createExclusionStrategy 178:187
+2021-07-03 20:54:04,167 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:04,172 DEBUG                  - depth 1, hash 54a4807, HEAD~255
+2021-07-03 20:54:04,177 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,181 DEBUG    [line range] com/google/gson/Gson.java toJson 247:252
+2021-07-03 20:54:04,204 DEBUG                  - depth 0, hash e37add7, HEAD~126
+2021-07-03 20:54:04,209 DEBUG                  - depth 1, hash b634804, HEAD~133
+2021-07-03 20:54:04,214 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,218 DEBUG    [line range] com/google/gson/Gson.java toJson 269:273
+2021-07-03 20:54:04,241 DEBUG                  - depth 0, hash 747e3c3, HEAD~39
+2021-07-03 20:54:04,246 DEBUG                  - depth 1, hash e37add7, HEAD~126
+2021-07-03 20:54:04,251 DEBUG                  - depth 2, hash b634804, HEAD~133
+2021-07-03 20:54:04,255 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,259 DEBUG    [line range] com/google/gson/Gson.java toJsonTree 225:232
+2021-07-03 20:54:04,281 DEBUG                  - depth 0, hash e37add7, HEAD~126
+2021-07-03 20:54:04,286 DEBUG                  - depth 1, hash b634804, HEAD~133
+2021-07-03 20:54:04,290 DEBUG                  - depth 2, hash 6d50bce, HEAD~187
+2021-07-03 20:54:04,295 DEBUG                  - depth 3, hash b44bbbf, HEAD~195
+2021-07-03 20:54:04,580 DEBUG    [single line]   com/google/gson/JavaFieldNamingPolicy.java <init> 45
+2021-07-03 20:54:04,598 DEBUG                  - depth 0, hash dc60cb1, HEAD~59
+2021-07-03 20:54:04,604 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:04,912 DEBUG    [line range] com/google/gson/JsonDeserializerExceptionWrapper.java <init> 42:45
+2021-07-03 20:54:04,931 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:05,253 DEBUG    [line range] com/google/gson/JsonElement.java <clinit> 31:31
+2021-07-03 20:54:05,271 DEBUG                  - depth 0, hash 50eb582, HEAD~169
+2021-07-03 20:54:05,277 DEBUG    [single line]   com/google/gson/JsonElement.java <init> 30
+2021-07-03 20:54:05,296 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:05,572 DEBUG    [line range] com/google/gson/JsonFieldNameValidator.java <clinit> 35:36
+2021-07-03 20:54:05,591 DEBUG                  - depth 0, hash ba01548, HEAD~78
+2021-07-03 20:54:05,596 DEBUG                  - depth 1, hash 553a619, HEAD~160
+2021-07-03 20:54:05,600 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:05,605 DEBUG    [single line]   com/google/gson/JsonFieldNameValidator.java <init> 32
+2021-07-03 20:54:05,623 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:05,935 DEBUG    [line range] com/google/gson/JsonObject.java <init> 42:44
+2021-07-03 20:54:05,955 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,257 DEBUG    [line range] com/google/gson/JsonSerializationContextDefault.java <init> 33:39
+2021-07-03 20:54:06,276 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,282 DEBUG                  - depth 1, hash 66649a1, HEAD~175
+2021-07-03 20:54:06,286 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,290 DEBUG    [line range] com/google/gson/JsonSerializationContextDefault.java serialize 52:58
+2021-07-03 20:54:06,309 DEBUG                  - depth 0, hash b634804, HEAD~133
+2021-07-03 20:54:06,314 DEBUG                  - depth 1, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,318 DEBUG                  - depth 2, hash 66649a1, HEAD~175
+2021-07-03 20:54:06,322 DEBUG                  - depth 3, hash 54a4807, HEAD~255
+2021-07-03 20:54:06,327 DEBUG                  - depth 4, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,662 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java <init> 37:45
+2021-07-03 20:54:06,683 DEBUG                  - depth 0, hash b634804, HEAD~133
+2021-07-03 20:54:06,689 DEBUG                  - depth 1, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,693 DEBUG                  - depth 2, hash 66649a1, HEAD~175
+2021-07-03 20:54:06,697 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,701 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java assignToRoot 216:219
+2021-07-03 20:54:06,721 DEBUG                  - depth 0, hash 6a80791, HEAD~231
+2021-07-03 20:54:06,727 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,731 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java end 61:65
+2021-07-03 20:54:06,751 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,756 DEBUG                  - depth 1, hash 66649a1, HEAD~175
+2021-07-03 20:54:06,761 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java findAndInvokeCustomSerializer 174:190
+2021-07-03 20:54:06,782 DEBUG                  - depth 0, hash de0f8da, HEAD~53
+2021-07-03 20:54:06,787 DEBUG                  - depth 1, hash 610580b, HEAD~112
+2021-07-03 20:54:06,792 DEBUG                  - depth 2, hash 338758a, HEAD~119
+2021-07-03 20:54:06,796 DEBUG                  - depth 3, hash de6af44, HEAD~121
+2021-07-03 20:54:06,800 DEBUG                  - depth 4, hash 60ef777, HEAD~122
+2021-07-03 20:54:06,804 DEBUG                  - depth 5, hash b634804, HEAD~133
+2021-07-03 20:54:06,808 DEBUG                  - depth 6, hash ff74224, HEAD~140
+2021-07-03 20:54:06,812 DEBUG                  - depth 7, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,816 DEBUG                  - depth 8, hash 9070821, HEAD~154
+2021-07-03 20:54:06,821 DEBUG                  - depth 9, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,825 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java start 51:59
+2021-07-03 20:54:06,844 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,850 DEBUG                  - depth 1, hash 9070821, HEAD~154
+2021-07-03 20:54:06,854 DEBUG                  - depth 2, hash 66649a1, HEAD~175
+2021-07-03 20:54:06,858 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java startVisitingObject 67:69
+2021-07-03 20:54:06,879 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:06,884 DEBUG    [line range] com/google/gson/JsonSerializationVisitor.java visitUsingCustomHandler 151:169
+2021-07-03 20:54:06,905 DEBUG                  - depth 0, hash 2b1f3ee, HEAD~33
+2021-07-03 20:54:06,911 DEBUG                  - depth 1, hash b634804, HEAD~133
+2021-07-03 20:54:06,915 DEBUG                  - depth 2, hash ff74224, HEAD~140
+2021-07-03 20:54:06,919 DEBUG                  - depth 3, hash 2716d96, HEAD~141
+2021-07-03 20:54:06,923 DEBUG                  - depth 4, hash 9070821, HEAD~154
+2021-07-03 20:54:06,928 DEBUG                  - depth 5, hash 18b301d, HEAD~173
+2021-07-03 20:54:06,932 DEBUG                  - depth 6, hash a18a751, HEAD~270
+2021-07-03 20:54:06,936 DEBUG                  - depth 7, hash 11a29b6, HEAD~280
+2021-07-03 20:54:06,940 DEBUG                  - depth 8, hash b90228d, HEAD~285
+2021-07-03 20:54:06,944 DEBUG                  - depth 9, hash 0b6bbaf, HEAD~315
+2021-07-03 20:54:06,949 DEBUG                  - depth 10, hash 9245beb, HEAD~317
+2021-07-03 20:54:06,953 DEBUG                  - depth 11, hash eaa43b7, HEAD~318
+2021-07-03 20:54:06,957 DEBUG                  - depth 12, hash cc90a68, HEAD~319
+2021-07-03 20:54:06,961 DEBUG                  - depth 13, hash 57d1f32, HEAD~361
+2021-07-03 20:54:07,241 DEBUG    [single line]   com/google/gson/LongSerializationPolicy.java <clinit> 27
+2021-07-03 20:54:07,260 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:07,266 DEBUG    [single line]   com/google/gson/LongSerializationPolicy.java <clinit> 34
+2021-07-03 20:54:07,285 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:07,290 DEBUG    [single line]   com/google/gson/LongSerializationPolicy.java <clinit> 41
+2021-07-03 20:54:07,308 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:07,314 DEBUG    [line range] com/google/gson/LongSerializationPolicy.java <init> 45:47
+2021-07-03 20:54:07,332 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:07,338 DEBUG    [single line]   com/google/gson/LongSerializationPolicy.java <init> 63
+2021-07-03 20:54:07,356 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:07,362 DEBUG    [single line]   com/google/gson/LongSerializationPolicy.java <init> 69
+2021-07-03 20:54:07,380 DEBUG                  - depth 0, hash e2cfc0c, HEAD~240
+2021-07-03 20:54:07,675 DEBUG    [line range] com/google/gson/LruCache.java <init> 35:38
+2021-07-03 20:54:07,693 DEBUG                  - depth 0, hash 9816426, HEAD~100
+2021-07-03 20:54:08,013 DEBUG    [line range] com/google/gson/MappedObjectConstructor.java <clinit> 38:38
+2021-07-03 20:54:08,032 DEBUG                  - depth 0, hash 6a80791, HEAD~231
+2021-07-03 20:54:08,038 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,042 DEBUG    [line range] com/google/gson/MappedObjectConstructor.java <init> 42:45
+2021-07-03 20:54:08,061 DEBUG                  - depth 0, hash 764e4d9, HEAD~230
+2021-07-03 20:54:08,066 DEBUG                  - depth 1, hash 6a80791, HEAD~231
+2021-07-03 20:54:08,071 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,350 DEBUG    [single line]   com/google/gson/MemoryRefStack.java <init> 28
+2021-07-03 20:54:08,369 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:08,375 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,379 DEBUG    [line range] com/google/gson/MemoryRefStack.java <init> 29:29
+2021-07-03 20:54:08,398 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:08,403 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,408 DEBUG    [line range] com/google/gson/MemoryRefStack.java contains 74:86
+2021-07-03 20:54:08,426 DEBUG                  - depth 0, hash 610580b, HEAD~112
+2021-07-03 20:54:08,432 DEBUG                  - depth 1, hash ff74224, HEAD~140
+2021-07-03 20:54:08,436 DEBUG                  - depth 2, hash 2716d96, HEAD~141
+2021-07-03 20:54:08,440 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,445 DEBUG    [line range] com/google/gson/MemoryRefStack.java pop 49:51
+2021-07-03 20:54:08,463 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:08,469 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,473 DEBUG    [line range] com/google/gson/MemoryRefStack.java push 37:41
+2021-07-03 20:54:08,492 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:08,497 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,792 DEBUG    [line range] com/google/gson/ModifierBasedExclusionStrategy.java <init> 32:39
+2021-07-03 20:54:08,811 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:08,817 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,821 DEBUG    [line range] com/google/gson/ModifierBasedExclusionStrategy.java shouldSkipClass 50:52
+2021-07-03 20:54:08,840 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:08,845 DEBUG    [line range] com/google/gson/ModifierBasedExclusionStrategy.java shouldSkipField 41:48
+2021-07-03 20:54:08,864 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:08,869 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:09,212 DEBUG    [line range] com/google/gson/ObjectNavigator.java <init> 90:95
+2021-07-03 20:54:09,232 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:09,237 DEBUG                  - depth 1, hash 66649a1, HEAD~175
+2021-07-03 20:54:09,241 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:09,246 DEBUG    [line range] com/google/gson/ObjectNavigator.java accept 101:139
+2021-07-03 20:54:09,266 DEBUG                  - depth 0, hash e3af076, HEAD~102
+2021-07-03 20:54:09,272 DEBUG                  - depth 1, hash 610580b, HEAD~112
+2021-07-03 20:54:09,276 DEBUG                  - depth 2, hash 338758a, HEAD~119
+2021-07-03 20:54:09,280 DEBUG                  - depth 3, hash e37add7, HEAD~126
+2021-07-03 20:54:09,284 DEBUG                  - depth 4, hash dc5922e, HEAD~131
+2021-07-03 20:54:09,289 DEBUG                  - depth 5, hash b634804, HEAD~133
+2021-07-03 20:54:09,293 DEBUG                  - depth 6, hash 839b0c2, HEAD~134
+2021-07-03 20:54:09,297 DEBUG                  - depth 7, hash ff74224, HEAD~140
+2021-07-03 20:54:09,301 DEBUG                  - depth 8, hash 2716d96, HEAD~141
+2021-07-03 20:54:09,305 DEBUG                  - depth 9, hash 18b301d, HEAD~173
+2021-07-03 20:54:09,309 DEBUG                  - depth 10, hash 66649a1, HEAD~175
+2021-07-03 20:54:09,314 DEBUG                  - depth 11, hash 64172d1, HEAD~183
+2021-07-03 20:54:09,318 DEBUG                  - depth 12, hash 2effd57, HEAD~293
+2021-07-03 20:54:09,322 DEBUG                  - depth 13, hash 0d8150f, HEAD~305
+2021-07-03 20:54:09,326 DEBUG                  - depth 14, hash 6fa09b5, HEAD~312
+2021-07-03 20:54:09,330 DEBUG                  - depth 15, hash 40b77df, HEAD~313
+2021-07-03 20:54:09,334 DEBUG                  - depth 16, hash 0b6bbaf, HEAD~315
+2021-07-03 20:54:09,338 DEBUG                  - depth 17, hash cc90a68, HEAD~319
+2021-07-03 20:54:09,342 DEBUG                  - depth 18, hash 57d1f32, HEAD~361
+2021-07-03 20:54:09,347 DEBUG    [line range] com/google/gson/ObjectNavigator.java navigateClassFields 147:168
+2021-07-03 20:54:09,367 DEBUG                  - depth 0, hash 2b1f3ee, HEAD~33
+2021-07-03 20:54:09,372 DEBUG                  - depth 1, hash 9816426, HEAD~100
+2021-07-03 20:54:09,376 DEBUG                  - depth 2, hash e3af076, HEAD~102
+2021-07-03 20:54:09,381 DEBUG                  - depth 3, hash 610580b, HEAD~112
+2021-07-03 20:54:09,385 DEBUG                  - depth 4, hash dc5922e, HEAD~131
+2021-07-03 20:54:09,389 DEBUG                  - depth 5, hash b634804, HEAD~133
+2021-07-03 20:54:09,393 DEBUG                  - depth 6, hash 839b0c2, HEAD~134
+2021-07-03 20:54:09,397 DEBUG                  - depth 7, hash 2716d96, HEAD~141
+2021-07-03 20:54:09,402 DEBUG                  - depth 8, hash 18b301d, HEAD~173
+2021-07-03 20:54:09,406 DEBUG                  - depth 9, hash 4f0728f, HEAD~186
+2021-07-03 20:54:09,410 DEBUG                  - depth 10, hash 0d8150f, HEAD~305
+2021-07-03 20:54:09,414 DEBUG                  - depth 11, hash bcd1bae, HEAD~314
+2021-07-03 20:54:09,418 DEBUG                  - depth 12, hash cc90a68, HEAD~319
+2021-07-03 20:54:09,423 DEBUG                  - depth 13, hash 57d1f32, HEAD~361
+2021-07-03 20:54:09,707 DEBUG    [line range] com/google/gson/ObjectNavigatorFactory.java <init> 39:43
+2021-07-03 20:54:09,725 DEBUG                  - depth 0, hash e3af076, HEAD~102
+2021-07-03 20:54:09,731 DEBUG                  - depth 1, hash 66649a1, HEAD~175
+2021-07-03 20:54:09,735 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:09,740 DEBUG    [line range] com/google/gson/ObjectNavigatorFactory.java create 54:56
+2021-07-03 20:54:09,758 DEBUG                  - depth 0, hash 2716d96, HEAD~141
+2021-07-03 20:54:09,764 DEBUG                  - depth 1, hash 66649a1, HEAD~175
+2021-07-03 20:54:09,768 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:10,088 DEBUG    [line range] com/google/gson/ObjectTypePair.java <init> 30:34
+2021-07-03 20:54:10,107 DEBUG                  - depth 0, hash b634804, HEAD~133
+2021-07-03 20:54:10,113 DEBUG                  - depth 1, hash 2716d96, HEAD~141
+2021-07-03 20:54:10,117 DEBUG    [line range] com/google/gson/ObjectTypePair.java getMatchingHandler 53:67
+2021-07-03 20:54:10,136 DEBUG                  - depth 0, hash 338758a, HEAD~119
+2021-07-03 20:54:10,142 DEBUG                  - depth 1, hash e37add7, HEAD~126
+2021-07-03 20:54:10,146 DEBUG                  - depth 2, hash b634804, HEAD~133
+2021-07-03 20:54:10,150 DEBUG                  - depth 3, hash 2716d96, HEAD~141
+2021-07-03 20:54:10,155 DEBUG    [line range] com/google/gson/ObjectTypePair.java getObject 36:38
+2021-07-03 20:54:10,173 DEBUG                  - depth 0, hash b634804, HEAD~133
+2021-07-03 20:54:10,179 DEBUG                  - depth 1, hash ff74224, HEAD~140
+2021-07-03 20:54:10,183 DEBUG                  - depth 2, hash 2716d96, HEAD~141
+2021-07-03 20:54:10,188 DEBUG    [line range] com/google/gson/ObjectTypePair.java setObject 40:42
+2021-07-03 20:54:10,206 DEBUG                  - depth 0, hash 338758a, HEAD~119
+2021-07-03 20:54:10,212 DEBUG    [line range] com/google/gson/ObjectTypePair.java toMoreSpecificType 69:78
+2021-07-03 20:54:10,230 DEBUG                  - depth 0, hash b634804, HEAD~133
+2021-07-03 20:54:10,236 DEBUG                  - depth 1, hash 2716d96, HEAD~141
+2021-07-03 20:54:10,526 DEBUG    [line range] com/google/gson/Pair.java <init> 33:36
+2021-07-03 20:54:10,544 DEBUG                  - depth 0, hash b634804, HEAD~133
+2021-07-03 20:54:10,875 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java <clinit> 37:38
+2021-07-03 20:54:10,894 DEBUG                  - depth 0, hash 6a80791, HEAD~231
+2021-07-03 20:54:10,900 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:10,904 DEBUG    [single line]   com/google/gson/ParameterizedTypeHandlerMap.java <init> 36
+2021-07-03 20:54:10,923 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:10,929 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java <init> 39:39
+2021-07-03 20:54:10,948 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:10,954 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java getHandlerFor 121:134
+2021-07-03 20:54:10,973 DEBUG                  - depth 0, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:10,979 DEBUG                  - depth 1, hash 6a80791, HEAD~231
+2021-07-03 20:54:10,983 DEBUG                  - depth 2, hash fc65667, HEAD~275
+2021-07-03 20:54:10,987 DEBUG                  - depth 3, hash 6fa09b5, HEAD~312
+2021-07-03 20:54:10,992 DEBUG                  - depth 4, hash 9245beb, HEAD~317
+2021-07-03 20:54:10,996 DEBUG                  - depth 5, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,000 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java getHandlerForTypeHierarchy 136:143
+2021-07-03 20:54:11,019 DEBUG                  - depth 0, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,025 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java getIndexOfAnOverriddenHandler 68:76
+2021-07-03 20:54:11,043 DEBUG                  - depth 0, hash b2af57d, HEAD~73
+2021-07-03 20:54:11,049 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java getIndexOfSpecificHandlerForTypeHierarchy 149:156
+2021-07-03 20:54:11,068 DEBUG                  - depth 0, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,073 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java hasSpecificHandlerFor 145:147
+2021-07-03 20:54:11,092 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,098 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java makeUnmodifiable 117:119
+2021-07-03 20:54:11,117 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,122 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java register 78:86
+2021-07-03 20:54:11,141 DEBUG                  - depth 0, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,147 DEBUG                  - depth 1, hash 6728c74, HEAD~75
+2021-07-03 20:54:11,151 DEBUG                  - depth 2, hash 6a80791, HEAD~231
+2021-07-03 20:54:11,156 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,160 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java registerForTypeHierarchy 48:66
+2021-07-03 20:54:11,179 DEBUG                  - depth 0, hash b2af57d, HEAD~73
+2021-07-03 20:54:11,184 DEBUG                  - depth 1, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,189 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java registerForTypeHierarchy 43:46
+2021-07-03 20:54:11,207 DEBUG                  - depth 0, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,213 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java registerIfAbsent 88:106
+2021-07-03 20:54:11,232 DEBUG                  - depth 0, hash b2af57d, HEAD~73
+2021-07-03 20:54:11,238 DEBUG                  - depth 1, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,242 DEBUG                  - depth 2, hash 6a80791, HEAD~231
+2021-07-03 20:54:11,246 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,251 DEBUG    [line range] com/google/gson/ParameterizedTypeHandlerMap.java registerIfAbsent 108:115
+2021-07-03 20:54:11,270 DEBUG                  - depth 0, hash 8aedbc8, HEAD~74
+2021-07-03 20:54:11,275 DEBUG                  - depth 1, hash 6a80791, HEAD~231
+2021-07-03 20:54:11,280 DEBUG                  - depth 2, hash 51881c7, HEAD~260
+2021-07-03 20:54:11,561 DEBUG    [line range] com/google/gson/Preconditions.java checkArgument 37:41
+2021-07-03 20:54:11,580 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,585 DEBUG    [line range] com/google/gson/Preconditions.java checkNotNull 33:35
+2021-07-03 20:54:11,604 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:11,883 DEBUG    [single line]   com/google/gson/RecursiveFieldNamingPolicy.java <init> 30
+2021-07-03 20:54:11,902 DEBUG                  - depth 0, hash e3af076, HEAD~102
+2021-07-03 20:54:11,908 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:12,195 DEBUG    [line range] com/google/gson/SerializedNameAnnotationInterceptingNamingPolicy.java <clinit> 35:35
+2021-07-03 20:54:12,214 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:12,220 DEBUG    [line range] com/google/gson/SerializedNameAnnotationInterceptingNamingPolicy.java <init> 38:40
+2021-07-03 20:54:12,238 DEBUG                  - depth 0, hash e3af076, HEAD~102
+2021-07-03 20:54:12,244 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:12,517 DEBUG    [line range] com/google/gson/SyntheticFieldExclusionStrategy.java <init> 32:34
+2021-07-03 20:54:12,536 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:12,542 DEBUG    [line range] com/google/gson/SyntheticFieldExclusionStrategy.java shouldSkipClass 36:38
+2021-07-03 20:54:12,560 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:12,566 DEBUG    [line range] com/google/gson/SyntheticFieldExclusionStrategy.java shouldSkipField 40:42
+2021-07-03 20:54:12,584 DEBUG                  - depth 0, hash 839b0c2, HEAD~134
+2021-07-03 20:54:12,867 DEBUG    [line range] com/google/gson/TypeInfo.java <init> 32:35
+2021-07-03 20:54:12,885 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:12,891 DEBUG    [line range] com/google/gson/TypeInfo.java getActualType 37:39
+2021-07-03 20:54:12,909 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:12,915 DEBUG    [line range] com/google/gson/TypeInfo.java getRawClass 57:59
+2021-07-03 20:54:12,933 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:12,939 DEBUG    [line range] com/google/gson/TypeInfo.java isArray 65:67
+2021-07-03 20:54:12,957 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:13,284 DEBUG    [line range] com/google/gson/TypeInfoFactory.java getActualType 58:104
+2021-07-03 20:54:13,304 DEBUG                  - depth 0, hash 2b1f3ee, HEAD~33
+2021-07-03 20:54:13,310 DEBUG                  - depth 1, hash 3b0f8f4, HEAD~170
+2021-07-03 20:54:13,314 DEBUG                  - depth 2, hash 84f0ddd, HEAD~198
+2021-07-03 20:54:13,318 DEBUG                  - depth 3, hash 57d1f32, HEAD~361
+2021-07-03 20:54:13,323 DEBUG    [line range] com/google/gson/TypeInfoFactory.java getTypeInfoForField 51:56
+2021-07-03 20:54:13,342 DEBUG                  - depth 0, hash 57d1f32, HEAD~361
+2021-07-03 20:54:13,649 DEBUG    [line range] com/google/gson/TypeUtils.java isArray 56:64
+2021-07-03 20:54:13,668 DEBUG                  - depth 0, hash 3b0f8f4, HEAD~170
+2021-07-03 20:54:13,674 DEBUG                  - depth 1, hash 57d1f32, HEAD~361
+2021-07-03 20:54:13,678 DEBUG    [line range] com/google/gson/TypeUtils.java toRawClass 69:86
+2021-07-03 20:54:13,696 DEBUG                  - depth 0, hash 3b0f8f4, HEAD~170
+2021-07-03 20:54:13,702 DEBUG                  - depth 1, hash fc65667, HEAD~275
+2021-07-03 20:54:13,706 DEBUG                  - depth 2, hash 57d1f32, HEAD~361
+2021-07-03 20:54:13,711 INFO     The number of BIC candidates: 79

@@ -1,0 +1,88 @@
+2021-07-03 21:02:08,503 INFO     Search BICs for /tmp/Gson-17b/
+2021-07-03 21:02:08,504 DEBUG    Reading the coverage of com.google.gson.DefaultDateTypeAdapterTest::testNullValue (failings)
+2021-07-03 21:02:08,514 DEBUG    Reading the coverage of com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedToken (failings)
+2021-07-03 21:02:08,523 INFO     Loaded 2x111 Coverage Matrix
+2021-07-03 21:02:08,524 INFO     The number of total commits: 1367
+2021-07-03 21:02:08,851 DEBUG    [line range] com/google/gson/DefaultDateTypeAdapter.java <init> 48:52
+2021-07-03 21:02:08,903 DEBUG                  - depth 0, hash b8f616c, HEAD~16
+2021-07-03 21:02:08,909 DEBUG                  - depth 1, hash 4da08b0, HEAD~614
+2021-07-03 21:02:08,913 DEBUG    [line range] com/google/gson/DefaultDateTypeAdapter.java <init> 74:81
+2021-07-03 21:02:08,965 DEBUG                  - depth 0, hash b8f616c, HEAD~16
+2021-07-03 21:02:08,970 DEBUG                  - depth 1, hash bcd52a1, HEAD~229
+2021-07-03 21:02:08,974 DEBUG                  - depth 2, hash 4da08b0, HEAD~614
+2021-07-03 21:02:08,978 DEBUG    [line range] com/google/gson/DefaultDateTypeAdapter.java read 93:109
+2021-07-03 21:02:09,031 DEBUG                  - depth 0, hash b8f616c, HEAD~16
+2021-07-03 21:02:09,036 DEBUG                  - depth 1, hash e5b3f63, HEAD~249
+2021-07-03 21:02:09,040 DEBUG                  - depth 2, hash 4da08b0, HEAD~614
+2021-07-03 21:02:09,044 DEBUG    [single line]   com/google/gson/DefaultDateTypeAdapter.java write 40
+2021-07-03 21:02:09,098 DEBUG                  - depth 0, hash b8f616c, HEAD~16
+2021-07-03 21:02:09,103 DEBUG                  - depth 1, hash 4da08b0, HEAD~614
+2021-07-03 21:02:09,384 DEBUG    [line range] com/google/gson/JsonParseException.java <init> 41:43
+2021-07-03 21:02:09,435 DEBUG                  - depth 0, hash 57d1f32, HEAD~1366
+2021-07-03 21:02:09,769 DEBUG    [single line]   com/google/gson/TypeAdapter.java <init> 119
+2021-07-03 21:02:09,842 DEBUG                  - depth 0, hash c5f1df1, HEAD~782
+2021-07-03 21:02:09,847 DEBUG    [line range] com/google/gson/TypeAdapter.java fromJson 258:261
+2021-07-03 21:02:09,901 DEBUG                  - depth 0, hash 323dfa0, HEAD~539
+2021-07-03 21:02:09,906 DEBUG                  - depth 1, hash 6c78bf5, HEAD~543
+2021-07-03 21:02:09,910 DEBUG                  - depth 2, hash b28e518, HEAD~563
+2021-07-03 21:02:09,914 DEBUG                  - depth 3, hash f602bce, HEAD~592
+2021-07-03 21:02:09,918 DEBUG                  - depth 4, hash 26ab404, HEAD~596
+2021-07-03 21:02:09,922 DEBUG                  - depth 5, hash d70fb90, HEAD~759
+2021-07-03 21:02:09,926 DEBUG    [line range] com/google/gson/TypeAdapter.java fromJson 272:274
+2021-07-03 21:02:09,981 DEBUG                  - depth 0, hash 6c78bf5, HEAD~543
+2021-07-03 21:02:09,986 DEBUG                  - depth 1, hash b28e518, HEAD~563
+2021-07-03 21:02:09,990 DEBUG                  - depth 2, hash f602bce, HEAD~592
+2021-07-03 21:02:09,994 DEBUG                  - depth 3, hash 26ab404, HEAD~596
+2021-07-03 21:02:09,998 DEBUG                  - depth 4, hash d70fb90, HEAD~759
+2021-07-03 21:02:10,284 DEBUG    [single line]   com/google/gson/internal/JsonReaderInternalAccess.java <init> 25
+2021-07-03 21:02:10,335 DEBUG                  - depth 0, hash 852cd72, HEAD~599
+2021-07-03 21:02:10,812 DEBUG    [line range] com/google/gson/stream/JsonReader.java <clinit> 192:192
+2021-07-03 21:02:10,869 DEBUG                  - depth 0, hash b96d2d9, HEAD~473
+2021-07-03 21:02:10,875 DEBUG    [line range] com/google/gson/stream/JsonReader.java <init> 230:230
+2021-07-03 21:02:10,933 DEBUG                  - depth 0, hash 46b4346, HEAD~475
+2021-07-03 21:02:10,938 DEBUG    [line range] com/google/gson/stream/JsonReader.java doPeek 461:595
+2021-07-03 21:02:10,997 DEBUG                  - depth 0, hash c8627c8, HEAD~183
+2021-07-03 21:02:11,002 DEBUG                  - depth 1, hash 7a1c94f, HEAD~192
+2021-07-03 21:02:11,007 DEBUG                  - depth 2, hash 085856c, HEAD~470
+2021-07-03 21:02:11,011 DEBUG                  - depth 3, hash b96d2d9, HEAD~473
+2021-07-03 21:02:11,015 DEBUG                  - depth 4, hash 46b4346, HEAD~475
+2021-07-03 21:02:11,019 DEBUG    [line range] com/google/gson/stream/JsonReader.java fillBuffer 1283:1310
+2021-07-03 21:02:11,078 DEBUG                  - depth 0, hash 8daf3aa, HEAD~462
+2021-07-03 21:02:11,083 DEBUG                  - depth 1, hash 46b7363, HEAD~463
+2021-07-03 21:02:11,087 DEBUG                  - depth 2, hash 46b4346, HEAD~475
+2021-07-03 21:02:11,092 DEBUG    [line range] com/google/gson/stream/JsonReader.java nextNonWhitespace 1318:1405
+2021-07-03 21:02:11,150 DEBUG                  - depth 0, hash ecaa571, HEAD~90
+2021-07-03 21:02:11,155 DEBUG                  - depth 1, hash 8daf3aa, HEAD~462
+2021-07-03 21:02:11,159 DEBUG                  - depth 2, hash bdf2cac, HEAD~465
+2021-07-03 21:02:11,163 DEBUG                  - depth 3, hash 46b4346, HEAD~475
+2021-07-03 21:02:11,168 DEBUG    [line range] com/google/gson/stream/JsonReader.java peek 422:459
+2021-07-03 21:02:11,225 DEBUG                  - depth 0, hash 3920d95, HEAD~461
+2021-07-03 21:02:11,231 DEBUG                  - depth 1, hash 085856c, HEAD~470
+2021-07-03 21:02:11,235 DEBUG                  - depth 2, hash 46b4346, HEAD~475
+2021-07-03 21:02:11,239 DEBUG    [line range] com/google/gson/stream/JsonReader.java peekKeyword 597:639
+2021-07-03 21:02:11,297 DEBUG                  - depth 0, hash 46b4346, HEAD~475
+2021-07-03 21:02:11,302 DEBUG    [single line]   com/google/gson/stream/JsonReader.java <init> 1594
+2021-07-03 21:02:11,360 DEBUG                  - depth 0, hash 46b4346, HEAD~475
+2021-07-03 21:02:11,622 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 25
+2021-07-03 21:02:11,673 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:11,679 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 31
+2021-07-03 21:02:11,731 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:11,736 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 37
+2021-07-03 21:02:11,787 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:11,792 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 43
+2021-07-03 21:02:11,843 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:11,848 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 49
+2021-07-03 21:02:11,900 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:11,905 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 56
+2021-07-03 21:02:11,955 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:11,961 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 61
+2021-07-03 21:02:12,013 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:12,018 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 67
+2021-07-03 21:02:12,070 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:12,076 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 72
+2021-07-03 21:02:12,128 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:12,133 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 77
+2021-07-03 21:02:12,186 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:12,191 DEBUG    [single line]   com/google/gson/stream/JsonToken.java <clinit> 84
+2021-07-03 21:02:12,241 DEBUG                  - depth 0, hash 765a9f1, HEAD~1055
+2021-07-03 21:02:12,247 INFO     The number of BIC candidates: 24

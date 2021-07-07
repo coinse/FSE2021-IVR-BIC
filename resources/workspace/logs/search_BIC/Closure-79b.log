@@ -1,0 +1,1856 @@
+2021-07-03 13:34:37,561 INFO     Search BICs for /tmp/Closure-79b/
+2021-07-03 13:34:37,562 DEBUG    Reading the coverage of com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3 (failings)
+2021-07-03 13:34:37,865 DEBUG    Reading the coverage of com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns (failings)
+2021-07-03 13:34:38,150 DEBUG    Reading the coverage of com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1 (failings)
+2021-07-03 13:34:38,444 DEBUG    Reading the coverage of com.google.javascript.jscomp.VarCheckTest::testCallInExterns (failings)
+2021-07-03 13:34:38,743 DEBUG    Reading the coverage of com.google.javascript.jscomp.NormalizeTest::testIssue (failings)
+2021-07-03 13:34:39,045 INFO     Loaded 5x2422 Coverage Matrix
+2021-07-03 13:34:39,045 INFO     The number of total commits: 782
+2021-07-03 13:34:39,360 DEBUG    [line range] com/google/javascript/jscomp/AbstractCompiler.java <clinit> 36:37
+2021-07-03 13:34:39,417 DEBUG                  - depth 0, hash 3924ff1, HEAD~764
+2021-07-03 13:34:39,423 DEBUG    [single line]   com/google/javascript/jscomp/AbstractCompiler.java <init> 35
+2021-07-03 13:34:39,480 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:39,486 DEBUG    [line range] com/google/javascript/jscomp/AbstractCompiler.java <init> 39:39
+2021-07-03 13:34:39,542 DEBUG                  - depth 0, hash 8936be7, HEAD~190
+2021-07-03 13:34:39,840 DEBUG    [line range] com/google/javascript/jscomp/AbstractMessageFormatter.java <clinit> 47:51
+2021-07-03 13:34:39,897 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:39,902 DEBUG    [line range] com/google/javascript/jscomp/AbstractMessageFormatter.java <init> 32:34
+2021-07-03 13:34:39,958 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:39,963 DEBUG    [line range] com/google/javascript/jscomp/AbstractMessageFormatter.java setColorize 36:38
+2021-07-03 13:34:40,020 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,297 DEBUG    [single line]   com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java <clinit> 23
+2021-07-03 13:34:40,354 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,359 DEBUG    [single line]   com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java <clinit> 26
+2021-07-03 13:34:40,415 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,420 DEBUG    [single line]   com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java <clinit> 34
+2021-07-03 13:34:40,476 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,481 DEBUG    [single line]   com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java <clinit> 42
+2021-07-03 13:34:40,537 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,542 DEBUG    [line range] com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java <init> 47:49
+2021-07-03 13:34:40,598 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,934 DEBUG    [single line]   com/google/javascript/jscomp/BasicErrorManager.java <init> 37
+2021-07-03 13:34:40,990 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:40,996 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java <init> 38:39
+2021-07-03 13:34:41,051 DEBUG                  - depth 0, hash 66485d3, HEAD~732
+2021-07-03 13:34:41,057 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,061 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java getErrorCount 72:74
+2021-07-03 13:34:41,116 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,121 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java getErrors 80:82
+2021-07-03 13:34:41,178 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,183 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java getWarningCount 76:78
+2021-07-03 13:34:41,239 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,244 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java getWarnings 84:86
+2021-07-03 13:34:41,299 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,305 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java report 44:52
+2021-07-03 13:34:41,360 DEBUG                  - depth 0, hash 66485d3, HEAD~732
+2021-07-03 13:34:41,366 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,370 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java toArray 96:104
+2021-07-03 13:34:41,426 DEBUG                  - depth 0, hash 66485d3, HEAD~732
+2021-07-03 13:34:41,431 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,435 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java <init> 177:180
+2021-07-03 13:34:41,491 DEBUG                  - depth 0, hash 66485d3, HEAD~732
+2021-07-03 13:34:41,497 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,501 DEBUG    [line range] com/google/javascript/jscomp/BasicErrorManager.java compare 120:170
+2021-07-03 13:34:41,556 DEBUG                  - depth 0, hash 66485d3, HEAD~732
+2021-07-03 13:34:41,562 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:41,566 DEBUG    [single line]   com/google/javascript/jscomp/BasicErrorManager.java compare 115
+2021-07-03 13:34:41,622 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:42,006 DEBUG    [line range] com/google/javascript/jscomp/CheckAccessControls.java <clinit> 52:54
+2021-07-03 13:34:42,064 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:42,440 DEBUG    [line range] com/google/javascript/jscomp/CheckGlobalNames.java <clinit> 39:41
+2021-07-03 13:34:42,518 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:42,791 DEBUG    [single line]   com/google/javascript/jscomp/CheckLevel.java <clinit> 24
+2021-07-03 13:34:42,848 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:42,853 DEBUG    [single line]   com/google/javascript/jscomp/CheckLevel.java <clinit> 25
+2021-07-03 13:34:42,908 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:42,914 DEBUG    [single line]   com/google/javascript/jscomp/CheckLevel.java <clinit> 26
+2021-07-03 13:34:42,969 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:42,974 DEBUG    [single line]   com/google/javascript/jscomp/CheckLevel.java <clinit> 27
+2021-07-03 13:34:43,030 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:43,035 DEBUG    [line range] com/google/javascript/jscomp/CheckLevel.java isOn 29:31
+2021-07-03 13:34:43,091 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:43,404 DEBUG    [line range] com/google/javascript/jscomp/CheckRegExp.java <clinit> 30:33
+2021-07-03 13:34:43,459 DEBUG                  - depth 0, hash cb7f2a3, HEAD~621
+2021-07-03 13:34:43,465 DEBUG                  - depth 1, hash 74a817b, HEAD~631
+2021-07-03 13:34:43,783 DEBUG    [line range] com/google/javascript/jscomp/CheckSideEffects.java <clinit> 37:39
+2021-07-03 13:34:43,839 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:44,148 DEBUG    [line range] com/google/javascript/jscomp/CheckUnreachableCode.java <clinit> 36:37
+2021-07-03 13:34:44,205 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:44,561 DEBUG    [line range] com/google/javascript/jscomp/ClosureCodingConvention.java <clinit> 44:46
+2021-07-03 13:34:44,617 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:44,623 DEBUG    [single line]   com/google/javascript/jscomp/ClosureCodingConvention.java <init> 38
+2021-07-03 13:34:44,681 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:44,686 DEBUG    [line range] com/google/javascript/jscomp/ClosureCodingConvention.java <init> 294:297
+2021-07-03 13:34:44,743 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,023 DEBUG    [single line]   com/google/javascript/jscomp/CodeChangeHandler.java <init> 35
+2021-07-03 13:34:45,078 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,084 DEBUG    [line range] com/google/javascript/jscomp/CodeChangeHandler.java <init> 36:36
+2021-07-03 13:34:45,140 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,145 DEBUG    [line range] com/google/javascript/jscomp/CodeChangeHandler.java hasCodeChanged 42:44
+2021-07-03 13:34:45,203 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,208 DEBUG    [line range] com/google/javascript/jscomp/CodeChangeHandler.java reset 46:48
+2021-07-03 13:34:45,263 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,769 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java <init> 177:179
+2021-07-03 13:34:45,849 DEBUG                  - depth 0, hash 6f2539a, HEAD~660
+2021-07-03 13:34:45,855 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,859 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java <init> 77:77
+2021-07-03 13:34:45,940 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:45,945 DEBUG                  - depth 1, hash 6f2539a, HEAD~660
+2021-07-03 13:34:45,949 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:45,954 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java checkFirstModule 360:368
+2021-07-03 13:34:46,033 DEBUG                  - depth 0, hash 279196b, HEAD~607
+2021-07-03 13:34:46,039 DEBUG                  - depth 1, hash c25df7e, HEAD~636
+2021-07-03 13:34:46,043 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,047 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java createMessageFormatter 213:216
+2021-07-03 13:34:46,128 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:46,133 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,138 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java fillEmptyModules 374:380
+2021-07-03 13:34:46,219 DEBUG                  - depth 0, hash 279196b, HEAD~607
+2021-07-03 13:34:46,224 DEBUG                  - depth 1, hash c25df7e, HEAD~636
+2021-07-03 13:34:46,228 DEBUG                  - depth 2, hash a70a7c5, HEAD~658
+2021-07-03 13:34:46,232 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,236 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java getAllInputsFromModules 396:412
+2021-07-03 13:34:46,317 DEBUG                  - depth 0, hash 279196b, HEAD~607
+2021-07-03 13:34:46,323 DEBUG                  - depth 1, hash c25df7e, HEAD~636
+2021-07-03 13:34:46,327 DEBUG                  - depth 2, hash a70a7c5, HEAD~658
+2021-07-03 13:34:46,331 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,335 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java getErrors 869:871
+2021-07-03 13:34:46,416 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,422 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java getInput 931:934
+2021-07-03 13:34:46,500 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:46,505 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,510 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java getModuleGraph 995:998
+2021-07-03 13:34:46,591 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:46,596 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,601 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java getTypeRegistry 1000:1006
+2021-07-03 13:34:46,679 DEBUG                  - depth 0, hash de13c33, HEAD~627
+2021-07-03 13:34:46,685 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,689 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java getWarnings 876:878
+2021-07-03 13:34:46,769 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,775 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java init 272:280
+2021-07-03 13:34:46,853 DEBUG                  - depth 0, hash 279196b, HEAD~607
+2021-07-03 13:34:46,858 DEBUG                  - depth 1, hash b29d4a8, HEAD~618
+2021-07-03 13:34:46,863 DEBUG                  - depth 2, hash c25df7e, HEAD~636
+2021-07-03 13:34:46,867 DEBUG                  - depth 3, hash a70a7c5, HEAD~658
+2021-07-03 13:34:46,871 DEBUG                  - depth 4, hash 6f2539a, HEAD~660
+2021-07-03 13:34:46,875 DEBUG                  - depth 5, hash 845f5ff, HEAD~762
+2021-07-03 13:34:46,879 DEBUG                  - depth 6, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,883 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java init 263:267
+2021-07-03 13:34:46,964 DEBUG                  - depth 0, hash c25df7e, HEAD~636
+2021-07-03 13:34:46,970 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:46,974 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java initBasedOnOptions 332:337
+2021-07-03 13:34:47,050 DEBUG                  - depth 0, hash 64857ce, HEAD~438
+2021-07-03 13:34:47,055 DEBUG                  - depth 1, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,059 DEBUG                  - depth 2, hash 845f5ff, HEAD~762
+2021-07-03 13:34:47,063 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java initInputsByNameMap 424:442
+2021-07-03 13:34:47,141 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,147 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,151 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java initModules 296:327
+2021-07-03 13:34:47,230 DEBUG                  - depth 0, hash 279196b, HEAD~607
+2021-07-03 13:34:47,235 DEBUG                  - depth 1, hash c25df7e, HEAD~636
+2021-07-03 13:34:47,240 DEBUG                  - depth 2, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,244 DEBUG                  - depth 3, hash 6f2539a, HEAD~660
+2021-07-03 13:34:47,248 DEBUG                  - depth 4, hash 845f5ff, HEAD~762
+2021-07-03 13:34:47,252 DEBUG                  - depth 5, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,256 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java initOptions 222:258
+2021-07-03 13:34:47,332 DEBUG                  - depth 0, hash 1004aa6, HEAD~465
+2021-07-03 13:34:47,337 DEBUG                  - depth 1, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,342 DEBUG                  - depth 2, hash 6f2539a, HEAD~660
+2021-07-03 13:34:47,346 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java makeCompilerInput 339:346
+2021-07-03 13:34:47,425 DEBUG                  - depth 0, hash c25df7e, HEAD~636
+2021-07-03 13:34:47,430 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,434 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java newExternInput 936:946
+2021-07-03 13:34:47,516 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,521 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,526 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java newTracer 832:839
+2021-07-03 13:34:47,607 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,612 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,617 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java parseInputs 1052:1189
+2021-07-03 13:34:47,697 DEBUG                  - depth 0, hash cf96848, HEAD~354
+2021-07-03 13:34:47,703 DEBUG                  - depth 1, hash 35d56dd, HEAD~557
+2021-07-03 13:34:47,707 DEBUG                  - depth 2, hash e33e925, HEAD~578
+2021-07-03 13:34:47,711 DEBUG                  - depth 3, hash c2d3c87, HEAD~595
+2021-07-03 13:34:47,715 DEBUG                  - depth 4, hash 301ed5b, HEAD~603
+2021-07-03 13:34:47,719 DEBUG                  - depth 5, hash 4755483, HEAD~606
+2021-07-03 13:34:47,723 DEBUG                  - depth 6, hash 279196b, HEAD~607
+2021-07-03 13:34:47,727 DEBUG                  - depth 7, hash 9147da9, HEAD~609
+2021-07-03 13:34:47,731 DEBUG                  - depth 8, hash b29d4a8, HEAD~618
+2021-07-03 13:34:47,735 DEBUG                  - depth 9, hash e3bcc1c, HEAD~623
+2021-07-03 13:34:47,739 DEBUG                  - depth 10, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,744 DEBUG                  - depth 11, hash 847b296, HEAD~761
+2021-07-03 13:34:47,748 DEBUG                  - depth 12, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,752 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java setErrorManager 203:207
+2021-07-03 13:34:47,830 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,835 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java stopTracer 841:846
+2021-07-03 13:34:47,916 DEBUG                  - depth 0, hash a70a7c5, HEAD~658
+2021-07-03 13:34:47,922 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:47,926 DEBUG    [line range] com/google/javascript/jscomp/Compiler.java <init> 741:747
+2021-07-03 13:34:48,007 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,361 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java <init> 77:79
+2021-07-03 13:34:48,418 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,423 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java <init> 52:52
+2021-07-03 13:34:48,479 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,485 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java <init> 71:75
+2021-07-03 13:34:48,541 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,546 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java getAstRoot 100:103
+2021-07-03 13:34:48,602 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,608 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java getModule 281:283
+2021-07-03 13:34:48,663 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,669 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java getName 88:91
+2021-07-03 13:34:48,725 DEBUG                  - depth 0, hash 4581182, HEAD~650
+2021-07-03 13:34:48,730 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:48,734 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java setModule 286:291
+2021-07-03 13:34:48,790 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,234 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java <init> 88:88
+2021-07-03 13:34:49,297 DEBUG                  - depth 0, hash 9147da9, HEAD~609
+2021-07-03 13:34:49,303 DEBUG                  - depth 1, hash b29d4a8, HEAD~618
+2021-07-03 13:34:49,310 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java addWarningsGuard 926:932
+2021-07-03 13:34:49,375 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,381 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java getCodingConvention 1048:1050
+2021-07-03 13:34:49,448 DEBUG                  - depth 0, hash 6a6ea48, HEAD~769
+2021-07-03 13:34:49,453 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java getWarningsGuard 919:921
+2021-07-03 13:34:49,520 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,526 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java setCodingConvention 1044:1046
+2021-07-03 13:34:49,593 DEBUG                  - depth 0, hash 6a6ea48, HEAD~769
+2021-07-03 13:34:49,598 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java setWarningLevel 915:917
+2021-07-03 13:34:49,666 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,671 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java shouldColorizeErrorOutput 1007:1009
+2021-07-03 13:34:49,739 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,744 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1147
+2021-07-03 13:34:49,812 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,817 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1151
+2021-07-03 13:34:49,884 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,890 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1156
+2021-07-03 13:34:49,957 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:49,962 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1161
+2021-07-03 13:34:50,028 DEBUG                  - depth 0, hash 847b296, HEAD~761
+2021-07-03 13:34:50,034 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1166
+2021-07-03 13:34:50,101 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:50,106 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1134
+2021-07-03 13:34:50,165 DEBUG                  - depth 0, hash be01040, HEAD~228
+2021-07-03 13:34:50,171 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1138
+2021-07-03 13:34:50,230 DEBUG                  - depth 0, hash be01040, HEAD~228
+2021-07-03 13:34:50,235 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1143
+2021-07-03 13:34:50,295 DEBUG                  - depth 0, hash be01040, HEAD~228
+2021-07-03 13:34:50,300 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1169
+2021-07-03 13:34:50,367 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:50,373 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1170
+2021-07-03 13:34:50,440 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:50,446 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1171
+2021-07-03 13:34:50,513 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:50,519 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1172
+2021-07-03 13:34:50,584 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:50,590 DEBUG    [line range] com/google/javascript/jscomp/CompilerOptions.java isOn 1174:1176
+2021-07-03 13:34:50,655 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:50,660 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1179
+2021-07-03 13:34:50,719 DEBUG                  - depth 0, hash d24a652, HEAD~155
+2021-07-03 13:34:50,725 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1180
+2021-07-03 13:34:50,782 DEBUG                  - depth 0, hash d24a652, HEAD~155
+2021-07-03 13:34:50,787 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1181
+2021-07-03 13:34:50,846 DEBUG                  - depth 0, hash d24a652, HEAD~155
+2021-07-03 13:34:50,851 DEBUG    [single line]   com/google/javascript/jscomp/CompilerOptions.java <clinit> 1182
+2021-07-03 13:34:50,910 DEBUG                  - depth 0, hash d24a652, HEAD~155
+2021-07-03 13:34:51,216 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java <clinit> 38:44
+2021-07-03 13:34:51,273 DEBUG                  - depth 0, hash 52ecbc6, HEAD~722
+2021-07-03 13:34:51,278 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,282 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java <init> 46:49
+2021-07-03 13:34:51,339 DEBUG                  - depth 0, hash 52ecbc6, HEAD~722
+2021-07-03 13:34:51,344 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,348 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java <init> 51:53
+2021-07-03 13:34:51,404 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,410 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java addGuard 55:66
+2021-07-03 13:34:51,465 DEBUG                  - depth 0, hash 78eb672, HEAD~255
+2021-07-03 13:34:51,471 DEBUG                  - depth 1, hash c72f52d, HEAD~466
+2021-07-03 13:34:51,475 DEBUG                  - depth 2, hash 52ecbc6, HEAD~722
+2021-07-03 13:34:51,479 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,483 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java addGuards 68:72
+2021-07-03 13:34:51,540 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,546 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java level 74:83
+2021-07-03 13:34:51,602 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,608 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java compare 38:44
+2021-07-03 13:34:51,664 DEBUG                  - depth 0, hash 52ecbc6, HEAD~722
+2021-07-03 13:34:51,669 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:51,673 DEBUG    [line range] com/google/javascript/jscomp/ComposeWarningsGuard.java compare 38:44
+2021-07-03 13:34:51,729 DEBUG                  - depth 0, hash 52ecbc6, HEAD~722
+2021-07-03 13:34:51,735 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:52,066 DEBUG    [single line]   com/google/javascript/jscomp/DefaultCodingConvention.java <init> 32
+2021-07-03 13:34:52,122 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:52,449 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroup.java <clinit> 53:54
+2021-07-03 13:34:52,505 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:52,511 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroup.java <init> 67:75
+2021-07-03 13:34:52,566 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:52,572 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroup.java <init> 41:43
+2021-07-03 13:34:52,627 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:52,633 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroup.java matches 88:90
+2021-07-03 13:34:52,688 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:52,694 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroup.java matches 81:83
+2021-07-03 13:34:52,749 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:53,031 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroupWarningsGuard.java <init> 30:34
+2021-07-03 13:34:53,088 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:53,094 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroupWarningsGuard.java level 36:39
+2021-07-03 13:34:53,149 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:53,485 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroups.java <clinit> 34:35
+2021-07-03 13:34:53,541 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:53,548 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroups.java <init> 32:32
+2021-07-03 13:34:53,603 DEBUG                  - depth 0, hash 07f6f61, HEAD~651
+2021-07-03 13:34:53,609 DEBUG                  - depth 1, hash 845f5ff, HEAD~762
+2021-07-03 13:34:53,613 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:53,617 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroups.java getRegisteredGroups 44:46
+2021-07-03 13:34:53,674 DEBUG                  - depth 0, hash 1004aa6, HEAD~465
+2021-07-03 13:34:53,679 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticGroups.java registerGroup 37:41
+2021-07-03 13:34:53,735 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:54,031 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticType.java <init> 93:99
+2021-07-03 13:34:54,087 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:54,093 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticType.java disabled 71:74
+2021-07-03 13:34:54,148 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:54,154 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticType.java error 49:51
+2021-07-03 13:34:54,209 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:54,215 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticType.java make 84:88
+2021-07-03 13:34:54,270 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:54,276 DEBUG    [line range] com/google/javascript/jscomp/DiagnosticType.java warning 60:62
+2021-07-03 13:34:54,331 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:54,791 DEBUG    [line range] com/google/javascript/jscomp/DisambiguateProperties.java <clinit> 81:84
+2021-07-03 13:34:54,848 DEBUG                  - depth 0, hash fa45534, HEAD~22
+2021-07-03 13:34:54,854 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,148 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <clinit> 24
+2021-07-03 13:34:55,204 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,210 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <clinit> 25
+2021-07-03 13:34:55,265 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,271 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <clinit> 34
+2021-07-03 13:34:55,327 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,333 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <clinit> 44
+2021-07-03 13:34:55,388 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,393 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <clinit> 54
+2021-07-03 13:34:55,449 DEBUG                  - depth 0, hash e185090, HEAD~666
+2021-07-03 13:34:55,455 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <init> 25
+2021-07-03 13:34:55,511 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,517 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <init> 34
+2021-07-03 13:34:55,572 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,578 DEBUG    [line range] com/google/javascript/jscomp/ErrorFormat.java toFormatter 35:42
+2021-07-03 13:34:55,633 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,639 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <init> 44
+2021-07-03 13:34:55,695 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:55,700 DEBUG    [single line]   com/google/javascript/jscomp/ErrorFormat.java <init> 54
+2021-07-03 13:34:55,755 DEBUG                  - depth 0, hash e185090, HEAD~666
+2021-07-03 13:34:56,141 DEBUG    [line range] com/google/javascript/jscomp/FunctionTypeBuilder.java <clinit> 87:89
+2021-07-03 13:34:56,199 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:56,505 DEBUG    [line range] com/google/javascript/jscomp/GoogleCodingConvention.java <clinit> 39:40
+2021-07-03 13:34:56,562 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:56,568 DEBUG    [single line]   com/google/javascript/jscomp/GoogleCodingConvention.java <init> 31
+2021-07-03 13:34:56,623 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:56,629 DEBUG    [line range] com/google/javascript/jscomp/GoogleCodingConvention.java isConstant 60:77
+2021-07-03 13:34:56,685 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:34:56,690 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:56,695 DEBUG    [line range] com/google/javascript/jscomp/GoogleCodingConvention.java isConstantKey 79:87
+2021-07-03 13:34:56,751 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:34:56,757 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,081 DEBUG    [line range] com/google/javascript/jscomp/JSError.java <init> 139:149
+2021-07-03 13:34:57,137 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:34:57,143 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,147 DEBUG    [line range] com/google/javascript/jscomp/JSError.java <init> 155:162
+2021-07-03 13:34:57,203 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:34:57,209 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,213 DEBUG    [line range] com/google/javascript/jscomp/JSError.java getCharno 199:201
+2021-07-03 13:34:57,269 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,275 DEBUG    [line range] com/google/javascript/jscomp/JSError.java getType 164:166
+2021-07-03 13:34:57,333 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,338 DEBUG    [line range] com/google/javascript/jscomp/JSError.java make 83:86
+2021-07-03 13:34:57,394 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:34:57,400 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,404 DEBUG    [line range] com/google/javascript/jscomp/JSError.java make 111:114
+2021-07-03 13:34:57,460 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,815 DEBUG    [line range] com/google/javascript/jscomp/JSModule.java <clinit> 43:45
+2021-07-03 13:34:57,872 DEBUG                  - depth 0, hash c2d3c87, HEAD~595
+2021-07-03 13:34:57,878 DEBUG    [line range] com/google/javascript/jscomp/JSModule.java <init> 51:51
+2021-07-03 13:34:57,934 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:57,940 DEBUG    [line range] com/google/javascript/jscomp/JSModule.java add 102:105
+2021-07-03 13:34:57,998 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,004 DEBUG    [line range] com/google/javascript/jscomp/JSModule.java add 92:94
+2021-07-03 13:34:58,061 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,067 DEBUG    [line range] com/google/javascript/jscomp/JSModule.java getInputs 192:194
+2021-07-03 13:34:58,124 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,418 DEBUG    [line range] com/google/javascript/jscomp/JSSourceFile.java <init> 71:74
+2021-07-03 13:34:58,474 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,480 DEBUG    [line range] com/google/javascript/jscomp/JSSourceFile.java fromCode 54:56
+2021-07-03 13:34:58,536 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,541 DEBUG    [line range] com/google/javascript/jscomp/JSSourceFile.java getCode 76:79
+2021-07-03 13:34:58,597 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,909 DEBUG    [line range] com/google/javascript/jscomp/JsAst.java <clinit> 35:35
+2021-07-03 13:34:58,965 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:58,970 DEBUG    [line range] com/google/javascript/jscomp/JsAst.java <init> 42:45
+2021-07-03 13:34:59,026 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,031 DEBUG    [line range] com/google/javascript/jscomp/JsAst.java createAst 75:82
+2021-07-03 13:34:59,087 DEBUG                  - depth 0, hash 3924ff1, HEAD~764
+2021-07-03 13:34:59,092 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,097 DEBUG    [line range] com/google/javascript/jscomp/JsAst.java getAstRoot 47:53
+2021-07-03 13:34:59,153 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,159 DEBUG    [line range] com/google/javascript/jscomp/JsAst.java parse 84:106
+2021-07-03 13:34:59,214 DEBUG                  - depth 0, hash 9a1ddf5, HEAD~691
+2021-07-03 13:34:59,220 DEBUG                  - depth 1, hash b8c52bf, HEAD~703
+2021-07-03 13:34:59,224 DEBUG                  - depth 2, hash 168bc14, HEAD~759
+2021-07-03 13:34:59,228 DEBUG                  - depth 3, hash 3924ff1, HEAD~764
+2021-07-03 13:34:59,233 DEBUG                  - depth 4, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,559 DEBUG    [line range] com/google/javascript/jscomp/LightweightMessageFormatter.java <clinit> 32:33
+2021-07-03 13:34:59,615 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,621 DEBUG    [line range] com/google/javascript/jscomp/LightweightMessageFormatter.java <init> 43:45
+2021-07-03 13:34:59,677 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,683 DEBUG    [line range] com/google/javascript/jscomp/LightweightMessageFormatter.java <init> 47:52
+2021-07-03 13:34:59,738 DEBUG                  - depth 0, hash 030f59d, HEAD~663
+2021-07-03 13:34:59,744 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:34:59,749 DEBUG    [single line]   com/google/javascript/jscomp/LightweightMessageFormatter.java <init> 118
+2021-07-03 13:34:59,805 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:00,116 DEBUG    [line range] com/google/javascript/jscomp/LineNumberCheck.java <clinit> 31:36
+2021-07-03 13:35:00,172 DEBUG                  - depth 0, hash 6e3eb4f, HEAD~622
+2021-07-03 13:35:00,177 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:00,182 DEBUG    [line range] com/google/javascript/jscomp/LineNumberCheck.java <init> 39:39
+2021-07-03 13:35:00,237 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:00,243 DEBUG    [line range] com/google/javascript/jscomp/LineNumberCheck.java process 51:55
+2021-07-03 13:35:00,299 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:00,305 DEBUG    [line range] com/google/javascript/jscomp/LineNumberCheck.java shouldTraverse 57:64
+2021-07-03 13:35:00,361 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:00,367 DEBUG    [line range] com/google/javascript/jscomp/LineNumberCheck.java visit 66:78
+2021-07-03 13:35:00,422 DEBUG                  - depth 0, hash 3cc8b3a, HEAD~648
+2021-07-03 13:35:00,428 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:00,733 DEBUG    [line range] com/google/javascript/jscomp/LoggerErrorManager.java <init> 37:40
+2021-07-03 13:35:00,789 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,164 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java <clinit> 45:46
+2021-07-03 13:35:01,221 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,227 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java <init> 195:197
+2021-07-03 13:35:01,283 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,289 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java <init> 53:53
+2021-07-03 13:35:01,346 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,352 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java getInput 399:401
+2021-07-03 13:35:01,409 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,415 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java getScope 555:569
+2021-07-03 13:35:01,471 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,477 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java getSourceName 392:394
+2021-07-03 13:35:01,534 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,540 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java getSourceName 613:616
+2021-07-03 13:35:01,595 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,601 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java popScope 542:552
+2021-07-03 13:35:01,660 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,666 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java pushScope 522:529
+2021-07-03 13:35:01,723 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,728 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java report 607:611
+2021-07-03 13:35:01,785 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,791 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverse 419:423
+2021-07-03 13:35:01,848 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,853 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverse 244:254
+2021-07-03 13:35:01,910 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,916 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverseBranch 437:465
+2021-07-03 13:35:01,974 DEBUG                  - depth 0, hash 6d8fd42, HEAD~410
+2021-07-03 13:35:01,980 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:01,985 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverseFunction 470:505
+2021-07-03 13:35:02,043 DEBUG                  - depth 0, hash ebb59a9, HEAD~613
+2021-07-03 13:35:02,048 DEBUG                  - depth 1, hash 7efb21a, HEAD~777
+2021-07-03 13:35:02,053 DEBUG                  - depth 2, hash 0b7eccf, HEAD~779
+2021-07-03 13:35:02,057 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:02,061 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverseRoots 428:432
+2021-07-03 13:35:02,118 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:02,124 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverseRoots 260:282
+2021-07-03 13:35:02,181 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:02,187 DEBUG    [single line]   com/google/javascript/jscomp/NodeTraversal.java <init> 125
+2021-07-03 13:35:02,243 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:02,249 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java shouldTraverse 126:129
+2021-07-03 13:35:02,305 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:02,858 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java <clinit> 54:61
+2021-07-03 13:35:02,944 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:02,950 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java getFunctionInfo 2809:2824
+2021-07-03 13:35:03,023 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:03,029 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java getInfoForNameNode 2790:2804
+2021-07-03 13:35:03,111 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:03,117 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isControlStructure 1582:1599
+2021-07-03 13:35:03,200 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:03,206 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isFunctionDeclaration 1870:1872
+2021-07-03 13:35:03,288 DEBUG                  - depth 0, hash ebb59a9, HEAD~613
+2021-07-03 13:35:03,294 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:03,298 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isFunctionExpression 1908:1910
+2021-07-03 13:35:03,382 DEBUG                  - depth 0, hash ebb59a9, HEAD~613
+2021-07-03 13:35:03,387 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:03,392 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isStatement 1667:1681
+2021-07-03 13:35:03,474 DEBUG                  - depth 0, hash ebb59a9, HEAD~613
+2021-07-03 13:35:03,480 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:03,485 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isStatementBlock 1660:1662
+2021-07-03 13:35:03,568 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:03,574 DEBUG    [single line]   com/google/javascript/jscomp/NodeUtil.java apply 1226
+2021-07-03 13:35:03,633 DEBUG                  - depth 0, hash 1a7fbd1, HEAD~77
+2021-07-03 13:35:03,639 DEBUG    [single line]   com/google/javascript/jscomp/NodeUtil.java apply 1287
+2021-07-03 13:35:03,697 DEBUG                  - depth 0, hash 1a7fbd1, HEAD~77
+2021-07-03 13:35:03,703 DEBUG    [single line]   com/google/javascript/jscomp/NodeUtil.java apply 1174
+2021-07-03 13:35:03,762 DEBUG                  - depth 0, hash 1a7fbd1, HEAD~77
+2021-07-03 13:35:04,063 DEBUG    [line range] com/google/javascript/jscomp/PassFactory.java <init> 35:35
+2021-07-03 13:35:04,119 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:04,456 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java <init> 40:42
+2021-07-03 13:35:04,513 DEBUG                  - depth 0, hash 9a1ddf5, HEAD~691
+2021-07-03 13:35:04,519 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java <init> 44:47
+2021-07-03 13:35:04,577 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:35:04,583 DEBUG                  - depth 1, hash 9a1ddf5, HEAD~691
+2021-07-03 13:35:04,587 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java process 55:73
+2021-07-03 13:35:04,644 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:04,649 DEBUG                  - depth 1, hash e829daf, HEAD~576
+2021-07-03 13:35:04,654 DEBUG                  - depth 2, hash 4581182, HEAD~650
+2021-07-03 13:35:04,658 DEBUG                  - depth 3, hash 9a1ddf5, HEAD~691
+2021-07-03 13:35:04,662 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java annotateDispatchers 196:205
+2021-07-03 13:35:04,719 DEBUG                  - depth 0, hash d7e85b0, HEAD~540
+2021-07-03 13:35:04,724 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java annotateFunctions 234:256
+2021-07-03 13:35:04,782 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:04,788 DEBUG                  - depth 1, hash d7e85b0, HEAD~540
+2021-07-03 13:35:04,792 DEBUG                  - depth 2, hash 9a1ddf5, HEAD~691
+2021-07-03 13:35:04,797 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java shouldTraverse 140:146
+2021-07-03 13:35:04,854 DEBUG                  - depth 0, hash 24b7eb9, HEAD~279
+2021-07-03 13:35:04,860 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java visit 148:160
+2021-07-03 13:35:04,916 DEBUG                  - depth 0, hash 24b7eb9, HEAD~279
+2021-07-03 13:35:04,922 DEBUG                  - depth 1, hash f93cdf9, HEAD~397
+2021-07-03 13:35:04,926 DEBUG                  - depth 2, hash d7e85b0, HEAD~540
+2021-07-03 13:35:05,301 DEBUG    [line range] com/google/javascript/jscomp/ProcessDefines.java <clinit> 54:55
+2021-07-03 13:35:05,358 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:05,736 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java <clinit> 55:56
+2021-07-03 13:35:05,793 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:05,799 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java <init> 122:124
+2021-07-03 13:35:05,855 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:05,861 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java <init> 136:138
+2021-07-03 13:35:05,916 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:05,922 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java <init> 126:129
+2021-07-03 13:35:05,977 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:05,983 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java <init> 131:134
+2021-07-03 13:35:06,039 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:06,045 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java <init> 140:148
+2021-07-03 13:35:06,102 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:06,108 DEBUG    [line range] com/google/javascript/jscomp/ProcessTweaks.java getName 163:165
+2021-07-03 13:35:06,165 DEBUG                  - depth 0, hash 534a679, HEAD~161
+2021-07-03 13:35:06,428 DEBUG    [single line]   com/google/javascript/jscomp/PropertyRenamingPolicy.java <clinit> 22
+2021-07-03 13:35:06,484 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:06,490 DEBUG    [single line]   com/google/javascript/jscomp/PropertyRenamingPolicy.java <clinit> 26
+2021-07-03 13:35:06,546 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:06,552 DEBUG    [single line]   com/google/javascript/jscomp/PropertyRenamingPolicy.java <clinit> 32
+2021-07-03 13:35:06,607 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:06,613 DEBUG    [single line]   com/google/javascript/jscomp/PropertyRenamingPolicy.java <clinit> 38
+2021-07-03 13:35:06,668 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:06,674 DEBUG    [single line]   com/google/javascript/jscomp/PropertyRenamingPolicy.java <clinit> 46
+2021-07-03 13:35:06,729 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:06,735 DEBUG    [single line]   com/google/javascript/jscomp/PropertyRenamingPolicy.java <clinit> 49
+2021-07-03 13:35:06,790 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,119 DEBUG    [line range] com/google/javascript/jscomp/RhinoErrorReporter.java <clinit> 35:36
+2021-07-03 13:35:07,175 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,181 DEBUG    [line range] com/google/javascript/jscomp/RhinoErrorReporter.java <init> 70:94
+2021-07-03 13:35:07,236 DEBUG                  - depth 0, hash fe64e87, HEAD~770
+2021-07-03 13:35:07,242 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,247 DEBUG    [single line]   com/google/javascript/jscomp/RhinoErrorReporter.java <init> 33
+2021-07-03 13:35:07,303 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,309 DEBUG    [line range] com/google/javascript/jscomp/RhinoErrorReporter.java forNewRhino 96:99
+2021-07-03 13:35:07,364 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,370 DEBUG    [line range] com/google/javascript/jscomp/RhinoErrorReporter.java forOldRhino 101:103
+2021-07-03 13:35:07,426 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,431 DEBUG    [line range] com/google/javascript/jscomp/RhinoErrorReporter.java replacePlaceHolders 65:68
+2021-07-03 13:35:07,488 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,494 DEBUG    [single line]   com/google/javascript/jscomp/RhinoErrorReporter.java <init> 147
+2021-07-03 13:35:07,552 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:07,558 DEBUG    [single line]   com/google/javascript/jscomp/RhinoErrorReporter.java <init> 133
+2021-07-03 13:35:07,615 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,050 DEBUG    [line range] com/google/javascript/jscomp/Scope.java <init> 310:316
+2021-07-03 13:35:08,149 DEBUG                  - depth 0, hash 95ac6a7, HEAD~61
+2021-07-03 13:35:08,155 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,160 DEBUG    [line range] com/google/javascript/jscomp/Scope.java <init> 52:52
+2021-07-03 13:35:08,215 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,221 DEBUG    [line range] com/google/javascript/jscomp/Scope.java declare 381:383
+2021-07-03 13:35:08,277 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,283 DEBUG    [line range] com/google/javascript/jscomp/Scope.java declare 395:411
+2021-07-03 13:35:08,339 DEBUG                  - depth 0, hash 95ac6a7, HEAD~61
+2021-07-03 13:35:08,345 DEBUG                  - depth 1, hash 14ddcfd, HEAD~754
+2021-07-03 13:35:08,349 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,354 DEBUG    [line range] com/google/javascript/jscomp/Scope.java getParent 349:351
+2021-07-03 13:35:08,411 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,417 DEBUG    [line range] com/google/javascript/jscomp/Scope.java getVar 434:443
+2021-07-03 13:35:08,473 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,479 DEBUG    [line range] com/google/javascript/jscomp/Scope.java isDeclared 448:457
+2021-07-03 13:35:08,537 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,543 DEBUG    [line range] com/google/javascript/jscomp/Scope.java isGlobal 476:478
+2021-07-03 13:35:08,599 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,605 DEBUG    [line range] com/google/javascript/jscomp/Scope.java isLocal 483:485
+2021-07-03 13:35:08,663 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,669 DEBUG    [line range] com/google/javascript/jscomp/Scope.java <init> 108:120
+2021-07-03 13:35:08,727 DEBUG                  - depth 0, hash 95ac6a7, HEAD~61
+2021-07-03 13:35:08,733 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,737 DEBUG    [single line]   com/google/javascript/jscomp/Scope.java <init> 64
+2021-07-03 13:35:08,794 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:08,800 DEBUG    [line range] com/google/javascript/jscomp/Scope.java getParentNode 132:134
+2021-07-03 13:35:08,856 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,142 DEBUG    [single line]   com/google/javascript/jscomp/SourceExcerptProvider.java <clinit> 28
+2021-07-03 13:35:09,198 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,204 DEBUG    [single line]   com/google/javascript/jscomp/SourceExcerptProvider.java <clinit> 32
+2021-07-03 13:35:09,259 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,265 DEBUG    [single line]   com/google/javascript/jscomp/SourceExcerptProvider.java <clinit> 43
+2021-07-03 13:35:09,321 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,326 DEBUG    [single line]   com/google/javascript/jscomp/SourceExcerptProvider.java <init> 32
+2021-07-03 13:35:09,383 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,389 DEBUG    [single line]   com/google/javascript/jscomp/SourceExcerptProvider.java <init> 43
+2021-07-03 13:35:09,444 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,797 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java <init> 62:62
+2021-07-03 13:35:09,853 DEBUG                  - depth 0, hash 7bfdbd9, HEAD~673
+2021-07-03 13:35:09,860 DEBUG    [single line]   com/google/javascript/jscomp/SourceFile.java access$000 40
+2021-07-03 13:35:09,915 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,921 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java fromCode 256:258
+2021-07-03 13:35:09,979 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:09,985 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java getCode 93:95
+2021-07-03 13:35:10,041 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:10,047 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java getName 135:137
+2021-07-03 13:35:10,103 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:10,109 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java setCode 109:111
+2021-07-03 13:35:10,167 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:10,173 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java setOriginalPath 117:119
+2021-07-03 13:35:10,230 DEBUG                  - depth 0, hash 7bfdbd9, HEAD~673
+2021-07-03 13:35:10,236 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java <init> 296:298
+2021-07-03 13:35:10,294 DEBUG                  - depth 0, hash 7bfdbd9, HEAD~673
+2021-07-03 13:35:10,300 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:10,304 DEBUG    [line range] com/google/javascript/jscomp/SourceFile.java <init> 300:304
+2021-07-03 13:35:10,360 DEBUG                  - depth 0, hash 7bfdbd9, HEAD~673
+2021-07-03 13:35:10,366 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:10,672 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <clinit> 56
+2021-07-03 13:35:10,728 DEBUG                  - depth 0, hash 817b76b, HEAD~46
+2021-07-03 13:35:10,734 DEBUG                  - depth 1, hash 1146205, HEAD~483
+2021-07-03 13:35:10,739 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <clinit> 59
+2021-07-03 13:35:10,795 DEBUG                  - depth 0, hash 1146205, HEAD~483
+2021-07-03 13:35:10,801 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <clinit> 66
+2021-07-03 13:35:10,857 DEBUG                  - depth 0, hash 1146205, HEAD~483
+2021-07-03 13:35:10,863 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java apply 59
+2021-07-03 13:35:10,920 DEBUG                  - depth 0, hash 1146205, HEAD~483
+2021-07-03 13:35:10,926 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java apply 66
+2021-07-03 13:35:10,982 DEBUG                  - depth 0, hash 1146205, HEAD~483
+2021-07-03 13:35:10,988 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <clinit> 39
+2021-07-03 13:35:11,045 DEBUG                  - depth 0, hash 817b76b, HEAD~46
+2021-07-03 13:35:11,051 DEBUG                  - depth 1, hash 64857ce, HEAD~438
+2021-07-03 13:35:11,055 DEBUG                  - depth 2, hash f86b892, HEAD~543
+2021-07-03 13:35:11,059 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:11,064 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <clinit> 40
+2021-07-03 13:35:11,121 DEBUG                  - depth 0, hash 64857ce, HEAD~438
+2021-07-03 13:35:11,127 DEBUG                  - depth 1, hash f86b892, HEAD~543
+2021-07-03 13:35:11,131 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:11,136 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <clinit> 45
+2021-07-03 13:35:11,193 DEBUG                  - depth 0, hash 64857ce, HEAD~438
+2021-07-03 13:35:11,199 DEBUG                  - depth 1, hash f86b892, HEAD~543
+2021-07-03 13:35:11,204 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:11,208 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <init> 40
+2021-07-03 13:35:11,266 DEBUG                  - depth 0, hash 64857ce, HEAD~438
+2021-07-03 13:35:11,272 DEBUG                  - depth 1, hash f86b892, HEAD~543
+2021-07-03 13:35:11,276 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:11,281 DEBUG    [single line]   com/google/javascript/jscomp/SourceMap.java <init> 45
+2021-07-03 13:35:11,339 DEBUG                  - depth 0, hash 64857ce, HEAD~438
+2021-07-03 13:35:11,344 DEBUG                  - depth 1, hash f86b892, HEAD~543
+2021-07-03 13:35:11,349 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:11,658 DEBUG    [line range] com/google/javascript/jscomp/SuppressDocWarningsGuard.java <init> 32:33
+2021-07-03 13:35:11,715 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:11,721 DEBUG    [line range] com/google/javascript/jscomp/SuppressDocWarningsGuard.java getPriority 88:93
+2021-07-03 13:35:11,776 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:11,782 DEBUG    [line range] com/google/javascript/jscomp/SuppressDocWarningsGuard.java level 49:86
+2021-07-03 13:35:11,837 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:12,179 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java <clinit> 42:45
+2021-07-03 13:35:12,236 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,241 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java <init> 55:58
+2021-07-03 13:35:12,297 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,303 DEBUG    [single line]   com/google/javascript/jscomp/SyntacticScopeCreator.java access$300 32
+2021-07-03 13:35:12,362 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,368 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java createScope 66:80
+2021-07-03 13:35:12,426 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,432 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java declareVar 231:243
+2021-07-03 13:35:12,490 DEBUG                  - depth 0, hash 86caf52, HEAD~219
+2021-07-03 13:35:12,495 DEBUG                  - depth 1, hash d48c365, HEAD~690
+2021-07-03 13:35:12,500 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,504 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java scanRoot 82:112
+2021-07-03 13:35:12,563 DEBUG                  - depth 0, hash 86caf52, HEAD~219
+2021-07-03 13:35:12,569 DEBUG                  - depth 1, hash ebb59a9, HEAD~613
+2021-07-03 13:35:12,573 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,577 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java scanVars 117:170
+2021-07-03 13:35:12,635 DEBUG                  - depth 0, hash 86caf52, HEAD~219
+2021-07-03 13:35:12,641 DEBUG                  - depth 1, hash 6d8fd42, HEAD~410
+2021-07-03 13:35:12,646 DEBUG                  - depth 2, hash ebb59a9, HEAD~613
+2021-07-03 13:35:12,650 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,655 DEBUG    [single line]   com/google/javascript/jscomp/SyntacticScopeCreator.java <init> 183
+2021-07-03 13:35:12,713 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:12,718 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java onRedeclaration 184:222
+2021-07-03 13:35:12,775 DEBUG                  - depth 0, hash 86caf52, HEAD~219
+2021-07-03 13:35:12,781 DEBUG                  - depth 1, hash 9de5e9b, HEAD~562
+2021-07-03 13:35:12,785 DEBUG                  - depth 2, hash 45fd54a, HEAD~635
+2021-07-03 13:35:12,789 DEBUG                  - depth 3, hash d48c365, HEAD~690
+2021-07-03 13:35:12,793 DEBUG                  - depth 4, hash 6a6ea48, HEAD~769
+2021-07-03 13:35:12,797 DEBUG                  - depth 5, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:13,099 DEBUG    [line range] com/google/javascript/jscomp/SyntheticAst.java <init> 35:38
+2021-07-03 13:35:13,155 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:13,161 DEBUG    [line range] com/google/javascript/jscomp/SyntheticAst.java clearAst 45:49
+2021-07-03 13:35:13,218 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:13,224 DEBUG    [line range] com/google/javascript/jscomp/SyntheticAst.java getAstRoot 40:43
+2021-07-03 13:35:13,279 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:13,713 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java <clinit> 180:181
+2021-07-03 13:35:13,771 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:13,777 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java <init> 250:293
+2021-07-03 13:35:13,834 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:13,840 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java getThreadTrace 966:974
+2021-07-03 13:35:13,897 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:13,903 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java stop 452:454
+2021-07-03 13:35:13,961 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:13,967 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java stop 420:446
+2021-07-03 13:35:14,025 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:14,031 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java <init> 237:241
+2021-07-03 13:35:14,088 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:14,094 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java currentTimeMillis 237:241
+2021-07-03 13:35:14,151 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:14,157 DEBUG    [single line]   com/google/javascript/jscomp/Tracer.java access$1000 552
+2021-07-03 13:35:14,214 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:14,221 DEBUG    [line range] com/google/javascript/jscomp/Tracer.java isInitialized 756:758
+2021-07-03 13:35:14,279 DEBUG                  - depth 0, hash 086aeab, HEAD~697
+2021-07-03 13:35:14,756 DEBUG    [line range] com/google/javascript/jscomp/TypeCheck.java <clinit> 57:59
+2021-07-03 13:35:14,820 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:15,227 DEBUG    [line range] com/google/javascript/jscomp/TypeValidator.java <clinit> 77:81
+2021-07-03 13:35:15,284 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:15,837 DEBUG    [line range] com/google/javascript/jscomp/TypedScopeCreator.java <clinit> 91:92
+2021-07-03 13:35:15,901 DEBUG                  - depth 0, hash 39dde4c, HEAD~340
+2021-07-03 13:35:15,907 DEBUG                  - depth 1, hash 192a606, HEAD~538
+2021-07-03 13:35:16,260 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java <clinit> 36:38
+2021-07-03 13:35:16,316 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,323 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java <init> 69:69
+2021-07-03 13:35:16,380 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,386 DEBUG    [single line]   com/google/javascript/jscomp/VarCheck.java access$100 34
+2021-07-03 13:35:16,443 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,449 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java createSynthesizedExternVar 205:221
+2021-07-03 13:35:16,504 DEBUG                  - depth 0, hash 0593df4, HEAD~428
+2021-07-03 13:35:16,510 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java getSynthesizedExternsInput 261:267
+2021-07-03 13:35:16,568 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,574 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java getSynthesizedExternsRoot 270:276
+2021-07-03 13:35:16,630 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,636 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java process 96:110
+2021-07-03 13:35:16,694 DEBUG                  - depth 0, hash b9bc153, HEAD~424
+2021-07-03 13:35:16,700 DEBUG                  - depth 1, hash 0593df4, HEAD~428
+2021-07-03 13:35:16,705 DEBUG                  - depth 2, hash 5da32cb, HEAD~619
+2021-07-03 13:35:16,709 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,713 DEBUG    [line range] com/google/javascript/jscomp/VarCheck.java visit 112:199
+2021-07-03 13:35:16,772 DEBUG                  - depth 0, hash 681cd7b, HEAD~167
+2021-07-03 13:35:16,777 DEBUG                  - depth 1, hash 0593df4, HEAD~428
+2021-07-03 13:35:16,782 DEBUG                  - depth 2, hash 98d279b, HEAD~549
+2021-07-03 13:35:16,786 DEBUG                  - depth 3, hash 9de5e9b, HEAD~562
+2021-07-03 13:35:16,790 DEBUG                  - depth 4, hash c9e8972, HEAD~574
+2021-07-03 13:35:16,795 DEBUG                  - depth 5, hash ebb59a9, HEAD~613
+2021-07-03 13:35:16,799 DEBUG                  - depth 6, hash 5da32cb, HEAD~619
+2021-07-03 13:35:16,803 DEBUG                  - depth 7, hash 222eafd, HEAD~637
+2021-07-03 13:35:16,807 DEBUG                  - depth 8, hash f01925c, HEAD~640
+2021-07-03 13:35:16,812 DEBUG                  - depth 9, hash fbf47bd, HEAD~643
+2021-07-03 13:35:16,816 DEBUG                  - depth 10, hash ffe07f8, HEAD~766
+2021-07-03 13:35:16,820 DEBUG                  - depth 11, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:16,824 DEBUG                  - depth 12, hash 78995bf, HEAD~776
+2021-07-03 13:35:16,829 DEBUG                  - depth 13, hash 0b7eccf, HEAD~779
+2021-07-03 13:35:16,833 DEBUG                  - depth 14, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:16,838 DEBUG    [single line]   com/google/javascript/jscomp/VarCheck.java <init> 227
+2021-07-03 13:35:16,893 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:17,239 DEBUG    [line range] com/google/javascript/jscomp/VariableReferenceCheck.java <clinit> 44:46
+2021-07-03 13:35:17,295 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:17,563 DEBUG    [single line]   com/google/javascript/jscomp/VariableRenamingPolicy.java <clinit> 22
+2021-07-03 13:35:17,620 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:17,626 DEBUG    [single line]   com/google/javascript/jscomp/VariableRenamingPolicy.java <clinit> 26
+2021-07-03 13:35:17,681 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:17,687 DEBUG    [single line]   com/google/javascript/jscomp/VariableRenamingPolicy.java <clinit> 31
+2021-07-03 13:35:17,743 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:17,749 DEBUG    [single line]   com/google/javascript/jscomp/VariableRenamingPolicy.java <clinit> 36
+2021-07-03 13:35:17,804 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:17,810 DEBUG    [single line]   com/google/javascript/jscomp/VariableRenamingPolicy.java <clinit> 39
+2021-07-03 13:35:17,866 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:18,166 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <init> 43
+2021-07-03 13:35:18,222 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:18,228 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <init> 45
+2021-07-03 13:35:18,283 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,289 DEBUG    [line range] com/google/javascript/jscomp/WarningsGuard.java getPriority 81:83
+2021-07-03 13:35:18,345 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,351 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:18,355 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 45
+2021-07-03 13:35:18,413 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,419 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 46
+2021-07-03 13:35:18,475 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,481 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 47
+2021-07-03 13:35:18,536 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,542 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 48
+2021-07-03 13:35:18,599 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,605 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 49
+2021-07-03 13:35:18,662 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,668 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 50
+2021-07-03 13:35:18,725 DEBUG                  - depth 0, hash f9e7db7, HEAD~439
+2021-07-03 13:35:18,731 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 51
+2021-07-03 13:35:18,786 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,792 DEBUG    [single line]   com/google/javascript/jscomp/WarningsGuard.java <clinit> 52
+2021-07-03 13:35:18,847 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:18,853 DEBUG    [line range] com/google/javascript/jscomp/WarningsGuard.java <init> 56:58
+2021-07-03 13:35:18,908 DEBUG                  - depth 0, hash 52547e6, HEAD~480
+2021-07-03 13:35:19,210 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 27
+2021-07-03 13:35:19,267 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,273 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 28
+2021-07-03 13:35:19,328 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,334 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 29
+2021-07-03 13:35:19,392 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,398 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 30
+2021-07-03 13:35:19,455 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,461 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 31
+2021-07-03 13:35:19,519 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,525 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 32
+2021-07-03 13:35:19,581 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,587 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 33
+2021-07-03 13:35:19,643 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,648 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 34
+2021-07-03 13:35:19,704 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,710 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 35
+2021-07-03 13:35:19,765 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,771 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 36
+2021-07-03 13:35:19,827 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,833 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 37
+2021-07-03 13:35:19,890 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,896 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 38
+2021-07-03 13:35:19,953 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:19,959 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 39
+2021-07-03 13:35:20,015 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,021 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 40
+2021-07-03 13:35:20,077 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,083 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 41
+2021-07-03 13:35:20,141 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,147 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 42
+2021-07-03 13:35:20,204 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,210 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 43
+2021-07-03 13:35:20,266 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,272 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 44
+2021-07-03 13:35:20,328 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,334 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 45
+2021-07-03 13:35:20,390 DEBUG                  - depth 0, hash 9d72612, HEAD~357
+2021-07-03 13:35:20,396 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 46
+2021-07-03 13:35:20,452 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,458 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 47
+2021-07-03 13:35:20,513 DEBUG                  - depth 0, hash 22775ad, HEAD~421
+2021-07-03 13:35:20,519 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 48
+2021-07-03 13:35:20,574 DEBUG                  - depth 0, hash eb3e25d, HEAD~373
+2021-07-03 13:35:20,580 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 49
+2021-07-03 13:35:20,636 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,642 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 50
+2021-07-03 13:35:20,697 DEBUG                  - depth 0, hash e33e925, HEAD~578
+2021-07-03 13:35:20,703 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 51
+2021-07-03 13:35:20,759 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,765 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 52
+2021-07-03 13:35:20,820 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,826 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 53
+2021-07-03 13:35:20,882 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,888 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 54
+2021-07-03 13:35:20,944 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:20,950 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 55
+2021-07-03 13:35:21,005 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,011 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 56
+2021-07-03 13:35:21,069 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,075 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 57
+2021-07-03 13:35:21,132 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,138 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 58
+2021-07-03 13:35:21,197 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,203 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 59
+2021-07-03 13:35:21,260 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,266 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 60
+2021-07-03 13:35:21,323 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,329 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 61
+2021-07-03 13:35:21,385 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,390 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 62
+2021-07-03 13:35:21,446 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,452 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 63
+2021-07-03 13:35:21,508 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,514 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 64
+2021-07-03 13:35:21,569 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,575 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 65
+2021-07-03 13:35:21,631 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,637 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 66
+2021-07-03 13:35:21,692 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,698 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 67
+2021-07-03 13:35:21,754 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,760 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 68
+2021-07-03 13:35:21,815 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,821 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 69
+2021-07-03 13:35:21,877 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,883 DEBUG    [single line]   com/google/javascript/jscomp/parsing/Annotation.java <clinit> 70
+2021-07-03 13:35:21,939 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:21,945 DEBUG    [line range] com/google/javascript/jscomp/parsing/Annotation.java <clinit> 72:121
+2021-07-03 13:35:22,000 DEBUG                  - depth 0, hash 9d72612, HEAD~357
+2021-07-03 13:35:22,006 DEBUG                  - depth 1, hash eb3e25d, HEAD~373
+2021-07-03 13:35:22,010 DEBUG                  - depth 2, hash 22775ad, HEAD~421
+2021-07-03 13:35:22,015 DEBUG                  - depth 3, hash e33e925, HEAD~578
+2021-07-03 13:35:22,019 DEBUG                  - depth 4, hash 7287c0a, HEAD~705
+2021-07-03 13:35:22,312 DEBUG    [line range] com/google/javascript/jscomp/parsing/Config.java <init> 67:75
+2021-07-03 13:35:22,369 DEBUG                  - depth 0, hash d381212, HEAD~70
+2021-07-03 13:35:22,375 DEBUG                  - depth 1, hash be01040, HEAD~228
+2021-07-03 13:35:22,379 DEBUG                  - depth 2, hash 28982c3, HEAD~232
+2021-07-03 13:35:22,383 DEBUG                  - depth 3, hash 1c92a54, HEAD~235
+2021-07-03 13:35:22,387 DEBUG                  - depth 4, hash 4755483, HEAD~606
+2021-07-03 13:35:22,392 DEBUG                  - depth 5, hash c764a46, HEAD~626
+2021-07-03 13:35:22,396 DEBUG                  - depth 6, hash b8c52bf, HEAD~703
+2021-07-03 13:35:22,400 DEBUG                  - depth 7, hash 7287c0a, HEAD~705
+2021-07-03 13:35:22,405 DEBUG                  - depth 8, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:22,410 DEBUG    [line range] com/google/javascript/jscomp/parsing/Config.java buildAnnotationNames 81:94
+2021-07-03 13:35:22,465 DEBUG                  - depth 0, hash 7287c0a, HEAD~705
+2021-07-03 13:35:22,931 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java <init> 86:86
+2021-07-03 13:35:22,995 DEBUG                  - depth 0, hash 847b296, HEAD~761
+2021-07-03 13:35:23,001 DEBUG    [single line]   com/google/javascript/jscomp/parsing/IRFactory.java access$1500 77
+2021-07-03 13:35:23,063 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,069 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java createTemplateNode 117:122
+2021-07-03 13:35:23,131 DEBUG                  - depth 0, hash c1c31ef, HEAD~457
+2021-07-03 13:35:23,137 DEBUG                  - depth 1, hash 35d56dd, HEAD~557
+2021-07-03 13:35:23,142 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,146 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java handleJsDoc 193:203
+2021-07-03 13:35:23,210 DEBUG                  - depth 0, hash f957970, HEAD~364
+2021-07-03 13:35:23,216 DEBUG                  - depth 1, hash 7287c0a, HEAD~705
+2021-07-03 13:35:23,220 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,225 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java justTransform 273:275
+2021-07-03 13:35:23,286 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,292 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java newNode 1262:1264
+2021-07-03 13:35:23,351 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:23,357 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java newNode 1270:1272
+2021-07-03 13:35:23,416 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:23,422 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java newStringNode 1282:1284
+2021-07-03 13:35:23,481 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:23,487 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java position2charno 263:271
+2021-07-03 13:35:23,549 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,555 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java setFileOverviewJsDoc 145:157
+2021-07-03 13:35:23,617 DEBUG                  - depth 0, hash f957970, HEAD~364
+2021-07-03 13:35:23,623 DEBUG                  - depth 1, hash 7287c0a, HEAD~705
+2021-07-03 13:35:23,627 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,632 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java transform 205:229
+2021-07-03 13:35:23,693 DEBUG                  - depth 0, hash f957970, HEAD~364
+2021-07-03 13:35:23,699 DEBUG                  - depth 1, hash 7287c0a, HEAD~705
+2021-07-03 13:35:23,704 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,709 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java transformTokenType 948:1259
+2021-07-03 13:35:23,772 DEBUG                  - depth 0, hash 4581182, HEAD~650
+2021-07-03 13:35:23,778 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,783 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java transformTree 124:143
+2021-07-03 13:35:23,846 DEBUG                  - depth 0, hash f957970, HEAD~364
+2021-07-03 13:35:23,852 DEBUG                  - depth 1, hash 7287c0a, HEAD~705
+2021-07-03 13:35:23,856 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,861 DEBUG    [single line]   com/google/javascript/jscomp/parsing/IRFactory.java <init> 277
+2021-07-03 13:35:23,923 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:23,929 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java isDirective 388:395
+2021-07-03 13:35:23,991 DEBUG                  - depth 0, hash 847b296, HEAD~761
+2021-07-03 13:35:23,997 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java parseDirectives 371:386
+2021-07-03 13:35:24,059 DEBUG                  - depth 0, hash 847b296, HEAD~761
+2021-07-03 13:35:24,065 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processAstRoot 352:360
+2021-07-03 13:35:24,129 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,135 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:24,139 DEBUG                  - depth 2, hash 847b296, HEAD~761
+2021-07-03 13:35:24,143 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,148 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processBlock 397:400
+2021-07-03 13:35:24,210 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,216 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processExpressionStatement 471:476
+2021-07-03 13:35:24,277 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,283 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,288 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processFunctionNode 512:569
+2021-07-03 13:35:24,350 DEBUG                  - depth 0, hash 084b868, HEAD~44
+2021-07-03 13:35:24,356 DEBUG                  - depth 1, hash c1c31ef, HEAD~457
+2021-07-03 13:35:24,360 DEBUG                  - depth 2, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,364 DEBUG                  - depth 3, hash d7a094a, HEAD~589
+2021-07-03 13:35:24,369 DEBUG                  - depth 4, hash 4385971, HEAD~625
+2021-07-03 13:35:24,373 DEBUG                  - depth 5, hash 847b296, HEAD~761
+2021-07-03 13:35:24,377 DEBUG                  - depth 6, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,383 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processGeneric 278:285
+2021-07-03 13:35:24,445 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,451 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,456 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processName 632:635
+2021-07-03 13:35:24,518 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,524 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,528 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processPropertyGet 708:714
+2021-07-03 13:35:24,590 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,596 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,600 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processVariableDeclaration 861:873
+2021-07-03 13:35:24,662 DEBUG                  - depth 0, hash d381212, HEAD~70
+2021-07-03 13:35:24,668 DEBUG                  - depth 1, hash 35d56dd, HEAD~557
+2021-07-03 13:35:24,673 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,677 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processVariableInitializer 875:883
+2021-07-03 13:35:24,740 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:24,746 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java transformAsString 296:304
+2021-07-03 13:35:24,807 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,128 DEBUG    [line range] com/google/javascript/jscomp/parsing/ParserRunner.java <clinit> 39:39
+2021-07-03 13:35:25,185 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,191 DEBUG    [line range] com/google/javascript/jscomp/parsing/ParserRunner.java createConfig 56:62
+2021-07-03 13:35:25,247 DEBUG                  - depth 0, hash d381212, HEAD~70
+2021-07-03 13:35:25,252 DEBUG                  - depth 1, hash be01040, HEAD~228
+2021-07-03 13:35:25,257 DEBUG                  - depth 2, hash 28982c3, HEAD~232
+2021-07-03 13:35:25,261 DEBUG                  - depth 3, hash 1c92a54, HEAD~235
+2021-07-03 13:35:25,266 DEBUG                  - depth 4, hash 4755483, HEAD~606
+2021-07-03 13:35:25,270 DEBUG                  - depth 5, hash c764a46, HEAD~626
+2021-07-03 13:35:25,274 DEBUG                  - depth 6, hash b8c52bf, HEAD~703
+2021-07-03 13:35:25,279 DEBUG                  - depth 7, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,283 DEBUG    [line range] com/google/javascript/jscomp/parsing/ParserRunner.java extractList 74:81
+2021-07-03 13:35:25,339 DEBUG                  - depth 0, hash 4755483, HEAD~606
+2021-07-03 13:35:25,345 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,349 DEBUG    [line range] com/google/javascript/jscomp/parsing/ParserRunner.java initResourceConfig 64:72
+2021-07-03 13:35:25,407 DEBUG                  - depth 0, hash 4755483, HEAD~606
+2021-07-03 13:35:25,413 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,418 DEBUG    [line range] com/google/javascript/jscomp/parsing/ParserRunner.java parse 93:127
+2021-07-03 13:35:25,474 DEBUG                  - depth 0, hash b8c52bf, HEAD~703
+2021-07-03 13:35:25,480 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,834 DEBUG    [single line]   com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java <init> 73
+2021-07-03 13:35:25,890 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:25,896 DEBUG    [line range] com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java process 118:282
+2021-07-03 13:35:25,954 DEBUG                  - depth 0, hash d381212, HEAD~70
+2021-07-03 13:35:25,960 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:26,380 DEBUG    [line range] com/google/javascript/rhino/Context.java <clinit> 273:273
+2021-07-03 13:35:26,438 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:26,444 DEBUG    [line range] com/google/javascript/rhino/Context.java getCurrentContext 399:401
+2021-07-03 13:35:26,501 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:26,947 DEBUG    [line range] com/google/javascript/rhino/JSDocInfo.java <init> 151:151
+2021-07-03 13:35:27,008 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:27,015 DEBUG    [line range] com/google/javascript/rhino/JSDocInfo.java <init> 233:235
+2021-07-03 13:35:27,074 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:27,080 DEBUG    [line range] com/google/javascript/rhino/JSDocInfo.java addSuppression 544:551
+2021-07-03 13:35:27,137 DEBUG                  - depth 0, hash 0593df4, HEAD~428
+2021-07-03 13:35:27,143 DEBUG    [line range] com/google/javascript/rhino/JSDocInfo.java getSuppressions 1138:1141
+2021-07-03 13:35:27,204 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:27,210 DEBUG    [line range] com/google/javascript/rhino/JSDocInfo.java lazyInitInfo 485:489
+2021-07-03 13:35:27,269 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:27,276 DEBUG    [single line]   com/google/javascript/rhino/JSDocInfo.java <init> 86
+2021-07-03 13:35:27,335 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:27,849 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 368:372
+2021-07-03 13:35:27,915 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:27,921 DEBUG                  - depth 1, hash 7efb21a, HEAD~777
+2021-07-03 13:35:27,926 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:27,930 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 374:386
+2021-07-03 13:35:27,995 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,001 DEBUG                  - depth 1, hash 7efb21a, HEAD~777
+2021-07-03 13:35:28,005 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,010 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 388:406
+2021-07-03 13:35:28,075 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,081 DEBUG                  - depth 1, hash 7efb21a, HEAD~777
+2021-07-03 13:35:28,085 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,090 DEBUG    [line range] com/google/javascript/rhino/Node.java addChildToBack 601:612
+2021-07-03 13:35:28,156 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,162 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,167 DEBUG    [line range] com/google/javascript/rhino/Node.java addChildToFront 590:599
+2021-07-03 13:35:28,233 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,239 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,244 DEBUG    [line range] com/google/javascript/rhino/Node.java addSuppression 2042:2047
+2021-07-03 13:35:28,304 DEBUG                  - depth 0, hash 0593df4, HEAD~428
+2021-07-03 13:35:28,310 DEBUG                  - depth 1, hash 4755483, HEAD~606
+2021-07-03 13:35:28,314 DEBUG    [line range] com/google/javascript/rhino/Node.java checkTreeEqualsImpl 1404:1427
+2021-07-03 13:35:28,380 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,386 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,391 DEBUG    [line range] com/google/javascript/rhino/Node.java checkTreeEqualsSilent 1382:1384
+2021-07-03 13:35:28,457 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,463 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,467 DEBUG    [line range] com/google/javascript/rhino/Node.java cloneNode 1846:1860
+2021-07-03 13:35:28,531 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:28,537 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:28,541 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,546 DEBUG    [line range] com/google/javascript/rhino/Node.java clonePropsFrom 755:760
+2021-07-03 13:35:28,607 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:28,613 DEBUG    [line range] com/google/javascript/rhino/Node.java cloneTree 1865:1879
+2021-07-03 13:35:28,679 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,685 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,690 DEBUG    [line range] com/google/javascript/rhino/Node.java detachFromParent 1781:1785
+2021-07-03 13:35:28,756 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,762 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,766 DEBUG    [line range] com/google/javascript/rhino/Node.java extractCharno 1172:1178
+2021-07-03 13:35:28,832 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,838 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,842 DEBUG    [line range] com/google/javascript/rhino/Node.java extractLineno 1160:1166
+2021-07-03 13:35:28,907 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,913 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,918 DEBUG    [line range] com/google/javascript/rhino/Node.java getCharno 862:864
+2021-07-03 13:35:28,981 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:28,987 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:28,992 DEBUG    [line range] com/google/javascript/rhino/Node.java getChildBefore 559:571
+2021-07-03 13:35:29,056 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,062 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,067 DEBUG    [line range] com/google/javascript/rhino/Node.java getChildCount 1344:1350
+2021-07-03 13:35:29,132 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,138 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,143 DEBUG    [line range] com/google/javascript/rhino/Node.java getFirstChild 547:549
+2021-07-03 13:35:29,209 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,215 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,219 DEBUG    [line range] com/google/javascript/rhino/Node.java getJSDocInfo 1960:1962
+2021-07-03 13:35:29,283 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,289 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:29,294 DEBUG    [line range] com/google/javascript/rhino/Node.java getJsDocBuilderForNode 1926:1928
+2021-07-03 13:35:29,357 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,363 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:29,367 DEBUG    [line range] com/google/javascript/rhino/Node.java getLastChild 551:553
+2021-07-03 13:35:29,433 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,439 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,444 DEBUG    [line range] com/google/javascript/rhino/Node.java getLineno 858:860
+2021-07-03 13:35:29,509 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,515 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,520 DEBUG    [line range] com/google/javascript/rhino/Node.java getNext 555:557
+2021-07-03 13:35:29,585 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,591 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,596 DEBUG    [line range] com/google/javascript/rhino/Node.java getNodeClass 1390:1397
+2021-07-03 13:35:29,662 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,668 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,672 DEBUG    [line range] com/google/javascript/rhino/Node.java getParent 1266:1268
+2021-07-03 13:35:29,737 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,743 DEBUG                  - depth 1, hash 45f2bdf, HEAD~711
+2021-07-03 13:35:29,748 DEBUG    [line range] com/google/javascript/rhino/Node.java getProp 791:797
+2021-07-03 13:35:29,811 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,817 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,822 DEBUG    [line range] com/google/javascript/rhino/Node.java getType 535:537
+2021-07-03 13:35:29,887 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,893 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,898 DEBUG    [line range] com/google/javascript/rhino/Node.java hasOneChild 1330:1332
+2021-07-03 13:35:29,963 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:29,969 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:29,974 DEBUG    [line range] com/google/javascript/rhino/Node.java isEquivalentTo 1595:1632
+2021-07-03 13:35:30,041 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,047 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,051 DEBUG                  - depth 2, hash de13c33, HEAD~627
+2021-07-03 13:35:30,056 DEBUG                  - depth 3, hash 3ce4716, HEAD~653
+2021-07-03 13:35:30,060 DEBUG                  - depth 4, hash 449fdd3, HEAD~717
+2021-07-03 13:35:30,064 DEBUG                  - depth 5, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,069 DEBUG    [line range] com/google/javascript/rhino/Node.java lookupProperty 739:746
+2021-07-03 13:35:30,135 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,141 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,145 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,150 DEBUG    [line range] com/google/javascript/rhino/Node.java mergeLineCharNo 1146:1154
+2021-07-03 13:35:30,214 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:30,221 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,225 DEBUG    [line range] com/google/javascript/rhino/Node.java newString 523:525
+2021-07-03 13:35:30,290 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:30,296 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,300 DEBUG    [line range] com/google/javascript/rhino/Node.java putBooleanProp 830:832
+2021-07-03 13:35:30,367 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,373 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,377 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,382 DEBUG    [line range] com/google/javascript/rhino/Node.java putIntProp 834:839
+2021-07-03 13:35:30,446 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,452 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,457 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,462 DEBUG    [line range] com/google/javascript/rhino/Node.java putProp 823:828
+2021-07-03 13:35:30,526 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,532 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,536 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,541 DEBUG    [line range] com/google/javascript/rhino/Node.java removeChild 680:689
+2021-07-03 13:35:30,606 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:30,612 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,617 DEBUG    [line range] com/google/javascript/rhino/Node.java removeProp 762:767
+2021-07-03 13:35:30,681 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,687 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,691 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,696 DEBUG    [line range] com/google/javascript/rhino/Node.java removeProp 775:789
+2021-07-03 13:35:30,760 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:30,766 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:30,771 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,775 DEBUG    [line range] com/google/javascript/rhino/Node.java setCharno 1136:1138
+2021-07-03 13:35:30,839 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:30,845 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:30,849 DEBUG    [line range] com/google/javascript/rhino/Node.java setIsSyntheticBlock 2011:2013
+2021-07-03 13:35:30,914 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:30,920 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:30,924 DEBUG    [line range] com/google/javascript/rhino/Node.java setJSDocInfo 1967:1969
+2021-07-03 13:35:30,989 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:30,995 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:31,000 DEBUG    [line range] com/google/javascript/rhino/Node.java setJSType 1922:1924
+2021-07-03 13:35:31,064 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,070 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:31,075 DEBUG    [line range] com/google/javascript/rhino/Node.java setLineno 1128:1134
+2021-07-03 13:35:31,139 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,145 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:31,150 DEBUG    [line range] com/google/javascript/rhino/Node.java setOptionalArg 1994:1996
+2021-07-03 13:35:31,213 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,219 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:31,223 DEBUG    [line range] com/google/javascript/rhino/Node.java setType 539:541
+2021-07-03 13:35:31,287 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,293 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:31,297 DEBUG    [line range] com/google/javascript/rhino/Node.java setVarArgs 1976:1978
+2021-07-03 13:35:31,360 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,366 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:31,371 DEBUG    [single line]   com/google/javascript/rhino/Node.java <init> 1938
+2021-07-03 13:35:31,434 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,440 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:31,445 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 2235:2238
+2021-07-03 13:35:31,508 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,514 DEBUG                  - depth 1, hash 66485d3, HEAD~732
+2021-07-03 13:35:31,518 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 350:352
+2021-07-03 13:35:31,582 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:31,588 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:31,592 DEBUG                  - depth 2, hash 7efb21a, HEAD~777
+2021-07-03 13:35:31,597 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:31,601 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 358:364
+2021-07-03 13:35:31,666 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:31,672 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:31,676 DEBUG                  - depth 2, hash 7efb21a, HEAD~777
+2021-07-03 13:35:31,680 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:31,685 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 354:356
+2021-07-03 13:35:31,751 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:31,757 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:31,761 DEBUG                  - depth 2, hash 7efb21a, HEAD~777
+2021-07-03 13:35:31,765 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:31,770 DEBUG    [line range] com/google/javascript/rhino/Node.java <init> 276:282
+2021-07-03 13:35:31,834 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,840 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:31,845 DEBUG    [line range] com/google/javascript/rhino/Node.java getString 296:299
+2021-07-03 13:35:31,909 DEBUG                  - depth 0, hash 4385971, HEAD~625
+2021-07-03 13:35:31,915 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:32,314 DEBUG    [line range] com/google/javascript/rhino/ScriptRuntime.java <clinit> 81:82
+2021-07-03 13:35:32,371 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:32,377 DEBUG    [line range] com/google/javascript/rhino/ScriptRuntime.java getMessage 456:483
+2021-07-03 13:35:32,433 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:32,440 DEBUG    [line range] com/google/javascript/rhino/ScriptRuntime.java getMessage0 420:423
+2021-07-03 13:35:32,497 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:32,790 DEBUG    [line range] com/google/javascript/rhino/jstype/AllType.java <init> 52:54
+2021-07-03 13:35:32,846 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:32,852 DEBUG    [line range] com/google/javascript/rhino/jstype/AllType.java isAllType 66:69
+2021-07-03 13:35:32,907 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:33,258 DEBUG    [line range] com/google/javascript/rhino/jstype/ArrowType.java <init> 62:65
+2021-07-03 13:35:33,315 DEBUG                  - depth 0, hash a9757e8, HEAD~597
+2021-07-03 13:35:33,321 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:33,325 DEBUG    [line range] com/google/javascript/rhino/jstype/ArrowType.java <init> 67:77
+2021-07-03 13:35:33,383 DEBUG                  - depth 0, hash a9757e8, HEAD~597
+2021-07-03 13:35:33,389 DEBUG                  - depth 1, hash 97bbbff, HEAD~602
+2021-07-03 13:35:33,394 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:33,707 DEBUG    [line range] com/google/javascript/rhino/jstype/BooleanType.java <init> 52:54
+2021-07-03 13:35:33,763 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:33,769 DEBUG    [line range] com/google/javascript/rhino/jstype/BooleanType.java getDisplayName 106:109
+2021-07-03 13:35:33,824 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:33,830 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:33,835 DEBUG    [single line]   com/google/javascript/rhino/jstype/BooleanType.java isSubtype 49
+2021-07-03 13:35:33,892 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:33,898 DEBUG    [line range] com/google/javascript/rhino/jstype/BooleanType.java toString 101:104
+2021-07-03 13:35:33,953 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:33,959 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:34,241 DEBUG    [line range] com/google/javascript/rhino/jstype/ErrorFunctionType.java <init> 50:74
+2021-07-03 13:35:34,297 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:34,303 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:34,618 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionBuilder.java <init> 54:54
+2021-07-03 13:35:34,674 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:34,681 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionBuilder.java build 158:162
+2021-07-03 13:35:34,736 DEBUG                  - depth 0, hash a9757e8, HEAD~597
+2021-07-03 13:35:34,742 DEBUG                  - depth 1, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:34,746 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionBuilder.java withParamsNode 89:92
+2021-07-03 13:35:34,804 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:34,810 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionBuilder.java withReturnType 95:98
+2021-07-03 13:35:34,866 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:35,173 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java <init> 52:52
+2021-07-03 13:35:35,230 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,236 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java addOptionalParams 79:88
+2021-07-03 13:35:35,291 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,298 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java addRequiredParams 62:71
+2021-07-03 13:35:35,353 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,359 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java addVarArgs 94:109
+2021-07-03 13:35:35,417 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,423 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java build 129:131
+2021-07-03 13:35:35,480 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,486 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java hasOptionalOrVarArgs 133:137
+2021-07-03 13:35:35,543 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,550 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java hasVarArgs 139:142
+2021-07-03 13:35:35,607 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,614 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionParamBuilder.java newParameter 122:127
+2021-07-03 13:35:35,671 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:35,973 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionPrototypeType.java <init> 60:63
+2021-07-03 13:35:36,029 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,036 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionPrototypeType.java <init> 53:58
+2021-07-03 13:35:36,091 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,098 DEBUG    [single line]   com/google/javascript/rhino/jstype/FunctionPrototypeType.java getPropertiesCount 48
+2021-07-03 13:35:36,153 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,159 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionPrototypeType.java getReferenceName 65:72
+2021-07-03 13:35:36,216 DEBUG                  - depth 0, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:36,222 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,227 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionPrototypeType.java hasReferenceName 74:77
+2021-07-03 13:35:36,282 DEBUG                  - depth 0, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:36,288 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,713 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java <init> 108:108
+2021-07-03 13:35:36,773 DEBUG                  - depth 0, hash 4014ddc, HEAD~742
+2021-07-03 13:35:36,779 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,784 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java <init> 122:143
+2021-07-03 13:35:36,844 DEBUG                  - depth 0, hash e9f7e61, HEAD~203
+2021-07-03 13:35:36,850 DEBUG                  - depth 1, hash a9757e8, HEAD~597
+2021-07-03 13:35:36,854 DEBUG                  - depth 2, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:36,859 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,864 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java addSubType 828:833
+2021-07-03 13:35:36,925 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:36,932 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java clearCachedValues 835:854
+2021-07-03 13:35:36,989 DEBUG                  - depth 0, hash 840ddca, HEAD~137
+2021-07-03 13:35:36,996 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java defineProperty 432:449
+2021-07-03 13:35:37,058 DEBUG                  - depth 0, hash 6bbac11, HEAD~160
+2021-07-03 13:35:37,064 DEBUG                  - depth 1, hash cf5fd88, HEAD~590
+2021-07-03 13:35:37,068 DEBUG                  - depth 2, hash d1f2538, HEAD~713
+2021-07-03 13:35:37,073 DEBUG                  - depth 3, hash a2d8936, HEAD~757
+2021-07-03 13:35:37,077 DEBUG                  - depth 4, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,082 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java getInstanceType 788:791
+2021-07-03 13:35:37,142 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,149 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java getInternalArrowType 250:252
+2021-07-03 13:35:37,207 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:37,213 DEBUG    [single line]   com/google/javascript/rhino/jstype/FunctionType.java getPropertiesCount 65
+2021-07-03 13:35:37,272 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,279 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java getPrototype 258:264
+2021-07-03 13:35:37,340 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,346 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java getSuperClassConstructor 602:609
+2021-07-03 13:35:37,406 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,412 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java hasCachedValues 865:868
+2021-07-03 13:35:37,474 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,480 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java hasInstanceType 801:803
+2021-07-03 13:35:37,540 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,546 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java isConstructor 170:173
+2021-07-03 13:35:37,608 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,614 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java isEquivalentTo 632:658
+2021-07-03 13:35:37,673 DEBUG                  - depth 0, hash cf5fd88, HEAD~590
+2021-07-03 13:35:37,679 DEBUG                  - depth 1, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:37,684 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,689 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java isFunctionType 185:188
+2021-07-03 13:35:37,748 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,755 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java isInterface 175:178
+2021-07-03 13:35:37,814 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,821 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java isSubtype 734:776
+2021-07-03 13:35:37,881 DEBUG                  - depth 0, hash af4b8d4, HEAD~271
+2021-07-03 13:35:37,887 DEBUG                  - depth 1, hash 599e408, HEAD~329
+2021-07-03 13:35:37,891 DEBUG                  - depth 2, hash cf5fd88, HEAD~590
+2021-07-03 13:35:37,896 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,900 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java setInstanceType 794:796
+2021-07-03 13:35:37,960 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:37,966 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java setPrototype 286:310
+2021-07-03 13:35:38,026 DEBUG                  - depth 0, hash 840ddca, HEAD~137
+2021-07-03 13:35:38,032 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,037 DEBUG    [line range] com/google/javascript/rhino/jstype/FunctionType.java setPrototypeBasedOn 271:279
+2021-07-03 13:35:38,097 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,103 DEBUG    [single line]   com/google/javascript/rhino/jstype/FunctionType.java <clinit> 68
+2021-07-03 13:35:38,162 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,168 DEBUG    [single line]   com/google/javascript/rhino/jstype/FunctionType.java <clinit> 69
+2021-07-03 13:35:38,228 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,234 DEBUG    [single line]   com/google/javascript/rhino/jstype/FunctionType.java <clinit> 70
+2021-07-03 13:35:38,294 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,301 DEBUG    [single line]   com/google/javascript/rhino/jstype/FunctionType.java <clinit> 71
+2021-07-03 13:35:38,360 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,673 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java <init> 58:63
+2021-07-03 13:35:38,729 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,736 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java defineProperty 85:93
+2021-07-03 13:35:38,792 DEBUG                  - depth 0, hash 6bbac11, HEAD~160
+2021-07-03 13:35:38,798 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,803 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java getConstructor 80:83
+2021-07-03 13:35:38,861 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,868 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java getImplicitPrototype 75:78
+2021-07-03 13:35:38,924 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,930 DEBUG    [single line]   com/google/javascript/rhino/jstype/InstanceObjectType.java getPropertiesCount 49
+2021-07-03 13:35:38,987 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:38,993 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java getReferenceName 65:68
+2021-07-03 13:35:39,049 DEBUG                  - depth 0, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:39,055 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,060 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java hasReferenceName 70:73
+2021-07-03 13:35:39,117 DEBUG                  - depth 0, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:39,123 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,128 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java hashCode 166:173
+2021-07-03 13:35:39,184 DEBUG                  - depth 0, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:39,191 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,195 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java isEquivalentTo 149:160
+2021-07-03 13:35:39,252 DEBUG                  - depth 0, hash cf5fd88, HEAD~590
+2021-07-03 13:35:39,258 DEBUG                  - depth 1, hash 8686011, HEAD~740
+2021-07-03 13:35:39,262 DEBUG                  - depth 2, hash 4014ddc, HEAD~742
+2021-07-03 13:35:39,267 DEBUG                  - depth 3, hash a2d8936, HEAD~757
+2021-07-03 13:35:39,271 DEBUG                  - depth 4, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:39,276 DEBUG                  - depth 5, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,281 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java isNominalType 144:147
+2021-07-03 13:35:39,338 DEBUG                  - depth 0, hash 845f5ff, HEAD~762
+2021-07-03 13:35:39,344 DEBUG                  - depth 1, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:39,349 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,353 DEBUG    [line range] com/google/javascript/rhino/jstype/InstanceObjectType.java toString 95:102
+2021-07-03 13:35:39,410 DEBUG                  - depth 0, hash a2f9d4f, HEAD~641
+2021-07-03 13:35:39,416 DEBUG                  - depth 1, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:39,420 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,830 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java <clinit> 90:94
+2021-07-03 13:35:39,892 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:39,898 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java <init> 70:70
+2021-07-03 13:35:39,957 DEBUG                  - depth 0, hash bca9abb, HEAD~726
+2021-07-03 13:35:39,964 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java getNativeType 109:111
+2021-07-03 13:35:40,026 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,032 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java hashCode 351:354
+2021-07-03 13:35:40,094 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,100 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isAllType 239:241
+2021-07-03 13:35:40,162 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,169 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isEmptyType 162:166
+2021-07-03 13:35:40,231 DEBUG                  - depth 0, hash a857aec, HEAD~76
+2021-07-03 13:35:40,237 DEBUG                  - depth 1, hash 043a352, HEAD~109
+2021-07-03 13:35:40,242 DEBUG                  - depth 2, hash 11bd742, HEAD~133
+2021-07-03 13:35:40,246 DEBUG                  - depth 3, hash 6dbca87, HEAD~134
+2021-07-03 13:35:40,250 DEBUG                  - depth 4, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,255 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isEquivalentTo 329:338
+2021-07-03 13:35:40,316 DEBUG                  - depth 0, hash cf5fd88, HEAD~590
+2021-07-03 13:35:40,322 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,327 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isNoObjectType 158:160
+2021-07-03 13:35:40,387 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,393 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isNoResolvedType 154:156
+2021-07-03 13:35:40,449 DEBUG                  - depth 0, hash 043a352, HEAD~109
+2021-07-03 13:35:40,455 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isNoType 150:152
+2021-07-03 13:35:40,515 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,522 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isNominalType 299:301
+2021-07-03 13:35:40,582 DEBUG                  - depth 0, hash 845f5ff, HEAD~762
+2021-07-03 13:35:40,589 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,593 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isSubtype 895:922
+2021-07-03 13:35:40,653 DEBUG                  - depth 0, hash d6227f7, HEAD~348
+2021-07-03 13:35:40,659 DEBUG                  - depth 1, hash cf5fd88, HEAD~590
+2021-07-03 13:35:40,664 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,669 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java isUnknownType 243:245
+2021-07-03 13:35:40,731 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:40,737 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java toObjectType 475:477
+2021-07-03 13:35:40,798 DEBUG                  - depth 0, hash a2d8936, HEAD~757
+2021-07-03 13:35:40,804 DEBUG    [line range] com/google/javascript/rhino/jstype/JSType.java compare 90:94
+2021-07-03 13:35:40,867 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,146 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 47
+2021-07-03 13:35:41,202 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,209 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 50
+2021-07-03 13:35:41,265 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,271 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 51
+2021-07-03 13:35:41,327 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,333 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 53
+2021-07-03 13:35:41,390 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,396 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 54
+2021-07-03 13:35:41,451 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,458 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 55
+2021-07-03 13:35:41,514 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,520 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 79
+2021-07-03 13:35:41,575 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,582 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 81
+2021-07-03 13:35:41,639 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,646 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 82
+2021-07-03 13:35:41,701 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,708 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 84
+2021-07-03 13:35:41,765 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,771 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 85
+2021-07-03 13:35:41,827 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,833 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 87
+2021-07-03 13:35:41,888 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,895 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 88
+2021-07-03 13:35:41,952 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:41,958 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 90
+2021-07-03 13:35:42,013 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,020 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 91
+2021-07-03 13:35:42,075 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,082 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 92
+2021-07-03 13:35:42,137 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,143 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 94
+2021-07-03 13:35:42,200 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,206 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 96
+2021-07-03 13:35:42,261 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,268 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 97
+2021-07-03 13:35:42,323 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,329 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 98
+2021-07-03 13:35:42,385 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,391 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 100
+2021-07-03 13:35:42,447 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,453 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 101
+2021-07-03 13:35:42,510 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,516 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 102
+2021-07-03 13:35:42,574 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,580 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 104
+2021-07-03 13:35:42,637 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,643 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 105
+2021-07-03 13:35:42,702 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,708 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 107
+2021-07-03 13:35:42,766 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,772 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 108
+2021-07-03 13:35:42,827 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,833 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 110
+2021-07-03 13:35:42,890 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,896 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 111
+2021-07-03 13:35:42,951 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:42,958 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 113
+2021-07-03 13:35:43,013 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,019 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 114
+2021-07-03 13:35:43,076 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,082 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 115
+2021-07-03 13:35:43,139 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,145 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 117
+2021-07-03 13:35:43,201 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,207 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 118
+2021-07-03 13:35:43,264 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,270 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 120
+2021-07-03 13:35:43,325 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,332 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 121
+2021-07-03 13:35:43,389 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,396 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 123
+2021-07-03 13:35:43,452 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,458 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 125
+2021-07-03 13:35:43,514 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,520 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 126
+2021-07-03 13:35:43,576 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,582 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 128
+2021-07-03 13:35:43,638 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,644 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 132
+2021-07-03 13:35:43,699 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,706 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 133
+2021-07-03 13:35:43,761 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,767 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 134
+2021-07-03 13:35:43,823 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,829 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 135
+2021-07-03 13:35:43,885 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,891 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 136
+2021-07-03 13:35:43,947 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:43,953 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 137
+2021-07-03 13:35:44,008 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,015 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 138
+2021-07-03 13:35:44,070 DEBUG                  - depth 0, hash 043a352, HEAD~109
+2021-07-03 13:35:44,076 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 139
+2021-07-03 13:35:44,132 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,138 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 140
+2021-07-03 13:35:44,194 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,200 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 141
+2021-07-03 13:35:44,256 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,262 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 143
+2021-07-03 13:35:44,317 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,323 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 144
+2021-07-03 13:35:44,379 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,385 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 149
+2021-07-03 13:35:44,441 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,447 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 154
+2021-07-03 13:35:44,503 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,509 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 159
+2021-07-03 13:35:44,566 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:44,573 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeNative.java <clinit> 164
+2021-07-03 13:35:44,630 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,112 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java <init> 93:93
+2021-07-03 13:35:45,180 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,187 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java addReferenceTypeIndexedByProperty 616:635
+2021-07-03 13:35:45,253 DEBUG                  - depth 0, hash 1c75a54, HEAD~210
+2021-07-03 13:35:45,259 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,264 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createArrowType 987:989
+2021-07-03 13:35:45,327 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:45,334 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createArrowType 977:979
+2021-07-03 13:35:45,397 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:45,403 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createFunctionType 1227:1233
+2021-07-03 13:35:45,465 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:45,472 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:45,476 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createFunctionType 1184:1191
+2021-07-03 13:35:45,541 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,547 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createFunctionTypeWithVarArgs 1033:1037
+2021-07-03 13:35:45,612 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:45,618 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,623 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createNullableType 926:928
+2021-07-03 13:35:45,688 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,695 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createObjectType 1268:1271
+2021-07-03 13:35:45,760 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,766 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createOptionalParameters 1148:1152
+2021-07-03 13:35:45,833 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,839 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createOptionalType 904:910
+2021-07-03 13:35:45,905 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,911 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createParameters 1164:1175
+2021-07-03 13:35:45,977 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:45,983 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createParametersWithVarArgs 1140:1142
+2021-07-03 13:35:46,049 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,056 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java createUnionType 942:948
+2021-07-03 13:35:46,122 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,128 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java getNativeFunctionType 820:822
+2021-07-03 13:35:46,193 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,200 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java getNativeObjectType 816:818
+2021-07-03 13:35:46,265 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,271 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java getNativeType 812:814
+2021-07-03 13:35:46,337 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,343 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java initializeBuiltInTypes 236:544
+2021-07-03 13:35:46,410 DEBUG                  - depth 0, hash 043a352, HEAD~109
+2021-07-03 13:35:46,416 DEBUG                  - depth 1, hash 11bd742, HEAD~133
+2021-07-03 13:35:46,421 DEBUG                  - depth 2, hash 6dbca87, HEAD~134
+2021-07-03 13:35:46,425 DEBUG                  - depth 3, hash 6bbac11, HEAD~160
+2021-07-03 13:35:46,429 DEBUG                  - depth 4, hash 1c75a54, HEAD~210
+2021-07-03 13:35:46,434 DEBUG                  - depth 5, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:46,438 DEBUG                  - depth 6, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,451 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java initializeRegistry 546:570
+2021-07-03 13:35:46,519 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,527 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java register 572:574
+2021-07-03 13:35:46,593 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,599 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java register 576:584
+2021-07-03 13:35:46,665 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,671 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java registerNativeType 586:588
+2021-07-03 13:35:46,737 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,743 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java registerPropertyOnType 602:614
+2021-07-03 13:35:46,808 DEBUG                  - depth 0, hash 1c75a54, HEAD~210
+2021-07-03 13:35:46,815 DEBUG                  - depth 1, hash e152ec0, HEAD~431
+2021-07-03 13:35:46,819 DEBUG                  - depth 2, hash 831de24, HEAD~462
+2021-07-03 13:35:46,824 DEBUG                  - depth 3, hash 6bf3a64, HEAD~545
+2021-07-03 13:35:46,828 DEBUG                  - depth 4, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,833 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java resetForTypeCheck 227:234
+2021-07-03 13:35:46,899 DEBUG                  - depth 0, hash 1c75a54, HEAD~210
+2021-07-03 13:35:46,906 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:46,911 DEBUG    [line range] com/google/javascript/rhino/jstype/JSTypeRegistry.java <init> 236:544
+2021-07-03 13:35:46,979 DEBUG                  - depth 0, hash 043a352, HEAD~109
+2021-07-03 13:35:46,986 DEBUG                  - depth 1, hash 11bd742, HEAD~133
+2021-07-03 13:35:46,990 DEBUG                  - depth 2, hash 6dbca87, HEAD~134
+2021-07-03 13:35:46,994 DEBUG                  - depth 3, hash 6bbac11, HEAD~160
+2021-07-03 13:35:46,999 DEBUG                  - depth 4, hash 1c75a54, HEAD~210
+2021-07-03 13:35:47,003 DEBUG                  - depth 5, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:47,007 DEBUG                  - depth 6, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:47,012 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeRegistry.java <clinit> 159
+2021-07-03 13:35:47,075 DEBUG                  - depth 0, hash eb5eae4, HEAD~611
+2021-07-03 13:35:47,081 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeRegistry.java <clinit> 164
+2021-07-03 13:35:47,143 DEBUG                  - depth 0, hash eb5eae4, HEAD~611
+2021-07-03 13:35:47,149 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeRegistry.java <clinit> 174
+2021-07-03 13:35:47,210 DEBUG                  - depth 0, hash eb5eae4, HEAD~611
+2021-07-03 13:35:47,217 DEBUG    [single line]   com/google/javascript/rhino/jstype/JSTypeRegistry.java <clinit> 180
+2021-07-03 13:35:47,280 DEBUG                  - depth 0, hash eb5eae4, HEAD~611
+2021-07-03 13:35:47,589 DEBUG    [line range] com/google/javascript/rhino/jstype/NoObjectType.java <init> 66:72
+2021-07-03 13:35:47,646 DEBUG                  - depth 0, hash e3bcc1c, HEAD~623
+2021-07-03 13:35:47,652 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:47,933 DEBUG    [line range] com/google/javascript/rhino/jstype/NoResolvedType.java <init> 58:60
+2021-07-03 13:35:47,989 DEBUG                  - depth 0, hash 043a352, HEAD~109
+2021-07-03 13:35:48,284 DEBUG    [line range] com/google/javascript/rhino/jstype/NoType.java <init> 64:66
+2021-07-03 13:35:48,340 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:48,346 DEBUG    [line range] com/google/javascript/rhino/jstype/NoType.java isNoType 73:76
+2021-07-03 13:35:48,403 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:48,709 DEBUG    [line range] com/google/javascript/rhino/jstype/NullType.java <init> 53:55
+2021-07-03 13:35:48,765 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:48,771 DEBUG    [line range] com/google/javascript/rhino/jstype/NullType.java getDisplayName 107:110
+2021-07-03 13:35:48,827 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:48,833 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:48,838 DEBUG    [single line]   com/google/javascript/rhino/jstype/NullType.java isSubtype 50
+2021-07-03 13:35:48,895 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:48,901 DEBUG    [line range] com/google/javascript/rhino/jstype/NullType.java toString 102:105
+2021-07-03 13:35:48,958 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:48,965 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:49,268 DEBUG    [line range] com/google/javascript/rhino/jstype/NumberType.java <init> 52:54
+2021-07-03 13:35:49,325 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:49,331 DEBUG    [line range] com/google/javascript/rhino/jstype/NumberType.java getDisplayName 100:103
+2021-07-03 13:35:49,387 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:49,393 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:49,398 DEBUG    [single line]   com/google/javascript/rhino/jstype/NumberType.java isSubtype 49
+2021-07-03 13:35:49,455 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:49,462 DEBUG    [line range] com/google/javascript/rhino/jstype/NumberType.java toString 95:98
+2021-07-03 13:35:49,518 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:49,525 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:49,871 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java <init> 82:82
+2021-07-03 13:35:49,928 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:49,935 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java cast 509:511
+2021-07-03 13:35:49,992 DEBUG                  - depth 0, hash a2d8936, HEAD~757
+2021-07-03 13:35:49,999 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java clearCachedValues 497:499
+2021-07-03 13:35:50,055 DEBUG                  - depth 0, hash 840ddca, HEAD~137
+2021-07-03 13:35:50,061 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java createDelegateSuffix 196:198
+2021-07-03 13:35:50,117 DEBUG                  - depth 0, hash 39dde4c, HEAD~340
+2021-07-03 13:35:50,123 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java defineDeclaredProperty 247:259
+2021-07-03 13:35:50,181 DEBUG                  - depth 0, hash 6bbac11, HEAD~160
+2021-07-03 13:35:50,187 DEBUG                  - depth 1, hash 1c75a54, HEAD~210
+2021-07-03 13:35:50,192 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:50,196 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java hasCachedValues 493:495
+2021-07-03 13:35:50,255 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:50,261 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java hasOwnDeclaredProperty 403:405
+2021-07-03 13:35:50,318 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:50,325 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java isImplicitPrototype 447:456
+2021-07-03 13:35:50,382 DEBUG                  - depth 0, hash cf5fd88, HEAD~590
+2021-07-03 13:35:50,388 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:50,393 DEBUG    [line range] com/google/javascript/rhino/jstype/ObjectType.java isUnknownType 467:481
+2021-07-03 13:35:50,450 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:50,816 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java <init> 99:102
+2021-07-03 13:35:50,873 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:50,880 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java <init> 84:84
+2021-07-03 13:35:50,936 DEBUG                  - depth 0, hash a2f9d4f, HEAD~641
+2021-07-03 13:35:50,943 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java defineProperty 227:235
+2021-07-03 13:35:50,999 DEBUG                  - depth 0, hash 6bbac11, HEAD~160
+2021-07-03 13:35:51,005 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,010 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java getConstructor 387:390
+2021-07-03 13:35:51,067 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,073 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java getImplicitPrototype 392:395
+2021-07-03 13:35:51,129 DEBUG                  - depth 0, hash 12e777c, HEAD~322
+2021-07-03 13:35:51,135 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,140 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java getReferenceName 408:415
+2021-07-03 13:35:51,197 DEBUG                  - depth 0, hash a2f9d4f, HEAD~641
+2021-07-03 13:35:51,203 DEBUG                  - depth 1, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:51,207 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,212 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java hasCachedValues 514:517
+2021-07-03 13:35:51,269 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,275 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java hasOwnProperty 152:155
+2021-07-03 13:35:51,331 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,338 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java hasReferenceName 417:420
+2021-07-03 13:35:51,396 DEBUG                  - depth 0, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:51,402 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,407 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java implicitPrototypeChainIsUnknown 468:477
+2021-07-03 13:35:51,465 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,472 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java isNativeObjectType 520:523
+2021-07-03 13:35:51,529 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,535 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java isSubtype 422:466
+2021-07-03 13:35:51,594 DEBUG                  - depth 0, hash 8686011, HEAD~740
+2021-07-03 13:35:51,600 DEBUG                  - depth 1, hash a2d8936, HEAD~757
+2021-07-03 13:35:51,604 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,609 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java setImplicitPrototype 403:406
+2021-07-03 13:35:51,667 DEBUG                  - depth 0, hash 12e777c, HEAD~322
+2021-07-03 13:35:51,673 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,678 DEBUG    [line range] com/google/javascript/rhino/jstype/PrototypeObjectType.java <init> 504:504
+2021-07-03 13:35:51,735 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:51,741 DEBUG    [single line]   com/google/javascript/rhino/jstype/PrototypeObjectType.java access$102 479
+2021-07-03 13:35:51,798 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:52,102 DEBUG    [line range] com/google/javascript/rhino/jstype/StringType.java <init> 52:54
+2021-07-03 13:35:52,158 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:52,165 DEBUG    [line range] com/google/javascript/rhino/jstype/StringType.java getDisplayName 95:98
+2021-07-03 13:35:52,220 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:52,227 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:52,231 DEBUG    [single line]   com/google/javascript/rhino/jstype/StringType.java isSubtype 49
+2021-07-03 13:35:52,287 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:52,293 DEBUG    [line range] com/google/javascript/rhino/jstype/StringType.java toString 90:93
+2021-07-03 13:35:52,348 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:52,355 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:52,751 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionType.java <init> 81:85
+2021-07-03 13:35:52,808 DEBUG                  - depth 0, hash cf5fd88, HEAD~590
+2021-07-03 13:35:52,815 DEBUG                  - depth 1, hash 6a6e135, HEAD~672
+2021-07-03 13:35:52,819 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:53,163 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java <clinit> 201:206
+2021-07-03 13:35:53,219 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:35:53,226 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java <init> 71:71
+2021-07-03 13:35:53,282 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:53,289 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java addAlternate 95:156
+2021-07-03 13:35:53,347 DEBUG                  - depth 0, hash 043a352, HEAD~109
+2021-07-03 13:35:53,353 DEBUG                  - depth 1, hash 11bd742, HEAD~133
+2021-07-03 13:35:53,358 DEBUG                  - depth 2, hash 6dbca87, HEAD~134
+2021-07-03 13:35:53,362 DEBUG                  - depth 3, hash e829daf, HEAD~576
+2021-07-03 13:35:53,366 DEBUG                  - depth 4, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:53,372 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java build 191:199
+2021-07-03 13:35:53,429 DEBUG                  - depth 0, hash 1c75a54, HEAD~210
+2021-07-03 13:35:53,435 DEBUG                  - depth 1, hash e829daf, HEAD~576
+2021-07-03 13:35:53,440 DEBUG                  - depth 2, hash 7eaa0d8, HEAD~634
+2021-07-03 13:35:53,444 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:53,449 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java getAlternateListCopy 208:215
+2021-07-03 13:35:53,505 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:35:53,512 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java reduceAlternatesWithoutUnion 163:184
+2021-07-03 13:35:53,568 DEBUG                  - depth 0, hash 5bebea6, HEAD~113
+2021-07-03 13:35:53,574 DEBUG                  - depth 1, hash 2bc4e29, HEAD~119
+2021-07-03 13:35:53,578 DEBUG                  - depth 2, hash 1c75a54, HEAD~210
+2021-07-03 13:35:53,583 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java compare 201:206
+2021-07-03 13:35:53,640 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:35:53,646 DEBUG    [line range] com/google/javascript/rhino/jstype/UnionTypeBuilder.java compare 201:206
+2021-07-03 13:35:53,702 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:35:54,012 DEBUG    [line range] com/google/javascript/rhino/jstype/UnknownType.java <init> 58:61
+2021-07-03 13:35:54,068 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:54,356 DEBUG    [line range] com/google/javascript/rhino/jstype/ValueType.java <init> 48:50
+2021-07-03 13:35:54,412 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:54,418 DEBUG    [line range] com/google/javascript/rhino/jstype/ValueType.java isSubtype 52:55
+2021-07-03 13:35:54,473 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:54,777 DEBUG    [line range] com/google/javascript/rhino/jstype/VoidType.java <init> 53:55
+2021-07-03 13:35:54,834 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:54,840 DEBUG    [line range] com/google/javascript/rhino/jstype/VoidType.java getDisplayName 99:102
+2021-07-03 13:35:54,896 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:54,902 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:54,906 DEBUG    [line range] com/google/javascript/rhino/jstype/VoidType.java toString 94:97
+2021-07-03 13:35:54,962 DEBUG                  - depth 0, hash 8a76da2, HEAD~224
+2021-07-03 13:35:54,968 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:54,973 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isGet 1424:1427
+2021-07-03 13:35:55,056 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:55,063 DEBUG    [line range] com/google/javascript/jscomp/PrepareAst.java annotateCalls 175:191
+2021-07-03 13:35:55,119 DEBUG                  - depth 0, hash d7e85b0, HEAD~540
+2021-07-03 13:35:55,126 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java newNode 1266:1268
+2021-07-03 13:35:55,185 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:55,192 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processFunctionCall 498:510
+2021-07-03 13:35:55,255 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:55,261 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:55,266 DEBUG    [line range] com/google/javascript/jscomp/AbstractCompiler.java getLifeCycleStage 171:173
+2021-07-03 13:35:55,324 DEBUG                  - depth 0, hash 8936be7, HEAD~190
+2021-07-03 13:35:55,331 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:55,335 DEBUG    [line range] com/google/javascript/jscomp/AbstractCompiler.java isNormalizedObfuscated 283:285
+2021-07-03 13:35:55,392 DEBUG                  - depth 0, hash 5cd9c1e, HEAD~188
+2021-07-03 13:35:55,399 DEBUG    [line range] com/google/javascript/jscomp/CompilerInput.java isExtern 293:295
+2021-07-03 13:35:55,456 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:55,855 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java <init> 52:54
+2021-07-03 13:35:55,912 DEBUG                  - depth 0, hash 7faf592, HEAD~560
+2021-07-03 13:35:55,919 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:55,923 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java <init> 49:49
+2021-07-03 13:35:55,982 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:55,989 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java enterScope 64:96
+2021-07-03 13:35:56,046 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,053 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java exitScope 98:103
+2021-07-03 13:35:56,110 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,116 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java findDeclaredNames 187:204
+2021-07-03 13:35:56,175 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,182 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java getReplacementName 173:181
+2021-07-03 13:35:56,239 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,246 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java shouldTraverse 105:139
+2021-07-03 13:35:56,305 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,311 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java visit 141:167
+2021-07-03 13:35:56,368 DEBUG                  - depth 0, hash 14ddcfd, HEAD~754
+2021-07-03 13:35:56,375 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,380 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java <init> 404:404
+2021-07-03 13:35:56,437 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,444 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java addDeclaredName 433:450
+2021-07-03 13:35:56,501 DEBUG                  - depth 0, hash da30f17, HEAD~665
+2021-07-03 13:35:56,507 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,512 DEBUG    [line range] com/google/javascript/jscomp/MakeDeclaredNamesUnique.java reserveName 464:466
+2021-07-03 13:35:56,569 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,576 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java getScopeDepth 598:600
+2021-07-03 13:35:56,632 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,639 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java getScopeRoot 583:589
+2021-07-03 13:35:56,697 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,704 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java inGlobalScope 594:596
+2021-07-03 13:35:56,760 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,767 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java throwUnexpectedException 214:231
+2021-07-03 13:35:56,825 DEBUG                  - depth 0, hash 7efb21a, HEAD~777
+2021-07-03 13:35:56,831 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,836 DEBUG    [line range] com/google/javascript/jscomp/NodeTraversal.java traverseRoots 256:258
+2021-07-03 13:35:56,895 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:56,901 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isConstantByConvention 2773:2784
+2021-07-03 13:35:56,977 DEBUG                  - depth 0, hash e829daf, HEAD~576
+2021-07-03 13:35:56,983 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isObjectLitKey 2021:2031
+2021-07-03 13:35:57,066 DEBUG                  - depth 0, hash 2e68acb, HEAD~216
+2021-07-03 13:35:57,073 DEBUG                  - depth 1, hash 34fd5f8, HEAD~336
+2021-07-03 13:35:57,077 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:57,082 DEBUG    [line range] com/google/javascript/jscomp/NodeUtil.java isVarDeclaration 1463:1467
+2021-07-03 13:35:57,168 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:57,574 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java <clinit> 70:74
+2021-07-03 13:35:57,633 DEBUG                  - depth 0, hash 4672a1a, HEAD~584
+2021-07-03 13:35:57,639 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java <init> 77:83
+2021-07-03 13:35:57,701 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:57,707 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:57,712 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java process 118:148
+2021-07-03 13:35:57,773 DEBUG                  - depth 0, hash 5cd9c1e, HEAD~188
+2021-07-03 13:35:57,779 DEBUG                  - depth 1, hash 8936be7, HEAD~190
+2021-07-03 13:35:57,784 DEBUG                  - depth 2, hash 24b7eb9, HEAD~279
+2021-07-03 13:35:57,788 DEBUG                  - depth 3, hash b9bc153, HEAD~424
+2021-07-03 13:35:57,793 DEBUG                  - depth 4, hash c9e8972, HEAD~574
+2021-07-03 13:35:57,797 DEBUG                  - depth 5, hash b347ce3, HEAD~659
+2021-07-03 13:35:57,802 DEBUG                  - depth 6, hash da30f17, HEAD~665
+2021-07-03 13:35:57,806 DEBUG                  - depth 7, hash 9a185e0, HEAD~674
+2021-07-03 13:35:57,810 DEBUG                  - depth 8, hash d48c365, HEAD~690
+2021-07-03 13:35:57,815 DEBUG                  - depth 9, hash 14ddcfd, HEAD~754
+2021-07-03 13:35:57,819 DEBUG                  - depth 10, hash 168bc14, HEAD~759
+2021-07-03 13:35:57,824 DEBUG                  - depth 11, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:57,828 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java removeDuplicateDeclarations 627:633
+2021-07-03 13:35:57,889 DEBUG                  - depth 0, hash b9bc153, HEAD~424
+2021-07-03 13:35:57,895 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:57,900 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java <init> 641:641
+2021-07-03 13:35:57,958 DEBUG                  - depth 0, hash 86caf52, HEAD~219
+2021-07-03 13:35:57,965 DEBUG    [single line]   com/google/javascript/jscomp/Normalize.java <init> 638
+2021-07-03 13:35:58,024 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,031 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java onRedeclaration 647:701
+2021-07-03 13:35:58,091 DEBUG                  - depth 0, hash 86caf52, HEAD~219
+2021-07-03 13:35:58,097 DEBUG                  - depth 1, hash 4672a1a, HEAD~584
+2021-07-03 13:35:58,101 DEBUG                  - depth 2, hash b347ce3, HEAD~659
+2021-07-03 13:35:58,106 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,112 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java annotateConstantsByConvention 349:378
+2021-07-03 13:35:58,172 DEBUG                  - depth 0, hash 2e68acb, HEAD~216
+2021-07-03 13:35:58,178 DEBUG                  - depth 1, hash 853cb5d, HEAD~276
+2021-07-03 13:35:58,183 DEBUG                  - depth 2, hash 24b7eb9, HEAD~279
+2021-07-03 13:35:58,187 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,192 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java doStatementNormalizations 433:454
+2021-07-03 13:35:58,253 DEBUG                  - depth 0, hash 9a185e0, HEAD~674
+2021-07-03 13:35:58,260 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,265 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java extractForInitializer 495:541
+2021-07-03 13:35:58,325 DEBUG                  - depth 0, hash 82ba14e, HEAD~413
+2021-07-03 13:35:58,331 DEBUG                  - depth 1, hash 2dc356a, HEAD~657
+2021-07-03 13:35:58,336 DEBUG                  - depth 2, hash 9a185e0, HEAD~674
+2021-07-03 13:35:58,340 DEBUG                  - depth 3, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,345 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java shouldTraverse 309:314
+2021-07-03 13:35:58,407 DEBUG                  - depth 0, hash 9a185e0, HEAD~674
+2021-07-03 13:35:58,413 DEBUG                  - depth 1, hash 168bc14, HEAD~759
+2021-07-03 13:35:58,417 DEBUG                  - depth 2, hash 2acd6c1, HEAD~771
+2021-07-03 13:35:58,422 DEBUG                  - depth 3, hash 6a36f04, HEAD~775
+2021-07-03 13:35:58,426 DEBUG                  - depth 4, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,431 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java splitVarDeclarations 551:569
+2021-07-03 13:35:58,493 DEBUG                  - depth 0, hash 9a185e0, HEAD~674
+2021-07-03 13:35:58,499 DEBUG                  - depth 1, hash 6a36f04, HEAD~775
+2021-07-03 13:35:58,504 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,508 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java visit 316:344
+2021-07-03 13:35:58,569 DEBUG                  - depth 0, hash 5cd9c1e, HEAD~188
+2021-07-03 13:35:58,576 DEBUG                  - depth 1, hash 2e68acb, HEAD~216
+2021-07-03 13:35:58,580 DEBUG                  - depth 2, hash 24b7eb9, HEAD~279
+2021-07-03 13:35:58,585 DEBUG                  - depth 3, hash 2dc356a, HEAD~657
+2021-07-03 13:35:58,589 DEBUG                  - depth 4, hash b347ce3, HEAD~659
+2021-07-03 13:35:58,594 DEBUG                  - depth 5, hash 9a185e0, HEAD~674
+2021-07-03 13:35:58,598 DEBUG                  - depth 6, hash 3bee5d7, HEAD~767
+2021-07-03 13:35:58,602 DEBUG                  - depth 7, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,607 DEBUG    [single line]   com/google/javascript/jscomp/Normalize.java <init> 753
+2021-07-03 13:35:58,667 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,673 DEBUG    [line range] com/google/javascript/jscomp/Normalize.java enterScope 755:760
+2021-07-03 13:35:58,733 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,740 DEBUG    [line range] com/google/javascript/jscomp/Scope.java isExtern 168:170
+2021-07-03 13:35:58,796 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,802 DEBUG    [line range] com/google/javascript/jscomp/SyntacticScopeCreator.java <init> 60:64
+2021-07-03 13:35:58,858 DEBUG                  - depth 0, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,865 DEBUG    [line range] com/google/javascript/jscomp/parsing/IRFactory.java processInfixExpression 582:597
+2021-07-03 13:35:58,929 DEBUG                  - depth 0, hash 35d56dd, HEAD~557
+2021-07-03 13:35:58,935 DEBUG                  - depth 1, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:58,940 DEBUG    [line range] com/google/javascript/rhino/Node.java getBooleanProp 799:801
+2021-07-03 13:35:59,006 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:59,013 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:59,017 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:59,022 DEBUG    [line range] com/google/javascript/rhino/Node.java getIntProp 807:813
+2021-07-03 13:35:59,085 DEBUG                  - depth 0, hash c9e8972, HEAD~574
+2021-07-03 13:35:59,092 DEBUG                  - depth 1, hash 4385971, HEAD~625
+2021-07-03 13:35:59,096 DEBUG                  - depth 2, hash 6b49cfd, HEAD~780
+2021-07-03 13:35:59,101 INFO     The number of BIC candidates: 137

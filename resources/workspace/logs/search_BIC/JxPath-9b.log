@@ -1,0 +1,1010 @@
+2021-07-04 05:10:58,179 INFO     Search BICs for /tmp/JxPath-9b/
+2021-07-04 05:10:58,179 DEBUG    Reading the coverage of org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan (failings)
+2021-07-04 05:10:58,284 INFO     Loaded 1x1030 Coverage Matrix
+2021-07-04 05:10:58,284 INFO     The number of total commits: 329
+2021-07-04 05:10:58,563 DEBUG    [single line]   org/apache/commons/jxpath/BasicVariables.java <init> 27
+2021-07-04 05:10:58,581 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:10:58,587 DEBUG    [line range] org/apache/commons/jxpath/BasicVariables.java <init> 32:32
+2021-07-04 05:10:58,604 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:10:58,610 DEBUG    [line range] org/apache/commons/jxpath/BasicVariables.java declareVariable 72:74
+2021-07-04 05:10:58,627 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:10:58,632 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:10:58,636 DEBUG    [line range] org/apache/commons/jxpath/BasicVariables.java getVariable 54:63
+2021-07-04 05:10:58,654 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:10:58,659 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:10:58,663 DEBUG    [line range] org/apache/commons/jxpath/BasicVariables.java isDeclaredVariable 42:44
+2021-07-04 05:10:58,680 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:10:58,686 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:10:59,005 DEBUG    [line range] org/apache/commons/jxpath/JXPathBasicBeanInfo.java <init> 38:38
+2021-07-04 05:10:59,024 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:10:59,029 DEBUG    [line range] org/apache/commons/jxpath/JXPathBasicBeanInfo.java <init> 48:51
+2021-07-04 05:10:59,047 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:10:59,052 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:10:59,056 DEBUG    [line range] org/apache/commons/jxpath/JXPathBasicBeanInfo.java isDynamic 70:72
+2021-07-04 05:10:59,074 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:10:59,444 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java <clinit> 398:399
+2021-07-04 05:10:59,463 DEBUG                  - depth 0, hash 6b2fdb6, HEAD~127
+2021-07-04 05:10:59,468 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java <init> 389:389
+2021-07-04 05:10:59,490 DEBUG                  - depth 0, hash 6f2f15a, HEAD~157
+2021-07-04 05:10:59,495 DEBUG                  - depth 1, hash 9d0a382, HEAD~171
+2021-07-04 05:10:59,499 DEBUG                  - depth 2, hash d0a64d1, HEAD~317
+2021-07-04 05:10:59,503 DEBUG                  - depth 3, hash 3ec25ca, HEAD~318
+2021-07-04 05:10:59,507 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java getContextFactory 423:428
+2021-07-04 05:10:59,527 DEBUG                  - depth 0, hash 9d0a382, HEAD~171
+2021-07-04 05:10:59,533 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java getLocale 544:552
+2021-07-04 05:10:59,554 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:10:59,559 DEBUG                  - depth 1, hash 438d305, HEAD~186
+2021-07-04 05:10:59,563 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:10:59,567 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:10:59,572 DEBUG                  - depth 4, hash 3ec25ca, HEAD~318
+2021-07-04 05:10:59,576 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java getVariables 479:484
+2021-07-04 05:10:59,597 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:10:59,603 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:10:59,607 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java newContext 404:406
+2021-07-04 05:10:59,629 DEBUG                  - depth 0, hash 9d0a382, HEAD~171
+2021-07-04 05:10:59,634 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:10:59,638 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:10:59,642 DEBUG    [line range] org/apache/commons/jxpath/JXPathContext.java setLenient 591:594
+2021-07-04 05:10:59,664 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:10:59,670 DEBUG                  - depth 1, hash 9d0a382, HEAD~171
+2021-07-04 05:10:59,674 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:10:59,678 DEBUG                  - depth 3, hash d0a64d1, HEAD~317
+2021-07-04 05:11:00,022 DEBUG    [line range] org/apache/commons/jxpath/JXPathContextFactory.java <clinit> 56:56
+2021-07-04 05:11:00,040 DEBUG                  - depth 0, hash b5225ea, HEAD~159
+2021-07-04 05:11:00,045 DEBUG    [line range] org/apache/commons/jxpath/JXPathContextFactory.java <init> 58:60
+2021-07-04 05:11:00,063 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,069 DEBUG    [line range] org/apache/commons/jxpath/JXPathContextFactory.java findFactory 157:241
+2021-07-04 05:11:00,087 DEBUG                  - depth 0, hash b5225ea, HEAD~159
+2021-07-04 05:11:00,092 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:00,096 DEBUG                  - depth 2, hash 907ab10, HEAD~301
+2021-07-04 05:11:00,100 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,105 DEBUG    [line range] org/apache/commons/jxpath/JXPathContextFactory.java newInstance 97:118
+2021-07-04 05:11:00,123 DEBUG                  - depth 0, hash b5225ea, HEAD~159
+2021-07-04 05:11:00,128 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:00,132 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,451 DEBUG    [line range] org/apache/commons/jxpath/JXPathIntrospector.java <clinit> 32:32
+2021-07-04 05:11:00,468 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,474 DEBUG    [line range] org/apache/commons/jxpath/JXPathIntrospector.java getBeanInfo 101:114
+2021-07-04 05:11:00,492 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:00,497 DEBUG                  - depth 1, hash 9d8c0fe, HEAD~246
+2021-07-04 05:11:00,501 DEBUG                  - depth 2, hash 907ab10, HEAD~301
+2021-07-04 05:11:00,505 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,509 DEBUG    [line range] org/apache/commons/jxpath/JXPathIntrospector.java registerAtomicClass 66:68
+2021-07-04 05:11:00,527 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,532 DEBUG    [line range] org/apache/commons/jxpath/JXPathIntrospector.java registerDynamicClass 74:86
+2021-07-04 05:11:00,550 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:00,555 DEBUG                  - depth 1, hash 9d8c0fe, HEAD~246
+2021-07-04 05:11:00,559 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,883 DEBUG    [line range] org/apache/commons/jxpath/PackageFunctions.java <clinit> 74:74
+2021-07-04 05:11:00,902 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:00,907 DEBUG    [line range] org/apache/commons/jxpath/PackageFunctions.java <init> 76:79
+2021-07-04 05:11:00,925 DEBUG                  - depth 0, hash 907ab10, HEAD~301
+2021-07-04 05:11:00,930 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:01,287 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java <init> 49:49
+2021-07-04 05:11:01,309 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:01,314 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java getDocumentOrder 77:79
+2021-07-04 05:11:01,333 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:01,338 DEBUG                  - depth 1, hash 2d4907e, HEAD~162
+2021-07-04 05:11:01,343 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,347 DEBUG                  - depth 3, hash e2fc81a, HEAD~274
+2021-07-04 05:11:01,351 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java getRootContext 248:253
+2021-07-04 05:11:01,372 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,377 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:01,382 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java hasNext 95:106
+2021-07-04 05:11:01,401 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:01,407 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,411 DEBUG                  - depth 2, hash 04d6674, HEAD~212
+2021-07-04 05:11:01,415 DEBUG                  - depth 3, hash e2fc81a, HEAD~274
+2021-07-04 05:11:01,419 DEBUG                  - depth 4, hash 112774e, HEAD~293
+2021-07-04 05:11:01,423 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java isChildOrderingRequired 86:90
+2021-07-04 05:11:01,441 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:01,446 DEBUG                  - depth 1, hash 2d4907e, HEAD~162
+2021-07-04 05:11:01,450 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java next 111:130
+2021-07-04 05:11:01,470 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:01,475 DEBUG                  - depth 1, hash 77af585, HEAD~173
+2021-07-04 05:11:01,480 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,484 DEBUG                  - depth 3, hash 04d6674, HEAD~212
+2021-07-04 05:11:01,488 DEBUG                  - depth 4, hash cc0637b, HEAD~254
+2021-07-04 05:11:01,492 DEBUG                  - depth 5, hash e2fc81a, HEAD~274
+2021-07-04 05:11:01,496 DEBUG                  - depth 6, hash 112774e, HEAD~293
+2021-07-04 05:11:01,500 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java performIteratorStep 135:149
+2021-07-04 05:11:01,520 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,525 DEBUG                  - depth 1, hash 04d6674, HEAD~212
+2021-07-04 05:11:01,530 DEBUG                  - depth 2, hash cc0637b, HEAD~254
+2021-07-04 05:11:01,534 DEBUG                  - depth 3, hash e2fc81a, HEAD~274
+2021-07-04 05:11:01,538 DEBUG                  - depth 4, hash 112774e, HEAD~293
+2021-07-04 05:11:01,542 DEBUG    [line range] org/apache/commons/jxpath/ri/EvalContext.java reset 258:260
+2021-07-04 05:11:01,564 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,570 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:01,574 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:01,903 DEBUG    [line range] org/apache/commons/jxpath/ri/InfoSetUtil.java <clinit> 31:31
+2021-07-04 05:11:01,921 DEBUG                  - depth 0, hash 323e8b2, HEAD~285
+2021-07-04 05:11:01,926 DEBUG    [line range] org/apache/commons/jxpath/ri/InfoSetUtil.java booleanValue 129:154
+2021-07-04 05:11:01,944 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:01,949 DEBUG                  - depth 1, hash 676b30c, HEAD~112
+2021-07-04 05:11:01,953 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:01,957 DEBUG                  - depth 3, hash fdfd506, HEAD~199
+2021-07-04 05:11:01,961 DEBUG                  - depth 4, hash e6dfb75, HEAD~253
+2021-07-04 05:11:01,965 DEBUG                  - depth 5, hash 323e8b2, HEAD~285
+2021-07-04 05:11:01,969 DEBUG    [line range] org/apache/commons/jxpath/ri/InfoSetUtil.java doubleValue 97:124
+2021-07-04 05:11:01,987 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:01,992 DEBUG                  - depth 1, hash 5706325, HEAD~122
+2021-07-04 05:11:01,996 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,001 DEBUG                  - depth 3, hash e6dfb75, HEAD~253
+2021-07-04 05:11:02,005 DEBUG                  - depth 4, hash 323e8b2, HEAD~285
+2021-07-04 05:11:02,283 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextFactoryReferenceImpl.java <init> 31:32
+2021-07-04 05:11:02,301 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,307 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:02,311 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextFactoryReferenceImpl.java newContext 34:40
+2021-07-04 05:11:02,328 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,333 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:02,724 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java <clinit> 72:72
+2021-07-04 05:11:02,746 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,751 DEBUG                  - depth 1, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:02,756 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:02,760 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java <init> 121:125
+2021-07-04 05:11:02,782 DEBUG                  - depth 0, hash 7d07031, HEAD~179
+2021-07-04 05:11:02,788 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,792 DEBUG                  - depth 2, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:02,796 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:02,800 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java <init> 127:162
+2021-07-04 05:11:02,823 DEBUG                  - depth 0, hash faad15d, HEAD~29
+2021-07-04 05:11:02,828 DEBUG                  - depth 1, hash 8db08a6, HEAD~106
+2021-07-04 05:11:02,833 DEBUG                  - depth 2, hash b1e1383, HEAD~129
+2021-07-04 05:11:02,837 DEBUG                  - depth 3, hash 5d2e020, HEAD~147
+2021-07-04 05:11:02,841 DEBUG                  - depth 4, hash 7c43512, HEAD~148
+2021-07-04 05:11:02,845 DEBUG                  - depth 5, hash 7d07031, HEAD~179
+2021-07-04 05:11:02,849 DEBUG                  - depth 6, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,853 DEBUG                  - depth 7, hash 34b7a47, HEAD~315
+2021-07-04 05:11:02,857 DEBUG                  - depth 8, hash bc53a66, HEAD~327
+2021-07-04 05:11:02,862 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java allocateConditionally 703:720
+2021-07-04 05:11:02,882 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:02,888 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,892 DEBUG                  - depth 2, hash f636a25, HEAD~273
+2021-07-04 05:11:02,896 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java compileExpression 208:250
+2021-07-04 05:11:02,918 DEBUG                  - depth 0, hash 885fb67, HEAD~160
+2021-07-04 05:11:02,924 DEBUG                  - depth 1, hash 77af585, HEAD~173
+2021-07-04 05:11:02,928 DEBUG                  - depth 2, hash 7d07031, HEAD~179
+2021-07-04 05:11:02,932 DEBUG                  - depth 3, hash 2327c42, HEAD~196
+2021-07-04 05:11:02,936 DEBUG                  - depth 4, hash 323e8b2, HEAD~285
+2021-07-04 05:11:02,941 DEBUG                  - depth 5, hash aa27fa0, HEAD~292
+2021-07-04 05:11:02,945 DEBUG                  - depth 6, hash a6e246c, HEAD~306
+2021-07-04 05:11:02,949 DEBUG                  - depth 7, hash bc53a66, HEAD~327
+2021-07-04 05:11:02,953 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java createNodeFactoryArray 164:177
+2021-07-04 05:11:02,975 DEBUG                  - depth 0, hash 40a0e66, HEAD~13
+2021-07-04 05:11:02,980 DEBUG                  - depth 1, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:02,984 DEBUG                  - depth 2, hash 989fbe2, HEAD~300
+2021-07-04 05:11:02,989 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:02,993 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getCompiler 200:202
+2021-07-04 05:11:03,013 DEBUG                  - depth 0, hash 77af585, HEAD~173
+2021-07-04 05:11:03,019 DEBUG                  - depth 1, hash 7d07031, HEAD~179
+2021-07-04 05:11:03,023 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getContextPointer 603:605
+2021-07-04 05:11:03,045 DEBUG                  - depth 0, hash 9d0a382, HEAD~171
+2021-07-04 05:11:03,051 DEBUG                  - depth 1, hash 77af585, HEAD~173
+2021-07-04 05:11:03,055 DEBUG                  - depth 2, hash 7d07031, HEAD~179
+2021-07-04 05:11:03,059 DEBUG                  - depth 3, hash 2cff9ca, HEAD~182
+2021-07-04 05:11:03,063 DEBUG                  - depth 4, hash a6e246c, HEAD~306
+2021-07-04 05:11:03,067 DEBUG                  - depth 5, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,072 DEBUG                  - depth 6, hash 3ec25ca, HEAD~318
+2021-07-04 05:11:03,076 DEBUG                  - depth 7, hash bc53a66, HEAD~327
+2021-07-04 05:11:03,080 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getEvalContext 611:614
+2021-07-04 05:11:03,103 DEBUG                  - depth 0, hash b1e1383, HEAD~129
+2021-07-04 05:11:03,108 DEBUG                  - depth 1, hash 7d07031, HEAD~179
+2021-07-04 05:11:03,112 DEBUG                  - depth 2, hash 2cff9ca, HEAD~182
+2021-07-04 05:11:03,116 DEBUG                  - depth 3, hash a6e246c, HEAD~306
+2021-07-04 05:11:03,121 DEBUG                  - depth 4, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,125 DEBUG                  - depth 5, hash 3ec25ca, HEAD~318
+2021-07-04 05:11:03,129 DEBUG                  - depth 6, hash bc53a66, HEAD~327
+2021-07-04 05:11:03,133 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getNamespaceResolver 694:697
+2021-07-04 05:11:03,152 DEBUG                  - depth 0, hash d36e894, HEAD~34
+2021-07-04 05:11:03,157 DEBUG                  - depth 1, hash 413edb7, HEAD~85
+2021-07-04 05:11:03,162 DEBUG                  - depth 2, hash 39b19d3, HEAD~93
+2021-07-04 05:11:03,166 DEBUG                  - depth 3, hash b1e1383, HEAD~129
+2021-07-04 05:11:03,170 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getNodePointerFactories 191:193
+2021-07-04 05:11:03,192 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:03,198 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,202 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:03,206 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getValue 369:372
+2021-07-04 05:11:03,229 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:03,234 DEBUG                  - depth 1, hash aa27fa0, HEAD~292
+2021-07-04 05:11:03,238 DEBUG                  - depth 2, hash 163440e, HEAD~324
+2021-07-04 05:11:03,243 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getValue 323:363
+2021-07-04 05:11:03,265 DEBUG                  - depth 0, hash c5808a9, HEAD~91
+2021-07-04 05:11:03,271 DEBUG                  - depth 1, hash a0849ed, HEAD~133
+2021-07-04 05:11:03,275 DEBUG                  - depth 2, hash d73d9bf, HEAD~136
+2021-07-04 05:11:03,279 DEBUG                  - depth 3, hash 6f2f15a, HEAD~157
+2021-07-04 05:11:03,283 DEBUG                  - depth 4, hash 7d07031, HEAD~179
+2021-07-04 05:11:03,287 DEBUG                  - depth 5, hash 2327c42, HEAD~196
+2021-07-04 05:11:03,291 DEBUG                  - depth 6, hash 3f4b928, HEAD~201
+2021-07-04 05:11:03,296 DEBUG                  - depth 7, hash f2a27fe, HEAD~219
+2021-07-04 05:11:03,300 DEBUG                  - depth 8, hash 323e8b2, HEAD~285
+2021-07-04 05:11:03,304 DEBUG                  - depth 9, hash aa27fa0, HEAD~292
+2021-07-04 05:11:03,308 DEBUG                  - depth 10, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:03,312 DEBUG                  - depth 11, hash b8780b1, HEAD~297
+2021-07-04 05:11:03,316 DEBUG                  - depth 12, hash 989fbe2, HEAD~300
+2021-07-04 05:11:03,321 DEBUG                  - depth 13, hash a6e246c, HEAD~306
+2021-07-04 05:11:03,325 DEBUG                  - depth 14, hash 65bf4da, HEAD~307
+2021-07-04 05:11:03,329 DEBUG                  - depth 15, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,333 DEBUG                  - depth 16, hash d0a64d1, HEAD~317
+2021-07-04 05:11:03,337 DEBUG                  - depth 17, hash 7048cac, HEAD~320
+2021-07-04 05:11:03,341 DEBUG                  - depth 18, hash 207c6dd, HEAD~325
+2021-07-04 05:11:03,345 DEBUG                  - depth 19, hash bc53a66, HEAD~327
+2021-07-04 05:11:03,349 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getValue 374:389
+2021-07-04 05:11:03,371 DEBUG                  - depth 0, hash c5808a9, HEAD~91
+2021-07-04 05:11:03,377 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:03,381 DEBUG                  - depth 2, hash aa27fa0, HEAD~292
+2021-07-04 05:11:03,385 DEBUG                  - depth 3, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:03,389 DEBUG                  - depth 4, hash a6e246c, HEAD~306
+2021-07-04 05:11:03,394 DEBUG                  - depth 5, hash 163440e, HEAD~324
+2021-07-04 05:11:03,398 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java getVariablePointer 621:642
+2021-07-04 05:11:03,421 DEBUG                  - depth 0, hash 7554837, HEAD~128
+2021-07-04 05:11:03,426 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:03,430 DEBUG                  - depth 2, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,434 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:03,439 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:03,443 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java <init> 164:177
+2021-07-04 05:11:03,465 DEBUG                  - depth 0, hash 40a0e66, HEAD~13
+2021-07-04 05:11:03,471 DEBUG                  - depth 1, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:03,475 DEBUG                  - depth 2, hash 989fbe2, HEAD~300
+2021-07-04 05:11:03,479 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,483 DEBUG    [line range] org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java compare 164:177
+2021-07-04 05:11:03,505 DEBUG                  - depth 0, hash 40a0e66, HEAD~13
+2021-07-04 05:11:03,511 DEBUG                  - depth 1, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:03,515 DEBUG                  - depth 2, hash 989fbe2, HEAD~300
+2021-07-04 05:11:03,519 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:03,834 DEBUG    [line range] org/apache/commons/jxpath/ri/NamespaceResolver.java <init> 35:35
+2021-07-04 05:11:03,851 DEBUG                  - depth 0, hash b1e1383, HEAD~129
+2021-07-04 05:11:03,857 DEBUG    [line range] org/apache/commons/jxpath/ri/NamespaceResolver.java seal 152:157
+2021-07-04 05:11:03,874 DEBUG                  - depth 0, hash 8db08a6, HEAD~106
+2021-07-04 05:11:03,880 DEBUG                  - depth 1, hash b1e1383, HEAD~129
+2021-07-04 05:11:03,884 DEBUG    [line range] org/apache/commons/jxpath/ri/NamespaceResolver.java setNamespaceContextPointer 73:75
+2021-07-04 05:11:03,901 DEBUG                  - depth 0, hash b1e1383, HEAD~129
+2021-07-04 05:11:04,195 DEBUG    [line range] org/apache/commons/jxpath/ri/Parser.java <clinit> 34:34
+2021-07-04 05:11:04,213 DEBUG                  - depth 0, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:04,219 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:04,223 DEBUG    [line range] org/apache/commons/jxpath/ri/Parser.java parseExpression 40:71
+2021-07-04 05:11:04,241 DEBUG                  - depth 0, hash c5808a9, HEAD~91
+2021-07-04 05:11:04,246 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:04,250 DEBUG                  - depth 2, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:04,255 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:04,559 DEBUG    [line range] org/apache/commons/jxpath/ri/QName.java <init> 39:43
+2021-07-04 05:11:04,580 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:04,585 DEBUG                  - depth 1, hash cccfd4a, HEAD~158
+2021-07-04 05:11:04,590 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:04,594 DEBUG                  - depth 3, hash d93e05d, HEAD~220
+2021-07-04 05:11:04,598 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:04,602 DEBUG    [line range] org/apache/commons/jxpath/ri/QName.java equals 61:69
+2021-07-04 05:11:04,623 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:04,628 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:04,632 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:04,637 DEBUG    [line range] org/apache/commons/jxpath/ri/QName.java hashCode 57:59
+2021-07-04 05:11:04,657 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:04,663 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:04,667 DEBUG    [line range] org/apache/commons/jxpath/ri/QName.java toString 53:55
+2021-07-04 05:11:04,687 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:04,693 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:04,697 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:04,701 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:04,991 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/InitialContext.java <init> 32:32
+2021-07-04 05:11:05,009 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,014 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/InitialContext.java getCurrentNodePointer 50:52
+2021-07-04 05:11:05,032 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,037 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,041 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/InitialContext.java nextNode 58:60
+2021-07-04 05:11:05,059 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,065 DEBUG                  - depth 1, hash f293948, HEAD~294
+2021-07-04 05:11:05,069 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,073 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/InitialContext.java nextSet 74:80
+2021-07-04 05:11:05,091 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,096 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,101 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/InitialContext.java setPosition 62:72
+2021-07-04 05:11:05,119 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:05,124 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,128 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,468 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/RootContext.java <clinit> 38:38
+2021-07-04 05:11:05,487 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,492 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/RootContext.java <init> 37:37
+2021-07-04 05:11:05,510 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,516 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/RootContext.java getCurrentNodePointer 65:67
+2021-07-04 05:11:05,533 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,538 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,543 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/RootContext.java getRootContext 57:59
+2021-07-04 05:11:05,561 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,566 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,570 DEBUG    [line range] org/apache/commons/jxpath/ri/axes/RootContext.java getVariableContext 109:114
+2021-07-04 05:11:05,588 DEBUG                  - depth 0, hash 7d07031, HEAD~179
+2021-07-04 05:11:05,594 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,598 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:05,892 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperation.java <init> 30:32
+2021-07-04 05:11:05,910 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:05,916 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:05,920 DEBUG                  - depth 2, hash 323e8b2, HEAD~285
+2021-07-04 05:11:05,924 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:06,217 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationAnd.java <init> 30:32
+2021-07-04 05:11:06,234 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:06,240 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationAnd.java computeValue 34:41
+2021-07-04 05:11:06,257 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:06,612 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java <init> 38:40
+2021-07-04 05:11:06,630 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:06,636 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java contains 89:97
+2021-07-04 05:11:06,653 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:06,659 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java equal 112:142
+2021-07-04 05:11:06,677 DEBUG                  - depth 0, hash 1091215, HEAD~3
+2021-07-04 05:11:06,682 DEBUG                  - depth 1, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:06,686 DEBUG                  - depth 2, hash f3eb197, HEAD~190
+2021-07-04 05:11:06,691 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java equal 45:87
+2021-07-04 05:11:06,708 DEBUG                  - depth 0, hash 1091215, HEAD~3
+2021-07-04 05:11:06,714 DEBUG                  - depth 1, hash 9b6406b, HEAD~5
+2021-07-04 05:11:06,718 DEBUG                  - depth 2, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:06,722 DEBUG                  - depth 3, hash f3eb197, HEAD~190
+2021-07-04 05:11:06,727 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java findMatch 99:110
+2021-07-04 05:11:06,744 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:07,019 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java <init> 29:31
+2021-07-04 05:11:07,036 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:07,042 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java computeValue 33:35
+2021-07-04 05:11:07,058 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:07,343 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThan.java <init> 27:29
+2021-07-04 05:11:07,361 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:07,648 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThanOrEqual.java <init> 28:30
+2021-07-04 05:11:07,666 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:07,938 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationLessThan.java <init> 27:29
+2021-07-04 05:11:07,956 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:08,229 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationLessThanOrEqual.java <init> 28:30
+2021-07-04 05:11:08,247 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:08,563 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java <init> 37:39
+2021-07-04 05:11:08,580 DEBUG                  - depth 0, hash 58fac65, HEAD~4
+2021-07-04 05:11:08,586 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java compute 56:84
+2021-07-04 05:11:08,603 DEBUG                  - depth 0, hash 1befe1b, HEAD~1
+2021-07-04 05:11:08,608 DEBUG                  - depth 1, hash 58fac65, HEAD~4
+2021-07-04 05:11:08,612 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java computeValue 41:44
+2021-07-04 05:11:08,629 DEBUG                  - depth 0, hash 58fac65, HEAD~4
+2021-07-04 05:11:08,635 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java containsMatch 96:104
+2021-07-04 05:11:08,652 DEBUG                  - depth 0, hash 1befe1b, HEAD~1
+2021-07-04 05:11:08,657 DEBUG                  - depth 1, hash 58fac65, HEAD~4
+2021-07-04 05:11:08,662 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java findMatch 106:117
+2021-07-04 05:11:08,679 DEBUG                  - depth 0, hash 58fac65, HEAD~4
+2021-07-04 05:11:08,684 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java reduce 86:94
+2021-07-04 05:11:08,702 DEBUG                  - depth 0, hash 58fac65, HEAD~4
+2021-07-04 05:11:09,024 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/Expression.java <clinit> 42:42
+2021-07-04 05:11:09,042 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,047 DEBUG                  - depth 1, hash 323e8b2, HEAD~285
+2021-07-04 05:11:09,052 DEBUG    [single line]   org/apache/commons/jxpath/ri/compiler/Expression.java <init> 40
+2021-07-04 05:11:09,069 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,075 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/Expression.java <init> 46:46
+2021-07-04 05:11:09,093 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,383 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/Operation.java <init> 27:29
+2021-07-04 05:11:09,401 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,407 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,411 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,743 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java <clinit> 28:28
+2021-07-04 05:11:09,761 DEBUG                  - depth 0, hash 323e8b2, HEAD~285
+2021-07-04 05:11:09,767 DEBUG    [single line]   org/apache/commons/jxpath/ri/compiler/TreeCompiler.java <init> 26
+2021-07-04 05:11:09,785 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,790 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java and 112:114
+2021-07-04 05:11:09,808 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:09,814 DEBUG                  - depth 1, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,818 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,823 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,827 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java equal 86:90
+2021-07-04 05:11:09,845 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:09,851 DEBUG                  - depth 1, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,855 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,859 DEBUG                  - depth 3, hash 323e8b2, HEAD~285
+2021-07-04 05:11:09,864 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,868 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java greaterThan 74:78
+2021-07-04 05:11:09,886 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,892 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,896 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,900 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java greaterThanOrEqual 80:84
+2021-07-04 05:11:09,918 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,924 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,928 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,933 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java isNameAttributeTest 180:200
+2021-07-04 05:11:09,951 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,956 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,961 DEBUG                  - depth 2, hash 323e8b2, HEAD~285
+2021-07-04 05:11:09,965 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java lessThan 64:66
+2021-07-04 05:11:09,983 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:09,988 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:09,993 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:09,997 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java lessThanOrEqual 68:72
+2021-07-04 05:11:10,015 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:10,020 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,025 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,029 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java qname 38:40
+2021-07-04 05:11:10,047 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,053 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,057 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java toExpressionArray 158:167
+2021-07-04 05:11:10,075 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,080 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,085 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/TreeCompiler.java variableReference 100:102
+2021-07-04 05:11:10,103 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,109 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,406 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/VariableReference.java <init> 32:34
+2021-07-04 05:11:10,423 DEBUG                  - depth 0, hash f3eb197, HEAD~190
+2021-07-04 05:11:10,429 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,433 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,438 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/VariableReference.java compute 52:54
+2021-07-04 05:11:10,455 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,461 DEBUG                  - depth 1, hash 323e8b2, HEAD~285
+2021-07-04 05:11:10,465 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,469 DEBUG    [line range] org/apache/commons/jxpath/ri/compiler/VariableReference.java computeValue 59:61
+2021-07-04 05:11:10,487 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,493 DEBUG                  - depth 1, hash 323e8b2, HEAD~285
+2021-07-04 05:11:10,497 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,889 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java <init> 108:110
+2021-07-04 05:11:10,913 DEBUG                  - depth 0, hash 907ab10, HEAD~301
+2021-07-04 05:11:10,918 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:10,923 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java <init> 47:47
+2021-07-04 05:11:10,947 DEBUG                  - depth 0, hash 207c6dd, HEAD~325
+2021-07-04 05:11:10,953 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java clone 613:626
+2021-07-04 05:11:10,976 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:10,982 DEBUG                  - depth 1, hash d5a5163, HEAD~218
+2021-07-04 05:11:10,986 DEBUG                  - depth 2, hash cc0637b, HEAD~254
+2021-07-04 05:11:10,990 DEBUG                  - depth 3, hash 907ab10, HEAD~301
+2021-07-04 05:11:10,994 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:10,999 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java getImmediateValuePointer 251:253
+2021-07-04 05:11:11,021 DEBUG                  - depth 0, hash 430fdd0, HEAD~204
+2021-07-04 05:11:11,026 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java getIndex 188:190
+2021-07-04 05:11:11,050 DEBUG                  - depth 0, hash 907ab10, HEAD~301
+2021-07-04 05:11:11,056 DEBUG                  - depth 1, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,060 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,065 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java getNode 299:301
+2021-07-04 05:11:11,087 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,093 DEBUG                  - depth 1, hash 430fdd0, HEAD~204
+2021-07-04 05:11:11,097 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java getValue 214:221
+2021-07-04 05:11:11,121 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,127 DEBUG                  - depth 1, hash 430fdd0, HEAD~204
+2021-07-04 05:11:11,131 DEBUG                  - depth 2, hash d1c2ae2, HEAD~231
+2021-07-04 05:11:11,136 DEBUG                  - depth 3, hash b8780b1, HEAD~297
+2021-07-04 05:11:11,140 DEBUG                  - depth 4, hash 907ab10, HEAD~301
+2021-07-04 05:11:11,144 DEBUG                  - depth 5, hash a6e246c, HEAD~306
+2021-07-04 05:11:11,148 DEBUG                  - depth 6, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,153 DEBUG                  - depth 7, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,157 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java getValuePointer 240:243
+2021-07-04 05:11:11,180 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:11,186 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,190 DEBUG                  - depth 2, hash 430fdd0, HEAD~204
+2021-07-04 05:11:11,194 DEBUG                  - depth 3, hash 907ab10, HEAD~301
+2021-07-04 05:11:11,198 DEBUG                  - depth 4, hash a6e246c, HEAD~306
+2021-07-04 05:11:11,203 DEBUG                  - depth 5, hash 34b7a47, HEAD~315
+2021-07-04 05:11:11,207 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java newChildNodePointer 85:102
+2021-07-04 05:11:11,231 DEBUG                  - depth 0, hash 31e53d9, HEAD~16
+2021-07-04 05:11:11,236 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,241 DEBUG                  - depth 2, hash d5a5163, HEAD~218
+2021-07-04 05:11:11,245 DEBUG                  - depth 3, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:11,249 DEBUG                  - depth 4, hash 907ab10, HEAD~301
+2021-07-04 05:11:11,253 DEBUG                  - depth 5, hash a6e246c, HEAD~306
+2021-07-04 05:11:11,258 DEBUG                  - depth 6, hash 65bf4da, HEAD~307
+2021-07-04 05:11:11,262 DEBUG                  - depth 7, hash 34b7a47, HEAD~315
+2021-07-04 05:11:11,266 DEBUG                  - depth 8, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,270 DEBUG                  - depth 9, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,274 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java newNodePointer 57:79
+2021-07-04 05:11:11,298 DEBUG                  - depth 0, hash 5d2e020, HEAD~147
+2021-07-04 05:11:11,304 DEBUG                  - depth 1, hash 7c43512, HEAD~148
+2021-07-04 05:11:11,308 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,312 DEBUG                  - depth 3, hash d5a5163, HEAD~218
+2021-07-04 05:11:11,316 DEBUG                  - depth 4, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:11,320 DEBUG                  - depth 5, hash 907ab10, HEAD~301
+2021-07-04 05:11:11,325 DEBUG                  - depth 6, hash a6e246c, HEAD~306
+2021-07-04 05:11:11,329 DEBUG                  - depth 7, hash 34b7a47, HEAD~315
+2021-07-04 05:11:11,333 DEBUG                  - depth 8, hash 3ec25ca, HEAD~318
+2021-07-04 05:11:11,337 DEBUG                  - depth 9, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,342 DEBUG                  - depth 10, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,346 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java setIndex 192:194
+2021-07-04 05:11:11,369 DEBUG                  - depth 0, hash 907ab10, HEAD~301
+2021-07-04 05:11:11,375 DEBUG                  - depth 1, hash a6e246c, HEAD~306
+2021-07-04 05:11:11,379 DEBUG                  - depth 2, hash 34b7a47, HEAD~315
+2021-07-04 05:11:11,384 DEBUG                  - depth 3, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,388 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,392 DEBUG    [line range] org/apache/commons/jxpath/ri/model/NodePointer.java setNamespaceResolver 124:126
+2021-07-04 05:11:11,412 DEBUG                  - depth 0, hash b1e1383, HEAD~129
+2021-07-04 05:11:11,772 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java <init> 43:48
+2021-07-04 05:11:11,795 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,800 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:11,805 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,809 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java equals 269:282
+2021-07-04 05:11:11,831 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,837 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,841 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java getBaseValue 64:69
+2021-07-04 05:11:11,864 DEBUG                  - depth 0, hash 74a4ab2, HEAD~191
+2021-07-04 05:11:11,870 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,874 DEBUG                  - depth 2, hash 34d1c6c, HEAD~296
+2021-07-04 05:11:11,878 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:11,882 DEBUG                  - depth 4, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,887 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:11,891 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java getImmediateNode 81:85
+2021-07-04 05:11:11,913 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:11,919 DEBUG                  - depth 1, hash 7554837, HEAD~128
+2021-07-04 05:11:11,923 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,928 DEBUG                  - depth 3, hash 430fdd0, HEAD~204
+2021-07-04 05:11:11,932 DEBUG                  - depth 4, hash d1c2ae2, HEAD~231
+2021-07-04 05:11:11,936 DEBUG                  - depth 5, hash b8780b1, HEAD~297
+2021-07-04 05:11:11,941 DEBUG                  - depth 6, hash a6e246c, HEAD~306
+2021-07-04 05:11:11,945 DEBUG                  - depth 7, hash 207c6dd, HEAD~325
+2021-07-04 05:11:11,949 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java getImmediateValuePointer 110:128
+2021-07-04 05:11:11,972 DEBUG                  - depth 0, hash d4c77d8, HEAD~188
+2021-07-04 05:11:11,977 DEBUG                  - depth 1, hash 74a4ab2, HEAD~191
+2021-07-04 05:11:11,982 DEBUG                  - depth 2, hash b309e5f, HEAD~194
+2021-07-04 05:11:11,986 DEBUG                  - depth 3, hash 2327c42, HEAD~196
+2021-07-04 05:11:11,990 DEBUG                  - depth 4, hash 430fdd0, HEAD~204
+2021-07-04 05:11:11,995 DEBUG                  - depth 5, hash d1c2ae2, HEAD~231
+2021-07-04 05:11:11,999 DEBUG                  - depth 6, hash b8780b1, HEAD~297
+2021-07-04 05:11:12,003 DEBUG                  - depth 7, hash a6e246c, HEAD~306
+2021-07-04 05:11:12,007 DEBUG                  - depth 8, hash 34b7a47, HEAD~315
+2021-07-04 05:11:12,011 DEBUG                  - depth 9, hash 207c6dd, HEAD~325
+2021-07-04 05:11:12,016 DEBUG                  - depth 10, hash bc53a66, HEAD~327
+2021-07-04 05:11:12,020 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java getLength 130:136
+2021-07-04 05:11:12,042 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:12,048 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:12,052 DEBUG                  - depth 2, hash 074cc88, HEAD~208
+2021-07-04 05:11:12,057 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:12,061 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java hashCode 263:267
+2021-07-04 05:11:12,084 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:12,089 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:12,094 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:12,098 DEBUG    [line range] org/apache/commons/jxpath/ri/model/VariablePointer.java setIndex 105:108
+2021-07-04 05:11:12,120 DEBUG                  - depth 0, hash 74a4ab2, HEAD~191
+2021-07-04 05:11:12,442 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/BeanPointer.java <init> 55:65
+2021-07-04 05:11:12,464 DEBUG                  - depth 0, hash 594ff3b, HEAD~203
+2021-07-04 05:11:12,470 DEBUG                  - depth 1, hash 430fdd0, HEAD~204
+2021-07-04 05:11:12,474 DEBUG                  - depth 2, hash 207c6dd, HEAD~325
+2021-07-04 05:11:12,478 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:12,483 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/BeanPointer.java getBaseValue 78:80
+2021-07-04 05:11:12,504 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:12,510 DEBUG                  - depth 1, hash 207c6dd, HEAD~325
+2021-07-04 05:11:12,514 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:12,808 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/beans/BeanPointerFactory.java <init> 33
+2021-07-04 05:11:12,829 DEBUG                  - depth 0, hash 34b7a47, HEAD~315
+2021-07-04 05:11:12,834 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/BeanPointerFactory.java createNodePointer 50:61
+2021-07-04 05:11:12,855 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:12,860 DEBUG                  - depth 1, hash cc0637b, HEAD~254
+2021-07-04 05:11:12,865 DEBUG                  - depth 2, hash a6e246c, HEAD~306
+2021-07-04 05:11:12,869 DEBUG                  - depth 3, hash 65bf4da, HEAD~307
+2021-07-04 05:11:12,873 DEBUG                  - depth 4, hash 34b7a47, HEAD~315
+2021-07-04 05:11:12,877 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/BeanPointerFactory.java getOrder 37:39
+2021-07-04 05:11:12,897 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:12,903 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:13,179 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/beans/CollectionPointerFactory.java <init> 32
+2021-07-04 05:11:13,199 DEBUG                  - depth 0, hash a6e246c, HEAD~306
+2021-07-04 05:11:13,205 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:13,209 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/CollectionPointerFactory.java createNodePointer 48:54
+2021-07-04 05:11:13,229 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:13,235 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:13,239 DEBUG                  - depth 2, hash a6e246c, HEAD~306
+2021-07-04 05:11:13,244 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:13,248 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/CollectionPointerFactory.java getOrder 36:38
+2021-07-04 05:11:13,268 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:13,274 DEBUG                  - depth 1, hash a6e246c, HEAD~306
+2021-07-04 05:11:13,278 DEBUG                  - depth 2, hash 34b7a47, HEAD~315
+2021-07-04 05:11:13,593 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/NullPointer.java <init> 33:36
+2021-07-04 05:11:13,615 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:13,620 DEBUG                  - depth 1, hash 3ec25ca, HEAD~318
+2021-07-04 05:11:13,625 DEBUG                  - depth 2, hash 207c6dd, HEAD~325
+2021-07-04 05:11:13,949 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/PropertyOwnerPointer.java <clinit> 88:88
+2021-07-04 05:11:13,972 DEBUG                  - depth 0, hash a6e246c, HEAD~306
+2021-07-04 05:11:13,977 DEBUG                  - depth 1, hash 207c6dd, HEAD~325
+2021-07-04 05:11:13,982 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/PropertyOwnerPointer.java <init> 77:79
+2021-07-04 05:11:14,004 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,010 DEBUG                  - depth 1, hash 207c6dd, HEAD~325
+2021-07-04 05:11:14,014 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/PropertyOwnerPointer.java <init> 73:75
+2021-07-04 05:11:14,037 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,043 DEBUG                  - depth 1, hash 3ec25ca, HEAD~318
+2021-07-04 05:11:14,047 DEBUG    [line range] org/apache/commons/jxpath/ri/model/beans/PropertyOwnerPointer.java getImmediateNode 91:97
+2021-07-04 05:11:14,070 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:14,075 DEBUG                  - depth 1, hash 7554837, HEAD~128
+2021-07-04 05:11:14,080 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,084 DEBUG                  - depth 3, hash 430fdd0, HEAD~204
+2021-07-04 05:11:14,088 DEBUG                  - depth 4, hash d1c2ae2, HEAD~231
+2021-07-04 05:11:14,092 DEBUG                  - depth 5, hash b8780b1, HEAD~297
+2021-07-04 05:11:14,097 DEBUG                  - depth 6, hash a6e246c, HEAD~306
+2021-07-04 05:11:14,101 DEBUG                  - depth 7, hash 207c6dd, HEAD~325
+2021-07-04 05:11:14,379 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/container/ContainerPointerFactory.java <init> 32
+2021-07-04 05:11:14,399 DEBUG                  - depth 0, hash 34b7a47, HEAD~315
+2021-07-04 05:11:14,405 DEBUG    [line range] org/apache/commons/jxpath/ri/model/container/ContainerPointerFactory.java createNodePointer 48:54
+2021-07-04 05:11:14,425 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:14,431 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,435 DEBUG                  - depth 2, hash 34b7a47, HEAD~315
+2021-07-04 05:11:14,440 DEBUG    [line range] org/apache/commons/jxpath/ri/model/container/ContainerPointerFactory.java getOrder 36:38
+2021-07-04 05:11:14,460 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,466 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:14,744 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/dom/DOMPointerFactory.java <init> 32
+2021-07-04 05:11:14,764 DEBUG                  - depth 0, hash 34b7a47, HEAD~315
+2021-07-04 05:11:14,770 DEBUG    [line range] org/apache/commons/jxpath/ri/model/dom/DOMPointerFactory.java createNodePointer 48:54
+2021-07-04 05:11:14,790 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:14,796 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,800 DEBUG                  - depth 2, hash 34b7a47, HEAD~315
+2021-07-04 05:11:14,805 DEBUG    [line range] org/apache/commons/jxpath/ri/model/dom/DOMPointerFactory.java getOrder 36:38
+2021-07-04 05:11:14,825 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:14,831 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:15,111 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/dynabeans/DynaBeanPointerFactory.java <init> 35
+2021-07-04 05:11:15,129 DEBUG                  - depth 0, hash 2b59f56, HEAD~210
+2021-07-04 05:11:15,134 DEBUG    [line range] org/apache/commons/jxpath/ri/model/dynabeans/DynaBeanPointerFactory.java createNodePointer 49:53
+2021-07-04 05:11:15,152 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:15,157 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:15,161 DEBUG                  - depth 2, hash 2b59f56, HEAD~210
+2021-07-04 05:11:15,166 DEBUG    [line range] org/apache/commons/jxpath/ri/model/dynabeans/DynaBeanPointerFactory.java getOrder 39:41
+2021-07-04 05:11:15,183 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:15,189 DEBUG                  - depth 1, hash 2b59f56, HEAD~210
+2021-07-04 05:11:15,488 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/dynamic/DynamicPointerFactory.java <init> 36
+2021-07-04 05:11:15,509 DEBUG                  - depth 0, hash 34b7a47, HEAD~315
+2021-07-04 05:11:15,515 DEBUG    [line range] org/apache/commons/jxpath/ri/model/dynamic/DynamicPointerFactory.java createNodePointer 59:76
+2021-07-04 05:11:15,536 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:15,541 DEBUG                  - depth 1, hash cc0637b, HEAD~254
+2021-07-04 05:11:15,546 DEBUG                  - depth 2, hash a6e246c, HEAD~306
+2021-07-04 05:11:15,550 DEBUG                  - depth 3, hash 65bf4da, HEAD~307
+2021-07-04 05:11:15,554 DEBUG                  - depth 4, hash 34b7a47, HEAD~315
+2021-07-04 05:11:15,558 DEBUG    [line range] org/apache/commons/jxpath/ri/model/dynamic/DynamicPointerFactory.java getOrder 40:42
+2021-07-04 05:11:15,579 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:15,584 DEBUG                  - depth 1, hash 34b7a47, HEAD~315
+2021-07-04 05:11:15,863 DEBUG    [single line]   org/apache/commons/jxpath/ri/model/jdom/JDOMPointerFactory.java <init> 33
+2021-07-04 05:11:15,881 DEBUG                  - depth 0, hash 48e1a07, HEAD~227
+2021-07-04 05:11:15,887 DEBUG    [line range] org/apache/commons/jxpath/ri/model/jdom/JDOMPointerFactory.java createNodePointer 53:63
+2021-07-04 05:11:15,904 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:15,910 DEBUG                  - depth 1, hash 2327c42, HEAD~196
+2021-07-04 05:11:15,914 DEBUG                  - depth 2, hash 48e1a07, HEAD~227
+2021-07-04 05:11:15,918 DEBUG    [line range] org/apache/commons/jxpath/ri/model/jdom/JDOMPointerFactory.java getOrder 37:39
+2021-07-04 05:11:15,936 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:15,942 DEBUG                  - depth 1, hash 48e1a07, HEAD~227
+2021-07-04 05:11:16,303 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java <init> 250:254
+2021-07-04 05:11:16,322 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,327 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:16,332 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,336 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java <init> 15:15
+2021-07-04 05:11:16,355 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,360 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,365 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java BeginToken 126:133
+2021-07-04 05:11:16,383 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,389 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,394 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java FillBuff 81:124
+2021-07-04 05:11:16,412 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,417 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,422 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java GetImage 321:328
+2021-07-04 05:11:16,440 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,446 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:16,450 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,455 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java ReInit 279:283
+2021-07-04 05:11:16,473 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,478 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,483 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java ReInit 260:277
+2021-07-04 05:11:16,501 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,507 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,511 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java UpdateLineColumn 135:173
+2021-07-04 05:11:16,529 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,535 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:16,539 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,544 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java backup 230:235
+2021-07-04 05:11:16,562 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,568 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,572 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java getBeginColumn 222:224
+2021-07-04 05:11:16,590 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,596 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,601 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java getBeginLine 226:228
+2021-07-04 05:11:16,618 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,624 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,629 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java getEndColumn 214:216
+2021-07-04 05:11:16,647 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,653 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,657 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java getEndLine 218:220
+2021-07-04 05:11:16,675 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,681 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,685 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/SimpleCharStream.java readChar 175:194
+2021-07-04 05:11:16,703 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:16,709 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:16,713 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:16,998 DEBUG    [single line]   org/apache/commons/jxpath/ri/parser/Token.java <init> 8
+2021-07-04 05:11:17,015 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,021 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/Token.java newToken 73:79
+2021-07-04 05:11:17,039 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,673 DEBUG    [single line]   org/apache/commons/jxpath/ri/parser/XPathParser.java <clinit> 3521
+2021-07-04 05:11:17,700 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:17,706 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:17,711 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:17,715 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:17,719 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:17,723 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,728 DEBUG    [single line]   org/apache/commons/jxpath/ri/parser/XPathParser.java <clinit> 3522
+2021-07-04 05:11:17,755 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:17,761 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:17,765 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:17,770 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:17,774 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:17,778 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,783 DEBUG    [single line]   org/apache/commons/jxpath/ri/parser/XPathParser.java <clinit> 3523
+2021-07-04 05:11:17,810 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:17,816 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:17,820 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:17,825 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:17,829 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:17,833 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,838 DEBUG    [single line]   org/apache/commons/jxpath/ri/parser/XPathParser.java <clinit> 3524
+2021-07-04 05:11:17,865 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:17,871 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:17,875 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:17,880 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:17,884 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:17,888 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,892 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java <init> 3558:3566
+2021-07-04 05:11:17,919 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:17,925 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:17,929 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,934 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java <init> 3513:3513
+2021-07-04 05:11:17,961 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,967 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java AdditiveExpr 1447:1474
+2021-07-04 05:11:17,993 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:17,999 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java AndExpr 1328:1355
+2021-07-04 05:11:18,026 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,032 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java EqualityExpr 1358:1391
+2021-07-04 05:11:18,059 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,065 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java Expression 917:922
+2021-07-04 05:11:18,092 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,098 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java FilterExpr 1250:1291
+2021-07-04 05:11:18,125 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,131 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,135 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,139 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,144 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,148 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java MultiplicativeExpr 1499:1538
+2021-07-04 05:11:18,176 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,181 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,186 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,190 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,194 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,199 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java NCName 29:147
+2021-07-04 05:11:18,226 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,232 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:18,236 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,241 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,245 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java NCName_Without_CoreFunctions 149:173
+2021-07-04 05:11:18,272 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,278 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java OrExpr 1298:1325
+2021-07-04 05:11:18,304 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,310 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java PathExpr 1172:1247
+2021-07-04 05:11:18,337 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,343 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,347 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,352 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,356 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,361 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java PrimaryExpr 925:1000
+2021-07-04 05:11:18,388 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,394 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,398 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,403 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,407 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,411 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java QName 307:326
+2021-07-04 05:11:18,438 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,444 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,448 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,452 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,457 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,461 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java ReInit 3568:3576
+2021-07-04 05:11:18,488 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,494 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java RelationalExpr 1395:1440
+2021-07-04 05:11:18,521 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,528 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java SubtractiveExpr 1476:1495
+2021-07-04 05:11:18,554 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,560 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java UnaryExpr 1541:1620
+2021-07-04 05:11:18,587 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,593 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,597 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,601 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,606 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,610 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java UnionExpr 1142:1169
+2021-07-04 05:11:18,637 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,643 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java VariableReference 1664:1670
+2021-07-04 05:11:18,669 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,675 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_2_6 1860:1865
+2021-07-04 05:11:18,702 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,708 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_103 3275:3281
+2021-07-04 05:11:18,735 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,741 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:18,745 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,749 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,754 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_107 2016:2020
+2021-07-04 05:11:18,781 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,787 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:18,791 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,795 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,800 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_117 3257:3265
+2021-07-04 05:11:18,827 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,833 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:18,837 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,842 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,846 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_124 3197:3203
+2021-07-04 05:11:18,873 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:18,879 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,884 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:18,888 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,892 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,897 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_15 2445:2553
+2021-07-04 05:11:18,924 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,930 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:18,934 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,938 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,943 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_19 3419:3440
+2021-07-04 05:11:18,970 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:18,976 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:18,980 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:18,985 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:18,989 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_20 2397:2401
+2021-07-04 05:11:19,016 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:19,022 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:19,026 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,031 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,035 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_92 3371:3375
+2021-07-04 05:11:19,063 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:19,068 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:19,073 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,077 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,082 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3R_98 2030:2048
+2021-07-04 05:11:19,109 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:19,115 DEBUG                  - depth 1, hash 632e722, HEAD~266
+2021-07-04 05:11:19,119 DEBUG                  - depth 2, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,124 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,128 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_3_6 2996:3000
+2021-07-04 05:11:19,155 DEBUG                  - depth 0, hash 632e722, HEAD~266
+2021-07-04 05:11:19,161 DEBUG                  - depth 1, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,165 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,170 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_consume_token 3596:3618
+2021-07-04 05:11:19,196 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,202 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_la1_0 3525:3527
+2021-07-04 05:11:19,229 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:19,235 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:19,240 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:19,244 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:19,248 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,252 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,257 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_la1_1 3528:3530
+2021-07-04 05:11:19,284 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:19,290 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:19,294 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:19,299 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:19,303 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,308 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,312 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_la1_2 3531:3533
+2021-07-04 05:11:19,339 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:19,345 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:19,350 DEBUG                  - depth 2, hash e5a284c, HEAD~187
+2021-07-04 05:11:19,354 DEBUG                  - depth 3, hash 632e722, HEAD~266
+2021-07-04 05:11:19,358 DEBUG                  - depth 4, hash 7048cac, HEAD~320
+2021-07-04 05:11:19,363 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,367 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_save 3759:3766
+2021-07-04 05:11:19,394 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,400 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java jj_scan_token 3620:3637
+2021-07-04 05:11:19,427 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,433 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java parseExpression 358:364
+2021-07-04 05:11:19,459 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,465 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParser.java setCompiler 10:12
+2021-07-04 05:11:19,491 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:19,497 DEBUG    [single line]   org/apache/commons/jxpath/ri/parser/XPathParser.java <init> 3768
+2021-07-04 05:11:19,523 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,027 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java <clinit> 1293:1295
+2021-07-04 05:11:20,047 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,055 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java <init> 8:8
+2021-07-04 05:11:20,074 DEBUG                  - depth 0, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,080 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java ReInit 1762:1768
+2021-07-04 05:11:20,101 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:20,106 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,111 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,115 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java ReInitRounds 1769:1775
+2021-07-04 05:11:20,136 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,142 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,146 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java getNextToken 1809:1873
+2021-07-04 05:11:20,167 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:20,173 DEBUG                  - depth 1, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,177 DEBUG                  - depth 2, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,182 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjCheckNAdd 1263:1270
+2021-07-04 05:11:20,202 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,208 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjFillToken 1789:1800
+2021-07-04 05:11:20,229 DEBUG                  - depth 0, hash 6b424e9, HEAD~172
+2021-07-04 05:11:20,234 DEBUG                  - depth 1, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,239 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjMoveNfa_0 1416:1586
+2021-07-04 05:11:20,260 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,266 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,270 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:20,275 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:20,279 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,285 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjMoveStringLiteralDfa0_0 402:479
+2021-07-04 05:11:20,305 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,311 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,315 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:20,320 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:20,324 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,329 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjMoveStringLiteralDfa1_0 480:535
+2021-07-04 05:11:20,349 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,355 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,360 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:20,364 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:20,368 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,373 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjMoveStringLiteralDfa2_0 536:597
+2021-07-04 05:11:20,393 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,399 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,404 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:20,408 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:20,412 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,417 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjMoveStringLiteralDfa3_0 598:658
+2021-07-04 05:11:20,437 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,443 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,448 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:20,452 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:20,456 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,461 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjStartNfaWithStates_0 394:401
+2021-07-04 05:11:20,481 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,487 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjStartNfa_0 384:387
+2021-07-04 05:11:20,508 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,513 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjStopAtPos 388:393
+2021-07-04 05:11:20,534 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,540 DEBUG    [line range] org/apache/commons/jxpath/ri/parser/XPathParserTokenManager.java jjStopStringLiteralDfa_0 10:383
+2021-07-04 05:11:20,561 DEBUG                  - depth 0, hash 5bbe586, HEAD~174
+2021-07-04 05:11:20,566 DEBUG                  - depth 1, hash e5a284c, HEAD~187
+2021-07-04 05:11:20,571 DEBUG                  - depth 2, hash 632e722, HEAD~266
+2021-07-04 05:11:20,575 DEBUG                  - depth 3, hash 7048cac, HEAD~320
+2021-07-04 05:11:20,580 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:20,957 DEBUG    [single line]   org/apache/commons/jxpath/util/BasicTypeConverter.java <init> 45
+2021-07-04 05:11:20,977 DEBUG                  - depth 0, hash 73f1fff, HEAD~263
+2021-07-04 05:11:20,983 DEBUG    [single line]   org/apache/commons/jxpath/util/BasicTypeConverter.java <init> 459
+2021-07-04 05:11:21,001 DEBUG                  - depth 0, hash 4ab5b9e, HEAD~181
+2021-07-04 05:11:21,007 DEBUG    [line range] org/apache/commons/jxpath/util/BasicTypeConverter.java canConvert 51:148
+2021-07-04 05:11:21,026 DEBUG                  - depth 0, hash 8778c3c, HEAD~18
+2021-07-04 05:11:21,032 DEBUG                  - depth 1, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:21,036 DEBUG                  - depth 2, hash 9871c3f, HEAD~120
+2021-07-04 05:11:21,040 DEBUG                  - depth 3, hash 77af585, HEAD~173
+2021-07-04 05:11:21,045 DEBUG                  - depth 4, hash 4ab5b9e, HEAD~181
+2021-07-04 05:11:21,049 DEBUG                  - depth 5, hash 348acab, HEAD~185
+2021-07-04 05:11:21,053 DEBUG                  - depth 6, hash 2327c42, HEAD~196
+2021-07-04 05:11:21,058 DEBUG                  - depth 7, hash 73f1fff, HEAD~263
+2021-07-04 05:11:21,062 DEBUG    [line range] org/apache/commons/jxpath/util/BasicTypeConverter.java convert 155:276
+2021-07-04 05:11:21,082 DEBUG                  - depth 0, hash 8778c3c, HEAD~18
+2021-07-04 05:11:21,088 DEBUG                  - depth 1, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:21,092 DEBUG                  - depth 2, hash c5808a9, HEAD~91
+2021-07-04 05:11:21,097 DEBUG                  - depth 3, hash 7b914c0, HEAD~110
+2021-07-04 05:11:21,101 DEBUG                  - depth 4, hash 9871c3f, HEAD~120
+2021-07-04 05:11:21,105 DEBUG                  - depth 5, hash e7ecdaf, HEAD~131
+2021-07-04 05:11:21,110 DEBUG                  - depth 6, hash 77af585, HEAD~173
+2021-07-04 05:11:21,114 DEBUG                  - depth 7, hash 4ab5b9e, HEAD~181
+2021-07-04 05:11:21,118 DEBUG                  - depth 8, hash 348acab, HEAD~185
+2021-07-04 05:11:21,123 DEBUG                  - depth 9, hash 2327c42, HEAD~196
+2021-07-04 05:11:21,127 DEBUG                  - depth 10, hash 73f1fff, HEAD~263
+2021-07-04 05:11:21,415 DEBUG    [line range] org/apache/commons/jxpath/util/TypeUtils.java <clinit> 28:28
+2021-07-04 05:11:21,435 DEBUG                  - depth 0, hash 73f1fff, HEAD~263
+2021-07-04 05:11:21,441 DEBUG    [line range] org/apache/commons/jxpath/util/TypeUtils.java canConvert 60:62
+2021-07-04 05:11:21,462 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:21,468 DEBUG                  - depth 1, hash 73f1fff, HEAD~263
+2021-07-04 05:11:21,472 DEBUG                  - depth 2, hash c6d36b4, HEAD~286
+2021-07-04 05:11:21,477 DEBUG                  - depth 3, hash 0f6e852, HEAD~298
+2021-07-04 05:11:21,481 DEBUG                  - depth 4, hash 34b7a47, HEAD~315
+2021-07-04 05:11:21,485 DEBUG                  - depth 5, hash bc53a66, HEAD~327
+2021-07-04 05:11:21,490 DEBUG    [line range] org/apache/commons/jxpath/util/TypeUtils.java convert 68:70
+2021-07-04 05:11:21,510 DEBUG                  - depth 0, hash 2327c42, HEAD~196
+2021-07-04 05:11:21,516 DEBUG                  - depth 1, hash 73f1fff, HEAD~263
+2021-07-04 05:11:21,520 DEBUG                  - depth 2, hash 8a8545d, HEAD~281
+2021-07-04 05:11:21,525 DEBUG                  - depth 3, hash c6d36b4, HEAD~286
+2021-07-04 05:11:21,529 DEBUG                  - depth 4, hash 0f6e852, HEAD~298
+2021-07-04 05:11:21,534 DEBUG                  - depth 5, hash 34b7a47, HEAD~315
+2021-07-04 05:11:21,538 DEBUG                  - depth 6, hash bc53a66, HEAD~327
+2021-07-04 05:11:21,542 DEBUG    [line range] org/apache/commons/jxpath/util/TypeUtils.java wrapPrimitive 78:80
+2021-07-04 05:11:21,562 DEBUG                  - depth 0, hash 8778c3c, HEAD~18
+2021-07-04 05:11:21,568 DEBUG    [line range] org/apache/commons/jxpath/util/TypeUtils.java <init> 29:40
+2021-07-04 05:11:21,587 DEBUG                  - depth 0, hash 8778c3c, HEAD~18
+2021-07-04 05:11:22,007 DEBUG    [line range] org/apache/commons/jxpath/util/ValueUtils.java <clinit> 44:44
+2021-07-04 05:11:22,053 DEBUG                  - depth 0, hash bc53a66, HEAD~327
+2021-07-04 05:11:22,060 DEBUG    [line range] org/apache/commons/jxpath/util/ValueUtils.java getLength 133:145
+2021-07-04 05:11:22,082 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:22,088 DEBUG                  - depth 1, hash 7554837, HEAD~128
+2021-07-04 05:11:22,092 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:22,097 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:22,101 DEBUG    [line range] org/apache/commons/jxpath/util/ValueUtils.java getValue 485:490
+2021-07-04 05:11:22,122 DEBUG                  - depth 0, hash 7554837, HEAD~128
+2021-07-04 05:11:22,128 DEBUG                  - depth 1, hash 8fee99c, HEAD~192
+2021-07-04 05:11:22,133 DEBUG    [line range] org/apache/commons/jxpath/util/ValueUtils.java getValue 266:297
+2021-07-04 05:11:22,155 DEBUG                  - depth 0, hash 7554837, HEAD~128
+2021-07-04 05:11:22,161 DEBUG                  - depth 1, hash 8fee99c, HEAD~192
+2021-07-04 05:11:22,166 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:22,170 DEBUG                  - depth 3, hash 34b7a47, HEAD~315
+2021-07-04 05:11:22,174 DEBUG                  - depth 4, hash bc53a66, HEAD~327
+2021-07-04 05:11:22,179 DEBUG    [line range] org/apache/commons/jxpath/util/ValueUtils.java isCollection 50:62
+2021-07-04 05:11:22,202 DEBUG                  - depth 0, hash 30e4fdd, HEAD~44
+2021-07-04 05:11:22,208 DEBUG                  - depth 1, hash 7554837, HEAD~128
+2021-07-04 05:11:22,212 DEBUG                  - depth 2, hash 2327c42, HEAD~196
+2021-07-04 05:11:22,217 DEBUG                  - depth 3, hash bc53a66, HEAD~327
+2021-07-04 05:11:22,221 INFO     The number of BIC candidates: 86

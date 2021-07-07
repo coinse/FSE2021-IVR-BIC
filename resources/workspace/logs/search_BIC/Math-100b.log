@@ -1,0 +1,218 @@
+2021-07-04 08:19:58,873 INFO     Search BICs for /tmp/Math-100b/
+2021-07-04 08:19:58,874 DEBUG    Reading the coverage of org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters (failings)
+2021-07-04 08:19:58,881 INFO     Loaded 1x232 Coverage Matrix
+2021-07-04 08:19:58,881 INFO     The number of total commits: 1212
+2021-07-04 08:19:59,231 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java <init> 38:39
+2021-07-04 08:19:59,274 DEBUG                  - depth 0, hash 718a708, HEAD~113
+2021-07-04 08:19:59,280 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java getCostEvaluations 56:58
+2021-07-04 08:19:59,324 DEBUG                  - depth 0, hash 38d04c9, HEAD~29
+2021-07-04 08:19:59,329 DEBUG                  - depth 1, hash 718a708, HEAD~113
+2021-07-04 08:19:59,333 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java getCovariances 158:188
+2021-07-04 08:19:59,377 DEBUG                  - depth 0, hash 718a708, HEAD~113
+2021-07-04 08:19:59,382 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java getRMS 126:134
+2021-07-04 08:19:59,428 DEBUG                  - depth 0, hash 718a708, HEAD~113
+2021-07-04 08:19:59,433 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java incrementJacobianEvaluationsCounter 87:89
+2021-07-04 08:19:59,476 DEBUG                  - depth 0, hash 38d04c9, HEAD~29
+2021-07-04 08:19:59,482 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java initializeEstimate 223:241
+2021-07-04 08:19:59,525 DEBUG                  - depth 0, hash 718a708, HEAD~113
+2021-07-04 08:19:59,531 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java setMaxCostEval 47:49
+2021-07-04 08:19:59,574 DEBUG                  - depth 0, hash 38d04c9, HEAD~29
+2021-07-04 08:19:59,580 DEBUG                  - depth 1, hash 718a708, HEAD~113
+2021-07-04 08:19:59,584 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java updateJacobian 72:82
+2021-07-04 08:19:59,627 DEBUG                  - depth 0, hash 38d04c9, HEAD~29
+2021-07-04 08:19:59,633 DEBUG                  - depth 1, hash 718a708, HEAD~113
+2021-07-04 08:19:59,637 DEBUG    [line range] org/apache/commons/math/estimation/AbstractEstimator.java updateResidualsAndCost 96:113
+2021-07-04 08:19:59,682 DEBUG                  - depth 0, hash 49c73ce, HEAD~90
+2021-07-04 08:19:59,687 DEBUG                  - depth 1, hash 718a708, HEAD~113
+2021-07-04 08:19:59,981 DEBUG    [line range] org/apache/commons/math/estimation/EstimatedParameter.java <init> 57:63
+2021-07-04 08:20:00,027 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:00,032 DEBUG    [line range] org/apache/commons/math/estimation/EstimatedParameter.java getEstimate 85:87
+2021-07-04 08:20:00,077 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:00,082 DEBUG    [line range] org/apache/commons/math/estimation/EstimatedParameter.java isBound 106:108
+2021-07-04 08:20:00,126 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:00,132 DEBUG    [line range] org/apache/commons/math/estimation/EstimatedParameter.java setEstimate 78:80
+2021-07-04 08:20:00,176 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:00,514 DEBUG    [line range] org/apache/commons/math/estimation/GaussNewtonEstimator.java <init> 71:77
+2021-07-04 08:20:00,559 DEBUG                  - depth 0, hash 718a708, HEAD~113
+2021-07-04 08:20:00,565 DEBUG                  - depth 1, hash 95d8400, HEAD~281
+2021-07-04 08:20:00,569 DEBUG                  - depth 2, hash 6d21abb, HEAD~327
+2021-07-04 08:20:00,573 DEBUG                  - depth 3, hash 89ac173, HEAD~358
+2021-07-04 08:20:00,577 DEBUG    [line range] org/apache/commons/math/estimation/GaussNewtonEstimator.java estimate 102:172
+2021-07-04 08:20:00,621 DEBUG                  - depth 0, hash 38d04c9, HEAD~29
+2021-07-04 08:20:00,627 DEBUG                  - depth 1, hash 1f89e22, HEAD~109
+2021-07-04 08:20:00,631 DEBUG                  - depth 2, hash 718a708, HEAD~113
+2021-07-04 08:20:00,635 DEBUG                  - depth 3, hash 95d8400, HEAD~281
+2021-07-04 08:20:00,639 DEBUG                  - depth 4, hash 6d21abb, HEAD~327
+2021-07-04 08:20:00,643 DEBUG                  - depth 5, hash 89ac173, HEAD~358
+2021-07-04 08:20:00,949 DEBUG    [line range] org/apache/commons/math/estimation/SimpleEstimationProblem.java <init> 48:51
+2021-07-04 08:20:00,993 DEBUG                  - depth 0, hash f2b4579, HEAD~226
+2021-07-04 08:20:00,998 DEBUG                  - depth 1, hash 7512d76, HEAD~228
+2021-07-04 08:20:01,002 DEBUG    [line range] org/apache/commons/math/estimation/SimpleEstimationProblem.java addMeasurement 100:102
+2021-07-04 08:20:01,046 DEBUG                  - depth 0, hash 7512d76, HEAD~228
+2021-07-04 08:20:01,051 DEBUG    [line range] org/apache/commons/math/estimation/SimpleEstimationProblem.java addParameter 92:94
+2021-07-04 08:20:01,095 DEBUG                  - depth 0, hash 7512d76, HEAD~228
+2021-07-04 08:20:01,100 DEBUG    [line range] org/apache/commons/math/estimation/SimpleEstimationProblem.java getAllParameters 57:59
+2021-07-04 08:20:01,144 DEBUG                  - depth 0, hash 7512d76, HEAD~228
+2021-07-04 08:20:01,149 DEBUG    [line range] org/apache/commons/math/estimation/SimpleEstimationProblem.java getMeasurements 85:87
+2021-07-04 08:20:01,192 DEBUG                  - depth 0, hash 7512d76, HEAD~228
+2021-07-04 08:20:01,198 DEBUG    [line range] org/apache/commons/math/estimation/SimpleEstimationProblem.java getUnboundParameters 65:79
+2021-07-04 08:20:01,241 DEBUG                  - depth 0, hash 8f2301e, HEAD~28
+2021-07-04 08:20:01,246 DEBUG                  - depth 1, hash 7512d76, HEAD~228
+2021-07-04 08:20:01,555 DEBUG    [line range] org/apache/commons/math/estimation/WeightedMeasurement.java <init> 79:84
+2021-07-04 08:20:01,600 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:01,606 DEBUG    [line range] org/apache/commons/math/estimation/WeightedMeasurement.java getResidual 110:112
+2021-07-04 08:20:01,650 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:01,655 DEBUG    [line range] org/apache/commons/math/estimation/WeightedMeasurement.java getWeight 91:93
+2021-07-04 08:20:01,700 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:01,705 DEBUG    [line range] org/apache/commons/math/estimation/WeightedMeasurement.java isIgnored 154:156
+2021-07-04 08:20:01,750 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:01,755 DEBUG    [line range] org/apache/commons/math/estimation/WeightedMeasurement.java setIgnored 145:147
+2021-07-04 08:20:01,800 DEBUG                  - depth 0, hash 89ac173, HEAD~358
+2021-07-04 08:20:02,255 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java <clinit> 72:72
+2021-07-04 08:20:02,309 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,315 DEBUG                  - depth 1, hash 53b67de, HEAD~755
+2021-07-04 08:20:02,319 DEBUG                  - depth 2, hash 2062016, HEAD~801
+2021-07-04 08:20:02,323 DEBUG                  - depth 3, hash d877581, HEAD~832
+2021-07-04 08:20:02,327 DEBUG                  - depth 4, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,331 DEBUG                  - depth 5, hash f182c91, HEAD~962
+2021-07-04 08:20:02,335 DEBUG                  - depth 6, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,339 DEBUG                  - depth 7, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,343 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java <init> 88:95
+2021-07-04 08:20:02,398 DEBUG                  - depth 0, hash 674d4c5, HEAD~487
+2021-07-04 08:20:02,403 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,407 DEBUG                  - depth 2, hash 53b67de, HEAD~755
+2021-07-04 08:20:02,411 DEBUG                  - depth 3, hash 2062016, HEAD~801
+2021-07-04 08:20:02,415 DEBUG                  - depth 4, hash d877581, HEAD~832
+2021-07-04 08:20:02,419 DEBUG                  - depth 5, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,423 DEBUG                  - depth 6, hash f182c91, HEAD~962
+2021-07-04 08:20:02,428 DEBUG                  - depth 7, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,432 DEBUG                  - depth 8, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,436 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java <init> 58:58
+2021-07-04 08:20:02,491 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,496 DEBUG                  - depth 1, hash 53b67de, HEAD~755
+2021-07-04 08:20:02,500 DEBUG                  - depth 2, hash 2062016, HEAD~801
+2021-07-04 08:20:02,504 DEBUG                  - depth 3, hash d877581, HEAD~832
+2021-07-04 08:20:02,508 DEBUG                  - depth 4, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,512 DEBUG                  - depth 5, hash f182c91, HEAD~962
+2021-07-04 08:20:02,517 DEBUG                  - depth 6, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,521 DEBUG                  - depth 7, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,525 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java <init> 108:111
+2021-07-04 08:20:02,580 DEBUG                  - depth 0, hash 4073bdf, HEAD~483
+2021-07-04 08:20:02,585 DEBUG                  - depth 1, hash 92b80cd, HEAD~570
+2021-07-04 08:20:02,589 DEBUG                  - depth 2, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,593 DEBUG                  - depth 3, hash 53b67de, HEAD~755
+2021-07-04 08:20:02,597 DEBUG                  - depth 4, hash 2062016, HEAD~801
+2021-07-04 08:20:02,601 DEBUG                  - depth 5, hash d877581, HEAD~832
+2021-07-04 08:20:02,606 DEBUG                  - depth 6, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,610 DEBUG                  - depth 7, hash f182c91, HEAD~962
+2021-07-04 08:20:02,614 DEBUG                  - depth 8, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,618 DEBUG                  - depth 9, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,622 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java add 146:160
+2021-07-04 08:20:02,675 DEBUG                  - depth 0, hash be74c45, HEAD~539
+2021-07-04 08:20:02,680 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,684 DEBUG                  - depth 2, hash 53b67de, HEAD~755
+2021-07-04 08:20:02,689 DEBUG                  - depth 3, hash 2062016, HEAD~801
+2021-07-04 08:20:02,693 DEBUG                  - depth 4, hash d877581, HEAD~832
+2021-07-04 08:20:02,697 DEBUG                  - depth 5, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,701 DEBUG                  - depth 6, hash f182c91, HEAD~962
+2021-07-04 08:20:02,705 DEBUG                  - depth 7, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,709 DEBUG                  - depth 8, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,713 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java copyIn 1019:1021
+2021-07-04 08:20:02,767 DEBUG                  - depth 0, hash 4073bdf, HEAD~483
+2021-07-04 08:20:02,772 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,776 DEBUG                  - depth 2, hash d877581, HEAD~832
+2021-07-04 08:20:02,780 DEBUG                  - depth 3, hash 9e1defe, HEAD~867
+2021-07-04 08:20:02,784 DEBUG                  - depth 4, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,789 DEBUG                  - depth 5, hash 68853bb, HEAD~956
+2021-07-04 08:20:02,793 DEBUG                  - depth 6, hash f182c91, HEAD~962
+2021-07-04 08:20:02,797 DEBUG                  - depth 7, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,801 DEBUG                  - depth 8, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,805 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java copyOut 999:1007
+2021-07-04 08:20:02,858 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,864 DEBUG                  - depth 1, hash d877581, HEAD~832
+2021-07-04 08:20:02,868 DEBUG                  - depth 2, hash 9e1defe, HEAD~867
+2021-07-04 08:20:02,872 DEBUG                  - depth 3, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,876 DEBUG                  - depth 4, hash 68853bb, HEAD~956
+2021-07-04 08:20:02,880 DEBUG                  - depth 5, hash f182c91, HEAD~962
+2021-07-04 08:20:02,884 DEBUG                  - depth 6, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,888 DEBUG                  - depth 7, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,893 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java getColumnDimension 610:612
+2021-07-04 08:20:02,947 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:02,953 DEBUG                  - depth 1, hash dc071cb, HEAD~875
+2021-07-04 08:20:02,957 DEBUG                  - depth 2, hash dff65ac, HEAD~881
+2021-07-04 08:20:02,961 DEBUG                  - depth 3, hash f182c91, HEAD~962
+2021-07-04 08:20:02,965 DEBUG                  - depth 4, hash eb5d097, HEAD~987
+2021-07-04 08:20:02,969 DEBUG                  - depth 5, hash 0a90446, HEAD~1019
+2021-07-04 08:20:02,973 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java getData 266:268
+2021-07-04 08:20:03,028 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,033 DEBUG                  - depth 1, hash dff65ac, HEAD~881
+2021-07-04 08:20:03,037 DEBUG                  - depth 2, hash f182c91, HEAD~962
+2021-07-04 08:20:03,041 DEBUG                  - depth 3, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,045 DEBUG                  - depth 4, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,050 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java getDataRef 277:279
+2021-07-04 08:20:03,105 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,110 DEBUG                  - depth 1, hash dff65ac, HEAD~881
+2021-07-04 08:20:03,114 DEBUG                  - depth 2, hash f182c91, HEAD~962
+2021-07-04 08:20:03,118 DEBUG                  - depth 3, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,123 DEBUG                  - depth 4, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,127 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java getEntry 521:527
+2021-07-04 08:20:03,181 DEBUG                  - depth 0, hash cb6378b, HEAD~590
+2021-07-04 08:20:03,187 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,191 DEBUG                  - depth 2, hash f182c91, HEAD~962
+2021-07-04 08:20:03,195 DEBUG                  - depth 3, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,199 DEBUG                  - depth 4, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,203 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java getRowDimension 603:605
+2021-07-04 08:20:03,258 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,264 DEBUG                  - depth 1, hash dc071cb, HEAD~875
+2021-07-04 08:20:03,268 DEBUG                  - depth 2, hash dff65ac, HEAD~881
+2021-07-04 08:20:03,272 DEBUG                  - depth 3, hash f182c91, HEAD~962
+2021-07-04 08:20:03,276 DEBUG                  - depth 4, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,280 DEBUG                  - depth 5, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,284 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java isSingular 587:598
+2021-07-04 08:20:03,337 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,343 DEBUG                  - depth 1, hash dc071cb, HEAD~875
+2021-07-04 08:20:03,347 DEBUG                  - depth 2, hash dff65ac, HEAD~881
+2021-07-04 08:20:03,351 DEBUG                  - depth 3, hash f182c91, HEAD~962
+2021-07-04 08:20:03,355 DEBUG                  - depth 4, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,359 DEBUG                  - depth 5, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,364 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java isSquare 580:582
+2021-07-04 08:20:03,419 DEBUG                  - depth 0, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,424 DEBUG                  - depth 1, hash dc071cb, HEAD~875
+2021-07-04 08:20:03,429 DEBUG                  - depth 2, hash dff65ac, HEAD~881
+2021-07-04 08:20:03,433 DEBUG                  - depth 3, hash f182c91, HEAD~962
+2021-07-04 08:20:03,437 DEBUG                  - depth 4, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,441 DEBUG                  - depth 5, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,445 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java isValidCoordinate 1030:1035
+2021-07-04 08:20:03,500 DEBUG                  - depth 0, hash cb6378b, HEAD~590
+2021-07-04 08:20:03,506 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,510 DEBUG                  - depth 2, hash d877581, HEAD~832
+2021-07-04 08:20:03,514 DEBUG                  - depth 3, hash 9e1defe, HEAD~867
+2021-07-04 08:20:03,518 DEBUG                  - depth 4, hash dc071cb, HEAD~875
+2021-07-04 08:20:03,522 DEBUG                  - depth 5, hash 68853bb, HEAD~956
+2021-07-04 08:20:03,526 DEBUG                  - depth 6, hash f182c91, HEAD~962
+2021-07-04 08:20:03,531 DEBUG                  - depth 7, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,535 DEBUG                  - depth 8, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,539 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java luDecompose 775:847
+2021-07-04 08:20:03,594 DEBUG                  - depth 0, hash adc70eb, HEAD~747
+2021-07-04 08:20:03,599 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,603 DEBUG                  - depth 2, hash d877581, HEAD~832
+2021-07-04 08:20:03,607 DEBUG                  - depth 3, hash 9e1defe, HEAD~867
+2021-07-04 08:20:03,612 DEBUG                  - depth 4, hash dc071cb, HEAD~875
+2021-07-04 08:20:03,616 DEBUG                  - depth 5, hash 68853bb, HEAD~956
+2021-07-04 08:20:03,620 DEBUG                  - depth 6, hash f182c91, HEAD~962
+2021-07-04 08:20:03,624 DEBUG                  - depth 7, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,628 DEBUG                  - depth 8, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,633 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java setSubMatrix 388:424
+2021-07-04 08:20:03,682 DEBUG                  - depth 0, hash 3531f01, HEAD~468
+2021-07-04 08:20:03,687 DEBUG                  - depth 1, hash 4073bdf, HEAD~483
+2021-07-04 08:20:03,692 DEBUG    [line range] org/apache/commons/math/linear/RealMatrixImpl.java solve 709:755
+2021-07-04 08:20:03,747 DEBUG                  - depth 0, hash be74c45, HEAD~539
+2021-07-04 08:20:03,752 DEBUG                  - depth 1, hash d96ef14, HEAD~754
+2021-07-04 08:20:03,757 DEBUG                  - depth 2, hash d877581, HEAD~832
+2021-07-04 08:20:03,761 DEBUG                  - depth 3, hash 9e1defe, HEAD~867
+2021-07-04 08:20:03,765 DEBUG                  - depth 4, hash dc071cb, HEAD~875
+2021-07-04 08:20:03,769 DEBUG                  - depth 5, hash 68853bb, HEAD~956
+2021-07-04 08:20:03,773 DEBUG                  - depth 6, hash f182c91, HEAD~962
+2021-07-04 08:20:03,777 DEBUG                  - depth 7, hash eb5d097, HEAD~987
+2021-07-04 08:20:03,781 DEBUG                  - depth 8, hash 0a90446, HEAD~1019
+2021-07-04 08:20:03,786 INFO     The number of BIC candidates: 28

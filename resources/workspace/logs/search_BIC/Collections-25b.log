@@ -1,0 +1,115 @@
+2021-07-03 20:19:50,807 INFO     Search BICs for /tmp/Collections-25b/
+2021-07-03 20:19:50,807 DEBUG    Reading the coverage of org.apache.commons.collections4.IteratorUtilsTest::testCollatedIterator (failings)
+2021-07-03 20:19:50,812 INFO     Loaded 1x90 Coverage Matrix
+2021-07-03 20:19:50,813 INFO     The number of total commits: 2769
+2021-07-03 20:19:51,269 DEBUG    [line range] org/apache/commons/collections4/IteratorUtils.java <clinit> 92:93
+2021-07-03 20:19:51,406 DEBUG                  - depth 0, hash c00465c, HEAD~133
+2021-07-03 20:19:51,412 DEBUG                  - depth 1, hash c301ea0, HEAD~1029
+2021-07-03 20:19:51,416 DEBUG                  - depth 2, hash 79816f8, HEAD~1494
+2021-07-03 20:19:51,420 DEBUG                  - depth 3, hash 9bc0e82, HEAD~1884
+2021-07-03 20:19:51,424 DEBUG                  - depth 4, hash ac2fee8, HEAD~1914
+2021-07-03 20:19:51,428 DEBUG                  - depth 5, hash 5b1e839, HEAD~2426
+2021-07-03 20:19:51,432 DEBUG    [line range] org/apache/commons/collections4/IteratorUtils.java collatedIterator 602:606
+2021-07-03 20:19:51,569 DEBUG                  - depth 0, hash 1b9d8b4, HEAD~594
+2021-07-03 20:19:51,574 DEBUG                  - depth 1, hash 9aea104, HEAD~600
+2021-07-03 20:19:51,578 DEBUG                  - depth 2, hash c301ea0, HEAD~1029
+2021-07-03 20:19:51,582 DEBUG                  - depth 3, hash 702882d, HEAD~2433
+2021-07-03 20:19:51,587 DEBUG    [line range] org/apache/commons/collections4/IteratorUtils.java toList 1121:1123
+2021-07-03 20:19:51,727 DEBUG                  - depth 0, hash 9aea104, HEAD~600
+2021-07-03 20:19:51,732 DEBUG                  - depth 1, hash c301ea0, HEAD~1029
+2021-07-03 20:19:51,737 DEBUG                  - depth 2, hash 5b1e839, HEAD~2426
+2021-07-03 20:19:51,741 DEBUG    [line range] org/apache/commons/collections4/IteratorUtils.java toList 1138:1150
+2021-07-03 20:19:51,880 DEBUG                  - depth 0, hash 9aea104, HEAD~600
+2021-07-03 20:19:51,885 DEBUG                  - depth 1, hash c301ea0, HEAD~1029
+2021-07-03 20:19:51,889 DEBUG                  - depth 2, hash 5b1e839, HEAD~2426
+2021-07-03 20:19:52,183 DEBUG    [line range] org/apache/commons/collections4/iterators/AbstractEmptyIterator.java <init> 32:34
+2021-07-03 20:19:52,308 DEBUG                  - depth 0, hash 79816f8, HEAD~1494
+2021-07-03 20:19:52,577 DEBUG    [line range] org/apache/commons/collections4/iterators/AbstractEmptyMapIterator.java <init> 30:32
+2021-07-03 20:19:52,699 DEBUG                  - depth 0, hash 1645a00, HEAD~1082
+2021-07-03 20:19:53,041 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java <init> 44:44
+2021-07-03 20:19:53,170 DEBUG                  - depth 0, hash d16bc85, HEAD~1085
+2021-07-03 20:19:53,176 DEBUG                  - depth 1, hash 14603b3, HEAD~2438
+2021-07-03 20:19:53,180 DEBUG                  - depth 2, hash 32487bf, HEAD~2473
+2021-07-03 20:19:53,184 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java <init> 116:121
+2021-07-03 20:19:53,319 DEBUG                  - depth 0, hash cf940ca, HEAD~667
+2021-07-03 20:19:53,324 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:53,328 DEBUG                  - depth 2, hash 1088244, HEAD~2019
+2021-07-03 20:19:53,332 DEBUG                  - depth 3, hash 32487bf, HEAD~2473
+2021-07-03 20:19:53,336 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java addIterator 171:177
+2021-07-03 20:19:53,467 DEBUG                  - depth 0, hash d16bc85, HEAD~1085
+2021-07-03 20:19:53,472 DEBUG                  - depth 1, hash 1088244, HEAD~2019
+2021-07-03 20:19:53,476 DEBUG                  - depth 2, hash 14603b3, HEAD~2438
+2021-07-03 20:19:53,480 DEBUG                  - depth 3, hash 32487bf, HEAD~2473
+2021-07-03 20:19:53,484 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java anyHasNext 395:402
+2021-07-03 20:19:53,614 DEBUG                  - depth 0, hash 393fa5d, HEAD~127
+2021-07-03 20:19:53,619 DEBUG                  - depth 1, hash 9aea104, HEAD~600
+2021-07-03 20:19:53,623 DEBUG                  - depth 2, hash d16bc85, HEAD~1085
+2021-07-03 20:19:53,627 DEBUG                  - depth 3, hash 1088244, HEAD~2019
+2021-07-03 20:19:53,631 DEBUG                  - depth 4, hash 32487bf, HEAD~2473
+2021-07-03 20:19:53,635 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java anyValueSet 382:389
+2021-07-03 20:19:53,765 DEBUG                  - depth 0, hash 9aea104, HEAD~600
+2021-07-03 20:19:53,770 DEBUG                  - depth 1, hash 1088244, HEAD~2019
+2021-07-03 20:19:53,774 DEBUG                  - depth 2, hash 32487bf, HEAD~2473
+2021-07-03 20:19:53,778 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java checkNotStarted 340:344
+2021-07-03 20:19:53,907 DEBUG                  - depth 0, hash 1088244, HEAD~2019
+2021-07-03 20:19:53,913 DEBUG                  - depth 1, hash 14603b3, HEAD~2438
+2021-07-03 20:19:53,917 DEBUG                  - depth 2, hash 32487bf, HEAD~2473
+2021-07-03 20:19:53,921 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java hasNext 236:239
+2021-07-03 20:19:54,050 DEBUG                  - depth 0, hash 32487bf, HEAD~2473
+2021-07-03 20:19:54,055 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java least 352:376
+2021-07-03 20:19:54,190 DEBUG                  - depth 0, hash 9aea104, HEAD~600
+2021-07-03 20:19:54,195 DEBUG                  - depth 1, hash 4303c16, HEAD~682
+2021-07-03 20:19:54,199 DEBUG                  - depth 2, hash e4ba77b, HEAD~811
+2021-07-03 20:19:54,203 DEBUG                  - depth 3, hash d16bc85, HEAD~1085
+2021-07-03 20:19:54,207 DEBUG                  - depth 4, hash 1088244, HEAD~2019
+2021-07-03 20:19:54,212 DEBUG                  - depth 5, hash 32487bf, HEAD~2473
+2021-07-03 20:19:54,216 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java next 247:259
+2021-07-03 20:19:54,346 DEBUG                  - depth 0, hash 9aea104, HEAD~600
+2021-07-03 20:19:54,351 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:54,355 DEBUG                  - depth 2, hash 1088244, HEAD~2019
+2021-07-03 20:19:54,359 DEBUG                  - depth 3, hash 32487bf, HEAD~2473
+2021-07-03 20:19:54,363 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java set 313:323
+2021-07-03 20:19:54,493 DEBUG                  - depth 0, hash 9aea104, HEAD~600
+2021-07-03 20:19:54,498 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:54,502 DEBUG                  - depth 2, hash 1088244, HEAD~2019
+2021-07-03 20:19:54,506 DEBUG                  - depth 3, hash 32487bf, HEAD~2473
+2021-07-03 20:19:54,510 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java setComparator 224:227
+2021-07-03 20:19:54,640 DEBUG                  - depth 0, hash d16bc85, HEAD~1085
+2021-07-03 20:19:54,646 DEBUG                  - depth 1, hash 1088244, HEAD~2019
+2021-07-03 20:19:54,650 DEBUG                  - depth 2, hash 2d1bbdb, HEAD~2471
+2021-07-03 20:19:54,654 DEBUG                  - depth 3, hash 32487bf, HEAD~2473
+2021-07-03 20:19:54,658 DEBUG    [line range] org/apache/commons/collections4/iterators/CollatingIterator.java start 294:303
+2021-07-03 20:19:54,787 DEBUG                  - depth 0, hash d16bc85, HEAD~1085
+2021-07-03 20:19:54,792 DEBUG                  - depth 1, hash 1088244, HEAD~2019
+2021-07-03 20:19:54,796 DEBUG                  - depth 2, hash 32487bf, HEAD~2473
+2021-07-03 20:19:55,083 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyIterator.java <clinit> 39:40
+2021-07-03 20:19:55,209 DEBUG                  - depth 0, hash 35d4fd2, HEAD~134
+2021-07-03 20:19:55,214 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:55,218 DEBUG                  - depth 2, hash 79816f8, HEAD~1494
+2021-07-03 20:19:55,223 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyIterator.java <init> 72:74
+2021-07-03 20:19:55,350 DEBUG                  - depth 0, hash 79816f8, HEAD~1494
+2021-07-03 20:19:55,627 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyListIterator.java <clinit> 40:41
+2021-07-03 20:19:55,754 DEBUG                  - depth 0, hash 35d4fd2, HEAD~134
+2021-07-03 20:19:55,760 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:55,764 DEBUG                  - depth 2, hash 79816f8, HEAD~1494
+2021-07-03 20:19:55,768 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyListIterator.java <init> 73:75
+2021-07-03 20:19:55,897 DEBUG                  - depth 0, hash 79816f8, HEAD~1494
+2021-07-03 20:19:56,182 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyMapIterator.java <clinit> 35:36
+2021-07-03 20:19:56,306 DEBUG                  - depth 0, hash 35d4fd2, HEAD~134
+2021-07-03 20:19:56,311 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:56,316 DEBUG                  - depth 2, hash 79816f8, HEAD~1494
+2021-07-03 20:19:56,320 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyMapIterator.java <init> 52:54
+2021-07-03 20:19:56,443 DEBUG                  - depth 0, hash 79816f8, HEAD~1494
+2021-07-03 20:19:56,728 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyOrderedIterator.java <clinit> 35:36
+2021-07-03 20:19:56,852 DEBUG                  - depth 0, hash 35d4fd2, HEAD~134
+2021-07-03 20:19:56,857 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:56,861 DEBUG                  - depth 2, hash a04f82b, HEAD~1490
+2021-07-03 20:19:56,865 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyOrderedIterator.java <init> 51:53
+2021-07-03 20:19:56,989 DEBUG                  - depth 0, hash a04f82b, HEAD~1490
+2021-07-03 20:19:57,274 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyOrderedMapIterator.java <clinit> 35:36
+2021-07-03 20:19:57,397 DEBUG                  - depth 0, hash 35d4fd2, HEAD~134
+2021-07-03 20:19:57,403 DEBUG                  - depth 1, hash d16bc85, HEAD~1085
+2021-07-03 20:19:57,407 DEBUG                  - depth 2, hash 79816f8, HEAD~1494
+2021-07-03 20:19:57,411 DEBUG    [line range] org/apache/commons/collections4/iterators/EmptyOrderedMapIterator.java <init> 52:54
+2021-07-03 20:19:57,536 DEBUG                  - depth 0, hash 79816f8, HEAD~1494
+2021-07-03 20:19:57,542 INFO     The number of BIC candidates: 21

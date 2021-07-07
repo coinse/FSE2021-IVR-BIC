@@ -1,0 +1,115 @@
+2021-07-04 08:06:59,034 INFO     Search BICs for /tmp/Math-77b/
+2021-07-04 08:06:59,034 DEBUG    Reading the coverage of org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions (failings)
+2021-07-04 08:06:59,069 DEBUG    Reading the coverage of org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions (failings)
+2021-07-04 08:06:59,114 INFO     Loaded 2x121 Coverage Matrix
+2021-07-04 08:06:59,115 INFO     The number of total commits: 2073
+2021-07-04 08:06:59,571 DEBUG    [single line]   org/apache/commons/math/linear/AbstractRealVector.java <init> 785
+2021-07-04 08:06:59,648 DEBUG                  - depth 0, hash 26ca02d, HEAD~14
+2021-07-04 08:06:59,654 DEBUG    [single line]   org/apache/commons/math/linear/AbstractRealVector.java copy 34
+2021-07-04 08:06:59,728 DEBUG                  - depth 0, hash 26ca02d, HEAD~14
+2021-07-04 08:07:00,193 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java <clinit> 41:42
+2021-07-04 08:07:00,283 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:00,288 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java <init> 82:84
+2021-07-04 08:07:00,376 DEBUG                  - depth 0, hash dbae4b0, HEAD~280
+2021-07-04 08:07:00,381 DEBUG                  - depth 1, hash a311dce, HEAD~754
+2021-07-04 08:07:00,385 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java getL1Norm 706:712
+2021-07-04 08:07:00,472 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:00,478 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java getLInfNorm 715:721
+2021-07-04 08:07:00,566 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:00,571 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java getNorm 697:703
+2021-07-04 08:07:00,659 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:01,013 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java <init> 116:125
+2021-07-04 08:07:01,098 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:01,103 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java <init> 93:95
+2021-07-04 08:07:01,191 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:01,196 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java getInstance 172:174
+2021-07-04 08:07:01,281 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:01,286 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java getInstance 181:183
+2021-07-04 08:07:01,371 DEBUG                  - depth 0, hash a311dce, HEAD~754
+2021-07-04 08:07:01,704 DEBUG    [single line]   org/apache/commons/math/util/CompositeFormat.java <init> 30
+2021-07-04 08:07:01,790 DEBUG                  - depth 0, hash 1560839, HEAD~766
+2021-07-04 08:07:01,795 DEBUG    [line range] org/apache/commons/math/util/CompositeFormat.java getDefaultNumberFormat 52:56
+2021-07-04 08:07:01,880 DEBUG                  - depth 0, hash 1560839, HEAD~766
+2021-07-04 08:07:02,325 DEBUG    [line range] org/apache/commons/math/linear/OpenMapRealVector.java <init> 116:118
+2021-07-04 08:07:02,407 DEBUG                  - depth 0, hash 446457d, HEAD~375
+2021-07-04 08:07:02,413 DEBUG                  - depth 1, hash 2628b29, HEAD~521
+2021-07-04 08:07:02,417 DEBUG                  - depth 2, hash f60221b, HEAD~552
+2021-07-04 08:07:02,421 DEBUG                  - depth 3, hash e4acfb1, HEAD~556
+2021-07-04 08:07:02,425 DEBUG                  - depth 4, hash e6aa3f4, HEAD~557
+2021-07-04 08:07:02,429 DEBUG                  - depth 5, hash 9157d85, HEAD~558
+2021-07-04 08:07:02,433 DEBUG    [line range] org/apache/commons/math/linear/OpenMapRealVector.java <init> 126:136
+2021-07-04 08:07:02,516 DEBUG                  - depth 0, hash 8ea4ff3, HEAD~5
+2021-07-04 08:07:02,521 DEBUG                  - depth 1, hash 26ca02d, HEAD~14
+2021-07-04 08:07:02,526 DEBUG                  - depth 2, hash 446457d, HEAD~375
+2021-07-04 08:07:02,530 DEBUG                  - depth 3, hash 911f0fe, HEAD~520
+2021-07-04 08:07:02,534 DEBUG                  - depth 4, hash 2628b29, HEAD~521
+2021-07-04 08:07:02,538 DEBUG                  - depth 5, hash f60221b, HEAD~552
+2021-07-04 08:07:02,542 DEBUG                  - depth 6, hash e4acfb1, HEAD~556
+2021-07-04 08:07:02,546 DEBUG                  - depth 7, hash e6aa3f4, HEAD~557
+2021-07-04 08:07:02,550 DEBUG                  - depth 8, hash 9157d85, HEAD~558
+2021-07-04 08:07:02,554 DEBUG    [line range] org/apache/commons/math/linear/OpenMapRealVector.java getL1Norm 499:507
+2021-07-04 08:07:02,636 DEBUG                  - depth 0, hash f60221b, HEAD~552
+2021-07-04 08:07:02,641 DEBUG                  - depth 1, hash e4acfb1, HEAD~556
+2021-07-04 08:07:02,646 DEBUG                  - depth 2, hash e6aa3f4, HEAD~557
+2021-07-04 08:07:02,650 DEBUG                  - depth 3, hash 9157d85, HEAD~558
+2021-07-04 08:07:02,654 DEBUG    [line range] org/apache/commons/math/linear/OpenMapRealVector.java getLInfNorm 560:568
+2021-07-04 08:07:02,737 DEBUG                  - depth 0, hash f60221b, HEAD~552
+2021-07-04 08:07:02,742 DEBUG                  - depth 1, hash e4acfb1, HEAD~556
+2021-07-04 08:07:02,746 DEBUG                  - depth 2, hash e6aa3f4, HEAD~557
+2021-07-04 08:07:02,750 DEBUG                  - depth 3, hash 9157d85, HEAD~558
+2021-07-04 08:07:02,754 DEBUG    [line range] org/apache/commons/math/linear/OpenMapRealVector.java getNorm 571:579
+2021-07-04 08:07:02,837 DEBUG                  - depth 0, hash f60221b, HEAD~552
+2021-07-04 08:07:02,843 DEBUG                  - depth 1, hash e4acfb1, HEAD~556
+2021-07-04 08:07:02,847 DEBUG                  - depth 2, hash e6aa3f4, HEAD~557
+2021-07-04 08:07:02,851 DEBUG                  - depth 3, hash 9157d85, HEAD~558
+2021-07-04 08:07:02,855 DEBUG    [line range] org/apache/commons/math/linear/OpenMapRealVector.java isDefaultValue 204:206
+2021-07-04 08:07:02,938 DEBUG                  - depth 0, hash 8ea4ff3, HEAD~5
+2021-07-04 08:07:02,943 DEBUG                  - depth 1, hash 26ca02d, HEAD~14
+2021-07-04 08:07:02,947 DEBUG                  - depth 2, hash f60221b, HEAD~552
+2021-07-04 08:07:02,951 DEBUG                  - depth 3, hash e4acfb1, HEAD~556
+2021-07-04 08:07:02,955 DEBUG                  - depth 4, hash e6aa3f4, HEAD~557
+2021-07-04 08:07:02,959 DEBUG                  - depth 5, hash 9157d85, HEAD~558
+2021-07-04 08:07:03,362 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java <init> 109:111
+2021-07-04 08:07:03,439 DEBUG                  - depth 0, hash 074e866, HEAD~612
+2021-07-04 08:07:03,444 DEBUG                  - depth 1, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,448 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java <init> 126:134
+2021-07-04 08:07:03,525 DEBUG                  - depth 0, hash 074e866, HEAD~612
+2021-07-04 08:07:03,531 DEBUG                  - depth 1, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,535 DEBUG    [single line]   org/apache/commons/math/util/OpenIntToDoubleHashMap.java access$400 39
+2021-07-04 08:07:03,611 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,616 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java computeCapacity 159:169
+2021-07-04 08:07:03,692 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,698 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java findInsertionIndex 265:267
+2021-07-04 08:07:03,774 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,779 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java findInsertionIndex 277:324
+2021-07-04 08:07:03,856 DEBUG                  - depth 0, hash 26dac5a, HEAD~81
+2021-07-04 08:07:03,861 DEBUG                  - depth 1, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,866 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java hashOf 484:487
+2021-07-04 08:07:03,944 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:03,950 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java iterator 247:249
+2021-07-04 08:07:04,026 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,031 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java put 416:437
+2021-07-04 08:07:04,108 DEBUG                  - depth 0, hash 4bd84e3, HEAD~560
+2021-07-04 08:07:04,113 DEBUG                  - depth 1, hash 074e866, HEAD~612
+2021-07-04 08:07:04,117 DEBUG                  - depth 2, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,121 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java shouldGrowTable 475:477
+2021-07-04 08:07:04,198 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,204 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java <init> 505:518
+2021-07-04 08:07:04,280 DEBUG                  - depth 0, hash 8c5bbf3, HEAD~650
+2021-07-04 08:07:04,286 DEBUG                  - depth 1, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,290 DEBUG    [single line]   org/apache/commons/math/util/OpenIntToDoubleHashMap.java <init> 491
+2021-07-04 08:07:04,366 DEBUG                  - depth 0, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,372 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java advance 569:592
+2021-07-04 08:07:04,448 DEBUG                  - depth 0, hash bd345d9, HEAD~23
+2021-07-04 08:07:04,453 DEBUG                  - depth 1, hash 7f88773, HEAD~525
+2021-07-04 08:07:04,458 DEBUG                  - depth 2, hash 8c5bbf3, HEAD~650
+2021-07-04 08:07:04,462 DEBUG                  - depth 3, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,466 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java hasNext 524:526
+2021-07-04 08:07:04,543 DEBUG                  - depth 0, hash 8c5bbf3, HEAD~650
+2021-07-04 08:07:04,548 DEBUG                  - depth 1, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,553 DEBUG    [line range] org/apache/commons/math/util/OpenIntToDoubleHashMap.java value 552:562
+2021-07-04 08:07:04,629 DEBUG                  - depth 0, hash bd345d9, HEAD~23
+2021-07-04 08:07:04,635 DEBUG                  - depth 1, hash 7f88773, HEAD~525
+2021-07-04 08:07:04,639 DEBUG                  - depth 2, hash 8c5bbf3, HEAD~650
+2021-07-04 08:07:04,643 DEBUG                  - depth 3, hash d67bfff, HEAD~652
+2021-07-04 08:07:04,647 INFO     The number of BIC candidates: 19

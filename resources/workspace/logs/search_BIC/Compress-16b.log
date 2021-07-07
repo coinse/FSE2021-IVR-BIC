@@ -1,0 +1,340 @@
+2021-07-03 20:30:14,797 INFO     Search BICs for /tmp/Compress-16b/
+2021-07-03 20:30:14,797 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::aiffFilesAreNoTARs (failings)
+2021-07-03 20:30:14,822 INFO     Loaded 1x297 Coverage Matrix
+2021-07-03 20:30:14,822 INFO     The number of total commits: 1063
+2021-07-03 20:30:15,114 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveInputStream.java <init> 40
+2021-07-03 20:30:15,149 DEBUG                  - depth 0, hash ca16539, HEAD~950
+2021-07-03 20:30:15,155 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveInputStream.java <init> 42:42
+2021-07-03 20:30:15,191 DEBUG                  - depth 0, hash 253196a, HEAD~714
+2021-07-03 20:30:15,528 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveStreamFactory.java <init> 74
+2021-07-03 20:30:15,565 DEBUG                  - depth 0, hash 6a70323, HEAD~940
+2021-07-03 20:30:15,570 DEBUG                  - depth 1, hash ca16539, HEAD~950
+2021-07-03 20:30:15,575 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveStreamFactory.java createArchiveInputStream 197:257
+2021-07-03 20:30:15,614 DEBUG                  - depth 0, hash b410868, HEAD~107
+2021-07-03 20:30:15,619 DEBUG                  - depth 1, hash a933173, HEAD~108
+2021-07-03 20:30:15,623 DEBUG                  - depth 2, hash a932366, HEAD~216
+2021-07-03 20:30:15,627 DEBUG                  - depth 3, hash 58c56fc, HEAD~343
+2021-07-03 20:30:15,631 DEBUG                  - depth 4, hash 60d6b6a, HEAD~375
+2021-07-03 20:30:15,635 DEBUG                  - depth 5, hash e2f8a9b, HEAD~582
+2021-07-03 20:30:15,639 DEBUG                  - depth 6, hash 3a75bfd, HEAD~670
+2021-07-03 20:30:15,644 DEBUG                  - depth 7, hash eeef242, HEAD~834
+2021-07-03 20:30:15,648 DEBUG                  - depth 8, hash c4a65f0, HEAD~839
+2021-07-03 20:30:15,652 DEBUG                  - depth 9, hash 55c78f6, HEAD~904
+2021-07-03 20:30:15,656 DEBUG                  - depth 10, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:15,660 DEBUG                  - depth 11, hash dff9001, HEAD~917
+2021-07-03 20:30:15,664 DEBUG                  - depth 12, hash b7bc8c7, HEAD~920
+2021-07-03 20:30:15,668 DEBUG                  - depth 13, hash 5d9f7b4, HEAD~921
+2021-07-03 20:30:15,672 DEBUG                  - depth 14, hash 70c8320, HEAD~930
+2021-07-03 20:30:15,676 DEBUG                  - depth 15, hash 6a70323, HEAD~940
+2021-07-03 20:30:15,680 DEBUG                  - depth 16, hash ca16539, HEAD~950
+2021-07-03 20:30:16,053 DEBUG    [line range] org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java <clinit> 308:309
+2021-07-03 20:30:16,091 DEBUG                  - depth 0, hash 0456186, HEAD~240
+2021-07-03 20:30:16,096 DEBUG    [line range] org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java matches 273:305
+2021-07-03 20:30:16,133 DEBUG                  - depth 0, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:16,139 DEBUG                  - depth 1, hash dff9001, HEAD~917
+2021-07-03 20:30:16,143 DEBUG                  - depth 2, hash bd9e3bb, HEAD~918
+2021-07-03 20:30:16,147 DEBUG                  - depth 3, hash 72b8402, HEAD~934
+2021-07-03 20:30:16,151 DEBUG                  - depth 4, hash ca16539, HEAD~950
+2021-07-03 20:30:16,526 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java matches 445:487
+2021-07-03 20:30:16,563 DEBUG                  - depth 0, hash 39c93f4, HEAD~50
+2021-07-03 20:30:16,568 DEBUG                  - depth 1, hash 27f87f0, HEAD~745
+2021-07-03 20:30:16,572 DEBUG                  - depth 2, hash 56b47fc, HEAD~746
+2021-07-03 20:30:16,576 DEBUG                  - depth 3, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:16,581 DEBUG                  - depth 4, hash dff9001, HEAD~917
+2021-07-03 20:30:16,585 DEBUG                  - depth 5, hash bd9e3bb, HEAD~918
+2021-07-03 20:30:16,589 DEBUG                  - depth 6, hash 70c8320, HEAD~930
+2021-07-03 20:30:16,957 DEBUG    [line range] org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java matches 507:521
+2021-07-03 20:30:16,993 DEBUG                  - depth 0, hash 65c2498, HEAD~184
+2021-07-03 20:30:16,998 DEBUG                  - depth 1, hash 054452a, HEAD~217
+2021-07-03 20:30:17,318 DEBUG    [line range] org/apache/commons/compress/archivers/dump/DumpArchiveUtil.java convert32 109:117
+2021-07-03 20:30:17,354 DEBUG                  - depth 0, hash f3b51a5, HEAD~149
+2021-07-03 20:30:17,359 DEBUG                  - depth 1, hash 054452a, HEAD~217
+2021-07-03 20:30:17,650 DEBUG    [line range] org/apache/commons/compress/archivers/jar/JarArchiveInputStream.java matches 59:61
+2021-07-03 20:30:17,686 DEBUG                  - depth 0, hash eadbe11, HEAD~875
+2021-07-03 20:30:17,691 DEBUG                  - depth 1, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:17,695 DEBUG                  - depth 2, hash dff9001, HEAD~917
+2021-07-03 20:30:17,699 DEBUG                  - depth 3, hash bd9e3bb, HEAD~918
+2021-07-03 20:30:17,703 DEBUG                  - depth 4, hash 01d3951, HEAD~931
+2021-07-03 20:30:17,707 DEBUG                  - depth 5, hash d6612b6, HEAD~938
+2021-07-03 20:30:17,711 DEBUG                  - depth 6, hash 6a70323, HEAD~940
+2021-07-03 20:30:17,715 DEBUG                  - depth 7, hash ca16539, HEAD~950
+2021-07-03 20:30:18,149 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java <init> 185:202
+2021-07-03 20:30:18,191 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:18,197 DEBUG                  - depth 1, hash 8118f82, HEAD~668
+2021-07-03 20:30:18,201 DEBUG                  - depth 2, hash 1d55670, HEAD~671
+2021-07-03 20:30:18,205 DEBUG                  - depth 3, hash 24f9c9b, HEAD~673
+2021-07-03 20:30:18,209 DEBUG                  - depth 4, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,213 DEBUG                  - depth 5, hash 8822084, HEAD~1021
+2021-07-03 20:30:18,217 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java <init> 328:332
+2021-07-03 20:30:18,260 DEBUG                  - depth 0, hash e4ee376, HEAD~77
+2021-07-03 20:30:18,265 DEBUG                  - depth 1, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:18,269 DEBUG                  - depth 2, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,273 DEBUG                  - depth 3, hash 8822084, HEAD~1021
+2021-07-03 20:30:18,278 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java evaluateType 1061:1069
+2021-07-03 20:30:18,318 DEBUG                  - depth 0, hash 70d0fce, HEAD~58
+2021-07-03 20:30:18,323 DEBUG                  - depth 1, hash a0e435e, HEAD~59
+2021-07-03 20:30:18,328 DEBUG                  - depth 2, hash aa9d0bc, HEAD~346
+2021-07-03 20:30:18,332 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java getName 387:389
+2021-07-03 20:30:18,375 DEBUG                  - depth 0, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,380 DEBUG                  - depth 1, hash 8822084, HEAD~1021
+2021-07-03 20:30:18,384 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java getSize 590:592
+2021-07-03 20:30:18,427 DEBUG                  - depth 0, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,433 DEBUG                  - depth 1, hash 8822084, HEAD~1021
+2021-07-03 20:30:18,437 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java isDirectory 724:738
+2021-07-03 20:30:18,477 DEBUG                  - depth 0, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,483 DEBUG                  - depth 1, hash ca16539, HEAD~950
+2021-07-03 20:30:18,487 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java isGNULongNameEntry 690:693
+2021-07-03 20:30:18,529 DEBUG                  - depth 0, hash f36320a, HEAD~4
+2021-07-03 20:30:18,534 DEBUG                  - depth 1, hash 75f92f6, HEAD~829
+2021-07-03 20:30:18,538 DEBUG                  - depth 2, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,543 DEBUG                  - depth 3, hash ca16539, HEAD~950
+2021-07-03 20:30:18,547 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java isGNUSparse 681:683
+2021-07-03 20:30:18,587 DEBUG                  - depth 0, hash aa9d0bc, HEAD~346
+2021-07-03 20:30:18,593 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java isPaxHeader 703:706
+2021-07-03 20:30:18,633 DEBUG                  - depth 0, hash 05b6eb1, HEAD~424
+2021-07-03 20:30:18,638 DEBUG                  - depth 1, hash 33cd35e, HEAD~426
+2021-07-03 20:30:18,642 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java parseTarHeader 936:939
+2021-07-03 20:30:18,681 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:18,687 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveEntry.java parseTarHeader 941:1010
+2021-07-03 20:30:18,728 DEBUG                  - depth 0, hash 811fb4e, HEAD~0
+2021-07-03 20:30:18,733 DEBUG                  - depth 1, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:18,737 DEBUG                  - depth 2, hash 6c71a2b, HEAD~88
+2021-07-03 20:30:18,741 DEBUG                  - depth 3, hash 7ee6b67, HEAD~101
+2021-07-03 20:30:18,745 DEBUG                  - depth 4, hash 6846564, HEAD~121
+2021-07-03 20:30:18,750 DEBUG                  - depth 5, hash aa9d0bc, HEAD~346
+2021-07-03 20:30:18,754 DEBUG                  - depth 6, hash 5b25f6c, HEAD~423
+2021-07-03 20:30:18,758 DEBUG                  - depth 7, hash 33cd35e, HEAD~426
+2021-07-03 20:30:18,762 DEBUG                  - depth 8, hash 8118f82, HEAD~668
+2021-07-03 20:30:18,766 DEBUG                  - depth 9, hash 46ad24d, HEAD~936
+2021-07-03 20:30:18,770 DEBUG                  - depth 10, hash ca16539, HEAD~950
+2021-07-03 20:30:19,187 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java <init> 63:65
+2021-07-03 20:30:19,228 DEBUG                  - depth 0, hash 0a986c6, HEAD~900
+2021-07-03 20:30:19,233 DEBUG                  - depth 1, hash a7049ab, HEAD~902
+2021-07-03 20:30:19,237 DEBUG                  - depth 2, hash 55c78f6, HEAD~904
+2021-07-03 20:30:19,241 DEBUG                  - depth 3, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:19,246 DEBUG                  - depth 4, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:19,250 DEBUG                  - depth 5, hash 5e5804c, HEAD~922
+2021-07-03 20:30:19,254 DEBUG                  - depth 6, hash 46ad24d, HEAD~936
+2021-07-03 20:30:19,258 DEBUG                  - depth 7, hash 726f6f2, HEAD~937
+2021-07-03 20:30:19,262 DEBUG                  - depth 8, hash a8a9e64, HEAD~948
+2021-07-03 20:30:19,267 DEBUG                  - depth 9, hash ca16539, HEAD~950
+2021-07-03 20:30:19,271 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java <init> 104:106
+2021-07-03 20:30:19,311 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:19,317 DEBUG                  - depth 1, hash 0a986c6, HEAD~900
+2021-07-03 20:30:19,321 DEBUG                  - depth 2, hash a7049ab, HEAD~902
+2021-07-03 20:30:19,325 DEBUG                  - depth 3, hash 55c78f6, HEAD~904
+2021-07-03 20:30:19,329 DEBUG                  - depth 4, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:19,333 DEBUG                  - depth 5, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:19,338 DEBUG                  - depth 6, hash 5e5804c, HEAD~922
+2021-07-03 20:30:19,342 DEBUG                  - depth 7, hash 46ad24d, HEAD~936
+2021-07-03 20:30:19,346 DEBUG                  - depth 8, hash 726f6f2, HEAD~937
+2021-07-03 20:30:19,350 DEBUG                  - depth 9, hash a8a9e64, HEAD~948
+2021-07-03 20:30:19,354 DEBUG                  - depth 10, hash ca16539, HEAD~950
+2021-07-03 20:30:19,358 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java <init> 116:122
+2021-07-03 20:30:19,399 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:19,405 DEBUG                  - depth 1, hash 04c4921, HEAD~656
+2021-07-03 20:30:19,409 DEBUG                  - depth 2, hash 6117cc1, HEAD~713
+2021-07-03 20:30:19,413 DEBUG                  - depth 3, hash 0a986c6, HEAD~900
+2021-07-03 20:30:19,417 DEBUG                  - depth 4, hash a7049ab, HEAD~902
+2021-07-03 20:30:19,421 DEBUG                  - depth 5, hash 55c78f6, HEAD~904
+2021-07-03 20:30:19,425 DEBUG                  - depth 6, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:19,430 DEBUG                  - depth 7, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:19,434 DEBUG                  - depth 8, hash 5e5804c, HEAD~922
+2021-07-03 20:30:19,438 DEBUG                  - depth 9, hash 46ad24d, HEAD~936
+2021-07-03 20:30:19,442 DEBUG                  - depth 10, hash 726f6f2, HEAD~937
+2021-07-03 20:30:19,446 DEBUG                  - depth 11, hash a8a9e64, HEAD~948
+2021-07-03 20:30:19,451 DEBUG                  - depth 12, hash ca16539, HEAD~950
+2021-07-03 20:30:19,455 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java getNextEntry 434:437
+2021-07-03 20:30:19,495 DEBUG                  - depth 0, hash 46628ef, HEAD~247
+2021-07-03 20:30:19,501 DEBUG                  - depth 1, hash 0a986c6, HEAD~900
+2021-07-03 20:30:19,505 DEBUG                  - depth 2, hash a7049ab, HEAD~902
+2021-07-03 20:30:19,509 DEBUG                  - depth 3, hash 55c78f6, HEAD~904
+2021-07-03 20:30:19,513 DEBUG                  - depth 4, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:19,518 DEBUG                  - depth 5, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:19,522 DEBUG                  - depth 6, hash 5e5804c, HEAD~922
+2021-07-03 20:30:19,526 DEBUG                  - depth 7, hash 46ad24d, HEAD~936
+2021-07-03 20:30:19,530 DEBUG                  - depth 8, hash 726f6f2, HEAD~937
+2021-07-03 20:30:19,534 DEBUG                  - depth 9, hash a8a9e64, HEAD~948
+2021-07-03 20:30:19,538 DEBUG                  - depth 10, hash ca16539, HEAD~950
+2021-07-03 20:30:19,543 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java getNextTarEntry 211:284
+2021-07-03 20:30:19,584 DEBUG                  - depth 0, hash f36320a, HEAD~4
+2021-07-03 20:30:19,590 DEBUG                  - depth 1, hash f331a7d, HEAD~47
+2021-07-03 20:30:19,594 DEBUG                  - depth 2, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:19,598 DEBUG                  - depth 3, hash bc84d20, HEAD~97
+2021-07-03 20:30:19,602 DEBUG                  - depth 4, hash 5dad112, HEAD~117
+2021-07-03 20:30:19,607 DEBUG                  - depth 5, hash aa9d0bc, HEAD~346
+2021-07-03 20:30:19,611 DEBUG                  - depth 6, hash 45fa6e0, HEAD~420
+2021-07-03 20:30:19,615 DEBUG                  - depth 7, hash 4bce1fb, HEAD~648
+2021-07-03 20:30:19,619 DEBUG                  - depth 8, hash 04c4921, HEAD~656
+2021-07-03 20:30:19,623 DEBUG                  - depth 9, hash 0a986c6, HEAD~900
+2021-07-03 20:30:19,627 DEBUG                  - depth 10, hash a7049ab, HEAD~902
+2021-07-03 20:30:19,632 DEBUG                  - depth 11, hash 55c78f6, HEAD~904
+2021-07-03 20:30:19,636 DEBUG                  - depth 12, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:19,640 DEBUG                  - depth 13, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:19,644 DEBUG                  - depth 14, hash 5e5804c, HEAD~922
+2021-07-03 20:30:19,648 DEBUG                  - depth 15, hash 46ad24d, HEAD~936
+2021-07-03 20:30:19,653 DEBUG                  - depth 16, hash 726f6f2, HEAD~937
+2021-07-03 20:30:19,657 DEBUG                  - depth 17, hash a8a9e64, HEAD~948
+2021-07-03 20:30:19,661 DEBUG                  - depth 18, hash ca16539, HEAD~950
+2021-07-03 20:30:19,665 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java getRecord 298:312
+2021-07-03 20:30:19,704 DEBUG                  - depth 0, hash aa9d0bc, HEAD~346
+2021-07-03 20:30:19,709 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java matches 559:595
+2021-07-03 20:30:19,749 DEBUG                  - depth 0, hash 1e4034b, HEAD~421
+2021-07-03 20:30:19,755 DEBUG                  - depth 1, hash 8118f82, HEAD~668
+2021-07-03 20:30:19,759 DEBUG                  - depth 2, hash d12bdbd, HEAD~736
+2021-07-03 20:30:19,763 DEBUG                  - depth 3, hash 0a986c6, HEAD~900
+2021-07-03 20:30:19,767 DEBUG                  - depth 4, hash a7049ab, HEAD~902
+2021-07-03 20:30:19,772 DEBUG                  - depth 5, hash 55c78f6, HEAD~904
+2021-07-03 20:30:19,776 DEBUG                  - depth 6, hash 0ba4e2a, HEAD~905
+2021-07-03 20:30:19,780 DEBUG                  - depth 7, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:19,784 DEBUG                  - depth 8, hash 5e5804c, HEAD~922
+2021-07-03 20:30:19,788 DEBUG                  - depth 9, hash 46ad24d, HEAD~936
+2021-07-03 20:30:19,792 DEBUG                  - depth 10, hash 726f6f2, HEAD~937
+2021-07-03 20:30:19,796 DEBUG                  - depth 11, hash a8a9e64, HEAD~948
+2021-07-03 20:30:19,800 DEBUG                  - depth 12, hash ca16539, HEAD~950
+2021-07-03 20:30:20,155 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarBuffer.java <init> 81:83
+2021-07-03 20:30:20,194 DEBUG                  - depth 0, hash e99d0ad, HEAD~95
+2021-07-03 20:30:20,199 DEBUG                  - depth 1, hash 46ad24d, HEAD~936
+2021-07-03 20:30:20,204 DEBUG                  - depth 2, hash 8822084, HEAD~1021
+2021-07-03 20:30:20,208 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarBuffer.java <init> 115:130
+2021-07-03 20:30:20,246 DEBUG                  - depth 0, hash 39c93f4, HEAD~50
+2021-07-03 20:30:20,251 DEBUG                  - depth 1, hash e99d0ad, HEAD~95
+2021-07-03 20:30:20,256 DEBUG                  - depth 2, hash 04c4921, HEAD~656
+2021-07-03 20:30:20,260 DEBUG                  - depth 3, hash 46ad24d, HEAD~936
+2021-07-03 20:30:20,264 DEBUG                  - depth 4, hash 8822084, HEAD~1021
+2021-07-03 20:30:20,269 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarBuffer.java getRecordSize 144:146
+2021-07-03 20:30:20,306 DEBUG                  - depth 0, hash 46ad24d, HEAD~936
+2021-07-03 20:30:20,312 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarBuffer.java isEOFRecord 155:163
+2021-07-03 20:30:20,351 DEBUG                  - depth 0, hash 46ad24d, HEAD~936
+2021-07-03 20:30:20,357 DEBUG                  - depth 1, hash 8822084, HEAD~1021
+2021-07-03 20:30:20,361 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarBuffer.java readBlock 213:269
+2021-07-03 20:30:20,400 DEBUG                  - depth 0, hash 04c4921, HEAD~656
+2021-07-03 20:30:20,406 DEBUG                  - depth 1, hash 46ad24d, HEAD~936
+2021-07-03 20:30:20,410 DEBUG                  - depth 2, hash 8822084, HEAD~1021
+2021-07-03 20:30:20,415 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarBuffer.java readRecord 187:208
+2021-07-03 20:30:20,454 DEBUG                  - depth 0, hash 58c56fc, HEAD~343
+2021-07-03 20:30:20,460 DEBUG                  - depth 1, hash 04c4921, HEAD~656
+2021-07-03 20:30:20,464 DEBUG                  - depth 2, hash 41afc6c, HEAD~738
+2021-07-03 20:30:20,468 DEBUG                  - depth 3, hash 46ad24d, HEAD~936
+2021-07-03 20:30:20,472 DEBUG                  - depth 4, hash 8822084, HEAD~1021
+2021-07-03 20:30:20,863 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java <clinit> 40:41
+2021-07-03 20:30:20,901 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:20,907 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java parseBinaryLong 183:202
+2021-07-03 20:30:20,945 DEBUG                  - depth 0, hash b90b1f4, HEAD~90
+2021-07-03 20:30:20,950 DEBUG                  - depth 1, hash 6846564, HEAD~121
+2021-07-03 20:30:20,955 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java parseName 257:268
+2021-07-03 20:30:20,994 DEBUG                  - depth 0, hash 029af4d, HEAD~73
+2021-07-03 20:30:21,000 DEBUG                  - depth 1, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:21,004 DEBUG                  - depth 2, hash 2d858d5, HEAD~407
+2021-07-03 20:30:21,008 DEBUG                  - depth 3, hash 1d55670, HEAD~671
+2021-07-03 20:30:21,012 DEBUG                  - depth 4, hash ae3c158, HEAD~694
+2021-07-03 20:30:21,017 DEBUG                  - depth 5, hash 46ad24d, HEAD~936
+2021-07-03 20:30:21,021 DEBUG                  - depth 6, hash 8822084, HEAD~1021
+2021-07-03 20:30:21,025 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java parseName 282:299
+2021-07-03 20:30:21,066 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:21,072 DEBUG                  - depth 1, hash ae3c158, HEAD~694
+2021-07-03 20:30:21,076 DEBUG                  - depth 2, hash 8822084, HEAD~1021
+2021-07-03 20:30:21,080 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java parseOctal 102:151
+2021-07-03 20:30:21,121 DEBUG                  - depth 0, hash 40f2e63, HEAD~91
+2021-07-03 20:30:21,126 DEBUG                  - depth 1, hash 35e4e4f, HEAD~396
+2021-07-03 20:30:21,131 DEBUG                  - depth 2, hash 1d55670, HEAD~671
+2021-07-03 20:30:21,135 DEBUG                  - depth 3, hash ae3c158, HEAD~694
+2021-07-03 20:30:21,139 DEBUG                  - depth 4, hash 46ad24d, HEAD~936
+2021-07-03 20:30:21,143 DEBUG                  - depth 5, hash 8822084, HEAD~1021
+2021-07-03 20:30:21,148 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java parseOctalOrBinary 170:181
+2021-07-03 20:30:21,185 DEBUG                  - depth 0, hash b90b1f4, HEAD~90
+2021-07-03 20:30:21,191 DEBUG                  - depth 1, hash 6846564, HEAD~121
+2021-07-03 20:30:21,195 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java verifyCheckSum 599:621
+2021-07-03 20:30:21,233 DEBUG                  - depth 0, hash 811fb4e, HEAD~0
+2021-07-03 20:30:21,239 DEBUG    [line range] org/apache/commons/compress/archivers/tar/TarUtils.java <init> 47:75
+2021-07-03 20:30:21,276 DEBUG                  - depth 0, hash 32619a8, HEAD~72
+2021-07-03 20:30:21,282 DEBUG                  - depth 1, hash 029af4d, HEAD~73
+2021-07-03 20:30:21,594 DEBUG    [line range] org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java <init> 60:62
+2021-07-03 20:30:21,639 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:21,644 DEBUG    [line range] org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java decode 88:94
+2021-07-03 20:30:21,679 DEBUG                  - depth 0, hash 325f002, HEAD~616
+2021-07-03 20:30:21,685 DEBUG                  - depth 1, hash b99befd, HEAD~620
+2021-07-03 20:30:21,689 DEBUG                  - depth 2, hash 865686a, HEAD~623
+2021-07-03 20:30:21,693 DEBUG                  - depth 3, hash 853176f, HEAD~862
+2021-07-03 20:30:22,088 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java <clinit> 691:691
+2021-07-03 20:30:22,126 DEBUG                  - depth 0, hash 794c20f, HEAD~228
+2021-07-03 20:30:22,131 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java checksig 459:466
+2021-07-03 20:30:22,170 DEBUG                  - depth 0, hash 794c20f, HEAD~228
+2021-07-03 20:30:22,175 DEBUG                  - depth 1, hash fa526cb, HEAD~733
+2021-07-03 20:30:22,180 DEBUG                  - depth 2, hash eadbe11, HEAD~875
+2021-07-03 20:30:22,184 DEBUG                  - depth 3, hash 3f9bcc6, HEAD~911
+2021-07-03 20:30:22,188 DEBUG                  - depth 4, hash fa8fea7, HEAD~919
+2021-07-03 20:30:22,192 DEBUG                  - depth 5, hash ca16539, HEAD~950
+2021-07-03 20:30:22,196 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java matches 450:457
+2021-07-03 20:30:22,236 DEBUG                  - depth 0, hash fa526cb, HEAD~733
+2021-07-03 20:30:22,242 DEBUG                  - depth 1, hash eadbe11, HEAD~875
+2021-07-03 20:30:22,246 DEBUG                  - depth 2, hash dff9001, HEAD~917
+2021-07-03 20:30:22,250 DEBUG                  - depth 3, hash fa8fea7, HEAD~919
+2021-07-03 20:30:22,254 DEBUG                  - depth 4, hash ca16539, HEAD~950
+2021-07-03 20:30:22,712 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java <clinit> 173:173
+2021-07-03 20:30:22,759 DEBUG                  - depth 0, hash ab9ebfc, HEAD~929
+2021-07-03 20:30:22,765 DEBUG                  - depth 1, hash 8822084, HEAD~1021
+2021-07-03 20:30:23,115 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 70
+2021-07-03 20:30:23,151 DEBUG                  - depth 0, hash e53e88a, HEAD~333
+2021-07-03 20:30:23,157 DEBUG                  - depth 1, hash 853176f, HEAD~862
+2021-07-03 20:30:23,161 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 72
+2021-07-03 20:30:23,197 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,203 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 96
+2021-07-03 20:30:23,239 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,245 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 98
+2021-07-03 20:30:23,281 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,286 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 99
+2021-07-03 20:30:23,322 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,328 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 100
+2021-07-03 20:30:23,364 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,370 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 101
+2021-07-03 20:30:23,406 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,411 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 102
+2021-07-03 20:30:23,448 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,453 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 104
+2021-07-03 20:30:23,489 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,495 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 128
+2021-07-03 20:30:23,531 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,536 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 130
+2021-07-03 20:30:23,573 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,578 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 131
+2021-07-03 20:30:23,614 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,620 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 132
+2021-07-03 20:30:23,656 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,661 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 133
+2021-07-03 20:30:23,697 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,703 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 134
+2021-07-03 20:30:23,738 DEBUG                  - depth 0, hash 853176f, HEAD~862
+2021-07-03 20:30:23,744 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 165:169
+2021-07-03 20:30:23,780 DEBUG                  - depth 0, hash 4e2380b, HEAD~891
+2021-07-03 20:30:23,786 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java getZipEncoding 212:237
+2021-07-03 20:30:23,823 DEBUG                  - depth 0, hash 69ceb4e, HEAD~78
+2021-07-03 20:30:23,829 DEBUG                  - depth 1, hash e53e88a, HEAD~333
+2021-07-03 20:30:23,833 DEBUG                  - depth 2, hash 853176f, HEAD~862
+2021-07-03 20:30:23,837 DEBUG                  - depth 3, hash 4e2380b, HEAD~891
+2021-07-03 20:30:23,842 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java isUTF8 243:250
+2021-07-03 20:30:23,878 DEBUG                  - depth 0, hash bed564b, HEAD~498
+2021-07-03 20:30:23,883 DEBUG                  - depth 1, hash ae0f984, HEAD~504
+2021-07-03 20:30:23,888 DEBUG                  - depth 2, hash 853176f, HEAD~862
+2021-07-03 20:30:23,892 DEBUG                  - depth 3, hash 1cef965, HEAD~874
+2021-07-03 20:30:23,896 DEBUG                  - depth 4, hash a96f1f2, HEAD~883
+2021-07-03 20:30:23,901 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <init> 51:53
+2021-07-03 20:30:23,937 DEBUG                  - depth 0, hash d6f3633, HEAD~757
+2021-07-03 20:30:23,942 DEBUG                  - depth 1, hash 99870ef, HEAD~758
+2021-07-03 20:30:23,947 DEBUG                  - depth 2, hash 853176f, HEAD~862
+2021-07-03 20:30:24,296 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java <clinit> 47:47
+2021-07-03 20:30:24,334 DEBUG                  - depth 0, hash 008ca94, HEAD~779
+2021-07-03 20:30:24,339 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java <init> 69:71
+2021-07-03 20:30:24,378 DEBUG                  - depth 0, hash ab9ebfc, HEAD~929
+2021-07-03 20:30:24,383 DEBUG                  - depth 1, hash 8822084, HEAD~1021
+2021-07-03 20:30:24,388 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getBytes 94:96
+2021-07-03 20:30:24,426 DEBUG                  - depth 0, hash ab9ebfc, HEAD~929
+2021-07-03 20:30:24,431 DEBUG                  - depth 1, hash 8822084, HEAD~1021
+2021-07-03 20:30:24,436 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getBytes 111:118
+2021-07-03 20:30:24,474 DEBUG                  - depth 0, hash ab9ebfc, HEAD~929
+2021-07-03 20:30:24,813 DEBUG    [line range] org/apache/commons/compress/utils/ArchiveUtils.java isEqual 145:175
+2021-07-03 20:30:24,849 DEBUG                  - depth 0, hash 39c93f4, HEAD~50
+2021-07-03 20:30:24,854 DEBUG                  - depth 1, hash 9567f87, HEAD~669
+2021-07-03 20:30:24,859 DEBUG    [line range] org/apache/commons/compress/utils/ArchiveUtils.java matchAsciiBuffer 66:75
+2021-07-03 20:30:24,894 DEBUG                  - depth 0, hash 9567f87, HEAD~669
+2021-07-03 20:30:24,900 INFO     The number of BIC candidates: 92

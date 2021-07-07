@@ -1,0 +1,303 @@
+2021-07-04 08:06:09,703 INFO     Search BICs for /tmp/Math-76b/
+2021-07-04 08:06:09,703 DEBUG    Reading the coverage of org.apache.commons.math.linear.SingularValueSolverTest::testMath320A (failings)
+2021-07-04 08:06:09,750 DEBUG    Reading the coverage of org.apache.commons.math.linear.SingularValueSolverTest::testMath320B (failings)
+2021-07-04 08:06:09,807 INFO     Loaded 2x554 Coverage Matrix
+2021-07-04 08:06:09,808 INFO     The number of total commits: 2083
+2021-07-04 08:06:10,246 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java <init> 43:45
+2021-07-04 08:06:10,328 DEBUG                  - depth 0, hash c28099c, HEAD~671
+2021-07-04 08:06:10,334 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java <init> 54:67
+2021-07-04 08:06:10,414 DEBUG                  - depth 0, hash 7f88773, HEAD~535
+2021-07-04 08:06:10,420 DEBUG                  - depth 1, hash c28099c, HEAD~671
+2021-07-04 08:06:10,424 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java getNorm 194:230
+2021-07-04 08:06:10,504 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:10,509 DEBUG                  - depth 1, hash e8c9aea, HEAD~623
+2021-07-04 08:06:10,513 DEBUG                  - depth 2, hash c28099c, HEAD~671
+2021-07-04 08:06:10,517 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java getSubMatrix 260:276
+2021-07-04 08:06:10,599 DEBUG                  - depth 0, hash e497d61, HEAD~391
+2021-07-04 08:06:10,605 DEBUG                  - depth 1, hash 927739c, HEAD~659
+2021-07-04 08:06:10,609 DEBUG                  - depth 2, hash c28099c, HEAD~671
+2021-07-04 08:06:10,613 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java setColumnVector 504:518
+2021-07-04 08:06:10,693 DEBUG                  - depth 0, hash e497d61, HEAD~391
+2021-07-04 08:06:10,698 DEBUG                  - depth 1, hash 7f88773, HEAD~535
+2021-07-04 08:06:10,703 DEBUG                  - depth 2, hash d3101af, HEAD~669
+2021-07-04 08:06:10,707 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java transpose 601:618
+2021-07-04 08:06:10,788 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:10,793 DEBUG                  - depth 1, hash 9c8d2c7, HEAD~481
+2021-07-04 08:06:10,797 DEBUG                  - depth 2, hash de9ff4e, HEAD~616
+2021-07-04 08:06:10,802 DEBUG                  - depth 3, hash e8c9aea, HEAD~623
+2021-07-04 08:06:10,806 DEBUG                  - depth 4, hash c28099c, HEAD~671
+2021-07-04 08:06:10,810 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java walkInOptimizedOrder 917:920
+2021-07-04 08:06:10,891 DEBUG                  - depth 0, hash e8c9aea, HEAD~623
+2021-07-04 08:06:10,896 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java <init> 194:230
+2021-07-04 08:06:10,976 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:10,982 DEBUG                  - depth 1, hash e8c9aea, HEAD~623
+2021-07-04 08:06:10,986 DEBUG                  - depth 2, hash c28099c, HEAD~671
+2021-07-04 08:06:10,990 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java end 194:230
+2021-07-04 08:06:11,071 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:11,076 DEBUG                  - depth 1, hash e8c9aea, HEAD~623
+2021-07-04 08:06:11,080 DEBUG                  - depth 2, hash c28099c, HEAD~671
+2021-07-04 08:06:11,084 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java start 194:230
+2021-07-04 08:06:11,165 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:11,170 DEBUG                  - depth 1, hash e8c9aea, HEAD~623
+2021-07-04 08:06:11,174 DEBUG                  - depth 2, hash c28099c, HEAD~671
+2021-07-04 08:06:11,178 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java visit 194:230
+2021-07-04 08:06:11,259 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:11,264 DEBUG                  - depth 1, hash e8c9aea, HEAD~623
+2021-07-04 08:06:11,268 DEBUG                  - depth 2, hash c28099c, HEAD~671
+2021-07-04 08:06:11,273 DEBUG    [line range] org/apache/commons/math/linear/AbstractRealMatrix.java <init> 601:618
+2021-07-04 08:06:11,354 DEBUG                  - depth 0, hash 55ba297, HEAD~351
+2021-07-04 08:06:11,359 DEBUG                  - depth 1, hash 9c8d2c7, HEAD~481
+2021-07-04 08:06:11,364 DEBUG                  - depth 2, hash de9ff4e, HEAD~616
+2021-07-04 08:06:11,368 DEBUG                  - depth 3, hash e8c9aea, HEAD~623
+2021-07-04 08:06:11,372 DEBUG                  - depth 4, hash c28099c, HEAD~671
+2021-07-04 08:06:11,804 DEBUG    [single line]   org/apache/commons/math/linear/AbstractRealVector.java <init> 819
+2021-07-04 08:06:11,880 DEBUG                  - depth 0, hash 26ca02d, HEAD~24
+2021-07-04 08:06:11,885 DEBUG    [single line]   org/apache/commons/math/linear/AbstractRealVector.java copy 34
+2021-07-04 08:06:11,963 DEBUG                  - depth 0, hash 26ca02d, HEAD~24
+2021-07-04 08:06:12,376 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java <init> 94:98
+2021-07-04 08:06:12,456 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:12,462 DEBUG                  - depth 1, hash 03bb3ee, HEAD~430
+2021-07-04 08:06:12,466 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:12,470 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java <init> 113:116
+2021-07-04 08:06:12,551 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:12,556 DEBUG                  - depth 1, hash d967c53, HEAD~421
+2021-07-04 08:06:12,561 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:12,565 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java <init> 133:159
+2021-07-04 08:06:12,644 DEBUG                  - depth 0, hash bd345d9, HEAD~33
+2021-07-04 08:06:12,649 DEBUG                  - depth 1, hash 26dac5a, HEAD~91
+2021-07-04 08:06:12,653 DEBUG                  - depth 2, hash dbae4b0, HEAD~290
+2021-07-04 08:06:12,657 DEBUG                  - depth 3, hash d967c53, HEAD~421
+2021-07-04 08:06:12,662 DEBUG                  - depth 4, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:12,666 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java addToEntry 394:403
+2021-07-04 08:06:12,746 DEBUG                  - depth 0, hash bd345d9, HEAD~33
+2021-07-04 08:06:12,752 DEBUG                  - depth 1, hash 26dac5a, HEAD~91
+2021-07-04 08:06:12,756 DEBUG                  - depth 2, hash dbae4b0, HEAD~290
+2021-07-04 08:06:12,760 DEBUG                  - depth 3, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:12,764 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java copyIn 635:637
+2021-07-04 08:06:12,846 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:12,852 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:12,856 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java copyOut 615:623
+2021-07-04 08:06:12,935 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:12,941 DEBUG                  - depth 1, hash 03bb3ee, HEAD~430
+2021-07-04 08:06:12,945 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:12,949 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java createMatrix 178:182
+2021-07-04 08:06:13,029 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,035 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,039 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java getColumnDimension 424:427
+2021-07-04 08:06:13,118 DEBUG                  - depth 0, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,123 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java getData 315:318
+2021-07-04 08:06:13,203 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,208 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,212 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java getEntry 370:379
+2021-07-04 08:06:13,292 DEBUG                  - depth 0, hash bd345d9, HEAD~33
+2021-07-04 08:06:13,298 DEBUG                  - depth 1, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,302 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,306 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java getRowDimension 418:421
+2021-07-04 08:06:13,386 DEBUG                  - depth 0, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,391 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java multiply 288:312
+2021-07-04 08:06:13,470 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,476 DEBUG                  - depth 1, hash 03bb3ee, HEAD~430
+2021-07-04 08:06:13,480 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,484 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java multiply 271:279
+2021-07-04 08:06:13,564 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,569 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,574 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java setEntry 382:391
+2021-07-04 08:06:13,652 DEBUG                  - depth 0, hash bd345d9, HEAD~33
+2021-07-04 08:06:13,658 DEBUG                  - depth 1, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,662 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,666 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java setSubMatrix 332:367
+2021-07-04 08:06:13,746 DEBUG                  - depth 0, hash bd345d9, HEAD~33
+2021-07-04 08:06:13,752 DEBUG                  - depth 1, hash 26dac5a, HEAD~91
+2021-07-04 08:06:13,756 DEBUG                  - depth 2, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,760 DEBUG                  - depth 3, hash 03bb3ee, HEAD~430
+2021-07-04 08:06:13,764 DEBUG                  - depth 4, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,768 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java subtract 248:268
+2021-07-04 08:06:13,851 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,857 DEBUG                  - depth 1, hash 03bb3ee, HEAD~430
+2021-07-04 08:06:13,861 DEBUG                  - depth 2, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,865 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java subtract 231:239
+2021-07-04 08:06:13,946 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:13,951 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:13,955 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java walkInColumnOrder 561:573
+2021-07-04 08:06:14,037 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:14,043 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:14,047 DEBUG    [line range] org/apache/commons/math/linear/Array2DRowRealMatrix.java walkInRowOrder 493:506
+2021-07-04 08:06:14,127 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:14,133 DEBUG                  - depth 1, hash 1c2c0d9, HEAD~437
+2021-07-04 08:06:14,597 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java <clinit> 41:42
+2021-07-04 08:06:14,687 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:14,692 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java <init> 100:109
+2021-07-04 08:06:14,780 DEBUG                  - depth 0, hash 26dac5a, HEAD~91
+2021-07-04 08:06:14,785 DEBUG                  - depth 1, hash dbae4b0, HEAD~290
+2021-07-04 08:06:14,790 DEBUG                  - depth 2, hash 2628b29, HEAD~531
+2021-07-04 08:06:14,794 DEBUG                  - depth 3, hash a311dce, HEAD~764
+2021-07-04 08:06:14,798 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java getDimension 950:952
+2021-07-04 08:06:14,888 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:14,893 DEBUG    [line range] org/apache/commons/math/linear/ArrayRealVector.java getEntry 945:947
+2021-07-04 08:06:14,981 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:15,341 DEBUG    [line range] org/apache/commons/math/linear/BiDiagonalTransformer.java <init> 60:79
+2021-07-04 08:06:15,429 DEBUG                  - depth 0, hash a258bf5, HEAD~735
+2021-07-04 08:06:15,434 DEBUG                  - depth 1, hash 8e43e2c, HEAD~750
+2021-07-04 08:06:15,439 DEBUG    [line range] org/apache/commons/math/linear/BiDiagonalTransformer.java getMainDiagonalRef 228:230
+2021-07-04 08:06:15,526 DEBUG                  - depth 0, hash 8e43e2c, HEAD~750
+2021-07-04 08:06:15,532 DEBUG    [line range] org/apache/commons/math/linear/BiDiagonalTransformer.java getSecondaryDiagonalRef 238:240
+2021-07-04 08:06:15,620 DEBUG                  - depth 0, hash 8e43e2c, HEAD~750
+2021-07-04 08:06:15,626 DEBUG    [line range] org/apache/commons/math/linear/BiDiagonalTransformer.java getU 86:129
+2021-07-04 08:06:15,714 DEBUG                  - depth 0, hash 6d732db, HEAD~657
+2021-07-04 08:06:15,719 DEBUG                  - depth 1, hash 8e43e2c, HEAD~750
+2021-07-04 08:06:15,724 DEBUG    [line range] org/apache/commons/math/linear/BiDiagonalTransformer.java getV 167:210
+2021-07-04 08:06:15,813 DEBUG                  - depth 0, hash 6d732db, HEAD~657
+2021-07-04 08:06:15,818 DEBUG                  - depth 1, hash 8e43e2c, HEAD~750
+2021-07-04 08:06:15,823 DEBUG    [line range] org/apache/commons/math/linear/BiDiagonalTransformer.java transformToUpperBiDiagonal 255:312
+2021-07-04 08:06:15,911 DEBUG                  - depth 0, hash a258bf5, HEAD~735
+2021-07-04 08:06:15,916 DEBUG                  - depth 1, hash 8e43e2c, HEAD~750
+2021-07-04 08:06:16,195 DEBUG    [single line]   org/apache/commons/math/linear/DefaultRealMatrixPreservingVisitor.java <init> 30
+2021-07-04 08:06:16,270 DEBUG                  - depth 0, hash b69a575, HEAD~617
+2021-07-04 08:06:16,276 DEBUG    [line range] org/apache/commons/math/linear/DefaultRealMatrixPreservingVisitor.java end 43:45
+2021-07-04 08:06:16,351 DEBUG                  - depth 0, hash b69a575, HEAD~617
+2021-07-04 08:06:16,356 DEBUG    [line range] org/apache/commons/math/linear/DefaultRealMatrixPreservingVisitor.java start 33:35
+2021-07-04 08:06:16,431 DEBUG                  - depth 0, hash b69a575, HEAD~617
+2021-07-04 08:06:17,023 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java <init> 189:207
+2021-07-04 08:06:17,117 DEBUG                  - depth 0, hash 12ea5ce, HEAD~634
+2021-07-04 08:06:17,122 DEBUG                  - depth 1, hash 94417fe, HEAD~679
+2021-07-04 08:06:17,126 DEBUG                  - depth 2, hash 559bc9e, HEAD~685
+2021-07-04 08:06:17,130 DEBUG                  - depth 3, hash 5979df5, HEAD~686
+2021-07-04 08:06:17,135 DEBUG                  - depth 4, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,139 DEBUG                  - depth 5, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,143 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java computeGershgorinCircles 569:606
+2021-07-04 08:06:17,237 DEBUG                  - depth 0, hash 7d903ca, HEAD~44
+2021-07-04 08:06:17,243 DEBUG                  - depth 1, hash 26dac5a, HEAD~91
+2021-07-04 08:06:17,247 DEBUG                  - depth 2, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,251 DEBUG                  - depth 3, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,256 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java computeSplits 691:711
+2021-07-04 08:06:17,349 DEBUG                  - depth 0, hash 94417fe, HEAD~679
+2021-07-04 08:06:17,355 DEBUG                  - depth 1, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,359 DEBUG                  - depth 2, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,363 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java decompose 235:251
+2021-07-04 08:06:17,458 DEBUG                  - depth 0, hash 4cce86a, HEAD~642
+2021-07-04 08:06:17,463 DEBUG                  - depth 1, hash 5979df5, HEAD~686
+2021-07-04 08:06:17,467 DEBUG                  - depth 2, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,471 DEBUG                  - depth 3, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,476 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java findEigenVectors 1730:1755
+2021-07-04 08:06:17,567 DEBUG                  - depth 0, hash d962ba0, HEAD~54
+2021-07-04 08:06:17,573 DEBUG                  - depth 1, hash dbae4b0, HEAD~290
+2021-07-04 08:06:17,577 DEBUG                  - depth 2, hash 4cce86a, HEAD~642
+2021-07-04 08:06:17,581 DEBUG                  - depth 3, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,585 DEBUG                  - depth 4, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,590 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java findEigenvalues 612:685
+2021-07-04 08:06:17,680 DEBUG                  - depth 0, hash 7d903ca, HEAD~44
+2021-07-04 08:06:17,686 DEBUG                  - depth 1, hash 0905e8c, HEAD~57
+2021-07-04 08:06:17,690 DEBUG                  - depth 2, hash 26dac5a, HEAD~91
+2021-07-04 08:06:17,694 DEBUG                  - depth 3, hash 4cce86a, HEAD~642
+2021-07-04 08:06:17,698 DEBUG                  - depth 4, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,703 DEBUG                  - depth 5, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,707 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java findEigenvector 1766:1817
+2021-07-04 08:06:17,799 DEBUG                  - depth 0, hash 0905e8c, HEAD~57
+2021-07-04 08:06:17,804 DEBUG                  - depth 1, hash d6beaea, HEAD~95
+2021-07-04 08:06:17,808 DEBUG                  - depth 2, hash dbae4b0, HEAD~290
+2021-07-04 08:06:17,812 DEBUG                  - depth 3, hash 559bc9e, HEAD~685
+2021-07-04 08:06:17,817 DEBUG                  - depth 4, hash 5979df5, HEAD~686
+2021-07-04 08:06:17,821 DEBUG                  - depth 5, hash 7d9003b, HEAD~692
+2021-07-04 08:06:17,825 DEBUG                  - depth 6, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,830 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java getRealEigenvalues 310:313
+2021-07-04 08:06:17,924 DEBUG                  - depth 0, hash 4cce86a, HEAD~642
+2021-07-04 08:06:17,930 DEBUG                  - depth 1, hash 19212b5, HEAD~720
+2021-07-04 08:06:17,934 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java getV 254:274
+2021-07-04 08:06:18,027 DEBUG                  - depth 0, hash 6d732db, HEAD~657
+2021-07-04 08:06:18,033 DEBUG                  - depth 1, hash 19212b5, HEAD~720
+2021-07-04 08:06:18,037 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java process3RowsBlock 756:810
+2021-07-04 08:06:18,131 DEBUG                  - depth 0, hash 26dac5a, HEAD~91
+2021-07-04 08:06:18,137 DEBUG                  - depth 1, hash 7f88773, HEAD~535
+2021-07-04 08:06:18,141 DEBUG                  - depth 2, hash 4cce86a, HEAD~642
+2021-07-04 08:06:18,145 DEBUG                  - depth 3, hash 7d9003b, HEAD~692
+2021-07-04 08:06:18,150 DEBUG                  - depth 4, hash 19212b5, HEAD~720
+2021-07-04 08:06:18,155 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java progressiveQuotientDifferenceWithShift 1876:1913
+2021-07-04 08:06:18,248 DEBUG                  - depth 0, hash 9ca7fb7, HEAD~34
+2021-07-04 08:06:18,254 DEBUG                  - depth 1, hash 0905e8c, HEAD~57
+2021-07-04 08:06:18,258 DEBUG                  - depth 2, hash 7d9003b, HEAD~692
+2021-07-04 08:06:18,262 DEBUG                  - depth 3, hash 19212b5, HEAD~720
+2021-07-04 08:06:18,267 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java stationaryQuotientDifferenceWithShift 1827:1866
+2021-07-04 08:06:18,360 DEBUG                  - depth 0, hash 9ca7fb7, HEAD~34
+2021-07-04 08:06:18,366 DEBUG                  - depth 1, hash 0905e8c, HEAD~57
+2021-07-04 08:06:18,370 DEBUG                  - depth 2, hash 7d9003b, HEAD~692
+2021-07-04 08:06:18,813 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java checkColumnIndex 542:548
+2021-07-04 08:06:18,889 DEBUG                  - depth 0, hash e497d61, HEAD~391
+2021-07-04 08:06:18,895 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java checkMultiplicationCompatible 648:656
+2021-07-04 08:06:18,971 DEBUG                  - depth 0, hash e497d61, HEAD~391
+2021-07-04 08:06:18,977 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java checkRowIndex 529:534
+2021-07-04 08:06:19,053 DEBUG                  - depth 0, hash e497d61, HEAD~391
+2021-07-04 08:06:19,059 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java checkSubMatrixIndex 561:579
+2021-07-04 08:06:19,143 DEBUG                  - depth 0, hash 26dac5a, HEAD~91
+2021-07-04 08:06:19,148 DEBUG                  - depth 1, hash e497d61, HEAD~391
+2021-07-04 08:06:19,152 DEBUG                  - depth 2, hash 1171b87, HEAD~429
+2021-07-04 08:06:19,156 DEBUG                  - depth 3, hash 7b37de8, HEAD~829
+2021-07-04 08:06:19,161 DEBUG                  - depth 4, hash cfc6701, HEAD~1310
+2021-07-04 08:06:19,165 DEBUG                  - depth 5, hash 674d4c5, HEAD~1358
+2021-07-04 08:06:19,169 DEBUG                  - depth 6, hash 2bb96a8, HEAD~1418
+2021-07-04 08:06:19,173 DEBUG                  - depth 7, hash b5f980e, HEAD~1432
+2021-07-04 08:06:19,178 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java checkSubtractionCompatible 631:640
+2021-07-04 08:06:19,254 DEBUG                  - depth 0, hash e497d61, HEAD~391
+2021-07-04 08:06:19,260 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java createRealDiagonalMatrix 201:207
+2021-07-04 08:06:19,346 DEBUG                  - depth 0, hash 415479d, HEAD~658
+2021-07-04 08:06:19,351 DEBUG                  - depth 1, hash 7b37de8, HEAD~829
+2021-07-04 08:06:19,356 DEBUG                  - depth 2, hash 674d4c5, HEAD~1358
+2021-07-04 08:06:19,360 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java createRealMatrix 60:63
+2021-07-04 08:06:19,441 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:19,446 DEBUG                  - depth 1, hash 3325ab5, HEAD~291
+2021-07-04 08:06:19,450 DEBUG                  - depth 2, hash 415479d, HEAD~658
+2021-07-04 08:06:19,454 DEBUG                  - depth 3, hash b5f980e, HEAD~1432
+2021-07-04 08:06:19,459 DEBUG    [line range] org/apache/commons/math/linear/MatrixUtils.java createRealMatrix 105:108
+2021-07-04 08:06:19,543 DEBUG                  - depth 0, hash dbae4b0, HEAD~290
+2021-07-04 08:06:19,549 DEBUG                  - depth 1, hash 3325ab5, HEAD~291
+2021-07-04 08:06:19,553 DEBUG                  - depth 2, hash 415479d, HEAD~658
+2021-07-04 08:06:19,557 DEBUG                  - depth 3, hash 7b37de8, HEAD~829
+2021-07-04 08:06:19,561 DEBUG                  - depth 4, hash b5f980e, HEAD~1432
+2021-07-04 08:06:19,918 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java <init> 116:125
+2021-07-04 08:06:20,005 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:20,011 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java <init> 93:95
+2021-07-04 08:06:20,095 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:20,101 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java getInstance 172:174
+2021-07-04 08:06:20,186 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:20,191 DEBUG    [line range] org/apache/commons/math/linear/RealVectorFormat.java getInstance 181:183
+2021-07-04 08:06:20,276 DEBUG                  - depth 0, hash a311dce, HEAD~764
+2021-07-04 08:06:20,659 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java <init> 96:99
+2021-07-04 08:06:20,751 DEBUG                  - depth 0, hash e62bb3b, HEAD~1
+2021-07-04 08:06:20,757 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java <init> 108:150
+2021-07-04 08:06:20,839 DEBUG                  - depth 0, hash e62bb3b, HEAD~1
+2021-07-04 08:06:20,844 DEBUG                  - depth 1, hash cc7e3e7, HEAD~32
+2021-07-04 08:06:20,848 DEBUG                  - depth 2, hash 0e91a5d, HEAD~641
+2021-07-04 08:06:20,853 DEBUG                  - depth 3, hash 94417fe, HEAD~679
+2021-07-04 08:06:20,857 DEBUG                  - depth 4, hash 7dcff7b, HEAD~681
+2021-07-04 08:06:20,862 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java getS 216:226
+2021-07-04 08:06:20,944 DEBUG                  - depth 0, hash 6d732db, HEAD~657
+2021-07-04 08:06:20,950 DEBUG                  - depth 1, hash 94417fe, HEAD~679
+2021-07-04 08:06:20,954 DEBUG                  - depth 2, hash 7dcff7b, HEAD~681
+2021-07-04 08:06:20,958 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java getSingularValues 229:232
+2021-07-04 08:06:21,040 DEBUG                  - depth 0, hash 94417fe, HEAD~679
+2021-07-04 08:06:21,046 DEBUG                  - depth 1, hash 7dcff7b, HEAD~681
+2021-07-04 08:06:21,050 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java getU 153:200
+2021-07-04 08:06:21,132 DEBUG                  - depth 0, hash e62bb3b, HEAD~1
+2021-07-04 08:06:21,138 DEBUG                  - depth 1, hash cc7e3e7, HEAD~32
+2021-07-04 08:06:21,142 DEBUG                  - depth 2, hash 26dac5a, HEAD~91
+2021-07-04 08:06:21,146 DEBUG                  - depth 3, hash 6d732db, HEAD~657
+2021-07-04 08:06:21,150 DEBUG                  - depth 4, hash 94417fe, HEAD~679
+2021-07-04 08:06:21,154 DEBUG                  - depth 5, hash 7dcff7b, HEAD~681
+2021-07-04 08:06:21,159 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java getV 235:282
+2021-07-04 08:06:21,242 DEBUG                  - depth 0, hash e62bb3b, HEAD~1
+2021-07-04 08:06:21,247 DEBUG                  - depth 1, hash cc7e3e7, HEAD~32
+2021-07-04 08:06:21,251 DEBUG                  - depth 2, hash 26dac5a, HEAD~91
+2021-07-04 08:06:21,256 DEBUG                  - depth 3, hash 6d732db, HEAD~657
+2021-07-04 08:06:21,260 DEBUG                  - depth 4, hash 94417fe, HEAD~679
+2021-07-04 08:06:21,264 DEBUG                  - depth 5, hash 7dcff7b, HEAD~681
+2021-07-04 08:06:21,268 DEBUG    [line range] org/apache/commons/math/linear/SingularValueDecompositionImpl.java getVT 285:295
+2021-07-04 08:06:21,350 DEBUG                  - depth 0, hash 7dcff7b, HEAD~681
+2021-07-04 08:06:21,700 DEBUG    [single line]   org/apache/commons/math/util/CompositeFormat.java <init> 30
+2021-07-04 08:06:21,787 DEBUG                  - depth 0, hash 1560839, HEAD~776
+2021-07-04 08:06:21,792 DEBUG    [line range] org/apache/commons/math/util/CompositeFormat.java getDefaultNumberFormat 52:56
+2021-07-04 08:06:21,881 DEBUG                  - depth 0, hash 1560839, HEAD~776
+2021-07-04 08:06:21,887 DEBUG    [line range] org/apache/commons/math/linear/EigenDecompositionImpl.java process2RowsBlock 728:748
+2021-07-04 08:06:21,981 DEBUG                  - depth 0, hash 7f88773, HEAD~535
+2021-07-04 08:06:21,986 DEBUG                  - depth 1, hash 4cce86a, HEAD~642
+2021-07-04 08:06:21,991 DEBUG                  - depth 2, hash 7d9003b, HEAD~692
+2021-07-04 08:06:21,995 DEBUG                  - depth 3, hash 19212b5, HEAD~720
+2021-07-04 08:06:21,999 INFO     The number of BIC candidates: 47

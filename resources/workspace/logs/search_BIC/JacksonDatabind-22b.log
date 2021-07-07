@@ -1,0 +1,1538 @@
+2021-07-03 22:11:54,994 INFO     Search BICs for /tmp/JacksonDatabind-22b/
+2021-07-03 22:11:54,994 DEBUG    Reading the coverage of com.fasterxml.jackson.databind.ser.TestJsonValue::testJsonValueWithCustomOverride (failings)
+2021-07-03 22:11:55,223 INFO     Loaded 1x1325 Coverage Matrix
+2021-07-03 22:11:55,223 INFO     The number of total commits: 2355
+2021-07-03 22:11:55,629 DEBUG    [single line]   com/fasterxml/jackson/databind/AnnotationIntrospector.java <init> 40
+2021-07-03 22:11:55,757 DEBUG                  - depth 0, hash 69d9c10, HEAD~1502
+2021-07-03 22:11:55,763 DEBUG                  - depth 1, hash 328fa30, HEAD~2325
+2021-07-03 22:11:55,767 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:11:55,771 DEBUG    [single line]   com/fasterxml/jackson/databind/AnnotationIntrospector.java <init> 53
+2021-07-03 22:11:55,899 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:11:55,904 DEBUG    [line range] com/fasterxml/jackson/databind/AnnotationIntrospector.java _findAnnotation 1113:1116
+2021-07-03 22:11:56,019 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:11:56,024 DEBUG    [line range] com/fasterxml/jackson/databind/AnnotationIntrospector.java _hasAnnotation 1131:1133
+2021-07-03 22:11:56,139 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:11:56,459 DEBUG    [line range] com/fasterxml/jackson/databind/BeanDescription.java <init> 42:44
+2021-07-03 22:11:56,573 DEBUG                  - depth 0, hash ab53ab4, HEAD~973
+2021-07-03 22:11:56,578 DEBUG                  - depth 1, hash 8bdd49b, HEAD~1364
+2021-07-03 22:11:56,583 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:11:56,917 DEBUG    [single line]   com/fasterxml/jackson/databind/DatabindContext.java <init> 26
+2021-07-03 22:11:57,029 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:11:57,034 DEBUG    [line range] com/fasterxml/jackson/databind/DatabindContext.java canOverrideAccessModifiers 72:74
+2021-07-03 22:11:57,146 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:11:57,151 DEBUG    [line range] com/fasterxml/jackson/databind/DatabindContext.java constructType 135:137
+2021-07-03 22:11:57,262 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:11:57,268 DEBUG    [line range] com/fasterxml/jackson/databind/DatabindContext.java isEnabled 62:64
+2021-07-03 22:11:57,384 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:11:57,783 DEBUG    [line range] com/fasterxml/jackson/databind/DeserializationConfig.java <init> 71:81
+2021-07-03 22:11:57,907 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:11:57,912 DEBUG                  - depth 1, hash 57b287f, HEAD~227
+2021-07-03 22:11:57,916 DEBUG                  - depth 2, hash 4fc7cb0, HEAD~601
+2021-07-03 22:11:57,920 DEBUG                  - depth 3, hash caf7984, HEAD~604
+2021-07-03 22:11:57,924 DEBUG                  - depth 4, hash 9610aff, HEAD~2151
+2021-07-03 22:11:57,929 DEBUG                  - depth 5, hash 8be5ba0, HEAD~2262
+2021-07-03 22:11:57,933 DEBUG                  - depth 6, hash dfed924, HEAD~2270
+2021-07-03 22:11:57,937 DEBUG                  - depth 7, hash 3108d85, HEAD~2271
+2021-07-03 22:11:57,941 DEBUG                  - depth 8, hash eaedfb7, HEAD~2274
+2021-07-03 22:11:57,945 DEBUG                  - depth 9, hash 5087f97, HEAD~2275
+2021-07-03 22:11:57,949 DEBUG                  - depth 10, hash e4f23bb, HEAD~2353
+2021-07-03 22:11:58,373 DEBUG    [line range] com/fasterxml/jackson/databind/DeserializationContext.java <init> 151:165
+2021-07-03 22:11:58,495 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:11:58,500 DEBUG                  - depth 1, hash 060ce11, HEAD~2152
+2021-07-03 22:11:58,504 DEBUG                  - depth 2, hash 06c20b1, HEAD~2195
+2021-07-03 22:11:58,508 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:11:58,808 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 20
+2021-07-03 22:11:58,924 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:58,929 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 42
+2021-07-03 22:11:59,045 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,050 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 60
+2021-07-03 22:11:59,165 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,170 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 83
+2021-07-03 22:11:59,284 DEBUG                  - depth 0, hash 23e52ab, HEAD~92
+2021-07-03 22:11:59,289 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,293 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 94
+2021-07-03 22:11:59,408 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,413 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 107
+2021-07-03 22:11:59,527 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,533 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 129
+2021-07-03 22:11:59,653 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,658 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 140
+2021-07-03 22:11:59,773 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,778 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 154
+2021-07-03 22:11:59,893 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:11:59,899 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 167
+2021-07-03 22:12:00,013 DEBUG                  - depth 0, hash 192c1dc, HEAD~1573
+2021-07-03 22:12:00,018 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 184
+2021-07-03 22:12:00,131 DEBUG                  - depth 0, hash 3955abb, HEAD~1405
+2021-07-03 22:12:00,136 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 195
+2021-07-03 22:12:00,249 DEBUG                  - depth 0, hash 11f7304, HEAD~1201
+2021-07-03 22:12:00,255 DEBUG                  - depth 1, hash 192c1dc, HEAD~1573
+2021-07-03 22:12:00,259 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 211
+2021-07-03 22:12:00,372 DEBUG                  - depth 0, hash dfa1b44, HEAD~443
+2021-07-03 22:12:00,377 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 232
+2021-07-03 22:12:00,488 DEBUG                  - depth 0, hash 41f8ca1, HEAD~144
+2021-07-03 22:12:00,493 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 249
+2021-07-03 22:12:00,608 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:00,614 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 268
+2021-07-03 22:12:00,729 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:00,734 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 279
+2021-07-03 22:12:00,848 DEBUG                  - depth 0, hash 0e37a39, HEAD~1120
+2021-07-03 22:12:00,853 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 291
+2021-07-03 22:12:00,969 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:00,974 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 310
+2021-07-03 22:12:01,089 DEBUG                  - depth 0, hash f293cc4, HEAD~2017
+2021-07-03 22:12:01,095 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:01,099 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 325
+2021-07-03 22:12:01,216 DEBUG                  - depth 0, hash c86fb3a, HEAD~720
+2021-07-03 22:12:01,221 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 339
+2021-07-03 22:12:01,337 DEBUG                  - depth 0, hash 8e9d4b2, HEAD~163
+2021-07-03 22:12:01,343 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 354
+2021-07-03 22:12:01,459 DEBUG                  - depth 0, hash fcbce11, HEAD~1946
+2021-07-03 22:12:01,464 DEBUG                  - depth 1, hash f293cc4, HEAD~2017
+2021-07-03 22:12:01,468 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 371
+2021-07-03 22:12:01,583 DEBUG                  - depth 0, hash a9f2a35, HEAD~1475
+2021-07-03 22:12:01,588 DEBUG                  - depth 1, hash c7112ff, HEAD~1477
+2021-07-03 22:12:01,592 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 383
+2021-07-03 22:12:01,707 DEBUG                  - depth 0, hash a9f2a35, HEAD~1475
+2021-07-03 22:12:01,713 DEBUG                  - depth 1, hash c7112ff, HEAD~1477
+2021-07-03 22:12:01,717 DEBUG    [single line]   com/fasterxml/jackson/databind/DeserializationFeature.java <clinit> 405
+2021-07-03 22:12:01,830 DEBUG                  - depth 0, hash fcbce11, HEAD~1946
+2021-07-03 22:12:01,836 DEBUG                  - depth 1, hash f293cc4, HEAD~2017
+2021-07-03 22:12:01,840 DEBUG    [line range] com/fasterxml/jackson/databind/DeserializationFeature.java <init> 412:415
+2021-07-03 22:12:01,955 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:01,960 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:01,965 DEBUG    [line range] com/fasterxml/jackson/databind/DeserializationFeature.java enabledByDefault 417:418
+2021-07-03 22:12:02,080 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:02,085 DEBUG                  - depth 1, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:02,089 DEBUG                  - depth 2, hash 9610aff, HEAD~2151
+2021-07-03 22:12:02,094 DEBUG    [line range] com/fasterxml/jackson/databind/DeserializationFeature.java getMask 420:421
+2021-07-03 22:12:02,208 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:02,214 DEBUG                  - depth 1, hash 9439a31, HEAD~1525
+2021-07-03 22:12:02,218 DEBUG                  - depth 2, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:02,222 DEBUG                  - depth 3, hash 9610aff, HEAD~2151
+2021-07-03 22:12:02,600 DEBUG    [line range] com/fasterxml/jackson/databind/JavaType.java <init> 74:82
+2021-07-03 22:12:02,714 DEBUG                  - depth 0, hash 0e1e878, HEAD~1110
+2021-07-03 22:12:02,719 DEBUG                  - depth 1, hash 43307b4, HEAD~1499
+2021-07-03 22:12:02,723 DEBUG                  - depth 2, hash fcb1c25, HEAD~2347
+2021-07-03 22:12:02,727 DEBUG                  - depth 3, hash d92c1ed, HEAD~2348
+2021-07-03 22:12:02,732 DEBUG    [single line]   com/fasterxml/jackson/databind/JavaType.java getKeyType 18
+2021-07-03 22:12:02,844 DEBUG                  - depth 0, hash d92c1ed, HEAD~2348
+2021-07-03 22:12:02,850 DEBUG    [line range] com/fasterxml/jackson/databind/JavaType.java getRawClass 219:220
+2021-07-03 22:12:02,963 DEBUG                  - depth 0, hash d92c1ed, HEAD~2348
+2021-07-03 22:12:02,968 DEBUG    [line range] com/fasterxml/jackson/databind/JavaType.java getReferencedType 336:337
+2021-07-03 22:12:03,079 DEBUG                  - depth 0, hash c85438b, HEAD~172
+2021-07-03 22:12:03,085 DEBUG    [line range] com/fasterxml/jackson/databind/JavaType.java hashCode 481:482
+2021-07-03 22:12:03,198 DEBUG                  - depth 0, hash 0e1e878, HEAD~1110
+2021-07-03 22:12:03,204 DEBUG                  - depth 1, hash d92c1ed, HEAD~2348
+2021-07-03 22:12:03,515 DEBUG    [single line]   com/fasterxml/jackson/databind/JsonSerializer.java <init> 52
+2021-07-03 22:12:03,628 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:03,633 DEBUG    [single line]   com/fasterxml/jackson/databind/JsonSerializer.java <init> 278
+2021-07-03 22:12:03,745 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:04,048 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 17
+2021-07-03 22:12:04,163 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,168 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 33
+2021-07-03 22:12:04,283 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,289 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 49
+2021-07-03 22:12:04,404 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,409 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 64
+2021-07-03 22:12:04,523 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,529 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 83
+2021-07-03 22:12:04,643 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,649 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 99
+2021-07-03 22:12:04,763 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,769 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 115
+2021-07-03 22:12:04,883 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:04,889 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 126
+2021-07-03 22:12:05,003 DEBUG                  - depth 0, hash 930187b, HEAD~1494
+2021-07-03 22:12:05,008 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:05,013 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 144
+2021-07-03 22:12:05,127 DEBUG                  - depth 0, hash 930187b, HEAD~1494
+2021-07-03 22:12:05,133 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:05,137 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 168
+2021-07-03 22:12:05,255 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:05,261 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 186
+2021-07-03 22:12:05,378 DEBUG                  - depth 0, hash 930187b, HEAD~1494
+2021-07-03 22:12:05,384 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 200
+2021-07-03 22:12:05,497 DEBUG                  - depth 0, hash 8f2ea6c, HEAD~1490
+2021-07-03 22:12:05,502 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 211
+2021-07-03 22:12:05,620 DEBUG                  - depth 0, hash cb6dddd, HEAD~113
+2021-07-03 22:12:05,625 DEBUG                  - depth 1, hash 930187b, HEAD~1494
+2021-07-03 22:12:05,629 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 234
+2021-07-03 22:12:05,747 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:05,752 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 258
+2021-07-03 22:12:05,867 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:05,872 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 281
+2021-07-03 22:12:05,987 DEBUG                  - depth 0, hash 202567b, HEAD~1788
+2021-07-03 22:12:05,992 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:05,996 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 302
+2021-07-03 22:12:06,101 DEBUG                  - depth 0, hash edad12f, HEAD~705
+2021-07-03 22:12:06,106 DEBUG                  - depth 1, hash 202567b, HEAD~1788
+2021-07-03 22:12:06,110 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 316
+2021-07-03 22:12:06,224 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:06,230 DEBUG                  - depth 1, hash 202567b, HEAD~1788
+2021-07-03 22:12:06,234 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 332
+2021-07-03 22:12:06,352 DEBUG                  - depth 0, hash 42ef5bb, HEAD~468
+2021-07-03 22:12:06,357 DEBUG                  - depth 1, hash d672b18, HEAD~577
+2021-07-03 22:12:06,362 DEBUG                  - depth 2, hash 202567b, HEAD~1788
+2021-07-03 22:12:06,366 DEBUG    [single line]   com/fasterxml/jackson/databind/MapperFeature.java <clinit> 357
+2021-07-03 22:12:06,481 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:06,487 DEBUG                  - depth 1, hash 202567b, HEAD~1788
+2021-07-03 22:12:06,491 DEBUG    [line range] com/fasterxml/jackson/databind/MapperFeature.java <init> 364:367
+2021-07-03 22:12:06,610 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:06,615 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:06,619 DEBUG    [line range] com/fasterxml/jackson/databind/MapperFeature.java enabledByDefault 369:370
+2021-07-03 22:12:06,734 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:06,740 DEBUG                  - depth 1, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:06,744 DEBUG                  - depth 2, hash 9610aff, HEAD~2151
+2021-07-03 22:12:06,748 DEBUG    [line range] com/fasterxml/jackson/databind/MapperFeature.java getMask 372:373
+2021-07-03 22:12:06,867 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:06,872 DEBUG                  - depth 1, hash 9439a31, HEAD~1525
+2021-07-03 22:12:06,876 DEBUG                  - depth 2, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:06,881 DEBUG                  - depth 3, hash 9610aff, HEAD~2151
+2021-07-03 22:12:07,188 DEBUG    [line range] com/fasterxml/jackson/databind/MappingJsonFactory.java <init> 28:34
+2021-07-03 22:12:07,299 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:07,650 DEBUG    [single line]   com/fasterxml/jackson/databind/Module.java <init> 21
+2021-07-03 22:12:07,763 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:07,768 DEBUG    [single line]   com/fasterxml/jackson/databind/Module.java <init> 87
+2021-07-03 22:12:07,880 DEBUG                  - depth 0, hash edb39af, HEAD~2316
+2021-07-03 22:12:07,886 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:08,483 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java <clinit> 256:256
+2021-07-03 22:12:08,705 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:08,711 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java <init> 448:450
+2021-07-03 22:12:08,884 DEBUG                  - depth 0, hash 2bfcd73, HEAD~702
+2021-07-03 22:12:08,890 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:08,894 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java <init> 427:428
+2021-07-03 22:12:09,066 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:09,072 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java _configAndWriteValue 3514:3542
+2021-07-03 22:12:09,246 DEBUG                  - depth 0, hash c0b9552, HEAD~124
+2021-07-03 22:12:09,252 DEBUG                  - depth 1, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:09,256 DEBUG                  - depth 2, hash 5448e5e, HEAD~1043
+2021-07-03 22:12:09,260 DEBUG                  - depth 3, hash e090cd8, HEAD~1390
+2021-07-03 22:12:09,264 DEBUG                  - depth 4, hash 9610aff, HEAD~2151
+2021-07-03 22:12:09,268 DEBUG                  - depth 5, hash 6679cae, HEAD~2160
+2021-07-03 22:12:09,273 DEBUG                  - depth 6, hash dfed924, HEAD~2270
+2021-07-03 22:12:09,277 DEBUG                  - depth 7, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:09,281 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java _serializerProvider 3498:3500
+2021-07-03 22:12:09,441 DEBUG                  - depth 0, hash 5c8f810, HEAD~2133
+2021-07-03 22:12:09,447 DEBUG                  - depth 1, hash 6679cae, HEAD~2160
+2021-07-03 22:12:09,451 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java defaultClassIntrospector 549:551
+2021-07-03 22:12:09,583 DEBUG                  - depth 0, hash 044bb5a, HEAD~692
+2021-07-03 22:12:09,589 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java getSerializationConfig 965:967
+2021-07-03 22:12:09,761 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:09,767 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java isEnabled 1683:1686
+2021-07-03 22:12:09,899 DEBUG                  - depth 0, hash b7edca6, HEAD~597
+2021-07-03 22:12:09,904 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java registerModule 678:862
+2021-07-03 22:12:10,083 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:10,088 DEBUG                  - depth 1, hash 545e35e, HEAD~1271
+2021-07-03 22:12:10,092 DEBUG                  - depth 2, hash 9439a31, HEAD~1525
+2021-07-03 22:12:10,097 DEBUG                  - depth 3, hash 3b0abb2, HEAD~1674
+2021-07-03 22:12:10,101 DEBUG                  - depth 4, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:10,105 DEBUG                  - depth 5, hash 3a9a637, HEAD~2079
+2021-07-03 22:12:10,109 DEBUG                  - depth 6, hash 9610aff, HEAD~2151
+2021-07-03 22:12:10,113 DEBUG                  - depth 7, hash 060ce11, HEAD~2152
+2021-07-03 22:12:10,117 DEBUG                  - depth 8, hash e3ae58e, HEAD~2200
+2021-07-03 22:12:10,121 DEBUG                  - depth 9, hash 9e50422, HEAD~2233
+2021-07-03 22:12:10,125 DEBUG                  - depth 10, hash cbbfbd3, HEAD~2259
+2021-07-03 22:12:10,130 DEBUG                  - depth 11, hash 5087f97, HEAD~2275
+2021-07-03 22:12:10,134 DEBUG                  - depth 12, hash edb39af, HEAD~2316
+2021-07-03 22:12:10,138 DEBUG                  - depth 13, hash d1e678e, HEAD~2349
+2021-07-03 22:12:10,142 DEBUG                  - depth 14, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:10,146 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java writeValueAsString 2908:2922
+2021-07-03 22:12:10,321 DEBUG                  - depth 0, hash 156487d, HEAD~1372
+2021-07-03 22:12:10,327 DEBUG                  - depth 1, hash d06026f, HEAD~1688
+2021-07-03 22:12:10,331 DEBUG                  - depth 2, hash ac1f2ab, HEAD~1898
+2021-07-03 22:12:10,335 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:10,340 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java <init> 678:862
+2021-07-03 22:12:10,518 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:10,524 DEBUG                  - depth 1, hash 545e35e, HEAD~1271
+2021-07-03 22:12:10,528 DEBUG                  - depth 2, hash 9439a31, HEAD~1525
+2021-07-03 22:12:10,532 DEBUG                  - depth 3, hash 3b0abb2, HEAD~1674
+2021-07-03 22:12:10,536 DEBUG                  - depth 4, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:10,541 DEBUG                  - depth 5, hash 3a9a637, HEAD~2079
+2021-07-03 22:12:10,545 DEBUG                  - depth 6, hash 9610aff, HEAD~2151
+2021-07-03 22:12:10,549 DEBUG                  - depth 7, hash 060ce11, HEAD~2152
+2021-07-03 22:12:10,553 DEBUG                  - depth 8, hash e3ae58e, HEAD~2200
+2021-07-03 22:12:10,557 DEBUG                  - depth 9, hash 9e50422, HEAD~2233
+2021-07-03 22:12:10,561 DEBUG                  - depth 10, hash cbbfbd3, HEAD~2259
+2021-07-03 22:12:10,565 DEBUG                  - depth 11, hash 5087f97, HEAD~2275
+2021-07-03 22:12:10,570 DEBUG                  - depth 12, hash edb39af, HEAD~2316
+2021-07-03 22:12:10,574 DEBUG                  - depth 13, hash d1e678e, HEAD~2349
+2021-07-03 22:12:10,578 DEBUG                  - depth 14, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:10,582 DEBUG    [line range] com/fasterxml/jackson/databind/ObjectMapper.java addSerializers 678:862
+2021-07-03 22:12:10,761 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:10,767 DEBUG                  - depth 1, hash 545e35e, HEAD~1271
+2021-07-03 22:12:10,771 DEBUG                  - depth 2, hash 9439a31, HEAD~1525
+2021-07-03 22:12:10,775 DEBUG                  - depth 3, hash 3b0abb2, HEAD~1674
+2021-07-03 22:12:10,779 DEBUG                  - depth 4, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:10,783 DEBUG                  - depth 5, hash 3a9a637, HEAD~2079
+2021-07-03 22:12:10,787 DEBUG                  - depth 6, hash 9610aff, HEAD~2151
+2021-07-03 22:12:10,792 DEBUG                  - depth 7, hash 060ce11, HEAD~2152
+2021-07-03 22:12:10,796 DEBUG                  - depth 8, hash e3ae58e, HEAD~2200
+2021-07-03 22:12:10,800 DEBUG                  - depth 9, hash 9e50422, HEAD~2233
+2021-07-03 22:12:10,804 DEBUG                  - depth 10, hash cbbfbd3, HEAD~2259
+2021-07-03 22:12:10,808 DEBUG                  - depth 11, hash 5087f97, HEAD~2275
+2021-07-03 22:12:10,812 DEBUG                  - depth 12, hash edb39af, HEAD~2316
+2021-07-03 22:12:10,817 DEBUG                  - depth 13, hash d1e678e, HEAD~2349
+2021-07-03 22:12:10,821 DEBUG                  - depth 14, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:11,160 DEBUG    [line range] com/fasterxml/jackson/databind/PropertyName.java <clinit> 28:28
+2021-07-03 22:12:11,273 DEBUG                  - depth 0, hash 8d53c22, HEAD~1501
+2021-07-03 22:12:11,279 DEBUG                  - depth 1, hash fc5705a, HEAD~1794
+2021-07-03 22:12:11,283 DEBUG                  - depth 2, hash 257da8e, HEAD~1807
+2021-07-03 22:12:11,287 DEBUG    [line range] com/fasterxml/jackson/databind/PropertyName.java <init> 59:61
+2021-07-03 22:12:11,399 DEBUG                  - depth 0, hash 257da8e, HEAD~1807
+2021-07-03 22:12:11,404 DEBUG    [line range] com/fasterxml/jackson/databind/PropertyName.java <init> 63:67
+2021-07-03 22:12:11,516 DEBUG                  - depth 0, hash 3848a41, HEAD~1802
+2021-07-03 22:12:11,522 DEBUG                  - depth 1, hash 257da8e, HEAD~1807
+2021-07-03 22:12:11,913 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java <clinit> 43:43
+2021-07-03 22:12:12,026 DEBUG                  - depth 0, hash c0b9552, HEAD~124
+2021-07-03 22:12:12,031 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java <init> 56:56
+2021-07-03 22:12:12,155 DEBUG                  - depth 0, hash 2aa6484, HEAD~2301
+2021-07-03 22:12:12,161 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:12,165 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java <init> 91:101
+2021-07-03 22:12:12,290 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:12:12,295 DEBUG                  - depth 1, hash c0b9552, HEAD~124
+2021-07-03 22:12:12,300 DEBUG                  - depth 2, hash 57b287f, HEAD~227
+2021-07-03 22:12:12,304 DEBUG                  - depth 3, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:12,308 DEBUG                  - depth 4, hash 9610aff, HEAD~2151
+2021-07-03 22:12:12,312 DEBUG                  - depth 5, hash 8be5ba0, HEAD~2262
+2021-07-03 22:12:12,316 DEBUG                  - depth 6, hash dfed924, HEAD~2270
+2021-07-03 22:12:12,321 DEBUG                  - depth 7, hash 3108d85, HEAD~2271
+2021-07-03 22:12:12,325 DEBUG                  - depth 8, hash eaedfb7, HEAD~2274
+2021-07-03 22:12:12,329 DEBUG                  - depth 9, hash 5087f97, HEAD~2275
+2021-07-03 22:12:12,333 DEBUG                  - depth 10, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:12,337 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java getAnnotationIntrospector 661:668
+2021-07-03 22:12:12,463 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:12,468 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:12,473 DEBUG                  - depth 2, hash e196174, HEAD~2250
+2021-07-03 22:12:12,477 DEBUG                  - depth 3, hash dfed924, HEAD~2270
+2021-07-03 22:12:12,481 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:12,485 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java getDefaultVisibilityChecker 689:704
+2021-07-03 22:12:12,614 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:12,619 DEBUG                  - depth 1, hash dfed924, HEAD~2270
+2021-07-03 22:12:12,624 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:12,628 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java initialize 620:644
+2021-07-03 22:12:12,741 DEBUG                  - depth 0, hash c0b9552, HEAD~124
+2021-07-03 22:12:12,747 DEBUG                  - depth 1, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:12,751 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java introspect 787:790
+2021-07-03 22:12:12,873 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:12,879 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java introspectClassAnnotations 674:677
+2021-07-03 22:12:13,001 DEBUG                  - depth 0, hash 28bde07, HEAD~2245
+2021-07-03 22:12:13,007 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:13,011 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationConfig.java isEnabled 712:714
+2021-07-03 22:12:13,131 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:13,136 DEBUG                  - depth 1, hash e3ae58e, HEAD~2200
+2021-07-03 22:12:13,438 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 16
+2021-07-03 22:12:13,554 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:13,560 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 35
+2021-07-03 22:12:13,676 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:13,682 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 49
+2021-07-03 22:12:13,796 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:13,802 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 72
+2021-07-03 22:12:13,917 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:13,922 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 84
+2021-07-03 22:12:14,035 DEBUG                  - depth 0, hash 1fc74a7, HEAD~1067
+2021-07-03 22:12:14,041 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 102
+2021-07-03 22:12:14,156 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:14,161 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 116
+2021-07-03 22:12:14,274 DEBUG                  - depth 0, hash 9eca5b3, HEAD~17
+2021-07-03 22:12:14,280 DEBUG                  - depth 1, hash 6c737eb, HEAD~903
+2021-07-03 22:12:14,284 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 140
+2021-07-03 22:12:14,399 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:14,405 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 154
+2021-07-03 22:12:14,521 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:14,526 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 184
+2021-07-03 22:12:14,642 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:14,647 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 197
+2021-07-03 22:12:14,760 DEBUG                  - depth 0, hash 6709f72, HEAD~105
+2021-07-03 22:12:14,766 DEBUG                  - depth 1, hash e4edb6e, HEAD~587
+2021-07-03 22:12:14,770 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 218
+2021-07-03 22:12:14,882 DEBUG                  - depth 0, hash 6709f72, HEAD~105
+2021-07-03 22:12:14,887 DEBUG                  - depth 1, hash e4edb6e, HEAD~587
+2021-07-03 22:12:14,892 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 235
+2021-07-03 22:12:15,008 DEBUG                  - depth 0, hash 6709f72, HEAD~105
+2021-07-03 22:12:15,013 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:15,018 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 245
+2021-07-03 22:12:15,138 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:15,143 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 257
+2021-07-03 22:12:15,258 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:15,264 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 272
+2021-07-03 22:12:15,381 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:15,386 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 280
+2021-07-03 22:12:15,506 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:15,511 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 293
+2021-07-03 22:12:15,626 DEBUG                  - depth 0, hash 49117e0, HEAD~2072
+2021-07-03 22:12:15,632 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:15,636 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 316
+2021-07-03 22:12:15,756 DEBUG                  - depth 0, hash 1421af6, HEAD~2054
+2021-07-03 22:12:15,761 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 334
+2021-07-03 22:12:15,874 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:15,880 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 352
+2021-07-03 22:12:15,994 DEBUG                  - depth 0, hash 3cd2e35, HEAD~619
+2021-07-03 22:12:16,000 DEBUG                  - depth 1, hash a9f2a35, HEAD~1475
+2021-07-03 22:12:16,004 DEBUG                  - depth 2, hash c7112ff, HEAD~1477
+2021-07-03 22:12:16,008 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 362
+2021-07-03 22:12:16,124 DEBUG                  - depth 0, hash d8b0810, HEAD~1945
+2021-07-03 22:12:16,130 DEBUG                  - depth 1, hash 1421af6, HEAD~2054
+2021-07-03 22:12:16,134 DEBUG                  - depth 2, hash 49117e0, HEAD~2072
+2021-07-03 22:12:16,138 DEBUG                  - depth 3, hash 9610aff, HEAD~2151
+2021-07-03 22:12:16,142 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 384
+2021-07-03 22:12:16,257 DEBUG                  - depth 0, hash cded3a2, HEAD~1346
+2021-07-03 22:12:16,263 DEBUG                  - depth 1, hash d8b0810, HEAD~1945
+2021-07-03 22:12:16,267 DEBUG                  - depth 2, hash 1421af6, HEAD~2054
+2021-07-03 22:12:16,271 DEBUG                  - depth 3, hash 49117e0, HEAD~2072
+2021-07-03 22:12:16,275 DEBUG                  - depth 4, hash 9610aff, HEAD~2151
+2021-07-03 22:12:16,280 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializationFeature.java <clinit> 397
+2021-07-03 22:12:16,396 DEBUG                  - depth 0, hash cded3a2, HEAD~1346
+2021-07-03 22:12:16,402 DEBUG                  - depth 1, hash d8b0810, HEAD~1945
+2021-07-03 22:12:16,406 DEBUG                  - depth 2, hash 1421af6, HEAD~2054
+2021-07-03 22:12:16,410 DEBUG                  - depth 3, hash 49117e0, HEAD~2072
+2021-07-03 22:12:16,414 DEBUG                  - depth 4, hash 9610aff, HEAD~2151
+2021-07-03 22:12:16,419 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationFeature.java <init> 403:406
+2021-07-03 22:12:16,536 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:16,542 DEBUG                  - depth 1, hash 9610aff, HEAD~2151
+2021-07-03 22:12:16,546 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationFeature.java enabledByDefault 408:409
+2021-07-03 22:12:16,662 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:16,667 DEBUG                  - depth 1, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:16,672 DEBUG                  - depth 2, hash 9610aff, HEAD~2151
+2021-07-03 22:12:16,676 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationFeature.java enabledIn 415:416
+2021-07-03 22:12:16,791 DEBUG                  - depth 0, hash 1a24cc1, HEAD~77
+2021-07-03 22:12:16,797 DEBUG                  - depth 1, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:16,801 DEBUG                  - depth 2, hash 9610aff, HEAD~2151
+2021-07-03 22:12:16,805 DEBUG    [line range] com/fasterxml/jackson/databind/SerializationFeature.java getMask 412:413
+2021-07-03 22:12:16,925 DEBUG                  - depth 0, hash 4fc7cb0, HEAD~601
+2021-07-03 22:12:16,930 DEBUG                  - depth 1, hash 9439a31, HEAD~1525
+2021-07-03 22:12:16,935 DEBUG                  - depth 2, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:16,939 DEBUG                  - depth 3, hash 9610aff, HEAD~2151
+2021-07-03 22:12:17,395 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java <clinit> 46:47
+2021-07-03 22:12:17,517 DEBUG                  - depth 0, hash 6679cae, HEAD~2160
+2021-07-03 22:12:17,523 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java <init> 181:194
+2021-07-03 22:12:17,643 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:12:17,649 DEBUG                  - depth 1, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:17,653 DEBUG                  - depth 2, hash 14d9761, HEAD~1340
+2021-07-03 22:12:17,658 DEBUG                  - depth 3, hash 6679cae, HEAD~2160
+2021-07-03 22:12:17,662 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:17,666 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java <init> 120:120
+2021-07-03 22:12:17,786 DEBUG                  - depth 0, hash 6679cae, HEAD~2160
+2021-07-03 22:12:17,792 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java <init> 202:226
+2021-07-03 22:12:17,909 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:12:17,914 DEBUG                  - depth 1, hash 8f09606, HEAD~381
+2021-07-03 22:12:17,919 DEBUG                  - depth 2, hash 23328aa, HEAD~632
+2021-07-03 22:12:17,923 DEBUG                  - depth 3, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:17,927 DEBUG                  - depth 4, hash 14d9761, HEAD~1340
+2021-07-03 22:12:17,931 DEBUG                  - depth 5, hash e6faa45, HEAD~2094
+2021-07-03 22:12:17,936 DEBUG                  - depth 6, hash ff8c08c, HEAD~2101
+2021-07-03 22:12:17,940 DEBUG                  - depth 7, hash 6679cae, HEAD~2160
+2021-07-03 22:12:17,944 DEBUG                  - depth 8, hash b2d3c7d, HEAD~2203
+2021-07-03 22:12:17,949 DEBUG                  - depth 9, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:17,953 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java _createAndCacheUntypedSerializer 1148:1165
+2021-07-03 22:12:18,076 DEBUG                  - depth 0, hash ab511e5, HEAD~1756
+2021-07-03 22:12:18,081 DEBUG                  - depth 1, hash 6679cae, HEAD~2160
+2021-07-03 22:12:18,086 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:18,090 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java _createAndCacheUntypedSerializer 1128:1146
+2021-07-03 22:12:18,208 DEBUG                  - depth 0, hash ec1820d, HEAD~256
+2021-07-03 22:12:18,213 DEBUG                  - depth 1, hash ab511e5, HEAD~1756
+2021-07-03 22:12:18,218 DEBUG                  - depth 2, hash 6679cae, HEAD~2160
+2021-07-03 22:12:18,222 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:18,227 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java _createUntypedSerializer 1170:1182
+2021-07-03 22:12:18,344 DEBUG                  - depth 0, hash ec1820d, HEAD~256
+2021-07-03 22:12:18,350 DEBUG                  - depth 1, hash d5daa45, HEAD~1548
+2021-07-03 22:12:18,354 DEBUG                  - depth 2, hash ab511e5, HEAD~1756
+2021-07-03 22:12:18,359 DEBUG                  - depth 3, hash 6679cae, HEAD~2160
+2021-07-03 22:12:18,363 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:18,367 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java findPrimaryPropertySerializer 587:607
+2021-07-03 22:12:18,494 DEBUG                  - depth 0, hash 59fe29c, HEAD~1288
+2021-07-03 22:12:18,500 DEBUG                  - depth 1, hash b530c4d, HEAD~1291
+2021-07-03 22:12:18,504 DEBUG                  - depth 2, hash 6679cae, HEAD~2160
+2021-07-03 22:12:18,508 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:18,513 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java findTypedValueSerializer 652:679
+2021-07-03 22:12:18,639 DEBUG                  - depth 0, hash 6679cae, HEAD~2160
+2021-07-03 22:12:18,645 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:18,649 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java findValueSerializer 456:485
+2021-07-03 22:12:18,776 DEBUG                  - depth 0, hash 7b5694b, HEAD~645
+2021-07-03 22:12:18,781 DEBUG                  - depth 1, hash 59fe29c, HEAD~1288
+2021-07-03 22:12:18,786 DEBUG                  - depth 2, hash b530c4d, HEAD~1291
+2021-07-03 22:12:18,790 DEBUG                  - depth 3, hash ab511e5, HEAD~1756
+2021-07-03 22:12:18,794 DEBUG                  - depth 4, hash 6679cae, HEAD~2160
+2021-07-03 22:12:18,798 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:18,803 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java getAnnotationIntrospector 318:321
+2021-07-03 22:12:18,919 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:18,925 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java getConfig 315:316
+2021-07-03 22:12:19,045 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:19,051 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:19,055 DEBUG    [single line]   com/fasterxml/jackson/databind/SerializerProvider.java getConfig 36
+2021-07-03 22:12:19,181 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:19,187 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java getTypeFactory 323:326
+2021-07-03 22:12:19,303 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:19,309 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java handlePrimaryContextualization 883:893
+2021-07-03 22:12:19,423 DEBUG                  - depth 0, hash 59fe29c, HEAD~1288
+2021-07-03 22:12:19,429 DEBUG                  - depth 1, hash b530c4d, HEAD~1291
+2021-07-03 22:12:19,433 DEBUG    [line range] com/fasterxml/jackson/databind/SerializerProvider.java handleSecondaryContextualization 911:921
+2021-07-03 22:12:19,553 DEBUG                  - depth 0, hash 59fe29c, HEAD~1288
+2021-07-03 22:12:19,559 DEBUG                  - depth 1, hash 47ac6bd, HEAD~1290
+2021-07-03 22:12:19,563 DEBUG                  - depth 2, hash b530c4d, HEAD~1291
+2021-07-03 22:12:19,868 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <clinit> 185
+2021-07-03 22:12:19,979 DEBUG                  - depth 0, hash 158e116, HEAD~72
+2021-07-03 22:12:19,985 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <clinit> 192
+2021-07-03 22:12:20,098 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:20,104 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <clinit> 198
+2021-07-03 22:12:20,216 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:20,221 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <clinit> 208
+2021-07-03 22:12:20,334 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:20,340 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <clinit> 228
+2021-07-03 22:12:20,453 DEBUG                  - depth 0, hash 07bcd04, HEAD~1347
+2021-07-03 22:12:20,459 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:20,463 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <clinit> 236
+2021-07-03 22:12:20,580 DEBUG                  - depth 0, hash 07bcd04, HEAD~1347
+2021-07-03 22:12:20,586 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:20,590 DEBUG    [single line]   com/fasterxml/jackson/databind/annotation/JsonSerialize.java <init> 186
+2021-07-03 22:12:20,707 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:21,050 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java <init> 136:152
+2021-07-03 22:12:21,162 DEBUG                  - depth 0, hash 8d2cdd7, HEAD~1864
+2021-07-03 22:12:21,168 DEBUG                  - depth 1, hash da63757, HEAD~2093
+2021-07-03 22:12:21,172 DEBUG                  - depth 2, hash 28bde07, HEAD~2245
+2021-07-03 22:12:21,176 DEBUG                  - depth 3, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,181 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java getAnnotationIntrospector 305:307
+2021-07-03 22:12:21,293 DEBUG                  - depth 0, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,299 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java getClassIntrospector 301:303
+2021-07-03 22:12:21,411 DEBUG                  - depth 0, hash 28bde07, HEAD~2245
+2021-07-03 22:12:21,417 DEBUG                  - depth 1, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,421 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java getPropertyNamingStrategy 313:315
+2021-07-03 22:12:21,536 DEBUG                  - depth 0, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,541 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java getTypeFactory 317:319
+2021-07-03 22:12:21,656 DEBUG                  - depth 0, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,661 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java getTypeResolverBuilder 321:323
+2021-07-03 22:12:21,773 DEBUG                  - depth 0, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,779 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java getVisibilityChecker 309:311
+2021-07-03 22:12:21,891 DEBUG                  - depth 0, hash c733a7f, HEAD~2276
+2021-07-03 22:12:21,897 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/BaseSettings.java withClassIntrospector 160:167
+2021-07-03 22:12:22,009 DEBUG                  - depth 0, hash 8d2cdd7, HEAD~1864
+2021-07-03 22:12:22,015 DEBUG                  - depth 1, hash da63757, HEAD~2093
+2021-07-03 22:12:22,019 DEBUG                  - depth 2, hash 28bde07, HEAD~2245
+2021-07-03 22:12:22,023 DEBUG                  - depth 3, hash c733a7f, HEAD~2276
+2021-07-03 22:12:22,364 DEBUG    [single line]   com/fasterxml/jackson/databind/cfg/ContextAttributes.java <init> 21
+2021-07-03 22:12:22,476 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:22,482 DEBUG    [single line]   com/fasterxml/jackson/databind/cfg/ContextAttributes.java <init> 62
+2021-07-03 22:12:22,594 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:22,600 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/ContextAttributes.java getEmpty 23:25
+2021-07-03 22:12:22,713 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:22,719 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/ContextAttributes.java <clinit> 67:67
+2021-07-03 22:12:22,830 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:22,836 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/ContextAttributes.java <init> 88:91
+2021-07-03 22:12:22,948 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:23,290 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java <clinit> 17:17
+2021-07-03 22:12:23,403 DEBUG                  - depth 0, hash 69e3ed4, HEAD~2208
+2021-07-03 22:12:23,409 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java <init> 70:72
+2021-07-03 22:12:23,521 DEBUG                  - depth 0, hash 69e3ed4, HEAD~2208
+2021-07-03 22:12:23,527 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java <init> 78:91
+2021-07-03 22:12:23,639 DEBUG                  - depth 0, hash 313875f, HEAD~1465
+2021-07-03 22:12:23,644 DEBUG                  - depth 1, hash 69e3ed4, HEAD~2208
+2021-07-03 22:12:24,000 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java <init> 57:61
+2021-07-03 22:12:24,116 DEBUG                  - depth 0, hash dfed924, HEAD~2270
+2021-07-03 22:12:24,122 DEBUG                  - depth 1, hash 5087f97, HEAD~2275
+2021-07-03 22:12:24,126 DEBUG                  - depth 2, hash c733a7f, HEAD~2276
+2021-07-03 22:12:24,130 DEBUG                  - depth 3, hash d1e678e, HEAD~2349
+2021-07-03 22:12:24,135 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,139 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java canOverrideAccessModifiers 164:166
+2021-07-03 22:12:24,256 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:24,261 DEBUG                  - depth 1, hash dfed924, HEAD~2270
+2021-07-03 22:12:24,266 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,270 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java collectFeatureDefaults 85:94
+2021-07-03 22:12:24,387 DEBUG                  - depth 0, hash dfed924, HEAD~2270
+2021-07-03 22:12:24,393 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,397 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java constructType 279:281
+2021-07-03 22:12:24,514 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,520 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java getAnnotationIntrospector 224:226
+2021-07-03 22:12:24,635 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,641 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java getClassIntrospector 214:216
+2021-07-03 22:12:24,757 DEBUG                  - depth 0, hash 28bde07, HEAD~2245
+2021-07-03 22:12:24,763 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,767 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java getDefaultTyper 261:263
+2021-07-03 22:12:24,883 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:24,889 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java getDefaultVisibilityChecker 237:239
+2021-07-03 22:12:25,006 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:25,012 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java getPropertyNamingStrategy 241:243
+2021-07-03 22:12:25,129 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:25,135 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java getTypeFactory 267:269
+2021-07-03 22:12:25,251 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:25,257 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java introspectClassAnnotations 309:311
+2021-07-03 22:12:25,372 DEBUG                  - depth 0, hash 28bde07, HEAD~2245
+2021-07-03 22:12:25,378 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:25,383 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java isAnnotationProcessingEnabled 149:151
+2021-07-03 22:12:25,498 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:25,504 DEBUG                  - depth 1, hash dfed924, HEAD~2270
+2021-07-03 22:12:25,508 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:25,512 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java isEnabled 129:131
+2021-07-03 22:12:25,628 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:25,634 DEBUG                  - depth 1, hash dfed924, HEAD~2270
+2021-07-03 22:12:25,638 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfig.java shouldSortPropertiesAlphabetically 172:174
+2021-07-03 22:12:25,755 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:25,761 DEBUG                  - depth 1, hash dfed924, HEAD~2270
+2021-07-03 22:12:25,765 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:26,113 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfigBase.java <clinit> 31:31
+2021-07-03 22:12:26,228 DEBUG                  - depth 0, hash 9610aff, HEAD~2151
+2021-07-03 22:12:26,233 DEBUG                  - depth 1, hash dfed924, HEAD~2270
+2021-07-03 22:12:26,238 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfigBase.java <init> 91:103
+2021-07-03 22:12:26,353 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:12:26,358 DEBUG                  - depth 1, hash 57b287f, HEAD~227
+2021-07-03 22:12:26,363 DEBUG                  - depth 2, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:26,367 DEBUG                  - depth 3, hash 391b198, HEAD~2223
+2021-07-03 22:12:26,371 DEBUG                  - depth 4, hash e196174, HEAD~2250
+2021-07-03 22:12:26,376 DEBUG                  - depth 5, hash dfed924, HEAD~2270
+2021-07-03 22:12:26,380 DEBUG                  - depth 6, hash eaedfb7, HEAD~2274
+2021-07-03 22:12:26,384 DEBUG                  - depth 7, hash 5087f97, HEAD~2275
+2021-07-03 22:12:26,389 DEBUG                  - depth 8, hash c733a7f, HEAD~2276
+2021-07-03 22:12:26,393 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfigBase.java findMixInClassFor 479:482
+2021-07-03 22:12:26,511 DEBUG                  - depth 0, hash 57b287f, HEAD~227
+2021-07-03 22:12:26,516 DEBUG                  - depth 1, hash 9439a31, HEAD~1525
+2021-07-03 22:12:26,521 DEBUG                  - depth 2, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:26,525 DEBUG                  - depth 3, hash 5087f97, HEAD~2275
+2021-07-03 22:12:26,529 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfigBase.java getActiveView 437:440
+2021-07-03 22:12:26,648 DEBUG                  - depth 0, hash da29a04, HEAD~21
+2021-07-03 22:12:26,653 DEBUG                  - depth 1, hash b2d3c7d, HEAD~2203
+2021-07-03 22:12:26,658 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfigBase.java getAttributes 442:445
+2021-07-03 22:12:26,770 DEBUG                  - depth 0, hash 2f26e6a, HEAD~1249
+2021-07-03 22:12:26,775 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/MapperConfigBase.java getFullRootName 433:435
+2021-07-03 22:12:26,893 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:12:26,899 DEBUG                  - depth 1, hash e196174, HEAD~2250
+2021-07-03 22:12:27,213 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java <clinit> 19:19
+2021-07-03 22:12:27,324 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:27,329 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java <init> 41:43
+2021-07-03 22:12:27,440 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:27,445 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java <init> 45:54
+2021-07-03 22:12:27,556 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:27,562 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java hasSerializerModifiers 85:85
+2021-07-03 22:12:27,673 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:27,678 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java serializers 86:86
+2021-07-03 22:12:27,789 DEBUG                  - depth 0, hash 2d05246, HEAD~1138
+2021-07-03 22:12:27,795 DEBUG                  - depth 1, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:27,799 DEBUG    [line range] com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java withAdditionalSerializers 56:63
+2021-07-03 22:12:27,909 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:28,497 DEBUG    [line range] com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java <clinit> 40:40
+2021-07-03 22:12:28,627 DEBUG                  - depth 0, hash 10dc5c9, HEAD~1486
+2021-07-03 22:12:28,632 DEBUG                  - depth 1, hash 0e11411, HEAD~1735
+2021-07-03 22:12:28,637 DEBUG    [line range] com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java <init> 110:112
+2021-07-03 22:12:28,773 DEBUG                  - depth 0, hash 69e3ed4, HEAD~2208
+2021-07-03 22:12:28,779 DEBUG                  - depth 1, hash 4489c26, HEAD~2286
+2021-07-03 22:12:28,783 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:29,205 DEBUG    [line range] com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java <clinit> 40:40
+2021-07-03 22:12:29,331 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:29,337 DEBUG    [line range] com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java <init> 57:59
+2021-07-03 22:12:29,461 DEBUG                  - depth 0, hash 69e3ed4, HEAD~2208
+2021-07-03 22:12:29,467 DEBUG                  - depth 1, hash 4489c26, HEAD~2286
+2021-07-03 22:12:29,471 DEBUG                  - depth 2, hash c601e63, HEAD~2336
+2021-07-03 22:12:29,476 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:29,840 DEBUG    [line range] com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.java <init> 42:44
+2021-07-03 22:12:29,954 DEBUG                  - depth 0, hash 71e876b, HEAD~2132
+2021-07-03 22:12:29,960 DEBUG    [line range] com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.java <init> 287:289
+2021-07-03 22:12:30,075 DEBUG                  - depth 0, hash 71e876b, HEAD~2132
+2021-07-03 22:12:30,466 DEBUG    [line range] com/fasterxml/jackson/databind/deser/DeserializerCache.java <init> 42:43
+2021-07-03 22:12:30,585 DEBUG                  - depth 0, hash 8c7f3cd, HEAD~605
+2021-07-03 22:12:30,591 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:30,901 DEBUG    [line range] com/fasterxml/jackson/databind/deser/DeserializerFactory.java <clinit> 43:43
+2021-07-03 22:12:31,015 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:31,021 DEBUG    [single line]   com/fasterxml/jackson/databind/deser/DeserializerFactory.java <init> 41
+2021-07-03 22:12:31,136 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:31,448 DEBUG    [single line]   com/fasterxml/jackson/databind/deser/std/StdKeyDeserializers.java <init> 28
+2021-07-03 22:12:31,561 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:31,852 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/Annotated.java <init> 18:18
+2021-07-03 22:12:31,963 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:31,969 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/Annotated.java hasAnnotation 22:24
+2021-07-03 22:12:32,080 DEBUG                  - depth 0, hash d0b0273, HEAD~946
+2021-07-03 22:12:32,085 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:32,523 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java <clinit> 17:17
+2021-07-03 22:12:32,640 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:32,646 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java <init> 73:73
+2021-07-03 22:12:32,760 DEBUG                  - depth 0, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:32,766 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _addAnnotationsIfNotPresent 906:922
+2021-07-03 22:12:32,875 DEBUG                  - depth 0, hash 6dcb13f, HEAD~177
+2021-07-03 22:12:32,881 DEBUG                  - depth 1, hash 3ec2537, HEAD~784
+2021-07-03 22:12:32,885 DEBUG                  - depth 2, hash f7c45bf, HEAD~2292
+2021-07-03 22:12:32,889 DEBUG                  - depth 3, hash fd9690c, HEAD~2293
+2021-07-03 22:12:32,894 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _addClassMixIns 493:498
+2021-07-03 22:12:33,011 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:33,017 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _addClassMixIns 500:519
+2021-07-03 22:12:33,134 DEBUG                  - depth 0, hash 1b30b1a, HEAD~1986
+2021-07-03 22:12:33,140 DEBUG                  - depth 1, hash fd9690c, HEAD~2293
+2021-07-03 22:12:33,145 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:33,149 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _addMemberMethods 591:633
+2021-07-03 22:12:33,262 DEBUG                  - depth 0, hash 340439a, HEAD~133
+2021-07-03 22:12:33,268 DEBUG                  - depth 1, hash 7db1f44, HEAD~134
+2021-07-03 22:12:33,272 DEBUG                  - depth 2, hash 3858853, HEAD~143
+2021-07-03 22:12:33,276 DEBUG                  - depth 3, hash db612bb, HEAD~175
+2021-07-03 22:12:33,281 DEBUG                  - depth 4, hash 1b30b1a, HEAD~1986
+2021-07-03 22:12:33,285 DEBUG                  - depth 5, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:33,289 DEBUG                  - depth 6, hash f7c45bf, HEAD~2292
+2021-07-03 22:12:33,293 DEBUG                  - depth 7, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:33,298 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _collectRelevantAnnotations 897:900
+2021-07-03 22:12:33,407 DEBUG                  - depth 0, hash 6dcb13f, HEAD~177
+2021-07-03 22:12:33,413 DEBUG                  - depth 1, hash fd9690c, HEAD~2293
+2021-07-03 22:12:33,417 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _constructConstructor 761:807
+2021-07-03 22:12:33,533 DEBUG                  - depth 0, hash c15e779, HEAD~465
+2021-07-03 22:12:33,538 DEBUG                  - depth 1, hash 0410f9a, HEAD~2221
+2021-07-03 22:12:33,543 DEBUG                  - depth 2, hash 3a7cf58, HEAD~2290
+2021-07-03 22:12:33,547 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:33,551 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _constructMethod 749:759
+2021-07-03 22:12:33,667 DEBUG                  - depth 0, hash c15e779, HEAD~465
+2021-07-03 22:12:33,673 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:33,678 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _findClassMethods 1026:1048
+2021-07-03 22:12:33,761 DEBUG                  - depth 0, hash 7db1f44, HEAD~134
+2021-07-03 22:12:33,767 DEBUG                  - depth 1, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:33,771 DEBUG                  - depth 2, hash f7c45bf, HEAD~2292
+2021-07-03 22:12:33,775 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _findFields 676:714
+2021-07-03 22:12:33,892 DEBUG                  - depth 0, hash cb6dddd, HEAD~113
+2021-07-03 22:12:33,898 DEBUG                  - depth 1, hash 1b30b1a, HEAD~1986
+2021-07-03 22:12:33,902 DEBUG                  - depth 2, hash cad9881, HEAD~2248
+2021-07-03 22:12:33,906 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:33,911 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _isAnnotationBundle 1015:1017
+2021-07-03 22:12:34,018 DEBUG                  - depth 0, hash 6dcb13f, HEAD~177
+2021-07-03 22:12:34,024 DEBUG                  - depth 1, hash b23ede1, HEAD~726
+2021-07-03 22:12:34,029 DEBUG                  - depth 2, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:34,033 DEBUG                  - depth 3, hash f7c45bf, HEAD~2292
+2021-07-03 22:12:34,037 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java _isIncludableMemberMethod 847:862
+2021-07-03 22:12:34,158 DEBUG                  - depth 0, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:34,164 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,168 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java construct 137:142
+2021-07-03 22:12:34,284 DEBUG                  - depth 0, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:34,289 DEBUG                  - depth 1, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:34,294 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,298 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java constructWithoutSuperTypes 149:154
+2021-07-03 22:12:34,415 DEBUG                  - depth 0, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:34,421 DEBUG                  - depth 1, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:34,425 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,430 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java fields 281:287
+2021-07-03 22:12:34,546 DEBUG                  - depth 0, hash cad9881, HEAD~2248
+2021-07-03 22:12:34,552 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,557 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java getAnnotation 171:178
+2021-07-03 22:12:34,679 DEBUG                  - depth 0, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:34,685 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,689 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java getConstructors 234:240
+2021-07-03 22:12:34,805 DEBUG                  - depth 0, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:34,811 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,816 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java getStaticMethods 242:248
+2021-07-03 22:12:34,932 DEBUG                  - depth 0, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:34,938 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:34,942 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java memberMethods 250:256
+2021-07-03 22:12:35,062 DEBUG                  - depth 0, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:35,068 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:35,072 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java resolveClassAnnotations 300:327
+2021-07-03 22:12:35,189 DEBUG                  - depth 0, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:35,194 DEBUG                  - depth 1, hash fd9690c, HEAD~2293
+2021-07-03 22:12:35,199 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:35,203 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java resolveCreators 333:413
+2021-07-03 22:12:35,291 DEBUG                  - depth 0, hash 7db1f44, HEAD~134
+2021-07-03 22:12:35,296 DEBUG                  - depth 1, hash 3858853, HEAD~143
+2021-07-03 22:12:35,301 DEBUG                  - depth 2, hash 11cec4d, HEAD~1916
+2021-07-03 22:12:35,305 DEBUG                  - depth 3, hash 4fdbd54, HEAD~2249
+2021-07-03 22:12:35,309 DEBUG                  - depth 4, hash 0344ce0, HEAD~2323
+2021-07-03 22:12:35,314 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:35,318 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java resolveFields 470:479
+2021-07-03 22:12:35,435 DEBUG                  - depth 0, hash cad9881, HEAD~2248
+2021-07-03 22:12:35,441 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:35,446 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedClass.java resolveMemberMethods 421:463
+2021-07-03 22:12:35,554 DEBUG                  - depth 0, hash db612bb, HEAD~175
+2021-07-03 22:12:35,560 DEBUG                  - depth 1, hash 1b30b1a, HEAD~1986
+2021-07-03 22:12:35,564 DEBUG                  - depth 2, hash 201c8ff, HEAD~1987
+2021-07-03 22:12:35,569 DEBUG                  - depth 3, hash 1dcce98, HEAD~2211
+2021-07-03 22:12:35,573 DEBUG                  - depth 4, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:35,577 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:35,919 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java <init> 31:39
+2021-07-03 22:12:36,031 DEBUG                  - depth 0, hash c15e779, HEAD~465
+2021-07-03 22:12:36,036 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:36,350 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMember.java <init> 42:46
+2021-07-03 22:12:36,462 DEBUG                  - depth 0, hash c15e779, HEAD~465
+2021-07-03 22:12:36,468 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:36,810 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java <init> 35:43
+2021-07-03 22:12:36,925 DEBUG                  - depth 0, hash c15e779, HEAD~465
+2021-07-03 22:12:36,931 DEBUG                  - depth 1, hash 65d186e, HEAD~1736
+2021-07-03 22:12:36,936 DEBUG                  - depth 2, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:36,940 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:36,944 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java getAnnotated 75:76
+2021-07-03 22:12:37,057 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:37,063 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java getParameterCount 174:177
+2021-07-03 22:12:37,175 DEBUG                  - depth 0, hash 1dcce98, HEAD~2211
+2021-07-03 22:12:37,180 DEBUG                  - depth 1, hash 20c8080, HEAD~2213
+2021-07-03 22:12:37,185 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:37,189 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java getRawParameterTypes 184:190
+2021-07-03 22:12:37,301 DEBUG                  - depth 0, hash 1dcce98, HEAD~2211
+2021-07-03 22:12:37,307 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:37,311 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java getRawReturnType 210:212
+2021-07-03 22:12:37,427 DEBUG                  - depth 0, hash 20c8080, HEAD~2213
+2021-07-03 22:12:37,433 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java hasReturnType 225:228
+2021-07-03 22:12:37,546 DEBUG                  - depth 0, hash 8a5ec37, HEAD~845
+2021-07-03 22:12:37,855 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java <init> 16:16
+2021-07-03 22:12:37,967 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:37,973 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java add 21:27
+2021-07-03 22:12:38,086 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:38,092 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java find 62:68
+2021-07-03 22:12:38,203 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:38,209 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java isEmpty 46:48
+2021-07-03 22:12:38,319 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:38,325 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java iterator 76:84
+2021-07-03 22:12:38,437 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:38,442 DEBUG                  - depth 1, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:38,447 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:38,451 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java remove 38:44
+2021-07-03 22:12:38,563 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:38,892 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedWithParams.java <init> 33:37
+2021-07-03 22:12:39,005 DEBUG                  - depth 0, hash c15e779, HEAD~465
+2021-07-03 22:12:39,010 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:39,015 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotatedWithParams.java getAnnotation 96:99
+2021-07-03 22:12:39,127 DEBUG                  - depth 0, hash d0b0273, HEAD~946
+2021-07-03 22:12:39,133 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:39,451 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotationMap.java <init> 18:18
+2021-07-03 22:12:39,563 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:39,569 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotationMap.java _add 107:113
+2021-07-03 22:12:39,672 DEBUG                  - depth 0, hash db612bb, HEAD~175
+2021-07-03 22:12:39,678 DEBUG                  - depth 1, hash 3ec2537, HEAD~784
+2021-07-03 22:12:39,682 DEBUG                  - depth 2, hash d0b0273, HEAD~946
+2021-07-03 22:12:39,687 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:39,691 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotationMap.java addIfNotPresent 74:81
+2021-07-03 22:12:39,807 DEBUG                  - depth 0, hash 3ec2537, HEAD~784
+2021-07-03 22:12:39,813 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:39,818 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/AnnotationMap.java get 24:32
+2021-07-03 22:12:39,928 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:39,934 DEBUG                  - depth 1, hash f1c79d4, HEAD~1999
+2021-07-03 22:12:39,938 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:40,345 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java <init> 95:104
+2021-07-03 22:12:40,461 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:40,467 DEBUG                  - depth 1, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:40,471 DEBUG                  - depth 2, hash d453182, HEAD~2131
+2021-07-03 22:12:40,476 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:40,480 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java <init> 106:110
+2021-07-03 22:12:40,596 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:40,602 DEBUG                  - depth 1, hash be97826, HEAD~1545
+2021-07-03 22:12:40,607 DEBUG                  - depth 2, hash d453182, HEAD~2131
+2021-07-03 22:12:40,611 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:40,616 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java <init> 81:89
+2021-07-03 22:12:40,726 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:40,732 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java _createConverter 673:702
+2021-07-03 22:12:40,845 DEBUG                  - depth 0, hash 46c6679, HEAD~880
+2021-07-03 22:12:40,851 DEBUG                  - depth 1, hash 9439a31, HEAD~1525
+2021-07-03 22:12:40,856 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java findJsonValueMethod 220:224
+2021-07-03 22:12:40,971 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:40,977 DEBUG                  - depth 1, hash 28bde07, HEAD~2245
+2021-07-03 22:12:40,982 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:40,986 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java findSerializationConverter 361:368
+2021-07-03 22:12:41,099 DEBUG                  - depth 0, hash 9439a31, HEAD~1525
+2021-07-03 22:12:41,105 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java forOtherUse 133:138
+2021-07-03 22:12:41,221 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:41,227 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java forSerialization 124:126
+2021-07-03 22:12:41,343 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:41,349 DEBUG                  - depth 1, hash d453182, HEAD~2131
+2021-07-03 22:12:41,353 DEBUG                  - depth 2, hash 886ca96, HEAD~2164
+2021-07-03 22:12:41,357 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:41,362 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java getClassInfo 209:210
+2021-07-03 22:12:41,477 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:41,854 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 32
+2021-07-03 22:12:41,967 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:41,973 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 33
+2021-07-03 22:12:42,087 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,093 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 37
+2021-07-03 22:12:42,205 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,211 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 38
+2021-07-03 22:12:42,322 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,328 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 42
+2021-07-03 22:12:42,440 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,446 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 43
+2021-07-03 22:12:42,559 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,565 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 47
+2021-07-03 22:12:42,677 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,683 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 48
+2021-07-03 22:12:42,795 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,801 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <clinit> 57:58
+2021-07-03 22:12:42,914 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:42,920 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:42,924 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java <init> 68:71
+2021-07-03 22:12:43,036 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:43,042 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,047 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java _findStdJdkCollectionDesc 274:283
+2021-07-03 22:12:43,159 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:43,165 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,169 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java _findStdTypeDesc 225:244
+2021-07-03 22:12:43,282 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:43,288 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,292 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java _isStdJDKCollection 251:272
+2021-07-03 22:12:43,408 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:43,414 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,419 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java collectProperties 190:198
+2021-07-03 22:12:43,531 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:43,537 DEBUG                  - depth 1, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:43,541 DEBUG                  - depth 2, hash 798390a, HEAD~2240
+2021-07-03 22:12:43,546 DEBUG                  - depth 3, hash 920bb4e, HEAD~2247
+2021-07-03 22:12:43,550 DEBUG                  - depth 4, hash cad9881, HEAD~2248
+2021-07-03 22:12:43,554 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,559 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java constructPropertyCollector 215:219
+2021-07-03 22:12:43,672 DEBUG                  - depth 0, hash 4e387c2, HEAD~901
+2021-07-03 22:12:43,678 DEBUG                  - depth 1, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:43,682 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,687 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java forClassAnnotations 151:167
+2021-07-03 22:12:43,803 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:43,809 DEBUG                  - depth 1, hash 798390a, HEAD~2240
+2021-07-03 22:12:43,813 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,818 DEBUG    [single line]   com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java forSerialization 15
+2021-07-03 22:12:43,930 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:43,936 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java forSerialization 79:97
+2021-07-03 22:12:44,048 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:12:44,054 DEBUG                  - depth 1, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:44,059 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:44,340 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/ClassIntrospector.java <init> 48:48
+2021-07-03 22:12:44,452 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:44,935 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java <init> 33:33
+2021-07-03 22:12:45,059 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:45,065 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java _findSortAlpha 619:628
+2021-07-03 22:12:45,182 DEBUG                  - depth 0, hash 51c3f7c, HEAD~8
+2021-07-03 22:12:45,188 DEBUG                  - depth 1, hash 750ccda, HEAD~721
+2021-07-03 22:12:45,192 DEBUG                  - depth 2, hash 9036ebc, HEAD~1024
+2021-07-03 22:12:45,197 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java _findTypeResolver 975:1032
+2021-07-03 22:12:45,319 DEBUG                  - depth 0, hash b797b94, HEAD~515
+2021-07-03 22:12:45,325 DEBUG                  - depth 1, hash 6f5cf62, HEAD~516
+2021-07-03 22:12:45,329 DEBUG                  - depth 2, hash 76731bc, HEAD~650
+2021-07-03 22:12:45,334 DEBUG                  - depth 3, hash 750ccda, HEAD~721
+2021-07-03 22:12:45,338 DEBUG                  - depth 4, hash 8958048, HEAD~2256
+2021-07-03 22:12:45,342 DEBUG                  - depth 5, hash ae1c98e, HEAD~2313
+2021-07-03 22:12:45,346 DEBUG                  - depth 6, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:45,351 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java _isIgnorable 943:947
+2021-07-03 22:12:45,479 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:45,485 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:45,489 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findAutoDetectVisibility 185:191
+2021-07-03 22:12:45,611 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:45,617 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:45,622 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findNamingStrategy 172:177
+2021-07-03 22:12:45,748 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:45,754 DEBUG                  - depth 1, hash 023d8bd, HEAD~1865
+2021-07-03 22:12:45,759 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:45,763 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findObjectIdInfo 394:403
+2021-07-03 22:12:45,879 DEBUG                  - depth 0, hash 0194c8c, HEAD~69
+2021-07-03 22:12:45,885 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findSerializationConverter 590:594
+2021-07-03 22:12:46,010 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:46,016 DEBUG                  - depth 1, hash 46c6679, HEAD~880
+2021-07-03 22:12:46,020 DEBUG                  - depth 2, hash d5daa45, HEAD~1548
+2021-07-03 22:12:46,024 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:46,029 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findSerializationPropertyOrder 608:612
+2021-07-03 22:12:46,158 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:46,164 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:46,168 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findSerializationSortAlphabetically 614:617
+2021-07-03 22:12:46,296 DEBUG                  - depth 0, hash 9036ebc, HEAD~1024
+2021-07-03 22:12:46,302 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:46,306 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findSerializationType 562:567
+2021-07-03 22:12:46,431 DEBUG                  - depth 0, hash 76731bc, HEAD~650
+2021-07-03 22:12:46,437 DEBUG                  - depth 1, hash 750ccda, HEAD~721
+2021-07-03 22:12:46,441 DEBUG                  - depth 2, hash 46c6679, HEAD~880
+2021-07-03 22:12:46,445 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:46,450 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findSerializer 420:443
+2021-07-03 22:12:46,573 DEBUG                  - depth 0, hash 158e116, HEAD~72
+2021-07-03 22:12:46,579 DEBUG                  - depth 1, hash 750ccda, HEAD~721
+2021-07-03 22:12:46,583 DEBUG                  - depth 2, hash a342c0e, HEAD~2351
+2021-07-03 22:12:46,587 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:46,592 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java findTypeResolver 331:336
+2021-07-03 22:12:46,720 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:46,726 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java hasAnyGetterAnnotation 911:918
+2021-07-03 22:12:46,850 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:46,856 DEBUG                  - depth 1, hash ab374c7, HEAD~1806
+2021-07-03 22:12:46,860 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java hasAsValueAnnotation 749:754
+2021-07-03 22:12:46,989 DEBUG                  - depth 0, hash 750ccda, HEAD~721
+2021-07-03 22:12:46,994 DEBUG                  - depth 1, hash 7a27bc2, HEAD~1156
+2021-07-03 22:12:46,999 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:47,003 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java hasIgnoreMarker 206:209
+2021-07-03 22:12:47,119 DEBUG                  - depth 0, hash 0194c8c, HEAD~69
+2021-07-03 22:12:47,125 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java isAnnotationBundle 50:53
+2021-07-03 22:12:47,252 DEBUG                  - depth 0, hash 6f5cf62, HEAD~516
+2021-07-03 22:12:47,258 DEBUG                  - depth 1, hash f7c45bf, HEAD~2292
+2021-07-03 22:12:47,561 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/MemberKey.java <clinit> 13:13
+2021-07-03 22:12:47,679 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:47,685 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/MemberKey.java <init> 28:32
+2021-07-03 22:12:47,797 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:47,803 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/MemberKey.java <init> 18:21
+2021-07-03 22:12:47,914 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:47,920 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/MemberKey.java hashCode 39:43
+2021-07-03 22:12:48,031 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:48,476 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java <init> 112:129
+2021-07-03 22:12:48,597 DEBUG                  - depth 0, hash 42ef5bb, HEAD~468
+2021-07-03 22:12:48,603 DEBUG                  - depth 1, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:48,608 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:48,612 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _addCreators 406:427
+2021-07-03 22:12:48,736 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:48,742 DEBUG                  - depth 1, hash 1962410, HEAD~968
+2021-07-03 22:12:48,746 DEBUG                  - depth 2, hash a769351, HEAD~992
+2021-07-03 22:12:48,751 DEBUG                  - depth 3, hash a00cdd8, HEAD~998
+2021-07-03 22:12:48,755 DEBUG                  - depth 4, hash 365c29b, HEAD~1005
+2021-07-03 22:12:48,760 DEBUG                  - depth 5, hash ab374c7, HEAD~1806
+2021-07-03 22:12:48,764 DEBUG                  - depth 6, hash de0c33f, HEAD~2268
+2021-07-03 22:12:48,768 DEBUG                  - depth 7, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:48,773 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _addFields 340:401
+2021-07-03 22:12:48,894 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:48,900 DEBUG                  - depth 1, hash cb6dddd, HEAD~113
+2021-07-03 22:12:48,904 DEBUG                  - depth 2, hash 328cc7e, HEAD~900
+2021-07-03 22:12:48,909 DEBUG                  - depth 3, hash 916ee4d, HEAD~993
+2021-07-03 22:12:48,913 DEBUG                  - depth 4, hash 054467f, HEAD~1004
+2021-07-03 22:12:48,917 DEBUG                  - depth 5, hash 365c29b, HEAD~1005
+2021-07-03 22:12:48,922 DEBUG                  - depth 6, hash 8f2ea6c, HEAD~1490
+2021-07-03 22:12:48,926 DEBUG                  - depth 7, hash ab374c7, HEAD~1806
+2021-07-03 22:12:48,930 DEBUG                  - depth 8, hash 257da8e, HEAD~1807
+2021-07-03 22:12:48,935 DEBUG                  - depth 9, hash de0c33f, HEAD~2268
+2021-07-03 22:12:48,939 DEBUG                  - depth 10, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:48,944 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _addGetterMethod 499:564
+2021-07-03 22:12:49,065 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:49,071 DEBUG                  - depth 1, hash 42ef5bb, HEAD~468
+2021-07-03 22:12:49,075 DEBUG                  - depth 2, hash 8a5ec37, HEAD~845
+2021-07-03 22:12:49,079 DEBUG                  - depth 3, hash 328cc7e, HEAD~900
+2021-07-03 22:12:49,084 DEBUG                  - depth 4, hash 833b26b, HEAD~994
+2021-07-03 22:12:49,088 DEBUG                  - depth 5, hash 054467f, HEAD~1004
+2021-07-03 22:12:49,092 DEBUG                  - depth 6, hash 365c29b, HEAD~1005
+2021-07-03 22:12:49,096 DEBUG                  - depth 7, hash 833680a, HEAD~1387
+2021-07-03 22:12:49,101 DEBUG                  - depth 8, hash 257da8e, HEAD~1807
+2021-07-03 22:12:49,105 DEBUG                  - depth 9, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:49,110 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _addInjectables 603:624
+2021-07-03 22:12:49,231 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:49,237 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:49,242 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _addMethods 473:497
+2021-07-03 22:12:49,362 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:49,368 DEBUG                  - depth 1, hash 2fd4ffd, HEAD~2114
+2021-07-03 22:12:49,373 DEBUG                  - depth 2, hash 886ca96, HEAD~2164
+2021-07-03 22:12:49,377 DEBUG                  - depth 3, hash de0c33f, HEAD~2268
+2021-07-03 22:12:49,381 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:49,386 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _findNamingStrategy 992:1023
+2021-07-03 22:12:49,511 DEBUG                  - depth 0, hash 88ae9dc, HEAD~1664
+2021-07-03 22:12:49,517 DEBUG                  - depth 1, hash 023d8bd, HEAD~1865
+2021-07-03 22:12:49,521 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _removeUnwantedAccessor 690:699
+2021-07-03 22:12:49,647 DEBUG                  - depth 0, hash fbb1c3b, HEAD~54
+2021-07-03 22:12:49,653 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:49,658 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _removeUnwantedProperties 656:683
+2021-07-03 22:12:49,784 DEBUG                  - depth 0, hash fbb1c3b, HEAD~54
+2021-07-03 22:12:49,790 DEBUG                  - depth 1, hash 09960de, HEAD~58
+2021-07-03 22:12:49,795 DEBUG                  - depth 2, hash 8f2ea6c, HEAD~1490
+2021-07-03 22:12:49,799 DEBUG                  - depth 3, hash 930187b, HEAD~1494
+2021-07-03 22:12:49,803 DEBUG                  - depth 4, hash d8e52fa, HEAD~2050
+2021-07-03 22:12:49,808 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:49,812 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _renameProperties 722:777
+2021-07-03 22:12:49,924 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:49,930 DEBUG                  - depth 1, hash ba20f65, HEAD~120
+2021-07-03 22:12:49,934 DEBUG                  - depth 2, hash 1962410, HEAD~968
+2021-07-03 22:12:49,939 DEBUG                  - depth 3, hash 60072ee, HEAD~1124
+2021-07-03 22:12:49,943 DEBUG                  - depth 4, hash c0d5eb4, HEAD~1127
+2021-07-03 22:12:49,947 DEBUG                  - depth 5, hash 1488cef, HEAD~1365
+2021-07-03 22:12:49,952 DEBUG                  - depth 6, hash 8b1d92e, HEAD~1382
+2021-07-03 22:12:49,956 DEBUG                  - depth 7, hash 4c0ef09, HEAD~1601
+2021-07-03 22:12:49,960 DEBUG                  - depth 8, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:49,965 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java _sortProperties 885:962
+2021-07-03 22:12:50,086 DEBUG                  - depth 0, hash 09960de, HEAD~58
+2021-07-03 22:12:50,092 DEBUG                  - depth 1, hash 04413c7, HEAD~66
+2021-07-03 22:12:50,096 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:50,101 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java collectAll 278:329
+2021-07-03 22:12:50,222 DEBUG                  - depth 0, hash fbb1c3b, HEAD~54
+2021-07-03 22:12:50,228 DEBUG                  - depth 1, hash 08ec397, HEAD~57
+2021-07-03 22:12:50,233 DEBUG                  - depth 2, hash 09960de, HEAD~58
+2021-07-03 22:12:50,237 DEBUG                  - depth 3, hash 04413c7, HEAD~66
+2021-07-03 22:12:50,241 DEBUG                  - depth 4, hash f412e85, HEAD~1786
+2021-07-03 22:12:50,246 DEBUG                  - depth 5, hash a1e496f, HEAD~1787
+2021-07-03 22:12:50,250 DEBUG                  - depth 6, hash 023d8bd, HEAD~1865
+2021-07-03 22:12:50,255 DEBUG                  - depth 7, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:50,260 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java getClassDef 145:147
+2021-07-03 22:12:50,380 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:50,386 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java getConfig 137:139
+2021-07-03 22:12:50,506 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:50,513 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java getJsonValueMethod 166:181
+2021-07-03 22:12:50,635 DEBUG                  - depth 0, hash 08ec397, HEAD~57
+2021-07-03 22:12:50,641 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:50,646 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java getObjectIdInfo 225:235
+2021-07-03 22:12:50,766 DEBUG                  - depth 0, hash b009194, HEAD~1228
+2021-07-03 22:12:50,772 DEBUG                  - depth 1, hash 88040e2, HEAD~1836
+2021-07-03 22:12:50,777 DEBUG                  - depth 2, hash 72d0919, HEAD~2128
+2021-07-03 22:12:50,781 DEBUG                  - depth 3, hash d453182, HEAD~2131
+2021-07-03 22:12:50,786 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java getType 141:143
+2021-07-03 22:12:50,907 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:51,226 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/SimpleMixInResolver.java <init> 35:37
+2021-07-03 22:12:51,358 DEBUG                  - depth 0, hash 57b287f, HEAD~227
+2021-07-03 22:12:51,364 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/SimpleMixInResolver.java findMixInClassFor 88:96
+2021-07-03 22:12:51,495 DEBUG                  - depth 0, hash 57b287f, HEAD~227
+2021-07-03 22:12:51,854 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/VisibilityChecker.java <clinit> 170:170
+2021-07-03 22:12:51,967 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:51,974 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/VisibilityChecker.java <init> 186:194
+2021-07-03 22:12:52,086 DEBUG                  - depth 0, hash 3ff5344, HEAD~1523
+2021-07-03 22:12:52,092 DEBUG                  - depth 1, hash d1e678e, HEAD~2349
+2021-07-03 22:12:52,097 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:52,101 DEBUG    [line range] com/fasterxml/jackson/databind/introspect/VisibilityChecker.java defaultInstance 178:178
+2021-07-03 22:12:52,221 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:52,515 DEBUG    [single line]   com/fasterxml/jackson/databind/jsontype/SubtypeResolver.java <init> 15
+2021-07-03 22:12:52,627 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:53,018 DEBUG    [line range] com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java <init> 23:23
+2021-07-03 22:12:53,130 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:53,510 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java <init> 94:101
+2021-07-03 22:12:53,622 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:53,628 DEBUG                  - depth 1, hash b249b70, HEAD~2283
+2021-07-03 22:12:53,633 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java <init> 37:37
+2021-07-03 22:12:53,745 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:53,752 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java addSerializer 267:274
+2021-07-03 22:12:53,866 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:53,872 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java getModuleName 390:393
+2021-07-03 22:12:53,984 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:53,990 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java getTypeId 172:178
+2021-07-03 22:12:54,100 DEBUG                  - depth 0, hash d672b18, HEAD~577
+2021-07-03 22:12:54,106 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java setupModule 402:440
+2021-07-03 22:12:54,217 DEBUG                  - depth 0, hash 545e35e, HEAD~1271
+2021-07-03 22:12:54,223 DEBUG                  - depth 1, hash 7968d2d, HEAD~1644
+2021-07-03 22:12:54,228 DEBUG                  - depth 2, hash cbbfbd3, HEAD~2259
+2021-07-03 22:12:54,232 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:54,237 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleModule.java version 442:443
+2021-07-03 22:12:54,349 DEBUG                  - depth 0, hash aec6276, HEAD~982
+2021-07-03 22:12:54,355 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:54,705 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleSerializers.java <init> 57:57
+2021-07-03 22:12:54,816 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:54,822 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleSerializers.java <init> 37:37
+2021-07-03 22:12:54,934 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:54,940 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleSerializers.java _addSerializer 227:245
+2021-07-03 22:12:55,051 DEBUG                  - depth 0, hash 256c606, HEAD~1404
+2021-07-03 22:12:55,057 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleSerializers.java addSerializer 87:90
+2021-07-03 22:12:55,173 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:55,179 DEBUG    [line range] com/fasterxml/jackson/databind/module/SimpleSerializers.java findSerializer 107:166
+2021-07-03 22:12:55,291 DEBUG                  - depth 0, hash 256c606, HEAD~1404
+2021-07-03 22:12:55,297 DEBUG                  - depth 1, hash 3f2db33, HEAD~2163
+2021-07-03 22:12:55,302 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:55,642 DEBUG    [line range] com/fasterxml/jackson/databind/node/JsonNodeFactory.java <clinit> 24:25
+2021-07-03 22:12:55,756 DEBUG                  - depth 0, hash f88c50a, HEAD~1769
+2021-07-03 22:12:55,762 DEBUG    [line range] com/fasterxml/jackson/databind/node/JsonNodeFactory.java <init> 61:64
+2021-07-03 22:12:55,876 DEBUG                  - depth 0, hash 4c8ee2e, HEAD~1675
+2021-07-03 22:12:55,882 DEBUG                  - depth 1, hash f88c50a, HEAD~1769
+2021-07-03 22:12:55,886 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:56,363 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java <clinit> 52:53
+2021-07-03 22:12:56,524 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:56,531 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java <init> 137:139
+2021-07-03 22:12:56,656 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:56,662 DEBUG                  - depth 1, hash 58ada45, HEAD~2162
+2021-07-03 22:12:56,667 DEBUG                  - depth 2, hash bb8d4b6, HEAD~2296
+2021-07-03 22:12:56,671 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:56,676 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java createTypeSerializer 260:283
+2021-07-03 22:12:56,803 DEBUG                  - depth 0, hash aae4082, HEAD~44
+2021-07-03 22:12:56,810 DEBUG                  - depth 1, hash 9039a9b, HEAD~328
+2021-07-03 22:12:56,814 DEBUG                  - depth 2, hash 0c1d95c, HEAD~2142
+2021-07-03 22:12:56,818 DEBUG                  - depth 3, hash a57eca7, HEAD~2161
+2021-07-03 22:12:56,823 DEBUG                  - depth 4, hash 28bde07, HEAD~2245
+2021-07-03 22:12:56,827 DEBUG                  - depth 5, hash bb8d4b6, HEAD~2296
+2021-07-03 22:12:56,832 DEBUG                  - depth 6, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:56,836 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java findSerializerByAnnotations 345:366
+2021-07-03 22:12:56,963 DEBUG                  - depth 0, hash 2880872, HEAD~2084
+2021-07-03 22:12:56,969 DEBUG                  - depth 1, hash 334892f, HEAD~2153
+2021-07-03 22:12:56,974 DEBUG                  - depth 2, hash f4441ec, HEAD~2168
+2021-07-03 22:12:56,978 DEBUG                  - depth 3, hash aaba9c1, HEAD~2224
+2021-07-03 22:12:56,982 DEBUG                  - depth 4, hash 28bde07, HEAD~2245
+2021-07-03 22:12:56,987 DEBUG                  - depth 5, hash bb8d4b6, HEAD~2296
+2021-07-03 22:12:56,991 DEBUG                  - depth 6, hash 703bf4a, HEAD~2318
+2021-07-03 22:12:56,995 DEBUG                  - depth 7, hash fcb1c25, HEAD~2347
+2021-07-03 22:12:57,000 DEBUG                  - depth 8, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:57,004 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java findSerializerByLookup 303:327
+2021-07-03 22:12:57,130 DEBUG                  - depth 0, hash ea1966a, HEAD~170
+2021-07-03 22:12:57,136 DEBUG                  - depth 1, hash bba2bad, HEAD~1460
+2021-07-03 22:12:57,141 DEBUG                  - depth 2, hash 334892f, HEAD~2153
+2021-07-03 22:12:57,145 DEBUG                  - depth 3, hash 28bde07, HEAD~2245
+2021-07-03 22:12:57,150 DEBUG                  - depth 4, hash bb8d4b6, HEAD~2296
+2021-07-03 22:12:57,154 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:57,159 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java findSerializerFromAnnotation 492:504
+2021-07-03 22:12:57,285 DEBUG                  - depth 0, hash be97826, HEAD~1545
+2021-07-03 22:12:57,291 DEBUG                  - depth 1, hash d5daa45, HEAD~1548
+2021-07-03 22:12:57,295 DEBUG                  - depth 2, hash 334892f, HEAD~2153
+2021-07-03 22:12:57,300 DEBUG                  - depth 3, hash aaba9c1, HEAD~2224
+2021-07-03 22:12:57,304 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:57,309 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java modifySecondaryTypesByAnnotation 979:1010
+2021-07-03 22:12:57,435 DEBUG                  - depth 0, hash 52a9244, HEAD~2302
+2021-07-03 22:12:57,441 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:57,446 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java modifyTypeByAnnotation 963:977
+2021-07-03 22:12:57,572 DEBUG                  - depth 0, hash 334892f, HEAD~2153
+2021-07-03 22:12:57,578 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:57,583 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java withAdditionalSerializers 168:171
+2021-07-03 22:12:57,708 DEBUG                  - depth 0, hash e268dd5, HEAD~1854
+2021-07-03 22:12:57,714 DEBUG                  - depth 1, hash 58ada45, HEAD~2162
+2021-07-03 22:12:57,719 DEBUG                  - depth 2, hash bb8d4b6, HEAD~2296
+2021-07-03 22:12:57,723 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:58,130 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java <clinit> 63:63
+2021-07-03 22:12:58,253 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:58,259 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java <init> 74:77
+2021-07-03 22:12:58,381 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:58,387 DEBUG                  - depth 1, hash 58ada45, HEAD~2162
+2021-07-03 22:12:58,392 DEBUG                  - depth 2, hash bb8d4b6, HEAD~2296
+2021-07-03 22:12:58,396 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:58,401 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java _createSerializer2 170:247
+2021-07-03 22:12:58,525 DEBUG                  - depth 0, hash 152aabb, HEAD~755
+2021-07-03 22:12:58,531 DEBUG                  - depth 1, hash be97826, HEAD~1545
+2021-07-03 22:12:58,535 DEBUG                  - depth 2, hash d5daa45, HEAD~1548
+2021-07-03 22:12:58,540 DEBUG                  - depth 3, hash 315ab60, HEAD~1638
+2021-07-03 22:12:58,544 DEBUG                  - depth 4, hash bd3ded1, HEAD~1757
+2021-07-03 22:12:58,549 DEBUG                  - depth 5, hash 65b73d9, HEAD~1758
+2021-07-03 22:12:58,553 DEBUG                  - depth 6, hash 15d6ea2, HEAD~1891
+2021-07-03 22:12:58,557 DEBUG                  - depth 7, hash a063b79, HEAD~1954
+2021-07-03 22:12:58,562 DEBUG                  - depth 8, hash 752b57e, HEAD~1955
+2021-07-03 22:12:58,566 DEBUG                  - depth 9, hash 2880872, HEAD~2084
+2021-07-03 22:12:58,571 DEBUG                  - depth 10, hash 334892f, HEAD~2153
+2021-07-03 22:12:58,575 DEBUG                  - depth 11, hash aaba9c1, HEAD~2224
+2021-07-03 22:12:58,580 DEBUG                  - depth 12, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:58,585 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java createSerializer 126:168
+2021-07-03 22:12:58,707 DEBUG                  - depth 0, hash 119ddc9, HEAD~232
+2021-07-03 22:12:58,713 DEBUG                  - depth 1, hash 8d6fa48, HEAD~1014
+2021-07-03 22:12:58,718 DEBUG                  - depth 2, hash 3745034, HEAD~1310
+2021-07-03 22:12:58,722 DEBUG                  - depth 3, hash cc73752, HEAD~1516
+2021-07-03 22:12:58,727 DEBUG                  - depth 4, hash be97826, HEAD~1545
+2021-07-03 22:12:58,731 DEBUG                  - depth 5, hash ab511e5, HEAD~1756
+2021-07-03 22:12:58,735 DEBUG                  - depth 6, hash ca93163, HEAD~1984
+2021-07-03 22:12:58,740 DEBUG                  - depth 7, hash 21b3805, HEAD~2055
+2021-07-03 22:12:58,744 DEBUG                  - depth 8, hash 82b474d, HEAD~2148
+2021-07-03 22:12:58,749 DEBUG                  - depth 9, hash 334892f, HEAD~2153
+2021-07-03 22:12:58,753 DEBUG                  - depth 10, hash aaba9c1, HEAD~2224
+2021-07-03 22:12:58,757 DEBUG                  - depth 11, hash 28bde07, HEAD~2245
+2021-07-03 22:12:58,762 DEBUG                  - depth 12, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:58,766 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java customSerializers 105:108
+2021-07-03 22:12:58,892 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:58,898 DEBUG    [line range] com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java withConfig 85:103
+2021-07-03 22:12:59,020 DEBUG                  - depth 0, hash 67bf19c, HEAD~2156
+2021-07-03 22:12:59,026 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:12:59,411 DEBUG    [line range] com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java <init> 57:57
+2021-07-03 22:12:59,528 DEBUG                  - depth 0, hash 5c8f810, HEAD~2133
+2021-07-03 22:12:59,534 DEBUG    [line range] com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java <init> 59:62
+2021-07-03 22:12:59,651 DEBUG                  - depth 0, hash 02c0f2e, HEAD~2109
+2021-07-03 22:12:59,657 DEBUG                  - depth 1, hash 5c8f810, HEAD~2133
+2021-07-03 22:12:59,661 DEBUG    [line range] com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java serializeValue 99:143
+2021-07-03 22:12:59,779 DEBUG                  - depth 0, hash c3fdb53, HEAD~37
+2021-07-03 22:12:59,785 DEBUG                  - depth 1, hash 333f5ac, HEAD~482
+2021-07-03 22:12:59,789 DEBUG                  - depth 2, hash 3c950dd, HEAD~902
+2021-07-03 22:12:59,794 DEBUG                  - depth 3, hash 4b60bfe, HEAD~1150
+2021-07-03 22:12:59,798 DEBUG                  - depth 4, hash 23e6a93, HEAD~1325
+2021-07-03 22:12:59,803 DEBUG                  - depth 5, hash 2e089cd, HEAD~1326
+2021-07-03 22:12:59,807 DEBUG                  - depth 6, hash b4851e5, HEAD~1327
+2021-07-03 22:12:59,812 DEBUG                  - depth 7, hash d8b0810, HEAD~1945
+2021-07-03 22:12:59,816 DEBUG                  - depth 8, hash 5c8f810, HEAD~2133
+2021-07-03 22:12:59,821 DEBUG    [line range] com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java createInstance 598:601
+2021-07-03 22:12:59,933 DEBUG                  - depth 0, hash 23328aa, HEAD~632
+2021-07-03 22:12:59,939 DEBUG                  - depth 1, hash 4b60bfe, HEAD~1150
+2021-07-03 22:12:59,943 DEBUG                  - depth 2, hash 5c8f810, HEAD~2133
+2021-07-03 22:12:59,948 DEBUG    [single line]   com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java createInstance 579
+2021-07-03 22:13:00,065 DEBUG                  - depth 0, hash 4b60bfe, HEAD~1150
+2021-07-03 22:13:00,071 DEBUG                  - depth 1, hash 5c8f810, HEAD~2133
+2021-07-03 22:13:00,406 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java <init> 32:33
+2021-07-03 22:13:00,519 DEBUG                  - depth 0, hash 57239b5, HEAD~307
+2021-07-03 22:13:00,525 DEBUG                  - depth 1, hash f26c676, HEAD~310
+2021-07-03 22:13:00,529 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:00,534 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java _makeReadOnlyLookupMap 56:65
+2021-07-03 22:13:00,646 DEBUG                  - depth 0, hash 8f09606, HEAD~381
+2021-07-03 22:13:00,652 DEBUG                  - depth 1, hash 0c8c763, HEAD~1185
+2021-07-03 22:13:00,656 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:00,661 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java addAndResolveNonTypedSerializer 161:180
+2021-07-03 22:13:00,774 DEBUG                  - depth 0, hash 8f09606, HEAD~381
+2021-07-03 22:13:00,780 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:00,785 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java addTypedSerializer 130:138
+2021-07-03 22:13:00,898 DEBUG                  - depth 0, hash 8f09606, HEAD~381
+2021-07-03 22:13:00,904 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:00,909 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java getReadOnlyLookupMap 47:54
+2021-07-03 22:13:01,026 DEBUG                  - depth 0, hash 57239b5, HEAD~307
+2021-07-03 22:13:01,032 DEBUG                  - depth 1, hash 8f09606, HEAD~381
+2021-07-03 22:13:01,037 DEBUG                  - depth 2, hash 0c8c763, HEAD~1185
+2021-07-03 22:13:01,041 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:01,045 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java typedValueSerializer 102:107
+2021-07-03 22:13:01,163 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:01,169 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java untypedValueSerializer 88:93
+2021-07-03 22:13:01,283 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:01,289 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java untypedValueSerializer 81:86
+2021-07-03 22:13:01,400 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:01,407 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java <init> 206:208
+2021-07-03 22:13:01,518 DEBUG                  - depth 0, hash f26c676, HEAD~310
+2021-07-03 22:13:01,524 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:01,529 DEBUG    [line range] com/fasterxml/jackson/databind/ser/SerializerCache.java <init> 202:204
+2021-07-03 22:13:01,644 DEBUG                  - depth 0, hash f26c676, HEAD~310
+2021-07-03 22:13:01,650 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:01,931 DEBUG    [single line]   com/fasterxml/jackson/databind/ser/SerializerFactory.java <init> 11
+2021-07-03 22:13:02,043 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:02,346 DEBUG    [single line]   com/fasterxml/jackson/databind/ser/Serializers.java <init> 91
+2021-07-03 22:13:02,458 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:02,754 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java <init> 27:30
+2021-07-03 22:13:02,865 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:03,207 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java <init> 26:38
+2021-07-03 22:13:03,319 DEBUG                  - depth 0, hash a06883b, HEAD~306
+2021-07-03 22:13:03,326 DEBUG                  - depth 1, hash b332e6a, HEAD~309
+2021-07-03 22:13:03,330 DEBUG                  - depth 2, hash 7461aba, HEAD~837
+2021-07-03 22:13:03,335 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:03,339 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java findSize 40:49
+2021-07-03 22:13:03,455 DEBUG                  - depth 0, hash a06883b, HEAD~306
+2021-07-03 22:13:03,461 DEBUG                  - depth 1, hash b332e6a, HEAD~309
+2021-07-03 22:13:03,465 DEBUG                  - depth 2, hash 7461aba, HEAD~837
+2021-07-03 22:13:03,470 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:03,474 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java from 54:56
+2021-07-03 22:13:03,587 DEBUG                  - depth 0, hash a06883b, HEAD~306
+2021-07-03 22:13:03,594 DEBUG                  - depth 1, hash 7461aba, HEAD~837
+2021-07-03 22:13:03,598 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:03,603 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java typedValueSerializer 83:98
+2021-07-03 22:13:03,720 DEBUG                  - depth 0, hash a06883b, HEAD~306
+2021-07-03 22:13:03,726 DEBUG                  - depth 1, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:03,730 DEBUG                  - depth 2, hash b332e6a, HEAD~309
+2021-07-03 22:13:03,735 DEBUG                  - depth 3, hash 7461aba, HEAD~837
+2021-07-03 22:13:03,739 DEBUG                  - depth 4, hash 3ac5fa9, HEAD~1710
+2021-07-03 22:13:03,744 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:03,748 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java untypedValueSerializer 100:115
+2021-07-03 22:13:03,865 DEBUG                  - depth 0, hash a06883b, HEAD~306
+2021-07-03 22:13:03,871 DEBUG                  - depth 1, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:03,876 DEBUG                  - depth 2, hash b332e6a, HEAD~309
+2021-07-03 22:13:03,880 DEBUG                  - depth 3, hash 7461aba, HEAD~837
+2021-07-03 22:13:03,884 DEBUG                  - depth 4, hash 3ac5fa9, HEAD~1710
+2021-07-03 22:13:03,889 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:03,894 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java untypedValueSerializer 117:132
+2021-07-03 22:13:04,008 DEBUG                  - depth 0, hash a06883b, HEAD~306
+2021-07-03 22:13:04,014 DEBUG                  - depth 1, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:04,019 DEBUG                  - depth 2, hash b332e6a, HEAD~309
+2021-07-03 22:13:04,023 DEBUG                  - depth 3, hash 7461aba, HEAD~837
+2021-07-03 22:13:04,028 DEBUG                  - depth 4, hash 3ac5fa9, HEAD~1710
+2021-07-03 22:13:04,032 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:04,338 DEBUG    [line range] com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java <init> 16:18
+2021-07-03 22:13:04,451 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:04,751 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/BooleanSerializer.java <init> 34:37
+2021-07-03 22:13:04,862 DEBUG                  - depth 0, hash 4b60bfe, HEAD~1150
+2021-07-03 22:13:04,868 DEBUG                  - depth 1, hash 197c58d, HEAD~2254
+2021-07-03 22:13:05,162 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/CalendarSerializer.java <clinit> 21:21
+2021-07-03 22:13:05,274 DEBUG                  - depth 0, hash 9116c9d, HEAD~1700
+2021-07-03 22:13:05,280 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:05,285 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/CalendarSerializer.java <init> 23:23
+2021-07-03 22:13:05,396 DEBUG                  - depth 0, hash bad574a, HEAD~972
+2021-07-03 22:13:05,403 DEBUG                  - depth 1, hash 396725d, HEAD~2100
+2021-07-03 22:13:05,407 DEBUG                  - depth 2, hash 56e8e6c, HEAD~2312
+2021-07-03 22:13:05,411 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:05,416 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/CalendarSerializer.java <init> 25:27
+2021-07-03 22:13:05,528 DEBUG                  - depth 0, hash bad574a, HEAD~972
+2021-07-03 22:13:05,534 DEBUG                  - depth 1, hash 396725d, HEAD~2100
+2021-07-03 22:13:05,539 DEBUG                  - depth 2, hash 56e8e6c, HEAD~2312
+2021-07-03 22:13:05,543 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:05,834 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/DateSerializer.java <clinit> 24:24
+2021-07-03 22:13:05,949 DEBUG                  - depth 0, hash 9116c9d, HEAD~1700
+2021-07-03 22:13:05,955 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:05,960 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/DateSerializer.java <init> 26:28
+2021-07-03 22:13:06,071 DEBUG                  - depth 0, hash bad574a, HEAD~972
+2021-07-03 22:13:06,077 DEBUG                  - depth 1, hash ff8c08c, HEAD~2101
+2021-07-03 22:13:06,082 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:06,086 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/DateSerializer.java <init> 30:32
+2021-07-03 22:13:06,198 DEBUG                  - depth 0, hash bad574a, HEAD~972
+2021-07-03 22:13:06,204 DEBUG                  - depth 1, hash 396725d, HEAD~2100
+2021-07-03 22:13:06,209 DEBUG                  - depth 2, hash ff8c08c, HEAD~2101
+2021-07-03 22:13:06,213 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:06,550 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java <init> 39:45
+2021-07-03 22:13:06,662 DEBUG                  - depth 0, hash bad574a, HEAD~972
+2021-07-03 22:13:06,668 DEBUG                  - depth 1, hash 396725d, HEAD~2100
+2021-07-03 22:13:07,040 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java <init> 76:85
+2021-07-03 22:13:07,153 DEBUG                  - depth 0, hash d5fc827, HEAD~1634
+2021-07-03 22:13:07,160 DEBUG                  - depth 1, hash f4441ec, HEAD~2168
+2021-07-03 22:13:07,164 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:07,169 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java <init> 66:74
+2021-07-03 22:13:07,283 DEBUG                  - depth 0, hash ead4e32, HEAD~491
+2021-07-03 22:13:07,289 DEBUG                  - depth 1, hash f4441ec, HEAD~2168
+2021-07-03 22:13:07,294 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:07,298 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java _notNullClass 87:90
+2021-07-03 22:13:07,410 DEBUG                  - depth 0, hash d5fc827, HEAD~1634
+2021-07-03 22:13:07,416 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java createContextual 112:146
+2021-07-03 22:13:07,530 DEBUG                  - depth 0, hash 10ba2d4, HEAD~748
+2021-07-03 22:13:07,536 DEBUG                  - depth 1, hash 59fe29c, HEAD~1288
+2021-07-03 22:13:07,541 DEBUG                  - depth 2, hash b530c4d, HEAD~1291
+2021-07-03 22:13:07,545 DEBUG                  - depth 3, hash 06bd799, HEAD~1519
+2021-07-03 22:13:07,550 DEBUG                  - depth 4, hash f1c79d4, HEAD~1999
+2021-07-03 22:13:07,554 DEBUG                  - depth 5, hash 9610aff, HEAD~2151
+2021-07-03 22:13:07,559 DEBUG                  - depth 6, hash f4441ec, HEAD~2168
+2021-07-03 22:13:07,563 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java isNaturalTypeWithStdHandling 328:342
+2021-07-03 22:13:07,681 DEBUG                  - depth 0, hash f4441ec, HEAD~2168
+2021-07-03 22:13:07,687 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:07,692 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java serialize 154:189
+2021-07-03 22:13:07,808 DEBUG                  - depth 0, hash 28c4ada, HEAD~435
+2021-07-03 22:13:07,815 DEBUG                  - depth 1, hash 96cae17, HEAD~1554
+2021-07-03 22:13:07,819 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:07,824 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java withResolved 92:100
+2021-07-03 22:13:07,936 DEBUG                  - depth 0, hash f4441ec, HEAD~2168
+2021-07-03 22:13:08,214 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NonTypedScalarSerializerBase.java <init> 20:22
+2021-07-03 22:13:08,325 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:08,331 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NonTypedScalarSerializerBase.java <init> 24:26
+2021-07-03 22:13:08,442 DEBUG                  - depth 0, hash d8c38bb, HEAD~393
+2021-07-03 22:13:08,727 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NullSerializer.java <clinit> 24:24
+2021-07-03 22:13:08,840 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:08,846 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NullSerializer.java <init> 26:26
+2021-07-03 22:13:08,958 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:09,279 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NumberSerializer.java <clinit> 29:29
+2021-07-03 22:13:09,390 DEBUG                  - depth 0, hash ab3e1b7, HEAD~609
+2021-07-03 22:13:09,396 DEBUG                  - depth 1, hash 5087367, HEAD~874
+2021-07-03 22:13:09,401 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NumberSerializer.java <init> 42:46
+2021-07-03 22:13:09,511 DEBUG                  - depth 0, hash ab3e1b7, HEAD~609
+2021-07-03 22:13:09,517 DEBUG                  - depth 1, hash 5087367, HEAD~874
+2021-07-03 22:13:09,867 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NumberSerializers.java addAll 26:43
+2021-07-03 22:13:09,983 DEBUG                  - depth 0, hash 56ecb7e, HEAD~1478
+2021-07-03 22:13:09,989 DEBUG                  - depth 1, hash 197c58d, HEAD~2254
+2021-07-03 22:13:09,993 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:09,998 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NumberSerializers.java <init> 58:66
+2021-07-03 22:13:10,103 DEBUG                  - depth 0, hash 5c0064f, HEAD~392
+2021-07-03 22:13:10,109 DEBUG                  - depth 1, hash 95267b0, HEAD~611
+2021-07-03 22:13:10,114 DEBUG                  - depth 2, hash bc43fb4, HEAD~873
+2021-07-03 22:13:10,118 DEBUG                  - depth 3, hash 5087367, HEAD~874
+2021-07-03 22:13:10,122 DEBUG                  - depth 4, hash 56ecb7e, HEAD~1478
+2021-07-03 22:13:10,127 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NumberSerializers.java <clinit> 214:214
+2021-07-03 22:13:10,246 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:10,252 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/NumberSerializers.java <init> 216:216
+2021-07-03 22:13:10,370 DEBUG                  - depth 0, hash bc43fb4, HEAD~873
+2021-07-03 22:13:10,376 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:10,703 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdJdkSerializers.java all 26:57
+2021-07-03 22:13:10,818 DEBUG                  - depth 0, hash ea1966a, HEAD~170
+2021-07-03 22:13:10,824 DEBUG                  - depth 1, hash 8a5ec37, HEAD~845
+2021-07-03 22:13:10,828 DEBUG                  - depth 2, hash 2a41afc, HEAD~847
+2021-07-03 22:13:10,833 DEBUG                  - depth 3, hash fae643b, HEAD~1281
+2021-07-03 22:13:10,837 DEBUG                  - depth 4, hash 44ac79f, HEAD~1385
+2021-07-03 22:13:10,842 DEBUG                  - depth 5, hash bba2bad, HEAD~1460
+2021-07-03 22:13:10,846 DEBUG                  - depth 6, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:11,148 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdScalarSerializer.java <init> 18:20
+2021-07-03 22:13:11,260 DEBUG                  - depth 0, hash b8f2c02, HEAD~2255
+2021-07-03 22:13:11,266 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:11,271 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdScalarSerializer.java <init> 26:29
+2021-07-03 22:13:11,386 DEBUG                  - depth 0, hash b8f2c02, HEAD~2255
+2021-07-03 22:13:11,392 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:11,741 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdSerializer.java <init> 45:47
+2021-07-03 22:13:11,856 DEBUG                  - depth 0, hash b8f2c02, HEAD~2255
+2021-07-03 22:13:11,862 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:11,866 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdSerializer.java <init> 58:61
+2021-07-03 22:13:11,980 DEBUG                  - depth 0, hash b8f2c02, HEAD~2255
+2021-07-03 22:13:11,986 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:11,990 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdSerializer.java handledType 77:78
+2021-07-03 22:13:12,104 DEBUG                  - depth 0, hash 4984d59, HEAD~1755
+2021-07-03 22:13:12,110 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:12,115 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StdSerializer.java isDefaultSerializer 240:242
+2021-07-03 22:13:12,227 DEBUG                  - depth 0, hash df554c6, HEAD~1189
+2021-07-03 22:13:12,234 DEBUG                  - depth 1, hash f42e629, HEAD~2172
+2021-07-03 22:13:12,544 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StringSerializer.java <init> 29:29
+2021-07-03 22:13:12,656 DEBUG                  - depth 0, hash d8c38bb, HEAD~393
+2021-07-03 22:13:12,662 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:12,667 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/StringSerializer.java serialize 47:50
+2021-07-03 22:13:12,782 DEBUG                  - depth 0, hash d8c38bb, HEAD~393
+2021-07-03 22:13:12,788 DEBUG                  - depth 1, hash eefb690, HEAD~836
+2021-07-03 22:13:12,793 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:13,101 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/ToStringSerializer.java <clinit> 28:28
+2021-07-03 22:13:13,212 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:13,218 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/ToStringSerializer.java <init> 38:38
+2021-07-03 22:13:13,330 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:13,677 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/UUIDSerializer.java <clinit> 21:21
+2021-07-03 22:13:13,789 DEBUG                  - depth 0, hash 19a2de7, HEAD~1278
+2021-07-03 22:13:13,795 DEBUG                  - depth 1, hash fae643b, HEAD~1281
+2021-07-03 22:13:13,800 DEBUG    [line range] com/fasterxml/jackson/databind/ser/std/UUIDSerializer.java <init> 23:23
+2021-07-03 22:13:13,910 DEBUG                  - depth 0, hash fae643b, HEAD~1281
+2021-07-03 22:13:14,219 DEBUG    [line range] com/fasterxml/jackson/databind/type/ClassKey.java <init> 42:47
+2021-07-03 22:13:14,330 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:14,336 DEBUG    [line range] com/fasterxml/jackson/databind/type/ClassKey.java equals 75:91
+2021-07-03 22:13:14,452 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:14,459 DEBUG    [line range] com/fasterxml/jackson/databind/type/ClassKey.java hashCode 93:93
+2021-07-03 22:13:14,570 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:14,576 DEBUG    [line range] com/fasterxml/jackson/databind/type/ClassKey.java reset 49:54
+2021-07-03 22:13:14,688 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:15,046 DEBUG    [line range] com/fasterxml/jackson/databind/type/SimpleType.java <init> 43:45
+2021-07-03 22:13:15,158 DEBUG                  - depth 0, hash 2944617, HEAD~715
+2021-07-03 22:13:15,164 DEBUG                  - depth 1, hash 43307b4, HEAD~1499
+2021-07-03 22:13:15,169 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:15,173 DEBUG    [line range] com/fasterxml/jackson/databind/type/SimpleType.java <init> 63:77
+2021-07-03 22:13:15,286 DEBUG                  - depth 0, hash 2944617, HEAD~715
+2021-07-03 22:13:15,292 DEBUG                  - depth 1, hash 43307b4, HEAD~1499
+2021-07-03 22:13:15,297 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:15,301 DEBUG    [line range] com/fasterxml/jackson/databind/type/SimpleType.java constructUnsafe 99:101
+2021-07-03 22:13:15,418 DEBUG                  - depth 0, hash 2944617, HEAD~715
+2021-07-03 22:13:15,424 DEBUG                  - depth 1, hash 43307b4, HEAD~1499
+2021-07-03 22:13:15,429 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:15,433 DEBUG    [line range] com/fasterxml/jackson/databind/type/SimpleType.java isContainerType 202:203
+2021-07-03 22:13:15,545 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:15,873 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeBase.java <init> 36:40
+2021-07-03 22:13:15,984 DEBUG                  - depth 0, hash 43307b4, HEAD~1499
+2021-07-03 22:13:15,990 DEBUG                  - depth 1, hash fcb1c25, HEAD~2347
+2021-07-03 22:13:15,995 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:16,470 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java <clinit> 38:38
+2021-07-03 22:13:16,588 DEBUG                  - depth 0, hash 9312ad8, HEAD~2321
+2021-07-03 22:13:16,594 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java <init> 107:110
+2021-07-03 22:13:16,712 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:16,719 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java <init> 67:67
+2021-07-03 22:13:16,837 DEBUG                  - depth 0, hash f521158, HEAD~1738
+2021-07-03 22:13:16,843 DEBUG                  - depth 1, hash 56bb15d, HEAD~1742
+2021-07-03 22:13:16,848 DEBUG                  - depth 2, hash 9312ad8, HEAD~2321
+2021-07-03 22:13:16,852 DEBUG                  - depth 3, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:16,857 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java _constructType 381:418
+2021-07-03 22:13:16,976 DEBUG                  - depth 0, hash 2944617, HEAD~715
+2021-07-03 22:13:16,983 DEBUG                  - depth 1, hash aee4ed2, HEAD~1595
+2021-07-03 22:13:16,987 DEBUG                  - depth 2, hash d8b4071, HEAD~1665
+2021-07-03 22:13:16,992 DEBUG                  - depth 3, hash 5d8d3d2, HEAD~2212
+2021-07-03 22:13:16,996 DEBUG                  - depth 4, hash 9312ad8, HEAD~2321
+2021-07-03 22:13:17,001 DEBUG                  - depth 5, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:17,006 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java _fromClass 767:829
+2021-07-03 22:13:17,125 DEBUG                  - depth 0, hash 9776f5f, HEAD~171
+2021-07-03 22:13:17,131 DEBUG                  - depth 1, hash c85438b, HEAD~172
+2021-07-03 22:13:17,135 DEBUG                  - depth 2, hash 66bfe66, HEAD~300
+2021-07-03 22:13:17,140 DEBUG                  - depth 3, hash 2944617, HEAD~715
+2021-07-03 22:13:17,144 DEBUG                  - depth 4, hash 2f58c93, HEAD~976
+2021-07-03 22:13:17,149 DEBUG                  - depth 5, hash 9312ad8, HEAD~2321
+2021-07-03 22:13:17,153 DEBUG                  - depth 6, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:17,158 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java constructType 354:356
+2021-07-03 22:13:17,281 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:17,287 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java constructType 358:360
+2021-07-03 22:13:17,405 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:17,411 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeFactory.java defaultInstance 133:133
+2021-07-03 22:13:17,529 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:17,872 DEBUG    [line range] com/fasterxml/jackson/databind/type/TypeParser.java <init> 21:23
+2021-07-03 22:13:17,985 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:18,344 DEBUG    [line range] com/fasterxml/jackson/databind/util/ArrayBuilders.java insertInListNoDup 267:299
+2021-07-03 22:13:18,457 DEBUG                  - depth 0, hash 3bde5be, HEAD~1580
+2021-07-03 22:13:18,463 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:18,760 DEBUG    [line range] com/fasterxml/jackson/databind/util/ArrayIterator.java <init> 16:19
+2021-07-03 22:13:18,872 DEBUG                  - depth 0, hash 2d05246, HEAD~1138
+2021-07-03 22:13:18,878 DEBUG    [line range] com/fasterxml/jackson/databind/util/ArrayIterator.java hasNext 21:22
+2021-07-03 22:13:18,988 DEBUG                  - depth 0, hash 2d05246, HEAD~1138
+2021-07-03 22:13:18,994 DEBUG    [line range] com/fasterxml/jackson/databind/util/ArrayIterator.java iterator 33:33
+2021-07-03 22:13:19,105 DEBUG                  - depth 0, hash 2d05246, HEAD~1138
+2021-07-03 22:13:19,111 DEBUG    [line range] com/fasterxml/jackson/databind/util/ArrayIterator.java next 24:30
+2021-07-03 22:13:19,220 DEBUG                  - depth 0, hash 2d05246, HEAD~1138
+2021-07-03 22:13:19,625 DEBUG    [line range] com/fasterxml/jackson/databind/util/ClassUtil.java _addSuperTypes 37:49
+2021-07-03 22:13:19,738 DEBUG                  - depth 0, hash 6a8b73a, HEAD~1136
+2021-07-03 22:13:19,745 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:19,749 DEBUG    [line range] com/fasterxml/jackson/databind/util/ClassUtil.java checkAndFixAccess 490:513
+2021-07-03 22:13:19,861 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:19,868 DEBUG    [line range] com/fasterxml/jackson/databind/util/ClassUtil.java findSuperTypes 28:30
+2021-07-03 22:13:19,981 DEBUG                  - depth 0, hash 6a8b73a, HEAD~1136
+2021-07-03 22:13:19,987 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:19,992 DEBUG    [line range] com/fasterxml/jackson/databind/util/ClassUtil.java findSuperTypes 32:35
+2021-07-03 22:13:20,105 DEBUG                  - depth 0, hash 6a8b73a, HEAD~1136
+2021-07-03 22:13:20,111 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:20,115 DEBUG    [line range] com/fasterxml/jackson/databind/util/ClassUtil.java isJacksonStdImpl 602:604
+2021-07-03 22:13:20,229 DEBUG                  - depth 0, hash 52a9244, HEAD~2302
+2021-07-03 22:13:20,235 DEBUG    [line range] com/fasterxml/jackson/databind/util/ClassUtil.java isJacksonStdImpl 598:600
+2021-07-03 22:13:20,348 DEBUG                  - depth 0, hash 52a9244, HEAD~2302
+2021-07-03 22:13:20,671 DEBUG    [line range] com/fasterxml/jackson/databind/util/LRUMap.java <init> 32:37
+2021-07-03 22:13:20,784 DEBUG                  - depth 0, hash 585f309, HEAD~815
+2021-07-03 22:13:20,790 DEBUG                  - depth 1, hash 2f58c93, HEAD~976
+2021-07-03 22:13:20,794 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:20,799 DEBUG    [line range] com/fasterxml/jackson/databind/util/LRUMap.java get 68:68
+2021-07-03 22:13:20,913 DEBUG                  - depth 0, hash e029d72, HEAD~808
+2021-07-03 22:13:20,919 DEBUG                  - depth 1, hash 585f309, HEAD~815
+2021-07-03 22:13:20,924 DEBUG                  - depth 2, hash 2f58c93, HEAD~976
+2021-07-03 22:13:20,928 DEBUG    [line range] com/fasterxml/jackson/databind/util/LRUMap.java put 39:49
+2021-07-03 22:13:21,040 DEBUG                  - depth 0, hash 9e9e0b6, HEAD~807
+2021-07-03 22:13:21,046 DEBUG                  - depth 1, hash 585f309, HEAD~815
+2021-07-03 22:13:21,051 DEBUG                  - depth 2, hash 2f58c93, HEAD~976
+2021-07-03 22:13:21,055 DEBUG                  - depth 3, hash f521158, HEAD~1738
+2021-07-03 22:13:21,060 DEBUG                  - depth 4, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:21,065 DEBUG    [line range] com/fasterxml/jackson/databind/util/LRUMap.java putIfAbsent 54:65
+2021-07-03 22:13:21,180 DEBUG                  - depth 0, hash 3eb74af, HEAD~741
+2021-07-03 22:13:21,484 DEBUG    [line range] com/fasterxml/jackson/databind/util/RootNameLookup.java <init> 21:23
+2021-07-03 22:13:21,596 DEBUG                  - depth 0, hash 3c950dd, HEAD~902
+2021-07-03 22:13:21,602 DEBUG                  - depth 1, hash 2f58c93, HEAD~976
+2021-07-03 22:13:21,607 DEBUG                  - depth 2, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:22,009 DEBUG    [line range] com/fasterxml/jackson/databind/util/StdDateFormat.java <clinit> 56:61
+2021-07-03 22:13:22,123 DEBUG                  - depth 0, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:22,129 DEBUG    [line range] com/fasterxml/jackson/databind/util/StdDateFormat.java <init> 123:125
+2021-07-03 22:13:22,241 DEBUG                  - depth 0, hash 6b89162, HEAD~1010
+2021-07-03 22:13:22,248 DEBUG                  - depth 1, hash e4f23bb, HEAD~2353
+2021-07-03 22:13:22,579 DEBUG    [line range] com/fasterxml/jackson/databind/util/TypeKey.java <init> 41:46
+2021-07-03 22:13:22,719 DEBUG                  - depth 0, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:22,725 DEBUG                  - depth 1, hash f26c676, HEAD~310
+2021-07-03 22:13:22,730 DEBUG    [line range] com/fasterxml/jackson/databind/util/TypeKey.java <init> 34:39
+2021-07-03 22:13:22,869 DEBUG                  - depth 0, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:22,876 DEBUG                  - depth 1, hash f26c676, HEAD~310
+2021-07-03 22:13:22,880 DEBUG    [line range] com/fasterxml/jackson/databind/util/TypeKey.java hashCode 104:104
+2021-07-03 22:13:23,019 DEBUG                  - depth 0, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:23,025 DEBUG                  - depth 1, hash b332e6a, HEAD~309
+2021-07-03 22:13:23,029 DEBUG    [line range] com/fasterxml/jackson/databind/util/TypeKey.java typedHash 52:54
+2021-07-03 22:13:23,168 DEBUG                  - depth 0, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:23,174 DEBUG                  - depth 1, hash f26c676, HEAD~310
+2021-07-03 22:13:23,179 DEBUG    [line range] com/fasterxml/jackson/databind/util/TypeKey.java untypedHash 56:58
+2021-07-03 22:13:23,322 DEBUG                  - depth 0, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:23,328 DEBUG                  - depth 1, hash f26c676, HEAD~310
+2021-07-03 22:13:23,333 DEBUG    [line range] com/fasterxml/jackson/databind/util/TypeKey.java untypedHash 48:50
+2021-07-03 22:13:23,470 DEBUG                  - depth 0, hash 12a5ac0, HEAD~308
+2021-07-03 22:13:23,476 DEBUG                  - depth 1, hash f26c676, HEAD~310
+2021-07-03 22:13:23,481 INFO     The number of BIC candidates: 279

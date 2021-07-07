@@ -1,0 +1,240 @@
+2021-07-03 07:33:33,289 INFO     Search BICs for /tmp/Cli-17b/
+2021-07-03 07:33:33,289 DEBUG    Reading the coverage of org.apache.commons.cli.PosixParserTest::testStopBursting (failings)
+2021-07-03 07:33:33,294 INFO     Loaded 1x165 Coverage Matrix
+2021-07-03 07:33:33,294 INFO     The number of total commits: 372
+2021-07-03 07:33:33,632 DEBUG    [line range] org/apache/commons/cli/CommandLine.java <init> 47:47
+2021-07-03 07:33:33,648 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:33,654 DEBUG                  - depth 1, hash aae50c5, HEAD~370
+2021-07-03 07:33:33,658 DEBUG    [line range] org/apache/commons/cli/CommandLine.java addArg 323:326
+2021-07-03 07:33:33,674 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:33,679 DEBUG                  - depth 1, hash aae50c5, HEAD~370
+2021-07-03 07:33:33,683 DEBUG    [line range] org/apache/commons/cli/CommandLine.java addOption 334:337
+2021-07-03 07:33:33,699 DEBUG                  - depth 0, hash b0e1b80, HEAD~108
+2021-07-03 07:33:33,704 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:33,708 DEBUG                  - depth 2, hash 0f52eff, HEAD~295
+2021-07-03 07:33:33,712 DEBUG                  - depth 3, hash 347bbeb, HEAD~296
+2021-07-03 07:33:33,716 DEBUG                  - depth 4, hash 0c281fb, HEAD~299
+2021-07-03 07:33:33,720 DEBUG                  - depth 5, hash 872f1d5, HEAD~319
+2021-07-03 07:33:33,724 DEBUG                  - depth 6, hash c08f738, HEAD~322
+2021-07-03 07:33:33,728 DEBUG                  - depth 7, hash 04490af, HEAD~335
+2021-07-03 07:33:33,732 DEBUG                  - depth 8, hash f9df518, HEAD~339
+2021-07-03 07:33:33,736 DEBUG                  - depth 9, hash 5aa47b7, HEAD~344
+2021-07-03 07:33:33,740 DEBUG                  - depth 10, hash 4cca25d, HEAD~367
+2021-07-03 07:33:33,744 DEBUG                  - depth 11, hash aae50c5, HEAD~370
+2021-07-03 07:33:33,748 DEBUG    [line range] org/apache/commons/cli/CommandLine.java getArgList 291:294
+2021-07-03 07:33:33,764 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:33,769 DEBUG                  - depth 1, hash aae50c5, HEAD~370
+2021-07-03 07:33:33,773 DEBUG    [line range] org/apache/commons/cli/CommandLine.java hasOption 69:72
+2021-07-03 07:33:33,789 DEBUG                  - depth 0, hash b0e1b80, HEAD~108
+2021-07-03 07:33:33,794 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:33,798 DEBUG                  - depth 2, hash 4cca25d, HEAD~367
+2021-07-03 07:33:33,802 DEBUG                  - depth 3, hash aae50c5, HEAD~370
+2021-07-03 07:33:33,806 DEBUG    [line range] org/apache/commons/cli/CommandLine.java resolveOption 171:188
+2021-07-03 07:33:33,822 DEBUG                  - depth 0, hash b0e1b80, HEAD~108
+2021-07-03 07:33:33,828 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:33,832 DEBUG                  - depth 2, hash 347bbeb, HEAD~296
+2021-07-03 07:33:33,836 DEBUG                  - depth 3, hash 0c281fb, HEAD~299
+2021-07-03 07:33:33,840 DEBUG                  - depth 4, hash 83b7ceb, HEAD~338
+2021-07-03 07:33:33,844 DEBUG                  - depth 5, hash f9df518, HEAD~339
+2021-07-03 07:33:33,848 DEBUG                  - depth 6, hash 5aa47b7, HEAD~344
+2021-07-03 07:33:33,852 DEBUG                  - depth 7, hash 4cca25d, HEAD~367
+2021-07-03 07:33:33,856 DEBUG                  - depth 8, hash aae50c5, HEAD~370
+2021-07-03 07:33:34,222 DEBUG    [line range] org/apache/commons/cli/Option.java <init> 55:55
+2021-07-03 07:33:34,239 DEBUG                  - depth 0, hash beb276c, HEAD~292
+2021-07-03 07:33:34,244 DEBUG                  - depth 1, hash 62670f5, HEAD~320
+2021-07-03 07:33:34,248 DEBUG    [line range] org/apache/commons/cli/Option.java clearValues 665:667
+2021-07-03 07:33:34,264 DEBUG                  - depth 0, hash c155ceb, HEAD~106
+2021-07-03 07:33:34,269 DEBUG    [line range] org/apache/commons/cli/Option.java clone 648:656
+2021-07-03 07:33:34,283 DEBUG                  - depth 0, hash 4cf1b71, HEAD~68
+2021-07-03 07:33:34,288 DEBUG                  - depth 1, hash 1545ae4, HEAD~73
+2021-07-03 07:33:34,292 DEBUG    [line range] org/apache/commons/cli/Option.java equals 604:628
+2021-07-03 07:33:34,307 DEBUG                  - depth 0, hash b0e1b80, HEAD~108
+2021-07-03 07:33:34,312 DEBUG    [line range] org/apache/commons/cli/Option.java getKey 159:168
+2021-07-03 07:33:34,328 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,333 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:34,337 DEBUG    [line range] org/apache/commons/cli/Option.java getLongOpt 210:213
+2021-07-03 07:33:34,355 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,360 DEBUG                  - depth 1, hash aae50c5, HEAD~370
+2021-07-03 07:33:34,364 DEBUG    [line range] org/apache/commons/cli/Option.java getOpt 180:183
+2021-07-03 07:33:34,382 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,387 DEBUG                  - depth 1, hash 4cca25d, HEAD~367
+2021-07-03 07:33:34,392 DEBUG                  - depth 2, hash aae50c5, HEAD~370
+2021-07-03 07:33:34,396 DEBUG    [line range] org/apache/commons/cli/Option.java hasArg 259:262
+2021-07-03 07:33:34,414 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,419 DEBUG                  - depth 1, hash 16b91ad, HEAD~343
+2021-07-03 07:33:34,423 DEBUG                  - depth 2, hash aae50c5, HEAD~370
+2021-07-03 07:33:34,427 DEBUG    [line range] org/apache/commons/cli/Option.java hasLongOpt 249:252
+2021-07-03 07:33:34,445 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,450 DEBUG                  - depth 1, hash aae50c5, HEAD~370
+2021-07-03 07:33:34,454 DEBUG    [line range] org/apache/commons/cli/Option.java isRequired 290:293
+2021-07-03 07:33:34,473 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,478 DEBUG                  - depth 1, hash 5470bca, HEAD~291
+2021-07-03 07:33:34,482 DEBUG                  - depth 2, hash 347bbeb, HEAD~296
+2021-07-03 07:33:34,486 DEBUG                  - depth 3, hash 43a3545, HEAD~314
+2021-07-03 07:33:34,490 DEBUG                  - depth 4, hash 62670f5, HEAD~320
+2021-07-03 07:33:34,494 DEBUG                  - depth 5, hash 04490af, HEAD~335
+2021-07-03 07:33:34,499 DEBUG                  - depth 6, hash 1060ee7, HEAD~341
+2021-07-03 07:33:34,503 DEBUG                  - depth 7, hash 16b91ad, HEAD~343
+2021-07-03 07:33:34,507 DEBUG                  - depth 8, hash 7f90b98, HEAD~346
+2021-07-03 07:33:34,511 DEBUG                  - depth 9, hash aae50c5, HEAD~370
+2021-07-03 07:33:34,823 DEBUG    [line range] org/apache/commons/cli/OptionValidator.java isValidChar 95:98
+2021-07-03 07:33:34,837 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,842 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:34,846 DEBUG    [line range] org/apache/commons/cli/OptionValidator.java isValidOpt 84:87
+2021-07-03 07:33:34,860 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,866 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:34,870 DEBUG    [line range] org/apache/commons/cli/OptionValidator.java validateOption 43:75
+2021-07-03 07:33:34,884 DEBUG                  - depth 0, hash 8f8639f, HEAD~8
+2021-07-03 07:33:34,890 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:34,894 DEBUG                  - depth 2, hash 347bbeb, HEAD~296
+2021-07-03 07:33:35,233 DEBUG    [line range] org/apache/commons/cli/Options.java <init> 50:50
+2021-07-03 07:33:35,249 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,254 DEBUG                  - depth 1, hash aae50c5, HEAD~370
+2021-07-03 07:33:35,259 DEBUG    [line range] org/apache/commons/cli/Options.java addOption 136:142
+2021-07-03 07:33:35,275 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,280 DEBUG                  - depth 1, hash fbc0bd0, HEAD~345
+2021-07-03 07:33:35,284 DEBUG                  - depth 2, hash 4cca25d, HEAD~367
+2021-07-03 07:33:35,288 DEBUG                  - depth 3, hash aae50c5, HEAD~370
+2021-07-03 07:33:35,293 DEBUG    [line range] org/apache/commons/cli/Options.java addOption 150:172
+2021-07-03 07:33:35,309 DEBUG                  - depth 0, hash 500e99f, HEAD~283
+2021-07-03 07:33:35,314 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,318 DEBUG                  - depth 2, hash 5470bca, HEAD~291
+2021-07-03 07:33:35,322 DEBUG                  - depth 3, hash 347bbeb, HEAD~296
+2021-07-03 07:33:35,326 DEBUG                  - depth 4, hash d30f12f, HEAD~329
+2021-07-03 07:33:35,330 DEBUG                  - depth 5, hash 5e98762, HEAD~356
+2021-07-03 07:33:35,335 DEBUG                  - depth 6, hash 929f397, HEAD~357
+2021-07-03 07:33:35,339 DEBUG                  - depth 7, hash aae50c5, HEAD~370
+2021-07-03 07:33:35,343 DEBUG    [line range] org/apache/commons/cli/Options.java getOption 211:221
+2021-07-03 07:33:35,359 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,364 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:35,368 DEBUG                  - depth 2, hash f9df518, HEAD~339
+2021-07-03 07:33:35,372 DEBUG                  - depth 3, hash 4cca25d, HEAD~367
+2021-07-03 07:33:35,376 DEBUG                  - depth 4, hash aae50c5, HEAD~370
+2021-07-03 07:33:35,380 DEBUG    [line range] org/apache/commons/cli/Options.java getOptionGroup 246:249
+2021-07-03 07:33:35,395 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,401 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:35,405 DEBUG                  - depth 2, hash f9df518, HEAD~339
+2021-07-03 07:33:35,409 DEBUG                  - depth 3, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:35,413 DEBUG    [line range] org/apache/commons/cli/Options.java getRequiredOptions 199:202
+2021-07-03 07:33:35,428 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,433 DEBUG                  - depth 1, hash d30f12f, HEAD~329
+2021-07-03 07:33:35,437 DEBUG                  - depth 2, hash f9df518, HEAD~339
+2021-07-03 07:33:35,442 DEBUG                  - depth 3, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:35,446 DEBUG    [line range] org/apache/commons/cli/Options.java hasOption 231:236
+2021-07-03 07:33:35,461 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,467 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:35,471 DEBUG                  - depth 2, hash 745d1a5, HEAD~333
+2021-07-03 07:33:35,475 DEBUG                  - depth 3, hash f9df518, HEAD~339
+2021-07-03 07:33:35,479 DEBUG                  - depth 4, hash e56f1e1, HEAD~365
+2021-07-03 07:33:35,483 DEBUG                  - depth 5, hash 4cca25d, HEAD~367
+2021-07-03 07:33:35,487 DEBUG                  - depth 6, hash aae50c5, HEAD~370
+2021-07-03 07:33:35,492 DEBUG    [line range] org/apache/commons/cli/Options.java helpOptions 189:192
+2021-07-03 07:33:35,508 DEBUG                  - depth 0, hash 05e7cd0, HEAD~25
+2021-07-03 07:33:35,513 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,517 DEBUG                  - depth 2, hash 3b8e3de, HEAD~297
+2021-07-03 07:33:35,522 DEBUG                  - depth 3, hash 62670f5, HEAD~320
+2021-07-03 07:33:35,526 DEBUG                  - depth 4, hash 5c427dd, HEAD~327
+2021-07-03 07:33:35,530 DEBUG                  - depth 5, hash 5e98762, HEAD~356
+2021-07-03 07:33:35,534 DEBUG                  - depth 6, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:35,538 DEBUG                  - depth 7, hash aae50c5, HEAD~370
+2021-07-03 07:33:35,884 DEBUG    [single line]   org/apache/commons/cli/Parser.java <init> 34
+2021-07-03 07:33:35,901 DEBUG                  - depth 0, hash dde6993, HEAD~334
+2021-07-03 07:33:35,906 DEBUG    [line range] org/apache/commons/cli/Parser.java checkRequiredOptions 308:315
+2021-07-03 07:33:35,922 DEBUG                  - depth 0, hash 28a8c18, HEAD~10
+2021-07-03 07:33:35,927 DEBUG                  - depth 1, hash fea3587, HEAD~50
+2021-07-03 07:33:35,931 DEBUG                  - depth 2, hash 298804b, HEAD~51
+2021-07-03 07:33:35,935 DEBUG                  - depth 3, hash f789594, HEAD~94
+2021-07-03 07:33:35,939 DEBUG                  - depth 4, hash 9b2b803, HEAD~287
+2021-07-03 07:33:35,944 DEBUG                  - depth 5, hash d30f12f, HEAD~329
+2021-07-03 07:33:35,948 DEBUG                  - depth 6, hash 745d1a5, HEAD~333
+2021-07-03 07:33:35,952 DEBUG                  - depth 7, hash dde6993, HEAD~334
+2021-07-03 07:33:35,956 DEBUG    [line range] org/apache/commons/cli/Parser.java getOptions 50:52
+2021-07-03 07:33:35,970 DEBUG                  - depth 0, hash 298804b, HEAD~51
+2021-07-03 07:33:35,975 DEBUG    [line range] org/apache/commons/cli/Parser.java getRequiredOptions 54:56
+2021-07-03 07:33:35,989 DEBUG                  - depth 0, hash 298804b, HEAD~51
+2021-07-03 07:33:35,994 DEBUG    [line range] org/apache/commons/cli/Parser.java parse 149:246
+2021-07-03 07:33:36,010 DEBUG                  - depth 0, hash 298804b, HEAD~51
+2021-07-03 07:33:36,015 DEBUG                  - depth 1, hash c155ceb, HEAD~106
+2021-07-03 07:33:36,020 DEBUG                  - depth 2, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,024 DEBUG                  - depth 3, hash 347bbeb, HEAD~296
+2021-07-03 07:33:36,028 DEBUG                  - depth 4, hash d30f12f, HEAD~329
+2021-07-03 07:33:36,032 DEBUG                  - depth 5, hash fc0723b, HEAD~330
+2021-07-03 07:33:36,036 DEBUG                  - depth 6, hash dde6993, HEAD~334
+2021-07-03 07:33:36,041 DEBUG    [line range] org/apache/commons/cli/Parser.java parse 125:130
+2021-07-03 07:33:36,056 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,062 DEBUG                  - depth 1, hash 347bbeb, HEAD~296
+2021-07-03 07:33:36,066 DEBUG    [line range] org/apache/commons/cli/Parser.java processOption 374:418
+2021-07-03 07:33:36,082 DEBUG                  - depth 0, hash 0a8de54, HEAD~3
+2021-07-03 07:33:36,087 DEBUG                  - depth 1, hash 20dfc60, HEAD~16
+2021-07-03 07:33:36,092 DEBUG                  - depth 2, hash 298804b, HEAD~51
+2021-07-03 07:33:36,096 DEBUG                  - depth 3, hash a8a8ec0, HEAD~204
+2021-07-03 07:33:36,100 DEBUG                  - depth 4, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,104 DEBUG                  - depth 5, hash 347bbeb, HEAD~296
+2021-07-03 07:33:36,108 DEBUG                  - depth 6, hash 436ef8b, HEAD~312
+2021-07-03 07:33:36,112 DEBUG                  - depth 7, hash c08f738, HEAD~322
+2021-07-03 07:33:36,116 DEBUG                  - depth 8, hash dde6993, HEAD~334
+2021-07-03 07:33:36,121 DEBUG    [line range] org/apache/commons/cli/Parser.java processProperties 254:299
+2021-07-03 07:33:36,136 DEBUG                  - depth 0, hash 298804b, HEAD~51
+2021-07-03 07:33:36,142 DEBUG                  - depth 1, hash 9774480, HEAD~70
+2021-07-03 07:33:36,146 DEBUG                  - depth 2, hash 1314233, HEAD~215
+2021-07-03 07:33:36,150 DEBUG                  - depth 3, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,154 DEBUG                  - depth 4, hash be7dfa5, HEAD~289
+2021-07-03 07:33:36,158 DEBUG                  - depth 5, hash 347bbeb, HEAD~296
+2021-07-03 07:33:36,163 DEBUG    [line range] org/apache/commons/cli/Parser.java setOptions 45:48
+2021-07-03 07:33:36,176 DEBUG                  - depth 0, hash d72a578, HEAD~47
+2021-07-03 07:33:36,182 DEBUG                  - depth 1, hash 298804b, HEAD~51
+2021-07-03 07:33:36,534 DEBUG    [single line]   org/apache/commons/cli/PosixParser.java <init> 31
+2021-07-03 07:33:36,550 DEBUG                  - depth 0, hash dde6993, HEAD~334
+2021-07-03 07:33:36,555 DEBUG                  - depth 1, hash 4cca25d, HEAD~367
+2021-07-03 07:33:36,560 DEBUG    [line range] org/apache/commons/cli/PosixParser.java <init> 34:34
+2021-07-03 07:33:36,575 DEBUG                  - depth 0, hash dde6993, HEAD~334
+2021-07-03 07:33:36,580 DEBUG                  - depth 1, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:36,585 DEBUG    [line range] org/apache/commons/cli/PosixParser.java burstToken 279:310
+2021-07-03 07:33:36,600 DEBUG                  - depth 0, hash 2ff9573, HEAD~107
+2021-07-03 07:33:36,606 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,610 DEBUG                  - depth 2, hash 745d1a5, HEAD~333
+2021-07-03 07:33:36,614 DEBUG                  - depth 3, hash dde6993, HEAD~334
+2021-07-03 07:33:36,618 DEBUG                  - depth 4, hash 4fbf597, HEAD~337
+2021-07-03 07:33:36,623 DEBUG                  - depth 5, hash f9df518, HEAD~339
+2021-07-03 07:33:36,627 DEBUG                  - depth 6, hash 1060ee7, HEAD~341
+2021-07-03 07:33:36,631 DEBUG                  - depth 7, hash 16b91ad, HEAD~343
+2021-07-03 07:33:36,635 DEBUG                  - depth 8, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:36,639 DEBUG                  - depth 9, hash 4cca25d, HEAD~367
+2021-07-03 07:33:36,644 DEBUG    [line range] org/apache/commons/cli/PosixParser.java flatten 95:164
+2021-07-03 07:33:36,660 DEBUG                  - depth 0, hash b599e12, HEAD~98
+2021-07-03 07:33:36,665 DEBUG                  - depth 1, hash 2ff9573, HEAD~107
+2021-07-03 07:33:36,669 DEBUG                  - depth 2, hash 45c0174, HEAD~219
+2021-07-03 07:33:36,673 DEBUG                  - depth 3, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,678 DEBUG                  - depth 4, hash f1a32a5, HEAD~328
+2021-07-03 07:33:36,682 DEBUG                  - depth 5, hash dde6993, HEAD~334
+2021-07-03 07:33:36,686 DEBUG                  - depth 6, hash 4fbf597, HEAD~337
+2021-07-03 07:33:36,690 DEBUG                  - depth 7, hash f9df518, HEAD~339
+2021-07-03 07:33:36,694 DEBUG                  - depth 8, hash 1060ee7, HEAD~341
+2021-07-03 07:33:36,698 DEBUG                  - depth 9, hash 16b91ad, HEAD~343
+2021-07-03 07:33:36,702 DEBUG                  - depth 10, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:36,707 DEBUG                  - depth 11, hash 08a1eab, HEAD~364
+2021-07-03 07:33:36,711 DEBUG                  - depth 12, hash 4cca25d, HEAD~367
+2021-07-03 07:33:36,715 DEBUG    [line range] org/apache/commons/cli/PosixParser.java gobble 171:180
+2021-07-03 07:33:36,731 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,736 DEBUG                  - depth 1, hash dde6993, HEAD~334
+2021-07-03 07:33:36,740 DEBUG                  - depth 2, hash 4fbf597, HEAD~337
+2021-07-03 07:33:36,744 DEBUG                  - depth 3, hash f9df518, HEAD~339
+2021-07-03 07:33:36,748 DEBUG                  - depth 4, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:36,752 DEBUG                  - depth 5, hash 4cca25d, HEAD~367
+2021-07-03 07:33:36,757 DEBUG    [line range] org/apache/commons/cli/PosixParser.java init 50:55
+2021-07-03 07:33:36,772 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,778 DEBUG                  - depth 1, hash dde6993, HEAD~334
+2021-07-03 07:33:36,782 DEBUG                  - depth 2, hash f9df518, HEAD~339
+2021-07-03 07:33:36,786 DEBUG                  - depth 3, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:36,790 DEBUG                  - depth 4, hash 4cca25d, HEAD~367
+2021-07-03 07:33:36,794 DEBUG    [line range] org/apache/commons/cli/PosixParser.java process 195:215
+2021-07-03 07:33:36,810 DEBUG                  - depth 0, hash 9b2b803, HEAD~287
+2021-07-03 07:33:36,815 DEBUG                  - depth 1, hash dde6993, HEAD~334
+2021-07-03 07:33:36,820 DEBUG                  - depth 2, hash f9df518, HEAD~339
+2021-07-03 07:33:36,824 DEBUG                  - depth 3, hash 66d0ae6, HEAD~359
+2021-07-03 07:33:36,828 DEBUG                  - depth 4, hash 4cca25d, HEAD~367
+2021-07-03 07:33:37,113 DEBUG    [line range] org/apache/commons/cli/Util.java stripLeadingHyphens 34:49
+2021-07-03 07:33:37,127 DEBUG                  - depth 0, hash 3880640, HEAD~89
+2021-07-03 07:33:37,132 DEBUG                  - depth 1, hash 9b2b803, HEAD~287
+2021-07-03 07:33:37,136 DEBUG                  - depth 2, hash 347bbeb, HEAD~296
+2021-07-03 07:33:37,141 INFO     The number of BIC candidates: 56

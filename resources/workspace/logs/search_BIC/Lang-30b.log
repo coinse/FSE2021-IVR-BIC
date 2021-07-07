@@ -1,0 +1,74 @@
+2021-07-04 05:41:08,978 INFO     Search BICs for /tmp/Lang-30b/
+2021-07-04 05:41:08,978 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_StringCharArrayWithSupplementaryChars (failings)
+2021-07-04 05:41:08,999 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_StringStringWithSupplementaryChars (failings)
+2021-07-04 05:41:09,018 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_CharArrayWithBadSupplementaryChars (failings)
+2021-07-04 05:41:09,048 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_StringStringWithSupplementaryChars (failings)
+2021-07-04 05:41:09,067 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_CharArrayWithSupplementaryChars (failings)
+2021-07-04 05:41:09,086 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAny_StringCharArrayWithBadSupplementaryChars (failings)
+2021-07-04 05:41:09,105 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_StringWithSupplementaryChars (failings)
+2021-07-04 05:41:09,133 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAny_StringWithBadSupplementaryChars (failings)
+2021-07-04 05:41:09,152 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_StringWithBadSupplementaryChars (failings)
+2021-07-04 05:41:09,171 DEBUG    Reading the coverage of org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_StringCharArrayWithSupplementaryChars (failings)
+2021-07-04 05:41:09,200 INFO     Loaded 10x66 Coverage Matrix
+2021-07-04 05:41:09,200 INFO     The number of total commits: 2415
+2021-07-04 05:41:09,814 DEBUG    [line range] org/apache/commons/lang3/ArrayUtils.java <clinit> 56:56
+2021-07-04 05:41:09,931 DEBUG                  - depth 0, hash cbf7a76, HEAD~1605
+2021-07-04 05:41:09,937 DEBUG                  - depth 1, hash a4776f3, HEAD~1606
+2021-07-04 05:41:09,941 DEBUG                  - depth 2, hash 8c3f1ab, HEAD~1985
+2021-07-04 05:41:09,945 DEBUG    [line range] org/apache/commons/lang3/ArrayUtils.java isEmpty 3278:3283
+2021-07-04 05:41:10,056 DEBUG                  - depth 0, hash a6e6f51, HEAD~1479
+2021-07-04 05:41:10,061 DEBUG                  - depth 1, hash cbf7a76, HEAD~1605
+2021-07-04 05:41:10,065 DEBUG                  - depth 2, hash a4776f3, HEAD~1606
+2021-07-04 05:41:10,069 DEBUG                  - depth 3, hash 58fc770, HEAD~1614
+2021-07-04 05:41:10,742 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java indexOfAny 1371:1384
+2021-07-04 05:41:10,920 DEBUG                  - depth 0, hash 177b087, HEAD~11
+2021-07-04 05:41:10,926 DEBUG                  - depth 1, hash cf2e48a, HEAD~13
+2021-07-04 05:41:10,930 DEBUG                  - depth 2, hash 05121dd, HEAD~1561
+2021-07-04 05:41:10,934 DEBUG                  - depth 3, hash 0a3e36f, HEAD~1571
+2021-07-04 05:41:10,938 DEBUG                  - depth 4, hash 3663d98, HEAD~1663
+2021-07-04 05:41:10,942 DEBUG                  - depth 5, hash 1719697, HEAD~1707
+2021-07-04 05:41:10,946 DEBUG                  - depth 6, hash 8744560, HEAD~1812
+2021-07-04 05:41:10,950 DEBUG                  - depth 7, hash 251a476, HEAD~1905
+2021-07-04 05:41:10,955 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java isEmpty 193:195
+2021-07-04 05:41:11,156 DEBUG                  - depth 0, hash cf2e48a, HEAD~13
+2021-07-04 05:41:11,161 DEBUG                  - depth 1, hash 8981848, HEAD~362
+2021-07-04 05:41:11,165 DEBUG                  - depth 2, hash b2ecd0d, HEAD~1319
+2021-07-04 05:41:11,170 DEBUG                  - depth 3, hash 282d157, HEAD~1902
+2021-07-04 05:41:11,174 DEBUG                  - depth 4, hash d23b22c, HEAD~2413
+2021-07-04 05:41:11,178 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java indexOfAny 1408:1413
+2021-07-04 05:41:11,360 DEBUG                  - depth 0, hash 177b087, HEAD~11
+2021-07-04 05:41:11,365 DEBUG                  - depth 1, hash cf2e48a, HEAD~13
+2021-07-04 05:41:11,369 DEBUG                  - depth 2, hash 0a3e36f, HEAD~1571
+2021-07-04 05:41:11,373 DEBUG                  - depth 3, hash 3663d98, HEAD~1663
+2021-07-04 05:41:11,377 DEBUG                  - depth 4, hash 8744560, HEAD~1812
+2021-07-04 05:41:11,382 DEBUG                  - depth 5, hash 251a476, HEAD~1905
+2021-07-04 05:41:11,386 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java containsNone 1665:1680
+2021-07-04 05:41:11,569 DEBUG                  - depth 0, hash cf2e48a, HEAD~13
+2021-07-04 05:41:11,574 DEBUG                  - depth 1, hash 7b6408c, HEAD~1921
+2021-07-04 05:41:11,579 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java indexOfAnyBut 1563:1573
+2021-07-04 05:41:11,757 DEBUG                  - depth 0, hash 177b087, HEAD~11
+2021-07-04 05:41:11,763 DEBUG                  - depth 1, hash 0a3e36f, HEAD~1571
+2021-07-04 05:41:11,767 DEBUG                  - depth 2, hash 8744560, HEAD~1812
+2021-07-04 05:41:11,771 DEBUG                  - depth 3, hash 7b6408c, HEAD~1921
+2021-07-04 05:41:11,775 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java containsAny 1440:1465
+2021-07-04 05:41:11,897 DEBUG                  - depth 0, hash ed6faac, HEAD~1
+2021-07-04 05:41:11,902 DEBUG                  - depth 1, hash 38bf704, HEAD~9
+2021-07-04 05:41:11,906 DEBUG                  - depth 2, hash cf2e48a, HEAD~13
+2021-07-04 05:41:11,910 DEBUG                  - depth 3, hash 4aefe9f, HEAD~632
+2021-07-04 05:41:11,914 DEBUG                  - depth 4, hash 4bdc5d8, HEAD~692
+2021-07-04 05:41:11,918 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java containsNone 1704:1709
+2021-07-04 05:41:12,104 DEBUG                  - depth 0, hash cf2e48a, HEAD~13
+2021-07-04 05:41:12,110 DEBUG                  - depth 1, hash 7b6408c, HEAD~1921
+2021-07-04 05:41:12,114 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java containsAny 1494:1499
+2021-07-04 05:41:12,233 DEBUG                  - depth 0, hash cf2e48a, HEAD~13
+2021-07-04 05:41:12,238 DEBUG                  - depth 1, hash 2a088e0, HEAD~633
+2021-07-04 05:41:12,242 DEBUG                  - depth 2, hash 4bdc5d8, HEAD~692
+2021-07-04 05:41:12,247 DEBUG    [line range] org/apache/commons/lang3/StringUtils.java indexOfAnyBut 1525:1539
+2021-07-04 05:41:12,425 DEBUG                  - depth 0, hash 177b087, HEAD~11
+2021-07-04 05:41:12,431 DEBUG                  - depth 1, hash cf2e48a, HEAD~13
+2021-07-04 05:41:12,435 DEBUG                  - depth 2, hash 05121dd, HEAD~1561
+2021-07-04 05:41:12,439 DEBUG                  - depth 3, hash 0a3e36f, HEAD~1571
+2021-07-04 05:41:12,443 DEBUG                  - depth 4, hash 1719697, HEAD~1707
+2021-07-04 05:41:12,447 DEBUG                  - depth 5, hash 8744560, HEAD~1812
+2021-07-04 05:41:12,451 DEBUG                  - depth 6, hash 7b6408c, HEAD~1921
+2021-07-04 05:41:12,455 INFO     The number of BIC candidates: 23

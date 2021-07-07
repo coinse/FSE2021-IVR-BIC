@@ -1,0 +1,314 @@
+2021-07-03 20:33:12,719 INFO     Search BICs for /tmp/Compress-22b/
+2021-07-03 20:33:12,719 DEBUG    Reading the coverage of org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test::testPartialReadTruncatedData (failings)
+2021-07-03 20:33:12,774 INFO     Loaded 1x1118 Coverage Matrix
+2021-07-03 20:33:12,774 INFO     The number of total commits: 1437
+2021-07-03 20:33:13,050 DEBUG    [single line]   org/apache/commons/compress/compressors/CompressorInputStream.java <init> 23
+2021-07-03 20:33:13,097 DEBUG                  - depth 0, hash 90a05f7, HEAD~1281
+2021-07-03 20:33:13,103 DEBUG                  - depth 1, hash 0f9b440, HEAD~1282
+2021-07-03 20:33:13,107 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:13,111 DEBUG    [line range] org/apache/commons/compress/compressors/CompressorInputStream.java <init> 24:24
+2021-07-03 20:33:13,158 DEBUG                  - depth 0, hash 2dca661, HEAD~868
+2021-07-03 20:33:13,164 DEBUG                  - depth 1, hash a6537fc, HEAD~970
+2021-07-03 20:33:13,168 DEBUG                  - depth 2, hash 3f9bcc6, HEAD~1285
+2021-07-03 20:33:13,172 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:13,430 DEBUG    [single line]   org/apache/commons/compress/compressors/CompressorOutputStream.java <init> 23
+2021-07-03 20:33:13,477 DEBUG                  - depth 0, hash 90a05f7, HEAD~1281
+2021-07-03 20:33:13,483 DEBUG                  - depth 1, hash 60d3d77, HEAD~1283
+2021-07-03 20:33:13,487 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:13,968 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java <init> 60:60
+2021-07-03 20:33:14,020 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:14,025 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,029 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java bsGetBit 400:418
+2021-07-03 20:33:14,080 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:14,086 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,090 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java bsGetInt 424:426
+2021-07-03 20:33:14,141 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:14,146 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,150 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java bsGetUByte 420:422
+2021-07-03 20:33:14,201 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:14,207 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,211 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java bsR 376:398
+2021-07-03 20:33:14,261 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:14,267 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,271 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java close 361:374
+2021-07-03 20:33:14,322 DEBUG                  - depth 0, hash 46628ef, HEAD~621
+2021-07-03 20:33:14,327 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:14,331 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,335 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java createHuffmanDecodingTables 553:579
+2021-07-03 20:33:14,388 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,393 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:14,397 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,402 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java endBlock 328:345
+2021-07-03 20:33:14,453 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,459 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:14,463 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,467 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java getAndMoveToFrontDecode 581:768
+2021-07-03 20:33:14,519 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,524 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:14,528 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,534 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java getAndMoveToFrontDecode0 770:801
+2021-07-03 20:33:14,586 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,592 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:14,596 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,600 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java hbCreateDecodeTables 431:467
+2021-07-03 20:33:14,651 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,656 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:14,661 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,665 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java init 237:266
+2021-07-03 20:33:14,718 DEBUG                  - depth 0, hash 7d80791, HEAD~377
+2021-07-03 20:33:14,723 DEBUG                  - depth 1, hash a0e435e, HEAD~433
+2021-07-03 20:33:14,727 DEBUG                  - depth 2, hash 20fd83a, HEAD~512
+2021-07-03 20:33:14,731 DEBUG                  - depth 3, hash 9f68b5d, HEAD~750
+2021-07-03 20:33:14,736 DEBUG                  - depth 4, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,740 DEBUG                  - depth 5, hash 7a5d18e, HEAD~1272
+2021-07-03 20:33:14,744 DEBUG                  - depth 6, hash c199737, HEAD~1309
+2021-07-03 20:33:14,748 DEBUG                  - depth 7, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,752 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java initBlock 268:326
+2021-07-03 20:33:14,805 DEBUG                  - depth 0, hash a0e435e, HEAD~433
+2021-07-03 20:33:14,810 DEBUG                  - depth 1, hash 20fd83a, HEAD~512
+2021-07-03 20:33:14,814 DEBUG                  - depth 2, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,819 DEBUG                  - depth 3, hash c199737, HEAD~1309
+2021-07-03 20:33:14,823 DEBUG                  - depth 4, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,827 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java makeMaps 183:196
+2021-07-03 20:33:14,880 DEBUG                  - depth 0, hash a0e435e, HEAD~433
+2021-07-03 20:33:14,885 DEBUG                  - depth 1, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,889 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java read 155:181
+2021-07-03 20:33:14,942 DEBUG                  - depth 0, hash 0299191, HEAD~616
+2021-07-03 20:33:14,947 DEBUG                  - depth 1, hash 46628ef, HEAD~621
+2021-07-03 20:33:14,951 DEBUG                  - depth 2, hash b6363ff, HEAD~1195
+2021-07-03 20:33:14,955 DEBUG                  - depth 3, hash c199737, HEAD~1309
+2021-07-03 20:33:14,960 DEBUG                  - depth 4, hash ca16539, HEAD~1324
+2021-07-03 20:33:14,964 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java read0 198:235
+2021-07-03 20:33:15,015 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:15,020 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,024 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java recvDecodingTables 469:548
+2021-07-03 20:33:15,076 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:15,082 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:15,086 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,091 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java setupBlock 803:839
+2021-07-03 20:33:15,142 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:15,148 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:15,152 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,156 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java setupNoRandPartA 866:882
+2021-07-03 20:33:15,209 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:15,214 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,219 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java setupNoRandPartB 925:937
+2021-07-03 20:33:15,271 DEBUG                  - depth 0, hash c199737, HEAD~1309
+2021-07-03 20:33:15,277 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,281 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java <init> 956:956
+2021-07-03 20:33:15,334 DEBUG                  - depth 0, hash b6363ff, HEAD~1195
+2021-07-03 20:33:15,339 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:15,343 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,348 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java initTT 999:1011
+2021-07-03 20:33:15,400 DEBUG                  - depth 0, hash 58c56fc, HEAD~717
+2021-07-03 20:33:15,406 DEBUG                  - depth 1, hash b6363ff, HEAD~1195
+2021-07-03 20:33:15,410 DEBUG                  - depth 2, hash c199737, HEAD~1309
+2021-07-03 20:33:15,414 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,887 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java <init> 354:357
+2021-07-03 20:33:15,944 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:15,949 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:15,953 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java <init> 305:305
+2021-07-03 20:33:16,009 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,014 DEBUG                  - depth 1, hash 41f4a20, HEAD~1194
+2021-07-03 20:33:16,018 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,023 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java blockSort 1157:1159
+2021-07-03 20:33:16,082 DEBUG                  - depth 0, hash 6ced422, HEAD~392
+2021-07-03 20:33:16,087 DEBUG                  - depth 1, hash 6e95697, HEAD~401
+2021-07-03 20:33:16,091 DEBUG                  - depth 2, hash b06f7b4, HEAD~402
+2021-07-03 20:33:16,095 DEBUG                  - depth 3, hash a0e435e, HEAD~433
+2021-07-03 20:33:16,099 DEBUG                  - depth 4, hash 4d75bd5, HEAD~989
+2021-07-03 20:33:16,104 DEBUG                  - depth 5, hash 04fa434, HEAD~1145
+2021-07-03 20:33:16,108 DEBUG                  - depth 6, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,112 DEBUG                  - depth 7, hash 69170ea, HEAD~1229
+2021-07-03 20:33:16,116 DEBUG                  - depth 8, hash e09c9e5, HEAD~1243
+2021-07-03 20:33:16,120 DEBUG                  - depth 9, hash 90a05f7, HEAD~1281
+2021-07-03 20:33:16,124 DEBUG                  - depth 10, hash 3f9bcc6, HEAD~1285
+2021-07-03 20:33:16,128 DEBUG                  - depth 11, hash 5e5804c, HEAD~1296
+2021-07-03 20:33:16,133 DEBUG                  - depth 12, hash c199737, HEAD~1309
+2021-07-03 20:33:16,137 DEBUG                  - depth 13, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,141 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java bsFinishedWithStream 676:683
+2021-07-03 20:33:16,199 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,205 DEBUG                  - depth 1, hash 90a05f7, HEAD~1281
+2021-07-03 20:33:16,209 DEBUG                  - depth 2, hash 60d3d77, HEAD~1283
+2021-07-03 20:33:16,213 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,217 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java bsPutInt 704:709
+2021-07-03 20:33:16,275 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,280 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,285 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java bsPutUByte 700:702
+2021-07-03 20:33:16,343 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,348 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,352 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java bsW 685:698
+2021-07-03 20:33:16,409 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,414 DEBUG                  - depth 1, hash 90a05f7, HEAD~1281
+2021-07-03 20:33:16,418 DEBUG                  - depth 2, hash 60d3d77, HEAD~1283
+2021-07-03 20:33:16,423 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,427 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java close 496:503
+2021-07-03 20:33:16,484 DEBUG                  - depth 0, hash 46628ef, HEAD~621
+2021-07-03 20:33:16,489 DEBUG                  - depth 1, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,493 DEBUG                  - depth 2, hash 7b879e5, HEAD~1301
+2021-07-03 20:33:16,498 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,502 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java endBlock 547:586
+2021-07-03 20:33:16,560 DEBUG                  - depth 0, hash 6ced422, HEAD~392
+2021-07-03 20:33:16,566 DEBUG                  - depth 1, hash b06f7b4, HEAD~402
+2021-07-03 20:33:16,570 DEBUG                  - depth 2, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,574 DEBUG                  - depth 3, hash 3f9bcc6, HEAD~1285
+2021-07-03 20:33:16,578 DEBUG                  - depth 4, hash c199737, HEAD~1309
+2021-07-03 20:33:16,582 DEBUG                  - depth 5, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,587 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java endCompression 588:604
+2021-07-03 20:33:16,645 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,650 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,655 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java finish 479:494
+2021-07-03 20:33:16,713 DEBUG                  - depth 0, hash 6e95697, HEAD~401
+2021-07-03 20:33:16,719 DEBUG                  - depth 1, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,723 DEBUG                  - depth 2, hash 7b879e5, HEAD~1301
+2021-07-03 20:33:16,727 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java generateMTFValues 1168:1269
+2021-07-03 20:33:16,784 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,790 DEBUG                  - depth 1, hash 3f9bcc6, HEAD~1285
+2021-07-03 20:33:16,794 DEBUG                  - depth 2, hash c199737, HEAD~1309
+2021-07-03 20:33:16,798 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,804 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java hbAssignCodes 661:674
+2021-07-03 20:33:16,861 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,867 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:16,871 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,875 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java hbMakeCodeLengths 141:290
+2021-07-03 20:33:16,932 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:16,937 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:16,944 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java init 519:532
+2021-07-03 20:33:17,000 DEBUG                  - depth 0, hash 6e95697, HEAD~401
+2021-07-03 20:33:17,006 DEBUG                  - depth 1, hash cf64557, HEAD~1014
+2021-07-03 20:33:17,010 DEBUG                  - depth 2, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,014 DEBUG                  - depth 3, hash 7a5d18e, HEAD~1272
+2021-07-03 20:33:17,018 DEBUG                  - depth 4, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,023 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java initBlock 534:545
+2021-07-03 20:33:17,081 DEBUG                  - depth 0, hash b58c039, HEAD~387
+2021-07-03 20:33:17,086 DEBUG                  - depth 1, hash 7684a4b, HEAD~388
+2021-07-03 20:33:17,091 DEBUG                  - depth 2, hash 1ce57d9, HEAD~400
+2021-07-03 20:33:17,095 DEBUG                  - depth 3, hash df7f45f, HEAD~995
+2021-07-03 20:33:17,099 DEBUG                  - depth 4, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,103 DEBUG                  - depth 5, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,107 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java moveToFrontCodeAndSend 1151:1155
+2021-07-03 20:33:17,165 DEBUG                  - depth 0, hash b06f7b4, HEAD~402
+2021-07-03 20:33:17,171 DEBUG                  - depth 1, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,175 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,179 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues 711:752
+2021-07-03 20:33:17,238 DEBUG                  - depth 0, hash 58c56fc, HEAD~717
+2021-07-03 20:33:17,243 DEBUG                  - depth 1, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,248 DEBUG                  - depth 2, hash 5e5804c, HEAD~1296
+2021-07-03 20:33:17,252 DEBUG                  - depth 3, hash 70c8320, HEAD~1304
+2021-07-03 20:33:17,256 DEBUG                  - depth 4, hash c199737, HEAD~1309
+2021-07-03 20:33:17,260 DEBUG                  - depth 5, hash a8a9e64, HEAD~1322
+2021-07-03 20:33:17,264 DEBUG                  - depth 6, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,269 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues0 754:787
+2021-07-03 20:33:17,325 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,331 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,336 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues1 789:905
+2021-07-03 20:33:17,394 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,400 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:17,404 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,410 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues2 907:932
+2021-07-03 20:33:17,468 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,474 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,479 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues3 934:957
+2021-07-03 20:33:17,537 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,542 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,547 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues4 959:1001
+2021-07-03 20:33:17,605 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,611 DEBUG                  - depth 1, hash 70c8320, HEAD~1304
+2021-07-03 20:33:17,615 DEBUG                  - depth 2, hash c199737, HEAD~1309
+2021-07-03 20:33:17,619 DEBUG                  - depth 3, hash a8a9e64, HEAD~1322
+2021-07-03 20:33:17,623 DEBUG                  - depth 4, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,629 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues5 1003:1038
+2021-07-03 20:33:17,687 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,693 DEBUG                  - depth 1, hash 70c8320, HEAD~1304
+2021-07-03 20:33:17,697 DEBUG                  - depth 2, hash c199737, HEAD~1309
+2021-07-03 20:33:17,701 DEBUG                  - depth 3, hash a8a9e64, HEAD~1322
+2021-07-03 20:33:17,705 DEBUG                  - depth 4, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,710 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues6 1040:1102
+2021-07-03 20:33:17,768 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,773 DEBUG                  - depth 1, hash 70c8320, HEAD~1304
+2021-07-03 20:33:17,778 DEBUG                  - depth 2, hash c199737, HEAD~1309
+2021-07-03 20:33:17,782 DEBUG                  - depth 3, hash a8a9e64, HEAD~1322
+2021-07-03 20:33:17,786 DEBUG                  - depth 4, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,792 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java sendMTFValues7 1104:1149
+2021-07-03 20:33:17,850 DEBUG                  - depth 0, hash 58c56fc, HEAD~717
+2021-07-03 20:33:17,856 DEBUG                  - depth 1, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,860 DEBUG                  - depth 2, hash 70c8320, HEAD~1304
+2021-07-03 20:33:17,864 DEBUG                  - depth 3, hash c199737, HEAD~1309
+2021-07-03 20:33:17,869 DEBUG                  - depth 4, hash a8a9e64, HEAD~1322
+2021-07-03 20:33:17,873 DEBUG                  - depth 5, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,879 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java write 613:634
+2021-07-03 20:33:17,935 DEBUG                  - depth 0, hash 46628ef, HEAD~621
+2021-07-03 20:33:17,940 DEBUG                  - depth 1, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:17,945 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:17,949 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java write0 640:659
+2021-07-03 20:33:18,007 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:18,012 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:18,017 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java writeRun 415:467
+2021-07-03 20:33:18,073 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:18,079 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:18,084 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java <init> 1275:1275
+2021-07-03 20:33:18,140 DEBUG                  - depth 0, hash b1bfbcb, HEAD~1151
+2021-07-03 20:33:18,146 DEBUG                  - depth 1, hash ca16539, HEAD~1324
+2021-07-03 20:33:18,615 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java <clinit> 580:582
+2021-07-03 20:33:18,665 DEBUG                  - depth 0, hash cca0e6e, HEAD~396
+2021-07-03 20:33:18,670 DEBUG                  - depth 1, hash ea31005, HEAD~397
+2021-07-03 20:33:18,674 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java <init> 132:132
+2021-07-03 20:33:18,724 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:18,730 DEBUG                  - depth 1, hash 6e95697, HEAD~401
+2021-07-03 20:33:18,734 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java blockSort 153:178
+2021-07-03 20:33:18,784 DEBUG                  - depth 0, hash 6ced422, HEAD~392
+2021-07-03 20:33:18,789 DEBUG                  - depth 1, hash 2ab2fcb, HEAD~393
+2021-07-03 20:33:18,793 DEBUG                  - depth 2, hash 0600296, HEAD~394
+2021-07-03 20:33:18,798 DEBUG                  - depth 3, hash cca0e6e, HEAD~396
+2021-07-03 20:33:18,802 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fallbackQSort3 342:440
+2021-07-03 20:33:18,851 DEBUG                  - depth 0, hash 8f70246, HEAD~389
+2021-07-03 20:33:18,857 DEBUG                  - depth 1, hash 654222e, HEAD~391
+2021-07-03 20:33:18,861 DEBUG                  - depth 2, hash fdd7459, HEAD~395
+2021-07-03 20:33:18,868 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fallbackSimpleSort 267:296
+2021-07-03 20:33:18,916 DEBUG                  - depth 0, hash 654222e, HEAD~391
+2021-07-03 20:33:18,922 DEBUG                  - depth 1, hash fdd7459, HEAD~395
+2021-07-03 20:33:18,927 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fallbackSort 185:198
+2021-07-03 20:33:18,977 DEBUG                  - depth 0, hash 0600296, HEAD~394
+2021-07-03 20:33:18,982 DEBUG                  - depth 1, hash cca0e6e, HEAD~396
+2021-07-03 20:33:18,987 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fallbackSort 470:571
+2021-07-03 20:33:19,035 DEBUG                  - depth 0, hash 654222e, HEAD~391
+2021-07-03 20:33:19,040 DEBUG                  - depth 1, hash 0600296, HEAD~394
+2021-07-03 20:33:19,045 DEBUG                  - depth 2, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,051 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fmin 319:321
+2021-07-03 20:33:19,099 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,104 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fpop 328:330
+2021-07-03 20:33:19,153 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,159 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fpush 323:326
+2021-07-03 20:33:19,207 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,212 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fswap 303:307
+2021-07-03 20:33:19,260 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,266 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java fvswap 312:317
+2021-07-03 20:33:19,313 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,319 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/BlockSort.java getEclass 447:450
+2021-07-03 20:33:19,367 DEBUG                  - depth 0, hash fdd7459, HEAD~395
+2021-07-03 20:33:19,678 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/CRC.java <clinit> 27:92
+2021-07-03 20:33:19,727 DEBUG                  - depth 0, hash c640fab, HEAD~849
+2021-07-03 20:33:19,732 DEBUG                  - depth 1, hash 41f4a20, HEAD~1194
+2021-07-03 20:33:19,737 DEBUG                  - depth 2, hash c199737, HEAD~1309
+2021-07-03 20:33:19,741 DEBUG                  - depth 3, hash ca16539, HEAD~1324
+2021-07-03 20:33:19,745 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/CRC.java <init> 94:96
+2021-07-03 20:33:19,794 DEBUG                  - depth 0, hash c640fab, HEAD~849
+2021-07-03 20:33:19,800 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:19,804 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:19,809 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/CRC.java getFinalCRC 102:104
+2021-07-03 20:33:19,858 DEBUG                  - depth 0, hash c640fab, HEAD~849
+2021-07-03 20:33:19,863 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:19,868 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:19,872 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/CRC.java initialiseCRC 98:100
+2021-07-03 20:33:19,920 DEBUG                  - depth 0, hash c640fab, HEAD~849
+2021-07-03 20:33:19,926 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:19,930 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:19,934 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/CRC.java updateCRC 114:120
+2021-07-03 20:33:19,984 DEBUG                  - depth 0, hash c640fab, HEAD~849
+2021-07-03 20:33:19,989 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:19,993 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:19,998 DEBUG    [line range] org/apache/commons/compress/compressors/bzip2/CRC.java updateCRC 122:131
+2021-07-03 20:33:20,047 DEBUG                  - depth 0, hash c640fab, HEAD~849
+2021-07-03 20:33:20,053 DEBUG                  - depth 1, hash c199737, HEAD~1309
+2021-07-03 20:33:20,057 DEBUG                  - depth 2, hash ca16539, HEAD~1324
+2021-07-03 20:33:20,062 INFO     The number of BIC candidates: 43

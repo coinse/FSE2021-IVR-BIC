@@ -1,0 +1,229 @@
+2021-07-03 20:16:16,586 INFO     Search BICs for /tmp/Codec-12b/
+2021-07-03 20:16:16,586 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130 (failings)
+2021-07-03 20:16:16,592 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base64InputStreamTest::testSkipToEnd (failings)
+2021-07-03 20:16:16,597 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base64InputStreamTest::testSkipWrongArgument (failings)
+2021-07-03 20:16:16,601 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base64InputStreamTest::testSkipBig (failings)
+2021-07-03 20:16:16,605 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base64InputStreamTest::testSkipPastEnd (failings)
+2021-07-03 20:16:16,609 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base32InputStreamTest::testAvailable (failings)
+2021-07-03 20:16:16,613 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base32InputStreamTest::testSkipToEnd (failings)
+2021-07-03 20:16:16,618 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base32InputStreamTest::testSkipWrongArgument (failings)
+2021-07-03 20:16:16,622 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base32InputStreamTest::testSkipPastEnd (failings)
+2021-07-03 20:16:16,626 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base32InputStreamTest::testSkipBig (failings)
+2021-07-03 20:16:16,630 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130 (failings)
+2021-07-03 20:16:16,636 DEBUG    Reading the coverage of org.apache.commons.codec.binary.Base64InputStreamTest::testAvailable (failings)
+2021-07-03 20:16:16,640 INFO     Loaded 12x259 Coverage Matrix
+2021-07-03 20:16:16,641 INFO     The number of total commits: 976
+2021-07-03 20:16:17,024 DEBUG    [line range] org/apache/commons/codec/binary/Base32.java <clinit> 60:60
+2021-07-03 20:16:17,063 DEBUG                  - depth 0, hash ad12e19, HEAD~329
+2021-07-03 20:16:17,069 DEBUG    [line range] org/apache/commons/codec/binary/Base32.java <init> 230:258
+2021-07-03 20:16:17,108 DEBUG                  - depth 0, hash 30bcd86, HEAD~277
+2021-07-03 20:16:17,113 DEBUG                  - depth 1, hash d6f305d, HEAD~292
+2021-07-03 20:16:17,118 DEBUG                  - depth 2, hash 7b6040c, HEAD~305
+2021-07-03 20:16:17,122 DEBUG                  - depth 3, hash e810384, HEAD~312
+2021-07-03 20:16:17,126 DEBUG                  - depth 4, hash ee4b722, HEAD~325
+2021-07-03 20:16:17,130 DEBUG                  - depth 5, hash 86db746, HEAD~327
+2021-07-03 20:16:17,134 DEBUG                  - depth 6, hash ad12e19, HEAD~329
+2021-07-03 20:16:17,138 DEBUG    [line range] org/apache/commons/codec/binary/Base32.java <init> 172:174
+2021-07-03 20:16:17,177 DEBUG                  - depth 0, hash 86db746, HEAD~327
+2021-07-03 20:16:17,183 DEBUG                  - depth 1, hash ad12e19, HEAD~329
+2021-07-03 20:16:17,187 DEBUG    [line range] org/apache/commons/codec/binary/Base32.java decode 281:354
+2021-07-03 20:16:17,226 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:17,231 DEBUG                  - depth 1, hash d6f305d, HEAD~292
+2021-07-03 20:16:17,236 DEBUG                  - depth 2, hash e810384, HEAD~312
+2021-07-03 20:16:17,240 DEBUG                  - depth 3, hash 86db746, HEAD~327
+2021-07-03 20:16:17,244 DEBUG    [line range] org/apache/commons/codec/binary/Base32.java encode 370:460
+2021-07-03 20:16:17,284 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:17,289 DEBUG                  - depth 1, hash 56730f9, HEAD~300
+2021-07-03 20:16:17,293 DEBUG                  - depth 2, hash 7b6040c, HEAD~305
+2021-07-03 20:16:17,297 DEBUG                  - depth 3, hash effccf3, HEAD~306
+2021-07-03 20:16:17,301 DEBUG                  - depth 4, hash e7b46fd, HEAD~311
+2021-07-03 20:16:17,305 DEBUG                  - depth 5, hash e810384, HEAD~312
+2021-07-03 20:16:17,309 DEBUG                  - depth 6, hash ee4b722, HEAD~325
+2021-07-03 20:16:17,314 DEBUG                  - depth 7, hash ad12e19, HEAD~329
+2021-07-03 20:16:17,597 DEBUG    [line range] org/apache/commons/codec/binary/Base32InputStream.java <init> 47:49
+2021-07-03 20:16:17,630 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:17,636 DEBUG    [line range] org/apache/commons/codec/binary/Base32InputStream.java <init> 60:62
+2021-07-03 20:16:17,670 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:17,954 DEBUG    [line range] org/apache/commons/codec/binary/Base32OutputStream.java <init> 47:49
+2021-07-03 20:16:17,989 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:17,994 DEBUG    [line range] org/apache/commons/codec/binary/Base32OutputStream.java <init> 60:62
+2021-07-03 20:16:18,029 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:18,388 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java <init> 82:82
+2021-07-03 20:16:18,425 DEBUG                  - depth 0, hash effccf3, HEAD~306
+2021-07-03 20:16:18,431 DEBUG                  - depth 1, hash e810384, HEAD~312
+2021-07-03 20:16:18,435 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java available 164:166
+2021-07-03 20:16:18,472 DEBUG                  - depth 0, hash cffa33e, HEAD~307
+2021-07-03 20:16:18,477 DEBUG                  - depth 1, hash c6fadee, HEAD~324
+2021-07-03 20:16:18,481 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java ensureBufferSize 195:199
+2021-07-03 20:16:18,519 DEBUG                  - depth 0, hash e810384, HEAD~312
+2021-07-03 20:16:18,525 DEBUG                  - depth 1, hash c6fadee, HEAD~324
+2021-07-03 20:16:18,529 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java getDefaultBufferSize 173:175
+2021-07-03 20:16:18,566 DEBUG                  - depth 0, hash e810384, HEAD~312
+2021-07-03 20:16:18,572 DEBUG                  - depth 1, hash c6fadee, HEAD~324
+2021-07-03 20:16:18,576 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java hasData 155:157
+2021-07-03 20:16:18,613 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:18,618 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java readResults 213:224
+2021-07-03 20:16:18,656 DEBUG                  - depth 0, hash 1e2151c, HEAD~7
+2021-07-03 20:16:18,661 DEBUG                  - depth 1, hash cffa33e, HEAD~307
+2021-07-03 20:16:18,665 DEBUG                  - depth 2, hash e810384, HEAD~312
+2021-07-03 20:16:18,669 DEBUG                  - depth 3, hash c6fadee, HEAD~324
+2021-07-03 20:16:18,673 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java resizeBuffer 178:188
+2021-07-03 20:16:18,710 DEBUG                  - depth 0, hash e810384, HEAD~312
+2021-07-03 20:16:18,715 DEBUG                  - depth 1, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,022 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecInputStream.java <init> 37:37
+2021-07-03 20:16:19,056 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,062 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecInputStream.java read 84:126
+2021-07-03 20:16:19,096 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:19,101 DEBUG                  - depth 1, hash b396c53, HEAD~319
+2021-07-03 20:16:19,105 DEBUG                  - depth 2, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,410 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecOutputStream.java <init> 37:37
+2021-07-03 20:16:19,445 DEBUG                  - depth 0, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,451 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecOutputStream.java close 135:145
+2021-07-03 20:16:19,485 DEBUG                  - depth 0, hash 1e2151c, HEAD~7
+2021-07-03 20:16:19,490 DEBUG                  - depth 1, hash 8c87835, HEAD~188
+2021-07-03 20:16:19,495 DEBUG                  - depth 2, hash b396c53, HEAD~319
+2021-07-03 20:16:19,499 DEBUG                  - depth 3, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,503 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecOutputStream.java flush 124:127
+2021-07-03 20:16:19,538 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:19,543 DEBUG                  - depth 1, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,548 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecOutputStream.java flush 104:116
+2021-07-03 20:16:19,582 DEBUG                  - depth 0, hash cffa33e, HEAD~307
+2021-07-03 20:16:19,588 DEBUG                  - depth 1, hash b396c53, HEAD~319
+2021-07-03 20:16:19,592 DEBUG                  - depth 2, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,596 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecOutputStream.java write 77:93
+2021-07-03 20:16:19,630 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:19,636 DEBUG                  - depth 1, hash b396c53, HEAD~319
+2021-07-03 20:16:19,640 DEBUG                  - depth 2, hash c6fadee, HEAD~324
+2021-07-03 20:16:19,950 DEBUG    [line range] org/apache/commons/codec/binary/StringUtils.java getBytesUnchecked 151:160
+2021-07-03 20:16:19,989 DEBUG                  - depth 0, hash b3607d8, HEAD~412
+2021-07-03 20:16:19,994 DEBUG                  - depth 1, hash e17d5c5, HEAD~428
+2021-07-03 20:16:19,998 DEBUG                  - depth 2, hash 20a88d9, HEAD~444
+2021-07-03 20:16:20,002 DEBUG                  - depth 3, hash d6ce22b, HEAD~481
+2021-07-03 20:16:20,006 DEBUG                  - depth 4, hash 4d67ff2, HEAD~482
+2021-07-03 20:16:20,011 DEBUG    [line range] org/apache/commons/codec/binary/StringUtils.java getBytesUtf8 128:130
+2021-07-03 20:16:20,049 DEBUG                  - depth 0, hash b3607d8, HEAD~412
+2021-07-03 20:16:20,055 DEBUG                  - depth 1, hash 20a88d9, HEAD~444
+2021-07-03 20:16:20,059 DEBUG                  - depth 2, hash a952f09, HEAD~447
+2021-07-03 20:16:20,063 DEBUG                  - depth 3, hash d6ce22b, HEAD~481
+2021-07-03 20:16:20,067 DEBUG                  - depth 4, hash 4d67ff2, HEAD~482
+2021-07-03 20:16:20,071 DEBUG    [line range] org/apache/commons/codec/binary/StringUtils.java newString 185:194
+2021-07-03 20:16:20,110 DEBUG                  - depth 0, hash e17d5c5, HEAD~428
+2021-07-03 20:16:20,115 DEBUG                  - depth 1, hash 20a88d9, HEAD~444
+2021-07-03 20:16:20,119 DEBUG                  - depth 2, hash d6ce22b, HEAD~481
+2021-07-03 20:16:20,124 DEBUG                  - depth 3, hash 4d67ff2, HEAD~482
+2021-07-03 20:16:20,128 DEBUG    [line range] org/apache/commons/codec/binary/StringUtils.java newStringUtf8 282:284
+2021-07-03 20:16:20,166 DEBUG                  - depth 0, hash 20a88d9, HEAD~444
+2021-07-03 20:16:20,171 DEBUG                  - depth 1, hash a952f09, HEAD~447
+2021-07-03 20:16:20,175 DEBUG                  - depth 2, hash d6ce22b, HEAD~481
+2021-07-03 20:16:20,180 DEBUG                  - depth 3, hash 4d67ff2, HEAD~482
+2021-07-03 20:16:20,576 DEBUG    [line range] org/apache/commons/codec/binary/Base64.java <clinit> 71:71
+2021-07-03 20:16:20,621 DEBUG                  - depth 0, hash 9333313, HEAD~484
+2021-07-03 20:16:20,627 DEBUG                  - depth 1, hash a8502b5, HEAD~539
+2021-07-03 20:16:20,631 DEBUG                  - depth 2, hash 01ca214, HEAD~769
+2021-07-03 20:16:20,635 DEBUG                  - depth 3, hash 0e0d475, HEAD~960
+2021-07-03 20:16:20,639 DEBUG                  - depth 4, hash 71205dd, HEAD~974
+2021-07-03 20:16:20,643 DEBUG    [line range] org/apache/commons/codec/binary/Base64.java <init> 140:140
+2021-07-03 20:16:20,689 DEBUG                  - depth 0, hash 0309db6, HEAD~303
+2021-07-03 20:16:20,694 DEBUG                  - depth 1, hash 9333313, HEAD~484
+2021-07-03 20:16:20,698 DEBUG                  - depth 2, hash a8502b5, HEAD~539
+2021-07-03 20:16:20,702 DEBUG                  - depth 3, hash 33f9ab9, HEAD~548
+2021-07-03 20:16:20,706 DEBUG                  - depth 4, hash e2df850, HEAD~554
+2021-07-03 20:16:20,711 DEBUG                  - depth 5, hash f064899, HEAD~600
+2021-07-03 20:16:20,715 DEBUG                  - depth 6, hash c6812d6, HEAD~781
+2021-07-03 20:16:20,719 DEBUG                  - depth 7, hash 7748f47, HEAD~946
+2021-07-03 20:16:20,723 DEBUG                  - depth 8, hash 0e0d475, HEAD~960
+2021-07-03 20:16:20,727 DEBUG                  - depth 9, hash 71205dd, HEAD~974
+2021-07-03 20:16:20,731 DEBUG    [line range] org/apache/commons/codec/binary/Base64.java <init> 194:196
+2021-07-03 20:16:20,776 DEBUG                  - depth 0, hash 00da592, HEAD~381
+2021-07-03 20:16:20,782 DEBUG                  - depth 1, hash 2f7454a, HEAD~515
+2021-07-03 20:16:20,786 DEBUG                  - depth 2, hash e2df850, HEAD~554
+2021-07-03 20:16:20,790 DEBUG                  - depth 3, hash f064899, HEAD~600
+2021-07-03 20:16:20,794 DEBUG                  - depth 4, hash 0e0d475, HEAD~960
+2021-07-03 20:16:20,798 DEBUG                  - depth 5, hash 71205dd, HEAD~974
+2021-07-03 20:16:20,803 DEBUG    [line range] org/apache/commons/codec/binary/Base64.java decode 415:468
+2021-07-03 20:16:20,849 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:20,854 DEBUG                  - depth 1, hash 56730f9, HEAD~300
+2021-07-03 20:16:20,858 DEBUG                  - depth 2, hash 0309db6, HEAD~303
+2021-07-03 20:16:20,862 DEBUG                  - depth 3, hash 3e725d7, HEAD~330
+2021-07-03 20:16:20,867 DEBUG                  - depth 4, hash 800f053, HEAD~366
+2021-07-03 20:16:20,871 DEBUG                  - depth 5, hash e17d5c5, HEAD~428
+2021-07-03 20:16:20,875 DEBUG                  - depth 6, hash 9333313, HEAD~484
+2021-07-03 20:16:20,879 DEBUG                  - depth 7, hash 2f7454a, HEAD~515
+2021-07-03 20:16:20,883 DEBUG                  - depth 8, hash df9d1bb, HEAD~531
+2021-07-03 20:16:20,887 DEBUG                  - depth 9, hash a8502b5, HEAD~539
+2021-07-03 20:16:20,891 DEBUG                  - depth 10, hash 16541c6, HEAD~551
+2021-07-03 20:16:20,895 DEBUG                  - depth 11, hash e2df850, HEAD~554
+2021-07-03 20:16:20,899 DEBUG                  - depth 12, hash 0e0d475, HEAD~960
+2021-07-03 20:16:20,903 DEBUG                  - depth 13, hash 71205dd, HEAD~974
+2021-07-03 20:16:20,908 DEBUG    [line range] org/apache/commons/codec/binary/Base64.java isInAlphabet 753:756
+2021-07-03 20:16:20,946 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:20,952 DEBUG                  - depth 1, hash e6db010, HEAD~278
+2021-07-03 20:16:20,956 DEBUG                  - depth 2, hash 0309db6, HEAD~303
+2021-07-03 20:16:20,960 DEBUG                  - depth 3, hash e17d5c5, HEAD~428
+2021-07-03 20:16:21,241 DEBUG    [line range] org/apache/commons/codec/binary/Base64InputStream.java <init> 52:54
+2021-07-03 20:16:21,276 DEBUG                  - depth 0, hash d6ce22b, HEAD~481
+2021-07-03 20:16:21,282 DEBUG                  - depth 1, hash 9333313, HEAD~484
+2021-07-03 20:16:21,286 DEBUG                  - depth 2, hash 6a43ce7, HEAD~485
+2021-07-03 20:16:21,290 DEBUG                  - depth 3, hash 100d531, HEAD~510
+2021-07-03 20:16:21,294 DEBUG                  - depth 4, hash 875e5cf, HEAD~516
+2021-07-03 20:16:21,298 DEBUG                  - depth 5, hash f447e02, HEAD~517
+2021-07-03 20:16:21,302 DEBUG                  - depth 6, hash 8494bec, HEAD~538
+2021-07-03 20:16:21,306 DEBUG                  - depth 7, hash d0ff33a, HEAD~540
+2021-07-03 20:16:21,310 DEBUG                  - depth 8, hash e2df850, HEAD~554
+2021-07-03 20:16:21,315 DEBUG    [line range] org/apache/commons/codec/binary/Base64InputStream.java <init> 65:67
+2021-07-03 20:16:21,350 DEBUG                  - depth 0, hash 9ac451e, HEAD~301
+2021-07-03 20:16:21,355 DEBUG                  - depth 1, hash bcfef89, HEAD~384
+2021-07-03 20:16:21,360 DEBUG                  - depth 2, hash d6ce22b, HEAD~481
+2021-07-03 20:16:21,364 DEBUG                  - depth 3, hash 9333313, HEAD~484
+2021-07-03 20:16:21,368 DEBUG                  - depth 4, hash 6a43ce7, HEAD~485
+2021-07-03 20:16:21,372 DEBUG                  - depth 5, hash 100d531, HEAD~510
+2021-07-03 20:16:21,376 DEBUG                  - depth 6, hash 875e5cf, HEAD~516
+2021-07-03 20:16:21,380 DEBUG                  - depth 7, hash f447e02, HEAD~517
+2021-07-03 20:16:21,384 DEBUG                  - depth 8, hash 8494bec, HEAD~538
+2021-07-03 20:16:21,389 DEBUG                  - depth 9, hash d0ff33a, HEAD~540
+2021-07-03 20:16:21,393 DEBUG                  - depth 10, hash e2df850, HEAD~554
+2021-07-03 20:16:21,397 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodec.java containsAlphabetOrPad 421:431
+2021-07-03 20:16:21,435 DEBUG                  - depth 0, hash acf70b3, HEAD~171
+2021-07-03 20:16:21,440 DEBUG                  - depth 1, hash e810384, HEAD~312
+2021-07-03 20:16:21,445 DEBUG    [line range] org/apache/commons/codec/binary/BaseNCodecInputStream.java read 52:63
+2021-07-03 20:16:21,479 DEBUG                  - depth 0, hash 1e2151c, HEAD~7
+2021-07-03 20:16:21,485 DEBUG                  - depth 1, hash 058b972, HEAD~8
+2021-07-03 20:16:21,489 DEBUG                  - depth 2, hash 8c87835, HEAD~188
+2021-07-03 20:16:21,493 DEBUG                  - depth 3, hash c6fadee, HEAD~324
+2021-07-03 20:16:21,497 DEBUG    [line range] org/apache/commons/codec/binary/StringUtils.java getBytesIso8859_1 48:50
+2021-07-03 20:16:21,536 DEBUG                  - depth 0, hash b3607d8, HEAD~412
+2021-07-03 20:16:21,542 DEBUG                  - depth 1, hash 20a88d9, HEAD~444
+2021-07-03 20:16:21,546 DEBUG                  - depth 2, hash a952f09, HEAD~447
+2021-07-03 20:16:21,550 DEBUG                  - depth 3, hash d6ce22b, HEAD~481
+2021-07-03 20:16:21,554 DEBUG                  - depth 4, hash 4d67ff2, HEAD~482
+2021-07-03 20:16:21,559 DEBUG    [line range] org/apache/commons/codec/binary/Base64.java encode 326:390
+2021-07-03 20:16:21,604 DEBUG                  - depth 0, hash 8c87835, HEAD~188
+2021-07-03 20:16:21,610 DEBUG                  - depth 1, hash 56730f9, HEAD~300
+2021-07-03 20:16:21,614 DEBUG                  - depth 2, hash 0309db6, HEAD~303
+2021-07-03 20:16:21,618 DEBUG                  - depth 3, hash 2c13032, HEAD~348
+2021-07-03 20:16:21,623 DEBUG                  - depth 4, hash 9333313, HEAD~484
+2021-07-03 20:16:21,627 DEBUG                  - depth 5, hash b8c2d9d, HEAD~514
+2021-07-03 20:16:21,631 DEBUG                  - depth 6, hash 2f7454a, HEAD~515
+2021-07-03 20:16:21,635 DEBUG                  - depth 7, hash a8502b5, HEAD~539
+2021-07-03 20:16:21,639 DEBUG                  - depth 8, hash e2df850, HEAD~554
+2021-07-03 20:16:21,643 DEBUG                  - depth 9, hash 0e0d475, HEAD~960
+2021-07-03 20:16:21,647 DEBUG                  - depth 10, hash 71205dd, HEAD~974
+2021-07-03 20:16:21,933 DEBUG    [line range] org/apache/commons/codec/binary/Base64OutputStream.java <init> 52:54
+2021-07-03 20:16:21,969 DEBUG                  - depth 0, hash d6ce22b, HEAD~481
+2021-07-03 20:16:21,974 DEBUG                  - depth 1, hash 9333313, HEAD~484
+2021-07-03 20:16:21,978 DEBUG                  - depth 2, hash 6a43ce7, HEAD~485
+2021-07-03 20:16:21,982 DEBUG                  - depth 3, hash 100d531, HEAD~510
+2021-07-03 20:16:21,987 DEBUG                  - depth 4, hash f447e02, HEAD~517
+2021-07-03 20:16:21,991 DEBUG                  - depth 5, hash 8494bec, HEAD~538
+2021-07-03 20:16:21,995 DEBUG                  - depth 6, hash e2df850, HEAD~554
+2021-07-03 20:16:21,999 DEBUG    [line range] org/apache/commons/codec/binary/Base64OutputStream.java <init> 65:67
+2021-07-03 20:16:22,034 DEBUG                  - depth 0, hash 9ac451e, HEAD~301
+2021-07-03 20:16:22,039 DEBUG                  - depth 1, hash bcfef89, HEAD~384
+2021-07-03 20:16:22,044 DEBUG                  - depth 2, hash d6ce22b, HEAD~481
+2021-07-03 20:16:22,048 DEBUG                  - depth 3, hash 9333313, HEAD~484
+2021-07-03 20:16:22,052 DEBUG                  - depth 4, hash 6a43ce7, HEAD~485
+2021-07-03 20:16:22,056 DEBUG                  - depth 5, hash 100d531, HEAD~510
+2021-07-03 20:16:22,060 DEBUG                  - depth 6, hash f447e02, HEAD~517
+2021-07-03 20:16:22,064 DEBUG                  - depth 7, hash 8494bec, HEAD~538
+2021-07-03 20:16:22,069 DEBUG                  - depth 8, hash e2df850, HEAD~554
+2021-07-03 20:16:22,073 INFO     The number of BIC candidates: 51

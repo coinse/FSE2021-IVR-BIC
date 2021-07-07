@@ -1,0 +1,122 @@
+2021-07-04 05:42:15,261 INFO     Search BICs for /tmp/Lang-32b/
+2021-07-04 05:42:15,261 DEBUG    Reading the coverage of org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycle (failings)
+2021-07-04 05:42:15,273 INFO     Loaded 1x77 Coverage Matrix
+2021-07-04 05:42:15,274 INFO     The number of total commits: 2362
+2021-07-04 05:42:15,899 DEBUG    [line range] org/apache/commons/lang3/ArrayUtils.java <clinit> 55:55
+2021-07-04 05:42:16,012 DEBUG                  - depth 0, hash cbf7a76, HEAD~1552
+2021-07-04 05:42:16,018 DEBUG                  - depth 1, hash a4776f3, HEAD~1553
+2021-07-04 05:42:16,022 DEBUG                  - depth 2, hash 8c3f1ab, HEAD~1932
+2021-07-04 05:42:16,027 DEBUG    [line range] org/apache/commons/lang3/ArrayUtils.java contains 1729:1731
+2021-07-04 05:42:16,141 DEBUG                  - depth 0, hash d3f274d, HEAD~1003
+2021-07-04 05:42:16,147 DEBUG                  - depth 1, hash f349629, HEAD~1262
+2021-07-04 05:42:16,151 DEBUG                  - depth 2, hash a6e6f51, HEAD~1426
+2021-07-04 05:42:16,155 DEBUG                  - depth 3, hash cbf7a76, HEAD~1552
+2021-07-04 05:42:16,159 DEBUG                  - depth 4, hash a4776f3, HEAD~1553
+2021-07-04 05:42:16,163 DEBUG                  - depth 5, hash 8c3f1ab, HEAD~1932
+2021-07-04 05:42:16,167 DEBUG                  - depth 6, hash 30c4fa4, HEAD~2200
+2021-07-04 05:42:16,171 DEBUG    [line range] org/apache/commons/lang3/ArrayUtils.java indexOf 1626:1628
+2021-07-04 05:42:16,285 DEBUG                  - depth 0, hash a6e6f51, HEAD~1426
+2021-07-04 05:42:16,291 DEBUG                  - depth 1, hash cbf7a76, HEAD~1552
+2021-07-04 05:42:16,295 DEBUG                  - depth 2, hash a4776f3, HEAD~1553
+2021-07-04 05:42:16,299 DEBUG                  - depth 3, hash 8c3f1ab, HEAD~1932
+2021-07-04 05:42:16,303 DEBUG                  - depth 4, hash 30c4fa4, HEAD~2200
+2021-07-04 05:42:16,307 DEBUG    [line range] org/apache/commons/lang3/ArrayUtils.java indexOf 1644:1665
+2021-07-04 05:42:16,421 DEBUG                  - depth 0, hash 841f743, HEAD~264
+2021-07-04 05:42:16,427 DEBUG                  - depth 1, hash f1f885f, HEAD~265
+2021-07-04 05:42:16,431 DEBUG                  - depth 2, hash d3f274d, HEAD~1003
+2021-07-04 05:42:16,435 DEBUG                  - depth 3, hash a6e6f51, HEAD~1426
+2021-07-04 05:42:16,439 DEBUG                  - depth 4, hash cbf7a76, HEAD~1552
+2021-07-04 05:42:16,443 DEBUG                  - depth 5, hash a4776f3, HEAD~1553
+2021-07-04 05:42:16,447 DEBUG                  - depth 6, hash 8c3f1ab, HEAD~1932
+2021-07-04 05:42:16,451 DEBUG                  - depth 7, hash 9ef5847, HEAD~2164
+2021-07-04 05:42:16,871 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java <clinit> 104:111
+2021-07-04 05:42:16,949 DEBUG                  - depth 0, hash b044272, HEAD~379
+2021-07-04 05:42:16,954 DEBUG                  - depth 1, hash 6637e14, HEAD~422
+2021-07-04 05:42:16,959 DEBUG                  - depth 2, hash 6170f07, HEAD~439
+2021-07-04 05:42:16,963 DEBUG                  - depth 3, hash 5ccddb3, HEAD~732
+2021-07-04 05:42:16,967 DEBUG                  - depth 4, hash a6478c3, HEAD~869
+2021-07-04 05:42:16,971 DEBUG                  - depth 5, hash de76671, HEAD~2278
+2021-07-04 05:42:16,975 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java <init> 551:551
+2021-07-04 05:42:17,053 DEBUG                  - depth 0, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,058 DEBUG                  - depth 1, hash f8b4714, HEAD~1817
+2021-07-04 05:42:17,062 DEBUG                  - depth 2, hash de76671, HEAD~2278
+2021-07-04 05:42:17,067 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java append 856:889
+2021-07-04 05:42:17,144 DEBUG                  - depth 0, hash d630833, HEAD~48
+2021-07-04 05:42:17,149 DEBUG                  - depth 1, hash f78376c, HEAD~50
+2021-07-04 05:42:17,154 DEBUG                  - depth 2, hash a5fa2b8, HEAD~706
+2021-07-04 05:42:17,158 DEBUG                  - depth 3, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,162 DEBUG                  - depth 4, hash de76671, HEAD~2278
+2021-07-04 05:42:17,166 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java getRegistry 138:140
+2021-07-04 05:42:17,244 DEBUG                  - depth 0, hash b044272, HEAD~379
+2021-07-04 05:42:17,249 DEBUG                  - depth 1, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,253 DEBUG                  - depth 2, hash 0992ee8, HEAD~1322
+2021-07-04 05:42:17,257 DEBUG                  - depth 3, hash de76671, HEAD~2278
+2021-07-04 05:42:17,261 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java isRegistered 153:155
+2021-07-04 05:42:17,339 DEBUG                  - depth 0, hash 27265c8, HEAD~480
+2021-07-04 05:42:17,345 DEBUG                  - depth 1, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,349 DEBUG                  - depth 2, hash b906dda, HEAD~994
+2021-07-04 05:42:17,353 DEBUG                  - depth 3, hash 7faee9e, HEAD~2083
+2021-07-04 05:42:17,357 DEBUG                  - depth 4, hash de76671, HEAD~2278
+2021-07-04 05:42:17,361 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java reflectionAppend 173:200
+2021-07-04 05:42:17,439 DEBUG                  - depth 0, hash 48b1434, HEAD~49
+2021-07-04 05:42:17,445 DEBUG                  - depth 1, hash f9ff103, HEAD~218
+2021-07-04 05:42:17,449 DEBUG                  - depth 2, hash f14adc7, HEAD~352
+2021-07-04 05:42:17,453 DEBUG                  - depth 3, hash b044272, HEAD~379
+2021-07-04 05:42:17,457 DEBUG                  - depth 4, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,461 DEBUG                  - depth 5, hash e5cab2f, HEAD~965
+2021-07-04 05:42:17,465 DEBUG                  - depth 6, hash b906dda, HEAD~994
+2021-07-04 05:42:17,469 DEBUG                  - depth 7, hash 7faee9e, HEAD~2083
+2021-07-04 05:42:17,473 DEBUG                  - depth 8, hash de76671, HEAD~2278
+2021-07-04 05:42:17,478 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java reflectionHashCode 355:369
+2021-07-04 05:42:17,555 DEBUG                  - depth 0, hash 0e3abb1, HEAD~349
+2021-07-04 05:42:17,560 DEBUG                  - depth 1, hash b044272, HEAD~379
+2021-07-04 05:42:17,564 DEBUG                  - depth 2, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,569 DEBUG                  - depth 3, hash b906dda, HEAD~994
+2021-07-04 05:42:17,573 DEBUG                  - depth 4, hash 2592c07, HEAD~2009
+2021-07-04 05:42:17,577 DEBUG                  - depth 5, hash 7faee9e, HEAD~2083
+2021-07-04 05:42:17,581 DEBUG                  - depth 6, hash c7e5eb8, HEAD~2086
+2021-07-04 05:42:17,585 DEBUG                  - depth 7, hash de76671, HEAD~2278
+2021-07-04 05:42:17,589 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java reflectionHashCode 401:403
+2021-07-04 05:42:17,670 DEBUG                  - depth 0, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,675 DEBUG                  - depth 1, hash b906dda, HEAD~994
+2021-07-04 05:42:17,679 DEBUG                  - depth 2, hash d84d18b, HEAD~1847
+2021-07-04 05:42:17,684 DEBUG                  - depth 3, hash 2592c07, HEAD~2009
+2021-07-04 05:42:17,688 DEBUG                  - depth 4, hash 946ebd2, HEAD~2079
+2021-07-04 05:42:17,692 DEBUG                  - depth 5, hash 7faee9e, HEAD~2083
+2021-07-04 05:42:17,696 DEBUG                  - depth 6, hash 007a8b6, HEAD~2263
+2021-07-04 05:42:17,700 DEBUG                  - depth 7, hash de76671, HEAD~2278
+2021-07-04 05:42:17,704 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java register 523:525
+2021-07-04 05:42:17,782 DEBUG                  - depth 0, hash 27265c8, HEAD~480
+2021-07-04 05:42:17,787 DEBUG                  - depth 1, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,791 DEBUG                  - depth 2, hash 20d66d8, HEAD~2163
+2021-07-04 05:42:17,795 DEBUG                  - depth 3, hash de76671, HEAD~2278
+2021-07-04 05:42:17,800 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java toHashCode 967:969
+2021-07-04 05:42:17,877 DEBUG                  - depth 0, hash de76671, HEAD~2278
+2021-07-04 05:42:17,883 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java unregister 539:541
+2021-07-04 05:42:17,960 DEBUG                  - depth 0, hash 27265c8, HEAD~480
+2021-07-04 05:42:17,965 DEBUG                  - depth 1, hash a6478c3, HEAD~869
+2021-07-04 05:42:17,970 DEBUG                  - depth 2, hash f8b4714, HEAD~1817
+2021-07-04 05:42:17,974 DEBUG                  - depth 3, hash de76671, HEAD~2278
+2021-07-04 05:42:17,978 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java initialValue 104:111
+2021-07-04 05:42:18,058 DEBUG                  - depth 0, hash b044272, HEAD~379
+2021-07-04 05:42:18,063 DEBUG                  - depth 1, hash 6637e14, HEAD~422
+2021-07-04 05:42:18,067 DEBUG                  - depth 2, hash 6170f07, HEAD~439
+2021-07-04 05:42:18,071 DEBUG                  - depth 3, hash 5ccddb3, HEAD~732
+2021-07-04 05:42:18,075 DEBUG                  - depth 4, hash a6478c3, HEAD~869
+2021-07-04 05:42:18,080 DEBUG                  - depth 5, hash de76671, HEAD~2278
+2021-07-04 05:42:18,084 DEBUG    [line range] org/apache/commons/lang3/builder/HashCodeBuilder.java initialValue 104:111
+2021-07-04 05:42:18,164 DEBUG                  - depth 0, hash b044272, HEAD~379
+2021-07-04 05:42:18,169 DEBUG                  - depth 1, hash 6637e14, HEAD~422
+2021-07-04 05:42:18,173 DEBUG                  - depth 2, hash 6170f07, HEAD~439
+2021-07-04 05:42:18,177 DEBUG                  - depth 3, hash 5ccddb3, HEAD~732
+2021-07-04 05:42:18,181 DEBUG                  - depth 4, hash a6478c3, HEAD~869
+2021-07-04 05:42:18,185 DEBUG                  - depth 5, hash de76671, HEAD~2278
+2021-07-04 05:42:18,481 DEBUG    [line range] org/apache/commons/lang3/builder/IDKey.java <init> 40:47
+2021-07-04 05:42:18,551 DEBUG                  - depth 0, hash 27265c8, HEAD~480
+2021-07-04 05:42:18,557 DEBUG    [line range] org/apache/commons/lang3/builder/IDKey.java equals 63:74
+2021-07-04 05:42:18,627 DEBUG                  - depth 0, hash 6170f07, HEAD~439
+2021-07-04 05:42:18,632 DEBUG                  - depth 1, hash 27265c8, HEAD~480
+2021-07-04 05:42:18,636 DEBUG    [line range] org/apache/commons/lang3/builder/IDKey.java hashCode 53:56
+2021-07-04 05:42:18,706 DEBUG                  - depth 0, hash 6170f07, HEAD~439
+2021-07-04 05:42:18,712 DEBUG                  - depth 1, hash 27265c8, HEAD~480
+2021-07-04 05:42:18,716 INFO     The number of BIC candidates: 35

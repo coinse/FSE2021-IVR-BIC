@@ -1,0 +1,16 @@
+sh search_BIC.sh Cli 1 40
+sh search_BIC.sh Closure 1 176
+sh search_BIC.sh Codec 1 18
+sh search_BIC.sh Collections 1 28
+sh search_BIC.sh Compress 1 47
+sh search_BIC.sh Csv 1 16
+sh search_BIC.sh Gson 1 18
+sh search_BIC.sh JacksonCore 1 26
+sh search_BIC.sh JacksonDatabind 1 112
+sh search_BIC.sh JacksonXml 1 6
+sh search_BIC.sh Jsoup 1 93
+sh search_BIC.sh JxPath 1 22
+sh search_BIC.sh Lang 1 65
+sh search_BIC.sh Math 1 106
+sh search_BIC.sh Mockito 1 38
+sh search_BIC.sh Time 1 27

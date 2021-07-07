@@ -1,0 +1,23 @@
+commit c95eb0b4feac3d85645ce327d54011c8712e0fd4
+Author: Luc Maisonobe <luc@apache.org>
+Date:   Sun Jul 19 18:36:46 2009 +0000
+
+    fixed an error identified by findbugs
+    
+    git-svn-id: https://svn.apache.org/repos/asf/commons/proper/math/trunk@795591 13f79535-47bb-0310-9956-ffa450edef68
+
+diff --git a/src/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java b/src/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+index cd2ad01..b49c56d 100644
+--- a/src/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
++++ b/src/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+@@ -108,8 +108,8 @@ public abstract class AdaptiveStepsizeIntegrator
+ 
+     this.scalAbsoluteTolerance = 0;
+     this.scalRelativeTolerance = 0;
+-    this.vecAbsoluteTolerance  = vecAbsoluteTolerance;
+-    this.vecRelativeTolerance  = vecRelativeTolerance;
++    this.vecAbsoluteTolerance  = vecAbsoluteTolerance.clone();
++    this.vecRelativeTolerance  = vecRelativeTolerance.clone();
+ 
+     resetInternalState();
+ 

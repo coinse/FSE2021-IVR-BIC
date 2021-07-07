@@ -1,0 +1,21 @@
+commit fe70395c3c4abb0ad25626cdb194197e64ff1d10
+Author: Henri Yandell <bayard@apache.org>
+Date:   Tue Jan 24 14:29:48 2006 +0000
+
+    fixing pmc from name to url
+    
+    git-svn-id: https://svn.apache.org/repos/asf/jakarta/commons/proper/lang/trunk@371924 13f79535-47bb-0310-9956-ffa450edef68
+
+diff --git a/doap_lang.rdf b/doap_lang.rdf
+index 8662648..d4bf312 100644
+--- a/doap_lang.rdf
++++ b/doap_lang.rdf
+@@ -8,7 +8,7 @@
+     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20"/>
+     <bug-database rdf:resource="http://issues.apache.org/bugzilla/buglist.cgi?product=Commons&amp;component=lang"/>
+     <download-page rdf:resource="http://jakarta.apache.org/site/downloads/downloads_commons-lang.cgi"/>
+-    <asfext:pmc rdf:resource="Jakarta"/>
++    <asfext:pmc rdf:resource="http://jakarta.apache.org/"/>
+     <shortdesc xml:lang="en">Java Common Components</shortdesc>
+     <description xml:lang="en">
+         Commons.Lang, a package of Java utility classes for the

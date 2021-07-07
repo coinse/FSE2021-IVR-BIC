@@ -1,0 +1,521 @@
+2021-07-03 21:08:38,373 INFO     Search BICs for /tmp/JacksonCore-13b/
+2021-07-03 21:08:38,373 DEBUG    Reading the coverage of com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingEnabled (failings)
+2021-07-03 21:08:38,432 INFO     Loaded 1x603 Coverage Matrix
+2021-07-03 21:08:38,432 INFO     The number of total commits: 924
+2021-07-03 21:08:38,719 DEBUG    [single line]   com/fasterxml/jackson/core/JsonEncoding.java <clinit> 18
+2021-07-03 21:08:38,751 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:38,756 DEBUG    [single line]   com/fasterxml/jackson/core/JsonEncoding.java <clinit> 19
+2021-07-03 21:08:38,787 DEBUG                  - depth 0, hash 347f237, HEAD~597
+2021-07-03 21:08:38,792 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:38,796 DEBUG    [single line]   com/fasterxml/jackson/core/JsonEncoding.java <clinit> 20
+2021-07-03 21:08:38,827 DEBUG                  - depth 0, hash 347f237, HEAD~597
+2021-07-03 21:08:38,832 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:38,836 DEBUG    [single line]   com/fasterxml/jackson/core/JsonEncoding.java <clinit> 21
+2021-07-03 21:08:38,867 DEBUG                  - depth 0, hash 347f237, HEAD~597
+2021-07-03 21:08:38,872 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:38,876 DEBUG    [single line]   com/fasterxml/jackson/core/JsonEncoding.java <clinit> 22
+2021-07-03 21:08:38,907 DEBUG                  - depth 0, hash 347f237, HEAD~597
+2021-07-03 21:08:38,912 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:38,916 DEBUG    [single line]   com/fasterxml/jackson/core/JsonEncoding.java <clinit> 23
+2021-07-03 21:08:38,948 DEBUG                  - depth 0, hash 347f237, HEAD~597
+2021-07-03 21:08:38,953 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:38,957 DEBUG    [line range] com/fasterxml/jackson/core/JsonEncoding.java <init> 32:37
+2021-07-03 21:08:38,988 DEBUG                  - depth 0, hash 347f237, HEAD~597
+2021-07-03 21:08:38,994 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:39,457 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java <clinit> 160:160
+2021-07-03 21:08:39,496 DEBUG                  - depth 0, hash 7b796a8, HEAD~681
+2021-07-03 21:08:39,501 DEBUG                  - depth 1, hash 0735190, HEAD~892
+2021-07-03 21:08:39,506 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java <init> 282:282
+2021-07-03 21:08:39,544 DEBUG                  - depth 0, hash 2bba5dd, HEAD~530
+2021-07-03 21:08:39,550 DEBUG                  - depth 1, hash 7b796a8, HEAD~681
+2021-07-03 21:08:39,554 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:39,558 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java <init> 195:195
+2021-07-03 21:08:39,597 DEBUG                  - depth 0, hash 95f76a4, HEAD~776
+2021-07-03 21:08:39,602 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:39,606 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java <init> 284:284
+2021-07-03 21:08:39,644 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:39,650 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java _createContext 1449:1451
+2021-07-03 21:08:39,683 DEBUG                  - depth 0, hash 896000f, HEAD~501
+2021-07-03 21:08:39,689 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java _createGenerator 1306:1318
+2021-07-03 21:08:39,728 DEBUG                  - depth 0, hash efc2367, HEAD~550
+2021-07-03 21:08:39,734 DEBUG                  - depth 1, hash 6819492, HEAD~747
+2021-07-03 21:08:39,738 DEBUG                  - depth 2, hash e6dfc69, HEAD~785
+2021-07-03 21:08:39,742 DEBUG                  - depth 3, hash ec30027, HEAD~823
+2021-07-03 21:08:39,746 DEBUG                  - depth 4, hash eeb2fbd, HEAD~838
+2021-07-03 21:08:39,750 DEBUG                  - depth 5, hash f15531c, HEAD~918
+2021-07-03 21:08:39,755 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java _createUTF8Generator 1330:1341
+2021-07-03 21:08:39,795 DEBUG                  - depth 0, hash 6819492, HEAD~747
+2021-07-03 21:08:39,800 DEBUG                  - depth 1, hash e6dfc69, HEAD~785
+2021-07-03 21:08:39,804 DEBUG                  - depth 2, hash ec30027, HEAD~823
+2021-07-03 21:08:39,808 DEBUG                  - depth 3, hash eeb2fbd, HEAD~838
+2021-07-03 21:08:39,812 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:39,817 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java _decorate 1388:1396
+2021-07-03 21:08:39,851 DEBUG                  - depth 0, hash 896000f, HEAD~501
+2021-07-03 21:08:39,856 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java _decorate 1401:1409
+2021-07-03 21:08:39,890 DEBUG                  - depth 0, hash 896000f, HEAD~501
+2021-07-03 21:08:39,896 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java _getBufferRecycler 1423:1443
+2021-07-03 21:08:39,934 DEBUG                  - depth 0, hash 8891c0c, HEAD~152
+2021-07-03 21:08:39,940 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:39,944 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java createGenerator 1098:1100
+2021-07-03 21:08:39,980 DEBUG                  - depth 0, hash 4ab04ce, HEAD~746
+2021-07-03 21:08:39,986 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java createGenerator 1077:1088
+2021-07-03 21:08:40,024 DEBUG                  - depth 0, hash 896000f, HEAD~501
+2021-07-03 21:08:40,030 DEBUG                  - depth 1, hash 4ab04ce, HEAD~746
+2021-07-03 21:08:40,034 DEBUG                  - depth 2, hash feaabd1, HEAD~812
+2021-07-03 21:08:40,038 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:40,042 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java createGenerator 1117:1120
+2021-07-03 21:08:40,081 DEBUG                  - depth 0, hash 896000f, HEAD~501
+2021-07-03 21:08:40,087 DEBUG                  - depth 1, hash b0a2e19, HEAD~505
+2021-07-03 21:08:40,091 DEBUG                  - depth 2, hash 4ab04ce, HEAD~746
+2021-07-03 21:08:40,095 DEBUG                  - depth 3, hash feaabd1, HEAD~812
+2021-07-03 21:08:40,099 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:40,103 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java isEnabled 553:555
+2021-07-03 21:08:40,142 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:40,148 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java <init> 138:138
+2021-07-03 21:08:40,186 DEBUG                  - depth 0, hash e15b9a8, HEAD~535
+2021-07-03 21:08:40,192 DEBUG                  - depth 1, hash 0735190, HEAD~892
+2021-07-03 21:08:40,196 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java collectDefaults 130:136
+2021-07-03 21:08:40,235 DEBUG                  - depth 0, hash e15b9a8, HEAD~535
+2021-07-03 21:08:40,240 DEBUG                  - depth 1, hash 0735190, HEAD~892
+2021-07-03 21:08:40,244 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java enabledByDefault 140:140
+2021-07-03 21:08:40,283 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:40,288 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java enabledIn 141:141
+2021-07-03 21:08:40,327 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:40,333 DEBUG    [line range] com/fasterxml/jackson/core/JsonFactory.java getMask 142:142
+2021-07-03 21:08:40,371 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:40,814 DEBUG    [line range] com/fasterxml/jackson/core/JsonGenerator.java <init> 267:267
+2021-07-03 21:08:40,855 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:40,861 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 33
+2021-07-03 21:08:40,901 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:40,907 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 49
+2021-07-03 21:08:40,948 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:40,954 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:40,958 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:40,962 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 61
+2021-07-03 21:08:41,004 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:41,010 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:41,014 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:41,018 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 74
+2021-07-03 21:08:41,053 DEBUG                  - depth 0, hash afef47a, HEAD~198
+2021-07-03 21:08:41,058 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 87
+2021-07-03 21:08:41,100 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:41,105 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:41,109 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:41,113 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 101
+2021-07-03 21:08:41,155 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:41,161 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:41,165 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:41,169 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 118
+2021-07-03 21:08:41,210 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:41,216 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:41,220 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:41,224 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 130
+2021-07-03 21:08:41,263 DEBUG                  - depth 0, hash 0dba714, HEAD~655
+2021-07-03 21:08:41,269 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 147
+2021-07-03 21:08:41,311 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:41,317 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:41,321 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:41,325 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 190
+2021-07-03 21:08:41,366 DEBUG                  - depth 0, hash f9ad80f, HEAD~589
+2021-07-03 21:08:41,371 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:41,375 DEBUG    [single line]   com/fasterxml/jackson/core/JsonGenerator.java <clinit> 212
+2021-07-03 21:08:41,416 DEBUG                  - depth 0, hash 27eb3c1, HEAD~351
+2021-07-03 21:08:41,422 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:41,426 DEBUG    [line range] com/fasterxml/jackson/core/JsonGenerator.java <init> 233:236
+2021-07-03 21:08:41,467 DEBUG                  - depth 0, hash 483e662, HEAD~348
+2021-07-03 21:08:41,473 DEBUG                  - depth 1, hash 0735190, HEAD~892
+2021-07-03 21:08:41,477 DEBUG                  - depth 2, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:41,481 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:41,485 DEBUG    [line range] com/fasterxml/jackson/core/JsonGenerator.java collectDefaults 222:231
+2021-07-03 21:08:41,526 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:41,532 DEBUG    [line range] com/fasterxml/jackson/core/JsonGenerator.java enabledByDefault 238:238
+2021-07-03 21:08:41,573 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:41,578 DEBUG    [line range] com/fasterxml/jackson/core/JsonGenerator.java enabledIn 243:243
+2021-07-03 21:08:41,614 DEBUG                  - depth 0, hash f9ad80f, HEAD~589
+2021-07-03 21:08:41,620 DEBUG    [line range] com/fasterxml/jackson/core/JsonGenerator.java getMask 245:245
+2021-07-03 21:08:41,661 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:42,102 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 43
+2021-07-03 21:08:42,143 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:42,148 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 59
+2021-07-03 21:08:42,188 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,194 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,198 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,202 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 75
+2021-07-03 21:08:42,243 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,248 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,252 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,257 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 89
+2021-07-03 21:08:42,293 DEBUG                  - depth 0, hash 3f84224, HEAD~607
+2021-07-03 21:08:42,299 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 100
+2021-07-03 21:08:42,339 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,345 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,349 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,354 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 113
+2021-07-03 21:08:42,394 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,400 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,404 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,408 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 126
+2021-07-03 21:08:42,448 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,454 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,458 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,462 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 137
+2021-07-03 21:08:42,503 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,508 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,513 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,517 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 149
+2021-07-03 21:08:42,558 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,564 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,568 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,572 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 169
+2021-07-03 21:08:42,613 DEBUG                  - depth 0, hash 0735190, HEAD~892
+2021-07-03 21:08:42,619 DEBUG                  - depth 1, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,623 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:42,627 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 187
+2021-07-03 21:08:42,668 DEBUG                  - depth 0, hash 6fc0271, HEAD~591
+2021-07-03 21:08:42,674 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:42,678 DEBUG    [single line]   com/fasterxml/jackson/core/JsonParser.java <clinit> 211
+2021-07-03 21:08:42,719 DEBUG                  - depth 0, hash dbaf193, HEAD~242
+2021-07-03 21:08:42,725 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:42,729 DEBUG    [line range] com/fasterxml/jackson/core/JsonParser.java <init> 236:239
+2021-07-03 21:08:42,771 DEBUG                  - depth 0, hash f9ad80f, HEAD~589
+2021-07-03 21:08:42,776 DEBUG                  - depth 1, hash 0735190, HEAD~892
+2021-07-03 21:08:42,780 DEBUG                  - depth 2, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:42,785 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:42,789 DEBUG    [line range] com/fasterxml/jackson/core/JsonParser.java collectDefaults 225:234
+2021-07-03 21:08:42,829 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:42,835 DEBUG    [line range] com/fasterxml/jackson/core/JsonParser.java enabledByDefault 241:241
+2021-07-03 21:08:42,875 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:42,881 DEBUG    [line range] com/fasterxml/jackson/core/JsonParser.java getMask 248:248
+2021-07-03 21:08:42,922 DEBUG                  - depth 0, hash 8b88443, HEAD~345
+2021-07-03 21:08:42,927 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:43,250 DEBUG    [line range] com/fasterxml/jackson/core/JsonStreamContext.java <init> 43:43
+2021-07-03 21:08:43,281 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:43,287 DEBUG    [line range] com/fasterxml/jackson/core/JsonStreamContext.java inArray 61:61
+2021-07-03 21:08:43,317 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:43,323 DEBUG    [line range] com/fasterxml/jackson/core/JsonStreamContext.java inObject 74:74
+2021-07-03 21:08:43,354 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:43,728 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java <clinit> 29:32
+2021-07-03 21:08:43,760 DEBUG                  - depth 0, hash 2a6f9f2, HEAD~346
+2021-07-03 21:08:43,765 DEBUG                  - depth 1, hash 483e662, HEAD~348
+2021-07-03 21:08:43,769 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java <init> 90:98
+2021-07-03 21:08:43,803 DEBUG                  - depth 0, hash 1e4a20b, HEAD~359
+2021-07-03 21:08:43,808 DEBUG                  - depth 1, hash 32e4e91, HEAD~527
+2021-07-03 21:08:43,813 DEBUG                  - depth 2, hash f9ad80f, HEAD~589
+2021-07-03 21:08:43,817 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:43,821 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java <init> 36:36
+2021-07-03 21:08:43,853 DEBUG                  - depth 0, hash 5cddffa, HEAD~284
+2021-07-03 21:08:43,858 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java close 380:380
+2021-07-03 21:08:43,892 DEBUG                  - depth 0, hash 32e4e91, HEAD~527
+2021-07-03 21:08:43,897 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:43,902 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java disable 158:172
+2021-07-03 21:08:43,934 DEBUG                  - depth 0, hash 074c506, HEAD~344
+2021-07-03 21:08:43,940 DEBUG                  - depth 1, hash 483e662, HEAD~348
+2021-07-03 21:08:43,944 DEBUG                  - depth 2, hash 0735190, HEAD~892
+2021-07-03 21:08:43,948 DEBUG                  - depth 3, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:43,953 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:43,957 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java enable 140:156
+2021-07-03 21:08:43,991 DEBUG                  - depth 0, hash 074c506, HEAD~344
+2021-07-03 21:08:43,997 DEBUG                  - depth 1, hash 483e662, HEAD~348
+2021-07-03 21:08:44,001 DEBUG                  - depth 2, hash 0735190, HEAD~892
+2021-07-03 21:08:44,005 DEBUG                  - depth 3, hash 9fc55aa, HEAD~893
+2021-07-03 21:08:44,009 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:44,014 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java getOutputContext 254:254
+2021-07-03 21:08:44,048 DEBUG                  - depth 0, hash 32e4e91, HEAD~527
+2021-07-03 21:08:44,053 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:44,057 DEBUG    [line range] com/fasterxml/jackson/core/base/GeneratorBase.java isEnabled 135:135
+2021-07-03 21:08:44,090 DEBUG                  - depth 0, hash 074c506, HEAD~344
+2021-07-03 21:08:44,474 DEBUG    [line range] com/fasterxml/jackson/core/io/CharTypes.java <clinit> 7:7
+2021-07-03 21:08:44,505 DEBUG                  - depth 0, hash fedd795, HEAD~543
+2021-07-03 21:08:44,511 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:44,516 DEBUG    [line range] com/fasterxml/jackson/core/io/CharTypes.java copyHexBytes 255:257
+2021-07-03 21:08:44,548 DEBUG                  - depth 0, hash fedd795, HEAD~543
+2021-07-03 21:08:44,554 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:44,558 DEBUG    [line range] com/fasterxml/jackson/core/io/CharTypes.java copyHexChars 251:253
+2021-07-03 21:08:44,590 DEBUG                  - depth 0, hash fedd795, HEAD~543
+2021-07-03 21:08:44,596 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:44,600 DEBUG    [line range] com/fasterxml/jackson/core/io/CharTypes.java get7BitOutputEscapes 211:211
+2021-07-03 21:08:44,632 DEBUG                  - depth 0, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:44,638 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:44,987 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java <init> 101:106
+2021-07-03 21:08:45,019 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:45,025 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java _verifyAlloc 268:270
+2021-07-03 21:08:45,057 DEBUG                  - depth 0, hash 4ceaba8, HEAD~403
+2021-07-03 21:08:45,062 DEBUG                  - depth 1, hash 288b1f3, HEAD~542
+2021-07-03 21:08:45,067 DEBUG                  - depth 2, hash a8bc72e, HEAD~547
+2021-07-03 21:08:45,071 DEBUG                  - depth 3, hash 2343927, HEAD~708
+2021-07-03 21:08:45,075 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java _verifyRelease 272:274
+2021-07-03 21:08:45,107 DEBUG                  - depth 0, hash 4ceaba8, HEAD~403
+2021-07-03 21:08:45,113 DEBUG                  - depth 1, hash 288b1f3, HEAD~542
+2021-07-03 21:08:45,117 DEBUG                  - depth 2, hash a8bc72e, HEAD~547
+2021-07-03 21:08:45,121 DEBUG                  - depth 3, hash 2343927, HEAD~708
+2021-07-03 21:08:45,126 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java _verifyRelease 276:278
+2021-07-03 21:08:45,157 DEBUG                  - depth 0, hash 4ceaba8, HEAD~403
+2021-07-03 21:08:45,163 DEBUG                  - depth 1, hash 288b1f3, HEAD~542
+2021-07-03 21:08:45,167 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java allocConcatBuffer 192:195
+2021-07-03 21:08:45,200 DEBUG                  - depth 0, hash a8bc72e, HEAD~547
+2021-07-03 21:08:45,206 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:45,210 DEBUG                  - depth 2, hash 2343927, HEAD~708
+2021-07-03 21:08:45,214 DEBUG                  - depth 3, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:45,218 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:45,223 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java allocWriteEncodingBuffer 158:161
+2021-07-03 21:08:45,255 DEBUG                  - depth 0, hash a8bc72e, HEAD~547
+2021-07-03 21:08:45,261 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:45,265 DEBUG                  - depth 2, hash 2343927, HEAD~708
+2021-07-03 21:08:45,269 DEBUG                  - depth 3, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:45,274 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:45,278 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java isResourceManaged 128:128
+2021-07-03 21:08:45,310 DEBUG                  - depth 0, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:45,316 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:45,320 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java releaseConcatBuffer 244:251
+2021-07-03 21:08:45,353 DEBUG                  - depth 0, hash 288b1f3, HEAD~542
+2021-07-03 21:08:45,359 DEBUG                  - depth 1, hash a8bc72e, HEAD~547
+2021-07-03 21:08:45,363 DEBUG                  - depth 2, hash f633f10, HEAD~559
+2021-07-03 21:08:45,367 DEBUG                  - depth 3, hash 2343927, HEAD~708
+2021-07-03 21:08:45,372 DEBUG                  - depth 4, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:45,376 DEBUG                  - depth 5, hash f15531c, HEAD~918
+2021-07-03 21:08:45,380 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java releaseWriteEncodingBuffer 217:226
+2021-07-03 21:08:45,412 DEBUG                  - depth 0, hash a8bc72e, HEAD~547
+2021-07-03 21:08:45,417 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:45,422 DEBUG                  - depth 2, hash 2343927, HEAD~708
+2021-07-03 21:08:45,426 DEBUG                  - depth 3, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:45,430 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:45,434 DEBUG    [line range] com/fasterxml/jackson/core/io/IOContext.java setEncoding 108:110
+2021-07-03 21:08:45,467 DEBUG                  - depth 0, hash 2343927, HEAD~708
+2021-07-03 21:08:45,472 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:45,835 DEBUG    [line range] com/fasterxml/jackson/core/io/NumberOutput.java <clinit> 7:7
+2021-07-03 21:08:45,867 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:45,873 DEBUG    [line range] com/fasterxml/jackson/core/io/NumberOutput.java outputInt 129:178
+2021-07-03 21:08:45,905 DEBUG                  - depth 0, hash fedd795, HEAD~543
+2021-07-03 21:08:45,910 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:45,915 DEBUG    [line range] com/fasterxml/jackson/core/io/NumberOutput.java outputInt 68:127
+2021-07-03 21:08:45,946 DEBUG                  - depth 0, hash fedd795, HEAD~543
+2021-07-03 21:08:45,952 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:46,300 DEBUG    [line range] com/fasterxml/jackson/core/io/SerializedString.java <init> 47:52
+2021-07-03 21:08:46,332 DEBUG                  - depth 0, hash 95f76a4, HEAD~776
+2021-07-03 21:08:46,337 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:46,645 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonGeneratorImpl.java <clinit> 31:31
+2021-07-03 21:08:46,677 DEBUG                  - depth 0, hash e6dfc69, HEAD~785
+2021-07-03 21:08:46,682 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonGeneratorImpl.java <init> 53:53
+2021-07-03 21:08:46,713 DEBUG                  - depth 0, hash e6dfc69, HEAD~785
+2021-07-03 21:08:47,053 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonWriteContext.java <init> 69:75
+2021-07-03 21:08:47,085 DEBUG                  - depth 0, hash 007dccb, HEAD~534
+2021-07-03 21:08:47,090 DEBUG                  - depth 1, hash f9ad80f, HEAD~589
+2021-07-03 21:08:47,095 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:47,099 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonWriteContext.java clearAndGetParent 149:153
+2021-07-03 21:08:47,129 DEBUG                  - depth 0, hash b4567ca, HEAD~27
+2021-07-03 21:08:47,135 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonWriteContext.java createRootContext 114:116
+2021-07-03 21:08:47,166 DEBUG                  - depth 0, hash 483e662, HEAD~348
+2021-07-03 21:08:47,172 DEBUG                  - depth 1, hash 007dccb, HEAD~534
+2021-07-03 21:08:47,176 DEBUG                  - depth 2, hash f9ad80f, HEAD~589
+2021-07-03 21:08:47,180 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonWriteContext.java writeFieldName 164:172
+2021-07-03 21:08:47,213 DEBUG                  - depth 0, hash b9a86aa, HEAD~4
+2021-07-03 21:08:47,218 DEBUG                  - depth 1, hash 12e8fed, HEAD~336
+2021-07-03 21:08:47,222 DEBUG                  - depth 2, hash 27eb3c1, HEAD~351
+2021-07-03 21:08:47,227 DEBUG                  - depth 3, hash 007dccb, HEAD~534
+2021-07-03 21:08:47,231 DEBUG                  - depth 4, hash f9ad80f, HEAD~589
+2021-07-03 21:08:47,235 DEBUG                  - depth 5, hash 7dc9de6, HEAD~631
+2021-07-03 21:08:47,239 DEBUG                  - depth 6, hash f15531c, HEAD~918
+2021-07-03 21:08:47,243 DEBUG    [line range] com/fasterxml/jackson/core/json/JsonWriteContext.java writeValue 182:204
+2021-07-03 21:08:47,276 DEBUG                  - depth 0, hash 5cddffa, HEAD~284
+2021-07-03 21:08:47,281 DEBUG                  - depth 1, hash 27eb3c1, HEAD~351
+2021-07-03 21:08:47,286 DEBUG                  - depth 2, hash 007dccb, HEAD~534
+2021-07-03 21:08:47,290 DEBUG                  - depth 3, hash 7dc9de6, HEAD~631
+2021-07-03 21:08:47,294 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:47,809 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java <clinit> 30:30
+2021-07-03 21:08:47,850 DEBUG                  - depth 0, hash 73662a5, HEAD~32
+2021-07-03 21:08:47,855 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:47,860 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java <init> 112:134
+2021-07-03 21:08:47,900 DEBUG                  - depth 0, hash e600981, HEAD~461
+2021-07-03 21:08:47,906 DEBUG                  - depth 1, hash 8fc4243, HEAD~583
+2021-07-03 21:08:47,910 DEBUG                  - depth 2, hash e6dfc69, HEAD~785
+2021-07-03 21:08:47,914 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:47,919 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java _flushBuffer 1991:1998
+2021-07-03 21:08:47,960 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:47,965 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java _releaseBuffers 1060:1073
+2021-07-03 21:08:48,005 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:48,011 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java _verifyValueWrite 934:971
+2021-07-03 21:08:48,051 DEBUG                  - depth 0, hash 5cddffa, HEAD~284
+2021-07-03 21:08:48,057 DEBUG                  - depth 1, hash e6dfc69, HEAD~785
+2021-07-03 21:08:48,061 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:48,065 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java _writeStringSegment 1235:1264
+2021-07-03 21:08:48,099 DEBUG                  - depth 0, hash ad3a43e, HEAD~200
+2021-07-03 21:08:48,105 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java close 1017:1058
+2021-07-03 21:08:48,146 DEBUG                  - depth 0, hash 58088f4, HEAD~2
+2021-07-03 21:08:48,151 DEBUG                  - depth 1, hash 46b4f02, HEAD~134
+2021-07-03 21:08:48,156 DEBUG                  - depth 2, hash 5cddffa, HEAD~284
+2021-07-03 21:08:48,160 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:48,164 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java writeEndObject 326:341
+2021-07-03 21:08:48,205 DEBUG                  - depth 0, hash b4567ca, HEAD~27
+2021-07-03 21:08:48,211 DEBUG                  - depth 1, hash 3aa2414, HEAD~462
+2021-07-03 21:08:48,215 DEBUG                  - depth 2, hash 5437738, HEAD~827
+2021-07-03 21:08:48,219 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:48,224 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java writeFieldName 177:225
+2021-07-03 21:08:48,265 DEBUG                  - depth 0, hash ad3a43e, HEAD~200
+2021-07-03 21:08:48,270 DEBUG                  - depth 1, hash 07efb96, HEAD~460
+2021-07-03 21:08:48,275 DEBUG                  - depth 2, hash e600981, HEAD~461
+2021-07-03 21:08:48,279 DEBUG                  - depth 3, hash 3aa2414, HEAD~462
+2021-07-03 21:08:48,283 DEBUG                  - depth 4, hash 5db03b6, HEAD~582
+2021-07-03 21:08:48,287 DEBUG                  - depth 5, hash 9b59c3b, HEAD~897
+2021-07-03 21:08:48,292 DEBUG                  - depth 6, hash f15531c, HEAD~918
+2021-07-03 21:08:48,296 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java writeNumber 773:786
+2021-07-03 21:08:48,337 DEBUG                  - depth 0, hash ec560f3, HEAD~53
+2021-07-03 21:08:48,343 DEBUG                  - depth 1, hash 5cddffa, HEAD~284
+2021-07-03 21:08:48,347 DEBUG                  - depth 2, hash 7190d20, HEAD~701
+2021-07-03 21:08:48,351 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:48,356 DEBUG    [line range] com/fasterxml/jackson/core/json/UTF8JsonGenerator.java writeStartObject 311:324
+2021-07-03 21:08:48,396 DEBUG                  - depth 0, hash 3aa2414, HEAD~462
+2021-07-03 21:08:48,401 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:48,906 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java <clinit> 19:19
+2021-07-03 21:08:48,946 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:48,952 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java <init> 71:78
+2021-07-03 21:08:48,991 DEBUG                  - depth 0, hash e6dfc69, HEAD~785
+2021-07-03 21:08:48,997 DEBUG                  - depth 1, hash 48d2609, HEAD~908
+2021-07-03 21:08:49,001 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:49,005 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java _flushBuffer 1874:1882
+2021-07-03 21:08:49,045 DEBUG                  - depth 0, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:49,051 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:49,055 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java _releaseBuffers 885:893
+2021-07-03 21:08:49,093 DEBUG                  - depth 0, hash f15531c, HEAD~918
+2021-07-03 21:08:49,099 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java _verifyValueWrite 756:790
+2021-07-03 21:08:49,139 DEBUG                  - depth 0, hash 3b1a36b, HEAD~463
+2021-07-03 21:08:49,144 DEBUG                  - depth 1, hash 15f909b, HEAD~464
+2021-07-03 21:08:49,148 DEBUG                  - depth 2, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:49,153 DEBUG                  - depth 3, hash e6dfc69, HEAD~785
+2021-07-03 21:08:49,157 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:49,161 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java _writeFieldName 125:152
+2021-07-03 21:08:49,193 DEBUG                  - depth 0, hash b4067f1, HEAD~26
+2021-07-03 21:08:49,199 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java _writeString 901:928
+2021-07-03 21:08:49,238 DEBUG                  - depth 0, hash 15f909b, HEAD~464
+2021-07-03 21:08:49,244 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:49,249 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java _writeString2 930:965
+2021-07-03 21:08:49,287 DEBUG                  - depth 0, hash 15f909b, HEAD~464
+2021-07-03 21:08:49,293 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:49,297 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java close 841:883
+2021-07-03 21:08:49,337 DEBUG                  - depth 0, hash 46b4f02, HEAD~134
+2021-07-03 21:08:49,343 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:49,347 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java writeEndObject 244:259
+2021-07-03 21:08:49,387 DEBUG                  - depth 0, hash b4567ca, HEAD~27
+2021-07-03 21:08:49,393 DEBUG                  - depth 1, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:49,397 DEBUG                  - depth 2, hash 5437738, HEAD~827
+2021-07-03 21:08:49,401 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:49,406 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java writeFieldName 104:112
+2021-07-03 21:08:49,446 DEBUG                  - depth 0, hash 3aa2414, HEAD~462
+2021-07-03 21:08:49,451 DEBUG                  - depth 1, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:49,456 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:49,460 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java writeNumber 587:600
+2021-07-03 21:08:49,499 DEBUG                  - depth 0, hash 5cddffa, HEAD~284
+2021-07-03 21:08:49,505 DEBUG                  - depth 1, hash abb4089, HEAD~465
+2021-07-03 21:08:49,509 DEBUG                  - depth 2, hash 7190d20, HEAD~701
+2021-07-03 21:08:49,513 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:49,518 DEBUG    [line range] com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java writeStartObject 229:242
+2021-07-03 21:08:49,558 DEBUG                  - depth 0, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:49,563 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:50,048 DEBUG    [line range] com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java <init> 222:242
+2021-07-03 21:08:50,085 DEBUG                  - depth 0, hash 791e288, HEAD~268
+2021-07-03 21:08:50,091 DEBUG    [line range] com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java _calcTertiaryShift 1193:1210
+2021-07-03 21:08:50,126 DEBUG                  - depth 0, hash 86b31e7, HEAD~205
+2021-07-03 21:08:50,132 DEBUG                  - depth 1, hash aa65eaa, HEAD~257
+2021-07-03 21:08:50,136 DEBUG                  - depth 2, hash 6b9505b, HEAD~259
+2021-07-03 21:08:50,141 DEBUG    [line range] com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java createRoot 284:292
+2021-07-03 21:08:50,177 DEBUG                  - depth 0, hash 791e288, HEAD~268
+2021-07-03 21:08:50,183 DEBUG    [line range] com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java createRoot 298:300
+2021-07-03 21:08:50,219 DEBUG                  - depth 0, hash 791e288, HEAD~268
+2021-07-03 21:08:50,225 DEBUG    [line range] com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java <init> 1235:1245
+2021-07-03 21:08:50,261 DEBUG                  - depth 0, hash 6b9505b, HEAD~259
+2021-07-03 21:08:50,267 DEBUG                  - depth 1, hash 30a2670, HEAD~263
+2021-07-03 21:08:50,271 DEBUG                  - depth 2, hash 3a00c86, HEAD~267
+2021-07-03 21:08:50,275 DEBUG                  - depth 3, hash 791e288, HEAD~268
+2021-07-03 21:08:50,280 DEBUG    [line range] com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java createInitial 1258:1270
+2021-07-03 21:08:50,317 DEBUG                  - depth 0, hash a71a00e, HEAD~107
+2021-07-03 21:08:50,323 DEBUG                  - depth 1, hash 6b9505b, HEAD~259
+2021-07-03 21:08:50,327 DEBUG                  - depth 2, hash 30a2670, HEAD~263
+2021-07-03 21:08:50,332 DEBUG                  - depth 3, hash 6c629a8, HEAD~266
+2021-07-03 21:08:50,336 DEBUG                  - depth 4, hash 3a00c86, HEAD~267
+2021-07-03 21:08:50,340 DEBUG                  - depth 5, hash 791e288, HEAD~268
+2021-07-03 21:08:50,743 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java <clinit> 93:93
+2021-07-03 21:08:50,778 DEBUG                  - depth 0, hash 9318b80, HEAD~555
+2021-07-03 21:08:50,784 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:50,788 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java <init> 236:245
+2021-07-03 21:08:50,822 DEBUG                  - depth 0, hash 383bc8f, HEAD~413
+2021-07-03 21:08:50,828 DEBUG                  - depth 1, hash 9318b80, HEAD~555
+2021-07-03 21:08:50,832 DEBUG                  - depth 2, hash a7ec583, HEAD~822
+2021-07-03 21:08:50,836 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:50,841 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java <init> 264:283
+2021-07-03 21:08:50,876 DEBUG                  - depth 0, hash 383bc8f, HEAD~413
+2021-07-03 21:08:50,882 DEBUG                  - depth 1, hash 9318b80, HEAD~555
+2021-07-03 21:08:50,887 DEBUG                  - depth 2, hash bda3a91, HEAD~820
+2021-07-03 21:08:50,891 DEBUG                  - depth 3, hash a7ec583, HEAD~822
+2021-07-03 21:08:50,895 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:50,900 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java _thresholdSize 259:259
+2021-07-03 21:08:50,935 DEBUG                  - depth 0, hash 9318b80, HEAD~555
+2021-07-03 21:08:50,940 DEBUG                  - depth 1, hash 1dc2c61, HEAD~782
+2021-07-03 21:08:50,945 DEBUG                  - depth 2, hash bda3a91, HEAD~820
+2021-07-03 21:08:50,949 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java createRoot 219:227
+2021-07-03 21:08:50,984 DEBUG                  - depth 0, hash 9318b80, HEAD~555
+2021-07-03 21:08:50,990 DEBUG                  - depth 1, hash 321d809, HEAD~779
+2021-07-03 21:08:50,995 DEBUG                  - depth 2, hash 3532520, HEAD~819
+2021-07-03 21:08:50,999 DEBUG                  - depth 3, hash a7ec583, HEAD~822
+2021-07-03 21:08:51,003 DEBUG                  - depth 4, hash f15531c, HEAD~918
+2021-07-03 21:08:51,008 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java createRoot 229:231
+2021-07-03 21:08:51,043 DEBUG                  - depth 0, hash a7ec583, HEAD~822
+2021-07-03 21:08:51,048 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:51,053 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java initTables 247:257
+2021-07-03 21:08:51,088 DEBUG                  - depth 0, hash bda3a91, HEAD~820
+2021-07-03 21:08:51,093 DEBUG                  - depth 1, hash a7ec583, HEAD~822
+2021-07-03 21:08:51,098 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:51,102 DEBUG    [line range] com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java makeOrphan 319:321
+2021-07-03 21:08:51,138 DEBUG                  - depth 0, hash 383bc8f, HEAD~413
+2021-07-03 21:08:51,144 DEBUG                  - depth 1, hash 9318b80, HEAD~555
+2021-07-03 21:08:51,148 DEBUG                  - depth 2, hash a7ec583, HEAD~822
+2021-07-03 21:08:51,152 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:51,469 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java <clinit> 45:45
+2021-07-03 21:08:51,501 DEBUG                  - depth 0, hash 175a97b, HEAD~549
+2021-07-03 21:08:51,506 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:51,511 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:51,515 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java <init> 61:63
+2021-07-03 21:08:51,547 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,552 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:51,556 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:51,561 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java <init> 71:74
+2021-07-03 21:08:51,593 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,598 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:51,603 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java allocByteBuffer 85:87
+2021-07-03 21:08:51,634 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,640 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:51,644 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:51,649 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java allocByteBuffer 89:101
+2021-07-03 21:08:51,680 DEBUG                  - depth 0, hash 4ceaba8, HEAD~403
+2021-07-03 21:08:51,686 DEBUG                  - depth 1, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,691 DEBUG                  - depth 2, hash f633f10, HEAD~559
+2021-07-03 21:08:51,695 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:51,699 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java allocCharBuffer 113:115
+2021-07-03 21:08:51,731 DEBUG                  - depth 0, hash f633f10, HEAD~559
+2021-07-03 21:08:51,737 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:51,741 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java allocCharBuffer 117:129
+2021-07-03 21:08:51,773 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,779 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:51,783 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:51,788 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java balloc 155:155
+2021-07-03 21:08:51,820 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,826 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:51,830 DEBUG                  - depth 2, hash 6c842ae, HEAD~781
+2021-07-03 21:08:51,835 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:51,839 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java byteBufferLength 141:143
+2021-07-03 21:08:51,871 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,876 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java calloc 156:156
+2021-07-03 21:08:51,908 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,914 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:51,918 DEBUG                  - depth 2, hash 6c842ae, HEAD~781
+2021-07-03 21:08:51,923 DEBUG                  - depth 3, hash f15531c, HEAD~918
+2021-07-03 21:08:51,927 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java charBufferLength 145:147
+2021-07-03 21:08:51,959 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:51,964 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java releaseByteBuffer 103:105
+2021-07-03 21:08:51,996 DEBUG                  - depth 0, hash f633f10, HEAD~559
+2021-07-03 21:08:52,002 DEBUG                  - depth 1, hash f15531c, HEAD~918
+2021-07-03 21:08:52,006 DEBUG    [line range] com/fasterxml/jackson/core/util/BufferRecycler.java releaseCharBuffer 131:133
+2021-07-03 21:08:52,038 DEBUG                  - depth 0, hash ebf0091, HEAD~546
+2021-07-03 21:08:52,044 DEBUG                  - depth 1, hash f633f10, HEAD~559
+2021-07-03 21:08:52,048 DEBUG                  - depth 2, hash f15531c, HEAD~918
+2021-07-03 21:08:52,399 DEBUG    [line range] com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java <clinit> 28:28
+2021-07-03 21:08:52,432 DEBUG                  - depth 0, hash e6dfc69, HEAD~785
+2021-07-03 21:08:52,438 INFO     The number of BIC candidates: 79

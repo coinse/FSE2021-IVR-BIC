@@ -1,0 +1,186 @@
+2021-07-03 20:24:47,882 INFO     Search BICs for /tmp/Compress-1b/
+2021-07-03 20:24:47,882 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.CpioTestCase::testCpioUnarchive (failings)
+2021-07-03 20:24:47,895 INFO     Loaded 1x307 Coverage Matrix
+2021-07-03 20:24:47,895 INFO     The number of total commits: 261
+2021-07-03 20:24:48,168 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveInputStream.java <init> 24
+2021-07-03 20:24:48,179 DEBUG                  - depth 0, hash ca16539, HEAD~148
+2021-07-03 20:24:48,457 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveOutputStream.java <init> 24
+2021-07-03 20:24:48,468 DEBUG                  - depth 0, hash c30b588, HEAD~104
+2021-07-03 20:24:48,473 DEBUG                  - depth 1, hash f77e1f1, HEAD~112
+2021-07-03 20:24:48,477 DEBUG                  - depth 2, hash ca16539, HEAD~148
+2021-07-03 20:24:48,794 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveStreamFactory.java <init> 45
+2021-07-03 20:24:48,807 DEBUG                  - depth 0, hash 6a70323, HEAD~138
+2021-07-03 20:24:48,812 DEBUG                  - depth 1, hash ca16539, HEAD~148
+2021-07-03 20:24:48,816 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveStreamFactory.java createArchiveInputStream 56:75
+2021-07-03 20:24:48,830 DEBUG                  - depth 0, hash c4a65f0, HEAD~37
+2021-07-03 20:24:48,835 DEBUG                  - depth 1, hash 55c78f6, HEAD~102
+2021-07-03 20:24:48,839 DEBUG                  - depth 2, hash 0ba4e2a, HEAD~103
+2021-07-03 20:24:48,843 DEBUG                  - depth 3, hash b7bc8c7, HEAD~118
+2021-07-03 20:24:48,847 DEBUG                  - depth 4, hash 70c8320, HEAD~128
+2021-07-03 20:24:48,851 DEBUG                  - depth 5, hash 6a70323, HEAD~138
+2021-07-03 20:24:48,855 DEBUG                  - depth 6, hash ca16539, HEAD~148
+2021-07-03 20:24:48,859 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveStreamFactory.java createArchiveOutputStream 86:106
+2021-07-03 20:24:48,873 DEBUG                  - depth 0, hash c4a65f0, HEAD~37
+2021-07-03 20:24:48,878 DEBUG                  - depth 1, hash 55c78f6, HEAD~102
+2021-07-03 20:24:48,882 DEBUG                  - depth 2, hash 0ba4e2a, HEAD~103
+2021-07-03 20:24:48,886 DEBUG                  - depth 3, hash 6284d8d, HEAD~111
+2021-07-03 20:24:48,890 DEBUG                  - depth 4, hash f77e1f1, HEAD~112
+2021-07-03 20:24:48,894 DEBUG                  - depth 5, hash b7bc8c7, HEAD~118
+2021-07-03 20:24:48,899 DEBUG                  - depth 6, hash 70c8320, HEAD~128
+2021-07-03 20:24:48,903 DEBUG                  - depth 7, hash 6a70323, HEAD~138
+2021-07-03 20:24:48,907 DEBUG                  - depth 8, hash ca16539, HEAD~148
+2021-07-03 20:24:49,270 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java <init> 195:199
+2021-07-03 20:24:49,283 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,288 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java <init> 134:134
+2021-07-03 20:24:49,300 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,306 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java checkNewFormat 204:208
+2021-07-03 20:24:49,318 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,323 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getChksum 224:227
+2021-07-03 20:24:49,335 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,341 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getDeviceMaj 250:253
+2021-07-03 20:24:49,353 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,358 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getDeviceMin 260:263
+2021-07-03 20:24:49,370 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,375 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getFormat 284:286
+2021-07-03 20:24:49,387 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,392 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getGID 293:295
+2021-07-03 20:24:49,405 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,410 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getHeaderSize 302:304
+2021-07-03 20:24:49,422 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,427 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getInode 311:313
+2021-07-03 20:24:49,439 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,444 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getMode 320:322
+2021-07-03 20:24:49,456 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,462 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getName 329:331
+2021-07-03 20:24:49,474 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,479 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getNumberOfLinks 338:340
+2021-07-03 20:24:49,491 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,496 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getRemoteDeviceMaj 363:366
+2021-07-03 20:24:49,508 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,514 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getRemoteDeviceMin 376:379
+2021-07-03 20:24:49,526 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,531 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getSize 275:277
+2021-07-03 20:24:49,543 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,548 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getTime 386:388
+2021-07-03 20:24:49,561 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,566 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java getUID 395:397
+2021-07-03 20:24:49,578 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,583 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setChksum 478:481
+2021-07-03 20:24:49,595 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,601 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setDeviceMaj 503:506
+2021-07-03 20:24:49,613 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,618 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setDeviceMin 514:517
+2021-07-03 20:24:49,630 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,635 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setFormat 541:562
+2021-07-03 20:24:49,648 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:49,653 DEBUG                  - depth 1, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,657 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setGID 570:572
+2021-07-03 20:24:49,669 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,674 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setInode 580:582
+2021-07-03 20:24:49,687 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,692 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setMode 590:609
+2021-07-03 20:24:49,704 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:49,709 DEBUG                  - depth 1, hash 5d9f7b4, HEAD~119
+2021-07-03 20:24:49,713 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,718 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setName 617:619
+2021-07-03 20:24:49,730 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,735 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setNumberOfLinks 627:629
+2021-07-03 20:24:49,747 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,752 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setRemoteDeviceMaj 654:657
+2021-07-03 20:24:49,764 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,770 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setRemoteDeviceMin 668:671
+2021-07-03 20:24:49,782 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,787 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setSize 525:531
+2021-07-03 20:24:49,799 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,805 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setTime 679:681
+2021-07-03 20:24:49,817 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:49,822 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java setUID 689:691
+2021-07-03 20:24:49,834 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,204 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java <init> 65:65
+2021-07-03 20:24:50,216 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,222 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java closeEntry 132:139
+2021-07-03 20:24:50,234 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,239 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java ensureOpen 147:151
+2021-07-03 20:24:50,251 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,257 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java getNextCPIOEntry 162:201
+2021-07-03 20:24:50,269 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,274 DEBUG                  - depth 1, hash bd9e3bb, HEAD~116
+2021-07-03 20:24:50,278 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,283 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java getNextEntry 420:422
+2021-07-03 20:24:50,295 DEBUG                  - depth 0, hash a7049ab, HEAD~100
+2021-07-03 20:24:50,301 DEBUG                  - depth 1, hash bd9e3bb, HEAD~116
+2021-07-03 20:24:50,305 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,309 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java pad 203:209
+2021-07-03 20:24:50,321 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,327 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java read 241:282
+2021-07-03 20:24:50,339 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,344 DEBUG                  - depth 1, hash bd9e3bb, HEAD~116
+2021-07-03 20:24:50,348 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,353 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java readAsciiLong 307:312
+2021-07-03 20:24:50,365 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,370 DEBUG                  - depth 1, hash bd9e3bb, HEAD~116
+2021-07-03 20:24:50,375 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,379 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java readCString 380:384
+2021-07-03 20:24:50,391 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,396 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java readFully 284:298
+2021-07-03 20:24:50,409 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,414 DEBUG                  - depth 1, hash bd9e3bb, HEAD~116
+2021-07-03 20:24:50,418 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,422 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java readNewEntry 314:340
+2021-07-03 20:24:50,434 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,440 DEBUG                  - depth 1, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,793 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java <init> 98:100
+2021-07-03 20:24:50,805 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,811 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java <init> 64:64
+2021-07-03 20:24:50,823 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,829 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java close 347:352
+2021-07-03 20:24:50,841 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,846 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java closeArchiveEntry 404:406
+2021-07-03 20:24:50,859 DEBUG                  - depth 0, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:50,864 DEBUG                  - depth 1, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,868 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java closeEntry 253:274
+2021-07-03 20:24:50,880 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,886 DEBUG                  - depth 1, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:50,890 DEBUG                  - depth 2, hash 5d9f7b4, HEAD~119
+2021-07-03 20:24:50,894 DEBUG                  - depth 3, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,898 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java ensureOpen 108:112
+2021-07-03 20:24:50,910 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,915 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java pad 354:360
+2021-07-03 20:24:50,928 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,933 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java putArchiveEntry 415:417
+2021-07-03 20:24:50,945 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,951 DEBUG                  - depth 1, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:50,955 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,959 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java putNextEntry 150:172
+2021-07-03 20:24:50,971 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:50,977 DEBUG                  - depth 1, hash 5d9f7b4, HEAD~119
+2021-07-03 20:24:50,981 DEBUG                  - depth 2, hash 70c8320, HEAD~128
+2021-07-03 20:24:50,985 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java setFormat 121:135
+2021-07-03 20:24:50,998 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:51,003 DEBUG                  - depth 1, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:51,007 DEBUG                  - depth 2, hash 5d9f7b4, HEAD~119
+2021-07-03 20:24:51,011 DEBUG                  - depth 3, hash 70c8320, HEAD~128
+2021-07-03 20:24:51,016 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java write 290:312
+2021-07-03 20:24:51,028 DEBUG                  - depth 0, hash 9d6dbc3, HEAD~11
+2021-07-03 20:24:51,033 DEBUG                  - depth 1, hash 41f4a20, HEAD~18
+2021-07-03 20:24:51,037 DEBUG                  - depth 2, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:51,042 DEBUG                  - depth 3, hash 70c8320, HEAD~128
+2021-07-03 20:24:51,046 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java writeAsciiLong 368:390
+2021-07-03 20:24:51,058 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:51,063 DEBUG                  - depth 1, hash 70c8320, HEAD~128
+2021-07-03 20:24:51,068 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java writeCString 392:395
+2021-07-03 20:24:51,080 DEBUG                  - depth 0, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:51,085 DEBUG                  - depth 1, hash 70c8320, HEAD~128
+2021-07-03 20:24:51,090 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java writeHeader 174:194
+2021-07-03 20:24:51,102 DEBUG                  - depth 0, hash 3f9bcc6, HEAD~109
+2021-07-03 20:24:51,107 DEBUG                  - depth 1, hash 70c8320, HEAD~128
+2021-07-03 20:24:51,112 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java writeNewEntry 196:212
+2021-07-03 20:24:51,124 DEBUG                  - depth 0, hash 70c8320, HEAD~128
+2021-07-03 20:24:51,432 DEBUG    [line range] org/apache/commons/compress/archivers/cpio/CpioUtil.java byteArray2long 32:57
+2021-07-03 20:24:51,444 DEBUG                  - depth 0, hash 41f4a20, HEAD~18
+2021-07-03 20:24:51,740 DEBUG    [line range] org/apache/commons/compress/utils/IOUtils.java copy 38:40
+2021-07-03 20:24:51,752 DEBUG                  - depth 0, hash ad3908e, HEAD~33
+2021-07-03 20:24:51,758 DEBUG                  - depth 1, hash ca16539, HEAD~148
+2021-07-03 20:24:51,762 DEBUG    [line range] org/apache/commons/compress/utils/IOUtils.java copy 54:60
+2021-07-03 20:24:51,773 DEBUG                  - depth 0, hash ca16539, HEAD~148
+2021-07-03 20:24:51,779 INFO     The number of BIC candidates: 17

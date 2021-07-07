@@ -1,0 +1,550 @@
+2021-07-03 20:29:11,654 INFO     Search BICs for /tmp/Compress-13b/
+2021-07-03 20:29:11,654 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.zip.ZipFileTest::testWinzipBackSlashWorkaround (failings)
+2021-07-03 20:29:11,677 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::winzipBackSlashWorkaround (failings)
+2021-07-03 20:29:11,701 INFO     Loaded 2x633 Coverage Matrix
+2021-07-03 20:29:11,701 INFO     The number of total commits: 969
+2021-07-03 20:29:12,036 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java <init> 34:35
+2021-07-03 20:29:12,068 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,074 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java assembleData 73:83
+2021-07-03 20:29:12,105 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,110 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java getCentralDirectoryData 129:139
+2021-07-03 20:29:12,142 DEBUG                  - depth 0, hash 4aea7b2, HEAD~149
+2021-07-03 20:29:12,148 DEBUG                  - depth 1, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,152 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java getCentralDirectoryLength 142:147
+2021-07-03 20:29:12,184 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,190 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java getLocalFileDataData 150:152
+2021-07-03 20:29:12,222 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,227 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java getLocalFileDataLength 155:157
+2021-07-03 20:29:12,259 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,265 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java getNameCRC32 89:91
+2021-07-03 20:29:12,296 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,301 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java getUnicodeName 105:112
+2021-07-03 20:29:12,333 DEBUG                  - depth 0, hash 4aea7b2, HEAD~149
+2021-07-03 20:29:12,338 DEBUG                  - depth 1, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,342 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java parseFromCentralDirectoryData 184:188
+2021-07-03 20:29:12,375 DEBUG                  - depth 0, hash dfbdfee, HEAD~764
+2021-07-03 20:29:12,380 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java parseFromLocalFileData 160:178
+2021-07-03 20:29:12,412 DEBUG                  - depth 0, hash 7fce030, HEAD~479
+2021-07-03 20:29:12,417 DEBUG                  - depth 1, hash 4e2380b, HEAD~797
+2021-07-03 20:29:12,765 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AsiExtraField.java <clinit> 55:55
+2021-07-03 20:29:12,800 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:12,805 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AsiExtraField.java <init> 60:60
+2021-07-03 20:29:12,840 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:12,845 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:12,849 DEBUG    [line range] org/apache/commons/compress/archivers/zip/AsiExtraField.java getHeaderId 93:95
+2021-07-03 20:29:12,884 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:12,890 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:13,261 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 41
+2021-07-03 20:29:13,297 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:13,303 DEBUG                  - depth 1, hash 2ae5e28, HEAD~830
+2021-07-03 20:29:13,307 DEBUG                  - depth 2, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,311 DEBUG                  - depth 3, hash 8822084, HEAD~927
+2021-07-03 20:29:13,315 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 42
+2021-07-03 20:29:13,351 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,356 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:13,360 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 43
+2021-07-03 20:29:13,396 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,401 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:13,405 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 44
+2021-07-03 20:29:13,440 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:13,445 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 45
+2021-07-03 20:29:13,480 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:13,485 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 46
+2021-07-03 20:29:13,520 DEBUG                  - depth 0, hash 60e2dec, HEAD~263
+2021-07-03 20:29:13,526 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 47
+2021-07-03 20:29:13,561 DEBUG                  - depth 0, hash 8822084, HEAD~927
+2021-07-03 20:29:13,567 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java createExtraField 77:86
+2021-07-03 20:29:13,603 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:13,608 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,612 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:13,616 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java mergeLocalFileDataData 193:220
+2021-07-03 20:29:13,653 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:13,658 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,662 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:13,666 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java parse 127:186
+2021-07-03 20:29:13,703 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:13,709 DEBUG                  - depth 1, hash 49bf626, HEAD~375
+2021-07-03 20:29:13,713 DEBUG                  - depth 2, hash bebc6ed, HEAD~409
+2021-07-03 20:29:13,717 DEBUG                  - depth 3, hash 124f97c, HEAD~414
+2021-07-03 20:29:13,721 DEBUG                  - depth 4, hash dfbdfee, HEAD~764
+2021-07-03 20:29:13,725 DEBUG                  - depth 5, hash 2ae5e28, HEAD~830
+2021-07-03 20:29:13,729 DEBUG                  - depth 6, hash 838dcc1, HEAD~831
+2021-07-03 20:29:13,733 DEBUG                  - depth 7, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,737 DEBUG                  - depth 8, hash 8822084, HEAD~927
+2021-07-03 20:29:13,741 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java register 56:67
+2021-07-03 20:29:13,779 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:13,784 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:13,788 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:13,792 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <clinit> 278:279
+2021-07-03 20:29:13,828 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:13,833 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java <init> 297:299
+2021-07-03 20:29:13,868 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:14,180 DEBUG    [line range] org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java <init> 60:62
+2021-07-03 20:29:14,213 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:14,218 DEBUG    [line range] org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java decode 88:94
+2021-07-03 20:29:14,250 DEBUG                  - depth 0, hash 325f002, HEAD~522
+2021-07-03 20:29:14,255 DEBUG                  - depth 1, hash b99befd, HEAD~526
+2021-07-03 20:29:14,259 DEBUG                  - depth 2, hash 865686a, HEAD~529
+2021-07-03 20:29:14,263 DEBUG                  - depth 3, hash 853176f, HEAD~768
+2021-07-03 20:29:14,571 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java <init> 52:52
+2021-07-03 20:29:14,602 DEBUG                  - depth 0, hash 4d68dda, HEAD~394
+2021-07-03 20:29:14,607 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java parse 141:150
+2021-07-03 20:29:14,639 DEBUG                  - depth 0, hash b7bd6e4, HEAD~393
+2021-07-03 20:29:14,644 DEBUG                  - depth 1, hash 4d68dda, HEAD~394
+2021-07-03 20:29:14,648 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java useDataDescriptor 86:88
+2021-07-03 20:29:14,681 DEBUG                  - depth 0, hash 4d68dda, HEAD~394
+2021-07-03 20:29:14,686 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java useEncryption 100:102
+2021-07-03 20:29:14,717 DEBUG                  - depth 0, hash b7bd6e4, HEAD~393
+2021-07-03 20:29:14,723 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java useStrongEncryption 114:119
+2021-07-03 20:29:14,754 DEBUG                  - depth 0, hash b7bd6e4, HEAD~393
+2021-07-03 20:29:14,760 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java useUTF8ForNames 70:72
+2021-07-03 20:29:14,791 DEBUG                  - depth 0, hash 4d68dda, HEAD~394
+2021-07-03 20:29:14,796 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java usesUTF8ForNames 63:65
+2021-07-03 20:29:14,828 DEBUG                  - depth 0, hash 4d68dda, HEAD~394
+2021-07-03 20:29:15,146 DEBUG    [line range] org/apache/commons/compress/archivers/zip/JarMarker.java <clinit> 29:29
+2021-07-03 20:29:15,177 DEBUG                  - depth 0, hash e190c40, HEAD~834
+2021-07-03 20:29:15,183 DEBUG    [line range] org/apache/commons/compress/archivers/zip/JarMarker.java <init> 35:37
+2021-07-03 20:29:15,214 DEBUG                  - depth 0, hash e190c40, HEAD~834
+2021-07-03 20:29:15,220 DEBUG    [line range] org/apache/commons/compress/archivers/zip/JarMarker.java getHeaderId 51:53
+2021-07-03 20:29:15,252 DEBUG                  - depth 0, hash e190c40, HEAD~834
+2021-07-03 20:29:15,537 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.java <clinit> 40:40
+2021-07-03 20:29:15,569 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:15,574 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.java <init> 42:43
+2021-07-03 20:29:15,605 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:15,611 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.java getHeaderId 72:74
+2021-07-03 20:29:15,642 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:15,929 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnicodePathExtraField.java <clinit> 40:40
+2021-07-03 20:29:15,962 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:15,967 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnicodePathExtraField.java <init> 42:43
+2021-07-03 20:29:16,000 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:16,005 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnicodePathExtraField.java getHeaderId 71:73
+2021-07-03 20:29:16,037 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:16,347 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java <init> 29
+2021-07-03 20:29:16,382 DEBUG                  - depth 0, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,387 DEBUG                  - depth 1, hash ff40903, HEAD~779
+2021-07-03 20:29:16,391 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:16,395 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java getHeaderId 48:50
+2021-07-03 20:29:16,430 DEBUG                  - depth 0, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,435 DEBUG                  - depth 1, hash 5e5804c, HEAD~828
+2021-07-03 20:29:16,439 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:16,443 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java getLocalFileDataData 79:81
+2021-07-03 20:29:16,478 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:16,483 DEBUG                  - depth 1, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,487 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:16,491 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java getLocalFileDataLength 71:73
+2021-07-03 20:29:16,526 DEBUG                  - depth 0, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,531 DEBUG                  - depth 1, hash 5e5804c, HEAD~828
+2021-07-03 20:29:16,536 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:16,540 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java parseFromCentralDirectoryData 138:146
+2021-07-03 20:29:16,574 DEBUG                  - depth 0, hash dfbdfee, HEAD~764
+2021-07-03 20:29:16,580 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java setCentralDirectoryData 93:95
+2021-07-03 20:29:16,614 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:16,619 DEBUG                  - depth 1, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,623 DEBUG                  - depth 2, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:16,627 DEBUG                  - depth 3, hash 8822084, HEAD~927
+2021-07-03 20:29:16,632 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java setHeaderId 40:42
+2021-07-03 20:29:16,666 DEBUG                  - depth 0, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,672 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:16,676 DEBUG    [line range] org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java setLocalFileDataData 63:65
+2021-07-03 20:29:16,711 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:16,717 DEBUG                  - depth 1, hash 633ab9a, HEAD~765
+2021-07-03 20:29:16,721 DEBUG                  - depth 2, hash 5e5804c, HEAD~828
+2021-07-03 20:29:16,725 DEBUG                  - depth 3, hash 8822084, HEAD~927
+2021-07-03 20:29:17,067 DEBUG    [line range] org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java <clinit> 78:78
+2021-07-03 20:29:17,100 DEBUG                  - depth 0, hash 6c5f04b, HEAD~233
+2021-07-03 20:29:17,105 DEBUG                  - depth 1, hash 60e2dec, HEAD~263
+2021-07-03 20:29:17,109 DEBUG    [line range] org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java <init> 103:103
+2021-07-03 20:29:17,141 DEBUG                  - depth 0, hash 60e2dec, HEAD~263
+2021-07-03 20:29:17,147 DEBUG    [line range] org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java getHeaderId 137:139
+2021-07-03 20:29:17,178 DEBUG                  - depth 0, hash 60e2dec, HEAD~263
+2021-07-03 20:29:17,578 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java <init> 144:146
+2021-07-03 20:29:17,615 DEBUG                  - depth 0, hash 5066e9a, HEAD~421
+2021-07-03 20:29:17,621 DEBUG                  - depth 1, hash 463d6eb, HEAD~821
+2021-07-03 20:29:17,625 DEBUG                  - depth 2, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:17,629 DEBUG                  - depth 3, hash 8822084, HEAD~927
+2021-07-03 20:29:17,633 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java <init> 96:99
+2021-07-03 20:29:17,671 DEBUG                  - depth 0, hash 5066e9a, HEAD~421
+2021-07-03 20:29:17,677 DEBUG                  - depth 1, hash 463d6eb, HEAD~821
+2021-07-03 20:29:17,681 DEBUG                  - depth 2, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:17,685 DEBUG                  - depth 3, hash 8822084, HEAD~927
+2021-07-03 20:29:17,689 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java <init> 69:69
+2021-07-03 20:29:17,726 DEBUG                  - depth 0, hash 7b125a3, HEAD~425
+2021-07-03 20:29:17,731 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java getExtraField 408:413
+2021-07-03 20:29:17,769 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:17,774 DEBUG                  - depth 1, hash 2b5fb91, HEAD~783
+2021-07-03 20:29:17,779 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java getExtraFields 320:332
+2021-07-03 20:29:17,817 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:17,823 DEBUG                  - depth 1, hash 91695e4, HEAD~408
+2021-07-03 20:29:17,827 DEBUG                  - depth 2, hash 2ae5e28, HEAD~830
+2021-07-03 20:29:17,831 DEBUG                  - depth 3, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:17,835 DEBUG                  - depth 4, hash 8822084, HEAD~927
+2021-07-03 20:29:17,839 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java getName 493:496
+2021-07-03 20:29:17,878 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:17,884 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:17,888 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:17,892 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java hashCode 575:582
+2021-07-03 20:29:17,931 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:17,937 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:17,941 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:17,945 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java mergeExtraFields 608:634
+2021-07-03 20:29:17,982 DEBUG                  - depth 0, hash 91695e4, HEAD~408
+2021-07-03 20:29:17,987 DEBUG                  - depth 1, hash dfbdfee, HEAD~764
+2021-07-03 20:29:17,992 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setCentralDirectoryExtra 461:470
+2021-07-03 20:29:18,029 DEBUG                  - depth 0, hash 91695e4, HEAD~408
+2021-07-03 20:29:18,034 DEBUG                  - depth 1, hash bcebf92, HEAD~480
+2021-07-03 20:29:18,039 DEBUG                  - depth 2, hash dfbdfee, HEAD~764
+2021-07-03 20:29:18,043 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setExternalAttributes 239:241
+2021-07-03 20:29:18,081 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,086 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:18,090 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setExtra 454:456
+2021-07-03 20:29:18,128 DEBUG                  - depth 0, hash 91695e4, HEAD~408
+2021-07-03 20:29:18,133 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,137 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:18,141 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setExtra 434:446
+2021-07-03 20:29:18,181 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:18,186 DEBUG                  - depth 1, hash 91695e4, HEAD~408
+2021-07-03 20:29:18,190 DEBUG                  - depth 2, hash 25b5956, HEAD~415
+2021-07-03 20:29:18,194 DEBUG                  - depth 3, hash bcebf92, HEAD~480
+2021-07-03 20:29:18,199 DEBUG                  - depth 4, hash dfbdfee, HEAD~764
+2021-07-03 20:29:18,203 DEBUG                  - depth 5, hash 838dcc1, HEAD~831
+2021-07-03 20:29:18,207 DEBUG                  - depth 6, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,211 DEBUG                  - depth 7, hash 8822084, HEAD~927
+2021-07-03 20:29:18,215 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setExtraFields 291:301
+2021-07-03 20:29:18,254 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:18,260 DEBUG                  - depth 1, hash 3c5ab4f, HEAD~407
+2021-07-03 20:29:18,264 DEBUG                  - depth 2, hash 91695e4, HEAD~408
+2021-07-03 20:29:18,268 DEBUG                  - depth 3, hash 2ae5e28, HEAD~830
+2021-07-03 20:29:18,272 DEBUG                  - depth 4, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,276 DEBUG                  - depth 5, hash 8822084, HEAD~927
+2021-07-03 20:29:18,281 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setGeneralPurposeBit 596:598
+2021-07-03 20:29:18,317 DEBUG                  - depth 0, hash 62cb9c4, HEAD~366
+2021-07-03 20:29:18,322 DEBUG                  - depth 1, hash c7e51ed, HEAD~392
+2021-07-03 20:29:18,326 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setInternalAttributes 223:225
+2021-07-03 20:29:18,364 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,370 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:18,374 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setMethod 201:208
+2021-07-03 20:29:18,411 DEBUG                  - depth 0, hash fb06e3a, HEAD~117
+2021-07-03 20:29:18,416 DEBUG                  - depth 1, hash 7b125a3, HEAD~425
+2021-07-03 20:29:18,420 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setName 511:513
+2021-07-03 20:29:18,459 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,464 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:18,468 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setName 547:550
+2021-07-03 20:29:18,504 DEBUG                  - depth 0, hash 15f04cc, HEAD~237
+2021-07-03 20:29:18,509 DEBUG                  - depth 1, hash 934a96e, HEAD~254
+2021-07-03 20:29:18,513 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setPlatform 283:285
+2021-07-03 20:29:18,551 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:18,557 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:18,561 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java setSize 530:536
+2021-07-03 20:29:18,598 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:18,603 DEBUG                  - depth 1, hash d7d90da, HEAD~262
+2021-07-03 20:29:19,066 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java <clinit> 173:173
+2021-07-03 20:29:19,110 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:19,116 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:19,472 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 68
+2021-07-03 20:29:19,505 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:19,511 DEBUG                  - depth 1, hash 853176f, HEAD~768
+2021-07-03 20:29:19,515 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 70
+2021-07-03 20:29:19,547 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,553 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 94
+2021-07-03 20:29:19,585 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,591 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 96
+2021-07-03 20:29:19,623 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,629 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 97
+2021-07-03 20:29:19,662 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,667 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 98
+2021-07-03 20:29:19,699 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,705 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 99
+2021-07-03 20:29:19,736 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,742 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 100
+2021-07-03 20:29:19,774 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,779 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 102
+2021-07-03 20:29:19,811 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,816 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 126
+2021-07-03 20:29:19,848 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,854 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 128
+2021-07-03 20:29:19,885 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,891 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 129
+2021-07-03 20:29:19,922 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,928 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 130
+2021-07-03 20:29:19,960 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:19,966 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 131
+2021-07-03 20:29:19,997 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:20,003 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 132
+2021-07-03 20:29:20,035 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:20,040 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <clinit> 163:167
+2021-07-03 20:29:20,072 DEBUG                  - depth 0, hash 4e2380b, HEAD~797
+2021-07-03 20:29:20,078 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java getZipEncoding 210:235
+2021-07-03 20:29:20,111 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:20,116 DEBUG                  - depth 1, hash 853176f, HEAD~768
+2021-07-03 20:29:20,121 DEBUG                  - depth 2, hash 4e2380b, HEAD~797
+2021-07-03 20:29:20,125 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java isUTF8 241:248
+2021-07-03 20:29:20,158 DEBUG                  - depth 0, hash bed564b, HEAD~404
+2021-07-03 20:29:20,163 DEBUG                  - depth 1, hash ae0f984, HEAD~410
+2021-07-03 20:29:20,167 DEBUG                  - depth 2, hash 853176f, HEAD~768
+2021-07-03 20:29:20,172 DEBUG                  - depth 3, hash 1cef965, HEAD~780
+2021-07-03 20:29:20,176 DEBUG                  - depth 4, hash a96f1f2, HEAD~789
+2021-07-03 20:29:20,180 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java <init> 49:51
+2021-07-03 20:29:20,213 DEBUG                  - depth 0, hash d6f3633, HEAD~663
+2021-07-03 20:29:20,218 DEBUG                  - depth 1, hash 99870ef, HEAD~664
+2021-07-03 20:29:20,222 DEBUG                  - depth 2, hash 853176f, HEAD~768
+2021-07-03 20:29:20,659 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java <clinit> 386:387
+2021-07-03 20:29:20,692 DEBUG                  - depth 0, hash 794c20f, HEAD~134
+2021-07-03 20:29:20,698 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java <init> 141:143
+2021-07-03 20:29:20,734 DEBUG                  - depth 0, hash 853176f, HEAD~768
+2021-07-03 20:29:20,740 DEBUG                  - depth 1, hash 4ba374a, HEAD~793
+2021-07-03 20:29:20,744 DEBUG                  - depth 2, hash 0448caf, HEAD~798
+2021-07-03 20:29:20,748 DEBUG                  - depth 3, hash e190c40, HEAD~834
+2021-07-03 20:29:20,752 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java <init> 180:182
+2021-07-03 20:29:20,789 DEBUG                  - depth 0, hash fc92ca2, HEAD~770
+2021-07-03 20:29:20,795 DEBUG                  - depth 1, hash 1cef965, HEAD~780
+2021-07-03 20:29:20,799 DEBUG                  - depth 2, hash e190c40, HEAD~834
+2021-07-03 20:29:20,803 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java <init> 86:87
+2021-07-03 20:29:20,841 DEBUG                  - depth 0, hash d3aea33, HEAD~167
+2021-07-03 20:29:20,846 DEBUG                  - depth 1, hash ade9379, HEAD~371
+2021-07-03 20:29:20,851 DEBUG                  - depth 2, hash 2ae5e28, HEAD~830
+2021-07-03 20:29:20,855 DEBUG                  - depth 3, hash e190c40, HEAD~834
+2021-07-03 20:29:20,859 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java close 234:241
+2021-07-03 20:29:20,897 DEBUG                  - depth 0, hash 6eb1982, HEAD~276
+2021-07-03 20:29:20,902 DEBUG                  - depth 1, hash dba2c5c, HEAD~277
+2021-07-03 20:29:20,906 DEBUG                  - depth 2, hash 8c2e5e6, HEAD~278
+2021-07-03 20:29:20,911 DEBUG                  - depth 3, hash e190c40, HEAD~834
+2021-07-03 20:29:20,915 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java closeQuietly 248:256
+2021-07-03 20:29:20,952 DEBUG                  - depth 0, hash 58c56fc, HEAD~249
+2021-07-03 20:29:20,958 DEBUG                  - depth 1, hash e190c40, HEAD~834
+2021-07-03 20:29:20,962 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java getEntry 294:296
+2021-07-03 20:29:20,999 DEBUG                  - depth 0, hash d3aea33, HEAD~167
+2021-07-03 20:29:21,005 DEBUG                  - depth 1, hash 463d6eb, HEAD~821
+2021-07-03 20:29:21,009 DEBUG                  - depth 2, hash e190c40, HEAD~834
+2021-07-03 20:29:21,013 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java populateFromCentralDirectory 400:422
+2021-07-03 20:29:21,050 DEBUG                  - depth 0, hash 794c20f, HEAD~134
+2021-07-03 20:29:21,056 DEBUG                  - depth 1, hash d3aea33, HEAD~167
+2021-07-03 20:29:21,060 DEBUG                  - depth 2, hash 2b20993, HEAD~395
+2021-07-03 20:29:21,064 DEBUG                  - depth 3, hash 1cef965, HEAD~780
+2021-07-03 20:29:21,068 DEBUG                  - depth 4, hash 6284d8d, HEAD~819
+2021-07-03 20:29:21,073 DEBUG                  - depth 5, hash e190c40, HEAD~834
+2021-07-03 20:29:21,077 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java positionAtCentralDirectory 663:675
+2021-07-03 20:29:21,115 DEBUG                  - depth 0, hash 794c20f, HEAD~134
+2021-07-03 20:29:21,120 DEBUG                  - depth 1, hash 45b3f7c, HEAD~164
+2021-07-03 20:29:21,124 DEBUG                  - depth 2, hash e190c40, HEAD~834
+2021-07-03 20:29:21,129 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java positionAtCentralDirectory32 711:722
+2021-07-03 20:29:21,162 DEBUG                  - depth 0, hash b64aa8a, HEAD~128
+2021-07-03 20:29:21,167 DEBUG                  - depth 1, hash 45b3f7c, HEAD~164
+2021-07-03 20:29:21,172 DEBUG                  - depth 2, hash d870323, HEAD~166
+2021-07-03 20:29:21,176 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java readCentralDirectoryEntry 433:515
+2021-07-03 20:29:21,214 DEBUG                  - depth 0, hash 9dd152d, HEAD~133
+2021-07-03 20:29:21,220 DEBUG                  - depth 1, hash 794c20f, HEAD~134
+2021-07-03 20:29:21,224 DEBUG                  - depth 2, hash 2629802, HEAD~162
+2021-07-03 20:29:21,228 DEBUG                  - depth 3, hash 934a96e, HEAD~254
+2021-07-03 20:29:21,232 DEBUG                  - depth 4, hash 62cb9c4, HEAD~366
+2021-07-03 20:29:21,237 DEBUG                  - depth 5, hash c7e51ed, HEAD~392
+2021-07-03 20:29:21,241 DEBUG                  - depth 6, hash 4d68dda, HEAD~394
+2021-07-03 20:29:21,245 DEBUG                  - depth 7, hash 2b20993, HEAD~395
+2021-07-03 20:29:21,249 DEBUG                  - depth 8, hash 41f4a20, HEAD~726
+2021-07-03 20:29:21,253 DEBUG                  - depth 9, hash dfbdfee, HEAD~764
+2021-07-03 20:29:21,257 DEBUG                  - depth 10, hash 853176f, HEAD~768
+2021-07-03 20:29:21,262 DEBUG                  - depth 11, hash ff40903, HEAD~779
+2021-07-03 20:29:21,266 DEBUG                  - depth 12, hash 1cef965, HEAD~780
+2021-07-03 20:29:21,270 DEBUG                  - depth 13, hash 4ba374a, HEAD~793
+2021-07-03 20:29:21,274 DEBUG                  - depth 14, hash 463d6eb, HEAD~821
+2021-07-03 20:29:21,278 DEBUG                  - depth 15, hash 5e5804c, HEAD~828
+2021-07-03 20:29:21,283 DEBUG                  - depth 16, hash e190c40, HEAD~834
+2021-07-03 20:29:21,288 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java resolveLocalFileHeaderData 801:847
+2021-07-03 20:29:21,325 DEBUG                  - depth 0, hash 00cc49e, HEAD~15
+2021-07-03 20:29:21,330 DEBUG                  - depth 1, hash 3476606, HEAD~24
+2021-07-03 20:29:21,334 DEBUG                  - depth 2, hash d3aea33, HEAD~167
+2021-07-03 20:29:21,339 DEBUG                  - depth 3, hash 2b20993, HEAD~395
+2021-07-03 20:29:21,343 DEBUG                  - depth 4, hash 008ca94, HEAD~685
+2021-07-03 20:29:21,347 DEBUG                  - depth 5, hash 853176f, HEAD~768
+2021-07-03 20:29:21,351 DEBUG                  - depth 6, hash ff40903, HEAD~779
+2021-07-03 20:29:21,355 DEBUG                  - depth 7, hash 1cef965, HEAD~780
+2021-07-03 20:29:21,360 DEBUG                  - depth 8, hash 463d6eb, HEAD~821
+2021-07-03 20:29:21,364 DEBUG                  - depth 9, hash 5e5804c, HEAD~828
+2021-07-03 20:29:21,368 DEBUG                  - depth 10, hash e190c40, HEAD~834
+2021-07-03 20:29:21,373 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java setSizesAndOffsetFromZip64Extra 529:563
+2021-07-03 20:29:21,411 DEBUG                  - depth 0, hash 9dd152d, HEAD~133
+2021-07-03 20:29:21,416 DEBUG                  - depth 1, hash 794c20f, HEAD~134
+2021-07-03 20:29:21,421 DEBUG                  - depth 2, hash 46701aa, HEAD~159
+2021-07-03 20:29:21,425 DEBUG                  - depth 3, hash 2629802, HEAD~162
+2021-07-03 20:29:21,429 DEBUG                  - depth 4, hash 2b20993, HEAD~395
+2021-07-03 20:29:21,433 DEBUG                  - depth 5, hash 853176f, HEAD~768
+2021-07-03 20:29:21,437 DEBUG                  - depth 6, hash 1cef965, HEAD~780
+2021-07-03 20:29:21,442 DEBUG                  - depth 7, hash 4ba374a, HEAD~793
+2021-07-03 20:29:21,446 DEBUG                  - depth 8, hash e190c40, HEAD~834
+2021-07-03 20:29:21,450 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java skipBytes 768:777
+2021-07-03 20:29:21,482 DEBUG                  - depth 0, hash b64aa8a, HEAD~128
+2021-07-03 20:29:21,488 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java tryToLocateSignature 729:762
+2021-07-03 20:29:21,524 DEBUG                  - depth 0, hash ff615cb, HEAD~165
+2021-07-03 20:29:21,530 DEBUG                  - depth 1, hash d870323, HEAD~166
+2021-07-03 20:29:21,534 DEBUG                  - depth 2, hash 6284d8d, HEAD~819
+2021-07-03 20:29:21,538 DEBUG                  - depth 3, hash e190c40, HEAD~834
+2021-07-03 20:29:21,543 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java compare 951:968
+2021-07-03 20:29:21,578 DEBUG                  - depth 0, hash 9dd152d, HEAD~133
+2021-07-03 20:29:21,584 DEBUG                  - depth 1, hash d3aea33, HEAD~167
+2021-07-03 20:29:21,588 DEBUG                  - depth 2, hash 6732f90, HEAD~338
+2021-07-03 20:29:21,592 DEBUG                  - depth 3, hash 53c08f4, HEAD~361
+2021-07-03 20:29:21,596 DEBUG                  - depth 4, hash ade9379, HEAD~371
+2021-07-03 20:29:21,601 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java <init> 937:940
+2021-07-03 20:29:21,637 DEBUG                  - depth 0, hash 1cef965, HEAD~780
+2021-07-03 20:29:21,643 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipFile.java access$500 934
+2021-07-03 20:29:21,679 DEBUG                  - depth 0, hash 1cef965, HEAD~780
+2021-07-03 20:29:21,685 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipFile.java <init> 96:96
+2021-07-03 20:29:21,721 DEBUG                  - depth 0, hash e190c40, HEAD~834
+2021-07-03 20:29:21,727 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipFile.java access$002 95
+2021-07-03 20:29:21,764 DEBUG                  - depth 0, hash e190c40, HEAD~834
+2021-07-03 20:29:22,104 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java <clinit> 47:47
+2021-07-03 20:29:22,139 DEBUG                  - depth 0, hash 008ca94, HEAD~685
+2021-07-03 20:29:22,145 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java <init> 69:71
+2021-07-03 20:29:22,179 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,185 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,189 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getBytes 94:96
+2021-07-03 20:29:22,224 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,229 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,234 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getBytes 111:118
+2021-07-03 20:29:22,268 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,274 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getValue 139:141
+2021-07-03 20:29:22,308 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,314 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,318 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getValue 126:132
+2021-07-03 20:29:22,354 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,688 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java <init> 37:39
+2021-07-03 20:29:22,723 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,728 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,733 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java <init> 54:56
+2021-07-03 20:29:22,768 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,773 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,778 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java equals 115:121
+2021-07-03 20:29:22,814 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:22,820 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,824 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:22,829 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java getBytes 62:67
+2021-07-03 20:29:22,864 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,869 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,874 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java getValue 73:75
+2021-07-03 20:29:22,908 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,913 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,918 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java getValue 106:108
+2021-07-03 20:29:22,953 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:22,959 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:22,963 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java getValue 95:99
+2021-07-03 20:29:22,998 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:23,004 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:23,008 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipShort.java hashCode 127:130
+2021-07-03 20:29:23,043 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:23,049 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:23,053 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:23,383 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipUtil.java <clinit> 33:33
+2021-07-03 20:29:23,415 DEBUG                  - depth 0, hash 41f4a20, HEAD~726
+2021-07-03 20:29:23,421 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipUtil.java copy 178:185
+2021-07-03 20:29:23,452 DEBUG                  - depth 0, hash bebc6ed, HEAD~409
+2021-07-03 20:29:23,458 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipUtil.java dosToJavaTime 102:113
+2021-07-03 20:29:23,490 DEBUG                  - depth 0, hash 41f4a20, HEAD~726
+2021-07-03 20:29:23,496 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipUtil.java getUnicodeStringIfOriginalMatches 150:172
+2021-07-03 20:29:23,528 DEBUG                  - depth 0, hash 008ca94, HEAD~685
+2021-07-03 20:29:23,534 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipUtil.java setNameAndCommentFromExtraFields 120:141
+2021-07-03 20:29:23,566 DEBUG                  - depth 0, hash 008ca94, HEAD~685
+2021-07-03 20:29:23,870 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveInputStream.java <init> 40
+2021-07-03 20:29:23,901 DEBUG                  - depth 0, hash ca16539, HEAD~856
+2021-07-03 20:29:23,907 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveInputStream.java <init> 42:42
+2021-07-03 20:29:23,939 DEBUG                  - depth 0, hash 253196a, HEAD~620
+2021-07-03 20:29:23,945 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveInputStream.java count 91:93
+2021-07-03 20:29:23,978 DEBUG                  - depth 0, hash 2dca661, HEAD~400
+2021-07-03 20:29:23,984 DEBUG                  - depth 1, hash 4bce1fb, HEAD~554
+2021-07-03 20:29:23,988 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveInputStream.java count 102:106
+2021-07-03 20:29:24,021 DEBUG                  - depth 0, hash 2dca661, HEAD~400
+2021-07-03 20:29:24,026 DEBUG                  - depth 1, hash 4bce1fb, HEAD~554
+2021-07-03 20:29:24,031 DEBUG    [line range] org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java usesDataDescriptor 78:80
+2021-07-03 20:29:24,063 DEBUG                  - depth 0, hash 4d68dda, HEAD~394
+2021-07-03 20:29:24,471 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java <clinit> 690:690
+2021-07-03 20:29:24,505 DEBUG                  - depth 0, hash 794c20f, HEAD~134
+2021-07-03 20:29:24,511 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java <init> 130:132
+2021-07-03 20:29:24,546 DEBUG                  - depth 0, hash 008ca94, HEAD~685
+2021-07-03 20:29:24,552 DEBUG                  - depth 1, hash 743d7c5, HEAD~829
+2021-07-03 20:29:24,556 DEBUG                  - depth 2, hash ca16539, HEAD~856
+2021-07-03 20:29:24,560 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java <init> 140:144
+2021-07-03 20:29:24,596 DEBUG                  - depth 0, hash 03e94a4, HEAD~354
+2021-07-03 20:29:24,602 DEBUG                  - depth 1, hash 008ca94, HEAD~685
+2021-07-03 20:29:24,606 DEBUG                  - depth 2, hash 743d7c5, HEAD~829
+2021-07-03 20:29:24,610 DEBUG                  - depth 3, hash ca16539, HEAD~856
+2021-07-03 20:29:24,615 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java <init> 76:76
+2021-07-03 20:29:24,651 DEBUG                  - depth 0, hash 008ca94, HEAD~685
+2021-07-03 20:29:24,656 DEBUG                  - depth 1, hash 743d7c5, HEAD~829
+2021-07-03 20:29:24,661 DEBUG                  - depth 2, hash ca16539, HEAD~856
+2021-07-03 20:29:24,665 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java close 396:403
+2021-07-03 20:29:24,703 DEBUG                  - depth 0, hash d48f106, HEAD~169
+2021-07-03 20:29:24,709 DEBUG                  - depth 1, hash e53e88a, HEAD~239
+2021-07-03 20:29:24,713 DEBUG                  - depth 2, hash 008ca94, HEAD~685
+2021-07-03 20:29:24,718 DEBUG                  - depth 3, hash ca16539, HEAD~856
+2021-07-03 20:29:24,722 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java closeEntry 485:523
+2021-07-03 20:29:24,761 DEBUG                  - depth 0, hash 9dd152d, HEAD~133
+2021-07-03 20:29:24,767 DEBUG                  - depth 1, hash 794c20f, HEAD~134
+2021-07-03 20:29:24,771 DEBUG                  - depth 2, hash cadc527, HEAD~168
+2021-07-03 20:29:24,775 DEBUG                  - depth 3, hash 04e132b, HEAD~170
+2021-07-03 20:29:24,780 DEBUG                  - depth 4, hash 1e708a0, HEAD~172
+2021-07-03 20:29:24,784 DEBUG                  - depth 5, hash 3f1a7c4, HEAD~240
+2021-07-03 20:29:24,788 DEBUG                  - depth 6, hash 797d74f, HEAD~268
+2021-07-03 20:29:24,793 DEBUG                  - depth 7, hash 03e94a4, HEAD~354
+2021-07-03 20:29:24,797 DEBUG                  - depth 8, hash 1154e7b, HEAD~356
+2021-07-03 20:29:24,801 DEBUG                  - depth 9, hash d7ea9ff, HEAD~368
+2021-07-03 20:29:24,805 DEBUG                  - depth 10, hash a1015f3, HEAD~399
+2021-07-03 20:29:24,810 DEBUG                  - depth 11, hash 41aa509, HEAD~422
+2021-07-03 20:29:24,814 DEBUG                  - depth 12, hash b6886eb, HEAD~423
+2021-07-03 20:29:24,818 DEBUG                  - depth 13, hash 7ae0eec, HEAD~484
+2021-07-03 20:29:24,822 DEBUG                  - depth 14, hash 008ca94, HEAD~685
+2021-07-03 20:29:24,827 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java drainCurrentEntryData 529:543
+2021-07-03 20:29:24,861 DEBUG                  - depth 0, hash 9dd152d, HEAD~133
+2021-07-03 20:29:24,866 DEBUG                  - depth 1, hash 794c20f, HEAD~134
+2021-07-03 20:29:24,871 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java getNextZipEntry 166:248
+2021-07-03 20:29:24,909 DEBUG                  - depth 0, hash 794c20f, HEAD~134
+2021-07-03 20:29:24,915 DEBUG                  - depth 1, hash 04e132b, HEAD~170
+2021-07-03 20:29:24,919 DEBUG                  - depth 2, hash 5031a97, HEAD~229
+2021-07-03 20:29:24,924 DEBUG                  - depth 3, hash 3879e47, HEAD~230
+2021-07-03 20:29:24,928 DEBUG                  - depth 4, hash 6c5f04b, HEAD~233
+2021-07-03 20:29:24,932 DEBUG                  - depth 5, hash 934a96e, HEAD~254
+2021-07-03 20:29:24,936 DEBUG                  - depth 6, hash 62cb9c4, HEAD~366
+2021-07-03 20:29:24,941 DEBUG                  - depth 7, hash c7e51ed, HEAD~392
+2021-07-03 20:29:24,945 DEBUG                  - depth 8, hash 4d68dda, HEAD~394
+2021-07-03 20:29:24,949 DEBUG                  - depth 9, hash 2b20993, HEAD~395
+2021-07-03 20:29:24,953 DEBUG                  - depth 10, hash f84dd36, HEAD~467
+2021-07-03 20:29:24,958 DEBUG                  - depth 11, hash 958e1bc, HEAD~678
+2021-07-03 20:29:24,962 DEBUG                  - depth 12, hash 008ca94, HEAD~685
+2021-07-03 20:29:24,966 DEBUG                  - depth 13, hash a7049ab, HEAD~808
+2021-07-03 20:29:24,971 DEBUG                  - depth 14, hash 463d6eb, HEAD~821
+2021-07-03 20:29:24,975 DEBUG                  - depth 15, hash af2b66d, HEAD~822
+2021-07-03 20:29:24,979 DEBUG                  - depth 16, hash fa8fea7, HEAD~825
+2021-07-03 20:29:24,983 DEBUG                  - depth 17, hash ca16539, HEAD~856
+2021-07-03 20:29:24,989 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java processZip64Extra 255:273
+2021-07-03 20:29:25,026 DEBUG                  - depth 0, hash 3b3f4cf, HEAD~95
+2021-07-03 20:29:25,032 DEBUG                  - depth 1, hash 794c20f, HEAD~134
+2021-07-03 20:29:25,036 DEBUG                  - depth 2, hash 04e132b, HEAD~170
+2021-07-03 20:29:25,040 DEBUG                  - depth 3, hash 5031a97, HEAD~229
+2021-07-03 20:29:25,045 DEBUG                  - depth 4, hash 3879e47, HEAD~230
+2021-07-03 20:29:25,049 DEBUG                  - depth 5, hash 6c5f04b, HEAD~233
+2021-07-03 20:29:25,053 DEBUG                  - depth 6, hash 008ca94, HEAD~685
+2021-07-03 20:29:25,057 DEBUG                  - depth 7, hash a7049ab, HEAD~808
+2021-07-03 20:29:25,062 DEBUG                  - depth 8, hash 463d6eb, HEAD~821
+2021-07-03 20:29:25,066 DEBUG                  - depth 9, hash af2b66d, HEAD~822
+2021-07-03 20:29:25,070 DEBUG                  - depth 10, hash ca16539, HEAD~856
+2021-07-03 20:29:25,075 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java readFully 580:589
+2021-07-03 20:29:25,111 DEBUG                  - depth 0, hash a1015f3, HEAD~399
+2021-07-03 20:29:25,117 DEBUG                  - depth 1, hash 008ca94, HEAD~685
+2021-07-03 20:29:25,121 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java <init> 806:806
+2021-07-03 20:29:25,157 DEBUG                  - depth 0, hash 04e132b, HEAD~170
+2021-07-03 20:29:25,162 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java access$1000 802
+2021-07-03 20:29:25,197 DEBUG                  - depth 0, hash 04e132b, HEAD~170
+2021-07-03 20:29:25,203 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java reset 820:822
+2021-07-03 20:29:25,238 DEBUG                  - depth 0, hash 04e132b, HEAD~170
+2021-07-03 20:29:25,244 DEBUG    [single line]   org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java access$900 769
+2021-07-03 20:29:25,279 DEBUG                  - depth 0, hash 04e132b, HEAD~170
+2021-07-03 20:29:25,285 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java <init> 77:79
+2021-07-03 20:29:25,319 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:25,325 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:25,329 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java <init> 86:88
+2021-07-03 20:29:25,363 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:25,369 DEBUG                  - depth 1, hash 8822084, HEAD~927
+2021-07-03 20:29:25,373 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java equals 148:154
+2021-07-03 20:29:25,410 DEBUG                  - depth 0, hash e53e88a, HEAD~239
+2021-07-03 20:29:25,415 DEBUG                  - depth 1, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:25,420 DEBUG                  - depth 2, hash 8822084, HEAD~927
+2021-07-03 20:29:25,424 DEBUG    [line range] org/apache/commons/compress/archivers/zip/ZipLong.java getValue 102:104
+2021-07-03 20:29:25,459 DEBUG                  - depth 0, hash ab9ebfc, HEAD~835
+2021-07-03 20:29:25,465 INFO     The number of BIC candidates: 95

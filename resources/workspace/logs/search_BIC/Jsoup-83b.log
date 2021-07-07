@@ -1,0 +1,1425 @@
+2021-07-04 05:00:10,035 INFO     Search BICs for /tmp/Jsoup-83b/
+2021-07-04 05:00:10,035 DEBUG    Reading the coverage of org.jsoup.parser.TokeniserStateTest::handlesLessInTagThanAsNewTag (failings)
+2021-07-04 05:00:10,124 DEBUG    Reading the coverage of org.jsoup.parser.HtmlParserTest::parsesQuiteRoughAttributes (failings)
+2021-07-04 05:00:10,229 INFO     Loaded 2x1272 Coverage Matrix
+2021-07-04 05:00:10,230 INFO     The number of total commits: 1183
+2021-07-04 05:00:10,550 DEBUG    [line range] org/jsoup/Jsoup.java parse 57:59
+2021-07-04 05:00:10,586 DEBUG                  - depth 0, hash d23db47, HEAD~1131
+2021-07-04 05:00:10,592 DEBUG                  - depth 1, hash 9d3ab85, HEAD~1155
+2021-07-04 05:00:10,888 DEBUG    [line range] org/jsoup/helper/ChangeNotifyingArrayList.java <init> 10:12
+2021-07-04 05:00:10,923 DEBUG                  - depth 0, hash 38049ce, HEAD~184
+2021-07-04 05:00:10,928 DEBUG    [line range] org/jsoup/helper/ChangeNotifyingArrayList.java add 22:26
+2021-07-04 05:00:10,962 DEBUG                  - depth 0, hash 38049ce, HEAD~184
+2021-07-04 05:00:11,331 DEBUG    [line range] org/jsoup/helper/StringUtil.java <clinit> 14:16
+2021-07-04 05:00:11,368 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:11,373 DEBUG                  - depth 1, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:11,377 DEBUG    [line range] org/jsoup/helper/StringUtil.java in 176:183
+2021-07-04 05:00:11,413 DEBUG                  - depth 0, hash fb8b60b, HEAD~85
+2021-07-04 05:00:11,418 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:11,422 DEBUG    [line range] org/jsoup/helper/StringUtil.java inSorted 185:187
+2021-07-04 05:00:11,457 DEBUG                  - depth 0, hash 8c43a81, HEAD~332
+2021-07-04 05:00:11,463 DEBUG    [line range] org/jsoup/helper/StringUtil.java isBlank 82:92
+2021-07-04 05:00:11,499 DEBUG                  - depth 0, hash dd4b682, HEAD~723
+2021-07-04 05:00:11,504 DEBUG                  - depth 1, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:11,508 DEBUG    [line range] org/jsoup/helper/StringUtil.java isWhitespace 117:119
+2021-07-04 05:00:11,544 DEBUG                  - depth 0, hash 84ab3d3, HEAD~718
+2021-07-04 05:00:11,549 DEBUG                  - depth 1, hash dd4b682, HEAD~723
+2021-07-04 05:00:11,553 DEBUG    [line range] org/jsoup/helper/StringUtil.java stringBuilder 234:244
+2021-07-04 05:00:11,589 DEBUG                  - depth 0, hash 5e386d5, HEAD~143
+2021-07-04 05:00:11,595 DEBUG                  - depth 1, hash c63ccf8, HEAD~144
+2021-07-04 05:00:11,599 DEBUG    [line range] org/jsoup/helper/StringUtil.java initialValue 247:252
+2021-07-04 05:00:11,635 DEBUG                  - depth 0, hash 5e386d5, HEAD~143
+2021-07-04 05:00:11,640 DEBUG                  - depth 1, hash c63ccf8, HEAD~144
+2021-07-04 05:00:11,644 DEBUG                  - depth 2, hash 1e09df6, HEAD~334
+2021-07-04 05:00:11,649 DEBUG    [line range] org/jsoup/helper/StringUtil.java initialValue 247:252
+2021-07-04 05:00:11,685 DEBUG                  - depth 0, hash 5e386d5, HEAD~143
+2021-07-04 05:00:11,690 DEBUG                  - depth 1, hash c63ccf8, HEAD~144
+2021-07-04 05:00:11,694 DEBUG                  - depth 2, hash 1e09df6, HEAD~334
+2021-07-04 05:00:12,006 DEBUG    [line range] org/jsoup/helper/Validate.java isFalse 52:55
+2021-07-04 05:00:12,041 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:12,047 DEBUG    [line range] org/jsoup/helper/Validate.java isFalse 62:65
+2021-07-04 05:00:12,081 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:12,087 DEBUG    [line range] org/jsoup/helper/Validate.java isTrue 33:36
+2021-07-04 05:00:12,122 DEBUG                  - depth 0, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:12,127 DEBUG    [line range] org/jsoup/helper/Validate.java isTrue 43:46
+2021-07-04 05:00:12,161 DEBUG                  - depth 0, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:12,167 DEBUG    [line range] org/jsoup/helper/Validate.java notEmpty 90:93
+2021-07-04 05:00:12,202 DEBUG                  - depth 0, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:12,208 DEBUG    [line range] org/jsoup/helper/Validate.java notNull 14:17
+2021-07-04 05:00:12,242 DEBUG                  - depth 0, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:12,248 DEBUG    [line range] org/jsoup/helper/Validate.java notNull 24:27
+2021-07-04 05:00:12,284 DEBUG                  - depth 0, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:12,569 DEBUG    [line range] org/jsoup/internal/Normalizer.java lowerCase 10:12
+2021-07-04 05:00:12,607 DEBUG                  - depth 0, hash 8808e3f, HEAD~62
+2021-07-04 05:00:12,613 DEBUG                  - depth 1, hash 42c0a0e, HEAD~162
+2021-07-04 05:00:12,617 DEBUG                  - depth 2, hash 8121d8c, HEAD~188
+2021-07-04 05:00:12,979 DEBUG    [line range] org/jsoup/nodes/Attribute.java <clinit> 14:19
+2021-07-04 05:00:13,015 DEBUG                  - depth 0, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:13,020 DEBUG    [line range] org/jsoup/nodes/Attribute.java shouldCollapseAttribute 162:166
+2021-07-04 05:00:13,055 DEBUG                  - depth 0, hash f627193, HEAD~37
+2021-07-04 05:00:13,060 DEBUG                  - depth 1, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,437 DEBUG    [line range] org/jsoup/nodes/Attributes.java <clinit> 38:38
+2021-07-04 05:00:13,472 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,478 DEBUG    [line range] org/jsoup/nodes/Attributes.java <init> 42:42
+2021-07-04 05:00:13,513 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,518 DEBUG    [single line]   org/jsoup/nodes/Attributes.java access$400 32
+2021-07-04 05:00:13,555 DEBUG                  - depth 0, hash 5ca6b40, HEAD~867
+2021-07-04 05:00:13,561 DEBUG                  - depth 1, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:13,565 DEBUG                  - depth 2, hash a657d09, HEAD~1170
+2021-07-04 05:00:13,569 DEBUG    [line range] org/jsoup/nodes/Attributes.java add 114:119
+2021-07-04 05:00:13,606 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,611 DEBUG                  - depth 1, hash 416ad29, HEAD~156
+2021-07-04 05:00:13,615 DEBUG                  - depth 2, hash 83f01fd, HEAD~193
+2021-07-04 05:00:13,619 DEBUG                  - depth 3, hash 6569bb7, HEAD~260
+2021-07-04 05:00:13,624 DEBUG    [line range] org/jsoup/nodes/Attributes.java checkCapacity 47:59
+2021-07-04 05:00:13,661 DEBUG                  - depth 0, hash 45111a1, HEAD~114
+2021-07-04 05:00:13,667 DEBUG                  - depth 1, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,671 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:13,675 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:13,679 DEBUG                  - depth 4, hash 847e03e, HEAD~954
+2021-07-04 05:00:13,683 DEBUG                  - depth 5, hash 40a3cda, HEAD~970
+2021-07-04 05:00:13,688 DEBUG                  - depth 6, hash 28418f8, HEAD~1055
+2021-07-04 05:00:13,692 DEBUG                  - depth 7, hash d8dbde8, HEAD~1078
+2021-07-04 05:00:13,696 DEBUG                  - depth 8, hash 5b40706, HEAD~1079
+2021-07-04 05:00:13,700 DEBUG                  - depth 9, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:13,704 DEBUG    [line range] org/jsoup/nodes/Attributes.java copyOf 62:67
+2021-07-04 05:00:13,741 DEBUG                  - depth 0, hash 45111a1, HEAD~114
+2021-07-04 05:00:13,746 DEBUG                  - depth 1, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,751 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:13,755 DEBUG                  - depth 3, hash 40a3cda, HEAD~970
+2021-07-04 05:00:13,759 DEBUG                  - depth 4, hash 28418f8, HEAD~1055
+2021-07-04 05:00:13,763 DEBUG                  - depth 5, hash d8dbde8, HEAD~1078
+2021-07-04 05:00:13,767 DEBUG                  - depth 6, hash 5b40706, HEAD~1079
+2021-07-04 05:00:13,771 DEBUG                  - depth 7, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:13,776 DEBUG    [line range] org/jsoup/nodes/Attributes.java html 310:325
+2021-07-04 05:00:13,814 DEBUG                  - depth 0, hash f627193, HEAD~37
+2021-07-04 05:00:13,819 DEBUG                  - depth 1, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,824 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:13,828 DEBUG                  - depth 3, hash c850608, HEAD~290
+2021-07-04 05:00:13,832 DEBUG                  - depth 4, hash 43e17dc, HEAD~472
+2021-07-04 05:00:13,836 DEBUG                  - depth 5, hash 8749726, HEAD~786
+2021-07-04 05:00:13,840 DEBUG                  - depth 6, hash 7568b91, HEAD~923
+2021-07-04 05:00:13,844 DEBUG                  - depth 7, hash 57bce6d, HEAD~936
+2021-07-04 05:00:13,849 DEBUG                  - depth 8, hash 6b0dd15, HEAD~966
+2021-07-04 05:00:13,853 DEBUG                  - depth 9, hash ac95e9f, HEAD~1150
+2021-07-04 05:00:13,857 DEBUG                  - depth 10, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:13,861 DEBUG                  - depth 11, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:13,865 DEBUG    [line range] org/jsoup/nodes/Attributes.java indexOfKey 69:76
+2021-07-04 05:00:13,902 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,908 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:13,912 DEBUG                  - depth 2, hash 40a3cda, HEAD~970
+2021-07-04 05:00:13,916 DEBUG                  - depth 3, hash 28418f8, HEAD~1055
+2021-07-04 05:00:13,920 DEBUG                  - depth 4, hash d8dbde8, HEAD~1078
+2021-07-04 05:00:13,925 DEBUG                  - depth 5, hash 5b40706, HEAD~1079
+2021-07-04 05:00:13,929 DEBUG                  - depth 6, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:13,933 DEBUG    [line range] org/jsoup/nodes/Attributes.java normalize 378:382
+2021-07-04 05:00:13,969 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:13,975 DEBUG                  - depth 1, hash 847e03e, HEAD~954
+2021-07-04 05:00:13,979 DEBUG    [line range] org/jsoup/nodes/Attributes.java put 127:134
+2021-07-04 05:00:14,017 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:14,022 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:14,026 DEBUG                  - depth 2, hash 5b40706, HEAD~1079
+2021-07-04 05:00:14,031 DEBUG                  - depth 3, hash e65b503, HEAD~1157
+2021-07-04 05:00:14,035 DEBUG                  - depth 4, hash f5b1a2a, HEAD~1158
+2021-07-04 05:00:14,039 DEBUG                  - depth 5, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:14,422 DEBUG    [line range] org/jsoup/nodes/Document.java <init> 20:20
+2021-07-04 05:00:14,460 DEBUG                  - depth 0, hash 57bce6d, HEAD~936
+2021-07-04 05:00:14,466 DEBUG    [line range] org/jsoup/nodes/Document.java body 75:77
+2021-07-04 05:00:14,505 DEBUG                  - depth 0, hash daf4666, HEAD~929
+2021-07-04 05:00:14,510 DEBUG                  - depth 1, hash 37d4c1f, HEAD~1075
+2021-07-04 05:00:14,514 DEBUG                  - depth 2, hash bd3e7c8, HEAD~1076
+2021-07-04 05:00:14,519 DEBUG                  - depth 3, hash e97f564, HEAD~1138
+2021-07-04 05:00:14,523 DEBUG                  - depth 4, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:14,527 DEBUG                  - depth 5, hash a657d09, HEAD~1170
+2021-07-04 05:00:14,531 DEBUG    [line range] org/jsoup/nodes/Document.java findFirstElementByTagName 182:194
+2021-07-04 05:00:14,569 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:14,575 DEBUG                  - depth 1, hash daf4666, HEAD~929
+2021-07-04 05:00:14,579 DEBUG    [line range] org/jsoup/nodes/Document.java nodeName 212:215
+2021-07-04 05:00:14,618 DEBUG                  - depth 0, hash 83d1848, HEAD~1092
+2021-07-04 05:00:14,624 DEBUG    [line range] org/jsoup/nodes/Document.java outputSettings 552:554
+2021-07-04 05:00:14,662 DEBUG                  - depth 0, hash 57bce6d, HEAD~936
+2021-07-04 05:00:14,667 DEBUG                  - depth 1, hash f8841ed, HEAD~938
+2021-07-04 05:00:14,672 DEBUG    [line range] org/jsoup/nodes/Document.java parser 594:597
+2021-07-04 05:00:14,707 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:14,713 DEBUG    [line range] org/jsoup/nodes/Document.java <init> 375:375
+2021-07-04 05:00:14,752 DEBUG                  - depth 0, hash f8841ed, HEAD~938
+2021-07-04 05:00:14,758 DEBUG    [line range] org/jsoup/nodes/Document.java charset 429:432
+2021-07-04 05:00:14,798 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:14,803 DEBUG                  - depth 1, hash 7c8df4c, HEAD~140
+2021-07-04 05:00:14,807 DEBUG                  - depth 2, hash 5e386d5, HEAD~143
+2021-07-04 05:00:14,811 DEBUG                  - depth 3, hash 3b2440a, HEAD~246
+2021-07-04 05:00:14,816 DEBUG                  - depth 4, hash 85c8356, HEAD~418
+2021-07-04 05:00:14,820 DEBUG                  - depth 5, hash 57bce6d, HEAD~936
+2021-07-04 05:00:14,824 DEBUG                  - depth 6, hash f8841ed, HEAD~938
+2021-07-04 05:00:14,828 DEBUG    [line range] org/jsoup/nodes/Document.java encoder 452:455
+2021-07-04 05:00:14,864 DEBUG                  - depth 0, hash e38af6a, HEAD~60
+2021-07-04 05:00:14,870 DEBUG    [line range] org/jsoup/nodes/Document.java escapeMode 397:399
+2021-07-04 05:00:14,908 DEBUG                  - depth 0, hash f8841ed, HEAD~938
+2021-07-04 05:00:14,914 DEBUG    [line range] org/jsoup/nodes/Document.java outline 500:502
+2021-07-04 05:00:14,952 DEBUG                  - depth 0, hash 3982ea1, HEAD~622
+2021-07-04 05:00:14,957 DEBUG                  - depth 1, hash e064bc4, HEAD~636
+2021-07-04 05:00:14,962 DEBUG    [line range] org/jsoup/nodes/Document.java prepareEncoder 444:450
+2021-07-04 05:00:15,001 DEBUG                  - depth 0, hash 6f9013b, HEAD~59
+2021-07-04 05:00:15,007 DEBUG                  - depth 1, hash e38af6a, HEAD~60
+2021-07-04 05:00:15,011 DEBUG                  - depth 2, hash ea1fb65, HEAD~138
+2021-07-04 05:00:15,015 DEBUG                  - depth 3, hash 7c8df4c, HEAD~140
+2021-07-04 05:00:15,019 DEBUG                  - depth 4, hash 5e386d5, HEAD~143
+2021-07-04 05:00:15,023 DEBUG                  - depth 5, hash 3b2440a, HEAD~246
+2021-07-04 05:00:15,028 DEBUG                  - depth 6, hash 57bce6d, HEAD~936
+2021-07-04 05:00:15,032 DEBUG    [line range] org/jsoup/nodes/Document.java prettyPrint 481:483
+2021-07-04 05:00:15,071 DEBUG                  - depth 0, hash e256bb7, HEAD~904
+2021-07-04 05:00:15,076 DEBUG    [line range] org/jsoup/nodes/Document.java syntax 461:463
+2021-07-04 05:00:15,113 DEBUG                  - depth 0, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:15,119 DEBUG    [single line]   org/jsoup/nodes/Document.java <clinit> 373
+2021-07-04 05:00:15,156 DEBUG                  - depth 0, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:15,161 DEBUG    [single line]   org/jsoup/nodes/Document.java <clinit> 567
+2021-07-04 05:00:15,199 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:15,205 DEBUG    [single line]   org/jsoup/nodes/Document.java <clinit> 568
+2021-07-04 05:00:15,243 DEBUG                  - depth 0, hash 616d3c4, HEAD~359
+2021-07-04 05:00:15,249 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:15,709 DEBUG    [line range] org/jsoup/nodes/Element.java <clinit> 40:40
+2021-07-04 05:00:15,749 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:15,754 DEBUG    [line range] org/jsoup/nodes/Element.java <init> 82:84
+2021-07-04 05:00:15,809 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:15,814 DEBUG                  - depth 1, hash 3205f0e, HEAD~1087
+2021-07-04 05:00:15,819 DEBUG                  - depth 2, hash 83b8d1a, HEAD~1111
+2021-07-04 05:00:15,823 DEBUG    [line range] org/jsoup/nodes/Element.java <init> 65:72
+2021-07-04 05:00:15,876 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:15,882 DEBUG                  - depth 1, hash e5cd584, HEAD~1080
+2021-07-04 05:00:15,886 DEBUG                  - depth 2, hash 3205f0e, HEAD~1087
+2021-07-04 05:00:15,890 DEBUG                  - depth 3, hash d23db47, HEAD~1131
+2021-07-04 05:00:15,894 DEBUG                  - depth 4, hash 0474436, HEAD~1162
+2021-07-04 05:00:15,898 DEBUG                  - depth 5, hash a657d09, HEAD~1170
+2021-07-04 05:00:15,903 DEBUG    [line range] org/jsoup/nodes/Element.java appendChild 400:409
+2021-07-04 05:00:15,957 DEBUG                  - depth 0, hash 8c43a81, HEAD~332
+2021-07-04 05:00:15,963 DEBUG                  - depth 1, hash 8391b72, HEAD~387
+2021-07-04 05:00:15,967 DEBUG                  - depth 2, hash 990285b, HEAD~433
+2021-07-04 05:00:15,971 DEBUG                  - depth 3, hash 05ea09d, HEAD~983
+2021-07-04 05:00:15,975 DEBUG                  - depth 4, hash 95945f1, HEAD~1077
+2021-07-04 05:00:15,979 DEBUG                  - depth 5, hash e5cd584, HEAD~1080
+2021-07-04 05:00:15,984 DEBUG                  - depth 6, hash 9bed789, HEAD~1090
+2021-07-04 05:00:15,988 DEBUG                  - depth 7, hash abdf227, HEAD~1091
+2021-07-04 05:00:15,992 DEBUG                  - depth 8, hash 83d1848, HEAD~1092
+2021-07-04 05:00:15,996 DEBUG                  - depth 9, hash 0474436, HEAD~1162
+2021-07-04 05:00:16,000 DEBUG                  - depth 10, hash a657d09, HEAD~1170
+2021-07-04 05:00:16,005 DEBUG    [line range] org/jsoup/nodes/Element.java childNodeSize 115:118
+2021-07-04 05:00:16,058 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:16,064 DEBUG                  - depth 1, hash 3205f0e, HEAD~1087
+2021-07-04 05:00:16,068 DEBUG                  - depth 2, hash 83b8d1a, HEAD~1111
+2021-07-04 05:00:16,072 DEBUG    [line range] org/jsoup/nodes/Element.java ensureChildNodes 86:91
+2021-07-04 05:00:16,125 DEBUG                  - depth 0, hash c324fab, HEAD~99
+2021-07-04 05:00:16,131 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:16,135 DEBUG                  - depth 2, hash 3205f0e, HEAD~1087
+2021-07-04 05:00:16,139 DEBUG                  - depth 3, hash 83b8d1a, HEAD~1111
+2021-07-04 05:00:16,143 DEBUG    [line range] org/jsoup/nodes/Element.java html 1397:1401
+2021-07-04 05:00:16,197 DEBUG                  - depth 0, hash f1b885d, HEAD~3
+2021-07-04 05:00:16,202 DEBUG                  - depth 1, hash c63ccf8, HEAD~144
+2021-07-04 05:00:16,207 DEBUG                  - depth 2, hash c07ba8a, HEAD~556
+2021-07-04 05:00:16,211 DEBUG                  - depth 3, hash 62ea04e, HEAD~1062
+2021-07-04 05:00:16,215 DEBUG                  - depth 4, hash 7898cdf, HEAD~1063
+2021-07-04 05:00:16,219 DEBUG                  - depth 5, hash 0e4c8bf, HEAD~1149
+2021-07-04 05:00:16,224 DEBUG    [line range] org/jsoup/nodes/Element.java html 1403:1410
+2021-07-04 05:00:16,268 DEBUG                  - depth 0, hash f1b885d, HEAD~3
+2021-07-04 05:00:16,273 DEBUG                  - depth 1, hash c850608, HEAD~290
+2021-07-04 05:00:16,278 DEBUG    [line range] org/jsoup/nodes/Element.java nodeName 120:123
+2021-07-04 05:00:16,331 DEBUG                  - depth 0, hash 9bed789, HEAD~1090
+2021-07-04 05:00:16,337 DEBUG                  - depth 1, hash b04c541, HEAD~1163
+2021-07-04 05:00:16,341 DEBUG                  - depth 2, hash a657d09, HEAD~1170
+2021-07-04 05:00:16,345 DEBUG    [line range] org/jsoup/nodes/Element.java nodelistChanged 292:296
+2021-07-04 05:00:16,399 DEBUG                  - depth 0, hash 38049ce, HEAD~184
+2021-07-04 05:00:16,405 DEBUG                  - depth 1, hash e5cd584, HEAD~1080
+2021-07-04 05:00:16,409 DEBUG                  - depth 2, hash b04c541, HEAD~1163
+2021-07-04 05:00:16,413 DEBUG                  - depth 3, hash a657d09, HEAD~1170
+2021-07-04 05:00:16,417 DEBUG    [line range] org/jsoup/nodes/Element.java outerHtmlHead 1357:1378
+2021-07-04 05:00:16,473 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:16,478 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:16,483 DEBUG                  - depth 2, hash c850608, HEAD~290
+2021-07-04 05:00:16,487 DEBUG                  - depth 3, hash af61d07, HEAD~449
+2021-07-04 05:00:16,491 DEBUG                  - depth 4, hash 43e17dc, HEAD~472
+2021-07-04 05:00:16,495 DEBUG                  - depth 5, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:16,499 DEBUG                  - depth 6, hash 3982ea1, HEAD~622
+2021-07-04 05:00:16,504 DEBUG                  - depth 7, hash e064bc4, HEAD~636
+2021-07-04 05:00:16,508 DEBUG                  - depth 8, hash 694efa8, HEAD~793
+2021-07-04 05:00:16,512 DEBUG                  - depth 9, hash 13c2af3, HEAD~864
+2021-07-04 05:00:16,516 DEBUG                  - depth 10, hash e256bb7, HEAD~904
+2021-07-04 05:00:16,520 DEBUG                  - depth 11, hash 57bce6d, HEAD~936
+2021-07-04 05:00:16,524 DEBUG                  - depth 12, hash 9824d00, HEAD~946
+2021-07-04 05:00:16,529 DEBUG                  - depth 13, hash 10cfa04, HEAD~967
+2021-07-04 05:00:16,533 DEBUG                  - depth 14, hash a52e669, HEAD~1022
+2021-07-04 05:00:16,537 DEBUG                  - depth 15, hash d2f4ea6, HEAD~1025
+2021-07-04 05:00:16,541 DEBUG                  - depth 16, hash 62ea04e, HEAD~1062
+2021-07-04 05:00:16,545 DEBUG                  - depth 17, hash 7898cdf, HEAD~1063
+2021-07-04 05:00:16,550 DEBUG                  - depth 18, hash 9bed789, HEAD~1090
+2021-07-04 05:00:16,554 DEBUG                  - depth 19, hash 0e4c8bf, HEAD~1149
+2021-07-04 05:00:16,558 DEBUG                  - depth 20, hash ac95e9f, HEAD~1150
+2021-07-04 05:00:16,562 DEBUG    [line range] org/jsoup/nodes/Element.java outerHtmlTail 1380:1388
+2021-07-04 05:00:16,612 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:16,617 DEBUG                  - depth 1, hash 43e17dc, HEAD~472
+2021-07-04 05:00:16,621 DEBUG                  - depth 2, hash d94f56c, HEAD~620
+2021-07-04 05:00:16,626 DEBUG                  - depth 3, hash 3982ea1, HEAD~622
+2021-07-04 05:00:16,630 DEBUG                  - depth 4, hash e064bc4, HEAD~636
+2021-07-04 05:00:16,634 DEBUG                  - depth 5, hash 13c2af3, HEAD~864
+2021-07-04 05:00:16,638 DEBUG                  - depth 6, hash e256bb7, HEAD~904
+2021-07-04 05:00:16,643 DEBUG                  - depth 7, hash 57bce6d, HEAD~936
+2021-07-04 05:00:16,647 DEBUG                  - depth 8, hash 9824d00, HEAD~946
+2021-07-04 05:00:16,651 DEBUG                  - depth 9, hash 10cfa04, HEAD~967
+2021-07-04 05:00:16,655 DEBUG                  - depth 10, hash a52e669, HEAD~1022
+2021-07-04 05:00:16,660 DEBUG                  - depth 11, hash 62ea04e, HEAD~1062
+2021-07-04 05:00:16,664 DEBUG                  - depth 12, hash 7898cdf, HEAD~1063
+2021-07-04 05:00:16,668 DEBUG                  - depth 13, hash 0e4c8bf, HEAD~1149
+2021-07-04 05:00:16,672 DEBUG                  - depth 14, hash ac95e9f, HEAD~1150
+2021-07-04 05:00:16,677 DEBUG    [line range] org/jsoup/nodes/Element.java parent 218:221
+2021-07-04 05:00:16,730 DEBUG                  - depth 0, hash e8e29ca, HEAD~924
+2021-07-04 05:00:16,735 DEBUG                  - depth 1, hash 6b0dd15, HEAD~966
+2021-07-04 05:00:16,740 DEBUG                  - depth 2, hash ffde882, HEAD~1156
+2021-07-04 05:00:16,744 DEBUG    [line range] org/jsoup/nodes/Element.java preserveWhitespace 1116:1129
+2021-07-04 05:00:16,797 DEBUG                  - depth 0, hash f1b885d, HEAD~3
+2021-07-04 05:00:16,802 DEBUG                  - depth 1, hash aeaf3c1, HEAD~67
+2021-07-04 05:00:16,806 DEBUG                  - depth 2, hash 1fd0a61, HEAD~629
+2021-07-04 05:00:16,811 DEBUG                  - depth 3, hash 496e6a1, HEAD~1061
+2021-07-04 05:00:16,815 DEBUG    [line range] org/jsoup/nodes/Element.java tag 152:154
+2021-07-04 05:00:16,870 DEBUG                  - depth 0, hash e2c62cd, HEAD~1068
+2021-07-04 05:00:16,876 DEBUG                  - depth 1, hash a657d09, HEAD~1170
+2021-07-04 05:00:16,880 DEBUG    [line range] org/jsoup/nodes/Element.java tagName 130:132
+2021-07-04 05:00:16,936 DEBUG                  - depth 0, hash b04c541, HEAD~1163
+2021-07-04 05:00:16,941 DEBUG                  - depth 1, hash a657d09, HEAD~1170
+2021-07-04 05:00:16,946 DEBUG    [line range] org/jsoup/nodes/Element.java <init> 1449:1452
+2021-07-04 05:00:16,985 DEBUG                  - depth 0, hash c324fab, HEAD~99
+2021-07-04 05:00:16,991 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:16,995 DEBUG    [line range] org/jsoup/nodes/Element.java onContentsChanged 1454:1456
+2021-07-04 05:00:17,034 DEBUG                  - depth 0, hash c324fab, HEAD~99
+2021-07-04 05:00:17,040 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:17,399 DEBUG    [line range] org/jsoup/nodes/Entities.java <clinit> 25:25
+2021-07-04 05:00:17,436 DEBUG                  - depth 0, hash bd789b0, HEAD~94
+2021-07-04 05:00:17,441 DEBUG    [single line]   org/jsoup/nodes/Entities.java access$000 21
+2021-07-04 05:00:17,483 DEBUG                  - depth 0, hash ff329d5, HEAD~927
+2021-07-04 05:00:17,489 DEBUG                  - depth 1, hash 09d99e7, HEAD~928
+2021-07-04 05:00:17,493 DEBUG                  - depth 2, hash 57bce6d, HEAD~936
+2021-07-04 05:00:17,497 DEBUG                  - depth 3, hash 17486e2, HEAD~939
+2021-07-04 05:00:17,502 DEBUG    [line range] org/jsoup/nodes/Entities.java canEncode 290:300
+2021-07-04 05:00:17,540 DEBUG                  - depth 0, hash b14e735, HEAD~378
+2021-07-04 05:00:17,546 DEBUG    [line range] org/jsoup/nodes/Entities.java escape 173:246
+2021-07-04 05:00:17,589 DEBUG                  - depth 0, hash e38af6a, HEAD~60
+2021-07-04 05:00:17,594 DEBUG                  - depth 1, hash ea1fb65, HEAD~138
+2021-07-04 05:00:17,598 DEBUG                  - depth 2, hash aa81e10, HEAD~249
+2021-07-04 05:00:17,603 DEBUG                  - depth 3, hash c850608, HEAD~290
+2021-07-04 05:00:17,607 DEBUG                  - depth 4, hash 43e17dc, HEAD~472
+2021-07-04 05:00:17,611 DEBUG                  - depth 5, hash a025d87, HEAD~333
+2021-07-04 05:00:17,615 DEBUG                  - depth 6, hash 3ba88d8, HEAD~335
+2021-07-04 05:00:17,619 DEBUG                  - depth 7, hash b14e735, HEAD~378
+2021-07-04 05:00:17,624 DEBUG                  - depth 8, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:17,628 DEBUG                  - depth 9, hash a991deb, HEAD~612
+2021-07-04 05:00:17,632 DEBUG                  - depth 10, hash ae51709, HEAD~613
+2021-07-04 05:00:17,636 DEBUG                  - depth 11, hash 43cd48b, HEAD~614
+2021-07-04 05:00:17,640 DEBUG                  - depth 12, hash c2a9605, HEAD~627
+2021-07-04 05:00:17,645 DEBUG                  - depth 13, hash f4f2efb, HEAD~880
+2021-07-04 05:00:17,649 DEBUG                  - depth 14, hash 09d99e7, HEAD~928
+2021-07-04 05:00:17,653 DEBUG                  - depth 15, hash f8841ed, HEAD~938
+2021-07-04 05:00:17,657 DEBUG                  - depth 16, hash 17486e2, HEAD~939
+2021-07-04 05:00:17,662 DEBUG    [line range] org/jsoup/nodes/Entities.java load 314:354
+2021-07-04 05:00:17,706 DEBUG                  - depth 0, hash f3035ca, HEAD~81
+2021-07-04 05:00:17,711 DEBUG                  - depth 1, hash c33ba53, HEAD~126
+2021-07-04 05:00:17,715 DEBUG                  - depth 2, hash 654bc6f, HEAD~157
+2021-07-04 05:00:17,720 DEBUG                  - depth 3, hash 79b1aa4, HEAD~206
+2021-07-04 05:00:17,724 DEBUG                  - depth 4, hash 6dc38f2, HEAD~228
+2021-07-04 05:00:17,728 DEBUG                  - depth 5, hash aa81e10, HEAD~249
+2021-07-04 05:00:17,732 DEBUG                  - depth 6, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:17,736 DEBUG                  - depth 7, hash a31ec08, HEAD~655
+2021-07-04 05:00:17,741 DEBUG                  - depth 8, hash 472c7e5, HEAD~698
+2021-07-04 05:00:17,745 DEBUG                  - depth 9, hash 528b793, HEAD~879
+2021-07-04 05:00:17,749 DEBUG                  - depth 10, hash f4f2efb, HEAD~880
+2021-07-04 05:00:17,753 DEBUG                  - depth 11, hash 5e52f1b, HEAD~920
+2021-07-04 05:00:17,757 DEBUG                  - depth 12, hash f8841ed, HEAD~938
+2021-07-04 05:00:17,762 DEBUG                  - depth 13, hash 17486e2, HEAD~939
+2021-07-04 05:00:17,767 DEBUG    [line range] org/jsoup/nodes/Entities.java byName 305:311
+2021-07-04 05:00:17,805 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:17,810 DEBUG                  - depth 1, hash b14e735, HEAD~378
+2021-07-04 05:00:17,815 DEBUG    [line range] org/jsoup/nodes/Entities.java <init> 51:53
+2021-07-04 05:00:17,857 DEBUG                  - depth 0, hash aa81e10, HEAD~249
+2021-07-04 05:00:17,863 DEBUG                  - depth 1, hash f4f2efb, HEAD~880
+2021-07-04 05:00:17,867 DEBUG                  - depth 2, hash f8841ed, HEAD~938
+2021-07-04 05:00:17,871 DEBUG                  - depth 3, hash 17486e2, HEAD~939
+2021-07-04 05:00:18,192 DEBUG    [line range] org/jsoup/nodes/LeafNode.java <clinit> 9:9
+2021-07-04 05:00:18,227 DEBUG                  - depth 0, hash 1028b37, HEAD~23
+2021-07-04 05:00:18,233 DEBUG    [single line]   org/jsoup/nodes/LeafNode.java <init> 8
+2021-07-04 05:00:18,267 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,272 DEBUG    [line range] org/jsoup/nodes/LeafNode.java attr 41:48
+2021-07-04 05:00:18,308 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,314 DEBUG    [line range] org/jsoup/nodes/LeafNode.java childNodeSize 89:92
+2021-07-04 05:00:18,349 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,355 DEBUG    [line range] org/jsoup/nodes/LeafNode.java coreValue 33:35
+2021-07-04 05:00:18,390 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,395 DEBUG    [line range] org/jsoup/nodes/LeafNode.java hasAttributes 13:15
+2021-07-04 05:00:18,431 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,844 DEBUG    [line range] org/jsoup/nodes/Node.java <init> 25:26
+2021-07-04 05:00:18,913 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,919 DEBUG                  - depth 1, hash 8c43a81, HEAD~332
+2021-07-04 05:00:18,923 DEBUG                  - depth 2, hash 7eefa1b, HEAD~803
+2021-07-04 05:00:18,927 DEBUG                  - depth 3, hash f548940, HEAD~921
+2021-07-04 05:00:18,931 DEBUG    [line range] org/jsoup/nodes/Node.java childNode 199:201
+2021-07-04 05:00:18,974 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:18,980 DEBUG                  - depth 1, hash b04c541, HEAD~1163
+2021-07-04 05:00:18,984 DEBUG                  - depth 2, hash c95216a, HEAD~1164
+2021-07-04 05:00:18,988 DEBUG    [line range] org/jsoup/nodes/Node.java nextSibling 500:510
+2021-07-04 05:00:19,031 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:19,037 DEBUG                  - depth 1, hash 1fd3a3c, HEAD~383
+2021-07-04 05:00:19,041 DEBUG                  - depth 2, hash 6b0dd15, HEAD~966
+2021-07-04 05:00:19,045 DEBUG                  - depth 3, hash 10cfa04, HEAD~967
+2021-07-04 05:00:19,050 DEBUG                  - depth 4, hash ffde882, HEAD~1156
+2021-07-04 05:00:19,054 DEBUG                  - depth 5, hash b04c541, HEAD~1163
+2021-07-04 05:00:19,058 DEBUG                  - depth 6, hash a657d09, HEAD~1170
+2021-07-04 05:00:19,063 DEBUG    [line range] org/jsoup/nodes/Node.java nodelistChanged 403:405
+2021-07-04 05:00:19,100 DEBUG                  - depth 0, hash 38049ce, HEAD~184
+2021-07-04 05:00:19,105 DEBUG    [line range] org/jsoup/nodes/Node.java outerHtml 574:576
+2021-07-04 05:00:19,143 DEBUG                  - depth 0, hash f1b885d, HEAD~3
+2021-07-04 05:00:19,149 DEBUG                  - depth 1, hash 850a9cc, HEAD~6
+2021-07-04 05:00:19,153 DEBUG                  - depth 2, hash 6652240, HEAD~110
+2021-07-04 05:00:19,157 DEBUG                  - depth 3, hash f78df94, HEAD~220
+2021-07-04 05:00:19,162 DEBUG                  - depth 4, hash 43e17dc, HEAD~472
+2021-07-04 05:00:19,166 DEBUG                  - depth 5, hash c07ba8a, HEAD~556
+2021-07-04 05:00:19,170 DEBUG                  - depth 6, hash da9b977, HEAD~870
+2021-07-04 05:00:19,174 DEBUG                  - depth 7, hash 57bce6d, HEAD~936
+2021-07-04 05:00:19,179 DEBUG                  - depth 8, hash 10cfa04, HEAD~967
+2021-07-04 05:00:19,183 DEBUG    [line range] org/jsoup/nodes/Node.java ownerDocument 267:270
+2021-07-04 05:00:19,224 DEBUG                  - depth 0, hash f78df94, HEAD~220
+2021-07-04 05:00:19,229 DEBUG                  - depth 1, hash 97a270c, HEAD~221
+2021-07-04 05:00:19,233 DEBUG                  - depth 2, hash 2ca58b7, HEAD~943
+2021-07-04 05:00:19,238 DEBUG    [line range] org/jsoup/nodes/Node.java parent 240:242
+2021-07-04 05:00:19,280 DEBUG                  - depth 0, hash d6da0b0, HEAD~1161
+2021-07-04 05:00:19,286 DEBUG                  - depth 1, hash b04c541, HEAD~1163
+2021-07-04 05:00:19,290 DEBUG                  - depth 2, hash a657d09, HEAD~1170
+2021-07-04 05:00:19,295 DEBUG    [line range] org/jsoup/nodes/Node.java parentNode 248:250
+2021-07-04 05:00:19,335 DEBUG                  - depth 0, hash 2c8b9ad, HEAD~578
+2021-07-04 05:00:19,340 DEBUG    [line range] org/jsoup/nodes/Node.java reparentChild 467:469
+2021-07-04 05:00:19,381 DEBUG                  - depth 0, hash 410c15f, HEAD~122
+2021-07-04 05:00:19,387 DEBUG                  - depth 1, hash 990285b, HEAD~433
+2021-07-04 05:00:19,391 DEBUG                  - depth 2, hash 674dab0, HEAD~931
+2021-07-04 05:00:19,396 DEBUG    [line range] org/jsoup/nodes/Node.java root 256:261
+2021-07-04 05:00:19,433 DEBUG                  - depth 0, hash f78df94, HEAD~220
+2021-07-04 05:00:19,439 DEBUG    [line range] org/jsoup/nodes/Node.java setParentNode 417:422
+2021-07-04 05:00:19,482 DEBUG                  - depth 0, hash 38049ce, HEAD~184
+2021-07-04 05:00:19,488 DEBUG                  - depth 1, hash 05ea09d, HEAD~983
+2021-07-04 05:00:19,492 DEBUG                  - depth 2, hash d6da0b0, HEAD~1161
+2021-07-04 05:00:19,496 DEBUG                  - depth 3, hash 0474436, HEAD~1162
+2021-07-04 05:00:19,501 DEBUG    [line range] org/jsoup/nodes/Node.java setSiblingIndex 536:538
+2021-07-04 05:00:19,544 DEBUG                  - depth 0, hash 6b0dd15, HEAD~966
+2021-07-04 05:00:19,550 DEBUG                  - depth 1, hash a52e669, HEAD~1022
+2021-07-04 05:00:19,554 DEBUG                  - depth 2, hash ffde882, HEAD~1156
+2021-07-04 05:00:19,558 DEBUG                  - depth 3, hash a657d09, HEAD~1170
+2021-07-04 05:00:19,562 DEBUG    [line range] org/jsoup/nodes/Node.java siblingIndex 532:534
+2021-07-04 05:00:19,605 DEBUG                  - depth 0, hash b0c8d3e, HEAD~849
+2021-07-04 05:00:19,610 DEBUG                  - depth 1, hash 6b0dd15, HEAD~966
+2021-07-04 05:00:19,615 DEBUG                  - depth 2, hash a52e669, HEAD~1022
+2021-07-04 05:00:19,619 DEBUG    [line range] org/jsoup/nodes/Node.java <init> 701:705
+2021-07-04 05:00:19,659 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:19,664 DEBUG                  - depth 1, hash 43e17dc, HEAD~472
+2021-07-04 05:00:19,669 DEBUG                  - depth 2, hash 57bce6d, HEAD~936
+2021-07-04 05:00:19,673 DEBUG                  - depth 3, hash 10cfa04, HEAD~967
+2021-07-04 05:00:19,677 DEBUG    [line range] org/jsoup/nodes/Node.java head 707:713
+2021-07-04 05:00:19,719 DEBUG                  - depth 0, hash c850608, HEAD~290
+2021-07-04 05:00:19,725 DEBUG                  - depth 1, hash 43e17dc, HEAD~472
+2021-07-04 05:00:19,729 DEBUG                  - depth 2, hash 57bce6d, HEAD~936
+2021-07-04 05:00:19,733 DEBUG                  - depth 3, hash 10cfa04, HEAD~967
+2021-07-04 05:00:19,738 DEBUG    [line range] org/jsoup/nodes/Node.java tail 715:723
+2021-07-04 05:00:19,781 DEBUG                  - depth 0, hash c850608, HEAD~290
+2021-07-04 05:00:19,787 DEBUG                  - depth 1, hash af61d07, HEAD~449
+2021-07-04 05:00:19,792 DEBUG                  - depth 2, hash 43e17dc, HEAD~472
+2021-07-04 05:00:19,796 DEBUG                  - depth 3, hash 09d99e7, HEAD~928
+2021-07-04 05:00:19,800 DEBUG                  - depth 4, hash 57bce6d, HEAD~936
+2021-07-04 05:00:19,805 DEBUG                  - depth 5, hash 10cfa04, HEAD~967
+2021-07-04 05:00:20,077 DEBUG    [line range] org/jsoup/nodes/NodeUtils.java outputSettings 15:18
+2021-07-04 05:00:20,112 DEBUG                  - depth 0, hash f1b885d, HEAD~3
+2021-07-04 05:00:20,431 DEBUG    [line range] org/jsoup/nodes/TextNode.java <init> 20:22
+2021-07-04 05:00:20,468 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:20,473 DEBUG                  - depth 1, hash f548940, HEAD~921
+2021-07-04 05:00:20,478 DEBUG                  - depth 2, hash c95216a, HEAD~1164
+2021-07-04 05:00:20,482 DEBUG                  - depth 3, hash a657d09, HEAD~1170
+2021-07-04 05:00:20,486 DEBUG    [single line]   org/jsoup/nodes/TextNode.java attr 12
+2021-07-04 05:00:20,523 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:20,529 DEBUG                  - depth 1, hash f548940, HEAD~921
+2021-07-04 05:00:20,533 DEBUG                  - depth 2, hash a657d09, HEAD~1170
+2021-07-04 05:00:20,537 DEBUG    [line range] org/jsoup/nodes/TextNode.java nodeName 36:38
+2021-07-04 05:00:20,572 DEBUG                  - depth 0, hash 43e17dc, HEAD~472
+2021-07-04 05:00:20,577 DEBUG                  - depth 1, hash b04c541, HEAD~1163
+2021-07-04 05:00:20,582 DEBUG                  - depth 2, hash a657d09, HEAD~1170
+2021-07-04 05:00:20,586 DEBUG    [line range] org/jsoup/nodes/TextNode.java outerHtmlHead 96:103
+2021-07-04 05:00:20,624 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:20,629 DEBUG                  - depth 1, hash c850608, HEAD~290
+2021-07-04 05:00:20,634 DEBUG                  - depth 2, hash 43e17dc, HEAD~472
+2021-07-04 05:00:20,638 DEBUG                  - depth 3, hash 05faab3, HEAD~410
+2021-07-04 05:00:20,642 DEBUG                  - depth 4, hash 6c4f16f, HEAD~553
+2021-07-04 05:00:20,646 DEBUG                  - depth 5, hash d6fd163, HEAD~558
+2021-07-04 05:00:20,651 DEBUG                  - depth 6, hash 3982ea1, HEAD~622
+2021-07-04 05:00:20,655 DEBUG                  - depth 7, hash a44e18a, HEAD~623
+2021-07-04 05:00:20,659 DEBUG                  - depth 8, hash e064bc4, HEAD~636
+2021-07-04 05:00:20,663 DEBUG                  - depth 9, hash 1fd0a61, HEAD~629
+2021-07-04 05:00:20,668 DEBUG                  - depth 10, hash 13c2af3, HEAD~864
+2021-07-04 05:00:20,672 DEBUG                  - depth 11, hash e256bb7, HEAD~904
+2021-07-04 05:00:20,676 DEBUG                  - depth 12, hash 57bce6d, HEAD~936
+2021-07-04 05:00:20,680 DEBUG                  - depth 13, hash 10cfa04, HEAD~967
+2021-07-04 05:00:20,685 DEBUG                  - depth 14, hash f0f3eab, HEAD~969
+2021-07-04 05:00:20,689 DEBUG                  - depth 15, hash a52e669, HEAD~1022
+2021-07-04 05:00:20,693 DEBUG                  - depth 16, hash 496e6a1, HEAD~1061
+2021-07-04 05:00:20,698 DEBUG                  - depth 17, hash 62ea04e, HEAD~1062
+2021-07-04 05:00:20,702 DEBUG                  - depth 18, hash 7898cdf, HEAD~1063
+2021-07-04 05:00:20,706 DEBUG                  - depth 19, hash 0e4c8bf, HEAD~1149
+2021-07-04 05:00:20,711 DEBUG                  - depth 20, hash ac95e9f, HEAD~1150
+2021-07-04 05:00:21,081 DEBUG    [line range] org/jsoup/parser/CharacterReader.java <init> 38:40
+2021-07-04 05:00:21,118 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,123 DEBUG                  - depth 1, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,128 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:21,132 DEBUG    [line range] org/jsoup/parser/CharacterReader.java <init> 28:28
+2021-07-04 05:00:21,169 DEBUG                  - depth 0, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,175 DEBUG    [line range] org/jsoup/parser/CharacterReader.java <init> 42:44
+2021-07-04 05:00:21,211 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,217 DEBUG                  - depth 1, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,221 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:21,226 DEBUG    [line range] org/jsoup/parser/CharacterReader.java advance 111:113
+2021-07-04 05:00:21,263 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,268 DEBUG                  - depth 1, hash 6dc38f2, HEAD~228
+2021-07-04 05:00:21,273 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:21,277 DEBUG    [line range] org/jsoup/parser/CharacterReader.java bufferUp 46:65
+2021-07-04 05:00:21,314 DEBUG                  - depth 0, hash b92b4f6, HEAD~28
+2021-07-04 05:00:21,320 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,324 DEBUG                  - depth 2, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,328 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:21,333 DEBUG    [line range] org/jsoup/parser/CharacterReader.java cacheString 431:461
+2021-07-04 05:00:21,370 DEBUG                  - depth 0, hash b841199, HEAD~63
+2021-07-04 05:00:21,376 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,380 DEBUG                  - depth 2, hash 6a8fcb2, HEAD~312
+2021-07-04 05:00:21,384 DEBUG                  - depth 3, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,389 DEBUG    [line range] org/jsoup/parser/CharacterReader.java consume 97:102
+2021-07-04 05:00:21,425 DEBUG                  - depth 0, hash b92b4f6, HEAD~28
+2021-07-04 05:00:21,431 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,435 DEBUG                  - depth 2, hash 80158d6, HEAD~550
+2021-07-04 05:00:21,439 DEBUG                  - depth 3, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,444 DEBUG                  - depth 4, hash f16c0c1, HEAD~758
+2021-07-04 05:00:21,448 DEBUG                  - depth 5, hash 8749726, HEAD~786
+2021-07-04 05:00:21,452 DEBUG    [line range] org/jsoup/parser/CharacterReader.java consumeData 227:242
+2021-07-04 05:00:21,490 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,496 DEBUG                  - depth 1, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,500 DEBUG                  - depth 2, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,504 DEBUG                  - depth 3, hash 07a3c08, HEAD~673
+2021-07-04 05:00:21,509 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:21,513 DEBUG    [line range] org/jsoup/parser/CharacterReader.java consumeTagName 244:259
+2021-07-04 05:00:21,551 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,557 DEBUG                  - depth 1, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,561 DEBUG                  - depth 2, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,565 DEBUG                  - depth 3, hash 07a3c08, HEAD~673
+2021-07-04 05:00:21,570 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:21,574 DEBUG    [line range] org/jsoup/parser/CharacterReader.java consumeTo 168:177
+2021-07-04 05:00:21,612 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,618 DEBUG                  - depth 1, hash 6dc38f2, HEAD~228
+2021-07-04 05:00:21,622 DEBUG                  - depth 2, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,626 DEBUG                  - depth 3, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,631 DEBUG                  - depth 4, hash 07a3c08, HEAD~673
+2021-07-04 05:00:21,635 DEBUG                  - depth 5, hash 8749726, HEAD~786
+2021-07-04 05:00:21,639 DEBUG    [line range] org/jsoup/parser/CharacterReader.java consumeToAny 195:210
+2021-07-04 05:00:21,677 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,683 DEBUG                  - depth 1, hash 6dc38f2, HEAD~228
+2021-07-04 05:00:21,687 DEBUG                  - depth 2, hash 5886dd2, HEAD~310
+2021-07-04 05:00:21,691 DEBUG                  - depth 3, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,696 DEBUG                  - depth 4, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,700 DEBUG                  - depth 5, hash 07a3c08, HEAD~673
+2021-07-04 05:00:21,704 DEBUG                  - depth 6, hash 8749726, HEAD~786
+2021-07-04 05:00:21,709 DEBUG    [line range] org/jsoup/parser/CharacterReader.java consumeToAnySorted 212:225
+2021-07-04 05:00:21,747 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,752 DEBUG                  - depth 1, hash d1b5770, HEAD~446
+2021-07-04 05:00:21,757 DEBUG                  - depth 2, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,761 DEBUG                  - depth 3, hash 07a3c08, HEAD~673
+2021-07-04 05:00:21,765 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:21,770 DEBUG    [line range] org/jsoup/parser/CharacterReader.java current 92:95
+2021-07-04 05:00:21,807 DEBUG                  - depth 0, hash b92b4f6, HEAD~28
+2021-07-04 05:00:21,812 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,817 DEBUG                  - depth 2, hash 6dc38f2, HEAD~228
+2021-07-04 05:00:21,821 DEBUG                  - depth 3, hash 80158d6, HEAD~550
+2021-07-04 05:00:21,825 DEBUG                  - depth 4, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,829 DEBUG                  - depth 5, hash 8749726, HEAD~786
+2021-07-04 05:00:21,833 DEBUG    [line range] org/jsoup/parser/CharacterReader.java isEmpty 79:82
+2021-07-04 05:00:21,869 DEBUG                  - depth 0, hash b92b4f6, HEAD~28
+2021-07-04 05:00:21,875 DEBUG                  - depth 1, hash 6dc38f2, HEAD~228
+2021-07-04 05:00:21,880 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:21,884 DEBUG    [line range] org/jsoup/parser/CharacterReader.java isEmptyNoBufferUp 84:86
+2021-07-04 05:00:21,921 DEBUG                  - depth 0, hash b92b4f6, HEAD~28
+2021-07-04 05:00:21,926 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,931 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:21,935 DEBUG    [line range] org/jsoup/parser/CharacterReader.java matchesLetter 379:384
+2021-07-04 05:00:21,972 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:21,978 DEBUG                  - depth 1, hash 25e0e1e, HEAD~292
+2021-07-04 05:00:21,982 DEBUG                  - depth 2, hash 231aab6, HEAD~672
+2021-07-04 05:00:21,987 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:21,991 DEBUG    [line range] org/jsoup/parser/CharacterReader.java nextIndexOf 128:136
+2021-07-04 05:00:22,028 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:22,034 DEBUG                  - depth 1, hash 231aab6, HEAD~672
+2021-07-04 05:00:22,038 DEBUG                  - depth 2, hash 07a3c08, HEAD~673
+2021-07-04 05:00:22,043 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:22,047 DEBUG    [line range] org/jsoup/parser/CharacterReader.java rangeEquals 466:477
+2021-07-04 05:00:22,084 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:22,090 DEBUG                  - depth 1, hash 59453e2, HEAD~442
+2021-07-04 05:00:22,094 DEBUG                  - depth 2, hash d1b5770, HEAD~446
+2021-07-04 05:00:22,099 DEBUG    [line range] org/jsoup/parser/CharacterReader.java unconsume 104:106
+2021-07-04 05:00:22,136 DEBUG                  - depth 0, hash 654bc6f, HEAD~157
+2021-07-04 05:00:22,142 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:22,595 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilder.java <clinit> 25
+2021-07-04 05:00:22,635 DEBUG                  - depth 0, hash 5236f0b, HEAD~341
+2021-07-04 05:00:22,640 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:22,645 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java <clinit> 27:27
+2021-07-04 05:00:22,684 DEBUG                  - depth 0, hash 24de855, HEAD~83
+2021-07-04 05:00:22,689 DEBUG                  - depth 1, hash fb8b60b, HEAD~85
+2021-07-04 05:00:22,694 DEBUG                  - depth 2, hash e2ff399, HEAD~160
+2021-07-04 05:00:22,698 DEBUG                  - depth 3, hash 31be24f, HEAD~275
+2021-07-04 05:00:22,702 DEBUG                  - depth 4, hash de098c3, HEAD~579
+2021-07-04 05:00:22,707 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java <init> 462:462
+2021-07-04 05:00:22,747 DEBUG                  - depth 0, hash 17796e3, HEAD~436
+2021-07-04 05:00:22,752 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java defaultSettings 59:61
+2021-07-04 05:00:22,790 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:22,796 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java framesetOk 164:166
+2021-07-04 05:00:22,836 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:22,842 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java framesetOk 160:162
+2021-07-04 05:00:22,881 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:22,887 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java inButtonScope 506:508
+2021-07-04 05:00:22,926 DEBUG                  - depth 0, hash de098c3, HEAD~579
+2021-07-04 05:00:22,931 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:22,936 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java inScope 496:500
+2021-07-04 05:00:22,976 DEBUG                  - depth 0, hash 17796e3, HEAD~436
+2021-07-04 05:00:22,982 DEBUG                  - depth 1, hash de098c3, HEAD~579
+2021-07-04 05:00:22,986 DEBUG                  - depth 2, hash 5000be3, HEAD~729
+2021-07-04 05:00:22,991 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java inSpecificScope 464:467
+2021-07-04 05:00:23,032 DEBUG                  - depth 0, hash 17796e3, HEAD~436
+2021-07-04 05:00:23,037 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,042 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java inSpecificScope 469:486
+2021-07-04 05:00:23,083 DEBUG                  - depth 0, hash adb7a15, HEAD~74
+2021-07-04 05:00:23,089 DEBUG                  - depth 1, hash fb8b60b, HEAD~85
+2021-07-04 05:00:23,093 DEBUG                  - depth 2, hash 01a6269, HEAD~441
+2021-07-04 05:00:23,098 DEBUG                  - depth 3, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,102 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java initialiseParse 63:80
+2021-07-04 05:00:23,142 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:23,148 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:23,152 DEBUG                  - depth 2, hash e2ff399, HEAD~160
+2021-07-04 05:00:23,156 DEBUG                  - depth 3, hash 1203bd4, HEAD~161
+2021-07-04 05:00:23,160 DEBUG                  - depth 4, hash 6569bb7, HEAD~260
+2021-07-04 05:00:23,165 DEBUG                  - depth 5, hash 21ee3e9, HEAD~525
+2021-07-04 05:00:23,169 DEBUG                  - depth 6, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:23,173 DEBUG                  - depth 7, hash 433d2f1, HEAD~727
+2021-07-04 05:00:23,177 DEBUG                  - depth 8, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,182 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java insert 219:222
+2021-07-04 05:00:23,222 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,228 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java insert 254:267
+2021-07-04 05:00:23,268 DEBUG                  - depth 0, hash c07c0ee, HEAD~43
+2021-07-04 05:00:23,273 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:23,278 DEBUG                  - depth 2, hash 80158d6, HEAD~550
+2021-07-04 05:00:23,282 DEBUG                  - depth 3, hash de098c3, HEAD~579
+2021-07-04 05:00:23,286 DEBUG                  - depth 4, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,291 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java insert 197:211
+2021-07-04 05:00:23,332 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:23,338 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:23,342 DEBUG                  - depth 2, hash 2518e92, HEAD~591
+2021-07-04 05:00:23,347 DEBUG                  - depth 3, hash c3c952e, HEAD~618
+2021-07-04 05:00:23,351 DEBUG                  - depth 4, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,356 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java insertNode 269:283
+2021-07-04 05:00:23,396 DEBUG                  - depth 0, hash c5792eb, HEAD~601
+2021-07-04 05:00:23,402 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,406 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java insertStartTag 213:217
+2021-07-04 05:00:23,448 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:23,453 DEBUG                  - depth 1, hash ac5e9e8, HEAD~434
+2021-07-04 05:00:23,458 DEBUG                  - depth 2, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,462 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java isFosterInserts 535:537
+2021-07-04 05:00:23,502 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,508 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java lastFormattingElement 585:587
+2021-07-04 05:00:23,547 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:23,553 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java pop 285:288
+2021-07-04 05:00:23,594 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:23,600 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,605 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java process 133:137
+2021-07-04 05:00:23,644 DEBUG                  - depth 0, hash 433d2f1, HEAD~727
+2021-07-04 05:00:23,650 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,654 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java reconstructFormattingElements 624:660
+2021-07-04 05:00:23,696 DEBUG                  - depth 0, hash ac5e9e8, HEAD~434
+2021-07-04 05:00:23,701 DEBUG                  - depth 1, hash 01a6269, HEAD~441
+2021-07-04 05:00:23,706 DEBUG                  - depth 2, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,710 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java setHeadElement 527:529
+2021-07-04 05:00:23,750 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:23,755 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java transition 144:146
+2021-07-04 05:00:23,795 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:24,305 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 16
+2021-07-04 05:00:24,351 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:24,356 DEBUG                  - depth 1, hash 13672ea, HEAD~774
+2021-07-04 05:00:24,361 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:24,365 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 17
+2021-07-04 05:00:24,411 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,417 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 42
+2021-07-04 05:00:24,463 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,469 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 71
+2021-07-04 05:00:24,513 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,519 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 99
+2021-07-04 05:00:24,564 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,570 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 171
+2021-07-04 05:00:24,615 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,620 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 200
+2021-07-04 05:00:24,667 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,673 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 251
+2021-07-04 05:00:24,719 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,724 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 788
+2021-07-04 05:00:24,769 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,775 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 807
+2021-07-04 05:00:24,820 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,826 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 907
+2021-07-04 05:00:24,871 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,877 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 944
+2021-07-04 05:00:24,922 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,928 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 979
+2021-07-04 05:00:24,974 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:24,980 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1035
+2021-07-04 05:00:25,026 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,031 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1097
+2021-07-04 05:00:25,076 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,082 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1160
+2021-07-04 05:00:25,128 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,134 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1217
+2021-07-04 05:00:25,179 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,185 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1311
+2021-07-04 05:00:25,230 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,236 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1329
+2021-07-04 05:00:25,281 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,286 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1357
+2021-07-04 05:00:25,331 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,337 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1405
+2021-07-04 05:00:25,383 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,389 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1429
+2021-07-04 05:00:25,434 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,440 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1445
+2021-07-04 05:00:25,485 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,491 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1462
+2021-07-04 05:00:25,537 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,543 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilderState.java <clinit> 1469:1469
+2021-07-04 05:00:25,587 DEBUG                  - depth 0, hash 3d6f1e4, HEAD~756
+2021-07-04 05:00:25,593 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:25,598 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1502
+2021-07-04 05:00:25,641 DEBUG                  - depth 0, hash 24de855, HEAD~83
+2021-07-04 05:00:25,647 DEBUG                  - depth 1, hash fb8b60b, HEAD~85
+2021-07-04 05:00:25,651 DEBUG                  - depth 2, hash 862c256, HEAD~580
+2021-07-04 05:00:25,656 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilderState.java isWhitespace 1481:1483
+2021-07-04 05:00:25,698 DEBUG                  - depth 0, hash 0f7e0cc, HEAD~18
+2021-07-04 05:00:25,704 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:25,708 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilderState.java isWhitespace 1473:1479
+2021-07-04 05:00:25,754 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:25,760 DEBUG                  - depth 1, hash dd4b682, HEAD~723
+2021-07-04 05:00:25,765 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:25,769 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 17
+2021-07-04 05:00:25,815 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,821 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilderState.java process 18:40
+2021-07-04 05:00:25,866 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:25,872 DEBUG                  - depth 1, hash c28e5bf, HEAD~226
+2021-07-04 05:00:25,876 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:25,881 DEBUG                  - depth 3, hash 5000be3, HEAD~729
+2021-07-04 05:00:25,885 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:25,889 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 907
+2021-07-04 05:00:25,936 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,941 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 944
+2021-07-04 05:00:25,987 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:25,992 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 979
+2021-07-04 05:00:26,038 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,044 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1035
+2021-07-04 05:00:26,090 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,096 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1097
+2021-07-04 05:00:26,143 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,148 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1160
+2021-07-04 05:00:26,195 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,200 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1217
+2021-07-04 05:00:26,245 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,251 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1311
+2021-07-04 05:00:26,297 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,303 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1329
+2021-07-04 05:00:26,348 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,354 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1357
+2021-07-04 05:00:26,400 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,406 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 42
+2021-07-04 05:00:26,452 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,458 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilderState.java anythingElse 65:69
+2021-07-04 05:00:26,504 DEBUG                  - depth 0, hash ac5e9e8, HEAD~434
+2021-07-04 05:00:26,510 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:26,514 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:26,519 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1405
+2021-07-04 05:00:26,564 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,570 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1429
+2021-07-04 05:00:26,616 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,621 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1445
+2021-07-04 05:00:26,666 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,672 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 1462
+2021-07-04 05:00:26,717 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,723 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 71
+2021-07-04 05:00:26,768 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,774 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 99
+2021-07-04 05:00:26,818 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,824 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilderState.java anythingElse 166:169
+2021-07-04 05:00:26,870 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:26,876 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:26,881 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 171
+2021-07-04 05:00:26,927 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,933 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 200
+2021-07-04 05:00:26,978 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:26,984 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 251
+2021-07-04 05:00:27,029 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:27,036 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 788
+2021-07-04 05:00:27,080 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:27,086 DEBUG    [single line]   org/jsoup/parser/HtmlTreeBuilderState.java <init> 807
+2021-07-04 05:00:27,131 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:27,409 DEBUG    [line range] org/jsoup/parser/ParseErrorList.java <init> 14:17
+2021-07-04 05:00:27,445 DEBUG                  - depth 0, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:27,451 DEBUG    [line range] org/jsoup/parser/ParseErrorList.java canAddError 19:21
+2021-07-04 05:00:27,485 DEBUG                  - depth 0, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:27,491 DEBUG    [line range] org/jsoup/parser/ParseErrorList.java noTracking 27:29
+2021-07-04 05:00:27,526 DEBUG                  - depth 0, hash f44d6e6, HEAD~207
+2021-07-04 05:00:27,532 DEBUG                  - depth 1, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:27,818 DEBUG    [single line]   org/jsoup/parser/ParseSettings.java <clinit> 21
+2021-07-04 05:00:27,853 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:27,859 DEBUG    [single line]   org/jsoup/parser/ParseSettings.java <clinit> 22
+2021-07-04 05:00:27,893 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:27,899 DEBUG    [single line]   org/jsoup/parser/ParseSettings.java <clinit> 23
+2021-07-04 05:00:27,934 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:27,939 DEBUG    [line range] org/jsoup/parser/ParseSettings.java <init> 33:36
+2021-07-04 05:00:27,974 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:27,980 DEBUG    [line range] org/jsoup/parser/ParseSettings.java normalizeAttributes 52:57
+2021-07-04 05:00:28,014 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:28,019 DEBUG                  - depth 1, hash 8121d8c, HEAD~188
+2021-07-04 05:00:28,024 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:28,028 DEBUG    [line range] org/jsoup/parser/ParseSettings.java normalizeTag 38:43
+2021-07-04 05:00:28,063 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:28,069 DEBUG                  - depth 1, hash 8121d8c, HEAD~188
+2021-07-04 05:00:28,073 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:28,419 DEBUG    [line range] org/jsoup/parser/Parser.java <init> 24:28
+2021-07-04 05:00:28,462 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:28,468 DEBUG                  - depth 1, hash 6569bb7, HEAD~260
+2021-07-04 05:00:28,472 DEBUG                  - depth 2, hash 433d2f1, HEAD~727
+2021-07-04 05:00:28,477 DEBUG    [line range] org/jsoup/parser/Parser.java getErrors 83:85
+2021-07-04 05:00:28,513 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:28,519 DEBUG                  - depth 1, hash 433d2f1, HEAD~727
+2021-07-04 05:00:28,523 DEBUG    [line range] org/jsoup/parser/Parser.java parse 105:108
+2021-07-04 05:00:28,562 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:28,567 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:28,572 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:28,576 DEBUG                  - depth 3, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:28,581 DEBUG                  - depth 4, hash 433d2f1, HEAD~727
+2021-07-04 05:00:28,585 DEBUG                  - depth 5, hash 5000be3, HEAD~729
+2021-07-04 05:00:28,589 DEBUG                  - depth 6, hash 8749726, HEAD~786
+2021-07-04 05:00:28,594 DEBUG                  - depth 7, hash 7649933, HEAD~1098
+2021-07-04 05:00:28,598 DEBUG                  - depth 8, hash d23db47, HEAD~1131
+2021-07-04 05:00:28,602 DEBUG                  - depth 9, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:28,606 DEBUG                  - depth 10, hash 9db51cf, HEAD~1160
+2021-07-04 05:00:28,611 DEBUG    [line range] org/jsoup/parser/Parser.java settings 92:94
+2021-07-04 05:00:28,646 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:29,007 DEBUG    [line range] org/jsoup/parser/Tag.java <clinit> 14:14
+2021-07-04 05:00:29,046 DEBUG                  - depth 0, hash e2ff399, HEAD~160
+2021-07-04 05:00:29,052 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:29,057 DEBUG                  - depth 2, hash c4bb2a4, HEAD~1065
+2021-07-04 05:00:29,061 DEBUG                  - depth 3, hash e97f564, HEAD~1138
+2021-07-04 05:00:29,065 DEBUG                  - depth 4, hash 548ce13, HEAD~1171
+2021-07-04 05:00:29,071 DEBUG    [line range] org/jsoup/parser/Tag.java <init> 17:17
+2021-07-04 05:00:29,111 DEBUG                  - depth 0, hash c4bb2a4, HEAD~1065
+2021-07-04 05:00:29,117 DEBUG                  - depth 1, hash 548ce13, HEAD~1171
+2021-07-04 05:00:29,122 DEBUG    [line range] org/jsoup/parser/Tag.java formatAsBlock 94:96
+2021-07-04 05:00:29,160 DEBUG                  - depth 0, hash 13c2af3, HEAD~864
+2021-07-04 05:00:29,166 DEBUG    [line range] org/jsoup/parser/Tag.java getName 35:37
+2021-07-04 05:00:29,206 DEBUG                  - depth 0, hash a657d09, HEAD~1170
+2021-07-04 05:00:29,212 DEBUG    [line range] org/jsoup/parser/Tag.java isFormListed 176:178
+2021-07-04 05:00:29,248 DEBUG                  - depth 0, hash c5792eb, HEAD~601
+2021-07-04 05:00:29,254 DEBUG    [line range] org/jsoup/parser/Tag.java preserveWhitespace 168:170
+2021-07-04 05:00:29,294 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:29,300 DEBUG                  - depth 1, hash 09b0d1b, HEAD~922
+2021-07-04 05:00:29,304 DEBUG                  - depth 2, hash ba5d660, HEAD~953
+2021-07-04 05:00:29,309 DEBUG                  - depth 3, hash 0081d16, HEAD~984
+2021-07-04 05:00:29,313 DEBUG                  - depth 4, hash 9c8969d, HEAD~1082
+2021-07-04 05:00:29,318 DEBUG                  - depth 5, hash e97f564, HEAD~1138
+2021-07-04 05:00:29,322 DEBUG    [line range] org/jsoup/parser/Tag.java register 314:316
+2021-07-04 05:00:29,362 DEBUG                  - depth 0, hash 9b85aea, HEAD~658
+2021-07-04 05:00:29,368 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:29,373 DEBUG                  - depth 2, hash 9824d00, HEAD~946
+2021-07-04 05:00:29,377 DEBUG                  - depth 3, hash e97f564, HEAD~1138
+2021-07-04 05:00:29,381 DEBUG                  - depth 4, hash 548ce13, HEAD~1171
+2021-07-04 05:00:29,386 DEBUG    [line range] org/jsoup/parser/Tag.java valueOf 49:65
+2021-07-04 05:00:29,426 DEBUG                  - depth 0, hash c221cc8, HEAD~199
+2021-07-04 05:00:29,432 DEBUG                  - depth 1, hash 6569bb7, HEAD~260
+2021-07-04 05:00:29,436 DEBUG                  - depth 2, hash c75e9cc, HEAD~657
+2021-07-04 05:00:29,441 DEBUG                  - depth 3, hash 9b85aea, HEAD~658
+2021-07-04 05:00:29,445 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:29,449 DEBUG                  - depth 5, hash ba5d660, HEAD~953
+2021-07-04 05:00:29,454 DEBUG                  - depth 6, hash 2cce405, HEAD~1045
+2021-07-04 05:00:29,458 DEBUG                  - depth 7, hash c4bb2a4, HEAD~1065
+2021-07-04 05:00:29,463 DEBUG                  - depth 8, hash 40979c9, HEAD~1119
+2021-07-04 05:00:29,467 DEBUG                  - depth 9, hash 548ce13, HEAD~1171
+2021-07-04 05:00:29,835 DEBUG    [line range] org/jsoup/parser/Token.java <init> 14:15
+2021-07-04 05:00:29,871 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:29,877 DEBUG    [single line]   org/jsoup/parser/Token.java <init> 11
+2021-07-04 05:00:29,913 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:29,919 DEBUG    [line range] org/jsoup/parser/Token.java asCharacter 376:378
+2021-07-04 05:00:29,956 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:29,961 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:29,966 DEBUG    [line range] org/jsoup/parser/Token.java asEndTag 356:358
+2021-07-04 05:00:30,003 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,009 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,013 DEBUG    [line range] org/jsoup/parser/Token.java asStartTag 348:350
+2021-07-04 05:00:30,050 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,055 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,060 DEBUG    [line range] org/jsoup/parser/Token.java isCData 372:374
+2021-07-04 05:00:30,096 DEBUG                  - depth 0, hash c07c0ee, HEAD~43
+2021-07-04 05:00:30,101 DEBUG    [line range] org/jsoup/parser/Token.java isCharacter 368:370
+2021-07-04 05:00:30,139 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,145 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,149 DEBUG    [line range] org/jsoup/parser/Token.java isComment 360:362
+2021-07-04 05:00:30,187 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,193 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,197 DEBUG    [line range] org/jsoup/parser/Token.java isDoctype 336:338
+2021-07-04 05:00:30,233 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,239 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,244 DEBUG    [line range] org/jsoup/parser/Token.java isEndTag 352:354
+2021-07-04 05:00:30,280 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,286 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,290 DEBUG    [line range] org/jsoup/parser/Token.java isStartTag 344:346
+2021-07-04 05:00:30,328 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,333 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,338 DEBUG    [line range] org/jsoup/parser/Token.java reset 27:31
+2021-07-04 05:00:30,374 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:30,380 DEBUG    [line range] org/jsoup/parser/Token.java data 297:300
+2021-07-04 05:00:30,417 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:30,423 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,427 DEBUG    [line range] org/jsoup/parser/Token.java getData 302:304
+2021-07-04 05:00:30,463 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:30,469 DEBUG    [line range] org/jsoup/parser/Token.java reset 291:295
+2021-07-04 05:00:30,505 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:30,512 DEBUG    [line range] org/jsoup/parser/Token.java reset 222:228
+2021-07-04 05:00:30,548 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:30,554 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,559 DEBUG    [line range] org/jsoup/parser/Token.java appendAttributeName 171:173
+2021-07-04 05:00:30,596 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,601 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,606 DEBUG    [line range] org/jsoup/parser/Token.java appendAttributeName 167:169
+2021-07-04 05:00:30,642 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,648 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,653 DEBUG    [line range] org/jsoup/parser/Token.java appendAttributeValue 175:182
+2021-07-04 05:00:30,689 DEBUG                  - depth 0, hash 8a22a9d, HEAD~311
+2021-07-04 05:00:30,695 DEBUG                  - depth 1, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,700 DEBUG                  - depth 2, hash 43cd48b, HEAD~614
+2021-07-04 05:00:30,704 DEBUG                  - depth 3, hash ede1316, HEAD~677
+2021-07-04 05:00:30,709 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:30,713 DEBUG    [line range] org/jsoup/parser/Token.java appendTagName 158:161
+2021-07-04 05:00:30,750 DEBUG                  - depth 0, hash 8121d8c, HEAD~188
+2021-07-04 05:00:30,756 DEBUG                  - depth 1, hash 6569bb7, HEAD~260
+2021-07-04 05:00:30,760 DEBUG                  - depth 2, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,764 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:30,769 DEBUG    [line range] org/jsoup/parser/Token.java ensureAttributeValue 205:212
+2021-07-04 05:00:30,806 DEBUG                  - depth 0, hash 8a22a9d, HEAD~311
+2021-07-04 05:00:30,812 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:30,817 DEBUG                  - depth 2, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,821 DEBUG                  - depth 3, hash 43cd48b, HEAD~614
+2021-07-04 05:00:30,825 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:30,830 DEBUG    [line range] org/jsoup/parser/Token.java finaliseTag 125:131
+2021-07-04 05:00:30,867 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,873 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,878 DEBUG    [line range] org/jsoup/parser/Token.java isSelfClosing 148:150
+2021-07-04 05:00:30,915 DEBUG                  - depth 0, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,921 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:30,926 DEBUG    [line range] org/jsoup/parser/Token.java name 133:136
+2021-07-04 05:00:30,962 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:30,967 DEBUG                  - depth 1, hash f61ba0f, HEAD~445
+2021-07-04 05:00:30,972 DEBUG                  - depth 2, hash e187364, HEAD~542
+2021-07-04 05:00:30,976 DEBUG                  - depth 3, hash e30ed5d, HEAD~766
+2021-07-04 05:00:30,981 DEBUG                  - depth 4, hash 8749726, HEAD~786
+2021-07-04 05:00:30,985 DEBUG    [line range] org/jsoup/parser/Token.java name 142:146
+2021-07-04 05:00:31,022 DEBUG                  - depth 0, hash 8121d8c, HEAD~188
+2021-07-04 05:00:31,028 DEBUG                  - depth 1, hash 6569bb7, HEAD~260
+2021-07-04 05:00:31,033 DEBUG                  - depth 2, hash f61ba0f, HEAD~445
+2021-07-04 05:00:31,037 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:31,042 DEBUG    [line range] org/jsoup/parser/Token.java newAttribute 100:123
+2021-07-04 05:00:31,079 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:31,085 DEBUG                  - depth 1, hash a623db7, HEAD~200
+2021-07-04 05:00:31,090 DEBUG                  - depth 2, hash 8a22a9d, HEAD~311
+2021-07-04 05:00:31,094 DEBUG                  - depth 3, hash eafba57, HEAD~356
+2021-07-04 05:00:31,098 DEBUG                  - depth 4, hash e991936, HEAD~435
+2021-07-04 05:00:31,103 DEBUG                  - depth 5, hash f61ba0f, HEAD~445
+2021-07-04 05:00:31,107 DEBUG                  - depth 6, hash 666275a, HEAD~671
+2021-07-04 05:00:31,112 DEBUG                  - depth 7, hash 8633b01, HEAD~676
+2021-07-04 05:00:31,116 DEBUG                  - depth 8, hash ede1316, HEAD~677
+2021-07-04 05:00:31,120 DEBUG                  - depth 9, hash 8749726, HEAD~786
+2021-07-04 05:00:31,125 DEBUG    [line range] org/jsoup/parser/Token.java normalName 138:140
+2021-07-04 05:00:31,161 DEBUG                  - depth 0, hash 6569bb7, HEAD~260
+2021-07-04 05:00:31,167 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 384
+2021-07-04 05:00:31,205 DEBUG                  - depth 0, hash f37e648, HEAD~21
+2021-07-04 05:00:31,211 DEBUG                  - depth 1, hash 616d3c4, HEAD~359
+2021-07-04 05:00:31,215 DEBUG                  - depth 2, hash f61ba0f, HEAD~445
+2021-07-04 05:00:31,220 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:31,224 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 385
+2021-07-04 05:00:31,261 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,267 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 386
+2021-07-04 05:00:31,304 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,310 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 387
+2021-07-04 05:00:31,347 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,353 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 388
+2021-07-04 05:00:31,390 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,396 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 389
+2021-07-04 05:00:31,432 DEBUG                  - depth 0, hash c07c0ee, HEAD~43
+2021-07-04 05:00:31,438 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:31,442 DEBUG    [single line]   org/jsoup/parser/Token.java <clinit> 390
+2021-07-04 05:00:31,478 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,846 DEBUG    [line range] org/jsoup/parser/Tokeniser.java <clinit> 14:14
+2021-07-04 05:00:31,883 DEBUG                  - depth 0, hash 8e52445, HEAD~444
+2021-07-04 05:00:31,889 DEBUG    [line range] org/jsoup/parser/Tokeniser.java <init> 35:35
+2021-07-04 05:00:31,925 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,931 DEBUG    [line range] org/jsoup/parser/Tokeniser.java advanceTransition 125:128
+2021-07-04 05:00:31,967 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:31,973 DEBUG    [line range] org/jsoup/parser/Tokeniser.java createTagPending 207:210
+2021-07-04 05:00:32,011 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:32,016 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:32,021 DEBUG    [line range] org/jsoup/parser/Tokeniser.java emit 91:103
+2021-07-04 05:00:32,059 DEBUG                  - depth 0, hash 4ec4cf2, HEAD~443
+2021-07-04 05:00:32,065 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:32,069 DEBUG    [line range] org/jsoup/parser/Tokeniser.java emit 75:89
+2021-07-04 05:00:32,107 DEBUG                  - depth 0, hash 35bceca, HEAD~154
+2021-07-04 05:00:32,113 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:32,118 DEBUG                  - depth 2, hash 666275a, HEAD~671
+2021-07-04 05:00:32,122 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:32,127 DEBUG    [line range] org/jsoup/parser/Tokeniser.java emitTagPending 212:215
+2021-07-04 05:00:32,164 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:32,170 DEBUG    [line range] org/jsoup/parser/Tokeniser.java error 245:248
+2021-07-04 05:00:32,207 DEBUG                  - depth 0, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:32,213 DEBUG                  - depth 1, hash be94f55, HEAD~722
+2021-07-04 05:00:32,218 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:32,222 DEBUG    [line range] org/jsoup/parser/Tokeniser.java read 55:73
+2021-07-04 05:00:32,259 DEBUG                  - depth 0, hash 35bceca, HEAD~154
+2021-07-04 05:00:32,265 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:32,269 DEBUG                  - depth 2, hash 4ec4cf2, HEAD~443
+2021-07-04 05:00:32,273 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:32,278 DEBUG    [line range] org/jsoup/parser/Tokeniser.java transition 121:123
+2021-07-04 05:00:32,316 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:32,805 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 8
+2021-07-04 05:00:32,848 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:32,854 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 9
+2021-07-04 05:00:32,896 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:32,902 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 33
+2021-07-04 05:00:32,944 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:32,950 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 39
+2021-07-04 05:00:32,993 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:32,999 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 64
+2021-07-04 05:00:33,041 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,047 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 69
+2021-07-04 05:00:33,089 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,095 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 74
+2021-07-04 05:00:33,139 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,145 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 79
+2021-07-04 05:00:33,186 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,192 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 97
+2021-07-04 05:00:33,234 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,240 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 123
+2021-07-04 05:00:33,282 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,288 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 141
+2021-07-04 05:00:33,330 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,336 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 177
+2021-07-04 05:00:33,378 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,384 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 196
+2021-07-04 05:00:33,426 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,432 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 209
+2021-07-04 05:00:33,474 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,480 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 255
+2021-07-04 05:00:33,521 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,527 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 266
+2021-07-04 05:00:33,570 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,576 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 271
+2021-07-04 05:00:33,617 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,623 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 276
+2021-07-04 05:00:33,665 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,671 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 294
+2021-07-04 05:00:33,713 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,719 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 299
+2021-07-04 05:00:33,762 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,768 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 304
+2021-07-04 05:00:33,810 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,816 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 314
+2021-07-04 05:00:33,858 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,864 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 324
+2021-07-04 05:00:33,907 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,913 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 351
+2021-07-04 05:00:33,956 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:33,962 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 379
+2021-07-04 05:00:34,006 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,012 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 410
+2021-07-04 05:00:34,055 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,061 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 426
+2021-07-04 05:00:34,104 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,110 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 439
+2021-07-04 05:00:34,152 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,158 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 444
+2021-07-04 05:00:34,201 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,207 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 449
+2021-07-04 05:00:34,250 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,256 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 476
+2021-07-04 05:00:34,299 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,305 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 503
+2021-07-04 05:00:34,347 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,353 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 533
+2021-07-04 05:00:34,395 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,401 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 544
+2021-07-04 05:00:34,443 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,449 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 549
+2021-07-04 05:00:34,491 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,497 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 593
+2021-07-04 05:00:34,539 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,545 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 637
+2021-07-04 05:00:34,588 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,594 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 682
+2021-07-04 05:00:34,636 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,642 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 731
+2021-07-04 05:00:34,684 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,690 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 764
+2021-07-04 05:00:34,732 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,738 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 797
+2021-07-04 05:00:34,780 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,786 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 846
+2021-07-04 05:00:34,828 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,834 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 876
+2021-07-04 05:00:34,876 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,882 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 896
+2021-07-04 05:00:34,924 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,930 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 909
+2021-07-04 05:00:34,971 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:34,977 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 928
+2021-07-04 05:00:35,021 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,027 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 956
+2021-07-04 05:00:35,070 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,076 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 984
+2021-07-04 05:00:35,118 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,124 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1006
+2021-07-04 05:00:35,167 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,173 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1029
+2021-07-04 05:00:35,215 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,222 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1062
+2021-07-04 05:00:35,265 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,271 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1090
+2021-07-04 05:00:35,314 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,320 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1117
+2021-07-04 05:00:35,362 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,368 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1152
+2021-07-04 05:00:35,410 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,416 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1187
+2021-07-04 05:00:35,457 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,463 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1215
+2021-07-04 05:00:35,507 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,513 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1255
+2021-07-04 05:00:35,555 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,561 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1292
+2021-07-04 05:00:35,603 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,609 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1320
+2021-07-04 05:00:35,651 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,657 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1348
+2021-07-04 05:00:35,700 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,706 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1386
+2021-07-04 05:00:35,748 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,754 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1423
+2021-07-04 05:00:35,797 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,803 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1463
+2021-07-04 05:00:35,845 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,851 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1500
+2021-07-04 05:00:35,894 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,900 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1528
+2021-07-04 05:00:35,942 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,948 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1556
+2021-07-04 05:00:35,990 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:35,997 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1583
+2021-07-04 05:00:36,039 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,045 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <clinit> 1601
+2021-07-04 05:00:36,087 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,093 DEBUG    [line range] org/jsoup/parser/TokeniserState.java <clinit> 1617:1617
+2021-07-04 05:00:36,138 DEBUG                  - depth 0, hash 4d78e03, HEAD~69
+2021-07-04 05:00:36,144 DEBUG                  - depth 1, hash 5886dd2, HEAD~310
+2021-07-04 05:00:36,148 DEBUG                  - depth 2, hash 8e52445, HEAD~444
+2021-07-04 05:00:36,153 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:36,157 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 9
+2021-07-04 05:00:36,200 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,206 DEBUG    [line range] org/jsoup/parser/TokeniserState.java read 11:31
+2021-07-04 05:00:36,250 DEBUG                  - depth 0, hash 8e52445, HEAD~444
+2021-07-04 05:00:36,256 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:36,261 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 141
+2021-07-04 05:00:36,304 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,310 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 177
+2021-07-04 05:00:36,352 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,359 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 196
+2021-07-04 05:00:36,401 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,407 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 209
+2021-07-04 05:00:36,450 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,456 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 255
+2021-07-04 05:00:36,498 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,504 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 266
+2021-07-04 05:00:36,547 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,553 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 271
+2021-07-04 05:00:36,596 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,602 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 276
+2021-07-04 05:00:36,645 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,651 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 294
+2021-07-04 05:00:36,694 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,700 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 299
+2021-07-04 05:00:36,744 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,750 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 33
+2021-07-04 05:00:36,794 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,800 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 304
+2021-07-04 05:00:36,842 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,848 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 314
+2021-07-04 05:00:36,891 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,897 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 324
+2021-07-04 05:00:36,939 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,945 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 351
+2021-07-04 05:00:36,987 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:36,993 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 379
+2021-07-04 05:00:37,035 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,041 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 410
+2021-07-04 05:00:37,084 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,090 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 426
+2021-07-04 05:00:37,132 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,139 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 439
+2021-07-04 05:00:37,180 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,187 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 444
+2021-07-04 05:00:37,229 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,235 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 449
+2021-07-04 05:00:37,277 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,283 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 39
+2021-07-04 05:00:37,324 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,330 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 476
+2021-07-04 05:00:37,373 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,379 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 503
+2021-07-04 05:00:37,422 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,428 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 533
+2021-07-04 05:00:37,472 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,478 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 544
+2021-07-04 05:00:37,521 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,527 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 549
+2021-07-04 05:00:37,571 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,578 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 593
+2021-07-04 05:00:37,620 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,627 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 637
+2021-07-04 05:00:37,668 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,675 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 682
+2021-07-04 05:00:37,717 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,723 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 731
+2021-07-04 05:00:37,765 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,771 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 764
+2021-07-04 05:00:37,814 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,820 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 64
+2021-07-04 05:00:37,862 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,868 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 797
+2021-07-04 05:00:37,911 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,918 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 846
+2021-07-04 05:00:37,960 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:37,966 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 876
+2021-07-04 05:00:38,008 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,014 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 896
+2021-07-04 05:00:38,056 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,062 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 909
+2021-07-04 05:00:38,105 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,112 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 928
+2021-07-04 05:00:38,154 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,160 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 956
+2021-07-04 05:00:38,202 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,208 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 984
+2021-07-04 05:00:38,250 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,256 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1006
+2021-07-04 05:00:38,298 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,304 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1029
+2021-07-04 05:00:38,346 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,352 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 69
+2021-07-04 05:00:38,394 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,400 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1062
+2021-07-04 05:00:38,442 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,448 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1090
+2021-07-04 05:00:38,490 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,496 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1117
+2021-07-04 05:00:38,538 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,544 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1152
+2021-07-04 05:00:38,587 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,593 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1187
+2021-07-04 05:00:38,637 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,643 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1215
+2021-07-04 05:00:38,686 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,692 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1255
+2021-07-04 05:00:38,735 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,742 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1292
+2021-07-04 05:00:38,785 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,791 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1320
+2021-07-04 05:00:38,835 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,841 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1348
+2021-07-04 05:00:38,884 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,890 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 74
+2021-07-04 05:00:38,934 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,940 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1386
+2021-07-04 05:00:38,982 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:38,988 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1423
+2021-07-04 05:00:39,031 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,038 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1463
+2021-07-04 05:00:39,080 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,086 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1500
+2021-07-04 05:00:39,128 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,134 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1528
+2021-07-04 05:00:39,176 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,182 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1556
+2021-07-04 05:00:39,225 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,231 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1583
+2021-07-04 05:00:39,273 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,279 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 1601
+2021-07-04 05:00:39,321 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,327 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 79
+2021-07-04 05:00:39,369 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,375 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 97
+2021-07-04 05:00:39,417 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,424 DEBUG    [single line]   org/jsoup/parser/TokeniserState.java <init> 123
+2021-07-04 05:00:39,465 DEBUG                  - depth 0, hash 8749726, HEAD~786
+2021-07-04 05:00:39,791 DEBUG    [single line]   org/jsoup/parser/TreeBuilder.java <init> 16
+2021-07-04 05:00:39,827 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:39,833 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:39,838 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java <init> 26:26
+2021-07-04 05:00:39,873 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:39,879 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java currentElement 90:93
+2021-07-04 05:00:39,916 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:39,922 DEBUG                  - depth 1, hash 433d2f1, HEAD~727
+2021-07-04 05:00:39,926 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:39,931 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java initialiseParse 30:43
+2021-07-04 05:00:39,967 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:39,973 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:39,978 DEBUG                  - depth 2, hash e2ff399, HEAD~160
+2021-07-04 05:00:39,982 DEBUG                  - depth 3, hash 1203bd4, HEAD~161
+2021-07-04 05:00:39,987 DEBUG                  - depth 4, hash 6569bb7, HEAD~260
+2021-07-04 05:00:39,991 DEBUG                  - depth 5, hash 7d7a298, HEAD~430
+2021-07-04 05:00:39,996 DEBUG                  - depth 6, hash e47d908, HEAD~431
+2021-07-04 05:00:40,000 DEBUG                  - depth 7, hash 01a6269, HEAD~441
+2021-07-04 05:00:40,005 DEBUG                  - depth 8, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:40,009 DEBUG                  - depth 9, hash be94f55, HEAD~722
+2021-07-04 05:00:40,014 DEBUG                  - depth 10, hash d8c3f9c, HEAD~725
+2021-07-04 05:00:40,018 DEBUG                  - depth 11, hash 433d2f1, HEAD~727
+2021-07-04 05:00:40,022 DEBUG                  - depth 12, hash 5000be3, HEAD~729
+2021-07-04 05:00:40,027 DEBUG                  - depth 13, hash 1e84edb, HEAD~731
+2021-07-04 05:00:40,031 DEBUG                  - depth 14, hash e30ed5d, HEAD~766
+2021-07-04 05:00:40,036 DEBUG                  - depth 15, hash 8749726, HEAD~786
+2021-07-04 05:00:40,041 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java parse 45:49
+2021-07-04 05:00:40,076 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:40,082 DEBUG                  - depth 1, hash 654bc6f, HEAD~157
+2021-07-04 05:00:40,087 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:40,091 DEBUG                  - depth 3, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:40,095 DEBUG                  - depth 4, hash 433d2f1, HEAD~727
+2021-07-04 05:00:40,100 DEBUG                  - depth 5, hash 5000be3, HEAD~729
+2021-07-04 05:00:40,104 DEBUG                  - depth 6, hash 8749726, HEAD~786
+2021-07-04 05:00:40,109 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java processEndTag 82:87
+2021-07-04 05:00:40,145 DEBUG                  - depth 0, hash 3a7f39c, HEAD~346
+2021-07-04 05:00:40,151 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:40,155 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java processStartTag 66:71
+2021-07-04 05:00:40,192 DEBUG                  - depth 0, hash 3a7f39c, HEAD~346
+2021-07-04 05:00:40,198 DEBUG                  - depth 1, hash e991936, HEAD~435
+2021-07-04 05:00:40,202 DEBUG    [line range] org/jsoup/parser/TreeBuilder.java runParser 53:62
+2021-07-04 05:00:40,239 DEBUG                  - depth 0, hash e991936, HEAD~435
+2021-07-04 05:00:40,245 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:40,249 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:40,572 DEBUG    [line range] org/jsoup/select/NodeTraversor.java traverse 40:61
+2021-07-04 05:00:40,608 DEBUG                  - depth 0, hash 655e3aa, HEAD~112
+2021-07-04 05:00:40,614 DEBUG                  - depth 1, hash 2c8b9ad, HEAD~578
+2021-07-04 05:00:40,618 DEBUG                  - depth 2, hash deaf9f6, HEAD~633
+2021-07-04 05:00:40,623 DEBUG                  - depth 3, hash 10cfa04, HEAD~967
+2021-07-04 05:00:40,628 DEBUG    [line range] org/jsoup/helper/StringUtil.java padding 65:75
+2021-07-04 05:00:40,665 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:40,671 DEBUG                  - depth 1, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:40,675 DEBUG    [line range] org/jsoup/nodes/Attribute.java <init> 41:47
+2021-07-04 05:00:40,712 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:40,718 DEBUG                  - depth 1, hash a623db7, HEAD~200
+2021-07-04 05:00:40,723 DEBUG                  - depth 2, hash 6569bb7, HEAD~260
+2021-07-04 05:00:40,727 DEBUG                  - depth 3, hash 6b0dd15, HEAD~966
+2021-07-04 05:00:40,731 DEBUG                  - depth 4, hash 40a3cda, HEAD~970
+2021-07-04 05:00:40,736 DEBUG                  - depth 5, hash 5b40706, HEAD~1079
+2021-07-04 05:00:40,740 DEBUG                  - depth 6, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:40,745 DEBUG    [line range] org/jsoup/nodes/Attribute.java getKey 53:55
+2021-07-04 05:00:40,781 DEBUG                  - depth 0, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:40,787 DEBUG    [line range] org/jsoup/nodes/Attribute.java getValue 77:79
+2021-07-04 05:00:40,823 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:40,829 DEBUG                  - depth 1, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:40,833 DEBUG    [line range] org/jsoup/nodes/Attributes.java addAll 236:246
+2021-07-04 05:00:40,871 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:40,877 DEBUG                  - depth 1, hash e2ff399, HEAD~160
+2021-07-04 05:00:40,882 DEBUG                  - depth 2, hash 8749726, HEAD~786
+2021-07-04 05:00:40,886 DEBUG                  - depth 3, hash 28418f8, HEAD~1055
+2021-07-04 05:00:40,890 DEBUG                  - depth 4, hash d8dbde8, HEAD~1078
+2021-07-04 05:00:40,895 DEBUG                  - depth 5, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:40,899 DEBUG                  - depth 6, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:40,904 DEBUG    [line range] org/jsoup/nodes/Attributes.java iterator 248:269
+2021-07-04 05:00:40,941 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:40,947 DEBUG                  - depth 1, hash a79d5e2, HEAD~238
+2021-07-04 05:00:40,952 DEBUG                  - depth 2, hash f41efcd, HEAD~244
+2021-07-04 05:00:40,957 DEBUG                  - depth 3, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:40,961 DEBUG                  - depth 4, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:40,966 DEBUG    [line range] org/jsoup/nodes/Attributes.java put 166:171
+2021-07-04 05:00:41,003 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,009 DEBUG                  - depth 1, hash f71712b, HEAD~142
+2021-07-04 05:00:41,014 DEBUG                  - depth 2, hash e2ff399, HEAD~160
+2021-07-04 05:00:41,019 DEBUG                  - depth 3, hash 8749726, HEAD~786
+2021-07-04 05:00:41,023 DEBUG                  - depth 4, hash 5b40706, HEAD~1079
+2021-07-04 05:00:41,028 DEBUG                  - depth 5, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:41,032 DEBUG    [line range] org/jsoup/nodes/Attributes.java size 228:230
+2021-07-04 05:00:41,071 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,077 DEBUG                  - depth 1, hash 8749726, HEAD~786
+2021-07-04 05:00:41,081 DEBUG                  - depth 2, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:41,086 DEBUG    [line range] org/jsoup/nodes/Attributes.java <init> 248:269
+2021-07-04 05:00:41,124 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,130 DEBUG                  - depth 1, hash a79d5e2, HEAD~238
+2021-07-04 05:00:41,134 DEBUG                  - depth 2, hash f41efcd, HEAD~244
+2021-07-04 05:00:41,139 DEBUG                  - depth 3, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:41,143 DEBUG                  - depth 4, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:41,148 DEBUG    [line range] org/jsoup/nodes/Attributes.java hasNext 248:269
+2021-07-04 05:00:41,185 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,191 DEBUG                  - depth 1, hash a79d5e2, HEAD~238
+2021-07-04 05:00:41,196 DEBUG                  - depth 2, hash f41efcd, HEAD~244
+2021-07-04 05:00:41,200 DEBUG                  - depth 3, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:41,205 DEBUG                  - depth 4, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:41,209 DEBUG    [line range] org/jsoup/nodes/Attributes.java next 248:269
+2021-07-04 05:00:41,246 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,252 DEBUG                  - depth 1, hash a79d5e2, HEAD~238
+2021-07-04 05:00:41,256 DEBUG                  - depth 2, hash f41efcd, HEAD~244
+2021-07-04 05:00:41,261 DEBUG                  - depth 3, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:41,265 DEBUG                  - depth 4, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:41,270 DEBUG    [line range] org/jsoup/nodes/Attributes.java next 248:269
+2021-07-04 05:00:41,307 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,314 DEBUG                  - depth 1, hash a79d5e2, HEAD~238
+2021-07-04 05:00:41,318 DEBUG                  - depth 2, hash f41efcd, HEAD~244
+2021-07-04 05:00:41,323 DEBUG                  - depth 3, hash 2f0a7bf, HEAD~1154
+2021-07-04 05:00:41,327 DEBUG                  - depth 4, hash a29e8b5, HEAD~1167
+2021-07-04 05:00:41,331 DEBUG    [line range] org/jsoup/nodes/Document.java indentAmount 518:520
+2021-07-04 05:00:41,369 DEBUG                  - depth 0, hash e256bb7, HEAD~904
+2021-07-04 05:00:41,375 DEBUG    [line range] org/jsoup/nodes/Element.java attributes 98:103
+2021-07-04 05:00:41,429 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:41,435 DEBUG                  - depth 1, hash 3205f0e, HEAD~1087
+2021-07-04 05:00:41,440 DEBUG                  - depth 2, hash 83b8d1a, HEAD~1111
+2021-07-04 05:00:41,445 DEBUG    [line range] org/jsoup/nodes/Element.java hasAttributes 93:96
+2021-07-04 05:00:41,498 DEBUG                  - depth 0, hash f71712b, HEAD~142
+2021-07-04 05:00:41,504 DEBUG                  - depth 1, hash 3205f0e, HEAD~1087
+2021-07-04 05:00:41,508 DEBUG                  - depth 2, hash 83b8d1a, HEAD~1111
+2021-07-04 05:00:41,513 DEBUG    [line range] org/jsoup/nodes/Node.java indent 607:609
+2021-07-04 05:00:41,552 DEBUG                  - depth 0, hash ea1fb65, HEAD~138
+2021-07-04 05:00:41,558 DEBUG                  - depth 1, hash 43e17dc, HEAD~472
+2021-07-04 05:00:41,563 DEBUG                  - depth 2, hash e256bb7, HEAD~904
+2021-07-04 05:00:41,568 DEBUG                  - depth 3, hash 18e9a8f, HEAD~925
+2021-07-04 05:00:41,572 DEBUG                  - depth 4, hash 10cfa04, HEAD~967
+2021-07-04 05:00:41,577 DEBUG                  - depth 5, hash a52e669, HEAD~1022
+2021-07-04 05:00:41,581 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java error 192:195
+2021-07-04 05:00:41,620 DEBUG                  - depth 0, hash 850a9cc, HEAD~6
+2021-07-04 05:00:41,626 DEBUG                  - depth 1, hash f8a5dfb, HEAD~715
+2021-07-04 05:00:41,631 DEBUG                  - depth 2, hash be94f55, HEAD~722
+2021-07-04 05:00:41,635 DEBUG                  - depth 3, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,640 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java generateImpliedEndTags 568:572
+2021-07-04 05:00:41,681 DEBUG                  - depth 0, hash fb8b60b, HEAD~85
+2021-07-04 05:00:41,687 DEBUG                  - depth 1, hash de098c3, HEAD~579
+2021-07-04 05:00:41,692 DEBUG                  - depth 2, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,697 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java getActiveFormattingElement 684:693
+2021-07-04 05:00:41,737 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:41,743 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,748 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java isElementInQueue 302:310
+2021-07-04 05:00:41,789 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:41,795 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,800 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java onStack 298:300
+2021-07-04 05:00:41,840 DEBUG                  - depth 0, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,846 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java popStackToClose 333:340
+2021-07-04 05:00:41,887 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:41,893 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,898 DEBUG    [line range] org/jsoup/parser/HtmlTreeBuilder.java pushActiveFormattingElements 598:614
+2021-07-04 05:00:41,940 DEBUG                  - depth 0, hash 01a6269, HEAD~441
+2021-07-04 05:00:41,946 DEBUG                  - depth 1, hash 5000be3, HEAD~729
+2021-07-04 05:00:41,953 INFO     The number of BIC candidates: 201

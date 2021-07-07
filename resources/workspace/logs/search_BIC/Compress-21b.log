@@ -1,0 +1,333 @@
+2021-07-03 20:32:44,078 INFO     Search BICs for /tmp/Compress-21b/
+2021-07-03 20:32:44,078 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixEmptyFiles (failings)
+2021-07-03 20:32:44,121 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineEmptyFiles (failings)
+2021-07-03 20:32:44,177 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenEmptyFiles (failings)
+2021-07-03 20:32:44,220 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightEmptyFiles (failings)
+2021-07-03 20:32:44,272 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightFilesSomeNotEmpty (failings)
+2021-07-03 20:32:44,328 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenFilesSomeNotEmpty (failings)
+2021-07-03 20:32:44,392 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixFilesSomeNotEmpty (failings)
+2021-07-03 20:32:44,447 DEBUG    Reading the coverage of org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineFilesSomeNotEmpty (failings)
+2021-07-03 20:32:44,512 INFO     Loaded 8x752 Coverage Matrix
+2021-07-03 20:32:44,512 INFO     The number of total commits: 1382
+2021-07-03 20:32:44,852 DEBUG    [single line]   org/apache/commons/compress/archivers/ArchiveStreamFactory.java <init> 76
+2021-07-03 20:32:44,901 DEBUG                  - depth 0, hash 6a70323, HEAD~1259
+2021-07-03 20:32:44,907 DEBUG                  - depth 1, hash ca16539, HEAD~1269
+2021-07-03 20:32:44,911 DEBUG    [line range] org/apache/commons/compress/archivers/ArchiveStreamFactory.java <init> 117:117
+2021-07-03 20:32:44,959 DEBUG                  - depth 0, hash 2ab43b0, HEAD~317
+2021-07-03 20:32:45,234 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Archive.java <init> 22
+2021-07-03 20:32:45,280 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:45,579 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/BoundedRandomAccessFileInputStream.java <init> 28:32
+2021-07-03 20:32:45,625 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:45,630 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/BoundedRandomAccessFileInputStream.java close 60:63
+2021-07-03 20:32:45,676 DEBUG                  - depth 0, hash 8279181, HEAD~85
+2021-07-03 20:32:45,681 DEBUG                  - depth 1, hash 1044ee4, HEAD~196
+2021-07-03 20:32:45,685 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/BoundedRandomAccessFileInputStream.java read 34:42
+2021-07-03 20:32:45,731 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:45,737 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/BoundedRandomAccessFileInputStream.java read 44:58
+2021-07-03 20:32:45,783 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:46,126 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java <init> 49:50
+2021-07-03 20:32:46,171 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,177 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getHasAccessDate 217:219
+2021-07-03 20:32:46,222 DEBUG                  - depth 0, hash b7de910, HEAD~179
+2021-07-03 20:32:46,227 DEBUG                  - depth 1, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,231 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getHasCreationDate 125:127
+2021-07-03 20:32:46,277 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,282 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getHasLastModifiedDate 171:173
+2021-07-03 20:32:46,328 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,333 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getHasWindowsAttributes 263:265
+2021-07-03 20:32:46,379 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,384 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getLastModifiedDate 187:194
+2021-07-03 20:32:46,429 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,435 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getName 57:59
+2021-07-03 20:32:46,480 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,485 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java hasStream 74:76
+2021-07-03 20:32:46,531 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,536 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java isAntiItem 109:111
+2021-07-03 20:32:46,582 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,587 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java isDirectory 91:93
+2021-07-03 20:32:46,633 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,638 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java javaTimeToNtfsTime 424:430
+2021-07-03 20:32:46,684 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,689 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java ntfsTimeToJavaTime 410:417
+2021-07-03 20:32:46,736 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,741 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setAntiItem 118:120
+2021-07-03 20:32:46,787 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,792 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setCompressedSize 400:402
+2021-07-03 20:32:46,837 DEBUG                  - depth 0, hash 5ec6974, HEAD~101
+2021-07-03 20:32:46,842 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setDirectory 100:102
+2021-07-03 20:32:46,888 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,894 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setHasCrc 300:302
+2021-07-03 20:32:46,939 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,945 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setHasStream 82:84
+2021-07-03 20:32:46,991 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:46,996 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setLastModifiedDate 207:212
+2021-07-03 20:32:47,042 DEBUG                  - depth 0, hash 0317b95, HEAD~105
+2021-07-03 20:32:47,047 DEBUG                  - depth 1, hash b451bb3, HEAD~114
+2021-07-03 20:32:47,051 DEBUG                  - depth 2, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,055 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setName 66:68
+2021-07-03 20:32:47,102 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,107 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setSize 382:384
+2021-07-03 20:32:47,153 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,590 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java <clinit> 77:79
+2021-07-03 20:32:47,640 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:47,646 DEBUG                  - depth 1, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,650 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java <init> 115:117
+2021-07-03 20:32:47,698 DEBUG                  - depth 0, hash 5989652, HEAD~182
+2021-07-03 20:32:47,704 DEBUG                  - depth 1, hash 1044ee4, HEAD~196
+2021-07-03 20:32:47,708 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java <init> 71:71
+2021-07-03 20:32:47,757 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,763 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java calculateStreamMap 743:794
+2021-07-03 20:32:47,812 DEBUG                  - depth 0, hash 109a7a8, HEAD~183
+2021-07-03 20:32:47,818 DEBUG                  - depth 1, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,822 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readBits 573:586
+2021-07-03 20:32:47,872 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,877 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readFilesInfo 588:741
+2021-07-03 20:32:47,928 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:47,933 DEBUG                  - depth 1, hash 6ef5248, HEAD~88
+2021-07-03 20:32:47,937 DEBUG                  - depth 2, hash 5972cab, HEAD~123
+2021-07-03 20:32:47,941 DEBUG                  - depth 3, hash b7de910, HEAD~179
+2021-07-03 20:32:47,945 DEBUG                  - depth 4, hash e1379e2, HEAD~187
+2021-07-03 20:32:47,949 DEBUG                  - depth 5, hash f69ccab, HEAD~197
+2021-07-03 20:32:47,954 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readHeader 222:248
+2021-07-03 20:32:48,004 DEBUG                  - depth 0, hash 6ef5248, HEAD~88
+2021-07-03 20:32:48,009 DEBUG                  - depth 1, hash f69ccab, HEAD~197
+2021-07-03 20:32:48,013 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readHeaders 154:203
+2021-07-03 20:32:48,064 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:48,069 DEBUG                  - depth 1, hash 5106367, HEAD~87
+2021-07-03 20:32:48,073 DEBUG                  - depth 2, hash 6ef5248, HEAD~88
+2021-07-03 20:32:48,077 DEBUG                  - depth 3, hash d46463e, HEAD~90
+2021-07-03 20:32:48,081 DEBUG                  - depth 4, hash 5989652, HEAD~182
+2021-07-03 20:32:48,085 DEBUG                  - depth 5, hash f69ccab, HEAD~197
+2021-07-03 20:32:48,090 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readStartHeader 205:220
+2021-07-03 20:32:48,139 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:48,145 DEBUG                  - depth 1, hash 1044ee4, HEAD~196
+2021-07-03 20:32:48,149 DEBUG                  - depth 2, hash f69ccab, HEAD~197
+2021-07-03 20:32:48,153 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readStreamsInfo 294:318
+2021-07-03 20:32:48,203 DEBUG                  - depth 0, hash 6ef5248, HEAD~88
+2021-07-03 20:32:48,208 DEBUG                  - depth 1, hash 5d6dc46, HEAD~113
+2021-07-03 20:32:48,212 DEBUG                  - depth 2, hash f69ccab, HEAD~197
+2021-07-03 20:32:48,217 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readSubStreamsInfo 397:478
+2021-07-03 20:32:48,266 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:48,271 DEBUG                  - depth 1, hash 6ef5248, HEAD~88
+2021-07-03 20:32:48,275 DEBUG                  - depth 2, hash 592b100, HEAD~189
+2021-07-03 20:32:48,279 DEBUG                  - depth 3, hash f69ccab, HEAD~197
+2021-07-03 20:32:48,284 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readUint64 897:911
+2021-07-03 20:32:48,334 DEBUG                  - depth 0, hash 011a0e7, HEAD~55
+2021-07-03 20:32:48,339 DEBUG                  - depth 1, hash db0ea95, HEAD~56
+2021-07-03 20:32:48,343 DEBUG                  - depth 2, hash a33995a, HEAD~162
+2021-07-03 20:32:48,347 DEBUG                  - depth 3, hash f69ccab, HEAD~197
+2021-07-03 20:32:48,639 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 25
+2021-07-03 20:32:48,685 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,690 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 27
+2021-07-03 20:32:48,735 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,740 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 29
+2021-07-03 20:32:48,785 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,791 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 31
+2021-07-03 20:32:48,836 DEBUG                  - depth 0, hash 2c9bec1, HEAD~99
+2021-07-03 20:32:48,841 DEBUG                  - depth 1, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,845 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 43
+2021-07-03 20:32:48,891 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,896 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 45
+2021-07-03 20:32:48,941 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,947 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <clinit> 50
+2021-07-03 20:32:48,992 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:48,997 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZMethod.java <init> 54:56
+2021-07-03 20:32:49,043 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:49,473 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java <init> 42:42
+2021-07-03 20:32:49,519 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,525 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java close 79:84
+2021-07-03 20:32:49,571 DEBUG                  - depth 0, hash fcec064, HEAD~77
+2021-07-03 20:32:49,577 DEBUG                  - depth 1, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,581 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java closeArchiveEntry 122:147
+2021-07-03 20:32:49,628 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:49,634 DEBUG                  - depth 1, hash c5d9ec8, HEAD~78
+2021-07-03 20:32:49,638 DEBUG                  - depth 2, hash 5ec6974, HEAD~101
+2021-07-03 20:32:49,642 DEBUG                  - depth 3, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,646 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java createArchiveEntry 95:102
+2021-07-03 20:32:49,692 DEBUG                  - depth 0, hash b451bb3, HEAD~114
+2021-07-03 20:32:49,698 DEBUG                  - depth 1, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,702 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java finish 185:224
+2021-07-03 20:32:49,748 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:49,753 DEBUG                  - depth 1, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,758 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java putArchiveEntry 113:116
+2021-07-03 20:32:49,804 DEBUG                  - depth 0, hash c5d9ec8, HEAD~78
+2021-07-03 20:32:49,810 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:49,814 DEBUG                  - depth 2, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,818 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java write 163:165
+2021-07-03 20:32:49,865 DEBUG                  - depth 0, hash 8d86448, HEAD~73
+2021-07-03 20:32:49,870 DEBUG                  - depth 1, hash c5d9ec8, HEAD~78
+2021-07-03 20:32:49,874 DEBUG                  - depth 2, hash 5ec6974, HEAD~101
+2021-07-03 20:32:49,878 DEBUG                  - depth 3, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,883 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java write 174:178
+2021-07-03 20:32:49,929 DEBUG                  - depth 0, hash 8d86448, HEAD~73
+2021-07-03 20:32:49,934 DEBUG                  - depth 1, hash c5d9ec8, HEAD~78
+2021-07-03 20:32:49,939 DEBUG                  - depth 2, hash 5ec6974, HEAD~101
+2021-07-03 20:32:49,943 DEBUG                  - depth 3, hash 67ea501, HEAD~153
+2021-07-03 20:32:49,947 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeBits 634:649
+2021-07-03 20:32:49,994 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,000 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileATimes 508:542
+2021-07-03 20:32:50,047 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,053 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileAntiItems 433:454
+2021-07-03 20:32:50,099 DEBUG                  - depth 0, hash 06a8198, HEAD~83
+2021-07-03 20:32:50,104 DEBUG                  - depth 1, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,109 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileCTimes 472:506
+2021-07-03 20:32:50,156 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,162 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileEmptyFiles 410:431
+2021-07-03 20:32:50,208 DEBUG                  - depth 0, hash 06a8198, HEAD~83
+2021-07-03 20:32:50,213 DEBUG                  - depth 1, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,218 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileEmptyStreams 386:408
+2021-07-03 20:32:50,264 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,269 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileMTimes 544:578
+2021-07-03 20:32:50,315 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,322 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileNames 456:470
+2021-07-03 20:32:50,368 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,373 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFileWindowsAttributes 580:613
+2021-07-03 20:32:50,420 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,425 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFilesInfo 370:384
+2021-07-03 20:32:50,471 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,477 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeHeader 265:272
+2021-07-03 20:32:50,523 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,529 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeStreamsInfo 274:283
+2021-07-03 20:32:50,575 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,581 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeSubStreamsInfo 356:368
+2021-07-03 20:32:50,627 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,632 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeUint64 615:632
+2021-07-03 20:32:50,678 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:50,961 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/StartHeader.java <init> 20
+2021-07-03 20:32:51,007 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:51,276 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/StreamMap.java <init> 21
+2021-07-03 20:32:51,322 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:51,607 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SubStreamsInfo.java <init> 23
+2021-07-03 20:32:51,653 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:51,944 DEBUG    [line range] org/apache/commons/compress/utils/CRC32VerifyingInputStream.java <init> 38:40
+2021-07-03 20:32:51,990 DEBUG                  - depth 0, hash 3f2f313, HEAD~33
+2021-07-03 20:32:51,995 DEBUG                  - depth 1, hash d658439, HEAD~34
+2021-07-03 20:32:51,999 DEBUG                  - depth 2, hash c25c8df, HEAD~181
+2021-07-03 20:32:52,003 DEBUG                  - depth 3, hash 5989652, HEAD~182
+2021-07-03 20:32:52,007 DEBUG                  - depth 4, hash f69ccab, HEAD~197
+2021-07-03 20:32:52,314 DEBUG    [line range] org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java <init> 36:42
+2021-07-03 20:32:52,359 DEBUG                  - depth 0, hash 3f2f313, HEAD~33
+2021-07-03 20:32:52,365 DEBUG    [line range] org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java close 106:109
+2021-07-03 20:32:52,411 DEBUG                  - depth 0, hash 3f2f313, HEAD~33
+2021-07-03 20:32:52,417 DEBUG    [line range] org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java read 50:64
+2021-07-03 20:32:52,462 DEBUG                  - depth 0, hash 3f2f313, HEAD~33
+2021-07-03 20:32:52,467 DEBUG    [line range] org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java read 83:94
+2021-07-03 20:32:52,512 DEBUG                  - depth 0, hash 3f2f313, HEAD~33
+2021-07-03 20:32:52,518 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setHasLastModifiedDate 178:180
+2021-07-03 20:32:52,564 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:52,570 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setLastModifiedDate 200:202
+2021-07-03 20:32:52,615 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:52,621 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readAllOrBits 559:571
+2021-07-03 20:32:52,669 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:52,936 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coder.java <init> 20
+2021-07-03 20:32:52,982 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:52,988 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Coder.java <init> 24:24
+2021-07-03 20:32:53,033 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:53,392 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Coders.java <clinit> 65:72
+2021-07-03 20:32:53,438 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:53,444 DEBUG                  - depth 1, hash f5b32b0, HEAD~109
+2021-07-03 20:32:53,448 DEBUG                  - depth 2, hash e33d42e, HEAD~154
+2021-07-03 20:32:53,452 DEBUG                  - depth 3, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,456 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Coders.java addEncoder 55:63
+2021-07-03 20:32:53,501 DEBUG                  - depth 0, hash d46463e, HEAD~90
+2021-07-03 20:32:53,507 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:53,511 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coders.java <init> 147
+2021-07-03 20:32:53,557 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,563 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coders.java <init> 134
+2021-07-03 20:32:53,610 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,615 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coders.java <init> 84
+2021-07-03 20:32:53,662 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,667 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Coders.java <init> 75:78
+2021-07-03 20:32:53,714 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:53,719 DEBUG                  - depth 1, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,724 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coders.java <init> 93
+2021-07-03 20:32:53,771 DEBUG                  - depth 0, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,776 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coders.java <init> 121
+2021-07-03 20:32:53,822 DEBUG                  - depth 0, hash f5b32b0, HEAD~109
+2021-07-03 20:32:53,827 DEBUG                  - depth 1, hash 1044ee4, HEAD~196
+2021-07-03 20:32:53,832 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Coders.java <init> 105
+2021-07-03 20:32:53,877 DEBUG                  - depth 0, hash e33d42e, HEAD~154
+2021-07-03 20:32:54,165 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/Folder.java <init> 23
+2021-07-03 20:32:54,210 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:54,216 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Folder.java findBindPairForInStream 44:51
+2021-07-03 20:32:54,261 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:54,267 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Folder.java findBindPairForOutStream 53:60
+2021-07-03 20:32:54,312 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:54,317 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/Folder.java getUnpackSize 62:72
+2021-07-03 20:32:54,362 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:54,647 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java <init> 28
+2021-07-03 20:32:54,692 DEBUG                  - depth 0, hash 2c9bec1, HEAD~99
+2021-07-03 20:32:54,698 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java encode 48:55
+2021-07-03 20:32:54,743 DEBUG                  - depth 0, hash 4660021, HEAD~63
+2021-07-03 20:32:54,749 DEBUG                  - depth 1, hash d46463e, HEAD~90
+2021-07-03 20:32:54,753 DEBUG                  - depth 2, hash 2c9bec1, HEAD~99
+2021-07-03 20:32:54,757 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getCompressedCrcValue 356:358
+2021-07-03 20:32:54,803 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:54,809 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getCompressedSize 391:393
+2021-07-03 20:32:54,856 DEBUG                  - depth 0, hash 5ec6974, HEAD~101
+2021-07-03 20:32:54,862 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getCrcValue 324:326
+2021-07-03 20:32:54,907 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:54,913 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java getSize 373:375
+2021-07-03 20:32:54,958 DEBUG                  - depth 0, hash f69ccab, HEAD~197
+2021-07-03 20:32:54,964 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setCompressedCrcValue 364:366
+2021-07-03 20:32:55,009 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:55,014 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java setCrcValue 332:334
+2021-07-03 20:32:55,059 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:55,066 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readFolder 480:557
+2021-07-03 20:32:55,116 DEBUG                  - depth 0, hash 6ef5248, HEAD~88
+2021-07-03 20:32:55,122 DEBUG                  - depth 1, hash f69ccab, HEAD~197
+2021-07-03 20:32:55,128 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readPackInfo 320:347
+2021-07-03 20:32:55,178 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:55,183 DEBUG                  - depth 1, hash 6ef5248, HEAD~88
+2021-07-03 20:32:55,187 DEBUG                  - depth 2, hash f69ccab, HEAD~197
+2021-07-03 20:32:55,192 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZFile.java readUnpackInfo 349:395
+2021-07-03 20:32:55,243 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:55,248 DEBUG                  - depth 1, hash 6ef5248, HEAD~88
+2021-07-03 20:32:55,252 DEBUG                  - depth 2, hash f69ccab, HEAD~197
+2021-07-03 20:32:55,258 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZMethod.java getId 58:62
+2021-07-03 20:32:55,304 DEBUG                  - depth 0, hash 86531d8, HEAD~102
+2021-07-03 20:32:55,310 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZMethod.java getProperties 32:40
+2021-07-03 20:32:55,356 DEBUG                  - depth 0, hash 2c9bec1, HEAD~99
+2021-07-03 20:32:55,361 DEBUG                  - depth 1, hash 86531d8, HEAD~102
+2021-07-03 20:32:55,366 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java access$414 40
+2021-07-03 20:32:55,413 DEBUG                  - depth 0, hash 67ea501, HEAD~153
+2021-07-03 20:32:55,419 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java getCurrentOutputStream 231:236
+2021-07-03 20:32:55,466 DEBUG                  - depth 0, hash c5d9ec8, HEAD~78
+2021-07-03 20:32:55,472 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java setupFileOutputStream 238:263
+2021-07-03 20:32:55,518 DEBUG                  - depth 0, hash d64af85, HEAD~100
+2021-07-03 20:32:55,523 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,528 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeFolder 337:354
+2021-07-03 20:32:55,574 DEBUG                  - depth 0, hash 2c9bec1, HEAD~99
+2021-07-03 20:32:55,579 DEBUG                  - depth 1, hash d64af85, HEAD~100
+2021-07-03 20:32:55,583 DEBUG                  - depth 2, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,587 DEBUG                  - depth 3, hash 67ea501, HEAD~153
+2021-07-03 20:32:55,592 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writePackInfo 285:307
+2021-07-03 20:32:55,638 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:55,644 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,648 DEBUG                  - depth 2, hash 67ea501, HEAD~153
+2021-07-03 20:32:55,653 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java writeUnpackInfo 309:335
+2021-07-03 20:32:55,699 DEBUG                  - depth 0, hash d658439, HEAD~34
+2021-07-03 20:32:55,705 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,709 DEBUG                  - depth 2, hash 67ea501, HEAD~153
+2021-07-03 20:32:55,714 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java <init> 238:263
+2021-07-03 20:32:55,760 DEBUG                  - depth 0, hash d64af85, HEAD~100
+2021-07-03 20:32:55,766 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,770 DEBUG    [single line]   org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java <init> 651
+2021-07-03 20:32:55,817 DEBUG                  - depth 0, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,823 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java flush 672:675
+2021-07-03 20:32:55,871 DEBUG                  - depth 0, hash 8279181, HEAD~85
+2021-07-03 20:32:55,876 DEBUG                  - depth 1, hash 5ec6974, HEAD~101
+2021-07-03 20:32:55,881 DEBUG    [line range] org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java write 652:657
+2021-07-03 20:32:55,927 DEBUG                  - depth 0, hash 5ec6974, HEAD~101
+2021-07-03 20:32:56,235 DEBUG    [line range] org/apache/commons/compress/utils/CountingOutputStream.java <init> 31:31
+2021-07-03 20:32:56,280 DEBUG                  - depth 0, hash 267a334, HEAD~484
+2021-07-03 20:32:56,286 DEBUG                  - depth 1, hash 41fc7c5, HEAD~488
+2021-07-03 20:32:56,290 DEBUG    [line range] org/apache/commons/compress/utils/CountingOutputStream.java count 58:62
+2021-07-03 20:32:56,336 DEBUG                  - depth 0, hash 267a334, HEAD~484
+2021-07-03 20:32:56,341 DEBUG                  - depth 1, hash 41fc7c5, HEAD~488
+2021-07-03 20:32:56,345 DEBUG    [line range] org/apache/commons/compress/utils/CountingOutputStream.java getBytesWritten 68:70
+2021-07-03 20:32:56,392 DEBUG                  - depth 0, hash 267a334, HEAD~484
+2021-07-03 20:32:56,398 DEBUG                  - depth 1, hash 41fc7c5, HEAD~488
+2021-07-03 20:32:56,402 DEBUG    [line range] org/apache/commons/compress/utils/CountingOutputStream.java write 46:50
+2021-07-03 20:32:56,449 DEBUG                  - depth 0, hash 41fc7c5, HEAD~488
+2021-07-03 20:32:56,454 INFO     The number of BIC candidates: 38

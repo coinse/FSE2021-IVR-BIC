@@ -1,0 +1,4519 @@
+commit 4c6e1039b80859f17de5f3cbcfeba61ed8ea0485
+Author: elbaum@google.com <elbaum@google.com@b0f006be-c8cd-11de-a2e8-8d36a3108c74>
+Date:   Mon Sep 13 18:12:15 2010 +0000
+
+    Support author scrubbing for HTML-format comments. Also refactors author scrubber to
+    be a comment-oriented scrubber rather than a line-oriented scrubber, so only
+    comments are processed.
+    
+    R=dbentley,dborowitz
+    DELTA=263  (205 added, 42 deleted, 16 changed)
+    
+    
+    Revision created by MOE tool push_codebase.
+    MOE_MIGRATION=213942
+    
+    
+    git-svn-id: https://closure-compiler.googlecode.com/svn/trunk@420 b0f006be-c8cd-11de-a2e8-8d36a3108c74
+
+diff --git a/contrib/externs/api/maps/gmap2.js b/contrib/externs/api/maps/gmap2.js
+index f809921..1959a8f 100644
+--- a/contrib/externs/api/maps/gmap2.js
++++ b/contrib/externs/api/maps/gmap2.js
+@@ -17,7 +17,6 @@
+ /**
+  * @fileoverview Externs for Maps API V2
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/contrib/externs/chrome_extensions.js b/contrib/externs/chrome_extensions.js
+index 2868161..5db6d88 100644
+--- a/contrib/externs/chrome_extensions.js
++++ b/contrib/externs/chrome_extensions.js
+@@ -18,8 +18,6 @@
+  * @fileoverview Definitions for the Chromium extensions API.
+  * @externs
+  *
+- *
+- *
+  */
+ 
+ /** namespace */
+diff --git a/contrib/externs/google_maps_api_v3.js b/contrib/externs/google_maps_api_v3.js
+index 69c88e8..909eac5 100644
+--- a/contrib/externs/google_maps_api_v3.js
++++ b/contrib/externs/google_maps_api_v3.js
+@@ -17,7 +17,6 @@
+ /**
+  * @fileoverview Externs for the Google Maps V3 API.
+  * @see http://code.google.com/apis/maps/documentation/v3/reference.html
+- *
+  * @deprecated We should eventually delete these in favor of the auto-generated
+  *     externs under maps/
+  */
+diff --git a/contrib/externs/jquery-1.3.2.externs.js b/contrib/externs/jquery-1.3.2.externs.js
+index d5c548b..6b70831 100644
+--- a/contrib/externs/jquery-1.3.2.externs.js
++++ b/contrib/externs/jquery-1.3.2.externs.js
+@@ -23,7 +23,6 @@
+  * expecting. For example:
+  *    <code>var elt = /** @type {Element} * / (foo.get(0));</code>
+  * @see http://docs.jquery.com/
+- *
+  */
+ 
+ /**
+diff --git a/contrib/externs/json.js b/contrib/externs/json.js
+index 889e0d3..6ae54e9 100644
+--- a/contrib/externs/json.js
++++ b/contrib/externs/json.js
+@@ -18,8 +18,6 @@
+  * @fileoverview Definitions for the JSON specification.
+  * @see http://www.json.org/json2.js.
+  * @externs
+- *
+- *
+  */
+ 
+ var JSON = {};
+diff --git a/contrib/externs/webkit_console.js b/contrib/externs/webkit_console.js
+index 9c677b9..911f810 100644
+--- a/contrib/externs/webkit_console.js
++++ b/contrib/externs/webkit_console.js
+@@ -19,7 +19,6 @@
+  * @see http://trac.webkit.org/browser/trunk/WebCore/page/Console.idl
+  * @see http://trac.webkit.org/browser/trunk/WebCore/page/Console.cpp
+  * @externs
+- *
+  */
+ 
+ var console = {};
+diff --git a/externs/deprecated.js b/externs/deprecated.js
+index 9561bac..f1a3696 100644
+--- a/externs/deprecated.js
++++ b/externs/deprecated.js
+@@ -20,7 +20,6 @@
+  * still needed in some project's build.
+  * @externs
+  *
+- *
+  */
+ 
+ // Do we need an opera.js?
+diff --git a/externs/es3.js b/externs/es3.js
+index 880ff20..e3b5ace 100644
+--- a/externs/es3.js
++++ b/externs/es3.js
+@@ -18,10 +18,6 @@
+  * @fileoverview ECMAScript 3 Builtins. This include common extensions so this
+  * is actually ES3+Reality.
+  * @externs
+- *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+- *
+  */
+ 
+ 
+diff --git a/externs/es5.js b/externs/es5.js
+index bb2b087..0b95615 100644
+--- a/externs/es5.js
++++ b/externs/es5.js
+@@ -18,7 +18,6 @@
+  * @fileoverview Definitions for Ecmascript 5.
+  * @see http://www.ecma-international.org/publications/files/drafts/tc39-2009-025.pdf
+  * @externs
+- *
+  */
+ 
+ 
+diff --git a/externs/fileapi.js b/externs/fileapi.js
+index 6664055..fe69418 100644
+--- a/externs/fileapi.js
++++ b/externs/fileapi.js
+@@ -18,7 +18,6 @@
+  * at http://dev.w3.org/2006/webapi/FileAPI/
+  *
+  * @externs
+- *
+  */
+ 
+ 
+diff --git a/externs/flash.js b/externs/flash.js
+index fb2118d..ca773bb 100644
+--- a/externs/flash.js
++++ b/externs/flash.js
+@@ -20,7 +20,6 @@
+  * http://www.adobe.com/support/flash/publishexport/scriptingwithflash/scriptingwithflash_03.html
+  *
+  * @externs
+- *
+  */
+ 
+ 
+diff --git a/externs/gecko_dom.js b/externs/gecko_dom.js
+index bbbfe08..1410113 100644
+--- a/externs/gecko_dom.js
++++ b/externs/gecko_dom.js
+@@ -20,7 +20,6 @@
+  *  w3c_dom2.js.
+  *
+  * @externs
+- *
+  */
+ 
+ // TODO: Almost all of it has not been annotated with types.
+diff --git a/externs/gecko_event.js b/externs/gecko_event.js
+index 62206e2..db55c80 100644
+--- a/externs/gecko_event.js
++++ b/externs/gecko_event.js
+@@ -20,7 +20,6 @@
+  *  w3c_event.js.
+  *
+  * @externs
+- *
+  */
+ 
+ // TODO: Almost all of it has not been annotated with types.
+diff --git a/externs/gecko_xml.js b/externs/gecko_xml.js
+index bd85938..091b4f8 100644
+--- a/externs/gecko_xml.js
++++ b/externs/gecko_xml.js
+@@ -20,7 +20,6 @@
+  *  w3c_xml.js. The whole file has been fully type annotated.
+  *
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/html5.js b/externs/html5.js
+index 2965ee9..bbb69e2 100644
+--- a/externs/html5.js
++++ b/externs/html5.js
+@@ -23,7 +23,6 @@
+  *  This relies on w3c_event.js being included first.
+  *
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/ie_dom.js b/externs/ie_dom.js
+index 46cf18c..f20e741 100644
+--- a/externs/ie_dom.js
++++ b/externs/ie_dom.js
+@@ -20,8 +20,6 @@
+  *  w3c_dom2.js. The whole file has NOT been fully type annotated.
+  *
+  * @externs
+- *
+- *
+  */
+ 
+ // TODO(nicksantos): Rewrite all the DOM interfaces as interfaces, instead
+diff --git a/externs/ie_event.js b/externs/ie_event.js
+index a30dacb..3a0d4f8 100644
+--- a/externs/ie_event.js
++++ b/externs/ie_event.js
+@@ -19,7 +19,6 @@
+  *  w3c_event.js. The whole file has NOT been fully type annotated.
+  *
+  * @externs
+- *
+  */
+ 
+ Event.prototype.Abstract;
+diff --git a/externs/w3c_css.js b/externs/w3c_css.js
+index be7cca7..908bd42 100644
+--- a/externs/w3c_css.js
++++ b/externs/w3c_css.js
+@@ -19,8 +19,6 @@
+  *  The whole file has been fully type annotated.
+  *  http://www.w3.org/TR/DOM-Level-2-Style/css.html
+  * @externs
+- *
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_css3d.js b/externs/w3c_css3d.js
+index 7b838ff..edfb864 100644
+--- a/externs/w3c_css3d.js
++++ b/externs/w3c_css3d.js
+@@ -20,7 +20,6 @@
+  *  http://www.w3.org/TR/css3-3d-transforms/
+  *
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_dom1.js b/externs/w3c_dom1.js
+index 6ee80db..7c2eb21 100644
+--- a/externs/w3c_dom1.js
++++ b/externs/w3c_dom1.js
+@@ -20,8 +20,6 @@
+  *  http://www.w3.org/TR/REC-DOM-Level-1/ecma-script-language-binding.html
+  *
+  * @externs
+- *
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_dom2.js b/externs/w3c_dom2.js
+index 027448a..9d12b2c 100644
+--- a/externs/w3c_dom2.js
++++ b/externs/w3c_dom2.js
+@@ -22,8 +22,6 @@
+  *  http://www.w3.org/TR/REC-DOM-Level-1/ecma-script-language-binding.html
+  *
+  * @externs
+- *
+- *
+  */
+ // All the provided definitions have been type annotated.
+ 
+diff --git a/externs/w3c_dom3.js b/externs/w3c_dom3.js
+index 5612cab..a4861cf 100644
+--- a/externs/w3c_dom3.js
++++ b/externs/w3c_dom3.js
+@@ -22,8 +22,6 @@
+  *   http://www.w3.org/TR/DOM-Level-3-Core/ecma-script-binding.html
+  *
+  * @externs
+- *
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_elementtraversal.js b/externs/w3c_elementtraversal.js
+index 6293712..ea7b8e8 100644
+--- a/externs/w3c_elementtraversal.js
++++ b/externs/w3c_elementtraversal.js
+@@ -22,7 +22,6 @@
+  *    http://www.w3.org/TR/ElementTraversal/#ecmascript-bindings
+  *
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_event.js b/externs/w3c_event.js
+index 9f9d591..4b810b6 100644
+--- a/externs/w3c_event.js
++++ b/externs/w3c_event.js
+@@ -21,7 +21,6 @@
+  *   http://www.w3.org/TR/DOM-Level-2-Events/ecma-script-binding.html
+  *
+  * @externs
+- *
+  */
+ 
+ 
+diff --git a/externs/w3c_event3.js b/externs/w3c_event3.js
+index c8989af..b99ba01 100644
+--- a/externs/w3c_event3.js
++++ b/externs/w3c_event3.js
+@@ -22,7 +22,6 @@
+  *   http://www.w3.org/TR/DOM-Level-3-Events/#ecma-script-binding-ecma-binding
+  *
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_geolocation.js b/externs/w3c_geolocation.js
+index 6ded136..ca390b3 100644
+--- a/externs/w3c_geolocation.js
++++ b/externs/w3c_geolocation.js
+@@ -18,7 +18,6 @@
+  * @fileoverview Definitions for 's Geolocation specification
+  *     http://www.w3.org/TR/geolocation-API/
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_range.js b/externs/w3c_range.js
+index 97058fd..b92a789 100644
+--- a/externs/w3c_range.js
++++ b/externs/w3c_range.js
+@@ -22,8 +22,6 @@
+  *   http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html
+  *
+  * @externs
+- *
+- *
+  */
+ 
+ 
+diff --git a/externs/w3c_selectors.js b/externs/w3c_selectors.js
+index 6e0c0f4..fd7af8a 100644
+--- a/externs/w3c_selectors.js
++++ b/externs/w3c_selectors.js
+@@ -20,7 +20,6 @@
+  *  Created from http://www.w3.org/TR/selectors-api/
+  *
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/w3c_xml.js b/externs/w3c_xml.js
+index a79620c..a871c74 100644
+--- a/externs/w3c_xml.js
++++ b/externs/w3c_xml.js
+@@ -28,8 +28,6 @@
+  * @see http://www.w3.org/TR/XMLHttpRequest/
+  *
+  * @externs
+- *
+- *
+  */
+ 
+ 
+diff --git a/externs/webkit_dom.js b/externs/webkit_dom.js
+index 33115fd..f15d908 100644
+--- a/externs/webkit_dom.js
++++ b/externs/webkit_dom.js
+@@ -20,7 +20,6 @@
+  *  All the provided definitions has been type annotated
+  *
+  * @externs
+- *
+  */
+ 
+ Window.prototype.console = {};
+diff --git a/externs/webkit_event.js b/externs/webkit_event.js
+index 0cb764d..f299229 100644
+--- a/externs/webkit_event.js
++++ b/externs/webkit_event.js
+@@ -20,7 +20,6 @@
+  *  All the provided definitions have been type annotated
+  *
+  * @externs
+- *
+  */
+ 
+ /** @type {number} */
+diff --git a/externs/webkit_notifications.js b/externs/webkit_notifications.js
+index 383f752..b06e9be 100644
+--- a/externs/webkit_notifications.js
++++ b/externs/webkit_notifications.js
+@@ -16,7 +16,6 @@
+ /**
+  * @fileoverview Definitions for W3C's Notifications specification.
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/webstorage.js b/externs/webstorage.js
+index c10bb94..f7fee24 100644
+--- a/externs/webstorage.js
++++ b/externs/webstorage.js
+@@ -17,7 +17,6 @@
+  * @fileoverview Definitions for W3C's WebStorage specificiation.
+  * This file depends on html5.js.
+  * @externs
+- *
+  */
+ 
+ /**
+diff --git a/externs/window.js b/externs/window.js
+index 1f1fb19..8a44e9d 100644
+--- a/externs/window.js
++++ b/externs/window.js
+@@ -18,8 +18,6 @@
+  * @fileoverview Java Script Builtins for windows properties.
+  *
+  * @externs
+- *
+- *
+  */
+ 
+ // Window properties
+diff --git a/src/com/google/javascript/jscomp/AbstractMessageFormatter.java b/src/com/google/javascript/jscomp/AbstractMessageFormatter.java
+index 86d59c2..ff7058e 100644
+--- a/src/com/google/javascript/jscomp/AbstractMessageFormatter.java
++++ b/src/com/google/javascript/jscomp/AbstractMessageFormatter.java
+@@ -24,7 +24,6 @@ import java.util.Set;
+  * Abstract message formatter providing default behavior for implementations
+  * of {@link MessageFormatter} needing a {@link SourceExcerptProvider}.
+  *
+- *
+  */
+ public abstract class AbstractMessageFormatter implements MessageFormatter {
+   private final SourceExcerptProvider source;
+diff --git a/src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java b/src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java
+index ebecd13..40e93ac 100644
+--- a/src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java
++++ b/src/com/google/javascript/jscomp/AbstractPeepholeOptimization.java
+@@ -26,7 +26,6 @@ import com.google.javascript.rhino.Token;
+  * optimizations that look at a small section of code and either remove
+  * that code (if it is not needed) or replaces it with smaller code.
+  *
+- *
+  */
+ abstract class AbstractPeepholeOptimization {
+ 
+diff --git a/src/com/google/javascript/jscomp/AliasExternals.java b/src/com/google/javascript/jscomp/AliasExternals.java
+index 9562d8c..da73878 100644
+--- a/src/com/google/javascript/jscomp/AliasExternals.java
++++ b/src/com/google/javascript/jscomp/AliasExternals.java
+@@ -72,7 +72,6 @@ import java.util.Set;
+  *
+  * <p>Globals that are lvalues are not aliased.</p>
+  *
+- *
+  */
+ class AliasExternals implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/AliasKeywords.java b/src/com/google/javascript/jscomp/AliasKeywords.java
+index d020c89..e532675 100644
+--- a/src/com/google/javascript/jscomp/AliasKeywords.java
++++ b/src/com/google/javascript/jscomp/AliasKeywords.java
+@@ -34,7 +34,6 @@ import java.util.Set;
+  * number of bytes taken up by references to these keywords by replacing them
+  * with references to variables and functions with shorter names.</p>
+  *
+- *
+  */
+ class AliasKeywords implements CompilerPass {
+   /** Callback that finds the nodes that we will alias. */
+diff --git a/src/com/google/javascript/jscomp/AliasStrings.java b/src/com/google/javascript/jscomp/AliasStrings.java
+index 58d0d09..4003a29 100644
+--- a/src/com/google/javascript/jscomp/AliasStrings.java
++++ b/src/com/google/javascript/jscomp/AliasStrings.java
+@@ -39,7 +39,6 @@ import java.util.zip.CRC32;
+  * applications. Strings that should be aliased occur many times in the code,
+  * or occur on codepaths that get executed frequently.
+  *
+- *
+  */
+ class AliasStrings extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/AmbiguateProperties.java b/src/com/google/javascript/jscomp/AmbiguateProperties.java
+index da251f4..72e065e 100644
+--- a/src/com/google/javascript/jscomp/AmbiguateProperties.java
++++ b/src/com/google/javascript/jscomp/AmbiguateProperties.java
+@@ -75,7 +75,6 @@ import java.util.logging.Logger;
+  *   Bar.a = 0;
+  * </code>
+  *
+- *
+  */
+ class AmbiguateProperties implements CompilerPass {
+   private static final Logger logger = Logger.getLogger(
+diff --git a/src/com/google/javascript/jscomp/AnalyzeNameReferences.java b/src/com/google/javascript/jscomp/AnalyzeNameReferences.java
+index 7ab57e4..ea4dadd 100644
+--- a/src/com/google/javascript/jscomp/AnalyzeNameReferences.java
++++ b/src/com/google/javascript/jscomp/AnalyzeNameReferences.java
+@@ -38,7 +38,6 @@ import com.google.javascript.rhino.Node;
+  * This is an analysis based on {@link AnalyzeNameReferences} using the more
+  * accurate graph and will soon replace it.
+  *
+- *
+  */
+ class AnalyzeNameReferences implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java b/src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java
+index bebaa8b..e66cd0d 100644
+--- a/src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java
++++ b/src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java
+@@ -48,8 +48,6 @@ import java.util.Stack;
+  * Global functions are also represented by nodes in this graph, with
+  * similar semantics.
+  *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ class AnalyzePrototypeProperties implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/AnonymousFunctionNamingCallback.java b/src/com/google/javascript/jscomp/AnonymousFunctionNamingCallback.java
+index 1ef26fd..6514f62 100644
+--- a/src/com/google/javascript/jscomp/AnonymousFunctionNamingCallback.java
++++ b/src/com/google/javascript/jscomp/AnonymousFunctionNamingCallback.java
+@@ -31,7 +31,6 @@ import com.google.javascript.rhino.Token;
+  * goog.string.htmlEscape = function(str) {
+  * }
+  *
+- *
+  */
+ class AnonymousFunctionNamingCallback
+     extends AbstractPostOrderCallback {
+diff --git a/src/com/google/javascript/jscomp/AstChangeProxy.java b/src/com/google/javascript/jscomp/AstChangeProxy.java
+index 8b569ec..840e005 100644
+--- a/src/com/google/javascript/jscomp/AstChangeProxy.java
++++ b/src/com/google/javascript/jscomp/AstChangeProxy.java
+@@ -27,7 +27,6 @@ import java.util.List;
+  * Proxy that provides a high level interface that compiler passes can
+  * use to replace or remove sections of the AST.
+  *
+- *
+  */
+ class AstChangeProxy {
+ 
+diff --git a/src/com/google/javascript/jscomp/AstParallelizer.java b/src/com/google/javascript/jscomp/AstParallelizer.java
+index d03302e..c789328 100644
+--- a/src/com/google/javascript/jscomp/AstParallelizer.java
++++ b/src/com/google/javascript/jscomp/AstParallelizer.java
+@@ -32,7 +32,6 @@ import java.util.List;
+  * transformation safe, it is still up to individual passes to preserve proper
+  * semantics when analyzing the subtrees.
+  *
+- *
+  */
+ class AstParallelizer {
+ 
+diff --git a/src/com/google/javascript/jscomp/BasicErrorManager.java b/src/com/google/javascript/jscomp/BasicErrorManager.java
+index c85cf0f..61041bf 100644
+--- a/src/com/google/javascript/jscomp/BasicErrorManager.java
++++ b/src/com/google/javascript/jscomp/BasicErrorManager.java
+@@ -33,8 +33,6 @@ import java.util.SortedSet;
+  * override the {@link #println(CheckLevel, JSError)} method to generate custom
+  * output.</p>
+  *
+- *
+- *
+  */
+ public abstract class BasicErrorManager implements ErrorManager {
+   private final SortedSet<ErrorWithLevel> messages =
+diff --git a/src/com/google/javascript/jscomp/ChainCalls.java b/src/com/google/javascript/jscomp/ChainCalls.java
+index bc8b2ec..6de1610 100644
+--- a/src/com/google/javascript/jscomp/ChainCalls.java
++++ b/src/com/google/javascript/jscomp/ChainCalls.java
+@@ -32,7 +32,6 @@ import java.util.Set;
+ /**
+  * Chain calls to functions that return this.
+  *
+- *
+  */
+ class ChainCalls implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/ChainableReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/ChainableReverseAbstractInterpreter.java
+index 710ebbd..08e65ae 100644
+--- a/src/com/google/javascript/jscomp/ChainableReverseAbstractInterpreter.java
++++ b/src/com/google/javascript/jscomp/ChainableReverseAbstractInterpreter.java
+@@ -45,7 +45,6 @@ import com.google.javascript.rhino.Token;
+ /**
+  * Chainable reverse abstract interpreter providing basic functionality.
+  *
+- *
+  */
+ abstract class ChainableReverseAbstractInterpreter
+     implements ReverseAbstractInterpreter {
+diff --git a/src/com/google/javascript/jscomp/CheckAccidentalSemicolon.java b/src/com/google/javascript/jscomp/CheckAccidentalSemicolon.java
+index 14f7c95..ead9ab1 100644
+--- a/src/com/google/javascript/jscomp/CheckAccidentalSemicolon.java
++++ b/src/com/google/javascript/jscomp/CheckAccidentalSemicolon.java
+@@ -28,8 +28,6 @@ import com.google.javascript.rhino.Token;
+  * </pre>
+  * and generates warnings.
+  *
+- *
+- *
+  */
+ final class CheckAccidentalSemicolon extends AbstractPostOrderCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/CheckGlobalThis.java b/src/com/google/javascript/jscomp/CheckGlobalThis.java
+index b523c20..e594ec1 100644
+--- a/src/com/google/javascript/jscomp/CheckGlobalThis.java
++++ b/src/com/google/javascript/jscomp/CheckGlobalThis.java
+@@ -53,8 +53,6 @@ import com.google.javascript.rhino.Token;
+  * </pre>
+  * which would get flagged.
+  *
+- *
+- *
+  */
+ final class CheckGlobalThis implements Callback {
+ 
+diff --git a/src/com/google/javascript/jscomp/CheckLevel.java b/src/com/google/javascript/jscomp/CheckLevel.java
+index 7a12922..1c92855 100644
+--- a/src/com/google/javascript/jscomp/CheckLevel.java
++++ b/src/com/google/javascript/jscomp/CheckLevel.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+  * forward, this should be used instead of booleans, so teams and
+  * individuals can control which checks are off, which produce only warnings,
+  * and which produce errors, without everyone having to agree.
+- *
+  */
+ public enum CheckLevel {
+   ERROR,
+diff --git a/src/com/google/javascript/jscomp/CheckLevelLegacy.java b/src/com/google/javascript/jscomp/CheckLevelLegacy.java
+index 9eed95b..15fce0a 100644
+--- a/src/com/google/javascript/jscomp/CheckLevelLegacy.java
++++ b/src/com/google/javascript/jscomp/CheckLevelLegacy.java
+@@ -21,7 +21,6 @@ package com.google.javascript.jscomp;
+  * must be converted to CheckLevel enums before being used to control
+  * options.  Only use this for legacy flags.  For new flags, simply use
+  * {@link CheckLevel}.
+- *
+  */
+ public enum CheckLevelLegacy {
+   LEGACY,
+diff --git a/src/com/google/javascript/jscomp/CheckMissingGetCssName.java b/src/com/google/javascript/jscomp/CheckMissingGetCssName.java
+index e4072df..cc30013 100644
+--- a/src/com/google/javascript/jscomp/CheckMissingGetCssName.java
++++ b/src/com/google/javascript/jscomp/CheckMissingGetCssName.java
+@@ -26,7 +26,6 @@ import java.util.regex.Pattern;
+  * Ensures string literals matching certain patterns are only used as
+  * goog.getCssName parameters.
+  *
+- *
+  */
+ class CheckMissingGetCssName
+     extends AbstractPostOrderCallback implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/CheckMissingReturn.java b/src/com/google/javascript/jscomp/CheckMissingReturn.java
+index ba593ad..f6afadd 100644
+--- a/src/com/google/javascript/jscomp/CheckMissingReturn.java
++++ b/src/com/google/javascript/jscomp/CheckMissingReturn.java
+@@ -32,7 +32,6 @@ import com.google.javascript.rhino.jstype.TernaryValue;
+  * expected for functions with return type information. Functions with empty
+  * bodies are ignored.
+  *
+- *
+  */
+ class CheckMissingReturn implements ScopedCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/CheckPathsBetweenNodes.java b/src/com/google/javascript/jscomp/CheckPathsBetweenNodes.java
+index 340e266..453e00c 100644
+--- a/src/com/google/javascript/jscomp/CheckPathsBetweenNodes.java
++++ b/src/com/google/javascript/jscomp/CheckPathsBetweenNodes.java
+@@ -28,8 +28,6 @@ import com.google.javascript.jscomp.graph.DiGraph.DiGraphNode;
+  * description of this algorithm.
+  *
+  *
+- *
+- *
+  * @param <N> The node type.
+  * @param <E> The edge type.
+  */
+diff --git a/src/com/google/javascript/jscomp/CheckProvides.java b/src/com/google/javascript/jscomp/CheckProvides.java
+index 60882c0..da8a715 100644
+--- a/src/com/google/javascript/jscomp/CheckProvides.java
++++ b/src/com/google/javascript/jscomp/CheckProvides.java
+@@ -28,7 +28,6 @@ import java.util.Map;
+ /**
+  * Insures '@constructor X' has a 'goog.provide("X")' .
+  *
+- *
+  */
+ class CheckProvides implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/CheckRequiresForConstructors.java b/src/com/google/javascript/jscomp/CheckRequiresForConstructors.java
+index e67359e..3e4a1cf 100644
+--- a/src/com/google/javascript/jscomp/CheckRequiresForConstructors.java
++++ b/src/com/google/javascript/jscomp/CheckRequiresForConstructors.java
+@@ -34,7 +34,6 @@ import java.util.Set;
+  * 'goog.require' nodes. It reconciles these Collections, creating a
+  * warning for each discrepancy.
+  *
+- *
+  */
+ class CheckRequiresForConstructors implements CompilerPass {
+   private final AbstractCompiler compiler;
+@@ -67,7 +66,6 @@ class CheckRequiresForConstructors implements CompilerPass {
+    * This class "records" each constructor and goog.require visited and creates
+    * a warning for each new node without an appropriate goog.require node.
+    *
+-   *
+    */
+   private class CheckRequiresForConstructorsCallback implements Callback {
+     private final List<String> constructors = Lists.newArrayList();
+diff --git a/src/com/google/javascript/jscomp/CheckSideEffects.java b/src/com/google/javascript/jscomp/CheckSideEffects.java
+index 73cd8a4..2a48ad9 100644
+--- a/src/com/google/javascript/jscomp/CheckSideEffects.java
++++ b/src/com/google/javascript/jscomp/CheckSideEffects.java
+@@ -31,8 +31,6 @@ import com.google.javascript.rhino.Token;
+  * </p>
+  * and generates warnings.
+  *
+- *
+- *
+  */
+ final class CheckSideEffects extends AbstractPostOrderCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/CheckUnreachableCode.java b/src/com/google/javascript/jscomp/CheckUnreachableCode.java
+index af13b13..735c7f1 100644
+--- a/src/com/google/javascript/jscomp/CheckUnreachableCode.java
++++ b/src/com/google/javascript/jscomp/CheckUnreachableCode.java
+@@ -31,7 +31,6 @@ import com.google.javascript.rhino.jstype.TernaryValue;
+  * Use {@link ControlFlowGraph} and {@link GraphReachability} to inform user
+  * about unreachable code.
+  *
+- *
+  */
+ class CheckUnreachableCode implements ScopedCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/ClosureCodingConvention.java b/src/com/google/javascript/jscomp/ClosureCodingConvention.java
+index 0ef0dca..0cfcc19 100644
+--- a/src/com/google/javascript/jscomp/ClosureCodingConvention.java
++++ b/src/com/google/javascript/jscomp/ClosureCodingConvention.java
+@@ -34,8 +34,6 @@ import java.util.Set;
+ /**
+  * This describes the Closure-specific JavaScript coding conventions.
+  *
+- *
+- *
+  */
+ public class ClosureCodingConvention extends DefaultCodingConvention {
+ 
+diff --git a/src/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java
+index 792b3fe..03820b5 100644
+--- a/src/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java
++++ b/src/com/google/javascript/jscomp/ClosureReverseAbstractInterpreter.java
+@@ -40,7 +40,6 @@ import java.util.Map;
+  * A reverse abstract interpreter (RAI) for specific closure patterns such as
+  * {@code goog.isDef}.
+  *
+- *
+  */
+ class ClosureReverseAbstractInterpreter
+     extends ChainableReverseAbstractInterpreter {
+diff --git a/src/com/google/javascript/jscomp/CoalesceVariableNames.java b/src/com/google/javascript/jscomp/CoalesceVariableNames.java
+index 1eca4c6..153bd50 100644
+--- a/src/com/google/javascript/jscomp/CoalesceVariableNames.java
++++ b/src/com/google/javascript/jscomp/CoalesceVariableNames.java
+@@ -57,7 +57,6 @@ import java.util.Set;
+  * graph coloring in {@link GraphColoring} to determine which two variables can
+  * be merge together safely.
+  *
+- *
+  */
+ class CoalesceVariableNames extends AbstractPostOrderCallback implements
+     CompilerPass, ScopedCallback {
+diff --git a/src/com/google/javascript/jscomp/CodeConsumer.java b/src/com/google/javascript/jscomp/CodeConsumer.java
+index 8468b7e..87be110 100644
+--- a/src/com/google/javascript/jscomp/CodeConsumer.java
++++ b/src/com/google/javascript/jscomp/CodeConsumer.java
+@@ -25,9 +25,6 @@ import com.google.javascript.rhino.Node;
+  * @see CodeGenerator
+  * @see CodePrinter
+  * @see InlineCostEstimator
+- *
+- *
+- *
+  */
+ abstract class CodeConsumer {
+   boolean statementNeedsEnded = false;
+diff --git a/src/com/google/javascript/jscomp/CodeGenerator.java b/src/com/google/javascript/jscomp/CodeGenerator.java
+index c6b4889..24bd6b4 100644
+--- a/src/com/google/javascript/jscomp/CodeGenerator.java
++++ b/src/com/google/javascript/jscomp/CodeGenerator.java
+@@ -31,8 +31,6 @@ import java.nio.charset.CharsetEncoder;
+  * CodeGenerator generates codes from a parse tree, sending it to the specified
+  * CodeConsumer.
+  *
+- *
+- *
+  */
+ class CodeGenerator {
+ 
+diff --git a/src/com/google/javascript/jscomp/CodePrinter.java b/src/com/google/javascript/jscomp/CodePrinter.java
+index 03a95a9..4dbcdf1 100644
+--- a/src/com/google/javascript/jscomp/CodePrinter.java
++++ b/src/com/google/javascript/jscomp/CodePrinter.java
+@@ -30,8 +30,6 @@ import java.util.List;
+  * CodePrinter prints out js code in either pretty format or compact format.
+  *
+  * @see CodeGenerator
+- *
+- *
+  */
+ class CodePrinter {
+   // The number of characters after which we insert a line break in the code
+diff --git a/src/com/google/javascript/jscomp/CodingConvention.java b/src/com/google/javascript/jscomp/CodingConvention.java
+index 521bc0b..3e4d677 100644
+--- a/src/com/google/javascript/jscomp/CodingConvention.java
++++ b/src/com/google/javascript/jscomp/CodingConvention.java
+@@ -31,8 +31,6 @@ import java.util.List;
+  *
+  * // TODO(bolinfest): Tighten up this interface -- it is far too big.
+  *
+- *
+- *
+  */
+ public interface CodingConvention extends Serializable {
+ 
+diff --git a/src/com/google/javascript/jscomp/CollapseAnonymousFunctions.java b/src/com/google/javascript/jscomp/CollapseAnonymousFunctions.java
+index 4405473..d5772f9 100644
+--- a/src/com/google/javascript/jscomp/CollapseAnonymousFunctions.java
++++ b/src/com/google/javascript/jscomp/CollapseAnonymousFunctions.java
+@@ -35,7 +35,6 @@ import com.google.javascript.rhino.Token;
+  * This reduces the generated code size but changes the semantics because f
+  * will be defined before its definition is reached.
+  *
+- *
+  */
+ class CollapseAnonymousFunctions implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/CollapseProperties.java b/src/com/google/javascript/jscomp/CollapseProperties.java
+index 9f0cb36..b282782 100644
+--- a/src/com/google/javascript/jscomp/CollapseProperties.java
++++ b/src/com/google/javascript/jscomp/CollapseProperties.java
+@@ -67,8 +67,6 @@ import java.util.Set;
+  *
+  * <p>For lots of examples, see the unit test.
+  *
+- *
+- *
+  */
+ class CollapseProperties implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java b/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java
+index f57da92..bea3fc3 100644
+--- a/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java
++++ b/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java
+@@ -58,8 +58,6 @@ import java.util.Set;
+  *
+  * <pre>var c = b = a = true;</pre>
+  *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ class CollapseVariableDeclarations implements CompilerPass {
+   /** Reference to JS Compiler */
+diff --git a/src/com/google/javascript/jscomp/CombinedCompilerPass.java b/src/com/google/javascript/jscomp/CombinedCompilerPass.java
+index e792abb..7dea128 100644
+--- a/src/com/google/javascript/jscomp/CombinedCompilerPass.java
++++ b/src/com/google/javascript/jscomp/CombinedCompilerPass.java
+@@ -44,7 +44,6 @@ import java.util.List;
+  * back into this compiler pass to give it context about what combined
+  * passes are doing.</p>
+  *
+- *
+  */
+ final class CombinedCompilerPass implements CompilerPass, ScopedCallback {
+ 
+@@ -88,7 +87,6 @@ final class CombinedCompilerPass implements CompilerPass, ScopedCallback {
+    * The callback becomes inactive (i.e., traversal messages are not sent to it)
+    * until the main traversal revisits the node during the post-order visit.
+    *
+-   *
+    */
+   private static class CallbackWrapper {
+     /** The callback being wrapped. Never null. */
+diff --git a/src/com/google/javascript/jscomp/Compiler.java b/src/com/google/javascript/jscomp/Compiler.java
+index 618a836..9b9524e 100644
+--- a/src/com/google/javascript/jscomp/Compiler.java
++++ b/src/com/google/javascript/jscomp/Compiler.java
+@@ -59,8 +59,6 @@ import java.util.logging.Logger;
+  * may include definitions for global javascript/browser objects such as
+  * window, document.
+  *
+- *
+- *
+  */
+ public class Compiler extends AbstractCompiler {
+   CompilerOptions options = null;
+diff --git a/src/com/google/javascript/jscomp/CompilerInput.java b/src/com/google/javascript/jscomp/CompilerInput.java
+index 3e16632..9b0a7fe 100644
+--- a/src/com/google/javascript/jscomp/CompilerInput.java
++++ b/src/com/google/javascript/jscomp/CompilerInput.java
+@@ -36,7 +36,6 @@ import java.util.Set;
+  * Wraps a {@link SourceAst} and maintain state such as module for the input and
+  * whether the input is an extern. Also calculates provided and required types.
+  *
+- *
+  */
+ public class CompilerInput implements SourceAst, DependencyInfo {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/jscomp/CompilerPass.java b/src/com/google/javascript/jscomp/CompilerPass.java
+index 775f3ed..68c83ba 100644
+--- a/src/com/google/javascript/jscomp/CompilerPass.java
++++ b/src/com/google/javascript/jscomp/CompilerPass.java
+@@ -28,7 +28,6 @@ import com.google.javascript.rhino.Node;
+  *
+  * <p>Use this class to support testing with BaseCompilerTest</p>
+  *
+- *
+  */
+ public interface CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/ConcreteType.java b/src/com/google/javascript/jscomp/ConcreteType.java
+index 01dbb15..e8691c4 100644
+--- a/src/com/google/javascript/jscomp/ConcreteType.java
++++ b/src/com/google/javascript/jscomp/ConcreteType.java
+@@ -43,7 +43,6 @@ import java.util.Set;
+  *
+  * These types are computed by {@code TightenTypes}.
+  *
+- *
+  */
+ abstract class ConcreteType implements LatticeElement {
+   /** Static instance of the empty set of concrete types. */
+diff --git a/src/com/google/javascript/jscomp/ConstCheck.java b/src/com/google/javascript/jscomp/ConstCheck.java
+index 805e859..4616452 100644
+--- a/src/com/google/javascript/jscomp/ConstCheck.java
++++ b/src/com/google/javascript/jscomp/ConstCheck.java
+@@ -28,9 +28,6 @@ import java.util.*;
+  * XX = 3;    // error!
+  * XX++;      // error!
+  *
+- *
+- *
+- *
+  */
+ class ConstCheck extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/ControlFlowAnalysis.java b/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
+index 711f2c1..acf598b 100644
+--- a/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
++++ b/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
+@@ -37,7 +37,6 @@ import java.util.PriorityQueue;
+ /**
+  * This is a compiler pass that computes a control flow graph.
+  *
+- *
+  */
+ final class ControlFlowAnalysis implements Callback, CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/ControlFlowGraph.java b/src/com/google/javascript/jscomp/ControlFlowGraph.java
+index 278729f..fe7b1e4 100644
+--- a/src/com/google/javascript/jscomp/ControlFlowGraph.java
++++ b/src/com/google/javascript/jscomp/ControlFlowGraph.java
+@@ -27,7 +27,6 @@ import java.util.Comparator;
+  * Control flow graph.
+  *
+  *
+- *
+  * @param <N> The instruction type of the control flow graph.
+  */
+ class ControlFlowGraph<N> extends
+diff --git a/src/com/google/javascript/jscomp/ControlStructureCheck.java b/src/com/google/javascript/jscomp/ControlStructureCheck.java
+index 6aee985..7db06aa 100644
+--- a/src/com/google/javascript/jscomp/ControlStructureCheck.java
++++ b/src/com/google/javascript/jscomp/ControlStructureCheck.java
+@@ -23,7 +23,6 @@ import com.google.javascript.rhino.Token;
+ /**
+  * Check for invalid breaks and continues in the program.
+  *
+- *
+  */
+ class ControlStructureCheck implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/ConvertToDottedProperties.java b/src/com/google/javascript/jscomp/ConvertToDottedProperties.java
+index 10e7a48..f5af8fe 100644
+--- a/src/com/google/javascript/jscomp/ConvertToDottedProperties.java
++++ b/src/com/google/javascript/jscomp/ConvertToDottedProperties.java
+@@ -25,7 +25,6 @@ import com.google.javascript.rhino.Token;
+  * possible. Dot syntax is more compact and avoids an object allocation in
+  * IE 6.
+  *
+- *
+  */
+ class ConvertToDottedProperties extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/CreateSyntheticBlocks.java b/src/com/google/javascript/jscomp/CreateSyntheticBlocks.java
+index 75d8d6f..a459354 100644
+--- a/src/com/google/javascript/jscomp/CreateSyntheticBlocks.java
++++ b/src/com/google/javascript/jscomp/CreateSyntheticBlocks.java
+@@ -31,8 +31,6 @@ import javax.annotation.Nullable;
+  * Creates synthetic blocks to optimizations from moving code
+  * past markers in the source.
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ class CreateSyntheticBlocks implements CompilerPass {
+   static final DiagnosticType UNMATCHED_START_MARKER = DiagnosticType.warning(
+diff --git a/src/com/google/javascript/jscomp/CrossModuleCodeMotion.java b/src/com/google/javascript/jscomp/CrossModuleCodeMotion.java
+index d560832..3a94627 100755
+--- a/src/com/google/javascript/jscomp/CrossModuleCodeMotion.java
++++ b/src/com/google/javascript/jscomp/CrossModuleCodeMotion.java
+@@ -35,7 +35,6 @@ import java.util.logging.Logger;
+  * A {@link Compiler} pass for moving code to a deeper module if possible.
+  * - currently it only moves functions + variables
+  *
+- *
+  */
+ class CrossModuleCodeMotion extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/CssRenamingMap.java b/src/com/google/javascript/jscomp/CssRenamingMap.java
+index b1a2fee..1fad533 100644
+--- a/src/com/google/javascript/jscomp/CssRenamingMap.java
++++ b/src/com/google/javascript/jscomp/CssRenamingMap.java
+@@ -18,7 +18,6 @@ package com.google.javascript.jscomp;
+ 
+ /**
+  * Interface used by {@link ReplaceCssNames} to substitute CSS class names.
+- *
+  */
+ public interface CssRenamingMap {
+   String get(String value);
+diff --git a/src/com/google/javascript/jscomp/DataFlowAnalysis.java b/src/com/google/javascript/jscomp/DataFlowAnalysis.java
+index f804c99..bc0426a 100644
+--- a/src/com/google/javascript/jscomp/DataFlowAnalysis.java
++++ b/src/com/google/javascript/jscomp/DataFlowAnalysis.java
+@@ -79,7 +79,6 @@ import java.util.Set;
+  * nodes of the control flow graph will be lost.
+  *
+  *
+- *
+  * @param <N> The control flow graph's node value type.
+  * @param <L> Lattice element type.
+  */
+diff --git a/src/com/google/javascript/jscomp/DeadAssignmentsElimination.java b/src/com/google/javascript/jscomp/DeadAssignmentsElimination.java
+index 23bf46c..06beaa4 100644
+--- a/src/com/google/javascript/jscomp/DeadAssignmentsElimination.java
++++ b/src/com/google/javascript/jscomp/DeadAssignmentsElimination.java
+@@ -34,7 +34,6 @@ import com.google.javascript.rhino.Token;
+  * {@code x} and {@code x} is dead after this assignment, we know that the
+  * current content of {@code x} will not be read and this assignment is useless.
+  *
+- *
+  */
+ class DeadAssignmentsElimination extends AbstractPostOrderCallback implements
+     CompilerPass, ScopedCallback {
+diff --git a/src/com/google/javascript/jscomp/DefaultCodingConvention.java b/src/com/google/javascript/jscomp/DefaultCodingConvention.java
+index a9cd79b..0577b81 100644
+--- a/src/com/google/javascript/jscomp/DefaultCodingConvention.java
++++ b/src/com/google/javascript/jscomp/DefaultCodingConvention.java
+@@ -28,8 +28,6 @@ import java.util.List;
+  * CodingConvention defines a set of hooks to customize the behavior of the
+  * Compiler for a specific team/company.
+  *
+- *
+- *
+  */
+ public class DefaultCodingConvention implements CodingConvention {
+ 
+diff --git a/src/com/google/javascript/jscomp/DefinitionProvider.java b/src/com/google/javascript/jscomp/DefinitionProvider.java
+index 0a1bf04..9cae38e 100644
+--- a/src/com/google/javascript/jscomp/DefinitionProvider.java
++++ b/src/com/google/javascript/jscomp/DefinitionProvider.java
+@@ -24,7 +24,6 @@ import java.util.Collection;
+ /**
+  * Maps variable uses sites to variable definition sites.
+  *
+- *
+  */
+ interface DefinitionProvider {
+   /**
+diff --git a/src/com/google/javascript/jscomp/DefinitionSite.java b/src/com/google/javascript/jscomp/DefinitionSite.java
+index 24931d2..b992d46 100644
+--- a/src/com/google/javascript/jscomp/DefinitionSite.java
++++ b/src/com/google/javascript/jscomp/DefinitionSite.java
+@@ -24,7 +24,6 @@ import com.google.javascript.rhino.Node;
+  * Includes the definition node, and context in which the definition
+  * occurs - including the definition module.
+  *
+- *
+  */
+ 
+ class DefinitionSite {
+diff --git a/src/com/google/javascript/jscomp/DefinitionsRemover.java b/src/com/google/javascript/jscomp/DefinitionsRemover.java
+index adb6270..3091967 100644
+--- a/src/com/google/javascript/jscomp/DefinitionsRemover.java
++++ b/src/com/google/javascript/jscomp/DefinitionsRemover.java
+@@ -26,7 +26,6 @@ import java.util.Set;
+ /**
+  * Models an assignment that defines a variable and the removal of it.
+  *
+- *
+  */
+ class DefinitionsRemover {
+ 
+diff --git a/src/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java b/src/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java
+index 65f5d71..6cc7241 100644
+--- a/src/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java
++++ b/src/com/google/javascript/jscomp/DevirtualizePrototypeMethods.java
+@@ -62,7 +62,6 @@ import java.util.List;
+  *     var total = accumulate(a, 2)
+  * </pre>
+  *
+- *
+  */
+ class DevirtualizePrototypeMethods implements SpecializationAwareCompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/DiagnosticType.java b/src/com/google/javascript/jscomp/DiagnosticType.java
+index 663d2fa..f0d1898 100644
+--- a/src/com/google/javascript/jscomp/DiagnosticType.java
++++ b/src/com/google/javascript/jscomp/DiagnosticType.java
+@@ -22,7 +22,6 @@ import java.text.MessageFormat;
+ /**
+  * The type of a compile or analysis error.
+  *
+- *
+  */
+ public class DiagnosticType implements Comparable<DiagnosticType> {
+   /**
+diff --git a/src/com/google/javascript/jscomp/DisambiguateProperties.java b/src/com/google/javascript/jscomp/DisambiguateProperties.java
+index 81df478..b60d46e 100644
+--- a/src/com/google/javascript/jscomp/DisambiguateProperties.java
++++ b/src/com/google/javascript/jscomp/DisambiguateProperties.java
+@@ -72,7 +72,6 @@ import java.util.logging.Logger;
+  *   Bar.a$Bar;
+  * </pre>
+  *
+- *
+  */
+ class DisambiguateProperties<T> implements CompilerPass {
+   private static final Logger logger = Logger.getLogger(
+diff --git a/src/com/google/javascript/jscomp/DotFormatter.java b/src/com/google/javascript/jscomp/DotFormatter.java
+index f6a9314..b3bb62f 100644
+--- a/src/com/google/javascript/jscomp/DotFormatter.java
++++ b/src/com/google/javascript/jscomp/DotFormatter.java
+@@ -40,7 +40,6 @@ import java.util.List;
+  * <p>This class is <b>not</b> thread safe and should not be used without proper
+  * external synchronization.</p>
+  *
+- *
+  */
+ public class DotFormatter {
+   private static final String INDENT = "  ";
+diff --git a/src/com/google/javascript/jscomp/ErrorManager.java b/src/com/google/javascript/jscomp/ErrorManager.java
+index f3595f4..ae41730 100644
+--- a/src/com/google/javascript/jscomp/ErrorManager.java
++++ b/src/com/google/javascript/jscomp/ErrorManager.java
+@@ -22,7 +22,6 @@ import com.google.javascript.jscomp.CheckLevel;
+  * The error manager is in charge of storing, organizing and displaying
+  * errors and warnings generated by the compiler.
+  *
+- *
+  */
+ public interface ErrorManager {
+   /**
+diff --git a/src/com/google/javascript/jscomp/ErrorPass.java b/src/com/google/javascript/jscomp/ErrorPass.java
+index a21cd87..dd482b1 100644
+--- a/src/com/google/javascript/jscomp/ErrorPass.java
++++ b/src/com/google/javascript/jscomp/ErrorPass.java
+@@ -21,7 +21,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * A compiler pass that just reports an error.
+  *
+- *
+  */
+ 
+ class ErrorPass implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/ExportTestFunctions.java b/src/com/google/javascript/jscomp/ExportTestFunctions.java
+index 974705c..d04ffbe 100644
+--- a/src/com/google/javascript/jscomp/ExportTestFunctions.java
++++ b/src/com/google/javascript/jscomp/ExportTestFunctions.java
+@@ -25,7 +25,6 @@ import java.util.regex.Pattern;
+  * Generates goog.exportSymbol for test functions, so they can be recognized
+  * by the test runner, even if the code is compiled.
+  *
+- *
+  */
+ class ExportTestFunctions implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/ExternExportsPass.java b/src/com/google/javascript/jscomp/ExternExportsPass.java
+index f72419d..ae9da10 100644
+--- a/src/com/google/javascript/jscomp/ExternExportsPass.java
++++ b/src/com/google/javascript/jscomp/ExternExportsPass.java
+@@ -38,8 +38,6 @@ import java.util.TreeSet;
+  * Creates an externs file containing all exported symbols and properties
+  * for later consumption.
+  *
+- *
+- * @author dcc@google.com (Devin Coughlin)
+  */
+ final class ExternExportsPass extends NodeTraversal.AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarations.java b/src/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarations.java
+index 4a4396e..4d32d91 100644
+--- a/src/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarations.java
++++ b/src/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarations.java
+@@ -72,7 +72,6 @@ import java.util.List;
+  * Such logic is highly unlikely and we will assume that it never occurs.
+  *
+  *
+- *
+  */
+ class ExtractPrototypeMemberDeclarations implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/FindExportableNodes.java b/src/com/google/javascript/jscomp/FindExportableNodes.java
+index 23de6e7..9c5518f 100644
+--- a/src/com/google/javascript/jscomp/FindExportableNodes.java
++++ b/src/com/google/javascript/jscomp/FindExportableNodes.java
+@@ -40,7 +40,6 @@ import java.util.LinkedHashMap;
+  * are not supported because the annotation is ambigous to whether it applies
+  * to all the variables or only the first one.
+  *
+- *
+  */
+ public class FindExportableNodes extends AbstractPostOrderCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java b/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
+index e6026d9..69d78e2 100644
+--- a/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
++++ b/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
+@@ -52,7 +52,6 @@ import java.util.List;
+  * <p>Other requirements can be found in {@link Candidate#canInline}. Currently
+  * this pass does not operate on the global scope due to compilation time.
+  *
+- *
+  */
+ class FlowSensitiveInlineVariables extends AbstractPostOrderCallback
+     implements CompilerPass, ScopedCallback {
+diff --git a/src/com/google/javascript/jscomp/FunctionNames.java b/src/com/google/javascript/jscomp/FunctionNames.java
+index 3e634bc..e1ab24d 100644
+--- a/src/com/google/javascript/jscomp/FunctionNames.java
++++ b/src/com/google/javascript/jscomp/FunctionNames.java
+@@ -44,7 +44,6 @@ import java.util.*;
+  *  goog.widget::local_fn
+  *  goog.widget::<anonymous>
+  *
+- *
+  */
+ 
+ class FunctionNames implements CompilerPass, Serializable {
+diff --git a/src/com/google/javascript/jscomp/FunctionRewriter.java b/src/com/google/javascript/jscomp/FunctionRewriter.java
+index 168fb97..a14e21f 100644
+--- a/src/com/google/javascript/jscomp/FunctionRewriter.java
++++ b/src/com/google/javascript/jscomp/FunctionRewriter.java
+@@ -42,7 +42,6 @@ import java.util.List;
+  * if by doing so we will save bytes, after the helper functions are
+  * added and renaming is done.
+  *
+- *
+  */
+ class FunctionRewriter implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/FunctionTypeBuilder.java b/src/com/google/javascript/jscomp/FunctionTypeBuilder.java
+index 6de6e69..51eb446 100644
+--- a/src/com/google/javascript/jscomp/FunctionTypeBuilder.java
++++ b/src/com/google/javascript/jscomp/FunctionTypeBuilder.java
+@@ -58,7 +58,7 @@ import javax.annotation.Nullable;
+  * of JSCompiler.
+  *
+  * @author nicksantos@google.com (Nick Santos)
+- *
++ * @author pascallouis@google.com (Pascal-Louis Perez)
+  */
+ final class FunctionTypeBuilder {
+ 
+diff --git a/src/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallback.java b/src/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallback.java
+index c97c882..fb197d9 100644
+--- a/src/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallback.java
++++ b/src/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallback.java
+@@ -33,7 +33,6 @@ import java.util.Set;
+  * list.  In the case of branching subexpressions, it simplifies the
+  * subexpression before adding it to the replacement list.
+  *
+- *
+  */
+ class GatherSideEffectSubexpressionsCallback implements Callback {
+ 
+diff --git a/src/com/google/javascript/jscomp/GenerateExports.java b/src/com/google/javascript/jscomp/GenerateExports.java
+index 278ba93..1256e33 100644
+--- a/src/com/google/javascript/jscomp/GenerateExports.java
++++ b/src/com/google/javascript/jscomp/GenerateExports.java
+@@ -26,7 +26,6 @@ import java.util.Map;
+ /**
+  * Generates goog.exportSymbol/goog.exportProperty for the @export annotation.
+  *
+- *
+  */
+ class GenerateExports implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/GlobalNamespace.java b/src/com/google/javascript/jscomp/GlobalNamespace.java
+index c3fc8c9..a442721 100644
+--- a/src/com/google/javascript/jscomp/GlobalNamespace.java
++++ b/src/com/google/javascript/jscomp/GlobalNamespace.java
+@@ -36,9 +36,6 @@ import java.util.Set;
+  * Builds a global namespace of all the objects and their properties in
+  * the global scope. Also builds an index of all the references to those names.
+  *
+- *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ class GlobalNamespace {
+ 
+diff --git a/src/com/google/javascript/jscomp/GoogleCodingConvention.java b/src/com/google/javascript/jscomp/GoogleCodingConvention.java
+index 04e1b9d..90b3b25 100644
+--- a/src/com/google/javascript/jscomp/GoogleCodingConvention.java
++++ b/src/com/google/javascript/jscomp/GoogleCodingConvention.java
+@@ -27,7 +27,6 @@ import java.util.regex.Pattern;
+  * This describes the Google-specific JavaScript coding conventions.
+  * Within Google, variable names are semantically significant.
+  *
+- *
+  */
+ public class GoogleCodingConvention extends ClosureCodingConvention {
+ 
+diff --git a/src/com/google/javascript/jscomp/GroupVariableDeclarations.java b/src/com/google/javascript/jscomp/GroupVariableDeclarations.java
+index c01432d..2ea2219 100644
+--- a/src/com/google/javascript/jscomp/GroupVariableDeclarations.java
++++ b/src/com/google/javascript/jscomp/GroupVariableDeclarations.java
+@@ -60,7 +60,6 @@ import java.util.Set;
+  * with more than one variable initialization are not collapsed. This is
+  * because doing so would increase uncompressed code size.
+  *
+- *
+  */
+ class GroupVariableDeclarations implements CompilerPass, ScopedCallback {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/IgnoreCajaProperties.java b/src/com/google/javascript/jscomp/IgnoreCajaProperties.java
+index 52bc33c..b3bff71 100644
+--- a/src/com/google/javascript/jscomp/IgnoreCajaProperties.java
++++ b/src/com/google/javascript/jscomp/IgnoreCajaProperties.java
+@@ -31,7 +31,6 @@ import com.google.javascript.rhino.Token;
+  * This pass adds a conditional to for..in loops that filters out these
+  * properties.
+  *
+- *
+  */
+ 
+ class IgnoreCajaProperties implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/InlineCostEstimator.java b/src/com/google/javascript/jscomp/InlineCostEstimator.java
+index 02cfd09..2c9e432 100644
+--- a/src/com/google/javascript/jscomp/InlineCostEstimator.java
++++ b/src/com/google/javascript/jscomp/InlineCostEstimator.java
+@@ -23,7 +23,6 @@ import com.google.javascript.rhino.Node;
+  *
+  * @see CodeGenerator
+  * @see CodePrinter
+- *
+  */
+ class InlineCostEstimator {
+   // For now simply assume identifiers are 2 characters.
+diff --git a/src/com/google/javascript/jscomp/InlineFunctions.java b/src/com/google/javascript/jscomp/InlineFunctions.java
+index 01c0b8e..5d5c8f5 100644
+--- a/src/com/google/javascript/jscomp/InlineFunctions.java
++++ b/src/com/google/javascript/jscomp/InlineFunctions.java
+@@ -51,8 +51,6 @@ import java.util.Set;
+  * "directly" inlined functions must meet these additional requirements:
+  * - consists of a single return statement
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ class InlineFunctions implements SpecializationAwareCompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/InlineGetters.java b/src/com/google/javascript/jscomp/InlineGetters.java
+index 5801f40..6ae4f6f 100644
+--- a/src/com/google/javascript/jscomp/InlineGetters.java
++++ b/src/com/google/javascript/jscomp/InlineGetters.java
+@@ -49,7 +49,6 @@ import java.util.logging.Logger;
+  * call sites. For examples, calls of the form foo["bar"] are not
+  * detected.
+  *
+- *
+  */
+ class InlineGetters extends MethodCompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/InstrumentFunctions.java b/src/com/google/javascript/jscomp/InstrumentFunctions.java
+index 49a47de..c249f20 100644
+--- a/src/com/google/javascript/jscomp/InstrumentFunctions.java
++++ b/src/com/google/javascript/jscomp/InstrumentFunctions.java
+@@ -52,8 +52,6 @@ import java.util.List;
+  * pass up, list inlined functions or give clients the option to
+  * instrument before or after optimization.
+  *
+- *
+- *
+  */
+ class InstrumentFunctions implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/InvocationsCallback.java b/src/com/google/javascript/jscomp/InvocationsCallback.java
+index 647ec32..229d6ec 100644
+--- a/src/com/google/javascript/jscomp/InvocationsCallback.java
++++ b/src/com/google/javascript/jscomp/InvocationsCallback.java
+@@ -33,7 +33,6 @@ import com.google.javascript.rhino.Token;
+  *
+  * and invokes a method defined by subclasses for processing these invocations.
+  *
+- *
+  */
+ abstract class InvocationsCallback extends AbstractPostOrderCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/JSError.java b/src/com/google/javascript/jscomp/JSError.java
+index e37e154..78357f0 100644
+--- a/src/com/google/javascript/jscomp/JSError.java
++++ b/src/com/google/javascript/jscomp/JSError.java
+@@ -23,9 +23,6 @@ import javax.annotation.Nullable;
+ /**
+  * Compile error description
+  *
+- *
+- *
+- *
+  */
+ public class JSError {
+   /** A type of the error */
+diff --git a/src/com/google/javascript/jscomp/JSModule.java b/src/com/google/javascript/jscomp/JSModule.java
+index 248379c..f6650d6 100644
+--- a/src/com/google/javascript/jscomp/JSModule.java
++++ b/src/com/google/javascript/jscomp/JSModule.java
+@@ -36,8 +36,6 @@ import java.util.Set;
+  * A JavaScript module has a unique name, consists of a list of compiler inputs,
+  * and can depend on other modules.
+  *
+- *
+- *
+  */
+ public class JSModule implements DependencyInfo, Serializable {
+   private static final long serialVersionUID = 1;
+diff --git a/src/com/google/javascript/jscomp/JSModuleGraph.java b/src/com/google/javascript/jscomp/JSModuleGraph.java
+index 45f8759..381769d 100644
+--- a/src/com/google/javascript/jscomp/JSModuleGraph.java
++++ b/src/com/google/javascript/jscomp/JSModuleGraph.java
+@@ -44,7 +44,6 @@ import java.util.TreeSet;
+  * a module's depth is defined as the number of hops in the longest path from
+  * the module to a module with no dependencies.
+  *
+- *
+  */
+ public class JSModuleGraph {
+ 
+diff --git a/src/com/google/javascript/jscomp/JSSourceFile.java b/src/com/google/javascript/jscomp/JSSourceFile.java
+index afc6c51..b6cc7c4 100644
+--- a/src/com/google/javascript/jscomp/JSSourceFile.java
++++ b/src/com/google/javascript/jscomp/JSSourceFile.java
+@@ -31,7 +31,7 @@ import java.nio.charset.Charset;
+  * JSCompiler.
+  *
+  * @author nicksantos@google.com (Nick Santos)
+- *
++ * @author moedinger@google.com (Andrew Moedinger)
+  */
+ public class JSSourceFile extends SourceFile {
+ 
+diff --git a/src/com/google/javascript/jscomp/JsAst.java b/src/com/google/javascript/jscomp/JsAst.java
+index 58f4414..8da6e0f 100644
+--- a/src/com/google/javascript/jscomp/JsAst.java
++++ b/src/com/google/javascript/jscomp/JsAst.java
+@@ -30,7 +30,6 @@ import java.util.logging.Logger;
+ /**
+  * Generates an AST for a JavaScript source file.
+  *
+- *
+  */
+ public class JsAst implements SourceAst {
+   private static final Logger logger_ = Logger.getLogger(JsAst.class.getName());
+diff --git a/src/com/google/javascript/jscomp/JsMessage.java b/src/com/google/javascript/jscomp/JsMessage.java
+index adefc87..8765898 100644
+--- a/src/com/google/javascript/jscomp/JsMessage.java
++++ b/src/com/google/javascript/jscomp/JsMessage.java
+@@ -42,8 +42,6 @@ import javax.annotation.Nullable;
+  *     .build();
+  * </pre>
+  *
+- *
+- * @author anatol@google.com (Anatol Pomazau)
+  */
+ public class JsMessage {
+ 
+diff --git a/src/com/google/javascript/jscomp/JsMessageExtractor.java b/src/com/google/javascript/jscomp/JsMessageExtractor.java
+index bb5384e..d80f0b1 100644
+--- a/src/com/google/javascript/jscomp/JsMessageExtractor.java
++++ b/src/com/google/javascript/jscomp/JsMessageExtractor.java
+@@ -47,8 +47,6 @@ import java.util.List;
+  * <p>This class enforces the policy that message variable names must be unique
+  * across all JS files.
+  *
+- *
+- *
+  */
+ public class JsMessageExtractor {
+ 
+diff --git a/src/com/google/javascript/jscomp/LatticeElement.java b/src/com/google/javascript/jscomp/LatticeElement.java
+index 468277a..c2d049e 100644
+--- a/src/com/google/javascript/jscomp/LatticeElement.java
++++ b/src/com/google/javascript/jscomp/LatticeElement.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * A lattice element.
+  *
+- *
+  */
+ interface LatticeElement {
+ 
+diff --git a/src/com/google/javascript/jscomp/LightweightMessageFormatter.java b/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
+index df8a5e2..089e189 100644
+--- a/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
++++ b/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
+@@ -26,7 +26,6 @@ import com.google.javascript.jscomp.SourceExcerptProvider.SourceExcerpt;
+  * Lightweight message formatter. The format of messages this formatter
+  * produces is very compact and to the point.
+  *
+- *
+  */
+ public class LightweightMessageFormatter extends AbstractMessageFormatter {
+   private SourceExcerpt excerpt;
+diff --git a/src/com/google/javascript/jscomp/LiveVariablesAnalysis.java b/src/com/google/javascript/jscomp/LiveVariablesAnalysis.java
+index 8b36e15..7dc9d53 100644
+--- a/src/com/google/javascript/jscomp/LiveVariablesAnalysis.java
++++ b/src/com/google/javascript/jscomp/LiveVariablesAnalysis.java
+@@ -43,7 +43,6 @@ import java.util.Set;
+  * variables can escape the function. These variables will be considered as
+  * global and they can be retrieved with {@link #getEscapedLocals()}.
+  *
+- *
+  */
+ class LiveVariablesAnalysis extends
+     DataFlowAnalysis<Node, LiveVariablesAnalysis.LiveVariableLattice> {
+diff --git a/src/com/google/javascript/jscomp/LoggerErrorManager.java b/src/com/google/javascript/jscomp/LoggerErrorManager.java
+index 7365932..eb7e834 100644
+--- a/src/com/google/javascript/jscomp/LoggerErrorManager.java
++++ b/src/com/google/javascript/jscomp/LoggerErrorManager.java
+@@ -26,7 +26,6 @@ import java.util.logging.Level;
+  * collecting them in memory. Errors are logged at the SEVERE level and warnings
+  * are logged at the WARNING level.
+  *
+- *
+  */
+ public class LoggerErrorManager extends BasicErrorManager {
+   private final MessageFormatter formatter;
+diff --git a/src/com/google/javascript/jscomp/MarkNoSideEffectCalls.java b/src/com/google/javascript/jscomp/MarkNoSideEffectCalls.java
+index 57f761a..60cfd8e 100644
+--- a/src/com/google/javascript/jscomp/MarkNoSideEffectCalls.java
++++ b/src/com/google/javascript/jscomp/MarkNoSideEffectCalls.java
+@@ -36,7 +36,6 @@ import java.util.Set;
+  * function definition sites; eventually we should traverse function
+  * bodies to determine if they have side effects.
+  *
+- *
+  */
+ class MarkNoSideEffectCalls implements CompilerPass {
+   static final DiagnosticType INVALID_NO_SIDE_EFFECT_ANNOTATION =
+diff --git a/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java b/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java
+index 33fe5a6..a94d1e1 100644
+--- a/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java
++++ b/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java
+@@ -38,7 +38,6 @@ import java.util.Set;
+  * the use node reaches that definition and it is the last definition before
+  * the use on that path.
+  *
+- *
+  */
+ class MaybeReachingVariableUse extends
+     DataFlowAnalysis<Node, MaybeReachingVariableUse.ReachingUses> {
+diff --git a/src/com/google/javascript/jscomp/MessageBundle.java b/src/com/google/javascript/jscomp/MessageBundle.java
+index a8121b3..b018151 100644
+--- a/src/com/google/javascript/jscomp/MessageBundle.java
++++ b/src/com/google/javascript/jscomp/MessageBundle.java
+@@ -22,8 +22,6 @@ import java.util.Locale;
+  * An interface for providing alterative values for user-visible messages in
+  * javascript code.
+  *
+- *
+- *
+  */
+ public interface MessageBundle {
+ 
+diff --git a/src/com/google/javascript/jscomp/MessageFormatter.java b/src/com/google/javascript/jscomp/MessageFormatter.java
+index 902635d..3e1983a 100644
+--- a/src/com/google/javascript/jscomp/MessageFormatter.java
++++ b/src/com/google/javascript/jscomp/MessageFormatter.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+  * Format warnings and errors. This interface may be used by implementations of
+  * {@link ErrorManager} to request message formatting capabilities.
+  *
+- *
+  */
+ public interface MessageFormatter {
+   /**
+diff --git a/src/com/google/javascript/jscomp/MethodCompilerPass.java b/src/com/google/javascript/jscomp/MethodCompilerPass.java
+index a68e34a..e4c7fbd 100644
+--- a/src/com/google/javascript/jscomp/MethodCompilerPass.java
++++ b/src/com/google/javascript/jscomp/MethodCompilerPass.java
+@@ -32,8 +32,6 @@ import java.util.Set;
+  * Finds all method declarations and pulls them into data structures
+  * for use during cleanups such as arity checks or inlining.
+  *
+- *
+- *
+  */
+ abstract class MethodCompilerPass implements CompilerPass {
+   /** List of methods defined in externs */
+diff --git a/src/com/google/javascript/jscomp/MoveFunctionDeclarations.java b/src/com/google/javascript/jscomp/MoveFunctionDeclarations.java
+index db03214..a02455c 100644
+--- a/src/com/google/javascript/jscomp/MoveFunctionDeclarations.java
++++ b/src/com/google/javascript/jscomp/MoveFunctionDeclarations.java
+@@ -46,7 +46,6 @@ import java.util.Map.Entry;
+  *   function f() {}
+  * } catch(e) {}
+  *
+- *
+  */
+ class MoveFunctionDeclarations implements Callback, CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/MustBeReachingVariableDef.java b/src/com/google/javascript/jscomp/MustBeReachingVariableDef.java
+index 346cc1b..9c9742a 100644
+--- a/src/com/google/javascript/jscomp/MustBeReachingVariableDef.java
++++ b/src/com/google/javascript/jscomp/MustBeReachingVariableDef.java
+@@ -39,7 +39,6 @@ import javax.annotation.Nullable;
+  * the use of {@code A} in {@code alert(A)} if all paths from entry node must
+  * reaches that definition and it is the last definition before the use.
+  *
+- *
+  */
+ final class MustBeReachingVariableDef extends
+     DataFlowAnalysis<Node, MustBeReachingVariableDef.MustDef> {
+diff --git a/src/com/google/javascript/jscomp/NameAnalyzer.java b/src/com/google/javascript/jscomp/NameAnalyzer.java
+index 125ae8f..33313e6 100644
+--- a/src/com/google/javascript/jscomp/NameAnalyzer.java
++++ b/src/com/google/javascript/jscomp/NameAnalyzer.java
+@@ -70,8 +70,6 @@ import java.util.Set;
+  * effectively the same name. When someone has the time, we should completely
+  * rip out all the logic that understands namespaces.
+  *
+- *
+- *
+  */
+ final class NameAnalyzer implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/NameAnonymousFunctions.java b/src/com/google/javascript/jscomp/NameAnonymousFunctions.java
+index 85aa5f3..43eacd0 100644
+--- a/src/com/google/javascript/jscomp/NameAnonymousFunctions.java
++++ b/src/com/google/javascript/jscomp/NameAnonymousFunctions.java
+@@ -32,7 +32,6 @@ import java.util.logging.*;
+  * goog.string.htmlEscape = function $goog$string$htmlEscape$(str) {
+  * }
+  *
+- *
+  */
+ class NameAnonymousFunctions implements CompilerPass {
+   private static final Logger logger = Logger.getLogger(
+diff --git a/src/com/google/javascript/jscomp/NameAnonymousFunctionsMapped.java b/src/com/google/javascript/jscomp/NameAnonymousFunctionsMapped.java
+index f804651..9d42720 100644
+--- a/src/com/google/javascript/jscomp/NameAnonymousFunctionsMapped.java
++++ b/src/com/google/javascript/jscomp/NameAnonymousFunctionsMapped.java
+@@ -38,7 +38,6 @@ import java.util.logging.*;
+  *
+  * And there will be mapping from $qv to goog.string.htmlEscape
+  *
+- *
+  */
+ class NameAnonymousFunctionsMapped implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/NameGenerator.java b/src/com/google/javascript/jscomp/NameGenerator.java
+index a40d1aa..af97f0f 100644
+--- a/src/com/google/javascript/jscomp/NameGenerator.java
++++ b/src/com/google/javascript/jscomp/NameGenerator.java
+@@ -28,7 +28,6 @@ import java.util.*;
+  *
+  * <p>This class is not thread safe.
+  *
+- *
+  */
+ final class NameGenerator {
+   /** Generate short name with this first character */
+diff --git a/src/com/google/javascript/jscomp/NameReferenceGraph.java b/src/com/google/javascript/jscomp/NameReferenceGraph.java
+index 93be17d..4a89349 100644
+--- a/src/com/google/javascript/jscomp/NameReferenceGraph.java
++++ b/src/com/google/javascript/jscomp/NameReferenceGraph.java
+@@ -55,7 +55,6 @@ import java.util.Map;
+  * module) if A is needed (in this module). The converse of the this result is
+  * more useful. B is not needed if A is not needed.
+  *
+- *
+  */
+ class NameReferenceGraph extends
+     LinkedDirectedGraph<NameReferenceGraph.Name, NameReferenceGraph.Reference>
+diff --git a/src/com/google/javascript/jscomp/NameReferenceGraphConstruction.java b/src/com/google/javascript/jscomp/NameReferenceGraphConstruction.java
+index ebba2a4..1ad2896 100644
+--- a/src/com/google/javascript/jscomp/NameReferenceGraphConstruction.java
++++ b/src/com/google/javascript/jscomp/NameReferenceGraphConstruction.java
+@@ -42,7 +42,6 @@ import javax.annotation.Nullable;
+  *
+  * @see NameReferenceGraph
+  *
+- *
+  */
+ class NameReferenceGraphConstruction implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/NodeNameExtractor.java b/src/com/google/javascript/jscomp/NodeNameExtractor.java
+index 10f2486..29043be 100644
+--- a/src/com/google/javascript/jscomp/NodeNameExtractor.java
++++ b/src/com/google/javascript/jscomp/NodeNameExtractor.java
+@@ -27,7 +27,6 @@ import com.google.javascript.rhino.TokenStream;
+  * related nodes based on it (as done by the NameAnonymousFunctions
+  * compiler pass).
+  *
+- *
+  */
+ class NodeNameExtractor {
+   private final char delimiter;
+diff --git a/src/com/google/javascript/jscomp/NodeTraversal.java b/src/com/google/javascript/jscomp/NodeTraversal.java
+index b1adbc9..6bb4e2e 100644
+--- a/src/com/google/javascript/jscomp/NodeTraversal.java
++++ b/src/com/google/javascript/jscomp/NodeTraversal.java
+@@ -33,8 +33,6 @@ import java.util.Set;
+  * Nodetraversal allows an iteration through the nodes in the parse tree,
+  * and facilitates the optimizations on the parse tree.
+  *
+- *
+- *
+  */
+ public class NodeTraversal {
+   // Package protected for tests
+@@ -123,7 +121,6 @@ public class NodeTraversal {
+ 
+   /**
+    * Abstract callback to visit all nodes in post order.
+-   *
+    */
+   public abstract static class AbstractPostOrderCallback implements Callback {
+     public final boolean shouldTraverse(NodeTraversal nodeTraversal, Node n,
+@@ -161,7 +158,6 @@ public class NodeTraversal {
+ 
+   /**
+    * Abstract callback to visit a pruned set of nodes.
+-   *
+    */
+   public abstract static class AbstractNodeTypePruningCallback
+         implements Callback {
+diff --git a/src/com/google/javascript/jscomp/NodeUtil.java b/src/com/google/javascript/jscomp/NodeUtil.java
+index 294fc4f..b6f5b24 100644
+--- a/src/com/google/javascript/jscomp/NodeUtil.java
++++ b/src/com/google/javascript/jscomp/NodeUtil.java
+@@ -40,8 +40,6 @@ import javax.annotation.Nullable;
+ /**
+  * NodeUtil contains utilities that get properties from the Node object.
+  *
+- *
+- *
+  */
+ public final class NodeUtil {
+ 
+diff --git a/src/com/google/javascript/jscomp/ObjectPropertyStringPostprocess.java b/src/com/google/javascript/jscomp/ObjectPropertyStringPostprocess.java
+index d6450ef..2cc6eb8 100644
+--- a/src/com/google/javascript/jscomp/ObjectPropertyStringPostprocess.java
++++ b/src/com/google/javascript/jscomp/ObjectPropertyStringPostprocess.java
+@@ -35,7 +35,6 @@ import com.google.javascript.rhino.Token;
+  *
+  * @see ObjectPropertyStringPreprocess
+  *
+- *
+  */
+ class ObjectPropertyStringPostprocess implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/ObjectPropertyStringPreprocess.java b/src/com/google/javascript/jscomp/ObjectPropertyStringPreprocess.java
+index b8c8388..832c8f2 100644
+--- a/src/com/google/javascript/jscomp/ObjectPropertyStringPreprocess.java
++++ b/src/com/google/javascript/jscomp/ObjectPropertyStringPreprocess.java
+@@ -35,7 +35,6 @@ import com.google.javascript.rhino.Token;
+  *
+  * @see ObjectPropertyStringPostprocess
+  *
+- *
+  */
+ public class ObjectPropertyStringPreprocess implements CompilerPass {
+   static final String OBJECT_PROPERTY_STRING =
+diff --git a/src/com/google/javascript/jscomp/OptimizeArgumentsArray.java b/src/com/google/javascript/jscomp/OptimizeArgumentsArray.java
+index 28d4626..2be8479 100644
+--- a/src/com/google/javascript/jscomp/OptimizeArgumentsArray.java
++++ b/src/com/google/javascript/jscomp/OptimizeArgumentsArray.java
+@@ -41,7 +41,6 @@ import java.util.List;
+  * Each newly inserted variable name will be unique very much like the output
+  * of the AST found after the {@link Normalize} pass.
+  *
+- *
+  */
+ class OptimizeArgumentsArray implements CompilerPass, ScopedCallback {
+ 
+diff --git a/src/com/google/javascript/jscomp/OptimizeParameters.java b/src/com/google/javascript/jscomp/OptimizeParameters.java
+index 71871b4..e549e44 100644
+--- a/src/com/google/javascript/jscomp/OptimizeParameters.java
++++ b/src/com/google/javascript/jscomp/OptimizeParameters.java
+@@ -39,7 +39,6 @@ import java.util.List;
+  *     </li>
+  * </ul>
+  *
+- *
+  */
+ class OptimizeParameters implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/ParallelCompilerPass.java b/src/com/google/javascript/jscomp/ParallelCompilerPass.java
+index 71d76b2..e88ca5c 100644
+--- a/src/com/google/javascript/jscomp/ParallelCompilerPass.java
++++ b/src/com/google/javascript/jscomp/ParallelCompilerPass.java
+@@ -29,7 +29,6 @@ import java.util.List;
+  * spread the work so multiple {@link Task}s can execute in parallel without
+  * running into race-conditions.
+  *
+- *
+  */
+ final class ParallelCompilerPass implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/PeepholeFoldConstants.java b/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
+index 38fc0f5..77acf38 100644
+--- a/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
++++ b/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
+@@ -27,8 +27,6 @@ import java.util.List;
+ /**
+  * Peephole optimization to fold constants (e.g. x + 1 + 7 --> x + 8).
+  *
+- *
+- *
+  */
+ public class PeepholeFoldConstants extends AbstractPeepholeOptimization {
+ 
+diff --git a/src/com/google/javascript/jscomp/PeepholeRemoveDeadCode.java b/src/com/google/javascript/jscomp/PeepholeRemoveDeadCode.java
+index 5faeb13..43db0ba 100644
+--- a/src/com/google/javascript/jscomp/PeepholeRemoveDeadCode.java
++++ b/src/com/google/javascript/jscomp/PeepholeRemoveDeadCode.java
+@@ -28,8 +28,6 @@ import javax.annotation.Nullable;
+  * Peephole optimization to remove useless code such as IF's with false
+  * guard conditions, comma operator left hand sides with no side effects, etc.
+  *
+- *
+- *
+  */
+ public class PeepholeRemoveDeadCode extends AbstractPeepholeOptimization {
+ 
+diff --git a/src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java b/src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java
+index 259680d..76ee0ee 100644
+--- a/src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java
++++ b/src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java
+@@ -30,8 +30,6 @@ import java.util.regex.Pattern;
+  * expressions, replacing IFs with HOOKs, replacing object constructors
+  * with literals, and simplifying returns.
+  *
+- *
+- *
+  */
+ public class PeepholeSubstituteAlternateSyntax
+   extends AbstractPeepholeOptimization {
+diff --git a/src/com/google/javascript/jscomp/PerformanceTracker.java b/src/com/google/javascript/jscomp/PerformanceTracker.java
+index 053b34b..03559f3 100644
+--- a/src/com/google/javascript/jscomp/PerformanceTracker.java
++++ b/src/com/google/javascript/jscomp/PerformanceTracker.java
+@@ -29,7 +29,6 @@ import java.util.Map;
+ import java.util.zip.GZIPOutputStream;
+ 
+ /**
+- *
+  */
+ public class PerformanceTracker {
+ 
+diff --git a/src/com/google/javascript/jscomp/Position.java b/src/com/google/javascript/jscomp/Position.java
+index 11ab565..a73964d 100644
+--- a/src/com/google/javascript/jscomp/Position.java
++++ b/src/com/google/javascript/jscomp/Position.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Represents a position in a source file.
+  *
+- *
+  */
+ class Position {
+   private final int lineNumber;
+diff --git a/src/com/google/javascript/jscomp/PrintStreamErrorManager.java b/src/com/google/javascript/jscomp/PrintStreamErrorManager.java
+index 19e1926..85579ca 100644
+--- a/src/com/google/javascript/jscomp/PrintStreamErrorManager.java
++++ b/src/com/google/javascript/jscomp/PrintStreamErrorManager.java
+@@ -28,8 +28,6 @@ import java.io.PrintStream;
+  * <p>It collaborates with a {@link SourceExcerptProvider} via a
+  * {@link MessageFormatter} to display error messages with source context.</p>
+  *
+- *
+- *
+  */
+ public class PrintStreamErrorManager extends BasicErrorManager {
+   private final MessageFormatter formatter;
+diff --git a/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java b/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+index 4eeeb10..c929a36 100644
+--- a/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
++++ b/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+@@ -33,9 +33,6 @@ import java.util.Set;
+  * goog.require has a corresponding goog.provide and some closure specific
+  * simplifications.
+  *
+- *
+- * @author chrisn@google.com (Chris Nokleberg)
+- *
+  */
+ class ProcessClosurePrimitives extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/PureFunctionIdentifier.java b/src/com/google/javascript/jscomp/PureFunctionIdentifier.java
+index adf6eff..7872e6a 100644
+--- a/src/com/google/javascript/jscomp/PureFunctionIdentifier.java
++++ b/src/com/google/javascript/jscomp/PureFunctionIdentifier.java
+@@ -47,7 +47,6 @@ import java.util.Set;
+  * is not pure.
+  *
+  *
+- *
+  * We will prevail, in peace and freedom from fear, and in true
+  * health, through the purity and essence of our natural... fluids.
+  *                                    - General Turgidson
+diff --git a/src/com/google/javascript/jscomp/RecordFunctionInformation.java b/src/com/google/javascript/jscomp/RecordFunctionInformation.java
+index 16c2450..525988b 100644
+--- a/src/com/google/javascript/jscomp/RecordFunctionInformation.java
++++ b/src/com/google/javascript/jscomp/RecordFunctionInformation.java
+@@ -27,8 +27,6 @@ import java.util.TreeSet;
+ /**
+  * Records information about functions and modules.
+  *
+- *
+- *
+  */
+ class RecordFunctionInformation extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/Region.java b/src/com/google/javascript/jscomp/Region.java
+index 41cfe70..e17ddc1 100644
+--- a/src/com/google/javascript/jscomp/Region.java
++++ b/src/com/google/javascript/jscomp/Region.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Source code region.
+  *
+- *
+  */
+ public interface Region {
+   /**
+diff --git a/src/com/google/javascript/jscomp/RemoveConstantExpressions.java b/src/com/google/javascript/jscomp/RemoveConstantExpressions.java
+index 85f301f..3b155fd 100644
+--- a/src/com/google/javascript/jscomp/RemoveConstantExpressions.java
++++ b/src/com/google/javascript/jscomp/RemoveConstantExpressions.java
+@@ -37,7 +37,6 @@ import java.util.List;
+  *   foo();bar()
+  * </pre>
+  *
+- *
+  */
+ final class RemoveConstantExpressions implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/RemoveConstantExpressionsParallel.java b/src/com/google/javascript/jscomp/RemoveConstantExpressionsParallel.java
+index b8080f0..f0d0f5e 100644
+--- a/src/com/google/javascript/jscomp/RemoveConstantExpressionsParallel.java
++++ b/src/com/google/javascript/jscomp/RemoveConstantExpressionsParallel.java
+@@ -25,7 +25,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Execute {@link RemoveConstantExpressions} in parallel.
+  *
+- *
+  */
+ final class RemoveConstantExpressionsParallel implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/RemoveTryCatch.java b/src/com/google/javascript/jscomp/RemoveTryCatch.java
+index 147c0c4..e3216ea 100644
+--- a/src/com/google/javascript/jscomp/RemoveTryCatch.java
++++ b/src/com/google/javascript/jscomp/RemoveTryCatch.java
+@@ -28,8 +28,6 @@ import java.util.Set;
+  * Removes try catch finally blocks from a parse tree for easier debugging
+  * (these statements impact both debugging in IE and sometimes even in FF).
+  *
+- *
+- *
+  */
+ class RemoveTryCatch implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/RemoveUnusedNames.java b/src/com/google/javascript/jscomp/RemoveUnusedNames.java
+index 435aec3..25cac0a 100644
+--- a/src/com/google/javascript/jscomp/RemoveUnusedNames.java
++++ b/src/com/google/javascript/jscomp/RemoveUnusedNames.java
+@@ -27,7 +27,6 @@ import java.util.logging.Logger;
+ /**
+  * Removes unused names.
+  *
+- *
+  */
+ class RemoveUnusedNames implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java b/src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java
+index 8640043..940dabf 100644
+--- a/src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java
++++ b/src/com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java
+@@ -30,8 +30,6 @@ import java.util.logging.Logger;
+ /**
+  * Removes unused properties from prototypes.
+  *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ class RemoveUnusedPrototypeProperties implements
+     SpecializationAwareCompilerPass {
+diff --git a/src/com/google/javascript/jscomp/RemoveUnusedVars.java b/src/com/google/javascript/jscomp/RemoveUnusedVars.java
+index 9adad38..bccb574 100644
+--- a/src/com/google/javascript/jscomp/RemoveUnusedVars.java
++++ b/src/com/google/javascript/jscomp/RemoveUnusedVars.java
+@@ -64,8 +64,6 @@ import java.util.logging.Logger;
+  * {@code FlowSensitiveInlineVariables}, except that it works for variables
+  * used across scopes.
+  *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ class RemoveUnusedVars implements CompilerPass {
+   private static final Logger logger =
+diff --git a/src/com/google/javascript/jscomp/RenameProperties.java b/src/com/google/javascript/jscomp/RenameProperties.java
+index 1f6cc90..417ab2d 100644
+--- a/src/com/google/javascript/jscomp/RenameProperties.java
++++ b/src/com/google/javascript/jscomp/RenameProperties.java
+@@ -44,8 +44,6 @@ import java.util.*;
+  *   var x = {'myprop': 0}, y = x.myprop;     // incorrect
+  * </pre>
+  *
+- *
+- *
+  */
+ class RenameProperties implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/RenamePrototypes.java b/src/com/google/javascript/jscomp/RenamePrototypes.java
+index fb89d04..78401e3 100644
+--- a/src/com/google/javascript/jscomp/RenamePrototypes.java
++++ b/src/com/google/javascript/jscomp/RenamePrototypes.java
+@@ -51,8 +51,6 @@ import java.util.TreeSet;
+  * When a property name is used both in a prototype definition and as an object
+  * literal key, we rename it only if it satisifies both renaming policies.
+  *
+- *
+- *
+  */
+ class RenamePrototypes implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/RenameVars.java b/src/com/google/javascript/jscomp/RenameVars.java
+index a02b3d7..df20956 100644
+--- a/src/com/google/javascript/jscomp/RenameVars.java
++++ b/src/com/google/javascript/jscomp/RenameVars.java
+@@ -42,8 +42,6 @@ import javax.annotation.Nullable;
+  * RenameVars renames all the variables names into short names, to reduce
+  * code size and also to obfuscate the code.
+  *
+- *
+- *
+  */
+ final class RenameVars implements CompilerPass {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/ReplaceCssNames.java b/src/com/google/javascript/jscomp/ReplaceCssNames.java
+index 56a8472..a979bb9 100644
+--- a/src/com/google/javascript/jscomp/ReplaceCssNames.java
++++ b/src/com/google/javascript/jscomp/ReplaceCssNames.java
+@@ -56,7 +56,6 @@ import javax.annotation.Nullable;
+  *
+  * In addition, the CSS names before replacement can optionally be gathered.
+  *
+- *
+  */
+ class ReplaceCssNames implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/ReplaceIdGenerators.java b/src/com/google/javascript/jscomp/ReplaceIdGenerators.java
+index 79cd2e4..f62f160 100644
+--- a/src/com/google/javascript/jscomp/ReplaceIdGenerators.java
++++ b/src/com/google/javascript/jscomp/ReplaceIdGenerators.java
+@@ -30,7 +30,6 @@ import java.util.Set;
+  *
+  * Use this to get unique and short ids.
+  *
+- *
+  */
+ class ReplaceIdGenerators implements CompilerPass {
+   static final DiagnosticType NON_GLOBAL_ID_GENERATOR_CALL =
+diff --git a/src/com/google/javascript/jscomp/ReplaceMessages.java b/src/com/google/javascript/jscomp/ReplaceMessages.java
+index 54cf365..55791f7 100644
+--- a/src/com/google/javascript/jscomp/ReplaceMessages.java
++++ b/src/com/google/javascript/jscomp/ReplaceMessages.java
+@@ -26,9 +26,6 @@ import java.util.Iterator;
+  * ReplaceMessages replaces user-visible messages with alternatives.
+  * It uses Google specific JsMessageVisitor implementation.
+  *
+- *
+- *
+- * @author anatol@google.com (Anatol Pomazau)
+  */
+ class ReplaceMessages extends JsMessageVisitor {
+   private final MessageBundle bundle;
+diff --git a/src/com/google/javascript/jscomp/ReplaceStrings.java b/src/com/google/javascript/jscomp/ReplaceStrings.java
+index aad0494..3b577b6 100644
+--- a/src/com/google/javascript/jscomp/ReplaceStrings.java
++++ b/src/com/google/javascript/jscomp/ReplaceStrings.java
+@@ -42,7 +42,6 @@ import java.util.Set;
+  * leaking details about the source code.
+  *
+  * Based in concept on the work by Jared Jacobs.
+- *
+  */
+ public class ReplaceStrings extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/ReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/ReverseAbstractInterpreter.java
+index f08ecfe..1382129 100644
+--- a/src/com/google/javascript/jscomp/ReverseAbstractInterpreter.java
++++ b/src/com/google/javascript/jscomp/ReverseAbstractInterpreter.java
+@@ -27,7 +27,6 @@ import com.google.javascript.rhino.Node;
+  * and calculating a preciser view of the world than the view without knowing
+  * the outcome of the computation.</p>
+  *
+- *
+  */
+ interface ReverseAbstractInterpreter {
+   /**
+diff --git a/src/com/google/javascript/jscomp/RuntimeTypeCheck.java b/src/com/google/javascript/jscomp/RuntimeTypeCheck.java
+index f73cd6f..ec3da25 100644
+--- a/src/com/google/javascript/jscomp/RuntimeTypeCheck.java
++++ b/src/com/google/javascript/jscomp/RuntimeTypeCheck.java
+@@ -49,8 +49,6 @@ import javax.annotation.Nullable;
+  * <p>The JavaScript code which implements the type assertions is in
+  * js/runtime-type-check.js.
+  *
+- *
+- *
+  */
+ class RuntimeTypeCheck implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/SanityCheck.java b/src/com/google/javascript/jscomp/SanityCheck.java
+index 9d24b6e..e247f32 100644
+--- a/src/com/google/javascript/jscomp/SanityCheck.java
++++ b/src/com/google/javascript/jscomp/SanityCheck.java
+@@ -23,8 +23,6 @@ import com.google.javascript.rhino.Node;
+  * to a number of invariants. Because this can add a lot of overhead,
+  * we only run this in development mode.
+  *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ class SanityCheck implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/Scope.java b/src/com/google/javascript/jscomp/Scope.java
+index 5777983..e3bc679 100644
+--- a/src/com/google/javascript/jscomp/Scope.java
++++ b/src/com/google/javascript/jscomp/Scope.java
+@@ -47,8 +47,6 @@ import java.util.Map;
+  * @see NodeTraversal
+  * @see DataFlowAnalysis
+  *
+- *
+- *
+  */
+ public class Scope implements StaticScope<JSType> {
+   private final Map<String, Var> vars = new LinkedHashMap<String, Var>();
+diff --git a/src/com/google/javascript/jscomp/ScopeCreator.java b/src/com/google/javascript/jscomp/ScopeCreator.java
+index a4d5337..7c72787 100644
+--- a/src/com/google/javascript/jscomp/ScopeCreator.java
++++ b/src/com/google/javascript/jscomp/ScopeCreator.java
+@@ -22,7 +22,6 @@ import com.google.javascript.rhino.Node;
+  * This interface defines how objects capable of creating scopes from the parse
+  * tree behave.
+  *
+- *
+  */
+ interface ScopeCreator {
+   /**
+diff --git a/src/com/google/javascript/jscomp/SemanticReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/SemanticReverseAbstractInterpreter.java
+index 1777c5d..145d11e 100644
+--- a/src/com/google/javascript/jscomp/SemanticReverseAbstractInterpreter.java
++++ b/src/com/google/javascript/jscomp/SemanticReverseAbstractInterpreter.java
+@@ -36,7 +36,6 @@ import com.google.javascript.rhino.Token;
+  * language as a means to reverse interpret computations. This interpreter
+  * expects the parse tree inputs to be typed.
+  *
+- *
+  */
+ class SemanticReverseAbstractInterpreter
+     extends ChainableReverseAbstractInterpreter {
+diff --git a/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java b/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java
+index 849ff3d..bbec584 100644
+--- a/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java
++++ b/src/com/google/javascript/jscomp/SimpleDefinitionFinder.java
+@@ -43,7 +43,6 @@ import java.util.Map;
+  * hand side is an immutable value or function expression.  All
+  * complex definitions are treated as unknowns.
+  *
+- *
+  */
+ class SimpleDefinitionFinder implements CompilerPass, DefinitionProvider {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/SimpleRegion.java b/src/com/google/javascript/jscomp/SimpleRegion.java
+index 5d19ace..c0d59aa 100644
+--- a/src/com/google/javascript/jscomp/SimpleRegion.java
++++ b/src/com/google/javascript/jscomp/SimpleRegion.java
+@@ -17,7 +17,6 @@ package com.google.javascript.jscomp;
+ 
+ /**
+  * Simple region.
+- *
+  */
+ public class SimpleRegion implements Region {
+   private final int beginningLineNumber;
+diff --git a/src/com/google/javascript/jscomp/SourceAst.java b/src/com/google/javascript/jscomp/SourceAst.java
+index 2b57b5a..bf2a467 100644
+--- a/src/com/google/javascript/jscomp/SourceAst.java
++++ b/src/com/google/javascript/jscomp/SourceAst.java
+@@ -23,7 +23,6 @@ import java.io.Serializable;
+ /**
+  * An interface for accessing the AST root of an input.
+  *
+- *
+  */
+ public interface SourceAst extends Serializable {
+   /**
+diff --git a/src/com/google/javascript/jscomp/SourceExcerptProvider.java b/src/com/google/javascript/jscomp/SourceExcerptProvider.java
+index 75b1e35..afc1d14 100644
+--- a/src/com/google/javascript/jscomp/SourceExcerptProvider.java
++++ b/src/com/google/javascript/jscomp/SourceExcerptProvider.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+  * of specific locations, such as a specific line or a region around a
+  * given line number.
+  *
+- *
+  */
+ public interface SourceExcerptProvider {
+   /**
+diff --git a/src/com/google/javascript/jscomp/SourceInformationAnnotator.java b/src/com/google/javascript/jscomp/SourceInformationAnnotator.java
+index 1bdc406..938bd38 100755
+--- a/src/com/google/javascript/jscomp/SourceInformationAnnotator.java
++++ b/src/com/google/javascript/jscomp/SourceInformationAnnotator.java
+@@ -35,7 +35,6 @@ import com.google.javascript.rhino.Token;
+  * - Annotates all OBJECT_LITERAL unquoted string key nodes with an
+  *   ORIGINALNAME_PROP.
+  *
+- *
+  */
+ class SourceInformationAnnotator extends
+   NodeTraversal.AbstractPostOrderCallback {
+diff --git a/src/com/google/javascript/jscomp/SourceMap.java b/src/com/google/javascript/jscomp/SourceMap.java
+index 639db3c..61d9274 100644
+--- a/src/com/google/javascript/jscomp/SourceMap.java
++++ b/src/com/google/javascript/jscomp/SourceMap.java
+@@ -29,8 +29,6 @@ import java.io.IOException;
+  * @see CodeGenerator
+  * @see CodePrinter
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ public interface SourceMap {
+ 
+diff --git a/src/com/google/javascript/jscomp/SourceMap2.java b/src/com/google/javascript/jscomp/SourceMap2.java
+index 7f71b15..599cbee 100644
+--- a/src/com/google/javascript/jscomp/SourceMap2.java
++++ b/src/com/google/javascript/jscomp/SourceMap2.java
+@@ -37,8 +37,6 @@ import java.util.Map.Entry;
+  * @see CodeGenerator
+  * @see CodePrinter
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ public class SourceMap2 implements SourceMap {
+ 
+diff --git a/src/com/google/javascript/jscomp/SourceMapLegacy.java b/src/com/google/javascript/jscomp/SourceMapLegacy.java
+index 3ad1dc2..dd688df 100644
+--- a/src/com/google/javascript/jscomp/SourceMapLegacy.java
++++ b/src/com/google/javascript/jscomp/SourceMapLegacy.java
+@@ -33,8 +33,6 @@ import java.util.List;
+  * @see CodeGenerator
+  * @see CodePrinter
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ public class SourceMapLegacy implements SourceMap {
+ 
+diff --git a/src/com/google/javascript/jscomp/StrictModeCheck.java b/src/com/google/javascript/jscomp/StrictModeCheck.java
+index 91b050e..a25eecd 100644
+--- a/src/com/google/javascript/jscomp/StrictModeCheck.java
++++ b/src/com/google/javascript/jscomp/StrictModeCheck.java
+@@ -32,7 +32,6 @@ import com.google.javascript.rhino.Token;
+  * <li> No use of "eval" (optional check for Caja).
+  * </ol>
+  *
+- *
+  */
+ class StrictModeCheck extends AbstractPostOrderCallback
+     implements CompilerPass {
+diff --git a/src/com/google/javascript/jscomp/StripCode.java b/src/com/google/javascript/jscomp/StripCode.java
+index a8892ce..0c6504b 100644
+--- a/src/com/google/javascript/jscomp/StripCode.java
++++ b/src/com/google/javascript/jscomp/StripCode.java
+@@ -39,8 +39,6 @@ import java.util.Set;
+  *     2) qualified names that begin with strip types.
+  *   - Remove all statements containing calls to static methods of strip types.
+  *
+- *
+- *
+  */
+ class StripCode implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/SuspiciousPropertiesCheck.java b/src/com/google/javascript/jscomp/SuspiciousPropertiesCheck.java
+index 7911866..3ce28b0 100644
+--- a/src/com/google/javascript/jscomp/SuspiciousPropertiesCheck.java
++++ b/src/com/google/javascript/jscomp/SuspiciousPropertiesCheck.java
+@@ -39,7 +39,6 @@ import java.util.regex.Pattern;
+  * <p>This check should produce no false positives, but it will certainly miss
+  * a lot of real problems.
+  *
+- *
+  */
+ class SuspiciousPropertiesCheck implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/SyntacticScopeCreator.java b/src/com/google/javascript/jscomp/SyntacticScopeCreator.java
+index f6c70d0..a82d694 100644
+--- a/src/com/google/javascript/jscomp/SyntacticScopeCreator.java
++++ b/src/com/google/javascript/jscomp/SyntacticScopeCreator.java
+@@ -29,7 +29,6 @@ import com.google.javascript.rhino.jstype.JSType;
+  *
+  * <p>This implementation is not thread-safe.</p>
+  *
+- *
+  */
+ class SyntacticScopeCreator implements ScopeCreator {
+   private final AbstractCompiler compiler;
+diff --git a/src/com/google/javascript/jscomp/TightenTypes.java b/src/com/google/javascript/jscomp/TightenTypes.java
+index e85a228..936b924 100644
+--- a/src/com/google/javascript/jscomp/TightenTypes.java
++++ b/src/com/google/javascript/jscomp/TightenTypes.java
+@@ -72,8 +72,6 @@ import java.util.Set;
+  * of the target slots.  Once we complete a pass through all scopes with no
+  * changes, we are done.
+  *
+- *
+- *
+  */
+ class TightenTypes implements CompilerPass, ConcreteType.Factory {
+   public static final String NON_HALTING_ERROR_MSG =
+diff --git a/src/com/google/javascript/jscomp/Tracer.java b/src/com/google/javascript/jscomp/Tracer.java
+index 75173a4..bf2df63 100644
+--- a/src/com/google/javascript/jscomp/Tracer.java
++++ b/src/com/google/javascript/jscomp/Tracer.java
+@@ -174,7 +174,6 @@ import javax.annotation.Nullable;
+  * Tracer#initCurrentThreadTrace()}, then a Third Eye WARNING message is logged,
+  * which should help track down the problem.
+  *
+- *
+  */
+ final class Tracer {
+   // package-private for access from unit tests
+@@ -986,7 +985,6 @@ final class Tracer {
+    * The class {@link com.google.monitoring.tracing.TracingStatistics} contains several
+    * useful tracing statistics
+    *
+-   *
+    */
+   static interface TracingStatistic {
+     /**
+@@ -1031,7 +1029,6 @@ final class Tracer {
+    * This class encapsulates a map for keeping track of tracing statistics.
+    * It allows the caller to atomically increment named fields.
+    *
+-   *
+    */
+   static final class AtomicTracerStatMap {
+     private ConcurrentMap<String, Long> map = new ConcurrentHashMap<String, Long>();
+diff --git a/src/com/google/javascript/jscomp/TypeCheck.java b/src/com/google/javascript/jscomp/TypeCheck.java
+index b05fbc4..f82cb30 100644
+--- a/src/com/google/javascript/jscomp/TypeCheck.java
++++ b/src/com/google/javascript/jscomp/TypeCheck.java
+@@ -48,9 +48,6 @@ import java.util.Iterator;
+  * <p>Checks the types of JS expressions against any declared type
+  * information.</p>
+  *
+- *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ public class TypeCheck implements NodeTraversal.Callback, CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/TypeInference.java b/src/com/google/javascript/jscomp/TypeInference.java
+index 2b3cc07..094d195 100644
+--- a/src/com/google/javascript/jscomp/TypeInference.java
++++ b/src/com/google/javascript/jscomp/TypeInference.java
+@@ -59,7 +59,6 @@ import java.util.Set;
+  * Type inference within a script node or a function body, using the data-flow
+  * analysis framework.
+  *
+- *
+  */
+ class TypeInference
+     extends DataFlowAnalysis.BranchedForwardDataFlowAnalysis<Node, FlowScope> {
+diff --git a/src/com/google/javascript/jscomp/TypeInferencePass.java b/src/com/google/javascript/jscomp/TypeInferencePass.java
+index 420decf..f930a6c 100644
+--- a/src/com/google/javascript/jscomp/TypeInferencePass.java
++++ b/src/com/google/javascript/jscomp/TypeInferencePass.java
+@@ -33,7 +33,6 @@ import java.util.Map;
+ /**
+  * A compiler pass to run the type inference analysis.
+  *
+- *
+  */
+ class TypeInferencePass implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/TypedCodeGenerator.java b/src/com/google/javascript/jscomp/TypedCodeGenerator.java
+index 5dcd0bb..90f98a1 100644
+--- a/src/com/google/javascript/jscomp/TypedCodeGenerator.java
++++ b/src/com/google/javascript/jscomp/TypedCodeGenerator.java
+@@ -31,7 +31,6 @@ import java.util.Set;
+ /**
+  * A code generator that outputs type annotations for functions and
+  * constructors.
+- *
+  */
+ class TypedCodeGenerator extends CodeGenerator {
+   TypedCodeGenerator(CodeConsumer consumer, Charset outputCharset) {
+diff --git a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+index 30cfd72..990aa04 100644
+--- a/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
++++ b/src/com/google/javascript/jscomp/UnreachableCodeElimination.java
+@@ -43,7 +43,6 @@ import java.util.logging.Logger;
+  *    prototype properties can be annotated using JSDoc without actually
+  *    being initialized.
+  *
+- *
+  */
+ class UnreachableCodeElimination extends AbstractPostOrderCallback
+     implements CompilerPass, ScopedCallback  {
+diff --git a/src/com/google/javascript/jscomp/UseSite.java b/src/com/google/javascript/jscomp/UseSite.java
+index 28d3c6e..50e1062 100644
+--- a/src/com/google/javascript/jscomp/UseSite.java
++++ b/src/com/google/javascript/jscomp/UseSite.java
+@@ -23,7 +23,6 @@ import com.google.javascript.rhino.Node;
+  * Includes the refering node, and context in which the reference
+  * occurs - including the module in which the reference appears.
+  *
+- *
+  */
+ 
+ class UseSite {
+diff --git a/src/com/google/javascript/jscomp/VarCheck.java b/src/com/google/javascript/jscomp/VarCheck.java
+index 2c98ec7..2454261 100644
+--- a/src/com/google/javascript/jscomp/VarCheck.java
++++ b/src/com/google/javascript/jscomp/VarCheck.java
+@@ -30,8 +30,6 @@ import java.util.Set;
+  * accessed only in the file that declares them, and that any var references
+  * that cross module boundaries respect declared module dependencies.
+  *
+- *
+- *
+  */
+ class VarCheck extends AbstractPostOrderCallback implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/VariableNameGenerator.java b/src/com/google/javascript/jscomp/VariableNameGenerator.java
+index 0fb5dcd..2366777 100644
+--- a/src/com/google/javascript/jscomp/VariableNameGenerator.java
++++ b/src/com/google/javascript/jscomp/VariableNameGenerator.java
+@@ -27,7 +27,6 @@ import java.util.Set;
+  * a scope.
+  *
+  *
+- *
+  */
+ class VariableNameGenerator {
+   private final NameGenerator names;
+diff --git a/src/com/google/javascript/jscomp/VariableShadowDeclarationCheck.java b/src/com/google/javascript/jscomp/VariableShadowDeclarationCheck.java
+index b8e4535..a858010 100644
+--- a/src/com/google/javascript/jscomp/VariableShadowDeclarationCheck.java
++++ b/src/com/google/javascript/jscomp/VariableShadowDeclarationCheck.java
+@@ -33,7 +33,6 @@ import java.util.Set;
+  * <p>Browser global variables such as {@code self} shouldn't be shadowed
+  * because it is highly error prone to do so.
+  *
+- *
+  */
+ class VariableShadowDeclarationCheck implements CompilerPass {
+ 
+diff --git a/src/com/google/javascript/jscomp/VerboseMessageFormatter.java b/src/com/google/javascript/jscomp/VerboseMessageFormatter.java
+index ad9805b..2d9c953 100644
+--- a/src/com/google/javascript/jscomp/VerboseMessageFormatter.java
++++ b/src/com/google/javascript/jscomp/VerboseMessageFormatter.java
+@@ -21,7 +21,6 @@ import com.google.javascript.jscomp.CheckLevel;
+  * Verbose message formatter. This formatter generates very loud and long
+  * messages with multiline source excerpts.
+  *
+- *
+  */
+ class VerboseMessageFormatter extends AbstractMessageFormatter {
+   VerboseMessageFormatter(SourceExcerptProvider source) {
+diff --git a/src/com/google/javascript/jscomp/WarningLevel.java b/src/com/google/javascript/jscomp/WarningLevel.java
+index 5a99748..b07d6fa 100644
+--- a/src/com/google/javascript/jscomp/WarningLevel.java
++++ b/src/com/google/javascript/jscomp/WarningLevel.java
+@@ -22,7 +22,6 @@ import com.google.javascript.jscomp.CompilerOptions;
+ /**
+  * Convert the warnings level to an Options object.
+  *
+- *
+  */
+ public enum WarningLevel {
+   QUIET,
+diff --git a/src/com/google/javascript/jscomp/ant/AntErrorManager.java b/src/com/google/javascript/jscomp/ant/AntErrorManager.java
+index ac9fdbc..7a36316 100644
+--- a/src/com/google/javascript/jscomp/ant/AntErrorManager.java
++++ b/src/com/google/javascript/jscomp/ant/AntErrorManager.java
+@@ -27,7 +27,6 @@ import org.apache.tools.ant.Task;
+ /**
+  * An error manager that pipes warnings and errors properly into the Ant
+  * task infrastructure.
+- *
+  */
+ public final class AntErrorManager
+     extends BasicErrorManager {
+diff --git a/src/com/google/javascript/jscomp/ant/CompileTask.java b/src/com/google/javascript/jscomp/ant/CompileTask.java
+index 3874172..e35d1b8 100644
+--- a/src/com/google/javascript/jscomp/ant/CompileTask.java
++++ b/src/com/google/javascript/jscomp/ant/CompileTask.java
+@@ -46,7 +46,6 @@ import java.util.logging.Level;
+  * Most of the public methods of this class are entry points for the
+  * Ant code to hook into.
+  *
+- *
+  */
+ public final class CompileTask
+     extends Task {
+diff --git a/src/com/google/javascript/jscomp/function_info.proto b/src/com/google/javascript/jscomp/function_info.proto
+index 9a01eba..d1d01f3 100644
+--- a/src/com/google/javascript/jscomp/function_info.proto
++++ b/src/com/google/javascript/jscomp/function_info.proto
+@@ -1,5 +1,5 @@
+ // Copyright 2008 Google Inc.
+-//
++// Author: Mark Goodman
+ 
+ syntax = "proto2";
+ 
+diff --git a/src/com/google/javascript/jscomp/graph/AdjacencyGraph.java b/src/com/google/javascript/jscomp/graph/AdjacencyGraph.java
+index 67c5bce..bcf0282 100644
+--- a/src/com/google/javascript/jscomp/graph/AdjacencyGraph.java
++++ b/src/com/google/javascript/jscomp/graph/AdjacencyGraph.java
+@@ -25,7 +25,6 @@ import java.util.Collection;
+  * <p>For a more extensive interface, see {@link Graph}.
+  *
+  *
+- *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+  * @see Graph
+diff --git a/src/com/google/javascript/jscomp/graph/Annotatable.java b/src/com/google/javascript/jscomp/graph/Annotatable.java
+index 91552ef..9c006ba 100644
+--- a/src/com/google/javascript/jscomp/graph/Annotatable.java
++++ b/src/com/google/javascript/jscomp/graph/Annotatable.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp.graph;
+ 
+ /**
+  * Object that has an annotation.
+- *
+  */
+ public interface Annotatable {
+   /**
+diff --git a/src/com/google/javascript/jscomp/graph/Annotation.java b/src/com/google/javascript/jscomp/graph/Annotation.java
+index b5062b8..117cdf2 100644
+--- a/src/com/google/javascript/jscomp/graph/Annotation.java
++++ b/src/com/google/javascript/jscomp/graph/Annotation.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp.graph;
+ /**
+  * Information that can be annotated to a {@link GraphNode} or
+  * {@link Graph.GraphEdge}.
+- *
+  */
+ public interface Annotation {
+ }
+diff --git a/src/com/google/javascript/jscomp/graph/DiGraph.java b/src/com/google/javascript/jscomp/graph/DiGraph.java
+index 10e571f..f5caf0e 100644
+--- a/src/com/google/javascript/jscomp/graph/DiGraph.java
++++ b/src/com/google/javascript/jscomp/graph/DiGraph.java
+@@ -22,7 +22,6 @@ import java.util.List;
+  * A generic directed graph.
+  *
+  *
+- *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+  */
+diff --git a/src/com/google/javascript/jscomp/graph/Graph.java b/src/com/google/javascript/jscomp/graph/Graph.java
+index 8c7d533..869675e 100644
+--- a/src/com/google/javascript/jscomp/graph/Graph.java
++++ b/src/com/google/javascript/jscomp/graph/Graph.java
+@@ -51,7 +51,6 @@ import java.util.List;
+  * TODO(user): All functionality for removing nodes and edges.
+  *
+  *
+- *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+  */
+diff --git a/src/com/google/javascript/jscomp/graph/GraphColoring.java b/src/com/google/javascript/jscomp/graph/GraphColoring.java
+index 76527ec..8f1289a 100644
+--- a/src/com/google/javascript/jscomp/graph/GraphColoring.java
++++ b/src/com/google/javascript/jscomp/graph/GraphColoring.java
+@@ -43,7 +43,6 @@ import java.util.List;
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+  *
+- *
+  */
+ public abstract class GraphColoring<N, E> {
+   // Maps a color (represented by an integer) to a variable. If, for example,
+diff --git a/src/com/google/javascript/jscomp/graph/GraphNode.java b/src/com/google/javascript/jscomp/graph/GraphNode.java
+index cb0f17a..f49e84c 100644
+--- a/src/com/google/javascript/jscomp/graph/GraphNode.java
++++ b/src/com/google/javascript/jscomp/graph/GraphNode.java
+@@ -22,7 +22,6 @@ package com.google.javascript.jscomp.graph;
+  *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+- *
+  */
+ public interface GraphNode<N, E> extends Annotatable {
+   /**
+diff --git a/src/com/google/javascript/jscomp/graph/GraphReachability.java b/src/com/google/javascript/jscomp/graph/GraphReachability.java
+index 2f50def..4f1ed95 100644
+--- a/src/com/google/javascript/jscomp/graph/GraphReachability.java
++++ b/src/com/google/javascript/jscomp/graph/GraphReachability.java
+@@ -26,7 +26,6 @@ import com.google.javascript.jscomp.graph.FixedPointGraphTraversal.EdgeCallback;
+  * from the specified entry node.
+  *
+  * @see GraphNode#getAnnotation()
+- *
+  */
+ public class GraphReachability<N, E> implements EdgeCallback<N, E> {
+ 
+diff --git a/src/com/google/javascript/jscomp/graph/GraphvizGraph.java b/src/com/google/javascript/jscomp/graph/GraphvizGraph.java
+index a2fcea8..db50ce3 100644
+--- a/src/com/google/javascript/jscomp/graph/GraphvizGraph.java
++++ b/src/com/google/javascript/jscomp/graph/GraphvizGraph.java
+@@ -25,7 +25,6 @@ import java.util.List;
+  * The <code>DotFormatter.toDot</code> function can be used to get a
+  * visualization of the object for debugging purpose.
+  *
+- *
+  */
+ public interface GraphvizGraph {
+ 
+diff --git a/src/com/google/javascript/jscomp/graph/LinkedDirectedGraph.java b/src/com/google/javascript/jscomp/graph/LinkedDirectedGraph.java
+index a8dd8ea..e51c952 100644
+--- a/src/com/google/javascript/jscomp/graph/LinkedDirectedGraph.java
++++ b/src/com/google/javascript/jscomp/graph/LinkedDirectedGraph.java
+@@ -36,7 +36,6 @@ import java.util.Map;
+  * Operations from <code>Graph</code> would tends to be slower.
+  *
+  *
+- *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+  */
+diff --git a/src/com/google/javascript/jscomp/graph/LinkedUndirectedGraph.java b/src/com/google/javascript/jscomp/graph/LinkedUndirectedGraph.java
+index 4617931..c4eb51d 100644
+--- a/src/com/google/javascript/jscomp/graph/LinkedUndirectedGraph.java
++++ b/src/com/google/javascript/jscomp/graph/LinkedUndirectedGraph.java
+@@ -33,7 +33,6 @@ import java.util.Map;
+  * information.
+  *
+  *
+- *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+  */
+diff --git a/src/com/google/javascript/jscomp/graph/StandardUnionFind.java b/src/com/google/javascript/jscomp/graph/StandardUnionFind.java
+index 21a5862..6725768 100644
+--- a/src/com/google/javascript/jscomp/graph/StandardUnionFind.java
++++ b/src/com/google/javascript/jscomp/graph/StandardUnionFind.java
+@@ -45,10 +45,6 @@ import java.util.Set;
+  * algorithmist</a> for more detail.
+  *
+  * @param <E> element type
+- *
+- *
+- *
+- *
+  */
+ public class StandardUnionFind<E> implements Serializable, UnionFind<E> {
+ 
+diff --git a/src/com/google/javascript/jscomp/graph/SubGraph.java b/src/com/google/javascript/jscomp/graph/SubGraph.java
+index c25d8f0..5035453 100644
+--- a/src/com/google/javascript/jscomp/graph/SubGraph.java
++++ b/src/com/google/javascript/jscomp/graph/SubGraph.java
+@@ -23,7 +23,6 @@ package com.google.javascript.jscomp.graph;
+  *
+  * @param <N> Value type that the graph node stores.
+  * @param <E> Value type that the graph edge stores.
+- *
+  */
+ public interface SubGraph<N, E> {
+   /** Returns true if the node is a neighbor of any node in this SubGraph. */
+diff --git a/src/com/google/javascript/jscomp/graph/UnionFind.java b/src/com/google/javascript/jscomp/graph/UnionFind.java
+index 46c28cb..a7b6ad0 100644
+--- a/src/com/google/javascript/jscomp/graph/UnionFind.java
++++ b/src/com/google/javascript/jscomp/graph/UnionFind.java
+@@ -32,7 +32,6 @@ import java.util.Set;
+  * algorithmist</a> for more detail.
+  *
+  * @param <E> element type
+- *
+  */
+ public interface UnionFind<E> {
+ 
+diff --git a/src/com/google/javascript/jscomp/instrumentation_template.proto b/src/com/google/javascript/jscomp/instrumentation_template.proto
+index 1677d14..aee5084 100644
+--- a/src/com/google/javascript/jscomp/instrumentation_template.proto
++++ b/src/com/google/javascript/jscomp/instrumentation_template.proto
+@@ -1,5 +1,5 @@
+ // Copyright 2008 Google Inc. All Rights Reserved.
+-//
++// Author: avd@google.com (Antonio Vicente)
+ //
+ // Provides jscompiler with parameters for the instrumentation pass
+ 
+diff --git a/src/com/google/javascript/jscomp/js/runtime_type_check.js b/src/com/google/javascript/jscomp/js/runtime_type_check.js
+index 68aa6ee..c7c6be8 100644
+--- a/src/com/google/javascript/jscomp/js/runtime_type_check.js
++++ b/src/com/google/javascript/jscomp/js/runtime_type_check.js
+@@ -18,8 +18,6 @@
+ /**
+  * @fileoverview Provides the boilerplate code for runtime type checking.
+  *
+- *
+- *
+  */
+ 
+ var jscomp = jscomp || {};
+diff --git a/src/com/google/javascript/jscomp/parsing/IRFactory.java b/src/com/google/javascript/jscomp/parsing/IRFactory.java
+index c25b999..f9994f7 100644
+--- a/src/com/google/javascript/jscomp/parsing/IRFactory.java
++++ b/src/com/google/javascript/jscomp/parsing/IRFactory.java
+@@ -76,7 +76,6 @@ import java.util.Set;
+ /**
+  * IRFactory transforms the new AST to the old AST.
+  *
+- *
+  */
+ public class IRFactory {
+ 
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java b/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+index 49b090c..e75e587 100644
+--- a/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
++++ b/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+@@ -34,8 +34,6 @@ import java.util.Set;
+ /**
+  * A parser for JSDoc comments.
+  *
+- *
+- * @author nicksantos@google.com (Nick Santos)
+  */
+ // TODO(nicksantos): Unify all the JSDocInfo stuff into one package, instead of
+ // spreading it across mutliple packages.
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocToken.java b/src/com/google/javascript/jscomp/parsing/JsDocToken.java
+index a55f47a..55bc787 100644
+--- a/src/com/google/javascript/jscomp/parsing/JsDocToken.java
++++ b/src/com/google/javascript/jscomp/parsing/JsDocToken.java
+@@ -21,7 +21,6 @@ package com.google.javascript.jscomp.parsing;
+  *
+  * This class is based on Rhino's Token.
+  *
+- *
+  */
+ enum JsDocToken {
+   // Tokens recycled from Rhino
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java b/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java
+index ea66b7b..ddf6f81 100644
+--- a/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java
++++ b/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java
+@@ -25,7 +25,6 @@ import com.google.javascript.jscomp.mozilla.rhino.ScriptRuntime;
+  *
+  * It is heavily based on Rhino's TokenStream.
+  *
+- *
+  */
+ class JsDocTokenStream {
+   /*
+diff --git a/src/com/google/javascript/jscomp/parsing/NullErrorReporter.java b/src/com/google/javascript/jscomp/parsing/NullErrorReporter.java
+index dcddadd..2247c59 100644
+--- a/src/com/google/javascript/jscomp/parsing/NullErrorReporter.java
++++ b/src/com/google/javascript/jscomp/parsing/NullErrorReporter.java
+@@ -22,7 +22,6 @@ import com.google.javascript.rhino.EvaluatorException;
+ /**
+  * An error reporter which consumes all calls and performs no actions.
+  *
+- *
+  */
+ public abstract class NullErrorReporter  {
+   private NullErrorReporter() {
+diff --git a/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java b/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java
+index 3befb51..df8f1bd 100644
+--- a/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java
++++ b/src/com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java
+@@ -69,7 +69,6 @@ import com.google.javascript.jscomp.mozilla.rhino.ast.WithStatement;
+  * classes - which would make switching based on types and casting
+  * unnecessary.
+  *
+- *
+  */
+ abstract class TypeSafeDispatcher<T> {
+   abstract T processArrayLiteral(ArrayLiteral literalNode);
+diff --git a/src/com/google/javascript/jscomp/testing/TestErrorReporter.java b/src/com/google/javascript/jscomp/testing/TestErrorReporter.java
+index 5f733f0..777da32 100644
+--- a/src/com/google/javascript/jscomp/testing/TestErrorReporter.java
++++ b/src/com/google/javascript/jscomp/testing/TestErrorReporter.java
+@@ -33,7 +33,6 @@ import junit.framework.Assert;
+  * assertTrue(e.hasEncounteredAllWarnings());
+  * </pre>
+  *
+- *
+  */
+ public final class TestErrorReporter extends Assert implements ErrorReporter {
+   private final String[] errors;
+diff --git a/src/com/google/javascript/rhino/Context.java b/src/com/google/javascript/rhino/Context.java
+index e607b8d..ef26879 100644
+--- a/src/com/google/javascript/rhino/Context.java
++++ b/src/com/google/javascript/rhino/Context.java
+@@ -63,8 +63,6 @@ import java.util.Locale;
+  * object creation, may be accessed directly through methods of
+  * Context.
+  *
+- *
+- *
+  */
+ public class Context
+ {
+diff --git a/src/com/google/javascript/rhino/ErrorReporter.java b/src/com/google/javascript/rhino/ErrorReporter.java
+index ffdc072..56dd2c1 100644
+--- a/src/com/google/javascript/rhino/ErrorReporter.java
++++ b/src/com/google/javascript/rhino/ErrorReporter.java
+@@ -44,7 +44,6 @@ package com.google.javascript.rhino;
+  * This is interface defines a protocol for the reporting of
+  * errors during JavaScript translation or execution.
+  *
+- *
+  */
+ 
+ public interface ErrorReporter {
+diff --git a/src/com/google/javascript/rhino/IRFactory.java b/src/com/google/javascript/rhino/IRFactory.java
+index f619ff2..9cd41af 100644
+--- a/src/com/google/javascript/rhino/IRFactory.java
++++ b/src/com/google/javascript/rhino/IRFactory.java
+@@ -46,8 +46,6 @@ package com.google.javascript.rhino;
+  * This class allows the creation of nodes, and follows the Factory pattern.
+  *
+  * @see Node
+- *
+- *
+  */
+ final class IRFactory
+ {
+diff --git a/src/com/google/javascript/rhino/JSDocInfo.java b/src/com/google/javascript/rhino/JSDocInfo.java
+index 463a9ae..b26409d 100644
+--- a/src/com/google/javascript/rhino/JSDocInfo.java
++++ b/src/com/google/javascript/rhino/JSDocInfo.java
+@@ -63,7 +63,6 @@ import java.util.Set;
+  * <p>Constructing {@link JSDocInfo} objects is simplified by
+  * {@link JSDocInfoBuilder} which provides early incompatibility detection.</p>
+  *
+- *
+  */
+ public final class JSDocInfo implements Serializable {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/JSDocInfoBuilder.java b/src/com/google/javascript/rhino/JSDocInfoBuilder.java
+index 631bcb0..90dcc77 100644
+--- a/src/com/google/javascript/rhino/JSDocInfoBuilder.java
++++ b/src/com/google/javascript/rhino/JSDocInfoBuilder.java
+@@ -50,7 +50,6 @@ import java.util.Set;
+  * incompatibility detection among properties stored on the {@code JSDocInfo}
+  * object being created.
+  *
+- *
+  */
+ final public class JSDocInfoBuilder {
+   // the current JSDoc which is being populated
+diff --git a/src/com/google/javascript/rhino/JavaScriptException.java b/src/com/google/javascript/rhino/JavaScriptException.java
+index a2590dd..9ae53da 100644
+--- a/src/com/google/javascript/rhino/JavaScriptException.java
++++ b/src/com/google/javascript/rhino/JavaScriptException.java
+@@ -45,7 +45,6 @@ package com.google.javascript.rhino;
+  * Java reflection of JavaScript exceptions.
+  * Instances of this class are thrown by the JavaScript 'throw' keyword.
+  *
+- *
+  */
+ class JavaScriptException extends RhinoException
+ {
+diff --git a/src/com/google/javascript/rhino/Node.java b/src/com/google/javascript/rhino/Node.java
+index 24e0285..94870e8 100644
+--- a/src/com/google/javascript/rhino/Node.java
++++ b/src/com/google/javascript/rhino/Node.java
+@@ -56,8 +56,6 @@ import java.util.Set;
+ /**
+  * This class implements the root of the intermediate representation.
+  *
+- *
+- *
+  */
+ 
+ public class Node implements Cloneable, Serializable {
+diff --git a/src/com/google/javascript/rhino/ObjToIntMap.java b/src/com/google/javascript/rhino/ObjToIntMap.java
+index d1c8cb2..af58d10 100644
+--- a/src/com/google/javascript/rhino/ObjToIntMap.java
++++ b/src/com/google/javascript/rhino/ObjToIntMap.java
+@@ -50,7 +50,6 @@ import java.io.ObjectOutputStream;
+  * operations on one thread before passing the map to others
+  *
+  *
+- *
+  */
+ 
+ public class ObjToIntMap implements Serializable
+diff --git a/src/com/google/javascript/rhino/Parser.java b/src/com/google/javascript/rhino/Parser.java
+index 9f97f99..dcd046b 100644
+--- a/src/com/google/javascript/rhino/Parser.java
++++ b/src/com/google/javascript/rhino/Parser.java
+@@ -59,8 +59,6 @@ import java.util.List;
+  *
+  * @see TokenStream
+  *
+- *
+- *
+  */
+ 
+ public class Parser
+diff --git a/src/com/google/javascript/rhino/ScriptRuntime.java b/src/com/google/javascript/rhino/ScriptRuntime.java
+index c17759e..88b4c58 100644
+--- a/src/com/google/javascript/rhino/ScriptRuntime.java
++++ b/src/com/google/javascript/rhino/ScriptRuntime.java
+@@ -53,7 +53,6 @@ import java.util.ResourceBundle;
+ /**
+  * This is the class that implements the runtime.
+  *
+- *
+  */
+ 
+ public class ScriptRuntime {
+diff --git a/src/com/google/javascript/rhino/SimpleErrorReporter.java b/src/com/google/javascript/rhino/SimpleErrorReporter.java
+index 7f05778..204d51a 100644
+--- a/src/com/google/javascript/rhino/SimpleErrorReporter.java
++++ b/src/com/google/javascript/rhino/SimpleErrorReporter.java
+@@ -46,7 +46,6 @@ import java.util.List;
+  * A simple {@link ErrorReporter} that collects warnings and errors and makes
+  * them accessible via {@link #errors()} and {@link #warnings()}.
+  *
+- *
+  */
+ public class SimpleErrorReporter implements ErrorReporter {
+     private List<String> warnings = null;
+diff --git a/src/com/google/javascript/rhino/SourcePosition.java b/src/com/google/javascript/rhino/SourcePosition.java
+index bd48603..2a078ef 100644
+--- a/src/com/google/javascript/rhino/SourcePosition.java
++++ b/src/com/google/javascript/rhino/SourcePosition.java
+@@ -43,7 +43,6 @@ package com.google.javascript.rhino;
+  * Represents a position in some piece of source code, with an associated
+  * item of type T found at that position.
+  *
+- *
+  */
+ public abstract class SourcePosition<T> {
+   /**
+diff --git a/src/com/google/javascript/rhino/Token.java b/src/com/google/javascript/rhino/Token.java
+index 098c85b..90bf066 100644
+--- a/src/com/google/javascript/rhino/Token.java
++++ b/src/com/google/javascript/rhino/Token.java
+@@ -49,8 +49,6 @@ package com.google.javascript.rhino;
+  *
+  * @see com.google.javascript.rhino.Parser
+  *
+- *
+- *
+  */
+ 
+ public class Token
+diff --git a/src/com/google/javascript/rhino/TokenStream.java b/src/com/google/javascript/rhino/TokenStream.java
+index 59457b6..b215cfb 100644
+--- a/src/com/google/javascript/rhino/TokenStream.java
++++ b/src/com/google/javascript/rhino/TokenStream.java
+@@ -56,8 +56,6 @@ import java.io.Reader;
+  *
+  * @see Parser
+  *
+- *
+- *
+  */
+ 
+ public class TokenStream
+diff --git a/src/com/google/javascript/rhino/UintMap.java b/src/com/google/javascript/rhino/UintMap.java
+index 2525a6b..75c8479 100644
+--- a/src/com/google/javascript/rhino/UintMap.java
++++ b/src/com/google/javascript/rhino/UintMap.java
+@@ -50,7 +50,6 @@ import java.io.ObjectOutputStream;
+  * operations on one thread before passing the map to others.
+  *
+  *
+- *
+  */
+ 
+ public class UintMap implements Serializable
+diff --git a/src/com/google/javascript/rhino/jstype/AllType.java b/src/com/google/javascript/rhino/jstype/AllType.java
+index ffa2f6a..a191b04 100644
+--- a/src/com/google/javascript/rhino/jstype/AllType.java
++++ b/src/com/google/javascript/rhino/jstype/AllType.java
+@@ -45,8 +45,6 @@ import com.google.javascript.rhino.ErrorReporter;
+ 
+ /**
+  * All type, representing all values.
+- *
+- *
+  */
+ public final class AllType extends JSType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/ArrowType.java b/src/com/google/javascript/rhino/jstype/ArrowType.java
+index 333f4a1..66893b6 100644
+--- a/src/com/google/javascript/rhino/jstype/ArrowType.java
++++ b/src/com/google/javascript/rhino/jstype/ArrowType.java
+@@ -49,8 +49,6 @@ import com.google.javascript.rhino.Node;
+  * seen in typical functional programming languages.  It is used soley for
+  * separating the management of the arrow type from the complex
+  * {@link FunctionType} that models JavaScript's notion of functions.
+- *
+- *
+  */
+ final class ArrowType extends JSType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/BooleanLiteralSet.java b/src/com/google/javascript/rhino/jstype/BooleanLiteralSet.java
+index c069cbe..53d2263 100644
+--- a/src/com/google/javascript/rhino/jstype/BooleanLiteralSet.java
++++ b/src/com/google/javascript/rhino/jstype/BooleanLiteralSet.java
+@@ -43,7 +43,6 @@ package com.google.javascript.rhino.jstype;
+  * A set in the domain {true,false}.
+  * There are four possible sets: {}, {true}, {false}, {true,false}.
+  *
+- *
+  */
+ public enum BooleanLiteralSet {
+   EMPTY,
+diff --git a/src/com/google/javascript/rhino/jstype/BooleanType.java b/src/com/google/javascript/rhino/jstype/BooleanType.java
+index bf34428..20f19d9 100644
+--- a/src/com/google/javascript/rhino/jstype/BooleanType.java
++++ b/src/com/google/javascript/rhino/jstype/BooleanType.java
+@@ -45,7 +45,6 @@ import static com.google.javascript.rhino.jstype.TernaryValue.UNKNOWN;
+ 
+ /**
+  * Boolean type.
+- *
+  */
+ public class BooleanType extends ValueType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/EnumElementType.java b/src/com/google/javascript/rhino/jstype/EnumElementType.java
+index 3b4cc68..594031b 100644
+--- a/src/com/google/javascript/rhino/jstype/EnumElementType.java
++++ b/src/com/google/javascript/rhino/jstype/EnumElementType.java
+@@ -48,8 +48,6 @@ import java.util.Set;
+ /**
+  * The type of individual elements of an enum type
+  * (see {@link EnumType}).
+- *
+- *
+  */
+ public class EnumElementType extends ObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/EnumType.java b/src/com/google/javascript/rhino/jstype/EnumType.java
+index f3965c8..273ff5e 100644
+--- a/src/com/google/javascript/rhino/jstype/EnumType.java
++++ b/src/com/google/javascript/rhino/jstype/EnumType.java
+@@ -51,8 +51,6 @@ import java.util.Set;
+ /**
+  * An enum type representing a branded collection of elements. Each element
+  * is referenced by its name, and has an {@link EnumElementType} type.
+- *
+- *
+  */
+ public class EnumType extends PrototypeObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/ErrorFunctionType.java b/src/com/google/javascript/rhino/jstype/ErrorFunctionType.java
+index 70f162e..458167c 100644
+--- a/src/com/google/javascript/rhino/jstype/ErrorFunctionType.java
++++ b/src/com/google/javascript/rhino/jstype/ErrorFunctionType.java
+@@ -43,8 +43,6 @@ import static com.google.javascript.rhino.jstype.JSTypeNative.ALL_TYPE;
+ 
+ /**
+  * This type is for built-in error constructors.
+- *
+- *
+  */
+ class ErrorFunctionType extends FunctionType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/FunctionType.java b/src/com/google/javascript/rhino/jstype/FunctionType.java
+index aa0636a..f3b43c6 100644
+--- a/src/com/google/javascript/rhino/jstype/FunctionType.java
++++ b/src/com/google/javascript/rhino/jstype/FunctionType.java
+@@ -61,8 +61,6 @@ import java.util.Set;
+  * Note: the parameters list is the LP node that is the parent of the
+  * actual NAME node containing the parsed argument list (annotated with
+  * JSDOC_TYPE_PROP's for the compile-time type of each argument.
+- *
+- *
+  */
+ public class FunctionType extends PrototypeObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/IndexedType.java b/src/com/google/javascript/rhino/jstype/IndexedType.java
+index 1c1b095..d33b9f8 100644
+--- a/src/com/google/javascript/rhino/jstype/IndexedType.java
++++ b/src/com/google/javascript/rhino/jstype/IndexedType.java
+@@ -45,7 +45,6 @@ package com.google.javascript.rhino.jstype;
+  * For example, <code>Object.<number, string></code> can take only numbers as
+  * keys.
+  *
+- *
+  */
+ final class IndexedType extends ProxyObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/InstanceObjectType.java b/src/com/google/javascript/rhino/jstype/InstanceObjectType.java
+index ca2aa40..b2c7c76 100644
+--- a/src/com/google/javascript/rhino/jstype/InstanceObjectType.java
++++ b/src/com/google/javascript/rhino/jstype/InstanceObjectType.java
+@@ -44,8 +44,6 @@ import com.google.common.base.Preconditions;
+ 
+ /**
+  * An object type that is an instance of some function constructor.
+- *
+- *
+  */
+ public final class InstanceObjectType extends PrototypeObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/JSType.java b/src/com/google/javascript/rhino/jstype/JSType.java
+index dc4308a..1f8c239 100644
+--- a/src/com/google/javascript/rhino/jstype/JSType.java
++++ b/src/com/google/javascript/rhino/jstype/JSType.java
+@@ -62,8 +62,6 @@ import java.util.Comparator;
+  * order of types. All types are united at the top of the lattice by the
+  * {@link AllType} and at the bottom by the {@link NoType}.<p>
+  *
+- *
+- *
+  */
+ public abstract class JSType implements Serializable {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java b/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java
+index 28a6299..24f0b79 100644
+--- a/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java
++++ b/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java
+@@ -70,7 +70,6 @@ import java.util.Set;
+  *
+  * <p>This class is not thread-safe.
+  *
+- *
+  */
+ public class JSTypeRegistry implements Serializable {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/NamedType.java b/src/com/google/javascript/rhino/jstype/NamedType.java
+index 80ae0a2..48bf310 100644
+--- a/src/com/google/javascript/rhino/jstype/NamedType.java
++++ b/src/com/google/javascript/rhino/jstype/NamedType.java
+@@ -73,8 +73,6 @@ import com.google.javascript.rhino.ErrorReporter;
+  * in a more consistent way, but with the Rhino merge coming, there will be
+  * much that has to be changed.<p>
+  *
+- *
+- *
+  */
+ class NamedType extends ProxyObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/NoObjectType.java b/src/com/google/javascript/rhino/jstype/NoObjectType.java
+index ba8155b..0b5ade9 100644
+--- a/src/com/google/javascript/rhino/jstype/NoObjectType.java
++++ b/src/com/google/javascript/rhino/jstype/NoObjectType.java
+@@ -59,8 +59,6 @@ import java.io.Serializable;
+  * call. It has no possible type, but {@code x} would not be legal if f
+  * expected a string. So we assign it the {@code NoObjectType}.
+  *
+- *
+- *
+  * @see <a href="http://en.wikipedia.org/wiki/Bottom_type">Bottom types</a>
+  */
+ public class NoObjectType extends FunctionType {
+diff --git a/src/com/google/javascript/rhino/jstype/NoType.java b/src/com/google/javascript/rhino/jstype/NoType.java
+index 48eb834..00717c5 100644
+--- a/src/com/google/javascript/rhino/jstype/NoType.java
++++ b/src/com/google/javascript/rhino/jstype/NoType.java
+@@ -56,7 +56,6 @@ package com.google.javascript.rhino.jstype;
+  * so that {@code f(x)} is legal no matter what the type of {@code f}'s
+  * first argument is.
+  *
+- *
+  * @see <a href="http://en.wikipedia.org/wiki/Bottom_type">Bottom types</a>
+  */
+ public final class NoType extends NoObjectType {
+diff --git a/src/com/google/javascript/rhino/jstype/NullType.java b/src/com/google/javascript/rhino/jstype/NullType.java
+index 0d47ff5..c008d15 100644
+--- a/src/com/google/javascript/rhino/jstype/NullType.java
++++ b/src/com/google/javascript/rhino/jstype/NullType.java
+@@ -46,7 +46,6 @@ import static com.google.javascript.rhino.jstype.TernaryValue.UNKNOWN;
+ 
+ /**
+  * Null type.
+- *
+  */
+ public final class NullType extends ValueType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/NumberType.java b/src/com/google/javascript/rhino/jstype/NumberType.java
+index 1f49dc0..34d016d 100644
+--- a/src/com/google/javascript/rhino/jstype/NumberType.java
++++ b/src/com/google/javascript/rhino/jstype/NumberType.java
+@@ -45,7 +45,6 @@ import static com.google.javascript.rhino.jstype.TernaryValue.UNKNOWN;
+ 
+ /**
+  * Number type.
+- *
+  */
+ public class NumberType extends ValueType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/ObjectType.java b/src/com/google/javascript/rhino/jstype/ObjectType.java
+index faa5879..8cc644b 100644
+--- a/src/com/google/javascript/rhino/jstype/ObjectType.java
++++ b/src/com/google/javascript/rhino/jstype/ObjectType.java
+@@ -75,7 +75,6 @@ import java.util.Set;
+  * type has all properties, but we do not know whether they are
+  * declared or inferred.
+  *
+- *
+  */
+ public abstract class ObjectType extends JSType {
+   private boolean visited;
+diff --git a/src/com/google/javascript/rhino/jstype/ParameterizedType.java b/src/com/google/javascript/rhino/jstype/ParameterizedType.java
+index 9c0d2c5..58bba2f 100644
+--- a/src/com/google/javascript/rhino/jstype/ParameterizedType.java
++++ b/src/com/google/javascript/rhino/jstype/ParameterizedType.java
+@@ -46,7 +46,6 @@ package com.google.javascript.rhino.jstype;
+  * // TODO(user): Define the subtyping relation for parameterized types. Also,
+  * take parameterized type into account for equality.
+  *
+- *
+  */
+ final class ParameterizedType extends ProxyObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/ProxyObjectType.java b/src/com/google/javascript/rhino/jstype/ProxyObjectType.java
+index 55bd9d8..dfb57a8 100644
+--- a/src/com/google/javascript/rhino/jstype/ProxyObjectType.java
++++ b/src/com/google/javascript/rhino/jstype/ProxyObjectType.java
+@@ -50,7 +50,6 @@ import java.util.Set;
+  * @see NamedType
+  * @see ParameterizedType
+  *
+- *
+  */
+ class ProxyObjectType extends ObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/RecordType.java b/src/com/google/javascript/rhino/jstype/RecordType.java
+index b77ca2c..9e17f7a 100755
+--- a/src/com/google/javascript/rhino/jstype/RecordType.java
++++ b/src/com/google/javascript/rhino/jstype/RecordType.java
+@@ -58,7 +58,6 @@ import java.util.SortedMap;
+  * constraints of the record type. A record type of the form { a : A, b : B }
+  * can be assigned to a record of type { a : A }.
+  *
+- *
+  */
+ public class RecordType extends PrototypeObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/RecordTypeBuilder.java b/src/com/google/javascript/rhino/jstype/RecordTypeBuilder.java
+index 398b6a3..b3a6616 100755
+--- a/src/com/google/javascript/rhino/jstype/RecordTypeBuilder.java
++++ b/src/com/google/javascript/rhino/jstype/RecordTypeBuilder.java
+@@ -44,7 +44,6 @@ import com.google.common.collect.ImmutableMap;
+ /**
+  * A builder for record types.
+  *
+- *
+  */
+ public class RecordTypeBuilder {
+   private boolean isEmpty = true;
+diff --git a/src/com/google/javascript/rhino/jstype/StaticScope.java b/src/com/google/javascript/rhino/jstype/StaticScope.java
+index 7250774..67253a8 100644
+--- a/src/com/google/javascript/rhino/jstype/StaticScope.java
++++ b/src/com/google/javascript/rhino/jstype/StaticScope.java
+@@ -45,8 +45,6 @@ package com.google.javascript.rhino.jstype;
+  * from the {@code Scriptable} class that Rhino normally uses to represent a
+  * runtime scope.
+  *
+- *
+- *
+  * @param <T> The type of information stored about the slot
+  */
+ public interface StaticScope<T> {
+diff --git a/src/com/google/javascript/rhino/jstype/StaticSlot.java b/src/com/google/javascript/rhino/jstype/StaticSlot.java
+index 18fd5d7..84e062b 100644
+--- a/src/com/google/javascript/rhino/jstype/StaticSlot.java
++++ b/src/com/google/javascript/rhino/jstype/StaticSlot.java
+@@ -43,8 +43,6 @@ package com.google.javascript.rhino.jstype;
+  * The {@code StaticSlot} interface must be implemented by variables that can
+  * appear as members of a {@code StaticScope}.
+  *
+- *
+- *
+  * @param <T> The type of information stored about the slot
+  */
+ public interface StaticSlot<T> {
+diff --git a/src/com/google/javascript/rhino/jstype/StringType.java b/src/com/google/javascript/rhino/jstype/StringType.java
+index 2e4c186..ad4aa23 100644
+--- a/src/com/google/javascript/rhino/jstype/StringType.java
++++ b/src/com/google/javascript/rhino/jstype/StringType.java
+@@ -45,7 +45,6 @@ import static com.google.javascript.rhino.jstype.TernaryValue.UNKNOWN;
+ 
+ /**
+  * String type.
+- *
+  */
+ public final class StringType extends ValueType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/TemplateType.java b/src/com/google/javascript/rhino/jstype/TemplateType.java
+index 36a0dc9..8c10082 100644
+--- a/src/com/google/javascript/rhino/jstype/TemplateType.java
++++ b/src/com/google/javascript/rhino/jstype/TemplateType.java
+@@ -42,7 +42,6 @@
+  * will set the type of this on a function literal argument to the actual type
+  * of T.
+  *
+- *
+  */
+ package com.google.javascript.rhino.jstype;
+ 
+diff --git a/src/com/google/javascript/rhino/jstype/TernaryValue.java b/src/com/google/javascript/rhino/jstype/TernaryValue.java
+index ed767ff..3dfbcf5 100644
+--- a/src/com/google/javascript/rhino/jstype/TernaryValue.java
++++ b/src/com/google/javascript/rhino/jstype/TernaryValue.java
+@@ -52,7 +52,6 @@ package com.google.javascript.rhino.jstype;
+  * present in an expression.</p>
+  *
+  * @see <a href="http://en.wikipedia.org/wiki/Ternary_logic">Ternary Logic</a>
+- *
+  */
+ public enum TernaryValue {
+   /**
+diff --git a/src/com/google/javascript/rhino/jstype/UnknownType.java b/src/com/google/javascript/rhino/jstype/UnknownType.java
+index 3ece195..c4cf01b 100644
+--- a/src/com/google/javascript/rhino/jstype/UnknownType.java
++++ b/src/com/google/javascript/rhino/jstype/UnknownType.java
+@@ -47,8 +47,6 @@ import java.util.Set;
+ 
+ /**
+  * The {@code Unknown} type.
+- *
+- *
+  */
+ public class UnknownType extends ObjectType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/jstype/Visitor.java b/src/com/google/javascript/rhino/jstype/Visitor.java
+index 2584948..84b5a08 100644
+--- a/src/com/google/javascript/rhino/jstype/Visitor.java
++++ b/src/com/google/javascript/rhino/jstype/Visitor.java
+@@ -54,7 +54,6 @@ package com.google.javascript.rhino.jstype;
+  * &nbsp;&nbsp;&hellip;
+  * });</pre>
+  *
+- *
+  */
+ public interface Visitor<T> {
+   /**
+diff --git a/src/com/google/javascript/rhino/jstype/VoidType.java b/src/com/google/javascript/rhino/jstype/VoidType.java
+index d8faca0..c93e192 100644
+--- a/src/com/google/javascript/rhino/jstype/VoidType.java
++++ b/src/com/google/javascript/rhino/jstype/VoidType.java
+@@ -46,7 +46,6 @@ import static com.google.javascript.rhino.jstype.TernaryValue.UNKNOWN;
+ 
+ /**
+  * Void type whose only element is the {@code undefined} value.
+- *
+  */
+ public class VoidType extends ValueType {
+   private static final long serialVersionUID = 1L;
+diff --git a/src/com/google/javascript/rhino/testing/TestErrorReporter.java b/src/com/google/javascript/rhino/testing/TestErrorReporter.java
+index e3769a5..21231e6 100644
+--- a/src/com/google/javascript/rhino/testing/TestErrorReporter.java
++++ b/src/com/google/javascript/rhino/testing/TestErrorReporter.java
+@@ -56,7 +56,6 @@ import junit.framework.Assert;
+  * assertTrue(e.hasEncounteredAllWarnings());
+  * </pre>
+  *
+- *
+  */
+ public final class TestErrorReporter extends Assert implements ErrorReporter {
+   private String[] errors;
+diff --git a/test/com/google/javascript/jscomp/AliasExternalsTest.java b/test/com/google/javascript/jscomp/AliasExternalsTest.java
+index 0cbce06..28ce2d1 100644
+--- a/test/com/google/javascript/jscomp/AliasExternalsTest.java
++++ b/test/com/google/javascript/jscomp/AliasExternalsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link AliasExternals}.
+  *
+- *
+  */
+ public class AliasExternalsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/AliasKeywordsTest.java b/test/com/google/javascript/jscomp/AliasKeywordsTest.java
+index 9468c76..7e1885e 100644
+--- a/test/com/google/javascript/jscomp/AliasKeywordsTest.java
++++ b/test/com/google/javascript/jscomp/AliasKeywordsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link AliasKeywords}.
+  *
+- *
+  */
+ public class AliasKeywordsTest extends CompilerTestCase {
+   private static final int ENOUGH_TO_ALIAS_LITERAL
+diff --git a/test/com/google/javascript/jscomp/AliasStringsTest.java b/test/com/google/javascript/jscomp/AliasStringsTest.java
+index bf38697..1c435b5 100644
+--- a/test/com/google/javascript/jscomp/AliasStringsTest.java
++++ b/test/com/google/javascript/jscomp/AliasStringsTest.java
+@@ -23,7 +23,6 @@ import java.util.*;
+ /**
+  * Tests for {@link AliasStrings}.
+  *
+- *
+  */
+ public class AliasStringsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/AmbiguatePropertiesTest.java b/test/com/google/javascript/jscomp/AmbiguatePropertiesTest.java
+index 0e3e8fd..ed99da3 100644
+--- a/test/com/google/javascript/jscomp/AmbiguatePropertiesTest.java
++++ b/test/com/google/javascript/jscomp/AmbiguatePropertiesTest.java
+@@ -25,7 +25,6 @@ import java.util.Map;
+ /**
+  * Unit test for AmbiguateProperties Compiler pass.
+  *
+- *
+  */
+ public class AmbiguatePropertiesTest extends CompilerTestCase {
+   private AmbiguateProperties lastPass;
+diff --git a/test/com/google/javascript/jscomp/AstParallelizerTest.java b/test/com/google/javascript/jscomp/AstParallelizerTest.java
+index 387fb80..8cad5f7 100644
+--- a/test/com/google/javascript/jscomp/AstParallelizerTest.java
++++ b/test/com/google/javascript/jscomp/AstParallelizerTest.java
+@@ -25,7 +25,6 @@ import java.util.List;
+ /**
+  * Unit tests for {@link AstParallelizer}.
+  *
+- *
+  */
+ public class AstParallelizerTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/BasicErrorManagerTest.java b/test/com/google/javascript/jscomp/BasicErrorManagerTest.java
+index 6e01f2f..b91f9dd 100644
+--- a/test/com/google/javascript/jscomp/BasicErrorManagerTest.java
++++ b/test/com/google/javascript/jscomp/BasicErrorManagerTest.java
+@@ -25,7 +25,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests {@link BasicErrorManager}.
+  *
+- *
+  */
+ public class BasicErrorManagerTest extends TestCase {
+   private static final String NULL_SOURCE = null;
+diff --git a/test/com/google/javascript/jscomp/ChainCallsTest.java b/test/com/google/javascript/jscomp/ChainCallsTest.java
+index b94a800..1b77dd5 100644
+--- a/test/com/google/javascript/jscomp/ChainCallsTest.java
++++ b/test/com/google/javascript/jscomp/ChainCallsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link ChainCalls}
+  *
+- *
+  */
+ public class ChainCallsTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/CheckMissingGetCssNameTest.java b/test/com/google/javascript/jscomp/CheckMissingGetCssNameTest.java
+index 64ad3eb..f584113 100644
+--- a/test/com/google/javascript/jscomp/CheckMissingGetCssNameTest.java
++++ b/test/com/google/javascript/jscomp/CheckMissingGetCssNameTest.java
+@@ -17,7 +17,6 @@
+ package com.google.javascript.jscomp;
+ 
+ /**
+- *
+  */
+ public class CheckMissingGetCssNameTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/CheckMissingReturnTest.java b/test/com/google/javascript/jscomp/CheckMissingReturnTest.java
+index c7666a2..b535dd4 100644
+--- a/test/com/google/javascript/jscomp/CheckMissingReturnTest.java
++++ b/test/com/google/javascript/jscomp/CheckMissingReturnTest.java
+@@ -21,7 +21,6 @@ import com.google.javascript.jscomp.CheckLevel;
+ /**
+  * Tests for {@link CheckMissingReturn}.
+  *
+- *
+  */
+ public class CheckMissingReturnTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/CheckPathsBetweenNodesTest.java b/test/com/google/javascript/jscomp/CheckPathsBetweenNodesTest.java
+index ccc4410..30d7645 100644
+--- a/test/com/google/javascript/jscomp/CheckPathsBetweenNodesTest.java
++++ b/test/com/google/javascript/jscomp/CheckPathsBetweenNodesTest.java
+@@ -28,8 +28,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests for {@link CheckPathsBetweenNodes}.
+  *
+- *
+- *
+  */
+ public class CheckPathsBetweenNodesTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/CheckProvidesTest.java b/test/com/google/javascript/jscomp/CheckProvidesTest.java
+index 0ab0422..bf883f0 100644
+--- a/test/com/google/javascript/jscomp/CheckProvidesTest.java
++++ b/test/com/google/javascript/jscomp/CheckProvidesTest.java
+@@ -22,7 +22,6 @@ import com.google.javascript.jscomp.CheckLevel;
+ /**
+  * Tests for {@link CheckProvides}.
+  *
+- *
+  */
+ public class CheckProvidesTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/CheckRequiresForConstructorsTest.java b/test/com/google/javascript/jscomp/CheckRequiresForConstructorsTest.java
+index 54e541b..2bdf7f2 100644
+--- a/test/com/google/javascript/jscomp/CheckRequiresForConstructorsTest.java
++++ b/test/com/google/javascript/jscomp/CheckRequiresForConstructorsTest.java
+@@ -24,7 +24,6 @@ import com.google.javascript.jscomp.Result;
+ /**
+  * Tests for {@link CheckRequiresForConstructors}.
+  *
+- *
+  */
+ public class CheckRequiresForConstructorsTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java b/test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java
+index ffe9406..224f3c0 100644
+--- a/test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java
++++ b/test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java
+@@ -21,7 +21,6 @@ import com.google.javascript.jscomp.CheckLevel;
+ /**
+  * Tests for {@link CheckUnreachableCode}.
+  *
+- *
+  */
+ public class CheckUnreachableCodeTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java b/test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java
+index 8eb0aa2..358015d 100644
+--- a/test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java
++++ b/test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java
+@@ -21,7 +21,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Unit tests for {@link CoalesceVariableNames}
+  *
+- *
+  */
+ public class CoalesceVariableNamesTest extends CompilerTestCase {
+   // The spacing in this file is not exactly standard but it greatly helps
+diff --git a/test/com/google/javascript/jscomp/CollapseAnonymousFunctionsTest.java b/test/com/google/javascript/jscomp/CollapseAnonymousFunctionsTest.java
+index de74573..d79b56d 100644
+--- a/test/com/google/javascript/jscomp/CollapseAnonymousFunctionsTest.java
++++ b/test/com/google/javascript/jscomp/CollapseAnonymousFunctionsTest.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link CollapseAnonymousFunctions}
+  *
+- *
+  */
+ public class CollapseAnonymousFunctionsTest extends CompilerTestCase {
+   public CollapseAnonymousFunctionsTest() {
+diff --git a/test/com/google/javascript/jscomp/CollapsePropertiesTest.java b/test/com/google/javascript/jscomp/CollapsePropertiesTest.java
+index cda05e1..05bfc57 100644
+--- a/test/com/google/javascript/jscomp/CollapsePropertiesTest.java
++++ b/test/com/google/javascript/jscomp/CollapsePropertiesTest.java
+@@ -21,8 +21,6 @@ import static com.google.javascript.jscomp.CollapseProperties.UNSAFE_THIS;
+ /**
+  * Tests for {@link CollapseProperties}.
+  *
+- *
+- *
+  */
+ public class CollapsePropertiesTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/CollapseVariableDeclarationsTest.java b/test/com/google/javascript/jscomp/CollapseVariableDeclarationsTest.java
+index 9a54665..6fdd023 100644
+--- a/test/com/google/javascript/jscomp/CollapseVariableDeclarationsTest.java
++++ b/test/com/google/javascript/jscomp/CollapseVariableDeclarationsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for variable declaration collapsing.
+  *
+- *
+  */
+ public class CollapseVariableDeclarationsTest extends CompilerTestCase {
+   public void testCollapsing() throws Exception {
+diff --git a/test/com/google/javascript/jscomp/CombinedCompilerPassTest.java b/test/com/google/javascript/jscomp/CombinedCompilerPassTest.java
+index 4cc1057..21d647f 100644
+--- a/test/com/google/javascript/jscomp/CombinedCompilerPassTest.java
++++ b/test/com/google/javascript/jscomp/CombinedCompilerPassTest.java
+@@ -30,7 +30,6 @@ import java.util.List;
+ import java.util.Set;
+ 
+ /**
+- *
+  */
+ public class CombinedCompilerPassTest extends TestCase  {
+ 
+diff --git a/test/com/google/javascript/jscomp/CompilerTestCase.java b/test/com/google/javascript/jscomp/CompilerTestCase.java
+index 8cfb5a8..8125836 100644
+--- a/test/com/google/javascript/jscomp/CompilerTestCase.java
++++ b/test/com/google/javascript/jscomp/CompilerTestCase.java
+@@ -37,7 +37,6 @@ import java.util.List;
+  * which makes it easier to write tests b/c you don't have to get the syntax
+  * exactly correct to the spacing.</p>
+  *
+- *
+  */
+ public abstract class CompilerTestCase extends TestCase  {
+ 
+diff --git a/test/com/google/javascript/jscomp/ConcreteTypeTest.java b/test/com/google/javascript/jscomp/ConcreteTypeTest.java
+index f762961..91bcf4d 100644
+--- a/test/com/google/javascript/jscomp/ConcreteTypeTest.java
++++ b/test/com/google/javascript/jscomp/ConcreteTypeTest.java
+@@ -48,7 +48,6 @@ import java.util.Map;
+ /**
+  * Unit test for the the subclasses of ConcreteType.
+  *
+- *
+  */
+ public class ConcreteTypeTest extends TestCase {
+   private JSTypeRegistry typeRegistry;
+diff --git a/test/com/google/javascript/jscomp/ConstCheckTest.java b/test/com/google/javascript/jscomp/ConstCheckTest.java
+index 6c6da5b..8df0901 100644
+--- a/test/com/google/javascript/jscomp/ConstCheckTest.java
++++ b/test/com/google/javascript/jscomp/ConstCheckTest.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests {@link ConstCheck}.
+  *
+- *
+  */
+ public class ConstCheckTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ControlFlowAnalysisTest.java b/test/com/google/javascript/jscomp/ControlFlowAnalysisTest.java
+index 6bf3489..e5fe07f 100644
+--- a/test/com/google/javascript/jscomp/ControlFlowAnalysisTest.java
++++ b/test/com/google/javascript/jscomp/ControlFlowAnalysisTest.java
+@@ -33,7 +33,6 @@ import java.util.List;
+ /**
+  * Tests {@link ControlFlowAnalysis}.
+  *
+- *
+  */
+ public class ControlFlowAnalysisTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ControlStructureCheckTest.java b/test/com/google/javascript/jscomp/ControlStructureCheckTest.java
+index 35e2480..438c988 100644
+--- a/test/com/google/javascript/jscomp/ControlStructureCheckTest.java
++++ b/test/com/google/javascript/jscomp/ControlStructureCheckTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Test for the control structure verification.
+  *
+- *
+  */
+ public class ControlStructureCheckTest extends CompilerTestCase {
+   // Rhino parse error message text
+diff --git a/test/com/google/javascript/jscomp/ConvertToDottedPropertiesTest.java b/test/com/google/javascript/jscomp/ConvertToDottedPropertiesTest.java
+index 6c35e5e..d883770 100644
+--- a/test/com/google/javascript/jscomp/ConvertToDottedPropertiesTest.java
++++ b/test/com/google/javascript/jscomp/ConvertToDottedPropertiesTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link ConvertToDottedProperties}.
+  *
+- *
+  */
+ public class ConvertToDottedPropertiesTest extends CompilerTestCase {
+   @Override public CompilerPass getProcessor(Compiler compiler) {
+diff --git a/test/com/google/javascript/jscomp/CreateSyntheticBlocksTest.java b/test/com/google/javascript/jscomp/CreateSyntheticBlocksTest.java
+index 1b3ef7c..6880f44 100644
+--- a/test/com/google/javascript/jscomp/CreateSyntheticBlocksTest.java
++++ b/test/com/google/javascript/jscomp/CreateSyntheticBlocksTest.java
+@@ -20,8 +20,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Tests for {@link CreateSyntheticBlocks}
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ public class CreateSyntheticBlocksTest extends CompilerTestCase {
+   private static final String START_MARKER = "startMarker";
+diff --git a/test/com/google/javascript/jscomp/CrossModuleCodeMotionTest.java b/test/com/google/javascript/jscomp/CrossModuleCodeMotionTest.java
+index 5639558..f5e0fa5 100755
+--- a/test/com/google/javascript/jscomp/CrossModuleCodeMotionTest.java
++++ b/test/com/google/javascript/jscomp/CrossModuleCodeMotionTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link CrossModuleCodeMotion}.
+  *
+- *
+  */
+ public class CrossModuleCodeMotionTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/DataFlowAnalysisTest.java b/test/com/google/javascript/jscomp/DataFlowAnalysisTest.java
+index 294fbf2..f410ada 100644
+--- a/test/com/google/javascript/jscomp/DataFlowAnalysisTest.java
++++ b/test/com/google/javascript/jscomp/DataFlowAnalysisTest.java
+@@ -39,7 +39,6 @@ import java.util.Map;
+  * Test cases must construct a small program with these instructions and
+  * manually put each instruction in a {@code ControlFlowGraph}.
+  *
+- *
+  */
+ public class DataFlowAnalysisTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java b/test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java
+index b7d8e94..70341e8 100644
+--- a/test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java
++++ b/test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java
+@@ -21,7 +21,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Tests for {@link DeadAssignmentsElimination}.
+  *
+- *
+  */
+ public class DeadAssignmentsEliminationTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/DefinitionsRemoverTest.java b/test/com/google/javascript/jscomp/DefinitionsRemoverTest.java
+index 47e08b3..57dbc52 100644
+--- a/test/com/google/javascript/jscomp/DefinitionsRemoverTest.java
++++ b/test/com/google/javascript/jscomp/DefinitionsRemoverTest.java
+@@ -28,7 +28,6 @@ import java.util.List;
+  * cases. More complicated cases will be tested by the clients of
+  * {@link DefinitionsRemover}.
+  *
+- *
+  */
+ public class DefinitionsRemoverTest extends CompilerTestCase {
+   public void testRemoveFunction() {
+diff --git a/test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java b/test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java
+index 782be4c..2666951 100644
+--- a/test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java
++++ b/test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java
+@@ -30,7 +30,6 @@ import java.util.List;
+ /**
+  * Tests for {@link DevirtualizePrototypeMethods}
+  *
+- *
+  */
+ public class DevirtualizePrototypeMethodsTest extends CompilerTestCase {
+   private static final String EXTERNAL_SYMBOLS =
+diff --git a/test/com/google/javascript/jscomp/DisambiguatePropertiesTest.java b/test/com/google/javascript/jscomp/DisambiguatePropertiesTest.java
+index 10ae7a0..041ed80 100644
+--- a/test/com/google/javascript/jscomp/DisambiguatePropertiesTest.java
++++ b/test/com/google/javascript/jscomp/DisambiguatePropertiesTest.java
+@@ -33,7 +33,6 @@ import java.util.TreeSet;
+ /**
+  * Unit test for the Compiler DisambiguateProprties pass.
+  *
+- *
+  */
+ public class DisambiguatePropertiesTest extends CompilerTestCase {
+   private DisambiguateProperties<?> lastPass;
+diff --git a/test/com/google/javascript/jscomp/ExportTestFunctionsTest.java b/test/com/google/javascript/jscomp/ExportTestFunctionsTest.java
+index ba4323d..f81d13f 100644
+--- a/test/com/google/javascript/jscomp/ExportTestFunctionsTest.java
++++ b/test/com/google/javascript/jscomp/ExportTestFunctionsTest.java
+@@ -18,7 +18,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for ExportTestFunctions.
+  *
+- *
+  */
+ public class ExportTestFunctionsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ExternExportsPassTest.java b/test/com/google/javascript/jscomp/ExternExportsPassTest.java
+index e5acaf7..a1ab1df 100755
+--- a/test/com/google/javascript/jscomp/ExternExportsPassTest.java
++++ b/test/com/google/javascript/jscomp/ExternExportsPassTest.java
+@@ -23,7 +23,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests for {@link ExternExportsPass}.
+  *
+- *
+  */
+ public class ExternExportsPassTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarationsTest.java b/test/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarationsTest.java
+index dd4ffb2..a0a2eea 100644
+--- a/test/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarationsTest.java
++++ b/test/com/google/javascript/jscomp/ExtractPrototypeMemberDeclarationsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link ExtractPrototypeMemberDeclarations}.
+  *
+- *
+  */
+ public class ExtractPrototypeMemberDeclarationsTest extends CompilerTestCase {
+   private static final String TMP = "JSCompiler_prototypeAlias";
+diff --git a/test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java b/test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java
+index 3154dac..cf27dc3 100644
+--- a/test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java
++++ b/test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java
+@@ -21,7 +21,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Unit tests for {@link FlowSensitiveInlineVariables}.
+  *
+- *
+  */
+ public class FlowSensitiveInlineVariablesTest extends CompilerTestCase  {
+ 
+diff --git a/test/com/google/javascript/jscomp/FunctionNamesTest.java b/test/com/google/javascript/jscomp/FunctionNamesTest.java
+index c9ded2b..59fb7d6 100644
+--- a/test/com/google/javascript/jscomp/FunctionNamesTest.java
++++ b/test/com/google/javascript/jscomp/FunctionNamesTest.java
+@@ -23,7 +23,6 @@ import java.util.Map;
+ /**
+  * Tests for {@link FunctionNames}
+  *
+- *
+  */
+ public class FunctionNamesTest extends CompilerTestCase {
+   private FunctionNames functionNames;
+diff --git a/test/com/google/javascript/jscomp/FunctionRewriterTest.java b/test/com/google/javascript/jscomp/FunctionRewriterTest.java
+index b65e61b..47eac0e 100644
+--- a/test/com/google/javascript/jscomp/FunctionRewriterTest.java
++++ b/test/com/google/javascript/jscomp/FunctionRewriterTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link FunctionRewriter}
+  *
+- *
+  */
+ public class FunctionRewriterTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/FunctionTypeBuilderTest.java b/test/com/google/javascript/jscomp/FunctionTypeBuilderTest.java
+index a9e2533..6006c69 100644
+--- a/test/com/google/javascript/jscomp/FunctionTypeBuilderTest.java
++++ b/test/com/google/javascript/jscomp/FunctionTypeBuilderTest.java
+@@ -29,7 +29,6 @@ import java.util.List;
+ /**
+  * Unit tests for {@link FunctionTypeBuilder}.
+  *
+- *
+  */
+ public class FunctionTypeBuilderTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallbackTest.java b/test/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallbackTest.java
+index 00ec069..d9a2d4c 100644
+--- a/test/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallbackTest.java
++++ b/test/com/google/javascript/jscomp/GatherSideEffectSubexpressionsCallbackTest.java
+@@ -29,7 +29,6 @@ import java.util.List;
+ /**
+  * Tests for {@link GatherSideEffectSubexpressionsCallback}
+  *
+- *
+  */
+ public class GatherSideEffectSubexpressionsCallbackTest extends TestCase {
+   public void testAndOr() throws Exception {
+diff --git a/test/com/google/javascript/jscomp/GenerateExportsTest.java b/test/com/google/javascript/jscomp/GenerateExportsTest.java
+index d76d990..65da716 100644
+--- a/test/com/google/javascript/jscomp/GenerateExportsTest.java
++++ b/test/com/google/javascript/jscomp/GenerateExportsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Generate exports unit test.
+  *
+- *
+  */
+ public class GenerateExportsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/IgnoreCajaPropertiesTest.java b/test/com/google/javascript/jscomp/IgnoreCajaPropertiesTest.java
+index b296f8e..5d443c6 100644
+--- a/test/com/google/javascript/jscomp/IgnoreCajaPropertiesTest.java
++++ b/test/com/google/javascript/jscomp/IgnoreCajaPropertiesTest.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+ /**
+  * {@link IgnoreCajaProperties} tests.
+  *
+- *
+  */
+ public class IgnoreCajaPropertiesTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/InstrumentFunctionsTest.java b/test/com/google/javascript/jscomp/InstrumentFunctionsTest.java
+index a582597..24d5684 100644
+--- a/test/com/google/javascript/jscomp/InstrumentFunctionsTest.java
++++ b/test/com/google/javascript/jscomp/InstrumentFunctionsTest.java
+@@ -25,7 +25,6 @@ import java.util.List;
+ /**
+  * Tests for {@link InstrumentFunctions}
+  *
+- *
+  */
+ public class InstrumentFunctionsTest extends CompilerTestCase {
+   private String instrumentationPb;
+diff --git a/test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java b/test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java
+index c6ad939..fed8118 100644
+--- a/test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java
++++ b/test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ import junit.framework.TestCase;
+ 
+ /**
+- *
+  */
+ public class JSCompilerSourceExcerptProviderTest extends TestCase {
+   private SourceExcerptProvider provider;
+diff --git a/test/com/google/javascript/jscomp/JSModuleGraphTest.java b/test/com/google/javascript/jscomp/JSModuleGraphTest.java
+index 74595e0..d499ed2 100644
+--- a/test/com/google/javascript/jscomp/JSModuleGraphTest.java
++++ b/test/com/google/javascript/jscomp/JSModuleGraphTest.java
+@@ -26,7 +26,6 @@ import java.util.*;
+ /**
+  * Tests for {@link JSModuleGraph}
+  *
+- *
+  */
+ public class JSModuleGraphTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/JSModuleTest.java b/test/com/google/javascript/jscomp/JSModuleTest.java
+index b2733cb..2bad985 100644
+--- a/test/com/google/javascript/jscomp/JSModuleTest.java
++++ b/test/com/google/javascript/jscomp/JSModuleTest.java
+@@ -27,7 +27,6 @@ import java.util.ArrayList;
+ /**
+  * Tests for {@link JSModule}
+  *
+- *
+  */
+ public class JSModuleTest extends TestCase {
+   private JSModule mod1;
+diff --git a/test/com/google/javascript/jscomp/JsMessageExtractorTest.java b/test/com/google/javascript/jscomp/JsMessageExtractorTest.java
+index 117e04e..f02e029 100644
+--- a/test/com/google/javascript/jscomp/JsMessageExtractorTest.java
++++ b/test/com/google/javascript/jscomp/JsMessageExtractorTest.java
+@@ -29,7 +29,6 @@ import java.util.Iterator;
+ /**
+  * Unit test for {@link JsMessageExtractor}.
+  *
+- *
+  */
+ public class JsMessageExtractorTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/LiveVariableAnalysisTest.java b/test/com/google/javascript/jscomp/LiveVariableAnalysisTest.java
+index 12b0f6d..62672cd 100644
+--- a/test/com/google/javascript/jscomp/LiveVariableAnalysisTest.java
++++ b/test/com/google/javascript/jscomp/LiveVariableAnalysisTest.java
+@@ -27,7 +27,6 @@ import junit.framework.TestCase;
+  * Tests for {@link LiveVariablesAnalysis}. Test cases are snippets of a
+  * function and assertions are made at the instruction labeled with {@code X}.
+  *
+- *
+  */
+ public class LiveVariableAnalysisTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/LooseTypeCheckTest.java b/test/com/google/javascript/jscomp/LooseTypeCheckTest.java
+index bd5f4f3..144ce3b 100644
+--- a/test/com/google/javascript/jscomp/LooseTypeCheckTest.java
++++ b/test/com/google/javascript/jscomp/LooseTypeCheckTest.java
+@@ -37,9 +37,6 @@ import java.util.Arrays;
+  * "looseTypes" option.  These tests should be be folded into TypeCheckTest
+  * or removed along with the looseTypes option.
+  *
+- *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ public class LooseTypeCheckTest extends CompilerTypeTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/MarkNoSideEffectCallsTest.java b/test/com/google/javascript/jscomp/MarkNoSideEffectCallsTest.java
+index 251c8d9..a0a3576 100644
+--- a/test/com/google/javascript/jscomp/MarkNoSideEffectCallsTest.java
++++ b/test/com/google/javascript/jscomp/MarkNoSideEffectCallsTest.java
+@@ -29,7 +29,6 @@ import java.util.List;
+ /**
+  * Tests for {@link MarkNoSideEffectCalls}
+  *
+- *
+  */
+ public class MarkNoSideEffectCallsTest extends CompilerTestCase {
+   List<String> noSideEffectCalls = Lists.newArrayList();
+diff --git a/test/com/google/javascript/jscomp/MaybeReachingVariableUseTest.java b/test/com/google/javascript/jscomp/MaybeReachingVariableUseTest.java
+index 9324698..c46c8e8 100644
+--- a/test/com/google/javascript/jscomp/MaybeReachingVariableUseTest.java
++++ b/test/com/google/javascript/jscomp/MaybeReachingVariableUseTest.java
+@@ -29,7 +29,6 @@ import java.util.List;
+ /**
+  * Tests for {@link MaybeReachingVariableUse}.
+  *
+- *
+  */
+ public class MaybeReachingVariableUseTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/MoveFunctionDeclarationsTest.java b/test/com/google/javascript/jscomp/MoveFunctionDeclarationsTest.java
+index 0594266..c7a85c3 100644
+--- a/test/com/google/javascript/jscomp/MoveFunctionDeclarationsTest.java
++++ b/test/com/google/javascript/jscomp/MoveFunctionDeclarationsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link MoveFunctionDeclarations}
+  *
+- *
+  */
+ public class MoveFunctionDeclarationsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/MustBeReachingVariableDefTest.java b/test/com/google/javascript/jscomp/MustBeReachingVariableDefTest.java
+index b7d8b03..1b47cb5 100644
+--- a/test/com/google/javascript/jscomp/MustBeReachingVariableDefTest.java
++++ b/test/com/google/javascript/jscomp/MustBeReachingVariableDefTest.java
+@@ -25,7 +25,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests for {@link MustBeReachingVariableDef}.
+  *
+- *
+  */
+ public class MustBeReachingVariableDefTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/NameAnalyzerTest.java b/test/com/google/javascript/jscomp/NameAnalyzerTest.java
+index 6b05ba2..7793272 100644
+--- a/test/com/google/javascript/jscomp/NameAnalyzerTest.java
++++ b/test/com/google/javascript/jscomp/NameAnalyzerTest.java
+@@ -21,8 +21,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Tests for {@link NameAnalyzer}
+  *
+- *
+- *
+  */
+ public class NameAnalyzerTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/NameAnonymousFunctionsMappedTest.java b/test/com/google/javascript/jscomp/NameAnonymousFunctionsMappedTest.java
+index f15a3e0..4b50b35 100644
+--- a/test/com/google/javascript/jscomp/NameAnonymousFunctionsMappedTest.java
++++ b/test/com/google/javascript/jscomp/NameAnonymousFunctionsMappedTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Test cases for {@link NameAnonymousFunctionsMapped}.
+  *
+- *
+  */
+ public class NameAnonymousFunctionsMappedTest extends CompilerTestCase {
+   private static final String EXTERNS = "var document;";
+diff --git a/test/com/google/javascript/jscomp/NameAnonymousFunctionsTest.java b/test/com/google/javascript/jscomp/NameAnonymousFunctionsTest.java
+index 3f1968a..b1f04e1 100644
+--- a/test/com/google/javascript/jscomp/NameAnonymousFunctionsTest.java
++++ b/test/com/google/javascript/jscomp/NameAnonymousFunctionsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Unit test for {@link NameAnonymousFunctionsTest}.
+  *
+- *
+  */
+ public class NameAnonymousFunctionsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ObjectPropertyStringPostprocessTest.java b/test/com/google/javascript/jscomp/ObjectPropertyStringPostprocessTest.java
+index a37dfe0..bafd133 100644
+--- a/test/com/google/javascript/jscomp/ObjectPropertyStringPostprocessTest.java
++++ b/test/com/google/javascript/jscomp/ObjectPropertyStringPostprocessTest.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link ObjectPropertyStringPostprocess}.
+  *
+- *
+  */
+ public class ObjectPropertyStringPostprocessTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/ObjectPropertyStringPreprocessTest.java b/test/com/google/javascript/jscomp/ObjectPropertyStringPreprocessTest.java
+index 0791fdb..6f50166 100644
+--- a/test/com/google/javascript/jscomp/ObjectPropertyStringPreprocessTest.java
++++ b/test/com/google/javascript/jscomp/ObjectPropertyStringPreprocessTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link ObjectPropertyStringPreprocess}
+  *
+- *
+  */
+ public class ObjectPropertyStringPreprocessTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java b/test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java
+index 10b85cc..3b07cf9 100644
+--- a/test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java
++++ b/test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Unit tests for {@link OptimizeArgumentsArray}.
+  *
+- *
+  */
+ public class OptimizeArgumentsArrayTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/OptimizeParametersTest.java b/test/com/google/javascript/jscomp/OptimizeParametersTest.java
+index 4111be8..5821b9c 100644
+--- a/test/com/google/javascript/jscomp/OptimizeParametersTest.java
++++ b/test/com/google/javascript/jscomp/OptimizeParametersTest.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link OptimizeParameters}
+  *
+- *
+  */
+ public class OptimizeParametersTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/ParallelCompilerPassTest.java b/test/com/google/javascript/jscomp/ParallelCompilerPassTest.java
+index be82872..c00dd4f 100644
+--- a/test/com/google/javascript/jscomp/ParallelCompilerPassTest.java
++++ b/test/com/google/javascript/jscomp/ParallelCompilerPassTest.java
+@@ -31,7 +31,6 @@ import junit.framework.TestCase;
+  * class is here for a quick sanity test purpose. At the very least, it verifies
+  * that all the worker terminates and no dead lock exists in the test cases.
+  *
+- *
+  */
+ public class ParallelCompilerPassTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/PeepholeOptimizationsPassTest.java b/test/com/google/javascript/jscomp/PeepholeOptimizationsPassTest.java
+index ab59eef..46a6693 100644
+--- a/test/com/google/javascript/jscomp/PeepholeOptimizationsPassTest.java
++++ b/test/com/google/javascript/jscomp/PeepholeOptimizationsPassTest.java
+@@ -28,7 +28,6 @@ import java.util.Set;
+ /**
+  * Unit tests for PeepholeOptimizationsPass.
+  *
+- *
+  */
+ public class PeepholeOptimizationsPassTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java b/test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java
+index 8f36739..5be0a1f 100644
+--- a/test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java
++++ b/test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java
+@@ -33,8 +33,6 @@ import static com.google.javascript.jscomp.ProcessClosurePrimitives.XMODULE_REQU
+ /**
+  * Tests for {@link ProcessClosurePrimitives}.
+  *
+- *
+- *
+  */
+ public class ProcessClosurePrimitivesTest extends CompilerTestCase {
+   private String additionalCode;
+diff --git a/test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java b/test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java
+index a2474ce..f904f34 100644
+--- a/test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java
++++ b/test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java
+@@ -29,7 +29,6 @@ import java.util.List;
+ /**
+  * Tests for {@link PureFunctionIdentifier}
+  *
+- *
+  */
+ public class PureFunctionIdentifierTest extends CompilerTestCase {
+   List<String> noSideEffectCalls = Lists.newArrayList();
+diff --git a/test/com/google/javascript/jscomp/RecordFunctionInformationTest.java b/test/com/google/javascript/jscomp/RecordFunctionInformationTest.java
+index 3d470c7..8165bde 100644
+--- a/test/com/google/javascript/jscomp/RecordFunctionInformationTest.java
++++ b/test/com/google/javascript/jscomp/RecordFunctionInformationTest.java
+@@ -24,7 +24,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests for {@link RecordFunctionInformation}
+  *
+- *
+  */
+ public class RecordFunctionInformationTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/RemoveConstantExpressionsParallelTest.java b/test/com/google/javascript/jscomp/RemoveConstantExpressionsParallelTest.java
+index 78a4aeb..20f28d0 100644
+--- a/test/com/google/javascript/jscomp/RemoveConstantExpressionsParallelTest.java
++++ b/test/com/google/javascript/jscomp/RemoveConstantExpressionsParallelTest.java
+@@ -21,7 +21,6 @@ package com.google.javascript.jscomp;
+  * the correctness of {@link RemoveConstantExpressions} since that's the job
+  * of {@link RemoveConstantExpressionsTest}.
+  *
+- *
+  */
+ public class RemoveConstantExpressionsParallelTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/RemoveConstantExpressionsTest.java b/test/com/google/javascript/jscomp/RemoveConstantExpressionsTest.java
+index c73fb67..3be9b38 100644
+--- a/test/com/google/javascript/jscomp/RemoveConstantExpressionsTest.java
++++ b/test/com/google/javascript/jscomp/RemoveConstantExpressionsTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link RemoveConstantExpressions}
+  *
+- *
+  */
+ public class RemoveConstantExpressionsTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/RenamePropertiesTest.java b/test/com/google/javascript/jscomp/RenamePropertiesTest.java
+index a9f46c3..7663596 100644
+--- a/test/com/google/javascript/jscomp/RenamePropertiesTest.java
++++ b/test/com/google/javascript/jscomp/RenamePropertiesTest.java
+@@ -20,7 +20,6 @@ package com.google.javascript.jscomp;
+ /**
+  * {@link RenameProperties} tests.
+  *
+- *
+  */
+ public class RenamePropertiesTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/ReplaceCssNamesTest.java b/test/com/google/javascript/jscomp/ReplaceCssNamesTest.java
+index 0d758fb..01807bb 100644
+--- a/test/com/google/javascript/jscomp/ReplaceCssNamesTest.java
++++ b/test/com/google/javascript/jscomp/ReplaceCssNamesTest.java
+@@ -30,7 +30,6 @@ import java.util.Map;
+ /**
+  * Tests for ReplaceCssNames.java.
+  *
+- *
+  */
+ public class ReplaceCssNamesTest extends CompilerTestCase {
+   /** Whether to pass the map of replacements as opposed to null */
+diff --git a/test/com/google/javascript/jscomp/ReplaceIdGeneratorsTest.java b/test/com/google/javascript/jscomp/ReplaceIdGeneratorsTest.java
+index 1638d15..c270f66 100644
+--- a/test/com/google/javascript/jscomp/ReplaceIdGeneratorsTest.java
++++ b/test/com/google/javascript/jscomp/ReplaceIdGeneratorsTest.java
+@@ -22,7 +22,6 @@ import com.google.common.collect.ImmutableSet;
+ /**
+  * Tests for {@link ReplaceIdGenerators}.
+  *
+- *
+  */
+ public class ReplaceIdGeneratorsTest extends CompilerTestCase {
+   @Override
+diff --git a/test/com/google/javascript/jscomp/ReplaceStringsTest.java b/test/com/google/javascript/jscomp/ReplaceStringsTest.java
+index 5f54daa..b3ebdb7 100644
+--- a/test/com/google/javascript/jscomp/ReplaceStringsTest.java
++++ b/test/com/google/javascript/jscomp/ReplaceStringsTest.java
+@@ -24,7 +24,6 @@ import java.util.List;
+ /**
+  * Tests for {@link ReplaceStrings}.
+  *
+- *
+  */
+ public class ReplaceStringsTest extends CompilerTestCase {
+   private ReplaceStrings pass;
+diff --git a/test/com/google/javascript/jscomp/RuntimeTypeCheckTest.java b/test/com/google/javascript/jscomp/RuntimeTypeCheckTest.java
+index 899ed68..4d72216 100644
+--- a/test/com/google/javascript/jscomp/RuntimeTypeCheckTest.java
++++ b/test/com/google/javascript/jscomp/RuntimeTypeCheckTest.java
+@@ -22,8 +22,6 @@ import com.google.javascript.rhino.Node;
+ /**
+  * Tests for {@link RuntimeTypeCheck}.
+  *
+- *
+- *
+  */
+ public class RuntimeTypeCheckTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/SimpleDefinitionFinderTest.java b/test/com/google/javascript/jscomp/SimpleDefinitionFinderTest.java
+index b01969e..dc0903b 100644
+--- a/test/com/google/javascript/jscomp/SimpleDefinitionFinderTest.java
++++ b/test/com/google/javascript/jscomp/SimpleDefinitionFinderTest.java
+@@ -31,7 +31,6 @@ import java.util.Set;
+ /**
+  * Tests for {@link SimpleDefinitionFinder}
+  *
+- *
+  */
+ public class SimpleDefinitionFinderTest extends CompilerTestCase {
+   Set<String> found = Sets.newTreeSet();
+diff --git a/test/com/google/javascript/jscomp/SourceMap2Test.java b/test/com/google/javascript/jscomp/SourceMap2Test.java
+index 5d3617e..1d66800 100644
+--- a/test/com/google/javascript/jscomp/SourceMap2Test.java
++++ b/test/com/google/javascript/jscomp/SourceMap2Test.java
+@@ -37,8 +37,6 @@ import java.util.Map;
+ /**
+  * Tests for {@link SourceMap}.
+  *
+- *
+- * @author johnlenz@google.com (John Lenz)
+  */
+ public class SourceMap2Test extends TestCase {
+   private static final JSSourceFile[] EXTERNS = {
+diff --git a/test/com/google/javascript/jscomp/SourceMapTest.java b/test/com/google/javascript/jscomp/SourceMapTest.java
+index 8b7994e..10bb9d9 100644
+--- a/test/com/google/javascript/jscomp/SourceMapTest.java
++++ b/test/com/google/javascript/jscomp/SourceMapTest.java
+@@ -37,7 +37,6 @@ import java.util.Map;
+ /**
+  * Tests for {@link SourceMap}.
+  *
+- *
+  */
+ public class SourceMapTest extends TestCase {
+   private static final JSSourceFile[] EXTERNS = {
+diff --git a/test/com/google/javascript/jscomp/StripCodeTest.java b/test/com/google/javascript/jscomp/StripCodeTest.java
+index 173fe05..351ea0a 100644
+--- a/test/com/google/javascript/jscomp/StripCodeTest.java
++++ b/test/com/google/javascript/jscomp/StripCodeTest.java
+@@ -23,8 +23,6 @@ import java.util.Set;
+ /**
+  * Tests for {@link StripCode}.
+  *
+- *
+- *
+  */
+ public class StripCodeTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/SuspiciousPropertiesCheckTest.java b/test/com/google/javascript/jscomp/SuspiciousPropertiesCheckTest.java
+index 18bbe11..fe143b9 100644
+--- a/test/com/google/javascript/jscomp/SuspiciousPropertiesCheckTest.java
++++ b/test/com/google/javascript/jscomp/SuspiciousPropertiesCheckTest.java
+@@ -23,7 +23,6 @@ import com.google.javascript.jscomp.CheckLevel;
+  * bad property writes and reads are reported, and that no spurious errors or
+  * warnings are generated.
+  *
+- *
+  */
+ public class SuspiciousPropertiesCheckTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/SyntacticScopeCreatorTest.java b/test/com/google/javascript/jscomp/SyntacticScopeCreatorTest.java
+index 8b5cc78..ffe0834 100644
+--- a/test/com/google/javascript/jscomp/SyntacticScopeCreatorTest.java
++++ b/test/com/google/javascript/jscomp/SyntacticScopeCreatorTest.java
+@@ -24,7 +24,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests for {@link SyntacticScopeCreator}.
+  *
+- *
+  */
+ public class SyntacticScopeCreatorTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/TightenTypesTest.java b/test/com/google/javascript/jscomp/TightenTypesTest.java
+index dbc3d16..d30c24f 100644
+--- a/test/com/google/javascript/jscomp/TightenTypesTest.java
++++ b/test/com/google/javascript/jscomp/TightenTypesTest.java
+@@ -25,8 +25,6 @@ import com.google.javascript.rhino.testing.BaseJSTypeTestCase;
+ /**
+  * Unit test for the TightenTypes pass.
+  *
+- *
+- *
+  */
+ public class TightenTypesTest extends CompilerTestCase {
+   private TightenTypes tt;
+diff --git a/test/com/google/javascript/jscomp/TypeCheckTest.java b/test/com/google/javascript/jscomp/TypeCheckTest.java
+index 9d069b4..3db1709 100644
+--- a/test/com/google/javascript/jscomp/TypeCheckTest.java
++++ b/test/com/google/javascript/jscomp/TypeCheckTest.java
+@@ -32,8 +32,6 @@ import java.util.Arrays;
+ /**
+  * Tests {@link TypeCheck}.
+  *
+- *
+- *
+  */
+ public class TypeCheckTest extends CompilerTypeTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/TypeInferenceTest.java b/test/com/google/javascript/jscomp/TypeInferenceTest.java
+index 7b0e087..e45e1c0 100644
+--- a/test/com/google/javascript/jscomp/TypeInferenceTest.java
++++ b/test/com/google/javascript/jscomp/TypeInferenceTest.java
+@@ -47,7 +47,6 @@ import java.util.Map;
+ /**
+  * Tests {@link TypeInference}.
+  *
+- *
+  */
+ public class TypeInferenceTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java b/test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java
+index 8fddeb2..793d570 100644
+--- a/test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java
++++ b/test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Test for {@link UnreachableCodeElimination}.
+  *
+- *
+  */
+ public class UnreachableCodeEliminationTest extends CompilerTestCase {
+   private boolean removeNoOpStatements = true;
+diff --git a/test/com/google/javascript/jscomp/VariableMapTest.java b/test/com/google/javascript/jscomp/VariableMapTest.java
+index bf51b6b..e064d5f 100644
+--- a/test/com/google/javascript/jscomp/VariableMapTest.java
++++ b/test/com/google/javascript/jscomp/VariableMapTest.java
+@@ -28,7 +28,6 @@ import java.util.List;
+ /**
+  * Tests for {@link VariableMap}.
+  *
+- *
+  */
+ public class VariableMapTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/VariableReferenceCheckTest.java b/test/com/google/javascript/jscomp/VariableReferenceCheckTest.java
+index 8922eb1..4c69950 100644
+--- a/test/com/google/javascript/jscomp/VariableReferenceCheckTest.java
++++ b/test/com/google/javascript/jscomp/VariableReferenceCheckTest.java
+@@ -23,7 +23,6 @@ import com.google.javascript.jscomp.CheckLevel;
+  * Test that warnings are generated in appropriate cases and appropriate
+  * cases only by VariableReferenceCheck
+  *
+- *
+  */
+ public class VariableReferenceCheckTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/VariableShadowDeclarationCheckTest.java b/test/com/google/javascript/jscomp/VariableShadowDeclarationCheckTest.java
+index a1f71b0..6316534 100644
+--- a/test/com/google/javascript/jscomp/VariableShadowDeclarationCheckTest.java
++++ b/test/com/google/javascript/jscomp/VariableShadowDeclarationCheckTest.java
+@@ -19,7 +19,6 @@ package com.google.javascript.jscomp;
+ /**
+  * Tests for {@link VariableShadowDeclarationCheck}
+  *
+- *
+  */
+ public class VariableShadowDeclarationCheckTest extends CompilerTestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/graph/GraphColoringTest.java b/test/com/google/javascript/jscomp/graph/GraphColoringTest.java
+index 2581fe1..87ecaa6 100644
+--- a/test/com/google/javascript/jscomp/graph/GraphColoringTest.java
++++ b/test/com/google/javascript/jscomp/graph/GraphColoringTest.java
+@@ -31,7 +31,6 @@ import java.util.Comparator;
+ /**
+  * Tests for {@link GraphColoring}.
+  *
+- *
+  */
+ public class GraphColoringTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/graph/GraphReachabilityTest.java b/test/com/google/javascript/jscomp/graph/GraphReachabilityTest.java
+index 6ab2870..72fdfd2 100644
+--- a/test/com/google/javascript/jscomp/graph/GraphReachabilityTest.java
++++ b/test/com/google/javascript/jscomp/graph/GraphReachabilityTest.java
+@@ -25,7 +25,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests for {@link GraphReachability}.
+  *
+- *
+  */
+ public class GraphReachabilityTest extends TestCase {
+   GraphReachability<String, String> reachability = null;
+diff --git a/test/com/google/javascript/jscomp/graph/GraphTest.java b/test/com/google/javascript/jscomp/graph/GraphTest.java
+index a0a87d4..7300416 100644
+--- a/test/com/google/javascript/jscomp/graph/GraphTest.java
++++ b/test/com/google/javascript/jscomp/graph/GraphTest.java
+@@ -36,7 +36,6 @@ import java.util.Set;
+ /**
+  * Tests for the graph data structure.
+  *
+- *
+  */
+ public class GraphTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/jscomp/graph/StandardUnionFindTest.java b/test/com/google/javascript/jscomp/graph/StandardUnionFindTest.java
+index 088b166..f15e6aa 100644
+--- a/test/com/google/javascript/jscomp/graph/StandardUnionFindTest.java
++++ b/test/com/google/javascript/jscomp/graph/StandardUnionFindTest.java
+@@ -30,7 +30,6 @@ import java.util.Set;
+ /**
+  * Unit test for the {@link StandardUnionFind} data structure.
+  *
+- *
+  */
+ public class StandardUnionFindTest extends TestCase {
+   private StandardUnionFind<String> union;
+diff --git a/test/com/google/javascript/rhino/jstype/BooleanLiteralSetTest.java b/test/com/google/javascript/rhino/jstype/BooleanLiteralSetTest.java
+index 5f0ea70..5b35e5b 100644
+--- a/test/com/google/javascript/rhino/jstype/BooleanLiteralSetTest.java
++++ b/test/com/google/javascript/rhino/jstype/BooleanLiteralSetTest.java
+@@ -48,7 +48,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests {@link BooleanLiteralSet}.
+  *
+- *
+  */
+ public class BooleanLiteralSetTest extends TestCase {
+ 
+diff --git a/test/com/google/javascript/rhino/jstype/JSTypeRegistryTest.java b/test/com/google/javascript/rhino/jstype/JSTypeRegistryTest.java
+index 9b8267f..ecc787e 100644
+--- a/test/com/google/javascript/rhino/jstype/JSTypeRegistryTest.java
++++ b/test/com/google/javascript/rhino/jstype/JSTypeRegistryTest.java
+@@ -49,7 +49,6 @@ import junit.framework.TestCase;
+ /**
+  * Tests {@link JSTypeRegistry}.
+  *
+- *
+  */
+ public class JSTypeRegistryTest extends TestCase {
+   // TODO(user): extend this class with more tests, as JSTypeRegistry is
+diff --git a/test/com/google/javascript/rhino/jstype/TernaryValueTest.java b/test/com/google/javascript/rhino/jstype/TernaryValueTest.java
+index 5e79adb..2dcc7a4 100644
+--- a/test/com/google/javascript/rhino/jstype/TernaryValueTest.java
++++ b/test/com/google/javascript/rhino/jstype/TernaryValueTest.java
+@@ -51,7 +51,6 @@ import junit.framework.TestCase;
+  * and {@link TernaryValue#xor(TernaryValue)} as well as the
+  * {@link TernaryValue#toBoolean(boolean)} method.
+  *
+- *
+  */
+ public class TernaryValueTest extends TestCase {
+   public void testOrdinal() throws Exception {

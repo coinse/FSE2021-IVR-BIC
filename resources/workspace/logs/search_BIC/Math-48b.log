@@ -1,0 +1,872 @@
+2021-07-04 07:30:23,249 INFO     Search BICs for /tmp/Math-48b/
+2021-07-04 07:30:23,249 DEBUG    Reading the coverage of org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631 (failings)
+2021-07-04 07:30:23,291 INFO     Loaded 1x745 Coverage Matrix
+2021-07-04 07:30:23,292 INFO     The number of total commits: 3100
+2021-07-04 07:30:23,572 DEBUG    [line range] org/apache/commons/math/analysis/solvers/AbstractUnivariateRealSolver.java <init> 36:38
+2021-07-04 07:30:23,695 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:23,969 DEBUG    [single line]   org/apache/commons/math/analysis/solvers/AllowedSolution.java <clinit> 41
+2021-07-04 07:30:24,090 DEBUG                  - depth 0, hash 5a3c5f2, HEAD~87
+2021-07-04 07:30:24,095 DEBUG                  - depth 1, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:24,099 DEBUG    [single line]   org/apache/commons/math/analysis/solvers/AllowedSolution.java <clinit> 48
+2021-07-04 07:30:24,219 DEBUG                  - depth 0, hash 4ba1b2b, HEAD~168
+2021-07-04 07:30:24,224 DEBUG                  - depth 1, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:24,229 DEBUG    [single line]   org/apache/commons/math/analysis/solvers/AllowedSolution.java <clinit> 55
+2021-07-04 07:30:24,349 DEBUG                  - depth 0, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:24,354 DEBUG    [single line]   org/apache/commons/math/analysis/solvers/AllowedSolution.java <clinit> 62
+2021-07-04 07:30:24,474 DEBUG                  - depth 0, hash cfcd4cf, HEAD~173
+2021-07-04 07:30:24,479 DEBUG                  - depth 1, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:24,484 DEBUG    [single line]   org/apache/commons/math/analysis/solvers/AllowedSolution.java <clinit> 68
+2021-07-04 07:30:24,604 DEBUG                  - depth 0, hash cfcd4cf, HEAD~173
+2021-07-04 07:30:24,609 DEBUG                  - depth 1, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:24,614 DEBUG    [single line]   org/apache/commons/math/analysis/solvers/AllowedSolution.java <clinit> 74
+2021-07-04 07:30:24,734 DEBUG                  - depth 0, hash cfcd4cf, HEAD~173
+2021-07-04 07:30:24,739 DEBUG                  - depth 1, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:25,076 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java <init> 64:68
+2021-07-04 07:30:25,197 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,203 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java <init> 49:49
+2021-07-04 07:30:25,328 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,334 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java computeObjectiveValue 151:155
+2021-07-04 07:30:25,455 DEBUG                  - depth 0, hash 610666e, HEAD~99
+2021-07-04 07:30:25,460 DEBUG                  - depth 1, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,464 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java getAbsoluteAccuracy 127:129
+2021-07-04 07:30:25,585 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,591 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java getFunctionValueAccuracy 139:141
+2021-07-04 07:30:25,711 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,717 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java getMax 115:117
+2021-07-04 07:30:25,838 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,843 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java getMin 109:111
+2021-07-04 07:30:25,965 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:25,970 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java getRelativeAccuracy 133:135
+2021-07-04 07:30:26,091 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:26,096 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java incrementEvaluationCount 292:298
+2021-07-04 07:30:26,217 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:26,223 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java setup 168:182
+2021-07-04 07:30:26,344 DEBUG                  - depth 0, hash fc55e29, HEAD~171
+2021-07-04 07:30:26,349 DEBUG                  - depth 1, hash 6cca072, HEAD~607
+2021-07-04 07:30:26,353 DEBUG                  - depth 2, hash 74ff198, HEAD~624
+2021-07-04 07:30:26,357 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java solve 194:196
+2021-07-04 07:30:26,483 DEBUG                  - depth 0, hash 6cca072, HEAD~607
+2021-07-04 07:30:26,489 DEBUG                  - depth 1, hash 74ff198, HEAD~624
+2021-07-04 07:30:26,493 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java solve 185:191
+2021-07-04 07:30:26,614 DEBUG                  - depth 0, hash 6cca072, HEAD~607
+2021-07-04 07:30:26,619 DEBUG                  - depth 1, hash 74ff198, HEAD~624
+2021-07-04 07:30:26,624 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java verifyBracketing 280:283
+2021-07-04 07:30:26,745 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:27,105 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseSecantSolver.java <init> 67:71
+2021-07-04 07:30:27,226 DEBUG                  - depth 0, hash 5a3c5f2, HEAD~87
+2021-07-04 07:30:27,232 DEBUG                  - depth 1, hash 0d7fa0f, HEAD~165
+2021-07-04 07:30:27,236 DEBUG                  - depth 2, hash c8bb7cc, HEAD~169
+2021-07-04 07:30:27,240 DEBUG                  - depth 3, hash 6a23f66, HEAD~193
+2021-07-04 07:30:27,244 DEBUG                  - depth 4, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:27,248 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseSecantSolver.java doSolve 128:249
+2021-07-04 07:30:27,371 DEBUG                  - depth 0, hash 39cf5e6, HEAD~61
+2021-07-04 07:30:27,376 DEBUG                  - depth 1, hash 2f066a5, HEAD~68
+2021-07-04 07:30:27,380 DEBUG                  - depth 2, hash 0d7fa0f, HEAD~165
+2021-07-04 07:30:27,384 DEBUG                  - depth 3, hash c8bb7cc, HEAD~169
+2021-07-04 07:30:27,388 DEBUG                  - depth 4, hash cfcd4cf, HEAD~173
+2021-07-04 07:30:27,392 DEBUG                  - depth 5, hash 3bd4ebc, HEAD~192
+2021-07-04 07:30:27,397 DEBUG                  - depth 6, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:27,401 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseSecantSolver.java solve 121:125
+2021-07-04 07:30:27,523 DEBUG                  - depth 0, hash 5a3c5f2, HEAD~87
+2021-07-04 07:30:27,529 DEBUG                  - depth 1, hash c8bb7cc, HEAD~169
+2021-07-04 07:30:27,533 DEBUG                  - depth 2, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:27,537 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseSecantSolver.java solve 113:118
+2021-07-04 07:30:27,657 DEBUG                  - depth 0, hash 5a3c5f2, HEAD~87
+2021-07-04 07:30:27,663 DEBUG                  - depth 1, hash 0d7fa0f, HEAD~165
+2021-07-04 07:30:27,667 DEBUG                  - depth 2, hash c8bb7cc, HEAD~169
+2021-07-04 07:30:27,671 DEBUG    [line range] org/apache/commons/math/analysis/solvers/BaseSecantSolver.java <clinit> 128:249
+2021-07-04 07:30:27,794 DEBUG                  - depth 0, hash 39cf5e6, HEAD~61
+2021-07-04 07:30:27,800 DEBUG                  - depth 1, hash 2f066a5, HEAD~68
+2021-07-04 07:30:27,804 DEBUG                  - depth 2, hash 0d7fa0f, HEAD~165
+2021-07-04 07:30:27,808 DEBUG                  - depth 3, hash c8bb7cc, HEAD~169
+2021-07-04 07:30:27,812 DEBUG                  - depth 4, hash cfcd4cf, HEAD~173
+2021-07-04 07:30:27,816 DEBUG                  - depth 5, hash 3bd4ebc, HEAD~192
+2021-07-04 07:30:27,820 DEBUG                  - depth 6, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:28,110 DEBUG    [line range] org/apache/commons/math/analysis/solvers/RegulaFalsiSolver.java <init> 42:44
+2021-07-04 07:30:28,232 DEBUG                  - depth 0, hash ed5fdf6, HEAD~197
+2021-07-04 07:30:28,592 DEBUG    [line range] org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java isBracketing 302:311
+2021-07-04 07:30:28,720 DEBUG                  - depth 0, hash 4fb53c7, HEAD~151
+2021-07-04 07:30:28,725 DEBUG                  - depth 1, hash 74ff198, HEAD~624
+2021-07-04 07:30:28,729 DEBUG                  - depth 2, hash baf90f0, HEAD~783
+2021-07-04 07:30:28,733 DEBUG                  - depth 3, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:28,737 DEBUG                  - depth 4, hash bd345d9, HEAD~1050
+2021-07-04 07:30:28,741 DEBUG                  - depth 5, hash 95d2cf0, HEAD~1415
+2021-07-04 07:30:28,745 DEBUG                  - depth 6, hash 382b573, HEAD~1494
+2021-07-04 07:30:28,749 DEBUG                  - depth 7, hash 6a978ea, HEAD~2529
+2021-07-04 07:30:28,754 DEBUG    [line range] org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java verifyBracketing 368:380
+2021-07-04 07:30:28,874 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:28,880 DEBUG    [line range] org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java verifyInterval 334:340
+2021-07-04 07:30:29,001 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:29,303 DEBUG    [line range] org/apache/commons/math/exception/MathIllegalStateException.java <init> 66:68
+2021-07-04 07:30:29,425 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:29,431 DEBUG                  - depth 1, hash d3892cb, HEAD~354
+2021-07-04 07:30:29,435 DEBUG                  - depth 2, hash a763f3e, HEAD~365
+2021-07-04 07:30:29,439 DEBUG                  - depth 3, hash 622f5b5, HEAD~591
+2021-07-04 07:30:29,443 DEBUG                  - depth 4, hash 188ddd4, HEAD~767
+2021-07-04 07:30:29,447 DEBUG    [line range] org/apache/commons/math/exception/MathIllegalStateException.java <init> 36:36
+2021-07-04 07:30:29,569 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:29,574 DEBUG    [line range] org/apache/commons/math/exception/MathIllegalStateException.java <init> 44:47
+2021-07-04 07:30:29,696 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:29,701 DEBUG                  - depth 1, hash a763f3e, HEAD~365
+2021-07-04 07:30:29,705 DEBUG                  - depth 2, hash c54d3a8, HEAD~389
+2021-07-04 07:30:29,710 DEBUG                  - depth 3, hash e02f414, HEAD~515
+2021-07-04 07:30:29,714 DEBUG                  - depth 4, hash 622f5b5, HEAD~591
+2021-07-04 07:30:29,718 DEBUG                  - depth 5, hash 188ddd4, HEAD~767
+2021-07-04 07:30:29,722 DEBUG    [line range] org/apache/commons/math/exception/MathIllegalStateException.java getContext 71:73
+2021-07-04 07:30:29,845 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:29,850 DEBUG                  - depth 1, hash d3892cb, HEAD~354
+2021-07-04 07:30:29,854 DEBUG                  - depth 2, hash a763f3e, HEAD~365
+2021-07-04 07:30:29,858 DEBUG                  - depth 3, hash 622f5b5, HEAD~591
+2021-07-04 07:30:29,862 DEBUG                  - depth 4, hash 188ddd4, HEAD~767
+2021-07-04 07:30:29,867 DEBUG    [line range] org/apache/commons/math/exception/MathIllegalStateException.java getLocalizedMessage 82:85
+2021-07-04 07:30:29,993 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:29,998 DEBUG                  - depth 1, hash d3892cb, HEAD~354
+2021-07-04 07:30:30,003 DEBUG                  - depth 2, hash a763f3e, HEAD~365
+2021-07-04 07:30:30,007 DEBUG                  - depth 3, hash 622f5b5, HEAD~591
+2021-07-04 07:30:30,011 DEBUG                  - depth 4, hash 188ddd4, HEAD~767
+2021-07-04 07:30:30,303 DEBUG    [line range] org/apache/commons/math/exception/MaxCountExceededException.java <init> 41:43
+2021-07-04 07:30:30,425 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:30,430 DEBUG                  - depth 1, hash 97583ab, HEAD~296
+2021-07-04 07:30:30,434 DEBUG                  - depth 2, hash a763f3e, HEAD~365
+2021-07-04 07:30:30,438 DEBUG                  - depth 3, hash 188ddd4, HEAD~767
+2021-07-04 07:30:30,443 DEBUG    [line range] org/apache/commons/math/exception/MaxCountExceededException.java <init> 51:56
+2021-07-04 07:30:30,564 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:30,570 DEBUG                  - depth 1, hash 97583ab, HEAD~296
+2021-07-04 07:30:30,574 DEBUG                  - depth 2, hash a763f3e, HEAD~365
+2021-07-04 07:30:30,578 DEBUG                  - depth 3, hash 8743063, HEAD~614
+2021-07-04 07:30:30,582 DEBUG                  - depth 4, hash d7d514b, HEAD~663
+2021-07-04 07:30:30,586 DEBUG                  - depth 5, hash 188ddd4, HEAD~767
+2021-07-04 07:30:30,590 DEBUG    [line range] org/apache/commons/math/exception/MaxCountExceededException.java getMax 61:63
+2021-07-04 07:30:30,716 DEBUG                  - depth 0, hash 188ddd4, HEAD~767
+2021-07-04 07:30:30,998 DEBUG    [line range] org/apache/commons/math/exception/TooManyEvaluationsException.java <init> 36:39
+2021-07-04 07:30:31,119 DEBUG                  - depth 0, hash c11f219, HEAD~265
+2021-07-04 07:30:31,124 DEBUG                  - depth 1, hash 188ddd4, HEAD~767
+2021-07-04 07:30:31,432 DEBUG    [line range] org/apache/commons/math/exception/util/ArgUtils.java flatten 41:55
+2021-07-04 07:30:31,553 DEBUG                  - depth 0, hash b848e5c, HEAD~785
+2021-07-04 07:30:31,896 DEBUG    [single line]   org/apache/commons/math/exception/util/ExceptionContext.java <init> 39
+2021-07-04 07:30:32,017 DEBUG                  - depth 0, hash 804309e, HEAD~267
+2021-07-04 07:30:32,023 DEBUG    [line range] org/apache/commons/math/exception/util/ExceptionContext.java <init> 45:45
+2021-07-04 07:30:32,143 DEBUG                  - depth 0, hash 804309e, HEAD~267
+2021-07-04 07:30:32,149 DEBUG    [line range] org/apache/commons/math/exception/util/ExceptionContext.java addMessage 64:68
+2021-07-04 07:30:32,270 DEBUG                  - depth 0, hash 804309e, HEAD~267
+2021-07-04 07:30:32,275 DEBUG    [line range] org/apache/commons/math/exception/util/ExceptionContext.java buildMessage 148:166
+2021-07-04 07:30:32,396 DEBUG                  - depth 0, hash 804309e, HEAD~267
+2021-07-04 07:30:32,401 DEBUG    [line range] org/apache/commons/math/exception/util/ExceptionContext.java getLocalizedMessage 115:117
+2021-07-04 07:30:32,522 DEBUG                  - depth 0, hash 804309e, HEAD~267
+2021-07-04 07:30:32,527 DEBUG    [line range] org/apache/commons/math/exception/util/ExceptionContext.java getMessage 125:127
+2021-07-04 07:30:32,648 DEBUG                  - depth 0, hash 804309e, HEAD~267
+2021-07-04 07:30:33,028 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 39
+2021-07-04 07:30:33,154 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:33,160 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 44
+2021-07-04 07:30:33,286 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:33,291 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 45
+2021-07-04 07:30:33,417 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:33,423 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 46
+2021-07-04 07:30:33,549 DEBUG                  - depth 0, hash d81a1df, HEAD~830
+2021-07-04 07:30:33,554 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 47
+2021-07-04 07:30:33,679 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:33,685 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 48
+2021-07-04 07:30:33,810 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:33,816 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 49
+2021-07-04 07:30:33,941 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:33,946 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 50
+2021-07-04 07:30:34,073 DEBUG                  - depth 0, hash d05f261, HEAD~551
+2021-07-04 07:30:34,078 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:34,082 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 51
+2021-07-04 07:30:34,212 DEBUG                  - depth 0, hash 51ec76c, HEAD~677
+2021-07-04 07:30:34,217 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:34,222 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 52
+2021-07-04 07:30:34,347 DEBUG                  - depth 0, hash 51ec76c, HEAD~677
+2021-07-04 07:30:34,353 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:34,357 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 53
+2021-07-04 07:30:34,482 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:34,487 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 54
+2021-07-04 07:30:34,612 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:34,618 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 55
+2021-07-04 07:30:34,747 DEBUG                  - depth 0, hash d81a1df, HEAD~830
+2021-07-04 07:30:34,753 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 56
+2021-07-04 07:30:34,877 DEBUG                  - depth 0, hash d81a1df, HEAD~830
+2021-07-04 07:30:34,883 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 57
+2021-07-04 07:30:35,008 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,014 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 58
+2021-07-04 07:30:35,140 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,145 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 59
+2021-07-04 07:30:35,270 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,276 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 60
+2021-07-04 07:30:35,401 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,406 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 61
+2021-07-04 07:30:35,531 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,536 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 62
+2021-07-04 07:30:35,661 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,667 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 63
+2021-07-04 07:30:35,792 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,797 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 64
+2021-07-04 07:30:35,923 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:35,929 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 65
+2021-07-04 07:30:36,054 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,060 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 66
+2021-07-04 07:30:36,186 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,191 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 67
+2021-07-04 07:30:36,316 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,321 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 68
+2021-07-04 07:30:36,446 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,451 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 69
+2021-07-04 07:30:36,580 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,585 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 70
+2021-07-04 07:30:36,710 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,715 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 71
+2021-07-04 07:30:36,840 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,845 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 72
+2021-07-04 07:30:36,974 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:36,980 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 73
+2021-07-04 07:30:37,105 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:37,111 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 74
+2021-07-04 07:30:37,234 DEBUG                  - depth 0, hash e3aebab, HEAD~683
+2021-07-04 07:30:37,239 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 75
+2021-07-04 07:30:37,365 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:37,371 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 76
+2021-07-04 07:30:37,495 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:37,501 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 77
+2021-07-04 07:30:37,626 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:37,632 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 78
+2021-07-04 07:30:37,758 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:37,764 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 79
+2021-07-04 07:30:37,891 DEBUG                  - depth 0, hash 188ddd4, HEAD~767
+2021-07-04 07:30:37,896 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:37,900 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 80
+2021-07-04 07:30:38,022 DEBUG                  - depth 0, hash da58a64, HEAD~253
+2021-07-04 07:30:38,028 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 81
+2021-07-04 07:30:38,155 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,160 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 82
+2021-07-04 07:30:38,286 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,292 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 83
+2021-07-04 07:30:38,422 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,427 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 84
+2021-07-04 07:30:38,552 DEBUG                  - depth 0, hash a16f538, HEAD~727
+2021-07-04 07:30:38,557 DEBUG                  - depth 1, hash 3693e02, HEAD~825
+2021-07-04 07:30:38,561 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,566 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 85
+2021-07-04 07:30:38,691 DEBUG                  - depth 0, hash a16f538, HEAD~727
+2021-07-04 07:30:38,696 DEBUG                  - depth 1, hash 3693e02, HEAD~825
+2021-07-04 07:30:38,700 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,705 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 86
+2021-07-04 07:30:38,830 DEBUG                  - depth 0, hash a16f538, HEAD~727
+2021-07-04 07:30:38,835 DEBUG                  - depth 1, hash 3693e02, HEAD~825
+2021-07-04 07:30:38,840 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,844 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 87
+2021-07-04 07:30:38,971 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:38,976 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 88
+2021-07-04 07:30:39,101 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:39,106 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 89
+2021-07-04 07:30:39,233 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:39,238 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 90
+2021-07-04 07:30:39,361 DEBUG                  - depth 0, hash a3200e5, HEAD~680
+2021-07-04 07:30:39,367 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 91
+2021-07-04 07:30:39,493 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:39,499 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:39,503 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 92
+2021-07-04 07:30:39,629 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:39,634 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 93
+2021-07-04 07:30:39,761 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:39,767 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 94
+2021-07-04 07:30:39,892 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:39,898 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 95
+2021-07-04 07:30:40,025 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,030 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 96
+2021-07-04 07:30:40,156 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,162 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 97
+2021-07-04 07:30:40,287 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,293 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 98
+2021-07-04 07:30:40,418 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,424 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 99
+2021-07-04 07:30:40,548 DEBUG                  - depth 0, hash 51ec76c, HEAD~677
+2021-07-04 07:30:40,553 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 100
+2021-07-04 07:30:40,679 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,685 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 101
+2021-07-04 07:30:40,811 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,817 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 102
+2021-07-04 07:30:40,948 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:30:40,953 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:40,957 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 103
+2021-07-04 07:30:41,083 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,088 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 104
+2021-07-04 07:30:41,213 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,219 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 105
+2021-07-04 07:30:41,345 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,350 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 106
+2021-07-04 07:30:41,480 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,486 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 107
+2021-07-04 07:30:41,616 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,621 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 108
+2021-07-04 07:30:41,750 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,755 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 109
+2021-07-04 07:30:41,880 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:41,886 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 110
+2021-07-04 07:30:42,012 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,017 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 111
+2021-07-04 07:30:42,142 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,148 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 112
+2021-07-04 07:30:42,273 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,279 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 113
+2021-07-04 07:30:42,404 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,409 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 114
+2021-07-04 07:30:42,541 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,547 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 115
+2021-07-04 07:30:42,676 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,681 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 116
+2021-07-04 07:30:42,811 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:42,817 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 117
+2021-07-04 07:30:42,940 DEBUG                  - depth 0, hash 8742126, HEAD~678
+2021-07-04 07:30:42,945 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 118
+2021-07-04 07:30:43,073 DEBUG                  - depth 0, hash 107e722, HEAD~553
+2021-07-04 07:30:43,079 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 119
+2021-07-04 07:30:43,202 DEBUG                  - depth 0, hash 107e722, HEAD~553
+2021-07-04 07:30:43,207 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 120
+2021-07-04 07:30:43,333 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:43,339 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 121
+2021-07-04 07:30:43,463 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:43,469 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 122
+2021-07-04 07:30:43,600 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:43,605 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 123
+2021-07-04 07:30:43,736 DEBUG                  - depth 0, hash 8742126, HEAD~678
+2021-07-04 07:30:43,742 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:43,746 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 124
+2021-07-04 07:30:43,871 DEBUG                  - depth 0, hash 8742126, HEAD~678
+2021-07-04 07:30:43,876 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:43,881 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 125
+2021-07-04 07:30:44,007 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,012 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 126
+2021-07-04 07:30:44,142 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,148 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 127
+2021-07-04 07:30:44,273 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,278 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 128
+2021-07-04 07:30:44,403 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,409 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 129
+2021-07-04 07:30:44,532 DEBUG                  - depth 0, hash 120e9f5, HEAD~706
+2021-07-04 07:30:44,538 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 130
+2021-07-04 07:30:44,664 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,670 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 131
+2021-07-04 07:30:44,802 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,807 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 132
+2021-07-04 07:30:44,937 DEBUG                  - depth 0, hash 7326a39, HEAD~269
+2021-07-04 07:30:44,943 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:44,947 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 133
+2021-07-04 07:30:45,078 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:45,084 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 134
+2021-07-04 07:30:45,205 DEBUG                  - depth 0, hash 0e68e6e, HEAD~216
+2021-07-04 07:30:45,211 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 135
+2021-07-04 07:30:45,341 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:45,347 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 136
+2021-07-04 07:30:45,473 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:45,478 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 137
+2021-07-04 07:30:45,604 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:45,609 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 138
+2021-07-04 07:30:45,740 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:45,745 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 139
+2021-07-04 07:30:45,874 DEBUG                  - depth 0, hash b28b68f, HEAD~748
+2021-07-04 07:30:45,880 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 140
+2021-07-04 07:30:46,006 DEBUG                  - depth 0, hash d07d83e, HEAD~109
+2021-07-04 07:30:46,012 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 141
+2021-07-04 07:30:46,142 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:46,148 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 142
+2021-07-04 07:30:46,274 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:46,279 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 143
+2021-07-04 07:30:46,405 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:46,410 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 144
+2021-07-04 07:30:46,540 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:46,546 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 145
+2021-07-04 07:30:46,671 DEBUG                  - depth 0, hash d64c176, HEAD~794
+2021-07-04 07:30:46,676 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 146
+2021-07-04 07:30:46,801 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:46,806 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 147
+2021-07-04 07:30:46,931 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:46,937 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:46,941 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 148
+2021-07-04 07:30:47,067 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:47,073 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 149
+2021-07-04 07:30:47,199 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:47,204 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 150
+2021-07-04 07:30:47,328 DEBUG                  - depth 0, hash 188ddd4, HEAD~767
+2021-07-04 07:30:47,334 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 151
+2021-07-04 07:30:47,458 DEBUG                  - depth 0, hash 188ddd4, HEAD~767
+2021-07-04 07:30:47,464 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 152
+2021-07-04 07:30:47,589 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:47,595 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 153
+2021-07-04 07:30:47,720 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:47,726 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 154
+2021-07-04 07:30:47,852 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:47,857 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 155
+2021-07-04 07:30:47,982 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:47,988 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 156
+2021-07-04 07:30:48,116 DEBUG                  - depth 0, hash d81a1df, HEAD~830
+2021-07-04 07:30:48,122 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 157
+2021-07-04 07:30:48,247 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:48,252 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 158
+2021-07-04 07:30:48,377 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:48,383 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 159
+2021-07-04 07:30:48,508 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:48,514 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 160
+2021-07-04 07:30:48,639 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:48,645 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 161
+2021-07-04 07:30:48,770 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:48,775 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 162
+2021-07-04 07:30:48,900 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:48,906 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 163
+2021-07-04 07:30:49,029 DEBUG                  - depth 0, hash 120e9f5, HEAD~706
+2021-07-04 07:30:49,035 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 164
+2021-07-04 07:30:49,165 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:49,171 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 165
+2021-07-04 07:30:49,295 DEBUG                  - depth 0, hash b8d5b88, HEAD~70
+2021-07-04 07:30:49,301 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 166
+2021-07-04 07:30:49,425 DEBUG                  - depth 0, hash 120e9f5, HEAD~706
+2021-07-04 07:30:49,431 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 167
+2021-07-04 07:30:49,560 DEBUG                  - depth 0, hash d05f261, HEAD~551
+2021-07-04 07:30:49,566 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:49,570 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 168
+2021-07-04 07:30:49,696 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:30:49,701 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:49,706 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 169
+2021-07-04 07:30:49,831 DEBUG                  - depth 0, hash 8743063, HEAD~614
+2021-07-04 07:30:49,837 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:49,841 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 170
+2021-07-04 07:30:49,963 DEBUG                  - depth 0, hash da58a64, HEAD~253
+2021-07-04 07:30:49,969 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 171
+2021-07-04 07:30:50,095 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,100 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 172
+2021-07-04 07:30:50,225 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,231 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 173
+2021-07-04 07:30:50,357 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,363 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 174
+2021-07-04 07:30:50,488 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,494 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 175
+2021-07-04 07:30:50,619 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,625 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 176
+2021-07-04 07:30:50,751 DEBUG                  - depth 0, hash c5e91af, HEAD~74
+2021-07-04 07:30:50,757 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,761 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 177
+2021-07-04 07:30:50,889 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:50,895 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 178
+2021-07-04 07:30:51,020 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:51,026 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 179
+2021-07-04 07:30:51,152 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:51,157 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 180
+2021-07-04 07:30:51,282 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:51,288 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 181
+2021-07-04 07:30:51,413 DEBUG                  - depth 0, hash 8c13108, HEAD~822
+2021-07-04 07:30:51,418 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 182
+2021-07-04 07:30:51,544 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:51,550 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 183
+2021-07-04 07:30:51,674 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:51,680 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 184
+2021-07-04 07:30:51,805 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:51,811 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 185
+2021-07-04 07:30:51,936 DEBUG                  - depth 0, hash 8c13108, HEAD~822
+2021-07-04 07:30:51,941 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 186
+2021-07-04 07:30:52,068 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:52,073 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 187
+2021-07-04 07:30:52,199 DEBUG                  - depth 0, hash dd73c91, HEAD~721
+2021-07-04 07:30:52,205 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:52,209 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 188
+2021-07-04 07:30:52,335 DEBUG                  - depth 0, hash dd73c91, HEAD~721
+2021-07-04 07:30:52,340 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:52,345 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 189
+2021-07-04 07:30:52,475 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:52,481 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 190
+2021-07-04 07:30:52,607 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:52,612 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 191
+2021-07-04 07:30:52,736 DEBUG                  - depth 0, hash d7d514b, HEAD~663
+2021-07-04 07:30:52,742 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 192
+2021-07-04 07:30:52,863 DEBUG                  - depth 0, hash c5e91af, HEAD~74
+2021-07-04 07:30:52,869 DEBUG                  - depth 1, hash 3a0754d, HEAD~150
+2021-07-04 07:30:52,873 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 193
+2021-07-04 07:30:52,995 DEBUG                  - depth 0, hash c5e91af, HEAD~74
+2021-07-04 07:30:53,001 DEBUG                  - depth 1, hash 3a0754d, HEAD~150
+2021-07-04 07:30:53,005 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 194
+2021-07-04 07:30:53,127 DEBUG                  - depth 0, hash c5e91af, HEAD~74
+2021-07-04 07:30:53,132 DEBUG                  - depth 1, hash 3a0754d, HEAD~150
+2021-07-04 07:30:53,137 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 195
+2021-07-04 07:30:53,260 DEBUG                  - depth 0, hash 71f799c, HEAD~716
+2021-07-04 07:30:53,266 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 196
+2021-07-04 07:30:53,392 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:53,397 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 197
+2021-07-04 07:30:53,523 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:53,528 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 198
+2021-07-04 07:30:53,654 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:53,660 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 199
+2021-07-04 07:30:53,783 DEBUG                  - depth 0, hash 120e9f5, HEAD~706
+2021-07-04 07:30:53,788 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 200
+2021-07-04 07:30:53,914 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:53,920 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 201
+2021-07-04 07:30:54,045 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:54,051 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 202
+2021-07-04 07:30:54,177 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:54,183 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 203
+2021-07-04 07:30:54,307 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:54,313 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 204
+2021-07-04 07:30:54,439 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:54,445 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 205
+2021-07-04 07:30:54,571 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:54,576 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 206
+2021-07-04 07:30:54,701 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:54,707 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 207
+2021-07-04 07:30:54,832 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:54,837 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 208
+2021-07-04 07:30:54,963 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:54,969 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 209
+2021-07-04 07:30:55,095 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:55,100 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 210
+2021-07-04 07:30:55,224 DEBUG                  - depth 0, hash 120e9f5, HEAD~706
+2021-07-04 07:30:55,230 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 211
+2021-07-04 07:30:55,355 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:55,360 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 212
+2021-07-04 07:30:55,485 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:55,490 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 213
+2021-07-04 07:30:55,618 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:55,624 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 214
+2021-07-04 07:30:55,747 DEBUG                  - depth 0, hash 71f799c, HEAD~716
+2021-07-04 07:30:55,753 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 215
+2021-07-04 07:30:55,878 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:55,884 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 216
+2021-07-04 07:30:56,007 DEBUG                  - depth 0, hash 71f799c, HEAD~716
+2021-07-04 07:30:56,013 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 217
+2021-07-04 07:30:56,138 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:56,144 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 218
+2021-07-04 07:30:56,270 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:30:56,276 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 219
+2021-07-04 07:30:56,401 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:56,407 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 220
+2021-07-04 07:30:56,533 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:56,539 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 221
+2021-07-04 07:30:56,663 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:56,669 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 222
+2021-07-04 07:30:56,794 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:56,800 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 223
+2021-07-04 07:30:56,930 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:56,935 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 224
+2021-07-04 07:30:57,060 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:57,066 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 225
+2021-07-04 07:30:57,191 DEBUG                  - depth 0, hash 8c13108, HEAD~822
+2021-07-04 07:30:57,197 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 226
+2021-07-04 07:30:57,323 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:57,329 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 227
+2021-07-04 07:30:57,454 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:57,460 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 228
+2021-07-04 07:30:57,585 DEBUG                  - depth 0, hash 8c13108, HEAD~822
+2021-07-04 07:30:57,591 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 229
+2021-07-04 07:30:57,716 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:57,722 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 230
+2021-07-04 07:30:57,845 DEBUG                  - depth 0, hash da58a64, HEAD~253
+2021-07-04 07:30:57,851 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 231
+2021-07-04 07:30:57,976 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:57,982 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 232
+2021-07-04 07:30:58,105 DEBUG                  - depth 0, hash d7d514b, HEAD~663
+2021-07-04 07:30:58,110 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 233
+2021-07-04 07:30:58,236 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:58,242 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 234
+2021-07-04 07:30:58,366 DEBUG                  - depth 0, hash 188ddd4, HEAD~767
+2021-07-04 07:30:58,372 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:58,376 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 235
+2021-07-04 07:30:58,501 DEBUG                  - depth 0, hash 8c13108, HEAD~822
+2021-07-04 07:30:58,507 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:58,511 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 236
+2021-07-04 07:30:58,637 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:58,642 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 237
+2021-07-04 07:30:58,767 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:58,773 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 238
+2021-07-04 07:30:58,899 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:58,905 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 239
+2021-07-04 07:30:59,031 DEBUG                  - depth 0, hash 188ddd4, HEAD~767
+2021-07-04 07:30:59,036 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,041 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 240
+2021-07-04 07:30:59,161 DEBUG                  - depth 0, hash d07d83e, HEAD~109
+2021-07-04 07:30:59,167 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 241
+2021-07-04 07:30:59,294 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,299 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 242
+2021-07-04 07:30:59,424 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,430 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 243
+2021-07-04 07:30:59,555 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:30:59,561 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:30:59,565 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,570 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 244
+2021-07-04 07:30:59,695 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:30:59,701 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:30:59,705 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,710 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 245
+2021-07-04 07:30:59,835 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:30:59,840 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:30:59,845 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,849 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 246
+2021-07-04 07:30:59,975 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:30:59,981 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:30:59,985 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:30:59,989 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 247
+2021-07-04 07:31:00,120 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,126 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,130 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,135 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 248
+2021-07-04 07:31:00,261 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,267 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,271 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,275 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 249
+2021-07-04 07:31:00,401 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,407 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,411 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,415 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 250
+2021-07-04 07:31:00,541 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,547 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,551 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,556 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 251
+2021-07-04 07:31:00,687 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,692 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,697 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,701 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 252
+2021-07-04 07:31:00,831 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,837 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,841 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,846 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 253
+2021-07-04 07:31:00,975 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:00,981 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:00,985 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:00,990 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 254
+2021-07-04 07:31:01,115 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:01,121 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:01,126 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:01,130 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 255
+2021-07-04 07:31:01,257 DEBUG                  - depth 0, hash baf90f0, HEAD~783
+2021-07-04 07:31:01,262 DEBUG                  - depth 1, hash d81a1df, HEAD~830
+2021-07-04 07:31:01,267 DEBUG                  - depth 2, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:01,271 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 256
+2021-07-04 07:31:01,397 DEBUG                  - depth 0, hash 405e396, HEAD~821
+2021-07-04 07:31:01,402 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 257
+2021-07-04 07:31:01,531 DEBUG                  - depth 0, hash 405e396, HEAD~821
+2021-07-04 07:31:01,537 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 258
+2021-07-04 07:31:01,663 DEBUG                  - depth 0, hash 405e396, HEAD~821
+2021-07-04 07:31:01,669 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 259
+2021-07-04 07:31:01,794 DEBUG                  - depth 0, hash 405e396, HEAD~821
+2021-07-04 07:31:01,800 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 260
+2021-07-04 07:31:01,926 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:01,932 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 261
+2021-07-04 07:31:02,057 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:02,062 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 262
+2021-07-04 07:31:02,193 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:02,198 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 263
+2021-07-04 07:31:02,330 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:02,335 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 264
+2021-07-04 07:31:02,461 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:02,466 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 265
+2021-07-04 07:31:02,587 DEBUG                  - depth 0, hash b8d5b88, HEAD~70
+2021-07-04 07:31:02,593 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 266
+2021-07-04 07:31:02,719 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:02,725 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 267
+2021-07-04 07:31:02,849 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:02,855 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 268
+2021-07-04 07:31:02,979 DEBUG                  - depth 0, hash 71f799c, HEAD~716
+2021-07-04 07:31:02,985 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 269
+2021-07-04 07:31:03,111 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:03,116 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 270
+2021-07-04 07:31:03,242 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:03,247 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 271
+2021-07-04 07:31:03,371 DEBUG                  - depth 0, hash e3aebab, HEAD~683
+2021-07-04 07:31:03,376 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 272
+2021-07-04 07:31:03,502 DEBUG                  - depth 0, hash 3693e02, HEAD~825
+2021-07-04 07:31:03,507 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:03,512 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 273
+2021-07-04 07:31:03,638 DEBUG                  - depth 0, hash da58a64, HEAD~253
+2021-07-04 07:31:03,644 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 274
+2021-07-04 07:31:03,769 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:03,775 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 275
+2021-07-04 07:31:03,900 DEBUG                  - depth 0, hash d64c176, HEAD~794
+2021-07-04 07:31:03,905 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 276
+2021-07-04 07:31:04,031 DEBUG                  - depth 0, hash d64c176, HEAD~794
+2021-07-04 07:31:04,037 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 277
+2021-07-04 07:31:04,161 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:04,167 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 278
+2021-07-04 07:31:04,291 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:04,297 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 279
+2021-07-04 07:31:04,422 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:31:04,428 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:04,432 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 280
+2021-07-04 07:31:04,557 DEBUG                  - depth 0, hash 74ff198, HEAD~624
+2021-07-04 07:31:04,563 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 281
+2021-07-04 07:31:04,687 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:04,693 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 282
+2021-07-04 07:31:04,818 DEBUG                  - depth 0, hash d64c176, HEAD~794
+2021-07-04 07:31:04,824 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 283
+2021-07-04 07:31:04,949 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:04,955 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 284
+2021-07-04 07:31:05,080 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:05,086 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 285
+2021-07-04 07:31:05,216 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:05,222 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 286
+2021-07-04 07:31:05,354 DEBUG                  - depth 0, hash d81a1df, HEAD~830
+2021-07-04 07:31:05,359 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 287
+2021-07-04 07:31:05,484 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:05,490 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 288
+2021-07-04 07:31:05,616 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:05,622 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 289
+2021-07-04 07:31:05,748 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:05,753 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 290
+2021-07-04 07:31:05,877 DEBUG                  - depth 0, hash e3aebab, HEAD~683
+2021-07-04 07:31:05,883 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 291
+2021-07-04 07:31:06,008 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,014 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 292
+2021-07-04 07:31:06,139 DEBUG                  - depth 0, hash 40c5b89, HEAD~819
+2021-07-04 07:31:06,144 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,149 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 293
+2021-07-04 07:31:06,274 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,280 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 294
+2021-07-04 07:31:06,405 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,411 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 295
+2021-07-04 07:31:06,537 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,543 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 296
+2021-07-04 07:31:06,668 DEBUG                  - depth 0, hash d7d514b, HEAD~663
+2021-07-04 07:31:06,673 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,678 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 297
+2021-07-04 07:31:06,803 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,808 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 298
+2021-07-04 07:31:06,933 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:06,939 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 299
+2021-07-04 07:31:07,064 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:07,070 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 300
+2021-07-04 07:31:07,191 DEBUG                  - depth 0, hash b8d5b88, HEAD~70
+2021-07-04 07:31:07,197 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 301
+2021-07-04 07:31:07,319 DEBUG                  - depth 0, hash d07d83e, HEAD~109
+2021-07-04 07:31:07,325 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 302
+2021-07-04 07:31:07,450 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:07,455 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 303
+2021-07-04 07:31:07,580 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:07,586 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 304
+2021-07-04 07:31:07,711 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:07,717 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 305
+2021-07-04 07:31:07,842 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:07,847 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 306
+2021-07-04 07:31:07,969 DEBUG                  - depth 0, hash b8d5b88, HEAD~70
+2021-07-04 07:31:07,975 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 307
+2021-07-04 07:31:08,100 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,105 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 308
+2021-07-04 07:31:08,231 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,237 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 309
+2021-07-04 07:31:08,362 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,368 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 310
+2021-07-04 07:31:08,493 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,499 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 311
+2021-07-04 07:31:08,624 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,630 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 312
+2021-07-04 07:31:08,757 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,763 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 313
+2021-07-04 07:31:08,892 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:08,897 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 314
+2021-07-04 07:31:09,023 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:09,029 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 315
+2021-07-04 07:31:09,153 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:09,159 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 316
+2021-07-04 07:31:09,285 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:09,290 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 317
+2021-07-04 07:31:09,414 DEBUG                  - depth 0, hash 24fb136, HEAD~587
+2021-07-04 07:31:09,419 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 318
+2021-07-04 07:31:09,542 DEBUG                  - depth 0, hash 24fb136, HEAD~587
+2021-07-04 07:31:09,548 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 319
+2021-07-04 07:31:09,674 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:09,680 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 320
+2021-07-04 07:31:09,806 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:09,812 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 321
+2021-07-04 07:31:09,937 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:09,943 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 322
+2021-07-04 07:31:10,068 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:10,074 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 323
+2021-07-04 07:31:10,200 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:10,205 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 324
+2021-07-04 07:31:10,331 DEBUG                  - depth 0, hash b848e5c, HEAD~785
+2021-07-04 07:31:10,337 DEBUG                  - depth 1, hash 2dff587, HEAD~797
+2021-07-04 07:31:10,341 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 325
+2021-07-04 07:31:10,464 DEBUG                  - depth 0, hash 622f5b5, HEAD~591
+2021-07-04 07:31:10,470 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 326
+2021-07-04 07:31:10,594 DEBUG                  - depth 0, hash 622f5b5, HEAD~591
+2021-07-04 07:31:10,600 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 327
+2021-07-04 07:31:10,728 DEBUG                  - depth 0, hash fb5172c, HEAD~645
+2021-07-04 07:31:10,734 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 328
+2021-07-04 07:31:10,860 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:10,866 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 329
+2021-07-04 07:31:10,991 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:10,997 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 330
+2021-07-04 07:31:11,123 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:11,128 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 331
+2021-07-04 07:31:11,253 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:11,259 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 332
+2021-07-04 07:31:11,384 DEBUG                  - depth 0, hash d81a1df, HEAD~830
+2021-07-04 07:31:11,390 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 333
+2021-07-04 07:31:11,515 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:11,521 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 334
+2021-07-04 07:31:11,652 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:11,657 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 335
+2021-07-04 07:31:11,783 DEBUG                  - depth 0, hash 07d703b, HEAD~820
+2021-07-04 07:31:11,788 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 336
+2021-07-04 07:31:11,914 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:11,920 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 337
+2021-07-04 07:31:12,044 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,050 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 338
+2021-07-04 07:31:12,175 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,180 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 339
+2021-07-04 07:31:12,307 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,313 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 340
+2021-07-04 07:31:12,444 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,450 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 341
+2021-07-04 07:31:12,574 DEBUG                  - depth 0, hash e38ef22, HEAD~803
+2021-07-04 07:31:12,580 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,584 DEBUG    [single line]   org/apache/commons/math/exception/util/LocalizedFormats.java <clinit> 342
+2021-07-04 07:31:12,712 DEBUG                  - depth 0, hash e38ef22, HEAD~803
+2021-07-04 07:31:12,717 DEBUG                  - depth 1, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,722 DEBUG    [line range] org/apache/commons/math/exception/util/LocalizedFormats.java <init> 355:357
+2021-07-04 07:31:12,848 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:12,854 DEBUG    [line range] org/apache/commons/math/exception/util/LocalizedFormats.java getLocalizedString 365:382
+2021-07-04 07:31:12,979 DEBUG                  - depth 0, hash 1eaea0b, HEAD~833
+2021-07-04 07:31:13,620 DEBUG    [line range] org/apache/commons/math/util/FastMath.java <clinit> 80:80
+2021-07-04 07:31:13,765 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:13,772 DEBUG    [line range] org/apache/commons/math/util/FastMath.java abs 3409:3411
+2021-07-04 07:31:13,918 DEBUG                  - depth 0, hash 26208c1, HEAD~521
+2021-07-04 07:31:13,924 DEBUG                  - depth 1, hash 80b1e90, HEAD~768
+2021-07-04 07:31:13,929 DEBUG    [line range] org/apache/commons/math/util/FastMath.java buildSinCosTables 1873:1965
+2021-07-04 07:31:14,075 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:14,083 DEBUG    [line range] org/apache/commons/math/util/FastMath.java expint 1208:1246
+2021-07-04 07:31:14,228 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:14,234 DEBUG    [line range] org/apache/commons/math/util/FastMath.java max 3924:3942
+2021-07-04 07:31:14,377 DEBUG                  - depth 0, hash e260d84, HEAD~473
+2021-07-04 07:31:14,383 DEBUG                  - depth 1, hash 5e87378, HEAD~493
+2021-07-04 07:31:14,387 DEBUG                  - depth 2, hash 80b1e90, HEAD~768
+2021-07-04 07:31:14,391 DEBUG    [line range] org/apache/commons/math/util/FastMath.java quadMult 1154:1201
+2021-07-04 07:31:14,541 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:14,548 DEBUG    [line range] org/apache/commons/math/util/FastMath.java resplit 1061:1074
+2021-07-04 07:31:14,690 DEBUG                  - depth 0, hash f45eb1f, HEAD~505
+2021-07-04 07:31:14,696 DEBUG                  - depth 1, hash 80b1e90, HEAD~768
+2021-07-04 07:31:14,701 DEBUG    [line range] org/apache/commons/math/util/FastMath.java slowCos 1834:1869
+2021-07-04 07:31:14,847 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:14,853 DEBUG    [line range] org/apache/commons/math/util/FastMath.java slowLog 1742:1784
+2021-07-04 07:31:14,997 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:15,004 DEBUG    [line range] org/apache/commons/math/util/FastMath.java slowSin 1792:1826
+2021-07-04 07:31:15,150 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:15,156 DEBUG    [line range] org/apache/commons/math/util/FastMath.java slowexp 1011:1038
+2021-07-04 07:31:15,303 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:15,310 DEBUG    [line range] org/apache/commons/math/util/FastMath.java split 1045:1055
+2021-07-04 07:31:15,452 DEBUG                  - depth 0, hash f45eb1f, HEAD~505
+2021-07-04 07:31:15,458 DEBUG                  - depth 1, hash 80b1e90, HEAD~768
+2021-07-04 07:31:15,463 DEBUG    [line range] org/apache/commons/math/util/FastMath.java splitAdd 1094:1099
+2021-07-04 07:31:15,616 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:15,621 DEBUG    [line range] org/apache/commons/math/util/FastMath.java splitMult 1081:1087
+2021-07-04 07:31:15,768 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:15,774 DEBUG    [line range] org/apache/commons/math/util/FastMath.java splitReciprocal 1119:1147
+2021-07-04 07:31:15,917 DEBUG                  - depth 0, hash 80b1e90, HEAD~768
+2021-07-04 07:31:16,200 DEBUG    [single line]   org/apache/commons/math/util/Incrementor.java <init> 28
+2021-07-04 07:31:16,321 DEBUG                  - depth 0, hash dd7aa20, HEAD~766
+2021-07-04 07:31:16,327 DEBUG    [line range] org/apache/commons/math/util/Incrementor.java incrementCount 83:87
+2021-07-04 07:31:16,451 DEBUG                  - depth 0, hash dd7aa20, HEAD~766
+2021-07-04 07:31:16,457 DEBUG    [line range] org/apache/commons/math/util/Incrementor.java resetCount 92:94
+2021-07-04 07:31:16,579 DEBUG                  - depth 0, hash dd7aa20, HEAD~766
+2021-07-04 07:31:16,585 DEBUG    [line range] org/apache/commons/math/util/Incrementor.java setMaximalCount 43:45
+2021-07-04 07:31:16,705 DEBUG                  - depth 0, hash d4a0b9e, HEAD~747
+2021-07-04 07:31:16,711 DEBUG                  - depth 1, hash dd7aa20, HEAD~766
+2021-07-04 07:31:17,282 DEBUG    [line range] org/apache/commons/math/util/MathUtils.java <clinit> 85:92
+2021-07-04 07:31:17,422 DEBUG                  - depth 0, hash 292e891, HEAD~1102
+2021-07-04 07:31:17,427 DEBUG    [line range] org/apache/commons/math/util/MathUtils.java checkNotNull 2332:2337
+2021-07-04 07:31:17,555 DEBUG                  - depth 0, hash e9c6d1d, HEAD~234
+2021-07-04 07:31:17,561 DEBUG                  - depth 1, hash 82ff5d1, HEAD~362
+2021-07-04 07:31:17,565 INFO     The number of BIC candidates: 72

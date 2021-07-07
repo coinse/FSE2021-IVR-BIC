@@ -1,0 +1,408 @@
+2021-07-03 20:50:16,055 INFO     Search BICs for /tmp/Csv-6b/
+2021-07-03 20:50:16,055 DEBUG    Reading the coverage of org.apache.commons.csv.CSVRecordTest::testToMapWithShortRecord (failings)
+2021-07-03 20:50:16,061 INFO     Loaded 1x200 Coverage Matrix
+2021-07-03 20:50:16,062 INFO     The number of total commits: 778
+2021-07-03 20:50:16,343 DEBUG    [line range] org/apache/commons/csv/Assertions.java notNull 31:35
+2021-07-03 20:50:16,366 DEBUG                  - depth 0, hash 5941149, HEAD~38
+2021-07-03 20:50:16,372 DEBUG                  - depth 1, hash 724c88d, HEAD~79
+2021-07-03 20:50:16,376 DEBUG                  - depth 2, hash a2fef00, HEAD~81
+2021-07-03 20:50:16,790 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java <clinit> 174:175
+2021-07-03 20:50:16,828 DEBUG                  - depth 0, hash 5db1a2c, HEAD~88
+2021-07-03 20:50:16,834 DEBUG                  - depth 1, hash 97d3457, HEAD~143
+2021-07-03 20:50:16,838 DEBUG                  - depth 2, hash 75f39a8, HEAD~155
+2021-07-03 20:50:16,842 DEBUG                  - depth 3, hash 60cc83a, HEAD~208
+2021-07-03 20:50:16,846 DEBUG                  - depth 4, hash 50e2719, HEAD~399
+2021-07-03 20:50:16,850 DEBUG                  - depth 5, hash 42476f4, HEAD~640
+2021-07-03 20:50:16,854 DEBUG                  - depth 6, hash 1166ca6, HEAD~651
+2021-07-03 20:50:16,859 DEBUG                  - depth 7, hash eac54a2, HEAD~756
+2021-07-03 20:50:16,863 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java <init> 292:311
+2021-07-03 20:50:16,897 DEBUG                  - depth 0, hash 5941149, HEAD~38
+2021-07-03 20:50:16,902 DEBUG                  - depth 1, hash 97d3457, HEAD~143
+2021-07-03 20:50:16,906 DEBUG                  - depth 2, hash 5a0894f, HEAD~167
+2021-07-03 20:50:16,911 DEBUG                  - depth 3, hash ab2e7eb, HEAD~171
+2021-07-03 20:50:16,915 DEBUG                  - depth 4, hash 75b9a4b, HEAD~207
+2021-07-03 20:50:16,919 DEBUG                  - depth 5, hash 60cc83a, HEAD~208
+2021-07-03 20:50:16,923 DEBUG                  - depth 6, hash db11c04, HEAD~298
+2021-07-03 20:50:16,927 DEBUG                  - depth 7, hash 6a34b82, HEAD~308
+2021-07-03 20:50:16,931 DEBUG                  - depth 8, hash 0030e1a, HEAD~360
+2021-07-03 20:50:16,936 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getCommentStart 395:397
+2021-07-03 20:50:16,968 DEBUG                  - depth 0, hash 60cc83a, HEAD~208
+2021-07-03 20:50:16,974 DEBUG                  - depth 1, hash 9bafed6, HEAD~261
+2021-07-03 20:50:16,978 DEBUG                  - depth 2, hash e28d4e9, HEAD~266
+2021-07-03 20:50:16,982 DEBUG                  - depth 3, hash 2018c0c, HEAD~275
+2021-07-03 20:50:16,986 DEBUG                  - depth 4, hash 5e0e770, HEAD~276
+2021-07-03 20:50:16,990 DEBUG                  - depth 5, hash 71a6570, HEAD~292
+2021-07-03 20:50:16,994 DEBUG                  - depth 6, hash 713e9c5, HEAD~296
+2021-07-03 20:50:16,998 DEBUG                  - depth 7, hash db11c04, HEAD~298
+2021-07-03 20:50:17,003 DEBUG                  - depth 8, hash 0383fd5, HEAD~304
+2021-07-03 20:50:17,007 DEBUG                  - depth 9, hash 68352ee, HEAD~305
+2021-07-03 20:50:17,011 DEBUG                  - depth 10, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,015 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getDelimiter 404:406
+2021-07-03 20:50:17,047 DEBUG                  - depth 0, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,052 DEBUG                  - depth 1, hash 759596a, HEAD~219
+2021-07-03 20:50:17,056 DEBUG                  - depth 2, hash d10442b, HEAD~229
+2021-07-03 20:50:17,060 DEBUG                  - depth 3, hash df08aca, HEAD~237
+2021-07-03 20:50:17,064 DEBUG                  - depth 4, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,068 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getEscape 413:415
+2021-07-03 20:50:17,101 DEBUG                  - depth 0, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,107 DEBUG                  - depth 1, hash df08aca, HEAD~237
+2021-07-03 20:50:17,111 DEBUG                  - depth 2, hash 961cce2, HEAD~273
+2021-07-03 20:50:17,115 DEBUG                  - depth 3, hash db11c04, HEAD~298
+2021-07-03 20:50:17,119 DEBUG                  - depth 4, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,123 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getHeader 422:424
+2021-07-03 20:50:17,156 DEBUG                  - depth 0, hash 390800f, HEAD~148
+2021-07-03 20:50:17,161 DEBUG                  - depth 1, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,165 DEBUG                  - depth 2, hash 961cce2, HEAD~273
+2021-07-03 20:50:17,169 DEBUG                  - depth 3, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,174 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getIgnoreEmptyLines 432:434
+2021-07-03 20:50:17,206 DEBUG                  - depth 0, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,211 DEBUG                  - depth 1, hash 961cce2, HEAD~273
+2021-07-03 20:50:17,215 DEBUG                  - depth 2, hash db11c04, HEAD~298
+2021-07-03 20:50:17,219 DEBUG                  - depth 3, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,224 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getIgnoreSurroundingSpaces 442:444
+2021-07-03 20:50:17,256 DEBUG                  - depth 0, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,262 DEBUG                  - depth 1, hash 961cce2, HEAD~273
+2021-07-03 20:50:17,266 DEBUG                  - depth 2, hash db11c04, HEAD~298
+2021-07-03 20:50:17,270 DEBUG                  - depth 3, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,274 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getNullString 459:461
+2021-07-03 20:50:17,302 DEBUG                  - depth 0, hash 5a0894f, HEAD~167
+2021-07-03 20:50:17,307 DEBUG                  - depth 1, hash 75b9a4b, HEAD~207
+2021-07-03 20:50:17,312 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getQuoteChar 468:470
+2021-07-03 20:50:17,344 DEBUG                  - depth 0, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,349 DEBUG                  - depth 1, hash 961cce2, HEAD~273
+2021-07-03 20:50:17,353 DEBUG                  - depth 2, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,357 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java getSkipHeaderRecord 495:497
+2021-07-03 20:50:17,383 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,388 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java isLineBreak 237:239
+2021-07-03 20:50:17,427 DEBUG                  - depth 0, hash 9631efe, HEAD~97
+2021-07-03 20:50:17,432 DEBUG                  - depth 1, hash 60cc83a, HEAD~208
+2021-07-03 20:50:17,436 DEBUG                  - depth 2, hash 6a34b82, HEAD~308
+2021-07-03 20:50:17,440 DEBUG                  - depth 3, hash 73ec29f, HEAD~314
+2021-07-03 20:50:17,444 DEBUG                  - depth 4, hash 53f15f4, HEAD~354
+2021-07-03 20:50:17,448 DEBUG                  - depth 5, hash 6e57364, HEAD~359
+2021-07-03 20:50:17,452 DEBUG                  - depth 6, hash 0030e1a, HEAD~360
+2021-07-03 20:50:17,457 DEBUG                  - depth 7, hash 53fd86d, HEAD~407
+2021-07-03 20:50:17,461 DEBUG                  - depth 8, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:17,465 DEBUG                  - depth 9, hash 67bbc35, HEAD~419
+2021-07-03 20:50:17,469 DEBUG                  - depth 10, hash 6c1b0fa, HEAD~434
+2021-07-03 20:50:17,473 DEBUG                  - depth 11, hash 93fc1f9, HEAD~436
+2021-07-03 20:50:17,477 DEBUG                  - depth 12, hash bf06bed, HEAD~439
+2021-07-03 20:50:17,481 DEBUG                  - depth 13, hash 38741a4, HEAD~524
+2021-07-03 20:50:17,485 DEBUG                  - depth 14, hash c9dedff, HEAD~559
+2021-07-03 20:50:17,490 DEBUG                  - depth 15, hash aee6c50, HEAD~565
+2021-07-03 20:50:17,494 DEBUG                  - depth 16, hash bbb2da1, HEAD~574
+2021-07-03 20:50:17,498 DEBUG                  - depth 17, hash 740a1b6, HEAD~590
+2021-07-03 20:50:17,502 DEBUG                  - depth 18, hash 194e21c, HEAD~608
+2021-07-03 20:50:17,506 DEBUG                  - depth 19, hash 70337be, HEAD~629
+2021-07-03 20:50:17,510 DEBUG                  - depth 20, hash cb99634, HEAD~639
+2021-07-03 20:50:17,514 DEBUG                  - depth 21, hash 42476f4, HEAD~640
+2021-07-03 20:50:17,519 DEBUG                  - depth 22, hash 43b777b, HEAD~645
+2021-07-03 20:50:17,523 DEBUG                  - depth 23, hash 1166ca6, HEAD~651
+2021-07-03 20:50:17,527 DEBUG                  - depth 24, hash 02b2146, HEAD~663
+2021-07-03 20:50:17,531 DEBUG                  - depth 25, hash eac54a2, HEAD~756
+2021-07-03 20:50:17,535 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java isLineBreak 249:251
+2021-07-03 20:50:17,560 DEBUG                  - depth 0, hash 9631efe, HEAD~97
+2021-07-03 20:50:17,565 DEBUG                  - depth 1, hash 15b4e3f, HEAD~98
+2021-07-03 20:50:17,570 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java validate 615:652
+2021-07-03 20:50:17,597 DEBUG                  - depth 0, hash fcc0d15, HEAD~133
+2021-07-03 20:50:17,602 DEBUG                  - depth 1, hash f881372, HEAD~145
+2021-07-03 20:50:17,606 DEBUG                  - depth 2, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,610 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withDelimiter 697:703
+2021-07-03 20:50:17,638 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,643 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,647 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withEscape 714:716
+2021-07-03 20:50:17,674 DEBUG                  - depth 0, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,679 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withEscape 727:733
+2021-07-03 20:50:17,706 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,711 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,716 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withHeader 752:755
+2021-07-03 20:50:17,742 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,747 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,752 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withIgnoreEmptyLines 765:768
+2021-07-03 20:50:17,778 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,784 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,788 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withIgnoreSurroundingSpaces 778:781
+2021-07-03 20:50:17,815 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,820 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,824 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withQuoteChar 825:831
+2021-07-03 20:50:17,851 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,857 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,861 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withRecordSeparator 854:856
+2021-07-03 20:50:17,888 DEBUG                  - depth 0, hash 75f39a8, HEAD~155
+2021-07-03 20:50:17,893 DEBUG    [line range] org/apache/commons/csv/CSVFormat.java withRecordSeparator 866:869
+2021-07-03 20:50:17,920 DEBUG                  - depth 0, hash 97d3457, HEAD~143
+2021-07-03 20:50:17,925 DEBUG                  - depth 1, hash 75f39a8, HEAD~155
+2021-07-03 20:50:18,292 DEBUG    [line range] org/apache/commons/csv/CSVParser.java <init> 214:214
+2021-07-03 20:50:18,318 DEBUG                  - depth 0, hash 61fdb7a, HEAD~150
+2021-07-03 20:50:18,323 DEBUG    [line range] org/apache/commons/csv/CSVParser.java addRecordValue 247:255
+2021-07-03 20:50:18,349 DEBUG                  - depth 0, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,354 DEBUG                  - depth 1, hash 6999746, HEAD~149
+2021-07-03 20:50:18,358 DEBUG                  - depth 2, hash 61fdb7a, HEAD~150
+2021-07-03 20:50:18,362 DEBUG    [line range] org/apache/commons/csv/CSVParser.java initializeHeader 341:369
+2021-07-03 20:50:18,391 DEBUG                  - depth 0, hash b3553ad, HEAD~42
+2021-07-03 20:50:18,396 DEBUG                  - depth 1, hash fcc0d15, HEAD~133
+2021-07-03 20:50:18,400 DEBUG                  - depth 2, hash 97d3457, HEAD~143
+2021-07-03 20:50:18,404 DEBUG                  - depth 3, hash 1533fac, HEAD~147
+2021-07-03 20:50:18,408 DEBUG                  - depth 4, hash 390800f, HEAD~148
+2021-07-03 20:50:18,412 DEBUG                  - depth 5, hash 6999746, HEAD~149
+2021-07-03 20:50:18,416 DEBUG                  - depth 6, hash 5a0894f, HEAD~167
+2021-07-03 20:50:18,420 DEBUG                  - depth 7, hash 4c530ac, HEAD~226
+2021-07-03 20:50:18,425 DEBUG                  - depth 8, hash 0e8084a, HEAD~385
+2021-07-03 20:50:18,429 DEBUG                  - depth 9, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:18,433 DEBUG                  - depth 10, hash 3cd5c85, HEAD~428
+2021-07-03 20:50:18,437 DEBUG                  - depth 11, hash 43987a7, HEAD~528
+2021-07-03 20:50:18,441 DEBUG                  - depth 12, hash d0035e6, HEAD~549
+2021-07-03 20:50:18,445 DEBUG                  - depth 13, hash 7d07c19, HEAD~564
+2021-07-03 20:50:18,449 DEBUG                  - depth 14, hash aee6c50, HEAD~565
+2021-07-03 20:50:18,454 DEBUG    [line range] org/apache/commons/csv/CSVParser.java isClosed 371:373
+2021-07-03 20:50:18,480 DEBUG                  - depth 0, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,485 DEBUG                  - depth 1, hash 6999746, HEAD~149
+2021-07-03 20:50:18,489 DEBUG                  - depth 2, hash 61fdb7a, HEAD~150
+2021-07-03 20:50:18,494 DEBUG    [line range] org/apache/commons/csv/CSVParser.java iterator 383:429
+2021-07-03 20:50:18,524 DEBUG                  - depth 0, hash 412d05d, HEAD~123
+2021-07-03 20:50:18,529 DEBUG                  - depth 1, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,534 DEBUG                  - depth 2, hash 6999746, HEAD~149
+2021-07-03 20:50:18,538 DEBUG                  - depth 3, hash f78b5a1, HEAD~152
+2021-07-03 20:50:18,542 DEBUG                  - depth 4, hash 933cf2d, HEAD~316
+2021-07-03 20:50:18,546 DEBUG                  - depth 5, hash 6306dd7, HEAD~383
+2021-07-03 20:50:18,550 DEBUG                  - depth 6, hash 0e8084a, HEAD~385
+2021-07-03 20:50:18,554 DEBUG                  - depth 7, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:18,559 DEBUG                  - depth 8, hash 25f4b3e, HEAD~429
+2021-07-03 20:50:18,563 DEBUG                  - depth 9, hash bf06bed, HEAD~439
+2021-07-03 20:50:18,567 DEBUG                  - depth 10, hash aee6c50, HEAD~565
+2021-07-03 20:50:18,571 DEBUG                  - depth 11, hash b30da44, HEAD~576
+2021-07-03 20:50:18,575 DEBUG                  - depth 12, hash eb6ffbb, HEAD~577
+2021-07-03 20:50:18,580 DEBUG                  - depth 13, hash f7220c4, HEAD~578
+2021-07-03 20:50:18,584 DEBUG                  - depth 14, hash 2ec4c99, HEAD~601
+2021-07-03 20:50:18,588 DEBUG                  - depth 15, hash 045dbbb, HEAD~635
+2021-07-03 20:50:18,592 DEBUG    [line range] org/apache/commons/csv/CSVParser.java nextRecord 438:480
+2021-07-03 20:50:18,618 DEBUG                  - depth 0, hash a84668e, HEAD~0
+2021-07-03 20:50:18,623 DEBUG                  - depth 1, hash 966cd20, HEAD~1
+2021-07-03 20:50:18,627 DEBUG                  - depth 2, hash 9873b13, HEAD~11
+2021-07-03 20:50:18,631 DEBUG                  - depth 3, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,636 DEBUG                  - depth 4, hash 6999746, HEAD~149
+2021-07-03 20:50:18,640 DEBUG                  - depth 5, hash 61fdb7a, HEAD~150
+2021-07-03 20:50:18,644 DEBUG                  - depth 6, hash f78b5a1, HEAD~152
+2021-07-03 20:50:18,648 DEBUG    [line range] org/apache/commons/csv/CSVParser.java parse 169:174
+2021-07-03 20:50:18,674 DEBUG                  - depth 0, hash 5941149, HEAD~38
+2021-07-03 20:50:18,680 DEBUG                  - depth 1, hash a2fef00, HEAD~81
+2021-07-03 20:50:18,684 DEBUG                  - depth 2, hash 152d50c, HEAD~101
+2021-07-03 20:50:18,688 DEBUG                  - depth 3, hash 6999746, HEAD~149
+2021-07-03 20:50:18,692 DEBUG    [line range] org/apache/commons/csv/CSVParser.java getNextRecord 383:429
+2021-07-03 20:50:18,723 DEBUG                  - depth 0, hash 412d05d, HEAD~123
+2021-07-03 20:50:18,728 DEBUG                  - depth 1, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,732 DEBUG                  - depth 2, hash 6999746, HEAD~149
+2021-07-03 20:50:18,737 DEBUG                  - depth 3, hash f78b5a1, HEAD~152
+2021-07-03 20:50:18,741 DEBUG                  - depth 4, hash 933cf2d, HEAD~316
+2021-07-03 20:50:18,745 DEBUG                  - depth 5, hash 6306dd7, HEAD~383
+2021-07-03 20:50:18,749 DEBUG                  - depth 6, hash 0e8084a, HEAD~385
+2021-07-03 20:50:18,753 DEBUG                  - depth 7, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:18,758 DEBUG                  - depth 8, hash 25f4b3e, HEAD~429
+2021-07-03 20:50:18,762 DEBUG                  - depth 9, hash bf06bed, HEAD~439
+2021-07-03 20:50:18,766 DEBUG                  - depth 10, hash aee6c50, HEAD~565
+2021-07-03 20:50:18,770 DEBUG                  - depth 11, hash b30da44, HEAD~576
+2021-07-03 20:50:18,774 DEBUG                  - depth 12, hash eb6ffbb, HEAD~577
+2021-07-03 20:50:18,778 DEBUG                  - depth 13, hash f7220c4, HEAD~578
+2021-07-03 20:50:18,783 DEBUG                  - depth 14, hash 2ec4c99, HEAD~601
+2021-07-03 20:50:18,787 DEBUG                  - depth 15, hash 045dbbb, HEAD~635
+2021-07-03 20:50:18,791 DEBUG    [line range] org/apache/commons/csv/CSVParser.java next 383:429
+2021-07-03 20:50:18,821 DEBUG                  - depth 0, hash 412d05d, HEAD~123
+2021-07-03 20:50:18,827 DEBUG                  - depth 1, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,831 DEBUG                  - depth 2, hash 6999746, HEAD~149
+2021-07-03 20:50:18,835 DEBUG                  - depth 3, hash f78b5a1, HEAD~152
+2021-07-03 20:50:18,839 DEBUG                  - depth 4, hash 933cf2d, HEAD~316
+2021-07-03 20:50:18,844 DEBUG                  - depth 5, hash 6306dd7, HEAD~383
+2021-07-03 20:50:18,848 DEBUG                  - depth 6, hash 0e8084a, HEAD~385
+2021-07-03 20:50:18,852 DEBUG                  - depth 7, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:18,856 DEBUG                  - depth 8, hash 25f4b3e, HEAD~429
+2021-07-03 20:50:18,860 DEBUG                  - depth 9, hash bf06bed, HEAD~439
+2021-07-03 20:50:18,864 DEBUG                  - depth 10, hash aee6c50, HEAD~565
+2021-07-03 20:50:18,869 DEBUG                  - depth 11, hash b30da44, HEAD~576
+2021-07-03 20:50:18,873 DEBUG                  - depth 12, hash eb6ffbb, HEAD~577
+2021-07-03 20:50:18,877 DEBUG                  - depth 13, hash f7220c4, HEAD~578
+2021-07-03 20:50:18,881 DEBUG                  - depth 14, hash 2ec4c99, HEAD~601
+2021-07-03 20:50:18,885 DEBUG                  - depth 15, hash 045dbbb, HEAD~635
+2021-07-03 20:50:18,890 DEBUG    [line range] org/apache/commons/csv/CSVParser.java next 383:429
+2021-07-03 20:50:18,919 DEBUG                  - depth 0, hash 412d05d, HEAD~123
+2021-07-03 20:50:18,925 DEBUG                  - depth 1, hash 316a51f, HEAD~134
+2021-07-03 20:50:18,929 DEBUG                  - depth 2, hash 6999746, HEAD~149
+2021-07-03 20:50:18,933 DEBUG                  - depth 3, hash f78b5a1, HEAD~152
+2021-07-03 20:50:18,937 DEBUG                  - depth 4, hash 933cf2d, HEAD~316
+2021-07-03 20:50:18,942 DEBUG                  - depth 5, hash 6306dd7, HEAD~383
+2021-07-03 20:50:18,946 DEBUG                  - depth 6, hash 0e8084a, HEAD~385
+2021-07-03 20:50:18,950 DEBUG                  - depth 7, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:18,954 DEBUG                  - depth 8, hash 25f4b3e, HEAD~429
+2021-07-03 20:50:18,958 DEBUG                  - depth 9, hash bf06bed, HEAD~439
+2021-07-03 20:50:18,963 DEBUG                  - depth 10, hash aee6c50, HEAD~565
+2021-07-03 20:50:18,967 DEBUG                  - depth 11, hash b30da44, HEAD~576
+2021-07-03 20:50:18,971 DEBUG                  - depth 12, hash eb6ffbb, HEAD~577
+2021-07-03 20:50:18,975 DEBUG                  - depth 13, hash f7220c4, HEAD~578
+2021-07-03 20:50:18,979 DEBUG                  - depth 14, hash 2ec4c99, HEAD~601
+2021-07-03 20:50:18,984 DEBUG                  - depth 15, hash 045dbbb, HEAD~635
+2021-07-03 20:50:18,988 DEBUG    [line range] org/apache/commons/csv/CSVParser.java <clinit> 438:480
+2021-07-03 20:50:19,014 DEBUG                  - depth 0, hash a84668e, HEAD~0
+2021-07-03 20:50:19,020 DEBUG                  - depth 1, hash 966cd20, HEAD~1
+2021-07-03 20:50:19,024 DEBUG                  - depth 2, hash 9873b13, HEAD~11
+2021-07-03 20:50:19,028 DEBUG                  - depth 3, hash 316a51f, HEAD~134
+2021-07-03 20:50:19,032 DEBUG                  - depth 4, hash 6999746, HEAD~149
+2021-07-03 20:50:19,037 DEBUG                  - depth 5, hash 61fdb7a, HEAD~150
+2021-07-03 20:50:19,041 DEBUG                  - depth 6, hash f78b5a1, HEAD~152
+2021-07-03 20:50:19,369 DEBUG    [line range] org/apache/commons/csv/CSVRecord.java <clinit> 35:35
+2021-07-03 20:50:19,394 DEBUG                  - depth 0, hash 10bf28e, HEAD~550
+2021-07-03 20:50:19,400 DEBUG                  - depth 1, hash 530c933, HEAD~563
+2021-07-03 20:50:19,404 DEBUG                  - depth 2, hash aee6c50, HEAD~565
+2021-07-03 20:50:19,408 DEBUG    [line range] org/apache/commons/csv/CSVRecord.java <init> 51:57
+2021-07-03 20:50:19,433 DEBUG                  - depth 0, hash 20fe471, HEAD~271
+2021-07-03 20:50:19,439 DEBUG                  - depth 1, hash 68352ee, HEAD~305
+2021-07-03 20:50:19,443 DEBUG                  - depth 2, hash daf9849, HEAD~387
+2021-07-03 20:50:19,447 DEBUG                  - depth 3, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:19,451 DEBUG                  - depth 4, hash 787ab08, HEAD~469
+2021-07-03 20:50:19,456 DEBUG                  - depth 5, hash 10bf28e, HEAD~550
+2021-07-03 20:50:19,460 DEBUG                  - depth 6, hash 530c933, HEAD~563
+2021-07-03 20:50:19,464 DEBUG                  - depth 7, hash aee6c50, HEAD~565
+2021-07-03 20:50:19,468 DEBUG    [line range] org/apache/commons/csv/CSVRecord.java putIn 179:184
+2021-07-03 20:50:19,492 DEBUG                  - depth 0, hash 2414250, HEAD~30
+2021-07-03 20:50:19,498 DEBUG                  - depth 1, hash 5f9a198, HEAD~37
+2021-07-03 20:50:19,502 DEBUG                  - depth 2, hash 5941149, HEAD~38
+2021-07-03 20:50:19,506 DEBUG                  - depth 3, hash d01e6b5, HEAD~39
+2021-07-03 20:50:19,510 DEBUG    [line range] org/apache/commons/csv/CSVRecord.java toMap 210:212
+2021-07-03 20:50:19,534 DEBUG                  - depth 0, hash d01e6b5, HEAD~39
+2021-07-03 20:50:19,831 DEBUG    [line range] org/apache/commons/csv/Constants.java <clinit> 36:36
+2021-07-03 20:50:19,855 DEBUG                  - depth 0, hash e5a7b27, HEAD~295
+2021-07-03 20:50:19,860 DEBUG                  - depth 1, hash 56ca585, HEAD~409
+2021-07-03 20:50:20,185 DEBUG    [line range] org/apache/commons/csv/ExtendedBufferedReader.java <init> 40:40
+2021-07-03 20:50:20,210 DEBUG                  - depth 0, hash 1166ca6, HEAD~651
+2021-07-03 20:50:20,216 DEBUG                  - depth 1, hash e23e79e, HEAD~777
+2021-07-03 20:50:20,220 DEBUG    [line range] org/apache/commons/csv/ExtendedBufferedReader.java getLastChar 72:74
+2021-07-03 20:50:20,245 DEBUG                  - depth 0, hash 9f6d3f5, HEAD~378
+2021-07-03 20:50:20,251 DEBUG                  - depth 1, hash 516b82b, HEAD~614
+2021-07-03 20:50:20,255 DEBUG                  - depth 2, hash 1166ca6, HEAD~651
+2021-07-03 20:50:20,259 DEBUG                  - depth 3, hash e23e79e, HEAD~777
+2021-07-03 20:50:20,263 DEBUG    [line range] org/apache/commons/csv/ExtendedBufferedReader.java isClosed 160:162
+2021-07-03 20:50:20,287 DEBUG                  - depth 0, hash e0b79fe, HEAD~86
+2021-07-03 20:50:20,292 DEBUG                  - depth 1, hash fcc0d15, HEAD~133
+2021-07-03 20:50:20,297 DEBUG                  - depth 2, hash f78b5a1, HEAD~152
+2021-07-03 20:50:20,301 DEBUG    [line range] org/apache/commons/csv/ExtendedBufferedReader.java read 54:62
+2021-07-03 20:50:20,326 DEBUG                  - depth 0, hash 71c69df, HEAD~181
+2021-07-03 20:50:20,332 DEBUG                  - depth 1, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:20,336 DEBUG                  - depth 2, hash e235b2a, HEAD~444
+2021-07-03 20:50:20,340 DEBUG                  - depth 3, hash de1838e, HEAD~516
+2021-07-03 20:50:20,345 DEBUG                  - depth 4, hash afc831b, HEAD~587
+2021-07-03 20:50:20,349 DEBUG                  - depth 5, hash 660f37a, HEAD~607
+2021-07-03 20:50:20,353 DEBUG                  - depth 6, hash 1166ca6, HEAD~651
+2021-07-03 20:50:20,357 DEBUG                  - depth 7, hash e23e79e, HEAD~777
+2021-07-03 20:50:20,719 DEBUG    [line range] org/apache/commons/csv/Lexer.java <init> 61:69
+2021-07-03 20:50:20,746 DEBUG                  - depth 0, hash 8e18054, HEAD~4
+2021-07-03 20:50:20,751 DEBUG                  - depth 1, hash 5a30b37, HEAD~84
+2021-07-03 20:50:20,755 DEBUG                  - depth 2, hash 65f6f1d, HEAD~103
+2021-07-03 20:50:20,760 DEBUG                  - depth 3, hash aede94a, HEAD~106
+2021-07-03 20:50:20,764 DEBUG                  - depth 4, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,768 DEBUG                  - depth 5, hash 05ecd91, HEAD~231
+2021-07-03 20:50:20,772 DEBUG                  - depth 6, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:20,777 DEBUG                  - depth 7, hash fdfe508, HEAD~539
+2021-07-03 20:50:20,781 DEBUG                  - depth 8, hash 65ab9db, HEAD~543
+2021-07-03 20:50:20,785 DEBUG                  - depth 9, hash 38670db, HEAD~569
+2021-07-03 20:50:20,789 DEBUG    [line range] org/apache/commons/csv/Lexer.java isClosed 371:373
+2021-07-03 20:50:20,814 DEBUG                  - depth 0, hash 8e18054, HEAD~4
+2021-07-03 20:50:20,819 DEBUG                  - depth 1, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,823 DEBUG    [line range] org/apache/commons/csv/Lexer.java isCommentStart 411:413
+2021-07-03 20:50:20,848 DEBUG                  - depth 0, hash 5a30b37, HEAD~84
+2021-07-03 20:50:20,853 DEBUG                  - depth 1, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,857 DEBUG    [line range] org/apache/commons/csv/Lexer.java isDelimiter 399:401
+2021-07-03 20:50:20,882 DEBUG                  - depth 0, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,887 DEBUG    [line range] org/apache/commons/csv/Lexer.java isEndOfFile 395:397
+2021-07-03 20:50:20,910 DEBUG                  - depth 0, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,916 DEBUG    [line range] org/apache/commons/csv/Lexer.java isEscape 403:405
+2021-07-03 20:50:20,940 DEBUG                  - depth 0, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,946 DEBUG    [line range] org/apache/commons/csv/Lexer.java isQuoteChar 407:409
+2021-07-03 20:50:20,970 DEBUG                  - depth 0, hash 7b168eb, HEAD~107
+2021-07-03 20:50:20,975 DEBUG    [line range] org/apache/commons/csv/Lexer.java isStartOfLine 388:390
+2021-07-03 20:50:20,999 DEBUG                  - depth 0, hash 7b168eb, HEAD~107
+2021-07-03 20:50:21,004 DEBUG    [line range] org/apache/commons/csv/Lexer.java mapNullToDisabled 290:292
+2021-07-03 20:50:21,028 DEBUG                  - depth 0, hash a223126, HEAD~100
+2021-07-03 20:50:21,033 DEBUG                  - depth 1, hash 7b168eb, HEAD~107
+2021-07-03 20:50:21,038 DEBUG    [line range] org/apache/commons/csv/Lexer.java nextToken 82:164
+2021-07-03 20:50:21,065 DEBUG                  - depth 0, hash 8e18054, HEAD~4
+2021-07-03 20:50:21,070 DEBUG                  - depth 1, hash fcc0d15, HEAD~133
+2021-07-03 20:50:21,075 DEBUG                  - depth 2, hash 530b038, HEAD~168
+2021-07-03 20:50:21,079 DEBUG                  - depth 3, hash 93a07b9, HEAD~169
+2021-07-03 20:50:21,083 DEBUG                  - depth 4, hash c4014b6, HEAD~260
+2021-07-03 20:50:21,087 DEBUG                  - depth 5, hash 350d34d, HEAD~333
+2021-07-03 20:50:21,091 DEBUG                  - depth 6, hash 2a8ce4a, HEAD~374
+2021-07-03 20:50:21,096 DEBUG                  - depth 7, hash 9f6d3f5, HEAD~378
+2021-07-03 20:50:21,100 DEBUG                  - depth 8, hash 992c064, HEAD~397
+2021-07-03 20:50:21,104 DEBUG                  - depth 9, hash 3655efc, HEAD~398
+2021-07-03 20:50:21,108 DEBUG                  - depth 10, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:21,113 DEBUG                  - depth 11, hash 8608520, HEAD~435
+2021-07-03 20:50:21,117 DEBUG                  - depth 12, hash 93fc1f9, HEAD~436
+2021-07-03 20:50:21,121 DEBUG                  - depth 13, hash bf06bed, HEAD~439
+2021-07-03 20:50:21,125 DEBUG                  - depth 14, hash 787ab08, HEAD~469
+2021-07-03 20:50:21,130 DEBUG                  - depth 15, hash 8462234, HEAD~475
+2021-07-03 20:50:21,134 DEBUG                  - depth 16, hash 3fd45b5, HEAD~479
+2021-07-03 20:50:21,138 DEBUG                  - depth 17, hash 7addc8f, HEAD~489
+2021-07-03 20:50:21,142 DEBUG                  - depth 18, hash e922bf9, HEAD~497
+2021-07-03 20:50:21,147 DEBUG                  - depth 19, hash 05b5c8e, HEAD~498
+2021-07-03 20:50:21,151 DEBUG                  - depth 20, hash 93089b2, HEAD~500
+2021-07-03 20:50:21,155 DEBUG                  - depth 21, hash 7c2cfea, HEAD~506
+2021-07-03 20:50:21,159 DEBUG                  - depth 22, hash 0a0f3bb, HEAD~507
+2021-07-03 20:50:21,163 DEBUG                  - depth 23, hash 9114337, HEAD~508
+2021-07-03 20:50:21,168 DEBUG                  - depth 24, hash 38741a4, HEAD~524
+2021-07-03 20:50:21,172 DEBUG                  - depth 25, hash dd26201, HEAD~529
+2021-07-03 20:50:21,176 DEBUG                  - depth 26, hash 9ebd0d9, HEAD~532
+2021-07-03 20:50:21,180 DEBUG                  - depth 27, hash 1299ddf, HEAD~533
+2021-07-03 20:50:21,185 DEBUG                  - depth 28, hash fa07dea, HEAD~534
+2021-07-03 20:50:21,189 DEBUG                  - depth 29, hash 83e4a90, HEAD~536
+2021-07-03 20:50:21,193 DEBUG                  - depth 30, hash 38670db, HEAD~569
+2021-07-03 20:50:21,198 DEBUG    [line range] org/apache/commons/csv/Lexer.java parseSimpleToken 185:217
+2021-07-03 20:50:21,225 DEBUG                  - depth 0, hash 8e18054, HEAD~4
+2021-07-03 20:50:21,230 DEBUG                  - depth 1, hash a062477, HEAD~140
+2021-07-03 20:50:21,235 DEBUG                  - depth 2, hash 93a07b9, HEAD~169
+2021-07-03 20:50:21,239 DEBUG                  - depth 3, hash 2c61208, HEAD~191
+2021-07-03 20:50:21,243 DEBUG                  - depth 4, hash c4014b6, HEAD~260
+2021-07-03 20:50:21,247 DEBUG                  - depth 5, hash 2a8ce4a, HEAD~374
+2021-07-03 20:50:21,252 DEBUG                  - depth 6, hash 3655efc, HEAD~398
+2021-07-03 20:50:21,256 DEBUG                  - depth 7, hash 6ab9b46, HEAD~416
+2021-07-03 20:50:21,260 DEBUG                  - depth 8, hash 19ba389, HEAD~481
+2021-07-03 20:50:21,264 DEBUG                  - depth 9, hash ba26844, HEAD~505
+2021-07-03 20:50:21,269 DEBUG                  - depth 10, hash 9114337, HEAD~508
+2021-07-03 20:50:21,273 DEBUG                  - depth 11, hash 38741a4, HEAD~524
+2021-07-03 20:50:21,277 DEBUG                  - depth 12, hash dd26201, HEAD~529
+2021-07-03 20:50:21,282 DEBUG                  - depth 13, hash fa07dea, HEAD~534
+2021-07-03 20:50:21,286 DEBUG                  - depth 14, hash 83e4a90, HEAD~536
+2021-07-03 20:50:21,290 DEBUG                  - depth 15, hash 38670db, HEAD~569
+2021-07-03 20:50:21,295 DEBUG    [line range] org/apache/commons/csv/Lexer.java readEndOfLine 362:369
+2021-07-03 20:50:21,318 DEBUG                  - depth 0, hash 8e18054, HEAD~4
+2021-07-03 20:50:21,324 DEBUG                  - depth 1, hash 7b168eb, HEAD~107
+2021-07-03 20:50:21,584 DEBUG    [single line]   org/apache/commons/csv/Quote.java <clinit> 24
+2021-07-03 20:50:21,607 DEBUG                  - depth 0, hash e693d87, HEAD~367
+2021-07-03 20:50:21,613 DEBUG    [single line]   org/apache/commons/csv/Quote.java <clinit> 29
+2021-07-03 20:50:21,636 DEBUG                  - depth 0, hash e693d87, HEAD~367
+2021-07-03 20:50:21,642 DEBUG    [single line]   org/apache/commons/csv/Quote.java <clinit> 35
+2021-07-03 20:50:21,665 DEBUG                  - depth 0, hash e693d87, HEAD~367
+2021-07-03 20:50:21,670 DEBUG    [single line]   org/apache/commons/csv/Quote.java <clinit> 40
+2021-07-03 20:50:21,693 DEBUG                  - depth 0, hash e693d87, HEAD~367
+2021-07-03 20:50:21,699 DEBUG    [single line]   org/apache/commons/csv/Quote.java <clinit> 47
+2021-07-03 20:50:21,721 DEBUG                  - depth 0, hash e693d87, HEAD~367
+2021-07-03 20:50:22,006 DEBUG    [single line]   org/apache/commons/csv/Token.java <init> 29
+2021-07-03 20:50:22,029 DEBUG                  - depth 0, hash 0e7e9de, HEAD~380
+2021-07-03 20:50:22,035 DEBUG                  - depth 1, hash 7592782, HEAD~544
+2021-07-03 20:50:22,039 DEBUG    [line range] org/apache/commons/csv/Token.java <init> 52:52
+2021-07-03 20:50:22,063 DEBUG                  - depth 0, hash 7592782, HEAD~544
+2021-07-03 20:50:22,068 DEBUG    [line range] org/apache/commons/csv/Token.java reset 60:64
+2021-07-03 20:50:22,092 DEBUG                  - depth 0, hash 17c2635, HEAD~381
+2021-07-03 20:50:22,098 DEBUG                  - depth 1, hash 7592782, HEAD~544
+2021-07-03 20:50:22,102 DEBUG    [single line]   org/apache/commons/csv/Token.java <clinit> 34
+2021-07-03 20:50:22,126 DEBUG                  - depth 0, hash 7592782, HEAD~544
+2021-07-03 20:50:22,131 DEBUG    [single line]   org/apache/commons/csv/Token.java <clinit> 36
+2021-07-03 20:50:22,155 DEBUG                  - depth 0, hash 7592782, HEAD~544
+2021-07-03 20:50:22,160 DEBUG    [single line]   org/apache/commons/csv/Token.java <clinit> 39
+2021-07-03 20:50:22,184 DEBUG                  - depth 0, hash 7592782, HEAD~544
+2021-07-03 20:50:22,190 DEBUG    [single line]   org/apache/commons/csv/Token.java <clinit> 42
+2021-07-03 20:50:22,213 DEBUG                  - depth 0, hash 7592782, HEAD~544
+2021-07-03 20:50:22,219 DEBUG    [single line]   org/apache/commons/csv/Token.java <clinit> 45
+2021-07-03 20:50:22,243 DEBUG                  - depth 0, hash 0a0f3bb, HEAD~507
+2021-07-03 20:50:22,248 DEBUG                  - depth 1, hash 7592782, HEAD~544
+2021-07-03 20:50:22,253 DEBUG    [single line]   org/apache/commons/csv/Token.java <clinit> 48
+2021-07-03 20:50:22,276 DEBUG                  - depth 0, hash 0a0f3bb, HEAD~507
+2021-07-03 20:50:22,282 DEBUG                  - depth 1, hash 7592782, HEAD~544
+2021-07-03 20:50:22,286 INFO     The number of BIC candidates: 137

@@ -1,0 +1,1913 @@
+2021-07-04 10:08:07,798 INFO     Search BICs for /tmp/Time-7b/
+2021-07-04 10:08:07,798 DEBUG    Reading the coverage of org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear (failings)
+2021-07-04 10:08:08,004 DEBUG    Reading the coverage of org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear (failings)
+2021-07-04 10:08:08,196 INFO     Loaded 2x2114 Coverage Matrix
+2021-07-04 10:08:08,197 INFO     The number of total commits: 1654
+2021-07-04 10:08:08,534 DEBUG    [single line]   org/joda/time/Chronology.java <init> 63
+2021-07-04 10:08:08,600 DEBUG                  - depth 0, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:08,606 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:08,610 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:09,065 DEBUG    [line range] org/joda/time/DateTime.java <init> 507:518
+2021-07-04 10:08:09,145 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:09,150 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:09,154 DEBUG    [line range] org/joda/time/DateTime.java toDateTime 526:528
+2021-07-04 10:08:09,229 DEBUG                  - depth 0, hash 8fe0060, HEAD~1242
+2021-07-04 10:08:09,569 DEBUG    [single line]   org/joda/time/DateTimeField.java <init> 33
+2021-07-04 10:08:09,634 DEBUG                  - depth 0, hash 92e7588, HEAD~1467
+2021-07-04 10:08:09,639 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:09,643 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:10,041 DEBUG    [line range] org/joda/time/DateTimeFieldType.java <clinit> 73:74
+2021-07-04 10:08:10,119 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,125 DEBUG                  - depth 1, hash a5f5886, HEAD~1191
+2021-07-04 10:08:10,129 DEBUG                  - depth 2, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:10,133 DEBUG                  - depth 3, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,138 DEBUG    [line range] org/joda/time/DateTimeFieldType.java <init> 152:155
+2021-07-04 10:08:10,201 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,206 DEBUG                  - depth 1, hash a5f5886, HEAD~1191
+2021-07-04 10:08:10,211 DEBUG                  - depth 2, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,215 DEBUG    [line range] org/joda/time/DateTimeFieldType.java centuryOfEra 353:355
+2021-07-04 10:08:10,278 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,284 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,288 DEBUG    [line range] org/joda/time/DateTimeFieldType.java clockhourOfDay 226:228
+2021-07-04 10:08:10,351 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,357 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,361 DEBUG    [line range] org/joda/time/DateTimeFieldType.java clockhourOfHalfday 244:246
+2021-07-04 10:08:10,425 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,430 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,434 DEBUG    [line range] org/joda/time/DateTimeFieldType.java dayOfMonth 272:274
+2021-07-04 10:08:10,497 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,502 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,506 DEBUG    [line range] org/joda/time/DateTimeFieldType.java dayOfWeek 263:265
+2021-07-04 10:08:10,570 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,575 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,579 DEBUG    [line range] org/joda/time/DateTimeFieldType.java dayOfYear 281:283
+2021-07-04 10:08:10,641 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,646 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,651 DEBUG    [line range] org/joda/time/DateTimeFieldType.java era 362:364
+2021-07-04 10:08:10,712 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,717 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,721 DEBUG    [line range] org/joda/time/DateTimeFieldType.java getName 377:379
+2021-07-04 10:08:10,783 DEBUG                  - depth 0, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,788 DEBUG    [line range] org/joda/time/DateTimeFieldType.java halfdayOfDay 253:255
+2021-07-04 10:08:10,850 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,855 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,859 DEBUG    [line range] org/joda/time/DateTimeFieldType.java hourOfDay 217:219
+2021-07-04 10:08:10,921 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:10,926 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:10,930 DEBUG    [line range] org/joda/time/DateTimeFieldType.java hourOfHalfday 235:237
+2021-07-04 10:08:10,994 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,000 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,004 DEBUG    [line range] org/joda/time/DateTimeFieldType.java millisOfDay 172:174
+2021-07-04 10:08:11,065 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,071 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,075 DEBUG    [line range] org/joda/time/DateTimeFieldType.java millisOfSecond 163:165
+2021-07-04 10:08:11,136 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,142 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,146 DEBUG    [line range] org/joda/time/DateTimeFieldType.java minuteOfDay 208:210
+2021-07-04 10:08:11,207 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,212 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,217 DEBUG    [line range] org/joda/time/DateTimeFieldType.java minuteOfHour 199:201
+2021-07-04 10:08:11,279 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,284 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,288 DEBUG    [line range] org/joda/time/DateTimeFieldType.java monthOfYear 317:319
+2021-07-04 10:08:11,350 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,355 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,359 DEBUG    [line range] org/joda/time/DateTimeFieldType.java secondOfDay 190:192
+2021-07-04 10:08:11,422 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,428 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,443 DEBUG    [line range] org/joda/time/DateTimeFieldType.java secondOfMinute 181:183
+2021-07-04 10:08:11,505 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,511 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,515 DEBUG    [line range] org/joda/time/DateTimeFieldType.java weekOfWeekyear 290:292
+2021-07-04 10:08:11,576 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,582 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,586 DEBUG    [line range] org/joda/time/DateTimeFieldType.java weekyear 299:301
+2021-07-04 10:08:11,648 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,653 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,657 DEBUG    [line range] org/joda/time/DateTimeFieldType.java weekyearOfCentury 308:310
+2021-07-04 10:08:11,719 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,724 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:11,728 DEBUG    [line range] org/joda/time/DateTimeFieldType.java year 326:328
+2021-07-04 10:08:11,789 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,795 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,799 DEBUG    [line range] org/joda/time/DateTimeFieldType.java yearOfCentury 344:346
+2021-07-04 10:08:11,860 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,866 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,870 DEBUG    [line range] org/joda/time/DateTimeFieldType.java yearOfEra 335:337
+2021-07-04 10:08:11,931 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:11,937 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:11,941 DEBUG    [line range] org/joda/time/DateTimeFieldType.java <init> 442:448
+2021-07-04 10:08:12,002 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:12,008 DEBUG    [line range] org/joda/time/DateTimeFieldType.java getDurationType 451:453
+2021-07-04 10:08:12,069 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:12,074 DEBUG    [line range] org/joda/time/DateTimeFieldType.java getField 479:533
+2021-07-04 10:08:12,135 DEBUG                  - depth 0, hash 6892714, HEAD~1098
+2021-07-04 10:08:12,141 DEBUG                  - depth 1, hash b9e9ad7, HEAD~1148
+2021-07-04 10:08:12,145 DEBUG                  - depth 2, hash c5a0687, HEAD~1187
+2021-07-04 10:08:12,149 DEBUG                  - depth 3, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:12,153 DEBUG    [line range] org/joda/time/DateTimeFieldType.java getRangeDurationType 456:458
+2021-07-04 10:08:12,215 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:12,581 DEBUG    [line range] org/joda/time/DateTimeUtils.java <clinit> 39:39
+2021-07-04 10:08:12,644 DEBUG                  - depth 0, hash 5d784a8, HEAD~1482
+2021-07-04 10:08:12,650 DEBUG    [line range] org/joda/time/DateTimeUtils.java checkPermission 158:163
+2021-07-04 10:08:12,713 DEBUG                  - depth 0, hash 72028b7, HEAD~1472
+2021-07-04 10:08:12,719 DEBUG    [line range] org/joda/time/DateTimeUtils.java getChronology 281:286
+2021-07-04 10:08:12,781 DEBUG                  - depth 0, hash 7eadd1a, HEAD~1260
+2021-07-04 10:08:12,787 DEBUG                  - depth 1, hash 44f74ae, HEAD~1273
+2021-07-04 10:08:12,791 DEBUG    [line range] org/joda/time/DateTimeUtils.java getZone 298:303
+2021-07-04 10:08:12,855 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:12,861 DEBUG    [line range] org/joda/time/DateTimeUtils.java put 61:67
+2021-07-04 10:08:12,923 DEBUG                  - depth 0, hash 14863a5, HEAD~73
+2021-07-04 10:08:12,928 DEBUG    [line range] org/joda/time/DateTimeUtils.java setCurrentMillisFixed 111:114
+2021-07-04 10:08:12,994 DEBUG                  - depth 0, hash 5e94133, HEAD~1337
+2021-07-04 10:08:12,999 DEBUG                  - depth 1, hash 72028b7, HEAD~1472
+2021-07-04 10:08:13,003 DEBUG                  - depth 2, hash 5d784a8, HEAD~1482
+2021-07-04 10:08:13,007 DEBUG    [line range] org/joda/time/DateTimeUtils.java setCurrentMillisSystem 97:100
+2021-07-04 10:08:13,073 DEBUG                  - depth 0, hash 5e94133, HEAD~1337
+2021-07-04 10:08:13,078 DEBUG                  - depth 1, hash 72028b7, HEAD~1472
+2021-07-04 10:08:13,082 DEBUG                  - depth 2, hash 5d784a8, HEAD~1482
+2021-07-04 10:08:13,086 DEBUG    [line range] org/joda/time/DateTimeUtils.java <init> 545:547
+2021-07-04 10:08:13,152 DEBUG                  - depth 0, hash 5d784a8, HEAD~1482
+2021-07-04 10:08:13,158 DEBUG    [single line]   org/joda/time/DateTimeUtils.java <init> 524
+2021-07-04 10:08:13,224 DEBUG                  - depth 0, hash 7673aa4, HEAD~251
+2021-07-04 10:08:13,229 DEBUG                  - depth 1, hash 5d784a8, HEAD~1482
+2021-07-04 10:08:13,672 DEBUG    [line range] org/joda/time/DateTimeZone.java <clinit> 94:94
+2021-07-04 10:08:13,742 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:13,748 DEBUG    [line range] org/joda/time/DateTimeZone.java <init> 717:722
+2021-07-04 10:08:13,818 DEBUG                  - depth 0, hash 6682ab2, HEAD~1377
+2021-07-04 10:08:13,823 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:13,827 DEBUG    [line range] org/joda/time/DateTimeZone.java convertLocalToUTC 1000:1041
+2021-07-04 10:08:13,900 DEBUG                  - depth 0, hash 2fcc704, HEAD~49
+2021-07-04 10:08:13,905 DEBUG                  - depth 1, hash 51bec12, HEAD~249
+2021-07-04 10:08:13,909 DEBUG                  - depth 2, hash c41eff1, HEAD~467
+2021-07-04 10:08:13,913 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:13,918 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:13,922 DEBUG    [line range] org/joda/time/DateTimeZone.java convertLocalToUTC 978:986
+2021-07-04 10:08:13,984 DEBUG                  - depth 0, hash c7a581e, HEAD~180
+2021-07-04 10:08:13,990 DEBUG    [line range] org/joda/time/DateTimeZone.java convertUTCToLocal 951:959
+2021-07-04 10:08:14,060 DEBUG                  - depth 0, hash c41eff1, HEAD~467
+2021-07-04 10:08:14,066 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:14,070 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,074 DEBUG    [line range] org/joda/time/DateTimeZone.java forID 203:225
+2021-07-04 10:08:14,145 DEBUG                  - depth 0, hash 218a7fe, HEAD~181
+2021-07-04 10:08:14,150 DEBUG                  - depth 1, hash 51ed402, HEAD~336
+2021-07-04 10:08:14,155 DEBUG                  - depth 2, hash 0531e3d, HEAD~838
+2021-07-04 10:08:14,159 DEBUG                  - depth 3, hash 8a58750, HEAD~1002
+2021-07-04 10:08:14,163 DEBUG                  - depth 4, hash b997856, HEAD~1059
+2021-07-04 10:08:14,167 DEBUG                  - depth 5, hash efd2748, HEAD~1068
+2021-07-04 10:08:14,171 DEBUG                  - depth 6, hash 6cad802, HEAD~1116
+2021-07-04 10:08:14,175 DEBUG                  - depth 7, hash 7f03615, HEAD~1302
+2021-07-04 10:08:14,179 DEBUG                  - depth 8, hash 6682ab2, HEAD~1377
+2021-07-04 10:08:14,183 DEBUG                  - depth 9, hash a26563f, HEAD~1478
+2021-07-04 10:08:14,187 DEBUG                  - depth 10, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:14,192 DEBUG                  - depth 11, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,196 DEBUG    [line range] org/joda/time/DateTimeZone.java getDefault 133:163
+2021-07-04 10:08:14,268 DEBUG                  - depth 0, hash b835259, HEAD~199
+2021-07-04 10:08:14,273 DEBUG                  - depth 1, hash df5d164, HEAD~201
+2021-07-04 10:08:14,277 DEBUG                  - depth 2, hash bc49e14, HEAD~250
+2021-07-04 10:08:14,281 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,286 DEBUG    [line range] org/joda/time/DateTimeZone.java getDefaultNameProvider 556:577
+2021-07-04 10:08:14,355 DEBUG                  - depth 0, hash 6682ab2, HEAD~1377
+2021-07-04 10:08:14,360 DEBUG    [line range] org/joda/time/DateTimeZone.java getDefaultProvider 470:502
+2021-07-04 10:08:14,430 DEBUG                  - depth 0, hash 6892714, HEAD~1098
+2021-07-04 10:08:14,435 DEBUG                  - depth 1, hash 6682ab2, HEAD~1377
+2021-07-04 10:08:14,439 DEBUG    [line range] org/joda/time/DateTimeZone.java getID 732:735
+2021-07-04 10:08:14,509 DEBUG                  - depth 0, hash 218a7fe, HEAD~181
+2021-07-04 10:08:14,514 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,518 DEBUG    [line range] org/joda/time/DateTimeZone.java getOffsetFromLocal 908:939
+2021-07-04 10:08:14,589 DEBUG                  - depth 0, hash 82c5e4f, HEAD~113
+2021-07-04 10:08:14,595 DEBUG                  - depth 1, hash 552be4b, HEAD~179
+2021-07-04 10:08:14,599 DEBUG                  - depth 2, hash 0c7b06d, HEAD~401
+2021-07-04 10:08:14,603 DEBUG                  - depth 3, hash c41eff1, HEAD~467
+2021-07-04 10:08:14,607 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:14,611 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,616 DEBUG    [line range] org/joda/time/DateTimeZone.java hashCode 1275:1277
+2021-07-04 10:08:14,686 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,691 DEBUG    [line range] org/joda/time/DateTimeZone.java setDefault 174:185
+2021-07-04 10:08:14,763 DEBUG                  - depth 0, hash bc49e14, HEAD~250
+2021-07-04 10:08:14,768 DEBUG                  - depth 1, hash c6391f3, HEAD~1474
+2021-07-04 10:08:14,773 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:14,777 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,781 DEBUG    [line range] org/joda/time/DateTimeZone.java setNameProvider0 541:546
+2021-07-04 10:08:14,851 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:14,857 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:14,861 DEBUG    [line range] org/joda/time/DateTimeZone.java setProvider0 442:459
+2021-07-04 10:08:14,934 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:14,939 DEBUG                  - depth 1, hash a26563f, HEAD~1478
+2021-07-04 10:08:14,943 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:14,947 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:15,257 DEBUG    [single line]   org/joda/time/DurationField.java <init> 30
+2021-07-04 10:08:15,320 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:15,325 DEBUG                  - depth 1, hash ab921d9, HEAD~1395
+2021-07-04 10:08:15,329 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:15,676 DEBUG    [line range] org/joda/time/DurationFieldType.java <clinit> 60:60
+2021-07-04 10:08:15,738 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:15,743 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:15,747 DEBUG    [line range] org/joda/time/DurationFieldType.java <init> 93:96
+2021-07-04 10:08:15,809 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:15,814 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:15,819 DEBUG    [line range] org/joda/time/DurationFieldType.java centuries 195:197
+2021-07-04 10:08:15,879 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:15,885 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:15,889 DEBUG    [line range] org/joda/time/DurationFieldType.java days 150:152
+2021-07-04 10:08:15,951 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:15,957 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:15,961 DEBUG    [line range] org/joda/time/DurationFieldType.java eras 204:206
+2021-07-04 10:08:16,022 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,028 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,032 DEBUG    [line range] org/joda/time/DurationFieldType.java halfdays 140:142
+2021-07-04 10:08:16,093 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,099 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,103 DEBUG    [line range] org/joda/time/DurationFieldType.java hours 131:133
+2021-07-04 10:08:16,166 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,172 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,176 DEBUG    [line range] org/joda/time/DurationFieldType.java millis 104:106
+2021-07-04 10:08:16,239 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,245 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,249 DEBUG    [line range] org/joda/time/DurationFieldType.java minutes 122:124
+2021-07-04 10:08:16,310 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,316 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,320 DEBUG    [line range] org/joda/time/DurationFieldType.java months 177:179
+2021-07-04 10:08:16,381 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,387 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,391 DEBUG    [line range] org/joda/time/DurationFieldType.java seconds 113:115
+2021-07-04 10:08:16,453 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,459 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,463 DEBUG    [line range] org/joda/time/DurationFieldType.java weeks 159:161
+2021-07-04 10:08:16,525 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,531 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,535 DEBUG    [line range] org/joda/time/DurationFieldType.java weekyears 168:170
+2021-07-04 10:08:16,598 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,604 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,608 DEBUG    [line range] org/joda/time/DurationFieldType.java years 186:188
+2021-07-04 10:08:16,669 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,675 DEBUG                  - depth 1, hash de0a353, HEAD~1193
+2021-07-04 10:08:16,679 DEBUG    [line range] org/joda/time/DurationFieldType.java <init> 258:261
+2021-07-04 10:08:16,740 DEBUG                  - depth 0, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,746 DEBUG    [line range] org/joda/time/DurationFieldType.java getField 281:313
+2021-07-04 10:08:16,807 DEBUG                  - depth 0, hash 3fba96d, HEAD~1096
+2021-07-04 10:08:16,812 DEBUG                  - depth 1, hash b9e9ad7, HEAD~1148
+2021-07-04 10:08:16,817 DEBUG                  - depth 2, hash c5a0687, HEAD~1187
+2021-07-04 10:08:16,821 DEBUG                  - depth 3, hash 1a5b0ef, HEAD~1188
+2021-07-04 10:08:16,825 DEBUG    [line range] org/joda/time/DurationFieldType.java hashCode 276:279
+2021-07-04 10:08:16,887 DEBUG                  - depth 0, hash 7b5032a, HEAD~109
+2021-07-04 10:08:16,892 DEBUG                  - depth 1, hash e16eb72, HEAD~111
+2021-07-04 10:08:17,238 DEBUG    [line range] org/joda/time/IllegalFieldValueException.java <init> 106:117
+2021-07-04 10:08:17,299 DEBUG                  - depth 0, hash c41eff1, HEAD~467
+2021-07-04 10:08:17,305 DEBUG                  - depth 1, hash 83df500, HEAD~643
+2021-07-04 10:08:17,309 DEBUG                  - depth 2, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:17,313 DEBUG    [line range] org/joda/time/IllegalFieldValueException.java createMessage 39:64
+2021-07-04 10:08:17,376 DEBUG                  - depth 0, hash 66c4a1c, HEAD~80
+2021-07-04 10:08:17,382 DEBUG                  - depth 1, hash c41eff1, HEAD~467
+2021-07-04 10:08:17,386 DEBUG                  - depth 2, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:17,391 DEBUG    [line range] org/joda/time/IllegalFieldValueException.java getMessage 313:315
+2021-07-04 10:08:17,451 DEBUG                  - depth 0, hash 83df500, HEAD~643
+2021-07-04 10:08:17,457 DEBUG    [line range] org/joda/time/IllegalFieldValueException.java prependMessage 322:328
+2021-07-04 10:08:17,518 DEBUG                  - depth 0, hash 83df500, HEAD~643
+2021-07-04 10:08:17,848 DEBUG    [line range] org/joda/time/Instant.java <init> 117:120
+2021-07-04 10:08:17,912 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:17,917 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:17,922 DEBUG    [line range] org/joda/time/Instant.java getMillis 255:257
+2021-07-04 10:08:17,984 DEBUG                  - depth 0, hash 8ef6067, HEAD~1160
+2021-07-04 10:08:17,989 DEBUG                  - depth 1, hash 21a05d4, HEAD~1476
+2021-07-04 10:08:17,994 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:17,998 DEBUG    [line range] org/joda/time/Instant.java toInstant 143:145
+2021-07-04 10:08:18,060 DEBUG                  - depth 0, hash 8fe0060, HEAD~1242
+2021-07-04 10:08:18,487 DEBUG    [line range] org/joda/time/MutableDateTime.java <init> 342:353
+2021-07-04 10:08:18,562 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:18,567 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:18,893 DEBUG    [line range] org/joda/time/base/AbstractDateTime.java <init> 50:52
+2021-07-04 10:08:18,955 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:19,319 DEBUG    [line range] org/joda/time/base/AbstractInstant.java <init> 60:62
+2021-07-04 10:08:19,386 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:19,392 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:19,396 DEBUG    [line range] org/joda/time/base/AbstractInstant.java equals 257:269
+2021-07-04 10:08:19,464 DEBUG                  - depth 0, hash 9d1583c, HEAD~558
+2021-07-04 10:08:19,470 DEBUG                  - depth 1, hash 99af0da, HEAD~1256
+2021-07-04 10:08:19,474 DEBUG                  - depth 2, hash 6101794, HEAD~1346
+2021-07-04 10:08:19,478 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:19,482 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:19,813 DEBUG    [line range] org/joda/time/base/BaseDateTime.java <init> 243:257
+2021-07-04 10:08:19,876 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:19,882 DEBUG    [line range] org/joda/time/base/BaseDateTime.java <init> 214:225
+2021-07-04 10:08:19,947 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:19,952 DEBUG    [line range] org/joda/time/base/BaseDateTime.java checkChronology 269:271
+2021-07-04 10:08:20,016 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:20,022 DEBUG    [line range] org/joda/time/base/BaseDateTime.java checkInstant 283:285
+2021-07-04 10:08:20,086 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:20,092 DEBUG    [line range] org/joda/time/base/BaseDateTime.java getChronology 303:305
+2021-07-04 10:08:20,156 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:20,162 DEBUG    [line range] org/joda/time/base/BaseDateTime.java getMillis 294:296
+2021-07-04 10:08:20,224 DEBUG                  - depth 0, hash 99af0da, HEAD~1256
+2021-07-04 10:08:20,611 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java <init> 99:103
+2021-07-04 10:08:20,675 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:20,681 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java centuries 279:281
+2021-07-04 10:08:20,746 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:20,752 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java centuryOfEra 283:285
+2021-07-04 10:08:20,817 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:20,823 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java clockhourOfDay 199:201
+2021-07-04 10:08:20,889 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:20,894 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java clockhourOfHalfday 211:213
+2021-07-04 10:08:20,958 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:20,963 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java dayOfMonth 227:229
+2021-07-04 10:08:21,027 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,032 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java dayOfWeek 223:225
+2021-07-04 10:08:21,098 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,104 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java dayOfYear 231:233
+2021-07-04 10:08:21,168 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,174 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java days 219:221
+2021-07-04 10:08:21,237 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,242 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java era 291:293
+2021-07-04 10:08:21,306 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,311 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java eras 287:289
+2021-07-04 10:08:21,375 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,380 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java getBase 307:309
+2021-07-04 10:08:21,444 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,449 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java getDateTimeMillis 125:138
+2021-07-04 10:08:21,513 DEBUG                  - depth 0, hash 194de43, HEAD~1350
+2021-07-04 10:08:21,518 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,523 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java getParam 314:316
+2021-07-04 10:08:21,586 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,592 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java getZone 105:111
+2021-07-04 10:08:21,655 DEBUG                  - depth 0, hash a26563f, HEAD~1478
+2021-07-04 10:08:21,661 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,665 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java halfdayOfDay 215:217
+2021-07-04 10:08:21,728 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,734 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java halfdays 203:205
+2021-07-04 10:08:21,796 DEBUG                  - depth 0, hash c5a0687, HEAD~1187
+2021-07-04 10:08:21,802 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java hourOfDay 195:197
+2021-07-04 10:08:21,867 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,873 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java hourOfHalfday 207:209
+2021-07-04 10:08:21,936 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:21,941 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java hours 191:193
+2021-07-04 10:08:22,005 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,011 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java millis 155:157
+2021-07-04 10:08:22,074 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,080 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java millisOfDay 163:165
+2021-07-04 10:08:22,143 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,149 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java millisOfSecond 159:161
+2021-07-04 10:08:22,213 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,219 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java minuteOfDay 187:189
+2021-07-04 10:08:22,283 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,288 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java minuteOfHour 183:185
+2021-07-04 10:08:22,352 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,358 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java minutes 179:181
+2021-07-04 10:08:22,421 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,427 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java monthOfYear 259:261
+2021-07-04 10:08:22,490 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,496 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java months 255:257
+2021-07-04 10:08:22,559 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,565 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java secondOfDay 175:177
+2021-07-04 10:08:22,628 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,634 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java secondOfMinute 171:173
+2021-07-04 10:08:22,699 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,704 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java seconds 167:169
+2021-07-04 10:08:22,768 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,773 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java setFields 318:386
+2021-07-04 10:08:22,838 DEBUG                  - depth 0, hash c5a0687, HEAD~1187
+2021-07-04 10:08:22,844 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,850 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java weekOfWeekyear 239:241
+2021-07-04 10:08:22,914 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,919 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java weeks 235:237
+2021-07-04 10:08:22,983 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:22,989 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java weekyear 247:249
+2021-07-04 10:08:23,052 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,058 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java weekyearOfCentury 251:253
+2021-07-04 10:08:23,121 DEBUG                  - depth 0, hash c5a0687, HEAD~1187
+2021-07-04 10:08:23,127 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java weekyears 243:245
+2021-07-04 10:08:23,190 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,195 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java year 267:269
+2021-07-04 10:08:23,259 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,264 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java yearOfCentury 275:277
+2021-07-04 10:08:23,328 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,334 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java yearOfEra 271:273
+2021-07-04 10:08:23,397 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,403 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java years 263:265
+2021-07-04 10:08:23,467 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,472 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java <init> 436:437
+2021-07-04 10:08:23,536 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,542 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java copyFieldsFrom 442:555
+2021-07-04 10:08:23,606 DEBUG                  - depth 0, hash c5a0687, HEAD~1187
+2021-07-04 10:08:23,612 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,618 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java isSupported 561:563
+2021-07-04 10:08:23,681 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:23,687 DEBUG    [line range] org/joda/time/chrono/AssembledChronology.java isSupported 557:559
+2021-07-04 10:08:23,751 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:24,147 DEBUG    [line range] org/joda/time/chrono/BaseChronology.java <init> 53:55
+2021-07-04 10:08:24,213 DEBUG                  - depth 0, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:24,219 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:24,223 DEBUG    [line range] org/joda/time/chrono/BaseChronology.java eras 659:661
+2021-07-04 10:08:24,289 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:24,295 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:24,299 DEBUG    [line range] org/joda/time/chrono/BaseChronology.java getDateTimeMillis 127:139
+2021-07-04 10:08:24,365 DEBUG                  - depth 0, hash 194de43, HEAD~1350
+2021-07-04 10:08:24,370 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:24,770 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 76
+2021-07-04 10:08:24,838 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:24,844 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:24,848 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 77
+2021-07-04 10:08:24,919 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:24,925 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:24,929 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 78
+2021-07-04 10:08:25,000 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:25,006 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,010 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,014 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 79
+2021-07-04 10:08:25,086 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,091 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,096 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 80
+2021-07-04 10:08:25,167 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:25,172 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,176 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,181 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 81
+2021-07-04 10:08:25,252 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,258 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,262 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 82
+2021-07-04 10:08:25,333 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:25,339 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,343 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,347 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 83
+2021-07-04 10:08:25,419 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,424 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,429 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 84
+2021-07-04 10:08:25,497 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:25,503 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,507 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,511 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 85
+2021-07-04 10:08:25,580 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,586 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,590 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 86
+2021-07-04 10:08:25,659 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:25,664 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,669 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,673 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 87
+2021-07-04 10:08:25,742 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,747 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,752 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 88
+2021-07-04 10:08:25,820 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:25,826 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,830 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,834 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 90
+2021-07-04 10:08:25,904 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,909 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,914 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 91
+2021-07-04 10:08:25,983 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:25,989 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:25,993 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:25,998 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 93
+2021-07-04 10:08:26,069 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,075 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,079 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 94
+2021-07-04 10:08:26,150 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:26,156 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,160 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,164 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 96
+2021-07-04 10:08:26,235 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,241 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,245 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 97
+2021-07-04 10:08:26,315 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:26,321 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,325 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,330 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 99
+2021-07-04 10:08:26,399 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,405 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,409 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 100
+2021-07-04 10:08:26,478 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:26,484 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,488 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,493 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 102
+2021-07-04 10:08:26,563 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,569 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,574 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 103
+2021-07-04 10:08:26,645 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:26,650 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,655 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,659 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 105
+2021-07-04 10:08:26,728 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,733 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,738 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 106
+2021-07-04 10:08:26,809 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:26,814 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,819 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,823 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 108
+2021-07-04 10:08:26,891 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,897 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,901 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 109
+2021-07-04 10:08:26,970 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:26,975 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:26,980 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:26,984 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 111
+2021-07-04 10:08:27,055 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:27,061 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,065 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 112
+2021-07-04 10:08:27,136 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:27,142 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:27,146 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,150 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 114
+2021-07-04 10:08:27,219 DEBUG                  - depth 0, hash 70ba0aa, HEAD~1017
+2021-07-04 10:08:27,224 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,229 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 115
+2021-07-04 10:08:27,300 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:27,306 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:27,310 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,314 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 117
+2021-07-04 10:08:27,385 DEBUG                  - depth 0, hash 70ba0aa, HEAD~1017
+2021-07-04 10:08:27,391 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,395 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 118
+2021-07-04 10:08:27,466 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:27,471 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:27,476 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,480 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 120
+2021-07-04 10:08:27,551 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,557 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java <clinit> 121
+2021-07-04 10:08:27,627 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,633 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java <init> 126:126
+2021-07-04 10:08:27,701 DEBUG                  - depth 0, hash 53438f4, HEAD~767
+2021-07-04 10:08:27,707 DEBUG                  - depth 1, hash a09523a, HEAD~768
+2021-07-04 10:08:27,711 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,716 DEBUG    [single line]   org/joda/time/chrono/BasicChronology.java access$100 50
+2021-07-04 10:08:27,785 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:27,790 DEBUG                  - depth 1, hash b501bed, HEAD~757
+2021-07-04 10:08:27,795 DEBUG                  - depth 2, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:27,799 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:27,803 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:27,807 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java assemble 246:307
+2021-07-04 10:08:27,878 DEBUG                  - depth 0, hash 6c7032e, HEAD~864
+2021-07-04 10:08:27,884 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:27,888 DEBUG                  - depth 2, hash 79b2418, HEAD~958
+2021-07-04 10:08:27,892 DEBUG                  - depth 3, hash e675e6d, HEAD~959
+2021-07-04 10:08:27,897 DEBUG                  - depth 4, hash c5a0687, HEAD~1187
+2021-07-04 10:08:27,901 DEBUG                  - depth 5, hash 0d18055, HEAD~1190
+2021-07-04 10:08:27,905 DEBUG                  - depth 6, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:27,910 DEBUG                  - depth 7, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:27,915 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDateMidnightMillis 611:616
+2021-07-04 10:08:27,984 DEBUG                  - depth 0, hash c4788d9, HEAD~753
+2021-07-04 10:08:27,989 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:27,994 DEBUG                  - depth 2, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:27,998 DEBUG                  - depth 3, hash 194de43, HEAD~1350
+2021-07-04 10:08:28,002 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDateTimeMillis 149:160
+2021-07-04 10:08:28,073 DEBUG                  - depth 0, hash 790a3a2, HEAD~96
+2021-07-04 10:08:28,079 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,083 DEBUG                  - depth 2, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:28,088 DEBUG                  - depth 3, hash 194de43, HEAD~1350
+2021-07-04 10:08:28,092 DEBUG                  - depth 4, hash 5d755a5, HEAD~1522
+2021-07-04 10:08:28,096 DEBUG                  - depth 5, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,101 DEBUG                  - depth 6, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:28,105 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDateTimeMillis 162:182
+2021-07-04 10:08:28,176 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,182 DEBUG                  - depth 1, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:28,186 DEBUG                  - depth 2, hash 194de43, HEAD~1350
+2021-07-04 10:08:28,190 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,195 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:28,199 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDayOfMonth 456:460
+2021-07-04 10:08:28,270 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,276 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,280 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:28,284 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDayOfMonth 466:469
+2021-07-04 10:08:28,355 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,361 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,365 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:28,370 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDayOfMonth 476:480
+2021-07-04 10:08:28,439 DEBUG                  - depth 0, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:28,445 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,449 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,454 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:28,458 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDayOfWeek 539:554
+2021-07-04 10:08:28,528 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,534 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,538 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:28,542 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDayOfYear 493:496
+2021-07-04 10:08:28,612 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,618 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,622 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:28,626 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getDaysInMonthMax 583:587
+2021-07-04 10:08:28,694 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,700 DEBUG                  - depth 1, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:28,704 DEBUG                  - depth 2, hash 194de43, HEAD~1350
+2021-07-04 10:08:28,708 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getFirstWeekOfYearMillis 347:360
+2021-07-04 10:08:28,777 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:28,782 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:28,787 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:28,791 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getMaxMonth 699:701
+2021-07-04 10:08:28,855 DEBUG                  - depth 0, hash c4788d9, HEAD~753
+2021-07-04 10:08:28,860 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getMaxMonth 690:692
+2021-07-04 10:08:28,923 DEBUG                  - depth 0, hash c4788d9, HEAD~753
+2021-07-04 10:08:28,929 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getMillisOfDay 559:566
+2021-07-04 10:08:28,998 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,004 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,008 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,012 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getMinimumDaysInFirstWeek 184:186
+2021-07-04 10:08:29,081 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,087 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,091 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getMonthOfYear 443:445
+2021-07-04 10:08:29,163 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,168 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,173 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,177 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getWeekOfWeekyear 516:518
+2021-07-04 10:08:29,246 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,252 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,256 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,260 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getWeekOfWeekyear 524:534
+2021-07-04 10:08:29,331 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,337 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,341 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,346 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getWeeksInYear 335:339
+2021-07-04 10:08:29,417 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,423 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,427 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,431 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getWeekyear 501:511
+2021-07-04 10:08:29,503 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,508 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,513 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,517 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getYear 402:438
+2021-07-04 10:08:29,588 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:29,594 DEBUG                  - depth 1, hash a498adb, HEAD~893
+2021-07-04 10:08:29,598 DEBUG                  - depth 2, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,602 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,607 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getYearInfo 746:753
+2021-07-04 10:08:29,678 DEBUG                  - depth 0, hash a09523a, HEAD~768
+2021-07-04 10:08:29,684 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,688 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getYearMillis 368:370
+2021-07-04 10:08:29,759 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,765 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,769 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,774 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getYearMonthDayMillis 393:397
+2021-07-04 10:08:29,845 DEBUG                  - depth 0, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:29,850 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:29,855 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,859 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,863 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java getZone 141:147
+2021-07-04 10:08:29,934 DEBUG                  - depth 0, hash a26563f, HEAD~1478
+2021-07-04 10:08:29,940 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:29,944 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:29,949 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java <init> 758:760
+2021-07-04 10:08:30,018 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:30,023 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:30,028 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:30,032 DEBUG    [line range] org/joda/time/chrono/BasicChronology.java <init> 779:782
+2021-07-04 10:08:30,103 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:30,418 DEBUG    [line range] org/joda/time/chrono/BasicDayOfMonthDateTimeField.java <init> 40:43
+2021-07-04 10:08:30,484 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:30,490 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:30,494 DEBUG                  - depth 2, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:30,499 DEBUG                  - depth 3, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:30,503 DEBUG                  - depth 4, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:30,507 DEBUG                  - depth 5, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:30,511 DEBUG                  - depth 6, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:30,516 DEBUG    [line range] org/joda/time/chrono/BasicDayOfMonthDateTimeField.java get 46:48
+2021-07-04 10:08:30,581 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:30,587 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:30,591 DEBUG    [line range] org/joda/time/chrono/BasicDayOfMonthDateTimeField.java getMaximumValueForSet 95:97
+2021-07-04 10:08:30,656 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:30,662 DEBUG                  - depth 1, hash f5cf1fa, HEAD~1565
+2021-07-04 10:08:30,666 DEBUG    [line range] org/joda/time/chrono/BasicDayOfMonthDateTimeField.java getMinimumValue 54:56
+2021-07-04 10:08:30,733 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:30,739 DEBUG    [line range] org/joda/time/chrono/BasicDayOfMonthDateTimeField.java getRangeDurationField 50:52
+2021-07-04 10:08:30,804 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:30,810 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:31,132 DEBUG    [line range] org/joda/time/chrono/BasicDayOfYearDateTimeField.java <init> 40:43
+2021-07-04 10:08:31,197 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:31,202 DEBUG                  - depth 1, hash 86d15ea, HEAD~863
+2021-07-04 10:08:31,207 DEBUG                  - depth 2, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:31,211 DEBUG                  - depth 3, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:31,215 DEBUG                  - depth 4, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:31,220 DEBUG                  - depth 5, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:31,224 DEBUG                  - depth 6, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:31,228 DEBUG    [line range] org/joda/time/chrono/BasicDayOfYearDateTimeField.java getRangeDurationField 55:57
+2021-07-04 10:08:31,293 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:31,299 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:31,632 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java <clinit> 42:44
+2021-07-04 10:08:31,693 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:31,700 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java <init> 74:76
+2021-07-04 10:08:31,763 DEBUG                  - depth 0, hash b501bed, HEAD~757
+2021-07-04 10:08:31,768 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:31,773 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java getDaysInMonthMaxForSet 133:135
+2021-07-04 10:08:31,836 DEBUG                  - depth 0, hash 8ffa0cd, HEAD~58
+2021-07-04 10:08:31,841 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:31,846 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java getDaysInYearMonth 119:125
+2021-07-04 10:08:31,909 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:31,915 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java getMonthOfYear 79:109
+2021-07-04 10:08:31,976 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:31,982 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java getTotalMillisByYearMonth 138:144
+2021-07-04 10:08:32,043 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:32,049 DEBUG    [line range] org/joda/time/chrono/BasicGJChronology.java setYear 174:199
+2021-07-04 10:08:32,110 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:32,488 DEBUG    [line range] org/joda/time/chrono/BasicMonthOfYearDateTimeField.java <init> 50:55
+2021-07-04 10:08:32,549 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:32,555 DEBUG                  - depth 1, hash 638abee, HEAD~750
+2021-07-04 10:08:32,559 DEBUG                  - depth 2, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:32,563 DEBUG    [line range] org/joda/time/chrono/BasicMonthOfYearDateTimeField.java get 71:73
+2021-07-04 10:08:32,624 DEBUG                  - depth 0, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:32,630 DEBUG    [line range] org/joda/time/chrono/BasicMonthOfYearDateTimeField.java getLeapDurationField 333:335
+2021-07-04 10:08:32,690 DEBUG                  - depth 0, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:32,696 DEBUG    [line range] org/joda/time/chrono/BasicMonthOfYearDateTimeField.java getRangeDurationField 314:316
+2021-07-04 10:08:32,756 DEBUG                  - depth 0, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:32,762 DEBUG    [line range] org/joda/time/chrono/BasicMonthOfYearDateTimeField.java set 297:311
+2021-07-04 10:08:32,822 DEBUG                  - depth 0, hash 638abee, HEAD~750
+2021-07-04 10:08:32,828 DEBUG                  - depth 1, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:33,150 DEBUG    [line range] org/joda/time/chrono/BasicSingleEraDateTimeField.java <init> 50:53
+2021-07-04 10:08:33,215 DEBUG                  - depth 0, hash 583cfd3, HEAD~799
+2021-07-04 10:08:33,221 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:33,226 DEBUG    [line range] org/joda/time/chrono/BasicSingleEraDateTimeField.java getDurationField 105:107
+2021-07-04 10:08:33,291 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:33,297 DEBUG                  - depth 1, hash 07955d2, HEAD~1396
+2021-07-04 10:08:33,301 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:33,305 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:33,310 DEBUG    [line range] org/joda/time/chrono/BasicSingleEraDateTimeField.java getRangeDurationField 110:112
+2021-07-04 10:08:33,375 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:33,381 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:33,685 DEBUG    [line range] org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java <init> 41:44
+2021-07-04 10:08:33,750 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:33,756 DEBUG                  - depth 1, hash 86d15ea, HEAD~863
+2021-07-04 10:08:33,760 DEBUG                  - depth 2, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:33,764 DEBUG                  - depth 3, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:33,769 DEBUG                  - depth 4, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:33,773 DEBUG                  - depth 5, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:33,777 DEBUG                  - depth 6, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:33,782 DEBUG    [line range] org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java getRangeDurationField 57:59
+2021-07-04 10:08:33,849 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:33,855 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:33,859 DEBUG    [line range] org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java roundFloor 64:67
+2021-07-04 10:08:33,926 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:33,931 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,273 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java <init> 43:46
+2021-07-04 10:08:34,338 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:34,344 DEBUG                  - depth 1, hash 86d15ea, HEAD~863
+2021-07-04 10:08:34,348 DEBUG                  - depth 2, hash 0d18055, HEAD~1190
+2021-07-04 10:08:34,353 DEBUG                  - depth 3, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:34,357 DEBUG                  - depth 4, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:34,361 DEBUG                  - depth 5, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:34,366 DEBUG                  - depth 6, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,370 DEBUG                  - depth 7, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,374 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java add 71:76
+2021-07-04 10:08:34,440 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,446 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,450 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java get 59:61
+2021-07-04 10:08:34,517 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:34,522 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,527 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,531 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java getLeapDurationField 219:221
+2021-07-04 10:08:34,597 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,603 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,607 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java getMaximumValue 227:229
+2021-07-04 10:08:34,675 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,681 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java getMinimumValue 223:225
+2021-07-04 10:08:34,745 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,751 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java getRangeDurationField 207:209
+2021-07-04 10:08:34,816 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,821 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,826 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java roundFloor 231:240
+2021-07-04 10:08:34,891 DEBUG                  - depth 0, hash f3f3e3f, HEAD~1105
+2021-07-04 10:08:34,897 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:34,901 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,906 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:34,910 DEBUG    [line range] org/joda/time/chrono/BasicWeekyearDateTimeField.java set 127:205
+2021-07-04 10:08:34,975 DEBUG                  - depth 0, hash f3f3e3f, HEAD~1105
+2021-07-04 10:08:34,981 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:34,985 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:34,989 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:35,307 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java <init> 44:47
+2021-07-04 10:08:35,370 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:35,376 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:35,380 DEBUG                  - depth 2, hash 79b2418, HEAD~958
+2021-07-04 10:08:35,384 DEBUG                  - depth 3, hash e675e6d, HEAD~959
+2021-07-04 10:08:35,389 DEBUG                  - depth 4, hash 0d18055, HEAD~1190
+2021-07-04 10:08:35,393 DEBUG                  - depth 5, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:35,397 DEBUG                  - depth 6, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:35,402 DEBUG                  - depth 7, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,406 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java get 53:55
+2021-07-04 10:08:35,468 DEBUG                  - depth 0, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,474 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java getLeapDurationField 110:112
+2021-07-04 10:08:35,537 DEBUG                  - depth 0, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,542 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java getMaximumValue 118:120
+2021-07-04 10:08:35,604 DEBUG                  - depth 0, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,610 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java getMinimumValue 114:116
+2021-07-04 10:08:35,671 DEBUG                  - depth 0, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,677 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java getRangeDurationField 94:96
+2021-07-04 10:08:35,740 DEBUG                  - depth 0, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,746 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java roundCeiling 126:134
+2021-07-04 10:08:35,807 DEBUG                  - depth 0, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:35,813 DEBUG    [line range] org/joda/time/chrono/BasicYearDateTimeField.java set 81:85
+2021-07-04 10:08:35,875 DEBUG                  - depth 0, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:35,881 DEBUG                  - depth 1, hash 3ec1eb7, HEAD~1526
+2021-07-04 10:08:36,215 DEBUG    [line range] org/joda/time/chrono/BuddhistChronology.java <clinit> 65:65
+2021-07-04 10:08:36,280 DEBUG                  - depth 0, hash 583cfd3, HEAD~799
+2021-07-04 10:08:36,286 DEBUG    [line range] org/joda/time/chrono/BuddhistChronology.java <init> 130:132
+2021-07-04 10:08:36,352 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:36,358 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:36,362 DEBUG    [line range] org/joda/time/chrono/BuddhistChronology.java assemble 214:247
+2021-07-04 10:08:36,431 DEBUG                  - depth 0, hash 583cfd3, HEAD~799
+2021-07-04 10:08:36,436 DEBUG                  - depth 1, hash 043abeb, HEAD~1014
+2021-07-04 10:08:36,441 DEBUG                  - depth 2, hash c5910b6, HEAD~1018
+2021-07-04 10:08:36,445 DEBUG                  - depth 3, hash c5a0687, HEAD~1187
+2021-07-04 10:08:36,449 DEBUG                  - depth 4, hash 0d18055, HEAD~1190
+2021-07-04 10:08:36,453 DEBUG                  - depth 5, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:36,458 DEBUG                  - depth 6, hash 55ba9b0, HEAD~1223
+2021-07-04 10:08:36,462 DEBUG                  - depth 7, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:36,466 DEBUG                  - depth 8, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:36,471 DEBUG                  - depth 9, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:36,476 DEBUG    [line range] org/joda/time/chrono/BuddhistChronology.java getInstance 103:120
+2021-07-04 10:08:36,542 DEBUG                  - depth 0, hash 0f274a6, HEAD~3
+2021-07-04 10:08:36,548 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:08:36,552 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:36,556 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:36,561 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,004 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <clinit> 105:105
+2021-07-04 10:08:37,072 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,078 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,083 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 275:280
+2021-07-04 10:08:37,150 DEBUG                  - depth 0, hash 6c6142b, HEAD~1520
+2021-07-04 10:08:37,156 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,161 DEBUG                  - depth 2, hash f6d1161, HEAD~1534
+2021-07-04 10:08:37,165 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:37,169 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,174 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 266:270
+2021-07-04 10:08:37,243 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,249 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:37,253 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,257 DEBUG    [single line]   org/joda/time/chrono/GJChronology.java access$000 74
+2021-07-04 10:08:37,326 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,331 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,336 DEBUG    [line range] org/joda/time/chrono/GJChronology.java assemble 472:580
+2021-07-04 10:08:37,404 DEBUG                  - depth 0, hash 225ca55, HEAD~919
+2021-07-04 10:08:37,410 DEBUG                  - depth 1, hash 284afb6, HEAD~1093
+2021-07-04 10:08:37,415 DEBUG                  - depth 2, hash c5a0687, HEAD~1187
+2021-07-04 10:08:37,419 DEBUG                  - depth 3, hash 6c6142b, HEAD~1520
+2021-07-04 10:08:37,423 DEBUG                  - depth 4, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,430 DEBUG    [line range] org/joda/time/chrono/GJChronology.java convertByYear 82:88
+2021-07-04 10:08:37,500 DEBUG                  - depth 0, hash f6d1161, HEAD~1534
+2021-07-04 10:08:37,505 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:37,510 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,514 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getGregorianCutover 394:396
+2021-07-04 10:08:37,582 DEBUG                  - depth 0, hash 6c6142b, HEAD~1520
+2021-07-04 10:08:37,588 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,592 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:37,597 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,601 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getInstance 169:174
+2021-07-04 10:08:37,670 DEBUG                  - depth 0, hash 55ba9b0, HEAD~1223
+2021-07-04 10:08:37,676 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,680 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,684 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getInstance 184:229
+2021-07-04 10:08:37,752 DEBUG                  - depth 0, hash 0f274a6, HEAD~3
+2021-07-04 10:08:37,758 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:08:37,763 DEBUG                  - depth 2, hash 55ba9b0, HEAD~1223
+2021-07-04 10:08:37,767 DEBUG                  - depth 3, hash 6c6142b, HEAD~1520
+2021-07-04 10:08:37,771 DEBUG                  - depth 4, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,776 DEBUG                  - depth 5, hash f6d1161, HEAD~1534
+2021-07-04 10:08:37,780 DEBUG                  - depth 6, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:37,784 DEBUG                  - depth 7, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,789 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getMinimumDaysInFirstWeek 403:405
+2021-07-04 10:08:37,858 DEBUG                  - depth 0, hash 55ba9b0, HEAD~1223
+2021-07-04 10:08:37,864 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,868 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getZone 289:295
+2021-07-04 10:08:37,937 DEBUG                  - depth 0, hash a26563f, HEAD~1478
+2021-07-04 10:08:37,943 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:37,947 DEBUG                  - depth 2, hash f6d1161, HEAD~1534
+2021-07-04 10:08:37,951 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:37,955 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:37,960 DEBUG    [line range] org/joda/time/chrono/GJChronology.java gregorianToJulianByYear 586:588
+2021-07-04 10:08:38,028 DEBUG                  - depth 0, hash f6d1161, HEAD~1534
+2021-07-04 10:08:38,034 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,039 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,043 DEBUG    [line range] org/joda/time/chrono/GJChronology.java julianToGregorianByYear 582:584
+2021-07-04 10:08:38,113 DEBUG                  - depth 0, hash f6d1161, HEAD~1534
+2021-07-04 10:08:38,119 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,124 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,128 DEBUG    [line range] org/joda/time/chrono/GJChronology.java withUTC 304:306
+2021-07-04 10:08:38,199 DEBUG                  - depth 0, hash a26563f, HEAD~1478
+2021-07-04 10:08:38,205 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:38,209 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,213 DEBUG    [line range] org/joda/time/chrono/GJChronology.java withZone 314:322
+2021-07-04 10:08:38,284 DEBUG                  - depth 0, hash a26563f, HEAD~1478
+2021-07-04 10:08:38,290 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:38,294 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,298 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 619:621
+2021-07-04 10:08:38,367 DEBUG                  - depth 0, hash 284afb6, HEAD~1093
+2021-07-04 10:08:38,373 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:38,377 DEBUG                  - depth 2, hash f6d1161, HEAD~1534
+2021-07-04 10:08:38,381 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,385 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,390 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 629:645
+2021-07-04 10:08:38,459 DEBUG                  - depth 0, hash 225ca55, HEAD~919
+2021-07-04 10:08:38,465 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:38,469 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:38,474 DEBUG                  - depth 3, hash f6d1161, HEAD~1534
+2021-07-04 10:08:38,478 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,482 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,487 DEBUG    [line range] org/joda/time/chrono/GJChronology.java get 651:657
+2021-07-04 10:08:38,556 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,562 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,566 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getDurationField 771:773
+2021-07-04 10:08:38,634 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,640 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,645 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getLeapDurationField 795:797
+2021-07-04 10:08:38,715 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,721 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,726 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getMaximumValue 831:835
+2021-07-04 10:08:38,796 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,802 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,807 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getMinimumValue 800:804
+2021-07-04 10:08:38,876 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,881 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,886 DEBUG    [line range] org/joda/time/chrono/GJChronology.java getRangeDurationField 775:777
+2021-07-04 10:08:38,956 DEBUG                  - depth 0, hash 225ca55, HEAD~919
+2021-07-04 10:08:38,962 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:38,966 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:38,971 DEBUG    [line range] org/joda/time/chrono/GJChronology.java gregorianToJulian 919:925
+2021-07-04 10:08:39,040 DEBUG                  - depth 0, hash f6d1161, HEAD~1534
+2021-07-04 10:08:39,046 DEBUG    [line range] org/joda/time/chrono/GJChronology.java set 717:746
+2021-07-04 10:08:39,117 DEBUG                  - depth 0, hash 9d991bc, HEAD~139
+2021-07-04 10:08:39,122 DEBUG                  - depth 1, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:39,127 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,131 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:39,136 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 950:954
+2021-07-04 10:08:39,206 DEBUG                  - depth 0, hash 284afb6, HEAD~1093
+2021-07-04 10:08:39,212 DEBUG                  - depth 1, hash f6d1161, HEAD~1534
+2021-07-04 10:08:39,217 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,221 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:39,225 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 961:970
+2021-07-04 10:08:39,296 DEBUG                  - depth 0, hash 284afb6, HEAD~1093
+2021-07-04 10:08:39,301 DEBUG                  - depth 1, hash f6d1161, HEAD~1534
+2021-07-04 10:08:39,306 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,310 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:39,315 DEBUG    [line range] org/joda/time/chrono/GJChronology.java <init> 1090:1093
+2021-07-04 10:08:39,386 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:39,392 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,695 DEBUG    [line range] org/joda/time/chrono/GJDayOfWeekDateTimeField.java <init> 44:47
+2021-07-04 10:08:39,761 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:39,767 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:39,771 DEBUG                  - depth 2, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:39,776 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:39,780 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,784 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:39,789 DEBUG    [line range] org/joda/time/chrono/GJDayOfWeekDateTimeField.java get 55:57
+2021-07-04 10:08:39,856 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:39,862 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,866 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:39,871 DEBUG    [line range] org/joda/time/chrono/GJDayOfWeekDateTimeField.java getMaximumValue 111:113
+2021-07-04 10:08:39,936 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:39,942 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:39,946 DEBUG    [line range] org/joda/time/chrono/GJDayOfWeekDateTimeField.java getMinimumValue 102:104
+2021-07-04 10:08:40,011 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:40,017 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:40,022 DEBUG    [line range] org/joda/time/chrono/GJDayOfWeekDateTimeField.java getRangeDurationField 93:95
+2021-07-04 10:08:40,087 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:40,092 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:40,409 DEBUG    [line range] org/joda/time/chrono/GJEraDateTimeField.java <init> 45:48
+2021-07-04 10:08:40,474 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:40,480 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:40,484 DEBUG                  - depth 2, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:40,489 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:40,493 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:40,497 DEBUG    [line range] org/joda/time/chrono/GJEraDateTimeField.java getDurationField 126:128
+2021-07-04 10:08:40,562 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:40,568 DEBUG                  - depth 1, hash 07955d2, HEAD~1396
+2021-07-04 10:08:40,572 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:40,577 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:40,581 DEBUG    [line range] org/joda/time/chrono/GJEraDateTimeField.java getRangeDurationField 130:132
+2021-07-04 10:08:40,646 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:40,652 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:40,933 DEBUG    [line range] org/joda/time/chrono/GJMonthOfYearDateTimeField.java <init> 36:38
+2021-07-04 10:08:40,998 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:41,004 DEBUG                  - depth 1, hash 82cf7fe, HEAD~752
+2021-07-04 10:08:41,009 DEBUG                  - depth 2, hash 0d18055, HEAD~1190
+2021-07-04 10:08:41,013 DEBUG                  - depth 3, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:41,017 DEBUG                  - depth 4, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:41,022 DEBUG                  - depth 5, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:41,026 DEBUG                  - depth 6, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:41,031 DEBUG                  - depth 7, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:41,355 DEBUG    [line range] org/joda/time/chrono/GJYearOfEraDateTimeField.java <init> 39:42
+2021-07-04 10:08:41,420 DEBUG                  - depth 0, hash 9c0781d, HEAD~725
+2021-07-04 10:08:41,426 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:41,430 DEBUG                  - depth 2, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:41,435 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:41,439 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:41,443 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:41,448 DEBUG    [line range] org/joda/time/chrono/GJYearOfEraDateTimeField.java getMaximumValue 96:98
+2021-07-04 10:08:41,514 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:41,520 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:41,524 DEBUG    [line range] org/joda/time/chrono/GJYearOfEraDateTimeField.java getMinimumValue 92:94
+2021-07-04 10:08:41,589 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:41,948 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java <clinit> 68:68
+2021-07-04 10:08:42,048 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:42,054 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,059 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java <init> 147:149
+2021-07-04 10:08:42,124 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,130 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java assemble 190:194
+2021-07-04 10:08:42,195 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,202 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java calculateFirstDayOfYearMillis 200:218
+2021-07-04 10:08:42,268 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:42,274 DEBUG                  - depth 1, hash a498adb, HEAD~893
+2021-07-04 10:08:42,278 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,283 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getApproxMillisAtEpochDividedByTwo 240:242
+2021-07-04 10:08:42,349 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:42,355 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,360 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getAverageMillisPerMonth 236:238
+2021-07-04 10:08:42,426 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,432 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getAverageMillisPerYear 228:230
+2021-07-04 10:08:42,498 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,504 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getAverageMillisPerYearDividedByTwo 232:234
+2021-07-04 10:08:42,568 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:42,574 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getInstance 99:101
+2021-07-04 10:08:42,639 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,645 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getInstance 110:139
+2021-07-04 10:08:42,711 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:42,717 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,722 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getInstanceUTC 80:82
+2021-07-04 10:08:42,787 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,793 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getMaxYear 224:226
+2021-07-04 10:08:42,858 DEBUG                  - depth 0, hash a498adb, HEAD~893
+2021-07-04 10:08:42,864 DEBUG                  - depth 1, hash 936a167, HEAD~1528
+2021-07-04 10:08:42,869 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,873 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java getMinYear 220:222
+2021-07-04 10:08:42,940 DEBUG                  - depth 0, hash a498adb, HEAD~893
+2021-07-04 10:08:42,946 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:42,950 DEBUG    [single line]   org/joda/time/chrono/GregorianChronology.java getZone 45
+2021-07-04 10:08:43,016 DEBUG                  - depth 0, hash b501bed, HEAD~757
+2021-07-04 10:08:43,022 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:43,026 DEBUG                  - depth 2, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:43,030 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:43,035 DEBUG    [line range] org/joda/time/chrono/GregorianChronology.java isLeapYear 196:198
+2021-07-04 10:08:43,103 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:43,454 DEBUG    [line range] org/joda/time/chrono/ISOChronology.java <clinit> 63:63
+2021-07-04 10:08:43,521 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:43,526 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:43,531 DEBUG    [line range] org/joda/time/chrono/ISOChronology.java <init> 121:123
+2021-07-04 10:08:43,598 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:43,604 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:43,609 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:43,613 DEBUG    [line range] org/joda/time/chrono/ISOChronology.java assemble 168:180
+2021-07-04 10:08:43,680 DEBUG                  - depth 0, hash c5a0687, HEAD~1187
+2021-07-04 10:08:43,686 DEBUG                  - depth 1, hash 0d18055, HEAD~1190
+2021-07-04 10:08:43,690 DEBUG                  - depth 2, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:43,695 DEBUG                  - depth 3, hash a26563f, HEAD~1478
+2021-07-04 10:08:43,699 DEBUG                  - depth 4, hash ab25e10, HEAD~1516
+2021-07-04 10:08:43,703 DEBUG                  - depth 5, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:43,708 DEBUG    [line range] org/joda/time/chrono/ISOChronology.java getInstance 95:113
+2021-07-04 10:08:43,774 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:43,780 DEBUG                  - depth 1, hash a26563f, HEAD~1478
+2021-07-04 10:08:43,784 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:43,789 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:43,793 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:43,798 DEBUG    [line range] org/joda/time/chrono/ISOChronology.java getInstanceUTC 76:78
+2021-07-04 10:08:43,864 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:43,870 DEBUG    [line range] org/joda/time/chrono/ISOChronology.java withUTC 132:134
+2021-07-04 10:08:43,936 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:44,251 DEBUG    [line range] org/joda/time/chrono/ISOYearOfEraDateTimeField.java <clinit> 40:40
+2021-07-04 10:08:44,313 DEBUG                  - depth 0, hash ab25e10, HEAD~1516
+2021-07-04 10:08:44,319 DEBUG    [line range] org/joda/time/chrono/ISOYearOfEraDateTimeField.java <init> 45:47
+2021-07-04 10:08:44,380 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:44,386 DEBUG                  - depth 1, hash ab25e10, HEAD~1516
+2021-07-04 10:08:44,390 DEBUG    [line range] org/joda/time/chrono/ISOYearOfEraDateTimeField.java getMaximumValue 90:92
+2021-07-04 10:08:44,453 DEBUG                  - depth 0, hash ab25e10, HEAD~1516
+2021-07-04 10:08:44,459 DEBUG    [line range] org/joda/time/chrono/ISOYearOfEraDateTimeField.java getMinimumValue 86:88
+2021-07-04 10:08:44,519 DEBUG                  - depth 0, hash ab25e10, HEAD~1516
+2021-07-04 10:08:44,887 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java <clinit> 71:71
+2021-07-04 10:08:44,953 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:44,959 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:44,964 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java <init> 161:163
+2021-07-04 10:08:45,029 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,035 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java adjustYearForSet 77:86
+2021-07-04 10:08:45,103 DEBUG                  - depth 0, hash 9d991bc, HEAD~139
+2021-07-04 10:08:45,109 DEBUG                  - depth 1, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:45,113 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,118 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java assemble 264:271
+2021-07-04 10:08:45,184 DEBUG                  - depth 0, hash e90984d, HEAD~1016
+2021-07-04 10:08:45,190 DEBUG                  - depth 1, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:45,194 DEBUG                  - depth 2, hash c578139, HEAD~1287
+2021-07-04 10:08:45,198 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,203 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java calculateFirstDayOfYearMillis 214:238
+2021-07-04 10:08:45,269 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:45,275 DEBUG                  - depth 1, hash a498adb, HEAD~893
+2021-07-04 10:08:45,279 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,284 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getApproxMillisAtEpochDividedByTwo 260:262
+2021-07-04 10:08:45,350 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:45,356 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,360 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getAverageMillisPerMonth 256:258
+2021-07-04 10:08:45,427 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,433 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getAverageMillisPerYear 248:250
+2021-07-04 10:08:45,498 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,504 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getAverageMillisPerYearDividedByTwo 252:254
+2021-07-04 10:08:45,568 DEBUG                  - depth 0, hash 35808a6, HEAD~644
+2021-07-04 10:08:45,574 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getDateMidnightMillis 204:208
+2021-07-04 10:08:45,639 DEBUG                  - depth 0, hash 194de43, HEAD~1350
+2021-07-04 10:08:45,645 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,649 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getInstance 113:115
+2021-07-04 10:08:45,716 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,722 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getInstance 124:153
+2021-07-04 10:08:45,788 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:45,794 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,799 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getMaxYear 244:246
+2021-07-04 10:08:45,865 DEBUG                  - depth 0, hash a498adb, HEAD~893
+2021-07-04 10:08:45,871 DEBUG                  - depth 1, hash 936a167, HEAD~1528
+2021-07-04 10:08:45,875 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,879 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java getMinYear 240:242
+2021-07-04 10:08:45,947 DEBUG                  - depth 0, hash a498adb, HEAD~893
+2021-07-04 10:08:45,953 DEBUG                  - depth 1, hash 936a167, HEAD~1528
+2021-07-04 10:08:45,958 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:45,962 DEBUG    [single line]   org/joda/time/chrono/JulianChronology.java getZone 50
+2021-07-04 10:08:46,029 DEBUG                  - depth 0, hash b501bed, HEAD~757
+2021-07-04 10:08:46,034 DEBUG                  - depth 1, hash 7b7cb44, HEAD~905
+2021-07-04 10:08:46,039 DEBUG                  - depth 2, hash 6bdd176, HEAD~1226
+2021-07-04 10:08:46,043 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,048 DEBUG    [line range] org/joda/time/chrono/JulianChronology.java isLeapYear 210:212
+2021-07-04 10:08:46,114 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,507 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java <init> 97:103
+2021-07-04 10:08:46,570 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,576 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:46,581 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java assemble 206:253
+2021-07-04 10:08:46,643 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:46,649 DEBUG                  - depth 1, hash c5a0687, HEAD~1187
+2021-07-04 10:08:46,654 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,658 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:46,664 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java convertField 267:281
+2021-07-04 10:08:46,727 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:46,733 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,738 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:46,742 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java convertField 255:265
+2021-07-04 10:08:46,807 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:46,813 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,818 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:46,822 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java getInstance 64:82
+2021-07-04 10:08:46,886 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:46,892 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:46,897 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java <init> 450:458
+2021-07-04 10:08:46,961 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:46,967 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:46,972 DEBUG    [line range] org/joda/time/chrono/LimitChronology.java <init> 391:393
+2021-07-04 10:08:47,035 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:47,041 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:47,444 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java <init> 80:82
+2021-07-04 10:08:47,510 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:47,516 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:47,520 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:47,525 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java assemble 147:194
+2021-07-04 10:08:47,590 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:47,596 DEBUG                  - depth 1, hash c5a0687, HEAD~1187
+2021-07-04 10:08:47,600 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:47,605 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:47,609 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:47,615 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java convertField 208:222
+2021-07-04 10:08:47,681 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:47,687 DEBUG                  - depth 1, hash a26563f, HEAD~1478
+2021-07-04 10:08:47,691 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:47,696 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:47,701 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java convertField 196:206
+2021-07-04 10:08:47,768 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:47,774 DEBUG                  - depth 1, hash a26563f, HEAD~1478
+2021-07-04 10:08:47,778 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:47,783 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:47,788 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getDateTimeMillis 113:121
+2021-07-04 10:08:47,854 DEBUG                  - depth 0, hash 194de43, HEAD~1350
+2021-07-04 10:08:47,860 DEBUG                  - depth 1, hash a26563f, HEAD~1478
+2021-07-04 10:08:47,865 DEBUG                  - depth 2, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:47,869 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:47,874 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getInstance 54:66
+2021-07-04 10:08:47,940 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:47,946 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:47,951 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getZone 84:86
+2021-07-04 10:08:48,017 DEBUG                  - depth 0, hash a26563f, HEAD~1478
+2021-07-04 10:08:48,023 DEBUG                  - depth 1, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:48,028 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,032 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java localToUTC 137:145
+2021-07-04 10:08:48,099 DEBUG                  - depth 0, hash 2fcc704, HEAD~49
+2021-07-04 10:08:48,105 DEBUG                  - depth 1, hash e1198a8, HEAD~735
+2021-07-04 10:08:48,110 DEBUG                  - depth 2, hash a26563f, HEAD~1478
+2021-07-04 10:08:48,114 DEBUG                  - depth 3, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:48,119 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,124 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java useTimeArithmetic 68:72
+2021-07-04 10:08:48,190 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:48,196 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,201 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,205 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java <init> 381:396
+2021-07-04 10:08:48,272 DEBUG                  - depth 0, hash 3dd31f2, HEAD~790
+2021-07-04 10:08:48,278 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:48,283 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,287 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,292 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java get 402:405
+2021-07-04 10:08:48,359 DEBUG                  - depth 0, hash c41eff1, HEAD~467
+2021-07-04 10:08:48,365 DEBUG                  - depth 1, hash 3dd31f2, HEAD~790
+2021-07-04 10:08:48,370 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,374 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,379 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getDurationField 495:497
+2021-07-04 10:08:48,446 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,452 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,456 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getLeapDurationField 513:515
+2021-07-04 10:08:48,523 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,529 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,534 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getMaximumValue 563:565
+2021-07-04 10:08:48,601 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,607 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,612 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getMinimumValue 546:548
+2021-07-04 10:08:48,678 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,684 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,689 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getRangeDurationField 499:501
+2021-07-04 10:08:48,756 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,762 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,767 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java set 461:472
+2021-07-04 10:08:48,834 DEBUG                  - depth 0, hash 2fcc704, HEAD~49
+2021-07-04 10:08:48,840 DEBUG                  - depth 1, hash 9d991bc, HEAD~139
+2021-07-04 10:08:48,845 DEBUG                  - depth 2, hash c7a581e, HEAD~180
+2021-07-04 10:08:48,849 DEBUG                  - depth 3, hash c41eff1, HEAD~467
+2021-07-04 10:08:48,853 DEBUG                  - depth 4, hash 3dd31f2, HEAD~790
+2021-07-04 10:08:48,858 DEBUG                  - depth 5, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:48,862 DEBUG                  - depth 6, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,867 DEBUG                  - depth 7, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:48,872 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java <init> 280:288
+2021-07-04 10:08:48,938 DEBUG                  - depth 0, hash 3dd31f2, HEAD~790
+2021-07-04 10:08:48,944 DEBUG                  - depth 1, hash 0d18055, HEAD~1190
+2021-07-04 10:08:48,949 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:48,953 DEBUG    [line range] org/joda/time/chrono/ZonedChronology.java getUnitMillis 294:296
+2021-07-04 10:08:49,019 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:49,486 DEBUG    [line range] org/joda/time/field/BaseDateTimeField.java <init> 49:55
+2021-07-04 10:08:49,555 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:49,561 DEBUG                  - depth 1, hash 7502788, HEAD~1454
+2021-07-04 10:08:49,565 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:49,570 DEBUG    [line range] org/joda/time/field/BaseDateTimeField.java getLeapDurationField 725:727
+2021-07-04 10:08:49,637 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:49,643 DEBUG    [line range] org/joda/time/field/BaseDateTimeField.java getMaximumValue 791:793
+2021-07-04 10:08:49,710 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:49,716 DEBUG    [line range] org/joda/time/field/BaseDateTimeField.java getType 57:59
+2021-07-04 10:08:49,780 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:49,786 DEBUG    [line range] org/joda/time/field/BaseDateTimeField.java isSupported 68:70
+2021-07-04 10:08:49,856 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:49,862 DEBUG    [line range] org/joda/time/field/BaseDateTimeField.java roundCeiling 885:891
+2021-07-04 10:08:49,931 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:50,237 DEBUG    [line range] org/joda/time/field/BaseDurationField.java <init> 46:52
+2021-07-04 10:08:50,305 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:50,311 DEBUG                  - depth 1, hash 6d0c7db, HEAD~1393
+2021-07-04 10:08:50,316 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:50,320 DEBUG    [single line]   org/joda/time/field/BaseDurationField.java compareTo 38
+2021-07-04 10:08:50,388 DEBUG                  - depth 0, hash 6d0c7db, HEAD~1393
+2021-07-04 10:08:50,394 DEBUG                  - depth 1, hash ab921d9, HEAD~1395
+2021-07-04 10:08:50,399 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:50,403 DEBUG    [line range] org/joda/time/field/BaseDurationField.java compareTo 145:157
+2021-07-04 10:08:50,471 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:08:50,477 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:50,482 DEBUG    [line range] org/joda/time/field/BaseDurationField.java getType 54:56
+2021-07-04 10:08:50,550 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:50,556 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:50,560 DEBUG    [line range] org/joda/time/field/BaseDurationField.java isSupported 65:67
+2021-07-04 10:08:50,628 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:50,931 DEBUG    [line range] org/joda/time/field/DecoratedDateTimeField.java <init> 53:62
+2021-07-04 10:08:50,997 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:51,003 DEBUG                  - depth 1, hash 43bceec, HEAD~1468
+2021-07-04 10:08:51,007 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,012 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:51,016 DEBUG    [line range] org/joda/time/field/DecoratedDateTimeField.java getDurationField 85:87
+2021-07-04 10:08:51,083 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,089 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:51,094 DEBUG    [line range] org/joda/time/field/DecoratedDateTimeField.java getRangeDurationField 89:91
+2021-07-04 10:08:51,158 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,164 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:51,169 DEBUG    [line range] org/joda/time/field/DecoratedDateTimeField.java getWrappedField 69:71
+2021-07-04 10:08:51,233 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,239 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:51,244 DEBUG    [line range] org/joda/time/field/DecoratedDateTimeField.java set 81:83
+2021-07-04 10:08:51,309 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,315 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:51,620 DEBUG    [line range] org/joda/time/field/DecoratedDurationField.java <init> 51:60
+2021-07-04 10:08:51,686 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:51,692 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,697 DEBUG    [line range] org/joda/time/field/DecoratedDurationField.java getUnitMillis 100:102
+2021-07-04 10:08:51,761 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:51,768 DEBUG    [line range] org/joda/time/field/DecoratedDurationField.java getWrappedField 68:70
+2021-07-04 10:08:51,832 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,176 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java <init> 51:53
+2021-07-04 10:08:52,244 DEBUG                  - depth 0, hash 043abeb, HEAD~1014
+2021-07-04 10:08:52,250 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,254 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java <init> 61:68
+2021-07-04 10:08:52,321 DEBUG                  - depth 0, hash 043abeb, HEAD~1014
+2021-07-04 10:08:52,327 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:52,332 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,337 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java get 95:97
+2021-07-04 10:08:52,405 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,411 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java getDurationField 191:193
+2021-07-04 10:08:52,477 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,483 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java getLeapDurationField 207:209
+2021-07-04 10:08:52,550 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,556 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java getMaximumValue 227:229
+2021-07-04 10:08:52,622 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,629 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java getMinimumValue 211:213
+2021-07-04 10:08:52,694 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,701 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java getRangeDurationField 195:197
+2021-07-04 10:08:52,767 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,773 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java getType 79:81
+2021-07-04 10:08:52,837 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:52,843 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java isSupported 87:89
+2021-07-04 10:08:52,910 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:52,916 DEBUG    [line range] org/joda/time/field/DelegatedDateTimeField.java set 171:173
+2021-07-04 10:08:52,982 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:53,319 DEBUG    [line range] org/joda/time/field/DividedDateTimeField.java <init> 54:80
+2021-07-04 10:08:53,384 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:53,390 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:53,395 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:53,399 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:53,404 DEBUG    [line range] org/joda/time/field/DividedDateTimeField.java getDurationField 181:183
+2021-07-04 10:08:53,469 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:53,475 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:53,809 DEBUG    [line range] org/joda/time/field/FieldUtils.java verifyValueBounds 215:222
+2021-07-04 10:08:53,875 DEBUG                  - depth 0, hash 9d991bc, HEAD~139
+2021-07-04 10:08:53,882 DEBUG                  - depth 1, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:53,886 DEBUG                  - depth 2, hash 7804df4, HEAD~1567
+2021-07-04 10:08:53,891 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:53,895 DEBUG    [line range] org/joda/time/field/FieldUtils.java verifyValueBounds 233:240
+2021-07-04 10:08:53,962 DEBUG                  - depth 0, hash 9d991bc, HEAD~139
+2021-07-04 10:08:53,968 DEBUG                  - depth 1, hash e9a0d0d, HEAD~918
+2021-07-04 10:08:53,972 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:54,290 DEBUG    [line range] org/joda/time/field/ImpreciseDateTimeField.java <init> 54:58
+2021-07-04 10:08:54,356 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:54,362 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:54,366 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:54,371 DEBUG    [line range] org/joda/time/field/ImpreciseDateTimeField.java getDurationField 136:138
+2021-07-04 10:08:54,436 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:54,443 DEBUG    [line range] org/joda/time/field/ImpreciseDateTimeField.java <init> 151:153
+2021-07-04 10:08:54,508 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:54,514 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:54,518 DEBUG    [line range] org/joda/time/field/ImpreciseDateTimeField.java getUnitMillis 159:161
+2021-07-04 10:08:54,583 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:54,894 DEBUG    [line range] org/joda/time/field/MillisDurationField.java <clinit> 38:38
+2021-07-04 10:08:54,961 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:54,967 DEBUG    [line range] org/joda/time/field/MillisDurationField.java <init> 43:45
+2021-07-04 10:08:55,036 DEBUG                  - depth 0, hash e1927ec, HEAD~1461
+2021-07-04 10:08:55,042 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,046 DEBUG    [line range] org/joda/time/field/MillisDurationField.java getType 48:50
+2021-07-04 10:08:55,112 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:55,118 DEBUG    [line range] org/joda/time/field/MillisDurationField.java getUnitMillis 79:81
+2021-07-04 10:08:55,184 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,190 DEBUG    [line range] org/joda/time/field/MillisDurationField.java hashCode 154:156
+2021-07-04 10:08:55,252 DEBUG                  - depth 0, hash d88831b, HEAD~132
+2021-07-04 10:08:55,258 DEBUG                  - depth 1, hash ae45195, HEAD~137
+2021-07-04 10:08:55,263 DEBUG    [line range] org/joda/time/field/MillisDurationField.java isPrecise 70:72
+2021-07-04 10:08:55,331 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,337 DEBUG    [line range] org/joda/time/field/MillisDurationField.java isSupported 61:63
+2021-07-04 10:08:55,405 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,730 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java <init> 45:47
+2021-07-04 10:08:55,795 DEBUG                  - depth 0, hash 73c752d, HEAD~1132
+2021-07-04 10:08:55,802 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:55,806 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,810 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:55,815 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java <init> 57:59
+2021-07-04 10:08:55,880 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:55,886 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,891 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java <init> 71:91
+2021-07-04 10:08:55,957 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:55,963 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:55,967 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:55,972 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java getLeapDurationField 164:166
+2021-07-04 10:08:56,038 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:56,044 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:56,049 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java getMaximumValue 182:184
+2021-07-04 10:08:56,113 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:56,120 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java getMinimumValue 173:175
+2021-07-04 10:08:56,184 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:56,190 DEBUG    [line range] org/joda/time/field/OffsetDateTimeField.java set 151:154
+2021-07-04 10:08:56,255 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:56,262 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:56,266 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:56,566 DEBUG    [line range] org/joda/time/field/PreciseDateTimeField.java <init> 55:70
+2021-07-04 10:08:56,632 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:56,638 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:56,643 DEBUG    [line range] org/joda/time/field/PreciseDateTimeField.java get 78:84
+2021-07-04 10:08:56,708 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:56,715 DEBUG    [line range] org/joda/time/field/PreciseDateTimeField.java getMaximumValue 130:132
+2021-07-04 10:08:56,782 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:56,788 DEBUG    [line range] org/joda/time/field/PreciseDateTimeField.java getRangeDurationField 121:123
+2021-07-04 10:08:56,854 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:56,860 DEBUG    [line range] org/joda/time/field/PreciseDateTimeField.java set 110:113
+2021-07-04 10:08:56,926 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:56,932 DEBUG                  - depth 1, hash c8bfdbc, HEAD~1562
+2021-07-04 10:08:57,245 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java <init> 47:60
+2021-07-04 10:08:57,311 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:57,317 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:57,322 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java getDurationField 140:142
+2021-07-04 10:08:57,388 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:57,394 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java getMaximumValueForSet 162:164
+2021-07-04 10:08:57,459 DEBUG                  - depth 0, hash 61f556b, HEAD~1566
+2021-07-04 10:08:57,465 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java getMinimumValue 149:151
+2021-07-04 10:08:57,532 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:57,538 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java getUnitMillis 153:155
+2021-07-04 10:08:57,605 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:57,611 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java roundFloor 91:98
+2021-07-04 10:08:57,677 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:57,683 DEBUG    [line range] org/joda/time/field/PreciseDurationDateTimeField.java set 77:81
+2021-07-04 10:08:57,748 DEBUG                  - depth 0, hash 14dcaf0, HEAD~1529
+2021-07-04 10:08:57,755 DEBUG                  - depth 1, hash 5d24a39, HEAD~1561
+2021-07-04 10:08:57,759 DEBUG                  - depth 2, hash 61f556b, HEAD~1566
+2021-07-04 10:08:57,764 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,079 DEBUG    [line range] org/joda/time/field/PreciseDurationField.java <init> 42:45
+2021-07-04 10:08:58,145 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:58,151 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,155 DEBUG    [line range] org/joda/time/field/PreciseDurationField.java getUnitMillis 62:64
+2021-07-04 10:08:58,221 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,227 DEBUG    [line range] org/joda/time/field/PreciseDurationField.java hashCode 141:146
+2021-07-04 10:08:58,291 DEBUG                  - depth 0, hash 31a2dfb, HEAD~1145
+2021-07-04 10:08:58,298 DEBUG                  - depth 1, hash 61ba006, HEAD~1318
+2021-07-04 10:08:58,302 DEBUG    [line range] org/joda/time/field/PreciseDurationField.java isPrecise 53:55
+2021-07-04 10:08:58,368 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,693 DEBUG    [line range] org/joda/time/field/RemainderDateTimeField.java <init> 50:67
+2021-07-04 10:08:58,758 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:58,765 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:58,769 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,773 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:58,778 DEBUG    [line range] org/joda/time/field/RemainderDateTimeField.java <init> 75:77
+2021-07-04 10:08:58,843 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:58,849 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,854 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:58,858 DEBUG    [line range] org/joda/time/field/RemainderDateTimeField.java <init> 86:90
+2021-07-04 10:08:58,925 DEBUG                  - depth 0, hash 4f78ec4, HEAD~1192
+2021-07-04 10:08:58,932 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:58,936 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:58,941 DEBUG    [line range] org/joda/time/field/RemainderDateTimeField.java getMaximumValue 157:159
+2021-07-04 10:08:59,006 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:59,012 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:59,016 DEBUG    [line range] org/joda/time/field/RemainderDateTimeField.java getMinimumValue 147:149
+2021-07-04 10:08:59,084 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:59,090 DEBUG    [line range] org/joda/time/field/RemainderDateTimeField.java getRangeDurationField 138:140
+2021-07-04 10:08:59,157 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:59,163 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:08:59,484 DEBUG    [line range] org/joda/time/field/ScaledDurationField.java <init> 46:52
+2021-07-04 10:08:59,549 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:08:59,555 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:59,560 DEBUG    [line range] org/joda/time/field/ScaledDurationField.java getUnitMillis 108:110
+2021-07-04 10:08:59,625 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:08:59,631 DEBUG    [line range] org/joda/time/field/ScaledDurationField.java hashCode 146:152
+2021-07-04 10:08:59,696 DEBUG                  - depth 0, hash 31a2dfb, HEAD~1145
+2021-07-04 10:09:00,022 DEBUG    [line range] org/joda/time/field/SkipDateTimeField.java <init> 53:55
+2021-07-04 10:09:00,083 DEBUG                  - depth 0, hash e90984d, HEAD~1016
+2021-07-04 10:09:00,089 DEBUG    [line range] org/joda/time/field/SkipDateTimeField.java <init> 64:76
+2021-07-04 10:09:00,149 DEBUG                  - depth 0, hash e90984d, HEAD~1016
+2021-07-04 10:09:00,156 DEBUG    [line range] org/joda/time/field/SkipDateTimeField.java get 79:85
+2021-07-04 10:09:00,217 DEBUG                  - depth 0, hash e90984d, HEAD~1016
+2021-07-04 10:09:00,223 DEBUG    [line range] org/joda/time/field/SkipDateTimeField.java getMinimumValue 99:101
+2021-07-04 10:09:00,283 DEBUG                  - depth 0, hash e90984d, HEAD~1016
+2021-07-04 10:09:00,589 DEBUG    [line range] org/joda/time/field/SkipUndoDateTimeField.java <init> 52:54
+2021-07-04 10:09:00,651 DEBUG                  - depth 0, hash 043abeb, HEAD~1014
+2021-07-04 10:09:00,657 DEBUG    [line range] org/joda/time/field/SkipUndoDateTimeField.java <init> 63:75
+2021-07-04 10:09:00,718 DEBUG                  - depth 0, hash 043abeb, HEAD~1014
+2021-07-04 10:09:00,724 DEBUG    [line range] org/joda/time/field/SkipUndoDateTimeField.java getMinimumValue 94:96
+2021-07-04 10:09:00,787 DEBUG                  - depth 0, hash 043abeb, HEAD~1014
+2021-07-04 10:09:00,793 DEBUG    [line range] org/joda/time/field/SkipUndoDateTimeField.java set 86:92
+2021-07-04 10:09:00,855 DEBUG                  - depth 0, hash 043abeb, HEAD~1014
+2021-07-04 10:09:01,172 DEBUG    [line range] org/joda/time/field/UnsupportedDurationField.java <init> 70:72
+2021-07-04 10:09:01,238 DEBUG                  - depth 0, hash 0d18055, HEAD~1190
+2021-07-04 10:09:01,244 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:01,249 DEBUG    [line range] org/joda/time/field/UnsupportedDurationField.java getInstance 47:60
+2021-07-04 10:09:01,315 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:01,321 DEBUG                  - depth 1, hash 0d18055, HEAD~1190
+2021-07-04 10:09:01,325 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:01,330 DEBUG    [line range] org/joda/time/field/UnsupportedDurationField.java getUnitMillis 217:219
+2021-07-04 10:09:01,397 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:01,403 DEBUG    [line range] org/joda/time/field/UnsupportedDurationField.java isSupported 91:93
+2021-07-04 10:09:01,468 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:01,794 DEBUG    [line range] org/joda/time/field/ZeroIsMaxDateTimeField.java <init> 44:49
+2021-07-04 10:09:01,861 DEBUG                  - depth 0, hash 70ba0aa, HEAD~1017
+2021-07-04 10:09:01,867 DEBUG                  - depth 1, hash 4f78ec4, HEAD~1192
+2021-07-04 10:09:01,872 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:01,876 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:01,881 DEBUG    [line range] org/joda/time/field/ZeroIsMaxDateTimeField.java getLeapDurationField 100:102
+2021-07-04 10:09:01,948 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:01,954 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:02,376 DEBUG    [line range] org/joda/time/format/DateTimeFormat.java <clinit> 147:147
+2021-07-04 10:09:02,440 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:02,447 DEBUG                  - depth 1, hash 5082337, HEAD~996
+2021-07-04 10:09:02,451 DEBUG    [line range] org/joda/time/format/DateTimeFormat.java createFormatterForPattern 673:689
+2021-07-04 10:09:02,518 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:02,524 DEBUG                  - depth 1, hash eac6e86, HEAD~993
+2021-07-04 10:09:02,529 DEBUG                  - depth 2, hash 5082337, HEAD~996
+2021-07-04 10:09:02,533 DEBUG                  - depth 3, hash 6cad802, HEAD~1116
+2021-07-04 10:09:02,538 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:02,542 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:02,547 DEBUG    [line range] org/joda/time/format/DateTimeFormat.java forPattern 169:171
+2021-07-04 10:09:02,611 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:02,618 DEBUG    [line range] org/joda/time/format/DateTimeFormat.java parsePatternTo 399:563
+2021-07-04 10:09:02,684 DEBUG                  - depth 0, hash 14863a5, HEAD~73
+2021-07-04 10:09:02,691 DEBUG                  - depth 1, hash 9bad997, HEAD~319
+2021-07-04 10:09:02,695 DEBUG                  - depth 2, hash ab6b7a4, HEAD~708
+2021-07-04 10:09:02,700 DEBUG                  - depth 3, hash 0531e3d, HEAD~838
+2021-07-04 10:09:02,704 DEBUG                  - depth 4, hash b7c1594, HEAD~932
+2021-07-04 10:09:02,709 DEBUG                  - depth 5, hash 66a8d06, HEAD~934
+2021-07-04 10:09:02,713 DEBUG                  - depth 6, hash 3f51e8e, HEAD~972
+2021-07-04 10:09:02,718 DEBUG                  - depth 7, hash eac6e86, HEAD~993
+2021-07-04 10:09:02,722 DEBUG                  - depth 8, hash 5082337, HEAD~996
+2021-07-04 10:09:02,726 DEBUG                  - depth 9, hash 9316fce, HEAD~1154
+2021-07-04 10:09:02,731 DEBUG                  - depth 10, hash 0d18055, HEAD~1190
+2021-07-04 10:09:02,735 DEBUG                  - depth 11, hash 4f78ec4, HEAD~1192
+2021-07-04 10:09:02,739 DEBUG                  - depth 12, hash 49b9344, HEAD~1581
+2021-07-04 10:09:02,744 DEBUG                  - depth 13, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:02,750 DEBUG    [line range] org/joda/time/format/DateTimeFormat.java parseToken 573:623
+2021-07-04 10:09:02,816 DEBUG                  - depth 0, hash 66c4a1c, HEAD~80
+2021-07-04 10:09:02,822 DEBUG                  - depth 1, hash 5082337, HEAD~996
+2021-07-04 10:09:02,827 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,254 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java <init> 107:118
+2021-07-04 10:09:03,320 DEBUG                  - depth 0, hash 843d7b8, HEAD~184
+2021-07-04 10:09:03,326 DEBUG                  - depth 1, hash e97bb78, HEAD~947
+2021-07-04 10:09:03,331 DEBUG                  - depth 2, hash 5082337, HEAD~996
+2021-07-04 10:09:03,335 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,339 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,344 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java <init> 123:137
+2021-07-04 10:09:03,409 DEBUG                  - depth 0, hash 843d7b8, HEAD~184
+2021-07-04 10:09:03,415 DEBUG                  - depth 1, hash e97bb78, HEAD~947
+2021-07-04 10:09:03,420 DEBUG                  - depth 2, hash 5082337, HEAD~996
+2021-07-04 10:09:03,424 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,428 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,434 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java getLocale 202:204
+2021-07-04 10:09:03,500 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:03,506 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,510 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,515 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java getParser 172:174
+2021-07-04 10:09:03,580 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:03,587 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,591 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,596 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java getPrinter 154:156
+2021-07-04 10:09:03,662 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:03,668 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,672 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,677 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java parseInto 698:725
+2021-07-04 10:09:03,742 DEBUG                  - depth 0, hash 706513d, HEAD~85
+2021-07-04 10:09:03,748 DEBUG                  - depth 1, hash 1ec3c2f, HEAD~125
+2021-07-04 10:09:03,753 DEBUG                  - depth 2, hash 53eadfb, HEAD~135
+2021-07-04 10:09:03,757 DEBUG                  - depth 3, hash 843d7b8, HEAD~184
+2021-07-04 10:09:03,761 DEBUG                  - depth 4, hash 26dc14b, HEAD~450
+2021-07-04 10:09:03,766 DEBUG                  - depth 5, hash 83df500, HEAD~643
+2021-07-04 10:09:03,770 DEBUG                  - depth 6, hash e97bb78, HEAD~947
+2021-07-04 10:09:03,775 DEBUG                  - depth 7, hash 5082337, HEAD~996
+2021-07-04 10:09:03,779 DEBUG                  - depth 8, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,783 DEBUG                  - depth 9, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,788 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java requireParser 924:930
+2021-07-04 10:09:03,853 DEBUG                  - depth 0, hash 26dc14b, HEAD~450
+2021-07-04 10:09:03,859 DEBUG                  - depth 1, hash 5082337, HEAD~996
+2021-07-04 10:09:03,863 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,868 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,872 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java selectChronology 939:948
+2021-07-04 10:09:03,938 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:03,945 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:03,949 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:03,954 DEBUG    [line range] org/joda/time/format/DateTimeFormatter.java withLocale 188:194
+2021-07-04 10:09:04,020 DEBUG                  - depth 0, hash 843d7b8, HEAD~184
+2021-07-04 10:09:04,026 DEBUG                  - depth 1, hash e97bb78, HEAD~947
+2021-07-04 10:09:04,030 DEBUG                  - depth 2, hash 2a8562b, HEAD~992
+2021-07-04 10:09:04,035 DEBUG                  - depth 3, hash 5082337, HEAD~996
+2021-07-04 10:09:04,039 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:04,044 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:04,614 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 83:86
+2021-07-04 10:09:04,699 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:04,705 DEBUG                  - depth 1, hash 5082337, HEAD~996
+2021-07-04 10:09:04,710 DEBUG                  - depth 2, hash 6cad802, HEAD~1116
+2021-07-04 10:09:04,714 DEBUG                  - depth 3, hash 9316fce, HEAD~1154
+2021-07-04 10:09:04,719 DEBUG                  - depth 4, hash eb0cac2, HEAD~1456
+2021-07-04 10:09:04,723 DEBUG                  - depth 5, hash d8d6d68, HEAD~1475
+2021-07-04 10:09:04,728 DEBUG                  - depth 6, hash a26563f, HEAD~1478
+2021-07-04 10:09:04,732 DEBUG                  - depth 7, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:04,737 DEBUG                  - depth 8, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:04,741 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java append 216:221
+2021-07-04 10:09:04,827 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:04,834 DEBUG                  - depth 1, hash 1707517, HEAD~1056
+2021-07-04 10:09:04,838 DEBUG                  - depth 2, hash 6cad802, HEAD~1116
+2021-07-04 10:09:04,843 DEBUG                  - depth 3, hash 9316fce, HEAD~1154
+2021-07-04 10:09:04,847 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:04,852 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:04,856 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java append0 373:379
+2021-07-04 10:09:04,942 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:04,948 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:04,953 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:04,957 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java append0 381:387
+2021-07-04 10:09:05,042 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,049 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,053 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,058 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendDayOfMonth 774:776
+2021-07-04 10:09:05,140 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,146 DEBUG                  - depth 1, hash 49b9344, HEAD~1581
+2021-07-04 10:09:05,151 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,155 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,160 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendDayOfWeekShortText 975:977
+2021-07-04 10:09:05,245 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,251 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,256 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendDecimal 432:448
+2021-07-04 10:09:05,340 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:05,346 DEBUG                  - depth 1, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,350 DEBUG                  - depth 2, hash 49b9344, HEAD~1581
+2021-07-04 10:09:05,355 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,359 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,364 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendHourOfDay 724:726
+2021-07-04 10:09:05,449 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,455 DEBUG                  - depth 1, hash 49b9344, HEAD~1581
+2021-07-04 10:09:05,459 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,464 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,468 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendLiteral 396:398
+2021-07-04 10:09:05,554 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:05,560 DEBUG                  - depth 1, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,564 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,569 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,573 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendMinuteOfHour 704:706
+2021-07-04 10:09:05,658 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,665 DEBUG                  - depth 1, hash 49b9344, HEAD~1581
+2021-07-04 10:09:05,669 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,674 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,678 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendMonthOfYear 816:818
+2021-07-04 10:09:05,763 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,770 DEBUG                  - depth 1, hash 49b9344, HEAD~1581
+2021-07-04 10:09:05,774 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,779 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,783 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendSecondOfMinute 684:686
+2021-07-04 10:09:05,869 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,875 DEBUG                  - depth 1, hash 49b9344, HEAD~1581
+2021-07-04 10:09:05,880 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,884 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,888 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendShortText 548:553
+2021-07-04 10:09:05,975 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:05,981 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:05,985 DEBUG                  - depth 2, hash 9316fce, HEAD~1154
+2021-07-04 10:09:05,990 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:05,994 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:05,998 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendSignedDecimal 484:500
+2021-07-04 10:09:06,084 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:06,090 DEBUG                  - depth 1, hash 9316fce, HEAD~1154
+2021-07-04 10:09:06,095 DEBUG                  - depth 2, hash 49b9344, HEAD~1581
+2021-07-04 10:09:06,099 DEBUG                  - depth 3, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:06,103 DEBUG                  - depth 4, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,108 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendTimeZoneOffset 1088:1093
+2021-07-04 10:09:06,194 DEBUG                  - depth 0, hash 9bad997, HEAD~319
+2021-07-04 10:09:06,200 DEBUG                  - depth 1, hash 5082337, HEAD~996
+2021-07-04 10:09:06,205 DEBUG                  - depth 2, hash 6cad802, HEAD~1116
+2021-07-04 10:09:06,209 DEBUG                  - depth 3, hash 9316fce, HEAD~1154
+2021-07-04 10:09:06,214 DEBUG                  - depth 4, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:06,218 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,223 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java appendYear 828:830
+2021-07-04 10:09:06,309 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:06,315 DEBUG                  - depth 1, hash 49b9344, HEAD~1581
+2021-07-04 10:09:06,319 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:06,324 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,328 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java getFormatter 1137:1162
+2021-07-04 10:09:06,414 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:06,420 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,425 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java isParser 1174:1182
+2021-07-04 10:09:06,511 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:06,517 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:06,521 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,526 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java isPrinter 1164:1172
+2021-07-04 10:09:06,611 DEBUG                  - depth 0, hash 9316fce, HEAD~1154
+2021-07-04 10:09:06,617 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:06,622 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,626 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java toFormatter 104:118
+2021-07-04 10:09:06,700 DEBUG                  - depth 0, hash c0cd5ce, HEAD~968
+2021-07-04 10:09:06,706 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 1206:1209
+2021-07-04 10:09:06,789 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:06,796 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,800 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java estimateParsedLength 1235:1237
+2021-07-04 10:09:06,885 DEBUG                  - depth 0, hash 1707517, HEAD~1056
+2021-07-04 10:09:06,892 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:06,896 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,901 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java estimatePrintedLength 1211:1213
+2021-07-04 10:09:06,986 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:06,992 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java parseInto 1239:1260
+2021-07-04 10:09:07,078 DEBUG                  - depth 0, hash 1707517, HEAD~1056
+2021-07-04 10:09:07,084 DEBUG                  - depth 1, hash c6a69cc, HEAD~1115
+2021-07-04 10:09:07,088 DEBUG                  - depth 2, hash 6cad802, HEAD~1116
+2021-07-04 10:09:07,093 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,098 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 2614:2651
+2021-07-04 10:09:07,183 DEBUG                  - depth 0, hash 46b817a, HEAD~74
+2021-07-04 10:09:07,190 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:09:07,194 DEBUG                  - depth 2, hash 1707517, HEAD~1056
+2021-07-04 10:09:07,198 DEBUG                  - depth 3, hash 6cad802, HEAD~1116
+2021-07-04 10:09:07,203 DEBUG                  - depth 4, hash 9316fce, HEAD~1154
+2021-07-04 10:09:07,207 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,213 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java addArrayToList 2777:2783
+2021-07-04 10:09:07,292 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:07,298 DEBUG                  - depth 1, hash 9316fce, HEAD~1154
+2021-07-04 10:09:07,303 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java decompose 2758:2775
+2021-07-04 10:09:07,383 DEBUG                  - depth 0, hash 46b817a, HEAD~74
+2021-07-04 10:09:07,389 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:09:07,394 DEBUG                  - depth 2, hash b116313, HEAD~985
+2021-07-04 10:09:07,398 DEBUG                  - depth 3, hash 9316fce, HEAD~1154
+2021-07-04 10:09:07,404 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java isParser 2750:2752
+2021-07-04 10:09:07,488 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,494 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java isPrinter 2746:2748
+2021-07-04 10:09:07,577 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,583 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 1317:1323
+2021-07-04 10:09:07,669 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:07,675 DEBUG                  - depth 1, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:07,680 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,686 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 1460:1465
+2021-07-04 10:09:07,771 DEBUG                  - depth 0, hash 6cad802, HEAD~1116
+2021-07-04 10:09:07,777 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,782 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <clinit> 1748:1749
+2021-07-04 10:09:07,849 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:07,855 DEBUG                  - depth 1, hash 69b17f7, HEAD~442
+2021-07-04 10:09:07,860 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 1753:1757
+2021-07-04 10:09:07,945 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:07,951 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:07,956 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:07,961 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:07,965 DEBUG    [line range] org/joda/time/format/DateTimeFormatterBuilder.java <init> 2117:2134
+2021-07-04 10:09:08,049 DEBUG                  - depth 0, hash 9bad997, HEAD~319
+2021-07-04 10:09:08,055 DEBUG                  - depth 1, hash 5082337, HEAD~996
+2021-07-04 10:09:08,060 DEBUG                  - depth 2, hash 6cad802, HEAD~1116
+2021-07-04 10:09:08,064 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:08,433 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java <init> 73:73
+2021-07-04 10:09:08,496 DEBUG                  - depth 0, hash e97bb78, HEAD~947
+2021-07-04 10:09:08,502 DEBUG                  - depth 1, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,508 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java compareReverse 510:521
+2021-07-04 10:09:08,570 DEBUG                  - depth 0, hash 843d7b8, HEAD~184
+2021-07-04 10:09:08,576 DEBUG                  - depth 1, hash bfe653a, HEAD~916
+2021-07-04 10:09:08,581 DEBUG                  - depth 2, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,586 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java computeMillis 344:395
+2021-07-04 10:09:08,650 DEBUG                  - depth 0, hash 2fcc704, HEAD~49
+2021-07-04 10:09:08,656 DEBUG                  - depth 1, hash 53eadfb, HEAD~135
+2021-07-04 10:09:08,661 DEBUG                  - depth 2, hash d50efdf, HEAD~169
+2021-07-04 10:09:08,665 DEBUG                  - depth 3, hash 843d7b8, HEAD~184
+2021-07-04 10:09:08,670 DEBUG                  - depth 4, hash 83df500, HEAD~643
+2021-07-04 10:09:08,674 DEBUG                  - depth 5, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,680 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java saveField 246:248
+2021-07-04 10:09:08,743 DEBUG                  - depth 0, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,749 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java saveField 261:277
+2021-07-04 10:09:08,812 DEBUG                  - depth 0, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,819 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java sort 415:427
+2021-07-04 10:09:08,881 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:08,887 DEBUG                  - depth 1, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,892 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java <init> 467:472
+2021-07-04 10:09:08,957 DEBUG                  - depth 0, hash 1707517, HEAD~1056
+2021-07-04 10:09:08,964 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java compareTo 498:507
+2021-07-04 10:09:09,026 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:09,032 DEBUG                  - depth 1, hash 1707517, HEAD~1056
+2021-07-04 10:09:09,037 DEBUG    [line range] org/joda/time/format/DateTimeParserBucket.java set 481:491
+2021-07-04 10:09:09,100 DEBUG                  - depth 0, hash 1707517, HEAD~1056
+2021-07-04 10:09:09,584 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java date 865:867
+2021-07-04 10:09:09,652 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:09,658 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:09,663 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java dateTimeNoMillis 970:978
+2021-07-04 10:09:09,728 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:09,734 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:09,739 DEBUG                  - depth 2, hash 56f9a22, HEAD~1144
+2021-07-04 10:09:09,744 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java dayOfMonthElement 1603:1611
+2021-07-04 10:09:09,813 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:09,819 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:09,824 DEBUG                  - depth 2, hash 5286892, HEAD~1568
+2021-07-04 10:09:09,828 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:09,833 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java hourElement 1661:1668
+2021-07-04 10:09:09,903 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:09,909 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:09,913 DEBUG                  - depth 2, hash 5286892, HEAD~1568
+2021-07-04 10:09:09,918 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:09,923 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java hourMinuteSecond 1441:1450
+2021-07-04 10:09:09,990 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:09,996 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,001 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,006 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java literalTElement 1652:1659
+2021-07-04 10:09:10,072 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,078 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,083 DEBUG                  - depth 2, hash 56f9a22, HEAD~1144
+2021-07-04 10:09:10,088 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java minuteElement 1670:1678
+2021-07-04 10:09:10,155 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,161 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,166 DEBUG                  - depth 2, hash 5286892, HEAD~1568
+2021-07-04 10:09:10,170 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,175 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java monthElement 1593:1601
+2021-07-04 10:09:10,242 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,248 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,253 DEBUG                  - depth 2, hash 5286892, HEAD~1568
+2021-07-04 10:09:10,258 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,262 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java offsetElement 1702:1709
+2021-07-04 10:09:10,331 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,337 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,341 DEBUG                  - depth 2, hash 0facc1d, HEAD~1544
+2021-07-04 10:09:10,346 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,350 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java secondElement 1680:1688
+2021-07-04 10:09:10,417 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,424 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,428 DEBUG                  - depth 2, hash 5286892, HEAD~1568
+2021-07-04 10:09:10,433 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,437 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java tTimeNoMillis 934:942
+2021-07-04 10:09:10,505 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,511 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,516 DEBUG                  - depth 2, hash 56f9a22, HEAD~1144
+2021-07-04 10:09:10,520 DEBUG                  - depth 3, hash a592319, HEAD~1413
+2021-07-04 10:09:10,525 DEBUG                  - depth 4, hash 5286892, HEAD~1568
+2021-07-04 10:09:10,529 DEBUG                  - depth 5, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,534 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java timeNoMillis 896:904
+2021-07-04 10:09:10,601 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,607 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,611 DEBUG                  - depth 2, hash 56f9a22, HEAD~1144
+2021-07-04 10:09:10,616 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java yearElement 1584:1591
+2021-07-04 10:09:10,685 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,692 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,696 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:10,701 DEBUG    [line range] org/joda/time/format/ISODateTimeFormat.java yearMonthDay 1357:1366
+2021-07-04 10:09:10,769 DEBUG                  - depth 0, hash 5082337, HEAD~996
+2021-07-04 10:09:10,775 DEBUG                  - depth 1, hash 6cad802, HEAD~1116
+2021-07-04 10:09:10,780 DEBUG                  - depth 2, hash 5286892, HEAD~1568
+2021-07-04 10:09:10,784 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,125 DEBUG    [single line]   org/joda/time/tz/CachedDateTimeZone.java <clinit> 39
+2021-07-04 10:09:11,187 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:11,193 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,198 DEBUG    [single line]   org/joda/time/tz/CachedDateTimeZone.java <clinit> 42
+2021-07-04 10:09:11,259 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:11,266 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,270 DEBUG    [single line]   org/joda/time/tz/CachedDateTimeZone.java <clinit> 45
+2021-07-04 10:09:11,333 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:11,340 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,344 DEBUG    [single line]   org/joda/time/tz/CachedDateTimeZone.java <clinit> 48
+2021-07-04 10:09:11,405 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:11,412 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,416 DEBUG    [single line]   org/joda/time/tz/CachedDateTimeZone.java <clinit> 61
+2021-07-04 10:09:11,478 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,484 DEBUG    [single line]   org/joda/time/tz/CachedDateTimeZone.java <clinit> 62
+2021-07-04 10:09:11,545 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,551 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java <init> 84:84
+2021-07-04 10:09:11,612 DEBUG                  - depth 0, hash 5d8a77e, HEAD~102
+2021-07-04 10:09:11,619 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,623 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java createInfo 151:167
+2021-07-04 10:09:11,684 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,691 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java forZone 67:72
+2021-07-04 10:09:11,752 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,758 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java getInfo 139:149
+2021-07-04 10:09:11,821 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,828 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java getOffset 102:104
+2021-07-04 10:09:11,891 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:11,897 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,902 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java hashCode 122:124
+2021-07-04 10:09:11,963 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:11,970 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java previousTransition 118:120
+2021-07-04 10:09:12,031 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:12,037 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:12,042 DEBUG    [line range] org/joda/time/tz/CachedDateTimeZone.java <init> 177:177
+2021-07-04 10:09:12,103 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:12,640 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readFrom 109:125
+2021-07-04 10:09:12,751 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:12,757 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readFrom 94:100
+2021-07-04 10:09:12,822 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:12,829 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readMillis 182:211
+2021-07-04 10:09:12,894 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:12,902 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java <init> 1174:1180
+2021-07-04 10:09:12,968 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:12,975 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readFrom 1165:1168
+2021-07-04 10:09:13,040 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,047 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java <init> 499:515
+2021-07-04 10:09:13,112 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,119 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readFrom 481:488
+2021-07-04 10:09:13,184 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,191 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java <init> 1497:1506
+2021-07-04 10:09:13,257 DEBUG                  - depth 0, hash 9b01b9e, HEAD~481
+2021-07-04 10:09:13,263 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,268 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java getOffset 1527:1544
+2021-07-04 10:09:13,334 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:13,340 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,345 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java nextTransition 1569:1584
+2021-07-04 10:09:13,411 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:13,417 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,422 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java previousTransition 1586:1616
+2021-07-04 10:09:13,488 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:13,494 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,499 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readFrom 1339:1377
+2021-07-04 10:09:13,565 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,573 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java <init> 747:751
+2021-07-04 10:09:13,639 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:13,645 DEBUG    [line range] org/joda/time/tz/DateTimeZoneBuilder.java readFrom 739:741
+2021-07-04 10:09:13,711 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:14,050 DEBUG    [line range] org/joda/time/tz/DefaultNameProvider.java <init> 37:37
+2021-07-04 10:09:14,112 DEBUG                  - depth 0, hash 3f1e047, HEAD~318
+2021-07-04 10:09:14,119 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:14,123 DEBUG    [line range] org/joda/time/tz/DefaultNameProvider.java createCache 98:100
+2021-07-04 10:09:14,184 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:14,488 DEBUG    [line range] org/joda/time/tz/FixedDateTimeZone.java <init> 36:42
+2021-07-04 10:09:14,549 DEBUG                  - depth 0, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:14,556 DEBUG    [line range] org/joda/time/tz/FixedDateTimeZone.java equals 87:99
+2021-07-04 10:09:14,617 DEBUG                  - depth 0, hash 0993b37, HEAD~88
+2021-07-04 10:09:14,623 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:14,628 DEBUG    [line range] org/joda/time/tz/FixedDateTimeZone.java hashCode 101:103
+2021-07-04 10:09:14,688 DEBUG                  - depth 0, hash 5757bcc, HEAD~687
+2021-07-04 10:09:15,040 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java <init> 81:83
+2021-07-04 10:09:15,102 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:15,108 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:15,113 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java <init> 103:124
+2021-07-04 10:09:15,175 DEBUG                  - depth 0, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:15,182 DEBUG                  - depth 1, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:15,187 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java getAvailableIDs 170:175
+2021-07-04 10:09:15,248 DEBUG                  - depth 0, hash a7416aa, HEAD~196
+2021-07-04 10:09:15,255 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:09:15,259 DEBUG                  - depth 2, hash ad3e968, HEAD~528
+2021-07-04 10:09:15,264 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:15,268 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java getZone 135:163
+2021-07-04 10:09:15,332 DEBUG                  - depth 0, hash a7416aa, HEAD~196
+2021-07-04 10:09:15,339 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:09:15,343 DEBUG                  - depth 2, hash a26563f, HEAD~1478
+2021-07-04 10:09:15,348 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:15,353 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java loadZoneData 223:242
+2021-07-04 10:09:15,416 DEBUG                  - depth 0, hash 0993b37, HEAD~88
+2021-07-04 10:09:15,423 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:09:15,427 DEBUG                  - depth 2, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:15,433 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java loadZoneInfoMap 251:264
+2021-07-04 10:09:15,494 DEBUG                  - depth 0, hash 0993b37, HEAD~88
+2021-07-04 10:09:15,500 DEBUG                  - depth 1, hash a7416aa, HEAD~196
+2021-07-04 10:09:15,505 DEBUG                  - depth 2, hash 3f1e047, HEAD~318
+2021-07-04 10:09:15,509 DEBUG                  - depth 3, hash 4db6cb0, HEAD~948
+2021-07-04 10:09:15,514 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java openResource 194:215
+2021-07-04 10:09:15,577 DEBUG                  - depth 0, hash 66c4a1c, HEAD~80
+2021-07-04 10:09:15,583 DEBUG                  - depth 1, hash 4db6cb0, HEAD~948
+2021-07-04 10:09:15,588 DEBUG                  - depth 2, hash 0e07ac6, HEAD~1644
+2021-07-04 10:09:15,592 DEBUG                  - depth 3, hash 7fe68f2, HEAD~1650
+2021-07-04 10:09:15,597 DEBUG    [line range] org/joda/time/tz/ZoneInfoProvider.java readZoneInfoMap 272:289
+2021-07-04 10:09:15,659 DEBUG                  - depth 0, hash 0993b37, HEAD~88
+2021-07-04 10:09:15,665 DEBUG                  - depth 1, hash 3f1e047, HEAD~318
+2021-07-04 10:09:15,669 DEBUG                  - depth 2, hash 4db6cb0, HEAD~948
+2021-07-04 10:09:15,675 INFO     The number of BIC candidates: 144

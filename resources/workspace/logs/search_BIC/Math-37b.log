@@ -1,0 +1,111 @@
+2021-07-04 07:15:24,654 INFO     Search BICs for /tmp/Math-37b/
+2021-07-04 07:15:24,654 DEBUG    Reading the coverage of org.apache.commons.math.complex.ComplexTest::testTanh (failings)
+2021-07-04 07:15:24,670 DEBUG    Reading the coverage of org.apache.commons.math.complex.ComplexTest::testTan (failings)
+2021-07-04 07:15:24,687 DEBUG    Reading the coverage of org.apache.commons.math.complex.ComplexTest::testTanhInf (failings)
+2021-07-04 07:15:24,704 DEBUG    Reading the coverage of org.apache.commons.math.complex.ComplexTest::testTanInf (failings)
+2021-07-04 07:15:24,719 INFO     Loaded 4x263 Coverage Matrix
+2021-07-04 07:15:24,720 INFO     The number of total commits: 3562
+2021-07-04 07:15:25,124 DEBUG    [line range] org/apache/commons/math/complex/Complex.java <clinit> 59:59
+2021-07-04 07:15:25,275 DEBUG                  - depth 0, hash 0a90446, HEAD~3369
+2021-07-04 07:15:25,281 DEBUG    [line range] org/apache/commons/math/complex/Complex.java <init> 98:105
+2021-07-04 07:15:25,432 DEBUG                  - depth 0, hash e3366a9, HEAD~452
+2021-07-04 07:15:25,437 DEBUG                  - depth 1, hash 330f3fe, HEAD~454
+2021-07-04 07:15:25,441 DEBUG                  - depth 2, hash b522106, HEAD~581
+2021-07-04 07:15:25,445 DEBUG                  - depth 3, hash 26dac5a, HEAD~1570
+2021-07-04 07:15:25,449 DEBUG                  - depth 4, hash d6d2b67, HEAD~1765
+2021-07-04 07:15:25,454 DEBUG                  - depth 5, hash 0a90446, HEAD~3369
+2021-07-04 07:15:25,458 DEBUG    [line range] org/apache/commons/math/complex/Complex.java createComplex 1165:1168
+2021-07-04 07:15:25,603 DEBUG                  - depth 0, hash b522106, HEAD~581
+2021-07-04 07:15:25,608 DEBUG    [line range] org/apache/commons/math/complex/Complex.java getImaginary 375:377
+2021-07-04 07:15:25,759 DEBUG                  - depth 0, hash 0a90446, HEAD~3369
+2021-07-04 07:15:25,765 DEBUG    [line range] org/apache/commons/math/complex/Complex.java getReal 384:386
+2021-07-04 07:15:25,917 DEBUG                  - depth 0, hash 0a90446, HEAD~3369
+2021-07-04 07:15:25,923 DEBUG    [line range] org/apache/commons/math/complex/Complex.java tanh 1062:1073
+2021-07-04 07:15:26,073 DEBUG                  - depth 0, hash dc7c902, HEAD~249
+2021-07-04 07:15:26,078 DEBUG                  - depth 1, hash b522106, HEAD~581
+2021-07-04 07:15:26,082 DEBUG                  - depth 2, hash f345089, HEAD~607
+2021-07-04 07:15:26,087 DEBUG                  - depth 3, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:26,091 DEBUG                  - depth 4, hash 26dac5a, HEAD~1570
+2021-07-04 07:15:26,095 DEBUG                  - depth 5, hash 912d9be, HEAD~2520
+2021-07-04 07:15:26,730 DEBUG    [line range] org/apache/commons/math/util/FastMath.java <clinit> 104:104
+2021-07-04 07:15:26,902 DEBUG                  - depth 0, hash d94a128, HEAD~219
+2021-07-04 07:15:26,908 DEBUG                  - depth 1, hash 5a27ee8, HEAD~369
+2021-07-04 07:15:26,912 DEBUG                  - depth 2, hash d26fa5a, HEAD~386
+2021-07-04 07:15:26,916 DEBUG                  - depth 3, hash 39311b1, HEAD~388
+2021-07-04 07:15:26,920 DEBUG                  - depth 4, hash 9d76c94, HEAD~389
+2021-07-04 07:15:26,924 DEBUG    [single line]   org/apache/commons/math/util/FastMath.java access$600 80
+2021-07-04 07:15:27,126 DEBUG                  - depth 0, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:27,131 DEBUG    [line range] org/apache/commons/math/util/FastMath.java cos 2232:2310
+2021-07-04 07:15:27,330 DEBUG                  - depth 0, hash bae38c1, HEAD~650
+2021-07-04 07:15:27,335 DEBUG                  - depth 1, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:27,340 DEBUG    [line range] org/apache/commons/math/util/FastMath.java cosQ 1750:1759
+2021-07-04 07:15:27,543 DEBUG                  - depth 0, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:27,548 DEBUG    [line range] org/apache/commons/math/util/FastMath.java cosh 382:435
+2021-07-04 07:15:27,748 DEBUG                  - depth 0, hash 2119976, HEAD~299
+2021-07-04 07:15:27,753 DEBUG                  - depth 1, hash 4c2ddfc, HEAD~427
+2021-07-04 07:15:27,757 DEBUG                  - depth 2, hash f45eb1f, HEAD~967
+2021-07-04 07:15:27,761 DEBUG                  - depth 3, hash 284dc10, HEAD~1147
+2021-07-04 07:15:27,766 DEBUG                  - depth 4, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:27,770 DEBUG    [line range] org/apache/commons/math/util/FastMath.java exp 806:808
+2021-07-04 07:15:27,968 DEBUG                  - depth 0, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:27,974 DEBUG    [line range] org/apache/commons/math/util/FastMath.java exp 817:932
+2021-07-04 07:15:28,175 DEBUG                  - depth 0, hash 56d4f26, HEAD~390
+2021-07-04 07:15:28,181 DEBUG                  - depth 1, hash 2088737, HEAD~423
+2021-07-04 07:15:28,185 DEBUG                  - depth 2, hash 95d4a38, HEAD~428
+2021-07-04 07:15:28,189 DEBUG                  - depth 3, hash 90279e8, HEAD~1217
+2021-07-04 07:15:28,193 DEBUG                  - depth 4, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:28,197 DEBUG    [line range] org/apache/commons/math/util/FastMath.java polyCosine 1607:1617
+2021-07-04 07:15:28,399 DEBUG                  - depth 0, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:28,404 DEBUG    [line range] org/apache/commons/math/util/FastMath.java polySine 1586:1599
+2021-07-04 07:15:28,605 DEBUG                  - depth 0, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:28,610 DEBUG    [line range] org/apache/commons/math/util/FastMath.java sin 2134:2225
+2021-07-04 07:15:28,811 DEBUG                  - depth 0, hash bae38c1, HEAD~650
+2021-07-04 07:15:28,816 DEBUG                  - depth 1, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:28,821 DEBUG    [line range] org/apache/commons/math/util/FastMath.java sinQ 1626:1741
+2021-07-04 07:15:29,019 DEBUG                  - depth 0, hash 8dd6c42, HEAD~965
+2021-07-04 07:15:29,025 DEBUG                  - depth 1, hash f45eb1f, HEAD~967
+2021-07-04 07:15:29,029 DEBUG                  - depth 2, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:29,033 DEBUG    [line range] org/apache/commons/math/util/FastMath.java sinh 441:550
+2021-07-04 07:15:29,243 DEBUG                  - depth 0, hash 2119976, HEAD~299
+2021-07-04 07:15:29,249 DEBUG                  - depth 1, hash 4c2ddfc, HEAD~427
+2021-07-04 07:15:29,253 DEBUG                  - depth 2, hash f45eb1f, HEAD~967
+2021-07-04 07:15:29,257 DEBUG                  - depth 3, hash 15671e2, HEAD~1146
+2021-07-04 07:15:29,261 DEBUG                  - depth 4, hash 284dc10, HEAD~1147
+2021-07-04 07:15:29,265 DEBUG                  - depth 5, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:29,270 DEBUG    [single line]   org/apache/commons/math/util/FastMath.java access$300 3754
+2021-07-04 07:15:29,475 DEBUG                  - depth 0, hash 1f0b0b2, HEAD~380
+2021-07-04 07:15:29,481 DEBUG                  - depth 1, hash e260d84, HEAD~935
+2021-07-04 07:15:29,485 DEBUG                  - depth 2, hash 5e87378, HEAD~955
+2021-07-04 07:15:29,489 DEBUG                  - depth 3, hash 5dcca48, HEAD~995
+2021-07-04 07:15:29,493 DEBUG                  - depth 4, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:29,497 DEBUG    [single line]   org/apache/commons/math/util/FastMath.java access$100 3711
+2021-07-04 07:15:29,698 DEBUG                  - depth 0, hash 1f0b0b2, HEAD~380
+2021-07-04 07:15:29,703 DEBUG                  - depth 1, hash e260d84, HEAD~935
+2021-07-04 07:15:29,708 DEBUG                  - depth 2, hash 5e87378, HEAD~955
+2021-07-04 07:15:29,712 DEBUG                  - depth 3, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:30,487 DEBUG    [line range] org/apache/commons/math/util/FastMathLiteralArrays.java <clinit> 29:1530
+2021-07-04 07:15:30,635 DEBUG                  - depth 0, hash 2225164, HEAD~272
+2021-07-04 07:15:30,641 DEBUG    [line range] org/apache/commons/math/util/FastMathLiteralArrays.java loadExpFracA 6157:6159
+2021-07-04 07:15:30,787 DEBUG                  - depth 0, hash de147e5, HEAD~0
+2021-07-04 07:15:30,793 DEBUG                  - depth 1, hash 2225164, HEAD~272
+2021-07-04 07:15:30,797 DEBUG    [line range] org/apache/commons/math/util/FastMathLiteralArrays.java loadExpFracB 6165:6167
+2021-07-04 07:15:30,944 DEBUG                  - depth 0, hash de147e5, HEAD~0
+2021-07-04 07:15:30,949 DEBUG                  - depth 1, hash 2225164, HEAD~272
+2021-07-04 07:15:30,953 DEBUG    [line range] org/apache/commons/math/util/FastMathLiteralArrays.java loadExpIntA 6141:6143
+2021-07-04 07:15:31,101 DEBUG                  - depth 0, hash de147e5, HEAD~0
+2021-07-04 07:15:31,107 DEBUG                  - depth 1, hash 2225164, HEAD~272
+2021-07-04 07:15:31,111 DEBUG    [line range] org/apache/commons/math/util/FastMathLiteralArrays.java loadExpIntB 6149:6151
+2021-07-04 07:15:31,258 DEBUG                  - depth 0, hash de147e5, HEAD~0
+2021-07-04 07:15:31,263 DEBUG                  - depth 1, hash 2225164, HEAD~272
+2021-07-04 07:15:31,268 DEBUG    [line range] org/apache/commons/math/complex/Complex.java tan 1017:1028
+2021-07-04 07:15:31,418 DEBUG                  - depth 0, hash dc7c902, HEAD~249
+2021-07-04 07:15:31,424 DEBUG                  - depth 1, hash b522106, HEAD~581
+2021-07-04 07:15:31,428 DEBUG                  - depth 2, hash f345089, HEAD~607
+2021-07-04 07:15:31,432 DEBUG                  - depth 3, hash 80b1e90, HEAD~1230
+2021-07-04 07:15:31,436 DEBUG                  - depth 4, hash 26dac5a, HEAD~1570
+2021-07-04 07:15:31,440 DEBUG                  - depth 5, hash 912d9be, HEAD~2520
+2021-07-04 07:15:31,444 DEBUG    [line range] org/apache/commons/math/complex/Complex.java valueOf 1177:1184
+2021-07-04 07:15:31,595 DEBUG                  - depth 0, hash b522106, HEAD~581
+2021-07-04 07:15:31,600 DEBUG                  - depth 1, hash d6beaea, HEAD~1574
+2021-07-04 07:15:31,604 DEBUG                  - depth 2, hash 912d9be, HEAD~2520
+2021-07-04 07:15:31,609 INFO     The number of BIC candidates: 33
