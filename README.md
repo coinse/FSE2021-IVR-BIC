@@ -1,8 +1,10 @@
 # BIC and Dynamic Analysis
+![zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.5084364.svg)
 
 This repository implements a technique to reduce the search space of bug inducing commits (BICs) accompanying the paper:
 
 *__Reducing the Search Space of Bug Inducing Commits Using Failure Coverage__* (FSE'21 IVR Track)
+
 
 # Quick Navigation
 - Section 3: [Detailed reason for subject exclusion](./resources/workspace/setup.error)
