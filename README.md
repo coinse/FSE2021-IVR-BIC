@@ -1,5 +1,5 @@
 # BIC and Dynamic Analysis
-![zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.5084364.svg)
+[![zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.5084364.svg)](https://zenodo.org/record/5084364)
 
 This repository implements a technique to reduce the search space of bug inducing commits (BICs) accompanying the paper:
 
