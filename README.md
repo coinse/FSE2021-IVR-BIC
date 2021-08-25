@@ -4,7 +4,15 @@
 This repository implements a technique to reduce the search space of bug inducing commits (BICs) accompanying the paper:
 
 *__Reducing the Search Space of Bug Inducing Commits Using Failure Coverage__* (FSE'21 IVR Track)
-
+```
+@inproceedings{an2021reducing,
+  title={Reducing the search space of bug inducing commits using failure coverage},
+  author={An, Gabin and Yoo, Shin},
+  booktitle={Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={1459--1462},
+  year={2021}
+}
+```
 
 # Quick Navigation
 - Section 3: [Detailed reason for subject exclusion](./resources/workspace/setup.error)
