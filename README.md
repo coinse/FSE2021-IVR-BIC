@@ -3,7 +3,7 @@
 
 This repository implements a technique to reduce the search space of bug inducing commits (BICs) accompanying the paper:
 
-*__Reducing the Search Space of Bug Inducing Commits Using Failure Coverage__* (FSE'21 IVR Track)
+[*__Reducing the Search Space of Bug Inducing Commits Using Failure Coverage__* (FSE'21 IVR Track)](https://dl.acm.org/doi/abs/10.1145/3468264.3473129)
 ```
 @inproceedings{an2021reducing,
   title={Reducing the search space of bug inducing commits using failure coverage},
