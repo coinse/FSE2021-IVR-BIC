@@ -18,7 +18,7 @@ This repository implements a technique to reduce the search space of bug inducin
 - Section 3: [Detailed reason for subject exclusion](./resources/workspace/setup.error)
 - Section 3.2.1: [Logs produced during the BIC search space reduction process](./resources/workspace/logs/search_BIC/)
 - Section 3.2.2: [Manual Inspection results](./soundness_validation/README.md)
-- Section 3.2.3: [SZZUnleashed results](./resources/workspace/szz_reults)
+- Section 3.2.3: [SZZUnleashed results](./resources/workspace/szz_results)
   - The files `./resources/workspace/issue_list/*.error` contain the reason why it is unable to collect the SZZ input data for some subjects.
 - [All-in-one results](./resources/workspace/bic_expr.pkl) (One can reproduce the figures in the paper using [the analysis script](./bic_expr_analysis.ipynb).)
 
